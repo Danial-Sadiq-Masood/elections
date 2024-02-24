@@ -40,6 +40,8 @@ function App() {
       setFbApp(app);
   }, []);
 
+  console.log(process.env.PUBLIC_URL);
+  
   return (
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
