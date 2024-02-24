@@ -1,0 +1,5407 @@
+[
+  {
+    "desc": "NE 1 Rangpur 1",
+    "voterTurnout": 52.7,
+    "totalVotes": 87657,
+    "result": [
+      { "candidate": "Mazhar Hussain Ch.", "party": "AL", "votes": 77752 },
+      { "candidate": "Kamaruddin", "party": "JI", "votes": 7646 }
+    ],
+    "flag": "",
+    "id": 1,
+    "xGrid": 9,
+    "yGrid": 2,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-1",
+    "voteMargin": 80
+  },
+  {
+    "desc": "NE 2 Rangpur 2",
+    "voterTurnout": 57.4,
+    "totalVotes": 102840,
+    "result": [
+      { "candidate": "Dr. Said-ur-Rahman", "party": "AL", "votes": 77259 },
+      { "candidate": "Sanjib Karzamiji", "party": "Ind", "votes": 15127 }
+    ],
+    "flag": "",
+    "id": 2,
+    "xGrid": 9,
+    "yGrid": 1,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-2",
+    "voteMargin": 60.4
+  },
+  {
+    "desc": "NE 3 Rangpur 3",
+    "voterTurnout": 54.7,
+    "totalVotes": 99481,
+    "result": [
+      { "candidate": "Sadaqat Hossain", "party": "AL", "votes": 63180 },
+      { "candidate": "Abdul Nasir", "party": "PML-Q", "votes": 20651 }
+    ],
+    "flag": "",
+    "id": 3,
+    "xGrid": 10,
+    "yGrid": 2,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-3",
+    "voteMargin": 42.8
+  },
+  {
+    "desc": "NE 4 Rangpur 4",
+    "voterTurnout": 62.1,
+    "totalVotes": 126334,
+    "result": [
+      { "candidate": "Lutf-ur-Rahman", "party": "AL", "votes": 99162 },
+      { "candidate": "M. Abdul Gaffar", "party": "JI", "votes": 20866 }
+    ],
+    "flag": "",
+    "id": 4,
+    "xGrid": 10,
+    "yGrid": 1,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-4",
+    "voteMargin": 62
+  },
+  {
+    "desc": "NE 5 Rangpur 5",
+    "voterTurnout": 55.5,
+    "totalVotes": 92565,
+    "result": [
+      { "candidate": "Shah Abdul Hamid", "party": "AL", "votes": 54039 },
+      { "candidate": "Seraj-ul-Islam", "party": "PML-C", "votes": 37759 }
+    ],
+    "flag": "",
+    "id": 5,
+    "xGrid": 11,
+    "yGrid": 2,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-5",
+    "voteMargin": 17.6
+  },
+  {
+    "desc": "NE 6 Rangpur 6",
+    "voterTurnout": 52,
+    "totalVotes": 87259,
+    "result": [
+      { "candidate": "M. J. Abu Sulaiman", "party": "AL", "votes": 51056 },
+      {
+        "candidate": "A.B.M. Reja-ul-Alam Khandakar",
+        "party": "JI",
+        "votes": 26976
+      }
+    ],
+    "flag": "",
+    "id": 6,
+    "xGrid": 10,
+    "yGrid": 3,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-6",
+    "voteMargin": 27.6
+  },
+  {
+    "desc": "NE 7 Rangpur 7",
+    "voterTurnout": 56.1,
+    "totalVotes": 103038,
+    "result": [
+      { "candidate": "M. Abdul Hakim", "party": "AL", "votes": 93800 },
+      { "candidate": "M. Ali Akhand", "party": "PML-C", "votes": 6467 }
+    ],
+    "flag": "",
+    "id": 7,
+    "xGrid": 8,
+    "yGrid": 2,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-7",
+    "voteMargin": 84.8
+  },
+  {
+    "desc": "NE 8 Rangpur 8",
+    "voterTurnout": 55.8,
+    "totalVotes": 107632,
+    "result": [
+      { "candidate": "Noor-ul-Haq", "party": "AL", "votes": 85189 },
+      { "candidate": "M. Mukhles-ur-Rehman", "party": "JI", "votes": 15735 }
+    ],
+    "flag": "",
+    "id": 8,
+    "xGrid": 9,
+    "yGrid": 3,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-8",
+    "voteMargin": 64.5
+  },
+  {
+    "desc": "NE 9 Rangpur 9",
+    "voterTurnout": 62.2,
+    "totalVotes": 97710,
+    "result": [
+      { "candidate": "Molah Jalaluddin", "party": "AL", "votes": 57091 },
+      { "candidate": "Siraj-ul-Islam", "party": "Ind", "votes": 20608 }
+    ],
+    "flag": "",
+    "id": 9,
+    "xGrid": 7,
+    "yGrid": 1,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-9",
+    "voteMargin": 37.3
+  },
+  {
+    "desc": "NE 10 Rangpur 10",
+    "voterTurnout": 50,
+    "totalVotes": 92286,
+    "result": [
+      { "candidate": "Mati-ur-Rahman", "party": "AL", "votes": 57321 },
+      { "candidate": "Abdul Mannan Khan", "party": "PDP", "votes": 15471 }
+    ],
+    "flag": "",
+    "id": 10,
+    "xGrid": 8,
+    "yGrid": 1,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-10",
+    "voteMargin": 45.3
+  },
+  {
+    "desc": "NE 11 Rangpur 11",
+    "voterTurnout": 53.7,
+    "totalVotes": 98752,
+    "result": [
+      { "candidate": "Abdur Rauf", "party": "AL", "votes": 60857 },
+      { "candidate": "Jalaluddin Ahmed", "party": "JI", "votes": 25781 }
+    ],
+    "flag": "",
+    "id": 11,
+    "xGrid": 7,
+    "yGrid": 0,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-11",
+    "voteMargin": 35.5
+  },
+  {
+    "desc": "NE 12 Rangpur 12",
+    "voterTurnout": 59.3,
+    "totalVotes": 134002,
+    "result": [
+      { "candidate": "Afsar Ali Khan", "party": "AL", "votes": 88559 },
+      { "candidate": "Abdul Latif", "party": "JI", "votes": 21695 }
+    ],
+    "flag": "",
+    "id": 12,
+    "xGrid": 8,
+    "yGrid": 0,
+    "region": "Rangpur",
+    "province": "East Pak",
+    "seat": "NE-12",
+    "voteMargin": 49.9
+  },
+  {
+    "desc": "NE 13 Dinajpur 1",
+    "voterTurnout": 60.3,
+    "totalVotes": 112320,
+    "result": [
+      {
+        "candidate": "M. Musharraf Hossain Ch.",
+        "party": "AL",
+        "votes": 75201
+      },
+      { "candidate": "Ismail Haq", "party": "JI", "votes": 15726 }
+    ],
+    "flag": "",
+    "id": 13,
+    "xGrid": 6,
+    "yGrid": 0,
+    "region": "Dinajpur",
+    "province": "East Pak",
+    "seat": "NE-13",
+    "voteMargin": 53
+  },
+  {
+    "desc": "NE 14 Dinajpur 2",
+    "voterTurnout": 63.3,
+    "totalVotes": 134269,
+    "result": [
+      { "candidate": "Aziz-ur-Rahman", "party": "AL", "votes": 83631 },
+      { "candidate": "Tamizuddin Ahmed", "party": "JI", "votes": 34377 }
+    ],
+    "flag": "",
+    "id": 14,
+    "xGrid": 6,
+    "yGrid": 1,
+    "region": "Dinajpur",
+    "province": "East Pak",
+    "seat": "NE-14",
+    "voteMargin": 36.7
+  },
+  {
+    "desc": "NE 15 Dinajpur 3",
+    "voterTurnout": 64.9,
+    "totalVotes": 116261,
+    "result": [
+      { "candidate": "A.B.M. Moksed ali", "party": "AL", "votes": 68024 },
+      { "candidate": "Haji M. Danes", "party": "NAP-B", "votes": 27188 }
+    ],
+    "flag": "",
+    "id": 15,
+    "xGrid": 5,
+    "yGrid": 1,
+    "region": "Dinajpur",
+    "province": "East Pak",
+    "seat": "NE-15",
+    "voteMargin": 35.1
+  },
+  {
+    "desc": "NE 16 Dinajpur 4",
+    "voterTurnout": 70.5,
+    "totalVotes": 125282,
+    "result": [
+      { "candidate": "Prof. M. Yousaf Ali", "party": "AL", "votes": 101568 },
+      { "candidate": "Molla Joinal Abedin", "party": "JI", "votes": 11641 }
+    ],
+    "flag": "",
+    "id": 16,
+    "xGrid": 7,
+    "yGrid": 2,
+    "region": "Dinajpur",
+    "province": "East Pak",
+    "seat": "NE-16",
+    "voteMargin": 71.8
+  },
+  {
+    "desc": "NE 17 Dinajpur 5",
+    "voterTurnout": 70,
+    "totalVotes": 116065,
+    "result": [
+      { "candidate": "Shah Mahtab Ahmed", "party": "AL", "votes": 94643 },
+      { "candidate": "Abul Kasem", "party": "JI", "votes": 10273 }
+    ],
+    "flag": "",
+    "id": 17,
+    "xGrid": 7,
+    "yGrid": 3,
+    "region": "Dinajpur",
+    "province": "East Pak",
+    "seat": "NE-17",
+    "voteMargin": 72.7
+  },
+  {
+    "desc": "NE 18 Dinajpur 6",
+    "voterTurnout": 58.5,
+    "totalVotes": 95366,
+    "result": [
+      {
+        "candidate": "Dr. M. Wakiluddin Mondal",
+        "party": "AL",
+        "votes": 82605
+      },
+      { "candidate": "Rahimuddin Ahmad", "party": "PDP", "votes": 9410 }
+    ],
+    "flag": "",
+    "id": 18,
+    "xGrid": 8,
+    "yGrid": 3,
+    "region": "Dinajpur",
+    "province": "East Pak",
+    "seat": "NE-18",
+    "voteMargin": 76.8
+  },
+  {
+    "desc": "NE 19 Bogra 1",
+    "voterTurnout": 65.1,
+    "totalVotes": 113574,
+    "result": [
+      { "candidate": "Mafiz Ali M. Ch.", "party": "AL", "votes": 61797 },
+      { "candidate": "Abbas Ali Khan", "party": "JI", "votes": 25919 }
+    ],
+    "flag": "",
+    "id": 19,
+    "xGrid": 9,
+    "yGrid": 4,
+    "region": "Bogra",
+    "province": "East Pak",
+    "seat": "NE-19",
+    "voteMargin": 31.6
+  },
+  {
+    "desc": "NE 20 Bogra 2",
+    "voterTurnout": 58.8,
+    "totalVotes": 107798,
+    "result": [
+      { "candidate": "Mujib-ur-Rahman", "party": "AL", "votes": 73434 },
+      { "candidate": "Tasiruddin Sardar", "party": "JI", "votes": 22474 }
+    ],
+    "flag": "",
+    "id": 20,
+    "xGrid": 8,
+    "yGrid": 4,
+    "region": "Bogra",
+    "province": "East Pak",
+    "seat": "NE-20",
+    "voteMargin": 47.3
+  },
+  {
+    "desc": "NE 21 Bogra 3",
+    "voterTurnout": 49.2,
+    "totalVotes": 88812,
+    "result": [
+      { "candidate": "Akbar Ali Khan Ch.", "party": "AL", "votes": 57296 },
+      { "candidate": "Iman Ali", "party": "JI", "votes": 20656 }
+    ],
+    "flag": "",
+    "id": 21,
+    "xGrid": 9,
+    "yGrid": 5,
+    "region": "Bogra",
+    "province": "East Pak",
+    "seat": "NE-21",
+    "voteMargin": 41.3
+  },
+  {
+    "desc": "NE 22 Bogra 4",
+    "voterTurnout": 57.2,
+    "totalVotes": 114756,
+    "result": [
+      { "candidate": "Habib-ur-Rahman", "party": "AL", "votes": 92571 },
+      { "candidate": "Abdul Motaleb", "party": "PDP", "votes": 9591 }
+    ],
+    "flag": "",
+    "id": 22,
+    "xGrid": 8,
+    "yGrid": 5,
+    "region": "Bogra",
+    "province": "East Pak",
+    "seat": "NE-22",
+    "voteMargin": 72.3
+  },
+  {
+    "desc": "NE 23 Bogra 5",
+    "voterTurnout": 55.9,
+    "totalVotes": 118532,
+    "result": [
+      { "candidate": "Zahid-ur-Rahman", "party": "AL", "votes": 56126 },
+      { "candidate": "Naibullah", "party": "JI", "votes": 39013 }
+    ],
+    "flag": "",
+    "id": 23,
+    "xGrid": 10,
+    "yGrid": 6,
+    "region": "Bogra",
+    "province": "East Pak",
+    "seat": "NE-23",
+    "voteMargin": 14.4
+  },
+  {
+    "desc": "NE 24 Pabna 1",
+    "voterTurnout": 58.8,
+    "totalVotes": 113471,
+    "result": [
+      {
+        "candidate": "Motahar Hussain Talukdar",
+        "party": "AL",
+        "votes": 100392
+      },
+      { "candidate": "Saif-ul-Islam", "party": "NAP-W", "votes": 6406 }
+    ],
+    "flag": "",
+    "id": 24,
+    "xGrid": 10,
+    "yGrid": 7,
+    "region": "Pabna",
+    "province": "East Pak",
+    "seat": "NE-24",
+    "voteMargin": 82.8
+  },
+  {
+    "desc": "NE 25 Pabna 2",
+    "voterTurnout": 52.3,
+    "totalVotes": 104730,
+    "result": [
+      {
+        "candidate": "Abdur Rashid Tarkabagish",
+        "party": "AL",
+        "votes": 86683
+      },
+      { "candidate": "Abu Bakar Siddiq", "party": "JI", "votes": 13300 }
+    ],
+    "flag": "",
+    "id": 25,
+    "xGrid": 9,
+    "yGrid": 7,
+    "region": "Pabna",
+    "province": "East Pak",
+    "seat": "NE-25",
+    "voteMargin": 70.1
+  },
+  {
+    "desc": "NE 26 Pabna 3",
+    "voterTurnout": 64.2,
+    "totalVotes": 111194,
+    "result": [
+      { "candidate": "Abdul Moin Talukdar", "party": "AL", "votes": 95694 },
+      { "candidate": "Shahidullah Khan", "party": "Ind", "votes": 7061 }
+    ],
+    "flag": "",
+    "id": 26,
+    "xGrid": 9,
+    "yGrid": 8,
+    "region": "Pabna",
+    "province": "East Pak",
+    "seat": "NE-26",
+    "voteMargin": 79.7
+  },
+  {
+    "desc": "NE 27 Pabna 4",
+    "voterTurnout": 58.9,
+    "totalVotes": 111688,
+    "result": [
+      { "candidate": "Syed Hussain Mansur", "party": "AL", "votes": 96379 },
+      { "candidate": "Qurban Ali", "party": "JI", "votes": 9296 }
+    ],
+    "flag": "",
+    "id": 27,
+    "xGrid": 10,
+    "yGrid": 10,
+    "region": "Pabna",
+    "province": "East Pak",
+    "seat": "NE-27",
+    "voteMargin": 78
+  },
+  {
+    "desc": "NE 28 Pabna 5",
+    "voterTurnout": 56.3,
+    "totalVotes": 108055,
+    "result": [
+      { "candidate": "A.B. Sayeed", "party": "AL", "votes": 95019 },
+      { "candidate": "Anwar-ul-Haq", "party": "JI", "votes": 9963 }
+    ],
+    "flag": "",
+    "id": 28,
+    "xGrid": 9,
+    "yGrid": 9,
+    "region": "Pabna",
+    "province": "East Pak",
+    "seat": "NE-28",
+    "voteMargin": 78.7
+  },
+  {
+    "desc": "NE 29 Pabna 6",
+    "voterTurnout": 65.4,
+    "totalVotes": 126564,
+    "result": [
+      { "candidate": "Amjad Hussain", "party": "AL", "votes": 86801 },
+      { "candidate": "Abdul Subhan", "party": "JI", "votes": 35968 }
+    ],
+    "flag": "",
+    "id": 29,
+    "xGrid": 8,
+    "yGrid": 7,
+    "region": "Pabna",
+    "province": "East Pak",
+    "seat": "NE-29",
+    "voteMargin": 40.2
+  },
+  {
+    "desc": "NE 30 Rajshahi 1",
+    "voterTurnout": 70.6,
+    "totalVotes": 130797,
+    "result": [
+      { "candidate": "Ata-ur-Rahman Talukdar", "party": "AL", "votes": 104641 },
+      { "candidate": "Obaid-ul-Islam", "party": "JI", "votes": 14258 }
+    ],
+    "flag": "",
+    "id": 30,
+    "xGrid": 8,
+    "yGrid": 8,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-30",
+    "voteMargin": 69.1
+  },
+  {
+    "desc": "NE 31 Rajshahi 2",
+    "voterTurnout": 55,
+    "totalVotes": 100172,
+    "result": [
+      { "candidate": "Aziz-ur-Rahman", "party": "AL", "votes": 70576 },
+      { "candidate": "Kasimuddin Ahmed", "party": "NAP-W", "votes": 19225 }
+    ],
+    "flag": "",
+    "id": 31,
+    "xGrid": 8,
+    "yGrid": 6,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-31",
+    "voteMargin": 51.3
+  },
+  {
+    "desc": "NE 32 Rajshahi 3",
+    "voterTurnout": 67.1,
+    "totalVotes": 124115,
+    "result": [
+      { "candidate": "M. Baitullah", "party": "AL", "votes": 90665 },
+      { "candidate": "A. K. Marakib", "party": "NAP-W", "votes": 18029 }
+    ],
+    "flag": "",
+    "id": 32,
+    "xGrid": 7,
+    "yGrid": 6,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-32",
+    "voteMargin": 58.5
+  },
+  {
+    "desc": "NE 33 Rajshahi 4",
+    "voterTurnout": 63.9,
+    "totalVotes": 113008,
+    "result": [
+      { "candidate": "M. Khalid Ali Mian", "party": "AL", "votes": 80764 },
+      { "candidate": "Momtazuddin Ahmed", "party": "PDP", "votes": 21067 }
+    ],
+    "flag": "",
+    "id": 33,
+    "xGrid": 7,
+    "yGrid": 5,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-33",
+    "voteMargin": 52.8
+  },
+  {
+    "desc": "NE 34 Rajshahi 5",
+    "voterTurnout": 64.2,
+    "totalVotes": 120668,
+    "result": [
+      { "candidate": "Raisuddin Ahmad", "party": "AL", "votes": 68393 },
+      { "candidate": "Taed Ali", "party": "JI", "votes": 35313 }
+    ],
+    "flag": "",
+    "id": 34,
+    "xGrid": 6,
+    "yGrid": 4,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-34",
+    "voteMargin": 27.4
+  },
+  {
+    "desc": "NE 35 Rajshahi 6",
+    "voterTurnout": 65.5,
+    "totalVotes": 120678,
+    "result": [
+      { "candidate": "A.H.M. Kamar zaman", "party": "AL", "votes": 85482 },
+      { "candidate": "Afazuddin Ahmed", "party": "JI", "votes": 14219 }
+    ],
+    "flag": "",
+    "id": 35,
+    "xGrid": 5,
+    "yGrid": 6,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-35",
+    "voteMargin": 59.1
+  },
+  {
+    "desc": "NE 36 Rajshahi 7",
+    "voterTurnout": 55.8,
+    "totalVotes": 100241,
+    "result": [
+      { "candidate": "M. Jafarullah", "party": "AL", "votes": 78082 },
+      { "candidate": "Noor M. Khan", "party": "NAP-W", "votes": 9733 }
+    ],
+    "flag": "",
+    "id": 36,
+    "xGrid": 6,
+    "yGrid": 6,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-36",
+    "voteMargin": 68.2
+  },
+  {
+    "desc": "NE 37 Rajshahi 8",
+    "voterTurnout": 67,
+    "totalVotes": 134823,
+    "result": [
+      { "candidate": "M. Nazm-ul-Haq Sarkar", "party": "AL", "votes": 118672 },
+      { "candidate": "A. Manan", "party": "PML-Q", "votes": 5641 }
+    ],
+    "flag": "",
+    "id": 37,
+    "xGrid": 6,
+    "yGrid": 7,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-37",
+    "voteMargin": 83.8
+  },
+  {
+    "desc": "NE 38 Rajshahi 9",
+    "voterTurnout": 60.5,
+    "totalVotes": 113604,
+    "result": [
+      {
+        "candidate": "Dr. M. Sk. Mobarak Hossain",
+        "party": "AL",
+        "votes": 92452
+      },
+      { "candidate": "Not available", "party": "JI", "votes": 6119 }
+    ],
+    "flag": "",
+    "id": 38,
+    "xGrid": 7,
+    "yGrid": 8,
+    "region": "Rajshahi",
+    "province": "East Pak",
+    "seat": "NE-38",
+    "voteMargin": 76
+  },
+  {
+    "desc": "NE 39 Kushtia 1",
+    "voterTurnout": 70.1,
+    "totalVotes": 130588,
+    "result": [
+      { "candidate": "Baristar Amir-ul-Islam", "party": "AL", "votes": 114286 },
+      { "candidate": "Abdul Qayoom", "party": "JI", "votes": 8098 }
+    ],
+    "flag": "",
+    "id": 39,
+    "xGrid": 8,
+    "yGrid": 10,
+    "region": "Kushtia",
+    "province": "East Pak",
+    "seat": "NE-39",
+    "voteMargin": 81.3
+  },
+  {
+    "desc": "NE 40 Kushtia 2",
+    "voterTurnout": 63.7,
+    "totalVotes": 111185,
+    "result": [
+      { "candidate": "Aziz-ur-Rahman Akkas", "party": "AL", "votes": 101708 },
+      { "candidate": "Assad Ahmed", "party": "JI", "votes": 5068 }
+    ],
+    "flag": "",
+    "id": 40,
+    "xGrid": 8,
+    "yGrid": 9,
+    "region": "Kushtia",
+    "province": "East Pak",
+    "seat": "NE-40",
+    "voteMargin": 86.9
+  },
+  {
+    "desc": "NE 41 Kushtia 3",
+    "voterTurnout": 54.8,
+    "totalVotes": 84477,
+    "result": [
+      { "candidate": "Shahiduddin", "party": "AL", "votes": 77759 },
+      { "candidate": "Abdul Matin", "party": "JI", "votes": 2879 }
+    ],
+    "flag": "",
+    "id": 41,
+    "xGrid": 7,
+    "yGrid": 9,
+    "region": "Kushtia",
+    "province": "East Pak",
+    "seat": "NE-41",
+    "voteMargin": 88.6
+  },
+  {
+    "desc": "NE 42 Kushtia 4",
+    "voterTurnout": 62.9,
+    "totalVotes": 122596,
+    "result": [
+      { "candidate": "Abu Ahmed Afzal Rashid", "party": "AL", "votes": 99727 },
+      { "candidate": "Molana Habib-ur-Rahman", "party": "JI", "votes": 8828 }
+    ],
+    "flag": "",
+    "id": 42,
+    "xGrid": 7,
+    "yGrid": 10,
+    "region": "Kushtia",
+    "province": "East Pak",
+    "seat": "NE-42",
+    "voteMargin": 74.1
+  },
+  {
+    "desc": "NE 43 Jessore 1",
+    "voterTurnout": 57.6,
+    "totalVotes": 111004,
+    "result": [
+      { "candidate": "Qamar-uz-Zaman", "party": "AL", "votes": 89465 },
+      { "candidate": "Mian Abdur Rashid", "party": "PDP", "votes": 13243 }
+    ],
+    "flag": "",
+    "id": 43,
+    "xGrid": 8,
+    "yGrid": 11,
+    "region": "Jessore",
+    "province": "East Pak",
+    "seat": "NE-43",
+    "voteMargin": 68.7
+  },
+  {
+    "desc": "NE 44 Jessore 2",
+    "voterTurnout": 50,
+    "totalVotes": 94337,
+    "result": [
+      { "candidate": "Iqbal Anwar-ul-Islam", "party": "AL", "votes": 63075 },
+      { "candidate": "Muzzamil Haq", "party": "JI", "votes": 23049 }
+    ],
+    "flag": "",
+    "id": 44,
+    "xGrid": 7,
+    "yGrid": 11,
+    "region": "Jessore",
+    "province": "East Pak",
+    "seat": "NE-44",
+    "voteMargin": 42.4
+  },
+  {
+    "desc": "NE 45 Jessore 3",
+    "voterTurnout": 64.5,
+    "totalVotes": 106953,
+    "result": [
+      { "candidate": "Moshi-ur-Rahman", "party": "AL", "votes": 82066 },
+      { "candidate": "Syed Shams-ur-Rahman", "party": "PML-C", "votes": 23787 }
+    ],
+    "flag": "",
+    "id": 45,
+    "xGrid": 10,
+    "yGrid": 11,
+    "region": "Jessore",
+    "province": "East Pak",
+    "seat": "NE-45",
+    "voteMargin": 54.5
+  },
+  {
+    "desc": "NE 46 Jessore 4",
+    "voterTurnout": 72.9,
+    "totalVotes": 123618,
+    "result": [
+      { "candidate": "Subodh Kumar Mitra", "party": "AL", "votes": 70474 },
+      { "candidate": "Kh. Said Shah", "party": "JUI-NI", "votes": 46529 }
+    ],
+    "flag": "",
+    "id": 46,
+    "xGrid": 8,
+    "yGrid": 12,
+    "region": "Jessore",
+    "province": "East Pak",
+    "seat": "NE-46",
+    "voteMargin": 19.4
+  },
+  {
+    "desc": "NE 47 Jessore 5",
+    "voterTurnout": 70.3,
+    "totalVotes": 111950,
+    "result": [
+      { "candidate": "M. Rooshan Ali", "party": "AL", "votes": 73622 },
+      { "candidate": "Moshi-ul-Azam", "party": "JI", "votes": 33113 }
+    ],
+    "flag": "",
+    "id": 47,
+    "xGrid": 9,
+    "yGrid": 12,
+    "region": "Jessore",
+    "province": "East Pak",
+    "seat": "NE-47",
+    "voteMargin": 36.2
+  },
+  {
+    "desc": "NE 48 Jessore 6",
+    "voterTurnout": 72.5,
+    "totalVotes": 146706,
+    "result": [
+      { "candidate": "Sohrab Hossain", "party": "AL", "votes": 116305 },
+      { "candidate": "Pirzada Syed Obaidullah", "party": "JI", "votes": 18191 }
+    ],
+    "flag": "",
+    "id": 48,
+    "xGrid": 8,
+    "yGrid": 13,
+    "region": "Jessore",
+    "province": "East Pak",
+    "seat": "NE-48",
+    "voteMargin": 66.9
+  },
+  {
+    "desc": "NE 49 Jessore 7",
+    "voterTurnout": 67,
+    "totalVotes": 149399,
+    "result": [
+      { "candidate": "Abdul Hafeez", "party": "AL", "votes": 129095 },
+      { "candidate": "M. Sulaiman Mollah", "party": "JI", "votes": 14447 }
+    ],
+    "flag": "",
+    "id": 49,
+    "xGrid": 8,
+    "yGrid": 14,
+    "region": "Jessore",
+    "province": "East Pak",
+    "seat": "NE-49",
+    "voteMargin": 76.7
+  },
+  {
+    "desc": "NE 50 Khulna 1",
+    "voterTurnout": 60.8,
+    "totalVotes": 114854,
+    "result": [
+      { "candidate": "Abdul Khair", "party": "AL", "votes": 89778 },
+      {
+        "candidate": "Khondkar Aziz-ur-Rehman",
+        "party": "JUI-NI",
+        "votes": 21976
+      }
+    ],
+    "flag": "Multiple",
+    "id": 50,
+    "xGrid": 7,
+    "yGrid": 13,
+    "region": "Khulna",
+    "province": "East Pak",
+    "seat": "NE-50",
+    "voteMargin": 59
+  },
+  {
+    "desc": "NE 51 Khulna 2",
+    "voterTurnout": 55.3,
+    "totalVotes": 97148,
+    "result": [
+      { "candidate": "Sheikh A. Aziz", "party": "AL", "votes": 70650 },
+      { "candidate": "Molana A.K.M. Yousaf", "party": "JI", "votes": 26012 }
+    ],
+    "flag": "",
+    "id": 51,
+    "xGrid": 9,
+    "yGrid": 14,
+    "region": "Khulna",
+    "province": "East Pak",
+    "seat": "NE-51",
+    "voteMargin": 45.9
+  },
+  {
+    "desc": "NE 52 Khulna 3",
+    "voterTurnout": 57.3,
+    "totalVotes": 104315,
+    "result": [
+      { "candidate": "Lutf-ur-Rahman", "party": "AL", "votes": 80104 },
+      { "candidate": "Molana Abdul Manan", "party": "JUI-NI", "votes": 14516 }
+    ],
+    "flag": "Multiple",
+    "id": 52,
+    "xGrid": 10,
+    "yGrid": 13,
+    "region": "Khulna",
+    "province": "East Pak",
+    "seat": "NE-52",
+    "voteMargin": 62.9
+  },
+  {
+    "desc": "NE 53 Khulna 4",
+    "voterTurnout": 62.9,
+    "totalVotes": 115621,
+    "result": [
+      { "candidate": "M. A. Gafoor", "party": "AL", "votes": 82049 },
+      { "candidate": "Shams-ur-Rehman", "party": "JI", "votes": 30484 }
+    ],
+    "flag": "",
+    "id": 53,
+    "xGrid": 9,
+    "yGrid": 13,
+    "region": "Khulna",
+    "province": "East Pak",
+    "seat": "NE-53",
+    "voteMargin": 44.6
+  },
+  {
+    "desc": "NE 54 Khulna 5",
+    "voterTurnout": 61.1,
+    "totalVotes": 149183,
+    "result": [
+      { "candidate": "M. Mohsin", "party": "AL", "votes": 106086 },
+      { "candidate": "Abdul Hussain", "party": "PML-C", "votes": 31022 }
+    ],
+    "flag": "",
+    "id": 54,
+    "xGrid": 7,
+    "yGrid": 14,
+    "region": "Khulna",
+    "province": "East Pak",
+    "seat": "NE-54",
+    "voteMargin": 50.3
+  },
+  {
+    "desc": "NE 55 Khulna 6",
+    "voterTurnout": 67.5,
+    "totalVotes": 125471,
+    "result": [
+      { "candidate": "Salahuddin Yousaf", "party": "AL", "votes": 84069 },
+      { "candidate": "Sk. Ansar Ali", "party": "JI", "votes": 26354 }
+    ],
+    "flag": "",
+    "id": 55,
+    "xGrid": 8,
+    "yGrid": 15,
+    "region": "Khulna",
+    "province": "East Pak",
+    "seat": "NE-55",
+    "voteMargin": 46
+  },
+  {
+    "desc": "NE 56 Khulna 7",
+    "voterTurnout": 65.4,
+    "totalVotes": 110278,
+    "result": [
+      { "candidate": "Abdul Ghaffar", "party": "AL", "votes": 78221 },
+      { "candidate": "Abdus Sattar", "party": "JUI-NI", "votes": 24660 }
+    ],
+    "flag": "",
+    "id": 56,
+    "xGrid": 9,
+    "yGrid": 15,
+    "region": "Khulna",
+    "province": "East Pak",
+    "seat": "NE-56",
+    "voteMargin": 48.6
+  },
+  {
+    "desc": "NE 57 Khulna 8",
+    "voterTurnout": 66.2,
+    "totalVotes": 105445,
+    "result": [
+      { "candidate": "Syed Kamal Bakhat", "party": "AL", "votes": 70485 },
+      { "candidate": "Kazi Shams-ur-Rahman", "party": "JI", "votes": 28056 }
+    ],
+    "flag": "",
+    "id": 57,
+    "xGrid": 10,
+    "yGrid": 15,
+    "region": "Khulna",
+    "province": "East Pak",
+    "seat": "NE-57",
+    "voteMargin": 40.2
+  },
+  {
+    "desc": "NE 58 Bakerganj 1",
+    "voterTurnout": 62.1,
+    "totalVotes": 114149,
+    "result": [
+      { "candidate": "Abdur Rab Serneabat", "party": "AL", "votes": 101130 },
+      { "candidate": "Qari Ghulam Manboob", "party": "Ind", "votes": 7136 }
+    ],
+    "flag": "",
+    "id": 58,
+    "xGrid": 12,
+    "yGrid": 13,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-58",
+    "voteMargin": 82.3
+  },
+  {
+    "desc": "NE 59 Bakerganj 2",
+    "voterTurnout": 45.1,
+    "totalVotes": 75337,
+    "result": [
+      { "candidate": "Salehuddin Ahmed", "party": "AL", "votes": 62684 },
+      { "candidate": "Molana Abdul Matin", "party": "JUI-NI", "votes": 9778 }
+    ],
+    "flag": "Multiple",
+    "id": 59,
+    "xGrid": 11,
+    "yGrid": 15,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-59",
+    "voteMargin": 70.2
+  },
+  {
+    "desc": "NE 60 Bakerganj 3",
+    "voterTurnout": 48.2,
+    "totalVotes": 86949,
+    "result": [
+      {
+        "candidate": "M. Nazr-ul-Islam Manzoor",
+        "party": "AL",
+        "votes": 68040
+      },
+      { "candidate": "Hilaluddin", "party": "JI", "votes": 14112 }
+    ],
+    "flag": "",
+    "id": 60,
+    "xGrid": 10,
+    "yGrid": 14,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-60",
+    "voteMargin": 62
+  },
+  {
+    "desc": "NE 61 Bakerganj 4",
+    "voterTurnout": 50.2,
+    "totalVotes": 73162,
+    "result": [
+      { "candidate": "M. Abud-ul-Barek", "party": "AL", "votes": 56168 },
+      { "candidate": "Akhtaruddin Ahmad", "party": "PML-C", "votes": 16693 }
+    ],
+    "flag": "",
+    "id": 61,
+    "xGrid": 12,
+    "yGrid": 15,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-61",
+    "voteMargin": 54
+  },
+  {
+    "desc": "NE 62 Bakerganj 5",
+    "voterTurnout": 42.1,
+    "totalVotes": 85193,
+    "result": [
+      { "candidate": "A. Mannan Howlader", "party": "AL", "votes": 70779 },
+      { "candidate": "Khan Fazle Rab Ch.", "party": "PDP", "votes": 7876 }
+    ],
+    "flag": "",
+    "id": 62,
+    "xGrid": 12,
+    "yGrid": 14,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-62",
+    "voteMargin": 73.8
+  },
+  {
+    "desc": "NE 63 Bakerganj 6",
+    "voterTurnout": 39.4,
+    "totalVotes": 75399,
+    "result": [
+      { "candidate": "Tufail Ahmad", "party": "AL", "votes": 69894 },
+      { "candidate": "Mati-ur-Rahman Shah", "party": "JUI-NI", "votes": 5505 }
+    ],
+    "flag": "",
+    "id": 63,
+    "xGrid": 13,
+    "yGrid": 14,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-63",
+    "voteMargin": 85.4
+  },
+  {
+    "desc": "NE 64 Bakerganj 7",
+    "voterTurnout": 39.8,
+    "totalVotes": 85655,
+    "result": [
+      { "candidate": "Dr. Azharuddin Ahmad", "party": "AL", "votes": 73399 },
+      { "candidate": "M. Younas", "party": "JUI-NI", "votes": 12256 }
+    ],
+    "flag": "",
+    "id": 64,
+    "xGrid": 12,
+    "yGrid": 12,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-64",
+    "voteMargin": 71.4
+  },
+  {
+    "desc": "NE 65 Bakerganj 8",
+    "voterTurnout": 56.6,
+    "totalVotes": 102236,
+    "result": [
+      { "candidate": "Faiz-ul-Haq", "party": "AL", "votes": 63884 },
+      { "candidate": "Dr. Kalidas Baidda", "party": "JGMD", "votes": 23108 }
+    ],
+    "flag": "",
+    "id": 65,
+    "xGrid": 13,
+    "yGrid": 15,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-65",
+    "voteMargin": 39.9
+  },
+  {
+    "desc": "NE 66 Bakerganj 9",
+    "voterTurnout": 51.9,
+    "totalVotes": 107151,
+    "result": [
+      { "candidate": "Eneyat Hussain Khan", "party": "AL", "votes": 75941 },
+      { "candidate": "Molana Abdur Rahim", "party": "JI", "votes": 26606 }
+    ],
+    "flag": "",
+    "id": 66,
+    "xGrid": 14,
+    "yGrid": 16,
+    "region": "Bakerganj",
+    "province": "East Pak",
+    "seat": "NE-66",
+    "voteMargin": 46
+  },
+  {
+    "desc": "NE 67 Bakerganj-cum-Patuakhali",
+    "voterTurnout": 54.9,
+    "totalVotes": 77546,
+    "result": [
+      { "candidate": "M. Shams-ul-Haq", "party": "AL", "votes": 32449 },
+      { "candidate": "M.A. Jabbar", "party": "Ind", "votes": 23690 }
+    ],
+    "flag": "",
+    "id": 67,
+    "xGrid": 12,
+    "yGrid": 16,
+    "region": "Bakerganj-cum-Patuakhali",
+    "province": "East Pak",
+    "seat": "NE-67",
+    "voteMargin": 11.3
+  },
+  {
+    "desc": "NE 68 Patuakhali 1",
+    "voterTurnout": 40.3,
+    "totalVotes": 85803,
+    "result": [
+      { "candidate": "Ghulam Ahad Ch.", "party": "AL", "votes": 57773 },
+      { "candidate": "Ashraf Hussain", "party": "NAP-W", "votes": 23045 }
+    ],
+    "flag": "",
+    "id": 68,
+    "xGrid": 11,
+    "yGrid": 14,
+    "region": "Patuakhali",
+    "province": "East Pak",
+    "seat": "NE-68",
+    "voteMargin": 40.5
+  },
+  {
+    "desc": "NE 69 Patuakhali 2",
+    "voterTurnout": 45,
+    "totalVotes": 83063,
+    "result": [
+      {
+        "candidate": "Alhaj Abdul Hadi Talukdar",
+        "party": "AL",
+        "votes": 64596
+      },
+      { "candidate": "Abu Bakar Siddiq", "party": "IGD", "votes": 7419 }
+    ],
+    "flag": "Multiple",
+    "id": 69,
+    "xGrid": 13,
+    "yGrid": 16,
+    "region": "Patuakhali",
+    "province": "East Pak",
+    "seat": "NE-69",
+    "voteMargin": 68.8
+  },
+  {
+    "desc": "NE 70 Patuakhali 3",
+    "voterTurnout": 45.2,
+    "totalVotes": 84199,
+    "result": [
+      { "candidate": "Asmat Ali Sinkandar", "party": "AL", "votes": 77531 },
+      { "candidate": "Alhaj Yunas Mian", "party": "IGD", "votes": 2784 }
+    ],
+    "flag": "",
+    "id": 70,
+    "xGrid": 13,
+    "yGrid": 17,
+    "region": "Patuakhali",
+    "province": "East Pak",
+    "seat": "NE-70",
+    "voteMargin": 88.8
+  },
+  {
+    "desc": "NE 71 Tangail 1",
+    "voterTurnout": 57.5,
+    "totalVotes": 97023,
+    "result": [
+      { "candidate": "Abdul Mannan", "party": "AL", "votes": 77824 },
+      { "candidate": "Dr. Aleem Al Razi", "party": "Ind", "votes": 14362 }
+    ],
+    "flag": "",
+    "id": 71,
+    "xGrid": 11,
+    "yGrid": 7,
+    "region": "Tangail",
+    "province": "East Pak",
+    "seat": "NE-71",
+    "voteMargin": 65.4
+  },
+  {
+    "desc": "NE 72 Tangail 2",
+    "voterTurnout": 62.7,
+    "totalVotes": 102690,
+    "result": [
+      { "candidate": "M. Shawkat Ali Khan", "party": "AL", "votes": 91537 },
+      { "candidate": "Molana Abdul Wakf", "party": "Ind", "votes": 8865 }
+    ],
+    "flag": "Multiple",
+    "id": 72,
+    "xGrid": 13,
+    "yGrid": 9,
+    "region": "Tangail",
+    "province": "East Pak",
+    "seat": "NE-72",
+    "voteMargin": 80.5
+  },
+  {
+    "desc": "NE 73 Tangail 3",
+    "voterTurnout": 50.1,
+    "totalVotes": 86341,
+    "result": [
+      { "candidate": "Humayun Khalid", "party": "AL", "votes": 72822 },
+      { "candidate": "Abdus Samad Dewan", "party": "JUI-NI", "votes": 6577 }
+    ],
+    "flag": "",
+    "id": 73,
+    "xGrid": 10,
+    "yGrid": 8,
+    "region": "Tangail",
+    "province": "East Pak",
+    "seat": "NE-73",
+    "voteMargin": 76.7
+  },
+  {
+    "desc": "NE 74 Tangail 4",
+    "voterTurnout": 47.1,
+    "totalVotes": 75710,
+    "result": [
+      { "candidate": "Hatem Ali Talukder", "party": "AL", "votes": 53831 },
+      { "candidate": "Hatim Ali Khan", "party": "NAP-W", "votes": 7554 }
+    ],
+    "flag": "",
+    "id": 74,
+    "xGrid": 13,
+    "yGrid": 8,
+    "region": "Tangail",
+    "province": "East Pak",
+    "seat": "NE-74",
+    "voteMargin": 61.1
+  },
+  {
+    "desc": "NE 75 Tangail 5",
+    "voterTurnout": 46,
+    "totalVotes": 78348,
+    "result": [
+      { "candidate": "Shams-ur-Rahman", "party": "AL", "votes": 55298 },
+      { "candidate": "Shams-uz-Zaman Khan", "party": "JI", "votes": 18141 }
+    ],
+    "flag": "",
+    "id": 75,
+    "xGrid": 11,
+    "yGrid": 6,
+    "region": "Tangail",
+    "province": "East Pak",
+    "seat": "NE-75",
+    "voteMargin": 47.4
+  },
+  {
+    "desc": "NE 76 Mymensingh 1",
+    "voterTurnout": 46.3,
+    "totalVotes": 75587,
+    "result": [
+      { "candidate": "Abdus Samad", "party": "AL", "votes": 55055 },
+      { "candidate": "Moazam Hosain", "party": "JI", "votes": 7900 }
+    ],
+    "flag": "",
+    "id": 76,
+    "xGrid": 10,
+    "yGrid": 5,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-76",
+    "voteMargin": 62.4
+  },
+  {
+    "desc": "NE 77 Mymensingh 2",
+    "voterTurnout": 43.3,
+    "totalVotes": 73918,
+    "result": [
+      { "candidate": "Karim-uz-Zaman Talukder", "party": "AL", "votes": 62459 },
+      { "candidate": "Raisuddin Ahmad", "party": "PML-Q", "votes": 8034 }
+    ],
+    "flag": "",
+    "id": 77,
+    "xGrid": 11,
+    "yGrid": 5,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-77",
+    "voteMargin": 73.6
+  },
+  {
+    "desc": "NE 78 Mymensingh 3",
+    "voterTurnout": 45.5,
+    "totalVotes": 79115,
+    "result": [
+      { "candidate": "Abdul Hakeem, Adv.", "party": "AL", "votes": 62764 },
+      { "candidate": "Abdul Ghani", "party": "JUI-NI", "votes": 5694 }
+    ],
+    "flag": "",
+    "id": 78,
+    "xGrid": 12,
+    "yGrid": 6,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-78",
+    "voteMargin": 72.1
+  },
+  {
+    "desc": "NE 79 Mymensingh 4",
+    "voterTurnout": 45.2,
+    "totalVotes": 72543,
+    "result": [
+      { "candidate": "Anis-ur-Rahman", "party": "AL", "votes": 40838 },
+      { "candidate": "Seraj-ul-Haq", "party": "Ind", "votes": 15197 }
+    ],
+    "flag": "",
+    "id": 79,
+    "xGrid": 11,
+    "yGrid": 4,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-79",
+    "voteMargin": 35.3
+  },
+  {
+    "desc": "NE 80 Mymensingh 5",
+    "voterTurnout": 45.6,
+    "totalVotes": 77143,
+    "result": [
+      { "candidate": "Abdul Hakim Sarkar", "party": "AL", "votes": 42407 },
+      { "candidate": "Haji Abdur Rahman", "party": "JI", "votes": 15407 }
+    ],
+    "flag": "",
+    "id": 80,
+    "xGrid": 12,
+    "yGrid": 4,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-80",
+    "voteMargin": 35
+  },
+  {
+    "desc": "NE 81 Mymensingh 6",
+    "voterTurnout": 46.1,
+    "totalVotes": 77989,
+    "result": [
+      { "candidate": "Musharraf Hossain Akand", "party": "AL", "votes": 40528 },
+      { "candidate": "Fazl-ur-Rahman", "party": "JUI-NI", "votes": 27580 }
+    ],
+    "flag": "",
+    "id": 81,
+    "xGrid": 13,
+    "yGrid": 4,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-81",
+    "voteMargin": 16.6
+  },
+  {
+    "desc": "NE 82 Mymensingh 7",
+    "voterTurnout": 43.1,
+    "totalVotes": 77574,
+    "result": [
+      { "candidate": "Ibrahim", "party": "AL", "votes": 49023 },
+      { "candidate": "Hashimuddin Ahmed", "party": "PML-Q", "votes": 13944 }
+    ],
+    "flag": "",
+    "id": 82,
+    "xGrid": 13,
+    "yGrid": 5,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-82",
+    "voteMargin": 45.2
+  },
+  {
+    "desc": "NE 83 Mymensingh 8",
+    "voterTurnout": 45.5,
+    "totalVotes": 81179,
+    "result": [
+      { "candidate": "Nurul Amin", "party": "PDP", "votes": 65115 },
+      { "candidate": "Rafiquddin Bhayan", "party": "AL", "votes": 15410 }
+    ],
+    "flag": "",
+    "id": 83,
+    "xGrid": 13,
+    "yGrid": 7,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-83",
+    "voteMargin": 61.2
+  },
+  {
+    "desc": "NE 84 Mymensingh 9",
+    "voterTurnout": 48.5,
+    "totalVotes": 96075,
+    "result": [
+      { "candidate": "Syed Abdus Sultan", "party": "AL", "votes": 63040 },
+      { "candidate": "Arif Rabbani", "party": "JUI-NI", "votes": 24019 }
+    ],
+    "flag": "Multiple",
+    "id": 84,
+    "xGrid": 14,
+    "yGrid": 5,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-84",
+    "voteMargin": 40.6
+  },
+  {
+    "desc": "NE 85 Mymensingh 10",
+    "voterTurnout": 45.8,
+    "totalVotes": 88975,
+    "result": [
+      { "candidate": "A.N.M. Nazr-ul-Islam", "party": "AL", "votes": 53772 },
+      { "candidate": "Qari Kahazi", "party": "JUI-NI", "votes": 15701 }
+    ],
+    "flag": "",
+    "id": 85,
+    "xGrid": 15,
+    "yGrid": 5,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-85",
+    "voteMargin": 42.8
+  },
+  {
+    "desc": "NE 86 Mymensingh 11",
+    "voterTurnout": 46.2,
+    "totalVotes": 87017,
+    "result": [
+      { "candidate": "Md. Shams-ul-Huda", "party": "AL", "votes": 62888 },
+      { "candidate": "Molana Shams-ul-Huda", "party": "Ind", "votes": 16258 }
+    ],
+    "flag": "",
+    "id": 86,
+    "xGrid": 12,
+    "yGrid": 5,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-86",
+    "voteMargin": 53.6
+  },
+  {
+    "desc": "NE 87 Mymensingh 12",
+    "voterTurnout": 44.2,
+    "totalVotes": 94790,
+    "result": [
+      { "candidate": "Sadruddin", "party": "AL", "votes": 57160 },
+      { "candidate": "A.K.M. Sharifuddin", "party": "JUI-NI", "votes": 15085 }
+    ],
+    "flag": "",
+    "id": 87,
+    "xGrid": 14,
+    "yGrid": 4,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-87",
+    "voteMargin": 44.4
+  },
+  {
+    "desc": "NE 88 Mymensingh 13",
+    "voterTurnout": 48.8,
+    "totalVotes": 78727,
+    "result": [
+      { "candidate": "M. Abdul Momin", "party": "AL", "votes": 50209 },
+      {
+        "candidate": "Molana M. Manzur-ul-Haq",
+        "party": "JUI-NI",
+        "votes": 13097
+      }
+    ],
+    "flag": "",
+    "id": 88,
+    "xGrid": 16,
+    "yGrid": 5,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-88",
+    "voteMargin": 47.1
+  },
+  {
+    "desc": "NE 89 Mymensingh 14",
+    "voterTurnout": 47.4,
+    "totalVotes": 94897,
+    "result": [
+      { "candidate": "Javed Ali", "party": "AL", "votes": 59577 },
+      { "candidate": "Darfesh Bazlu Mian", "party": "Ind", "votes": 21126 }
+    ],
+    "flag": "Multiple",
+    "id": 89,
+    "xGrid": 15,
+    "yGrid": 6,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-89",
+    "voteMargin": 40.5
+  },
+  {
+    "desc": "NE 90 Mymensingh 15",
+    "voterTurnout": 47,
+    "totalVotes": 92209,
+    "result": [
+      { "candidate": "Asad-uz-Zaman", "party": "AL", "votes": 56837 },
+      { "candidate": "Syeed-uz-Zaman", "party": "PDP", "votes": 21758 }
+    ],
+    "flag": "",
+    "id": 90,
+    "xGrid": 16,
+    "yGrid": 6,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-90",
+    "voteMargin": 38
+  },
+  {
+    "desc": "NE 91 Mymensingh 16",
+    "voterTurnout": 59.3,
+    "totalVotes": 96487,
+    "result": [
+      { "candidate": "Zill-ur-Rahman", "party": "AL", "votes": 76556 },
+      { "candidate": "A.F.M. Nurullah", "party": "PML-C", "votes": 8507 }
+    ],
+    "flag": "",
+    "id": 91,
+    "xGrid": 13,
+    "yGrid": 6,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-91",
+    "voteMargin": 70.5
+  },
+  {
+    "desc": "NE 92 Mymensingh 17",
+    "voterTurnout": 49.6,
+    "totalVotes": 79965,
+    "result": [
+      { "candidate": "Syed Nazr-ul-Islam", "party": "AL", "votes": 52312 },
+      { "candidate": "Syed Moslehuddin", "party": "PDP", "votes": 21266 }
+    ],
+    "flag": "",
+    "id": 92,
+    "xGrid": 15,
+    "yGrid": 7,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-92",
+    "voteMargin": 38.8
+  },
+  {
+    "desc": "NE 93 Mymensingh 18",
+    "voterTurnout": 51.1,
+    "totalVotes": 97205,
+    "result": [
+      { "candidate": "Abdul Hamid", "party": "AL", "votes": 75578 },
+      { "candidate": "Dr. A. Malik", "party": "PML-C", "votes": 12306 }
+    ],
+    "flag": "",
+    "id": 93,
+    "xGrid": 16,
+    "yGrid": 7,
+    "region": "Mymensingh",
+    "province": "East Pak",
+    "seat": "NE-93",
+    "voteMargin": 65.1
+  },
+  {
+    "desc": "NE 94 Faridpur 1",
+    "voterTurnout": 60.5,
+    "totalVotes": 112983,
+    "result": [
+      { "candidate": "A.B.M. Noor-ul-Islam", "party": "AL", "votes": 97688 },
+      { "candidate": "Haji M. Tufazzal", "party": "PDP", "votes": 9333 }
+    ],
+    "flag": "",
+    "id": 94,
+    "xGrid": 9,
+    "yGrid": 11,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-94",
+    "voteMargin": 78.2
+  },
+  {
+    "desc": "NE 95 Faridpur 2",
+    "voterTurnout": 64.1,
+    "totalVotes": 122852,
+    "result": [
+      { "candidate": "Syed Qamar Islam", "party": "AL", "votes": 106666 },
+      { "candidate": "M. Salahudin", "party": "PDP", "votes": 13570 }
+    ],
+    "flag": "",
+    "id": 95,
+    "xGrid": 10,
+    "yGrid": 9,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-95",
+    "voteMargin": 75.8
+  },
+  {
+    "desc": "NE 96 Faridpur 3",
+    "voterTurnout": 56.3,
+    "totalVotes": 103322,
+    "result": [
+      { "candidate": "K.M. Obaid-ur-Rehman", "party": "AL", "votes": 83309 },
+      { "candidate": "Syed M. Ali", "party": "JI", "votes": 18562 }
+    ],
+    "flag": "",
+    "id": 96,
+    "xGrid": 10,
+    "yGrid": 12,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-96",
+    "voteMargin": 62.7
+  },
+  {
+    "desc": "NE 97 Faridpur 4",
+    "voterTurnout": 59,
+    "totalVotes": 100747,
+    "result": [
+      { "candidate": "Shamsuddin Mollah", "party": "AL", "votes": 95388 },
+      { "candidate": "Rokonuddin Qazi", "party": "PNL", "votes": 3767 }
+    ],
+    "flag": "",
+    "id": 97,
+    "xGrid": 9,
+    "yGrid": 10,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-97",
+    "voteMargin": 90.9
+  },
+  {
+    "desc": "NE 98 Faridpur 5",
+    "voterTurnout": 73.7,
+    "totalVotes": 134062,
+    "result": [
+      { "candidate": "M. Abdul Khayer", "party": "AL", "votes": 95714 },
+      { "candidate": "Kartik Thakur", "party": "JGMD", "votes": 30862 }
+    ],
+    "flag": "",
+    "id": 98,
+    "xGrid": 12,
+    "yGrid": 11,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-98",
+    "voteMargin": 48.4
+  },
+  {
+    "desc": "NE 99 Faridpur 6",
+    "voterTurnout": 68.9,
+    "totalVotes": 152072,
+    "result": [
+      { "candidate": "Molla Jalaluddin Ahmed", "party": "AL", "votes": 112287 },
+      { "candidate": "Birendranath Biswas", "party": "JGMD", "votes": 28502 }
+    ],
+    "flag": "",
+    "id": 99,
+    "xGrid": 13,
+    "yGrid": 12,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-99",
+    "voteMargin": 55.1
+  },
+  {
+    "desc": "NE 100 Faridpur 7",
+    "voterTurnout": 59.7,
+    "totalVotes": 112309,
+    "result": [
+      { "candidate": "Tajuddin Ahmad", "party": "AL", "votes": 100985 },
+      { "candidate": "Yousaf Ali", "party": "JI", "votes": 8748 }
+    ],
+    "flag": "",
+    "id": 100,
+    "xGrid": 13,
+    "yGrid": 13,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-100",
+    "voteMargin": 82.1
+  },
+  {
+    "desc": "NE 101 Faridpur 8",
+    "voterTurnout": 46.5,
+    "totalVotes": 80728,
+    "result": [
+      { "candidate": "Amjad Hossain Khan", "party": "AL", "votes": 78558 },
+      { "candidate": "Not available", "party": "JUI", "votes": 1883 }
+    ],
+    "flag": "",
+    "id": 101,
+    "xGrid": 11,
+    "yGrid": 12,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-101",
+    "voteMargin": 95
+  },
+  {
+    "desc": "NE 102 Faridpur 9",
+    "voterTurnout": 64.1,
+    "totalVotes": 104430,
+    "result": [
+      { "candidate": "Abid-ur-Reza Khan", "party": "AL", "votes": 79538 },
+      {
+        "candidate": "A. Rashid Sarkar+one other",
+        "party": "Ind",
+        "votes": 19346
+      }
+    ],
+    "flag": "Multiple",
+    "id": 102,
+    "xGrid": 11,
+    "yGrid": 11,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-102",
+    "voteMargin": 57.6
+  },
+  {
+    "desc": "NE 103 Faridpur 10",
+    "voterTurnout": 56.9,
+    "totalVotes": 93445,
+    "result": [
+      { "candidate": "M.A. Qasim", "party": "AL", "votes": 77327 },
+      { "candidate": "Sirajuddin", "party": "Ind", "votes": 6719 }
+    ],
+    "flag": "",
+    "id": 103,
+    "xGrid": 11,
+    "yGrid": 13,
+    "region": "Faridpur",
+    "province": "East Pak",
+    "seat": "NE-103",
+    "voteMargin": 75.6
+  },
+  {
+    "desc": "NE 104 Dhaka 1",
+    "voterTurnout": 68.9,
+    "totalVotes": 136642,
+    "result": [
+      { "candidate": "M. Noor-ul-Islam", "party": "AL", "votes": 122477 },
+      { "candidate": "Anwaruddin Sikandar", "party": "PML-C", "votes": 6579 }
+    ],
+    "flag": "",
+    "id": 104,
+    "xGrid": 12,
+    "yGrid": 9,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-104",
+    "voteMargin": 84.8
+  },
+  {
+    "desc": "NE 105 Dhaka 2",
+    "voterTurnout": 72.4,
+    "totalVotes": 140043,
+    "result": [
+      { "candidate": "Moslehuddin Khan", "party": "AL", "votes": 128187 },
+      { "candidate": "Aftabuddin", "party": "PML-C", "votes": 4249 }
+    ],
+    "flag": "",
+    "id": 105,
+    "xGrid": 14,
+    "yGrid": 6,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-105",
+    "voteMargin": 88.5
+  },
+  {
+    "desc": "NE 106 Dhaka 3",
+    "voterTurnout": 64.3,
+    "totalVotes": 117551,
+    "result": [
+      {
+        "candidate": "K.H. Noor-ul-Islam Mandal",
+        "party": "AL",
+        "votes": 103579
+      },
+      { "candidate": "Ata-ur-Rahman Khan", "party": "PNL", "votes": 9973 }
+    ],
+    "flag": "Second place number NA",
+    "id": 106,
+    "xGrid": 14,
+    "yGrid": 7,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-106",
+    "voteMargin": 79.6
+  },
+  {
+    "desc": "NE 107 Dhaka 4",
+    "voterTurnout": 67.3,
+    "totalVotes": 129267,
+    "result": [
+      { "candidate": "Shams-ul-Haq", "party": "AL", "votes": 104053 },
+      { "candidate": "Tanveer Ahmad Siddiq", "party": "Ind", "votes": 17737 }
+    ],
+    "flag": "",
+    "id": 107,
+    "xGrid": 13,
+    "yGrid": 10,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-107",
+    "voteMargin": 66.8
+  },
+  {
+    "desc": "NE 108 Dhaka 5",
+    "voterTurnout": 60.1,
+    "totalVotes": 112436,
+    "result": [
+      { "candidate": "Tajuddin Ahmad", "party": "AL", "votes": 92819 },
+      {
+        "candidate": "M. Yousaf Ali Ahmad-ul-Kabir",
+        "party": "JI",
+        "votes": 11314
+      }
+    ],
+    "flag": "",
+    "id": 108,
+    "xGrid": 16,
+    "yGrid": 10,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-108",
+    "voteMargin": 72.5
+  },
+  {
+    "desc": "NE 109 Dhaka 6",
+    "voterTurnout": 77.9,
+    "totalVotes": 182566,
+    "result": [
+      { "candidate": "Noor-ul-Islam", "party": "AL", "votes": 179520 },
+      { "candidate": "Anwaruddin Sikdar", "party": "PML-C", "votes": 2587 }
+    ],
+    "flag": "",
+    "id": 109,
+    "xGrid": 13,
+    "yGrid": 11,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-109",
+    "voteMargin": 96.9
+  },
+  {
+    "desc": "NE 110 Dhaka 7",
+    "voterTurnout": 66.8,
+    "totalVotes": 164204,
+    "result": [
+      { "candidate": "Zashiruddin", "party": "AL", "votes": 118291 },
+      { "candidate": "Prof. Gholam Azam", "party": "JI", "votes": 35667 }
+    ],
+    "flag": "",
+    "id": 110,
+    "xGrid": 14,
+    "yGrid": 10,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-110",
+    "voteMargin": 50.3
+  },
+  {
+    "desc": "NE 111 Dhaka 8",
+    "voterTurnout": 73,
+    "totalVotes": 204777,
+    "result": [
+      { "candidate": "Sheikh Mujib-ur-Rahman", "party": "AL", "votes": 164783 },
+      { "candidate": "Kh. Khairuddin", "party": "PML-C", "votes": 39994 }
+    ],
+    "flag": "",
+    "id": 111,
+    "xGrid": 12,
+    "yGrid": 8,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-111",
+    "voteMargin": 60.9
+  },
+  {
+    "desc": "NE 112 Dhaka 9",
+    "voterTurnout": 70.7,
+    "totalVotes": 126588,
+    "result": [
+      { "candidate": "Sheikh Mujib-ur-Rahman", "party": "AL", "votes": 122533 },
+      { "candidate": "Amena Begum", "party": "PNL", "votes": 2254 }
+    ],
+    "flag": "",
+    "id": 112,
+    "xGrid": 15,
+    "yGrid": 8,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-112",
+    "voteMargin": 95
+  },
+  {
+    "desc": "NE 113 Dhaka 10",
+    "voterTurnout": 49.3,
+    "totalVotes": 85836,
+    "result": [
+      { "candidate": "Fazl-ur-Rahman Bhuyiuan", "party": "AL", "votes": 66642 },
+      { "candidate": "Abu Tahir M. Abdullah", "party": "Ind", "votes": 14112 }
+    ],
+    "flag": "Multiple",
+    "id": 113,
+    "xGrid": 12,
+    "yGrid": 7,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-113",
+    "voteMargin": 61.2
+  },
+  {
+    "desc": "NE 114 Dhaka 11",
+    "voterTurnout": 58.2,
+    "totalVotes": 95213,
+    "result": [
+      { "candidate": "Aftabuddin Bhyia", "party": "AL", "votes": 63759 },
+      { "candidate": "Fazl-ul-Haq Khan", "party": "NAP-W", "votes": 18007 }
+    ],
+    "flag": "",
+    "id": 114,
+    "xGrid": 14,
+    "yGrid": 9,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-114",
+    "voteMargin": 48.1
+  },
+  {
+    "desc": "NE 115 Dhaka 12",
+    "voterTurnout": 70.6,
+    "totalVotes": 156414,
+    "result": [
+      { "candidate": "A. Razzaq Bhuiyan", "party": "AL", "votes": 136736 },
+      { "candidate": "Altamash-ul-Islam", "party": "Ind", "votes": 12151 }
+    ],
+    "flag": "",
+    "id": 115,
+    "xGrid": 11,
+    "yGrid": 8,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-115",
+    "voteMargin": 79.7
+  },
+  {
+    "desc": "NE 116 Dhaka 13",
+    "voterTurnout": 63.2,
+    "totalVotes": 103987,
+    "result": [
+      { "candidate": "M. Shahar Ali Mian", "party": "AL", "votes": 87661 },
+      { "candidate": "Alhaj Molana Ghaffar", "party": "JUI-NI", "votes": 15248 }
+    ],
+    "flag": "Multiple",
+    "id": 116,
+    "xGrid": 11,
+    "yGrid": 9,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-116",
+    "voteMargin": 69.6
+  },
+  {
+    "desc": "NE 117 Dhaka 14",
+    "voterTurnout": 65.2,
+    "totalVotes": 133529,
+    "result": [
+      { "candidate": "Shams-ud-Doha", "party": "AL", "votes": 120318 },
+      {
+        "candidate": "Almas Ali Mainuddin Ahmed",
+        "party": "PDP",
+        "votes": 7993
+      }
+    ],
+    "flag": "",
+    "id": 117,
+    "xGrid": 12,
+    "yGrid": 10,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-117",
+    "voteMargin": 84.1
+  },
+  {
+    "desc": "NE 118 Dhaka 15",
+    "voterTurnout": 65.6,
+    "totalVotes": 145139,
+    "result": [
+      { "candidate": "Kafiluddin Ch.", "party": "AL", "votes": 143336 },
+      { "candidate": "Mahtabuddin", "party": "PML-Q", "votes": 1803 }
+    ],
+    "flag": "",
+    "id": 118,
+    "xGrid": 11,
+    "yGrid": 10,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-118",
+    "voteMargin": 97.5
+  },
+  {
+    "desc": "NE 119 Dhaka 16",
+    "voterTurnout": 74.2,
+    "totalVotes": 147924,
+    "result": [
+      { "candidate": "Karim Bepari", "party": "AL", "votes": 141924 },
+      { "candidate": "Badshah Mia", "party": "JUI-NI", "votes": 5216 }
+    ],
+    "flag": "",
+    "id": 119,
+    "xGrid": 15,
+    "yGrid": 11,
+    "region": "Dhaka",
+    "province": "East Pak",
+    "seat": "NE-119",
+    "voteMargin": 92.4
+  },
+  {
+    "desc": "NE 120 Sylhet 1",
+    "voterTurnout": 57.6,
+    "totalVotes": 105317,
+    "result": [
+      { "candidate": "Mustafa Ali", "party": "AL", "votes": 74210 },
+      { "candidate": "Mahbududdin Ch.", "party": "NAP-W", "votes": 9309 }
+    ],
+    "flag": "",
+    "id": 120,
+    "xGrid": 18,
+    "yGrid": 5,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-120",
+    "voteMargin": 61.6
+  },
+  {
+    "desc": "NE 121 Sylhet 2",
+    "voterTurnout": 56.6,
+    "totalVotes": 106605,
+    "result": [
+      {
+        "candidate": "Dewan M. E. Ubaid-ur-Raza",
+        "party": "AL",
+        "votes": 61557
+      },
+      { "candidate": "Rashid-ul-Hassan", "party": "JUI", "votes": 26223 }
+    ],
+    "flag": "",
+    "id": 121,
+    "xGrid": 19,
+    "yGrid": 4,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-121",
+    "voteMargin": 33.1
+  },
+  {
+    "desc": "NE 122 Sylhet 3",
+    "voterTurnout": 60.6,
+    "totalVotes": 110676,
+    "result": [
+      { "candidate": "A. K. Latif-ur-Rehman", "party": "AL", "votes": 68484 },
+      { "candidate": "Syed Mahib-ul-Hassan", "party": "Ind", "votes": 22273 }
+    ],
+    "flag": "",
+    "id": 122,
+    "xGrid": 18,
+    "yGrid": 4,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-122",
+    "voteMargin": 41.8
+  },
+  {
+    "desc": "NE 123 Sylhet 4",
+    "voterTurnout": 57.3,
+    "totalVotes": 116226,
+    "result": [
+      { "candidate": "M. Ilyas", "party": "AL", "votes": 77754 },
+      {
+        "candidate": "Haji Habib-ur-Rahman Ch. PML(Conv.)",
+        "party": "PML-C",
+        "votes": 10187
+      }
+    ],
+    "flag": "",
+    "id": 123,
+    "xGrid": 17,
+    "yGrid": 4,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-123",
+    "voteMargin": 58.1
+  },
+  {
+    "desc": "NE 124 Sylhet 5",
+    "voterTurnout": 60,
+    "totalVotes": 103691,
+    "result": [
+      { "candidate": "Abdul Muntaqum Ch.", "party": "AL", "votes": 87365 },
+      { "candidate": "Abu Nasir M. Yousaf", "party": "PML-C", "votes": 11857 }
+    ],
+    "flag": "",
+    "id": 124,
+    "xGrid": 16,
+    "yGrid": 4,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-124",
+    "voteMargin": 72.8
+  },
+  {
+    "desc": "NE 125 Sylhet 6",
+    "voterTurnout": 51.1,
+    "totalVotes": 117684,
+    "result": [
+      { "candidate": "A.G. Osmani", "party": "AL", "votes": 78558 },
+      { "candidate": "Nurur Ikaukn", "party": "PNL", "votes": 32811 }
+    ],
+    "flag": "Multiple",
+    "id": 125,
+    "xGrid": 17,
+    "yGrid": 6,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-125",
+    "voteMargin": 38.9
+  },
+  {
+    "desc": "NE 126 Sylhet 7",
+    "voterTurnout": 55.6,
+    "totalVotes": 101098,
+    "result": [
+      { "candidate": "Abdur Rahim", "party": "AL", "votes": 52948 },
+      {
+        "candidate": "Molana Habib-ur-RahmanJUI-NI",
+        "party": "JUI-NI",
+        "votes": 21891
+      }
+    ],
+    "flag": "Multiple",
+    "id": 126,
+    "xGrid": 17,
+    "yGrid": 5,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-126",
+    "voteMargin": 30.7
+  },
+  {
+    "desc": "NE 127 Sylhet 8",
+    "voterTurnout": 51.9,
+    "totalVotes": 117401,
+    "result": [
+      { "candidate": "Dewan Farid Ghazi", "party": "AL", "votes": 70493 },
+      { "candidate": "A.S.M. Mumbarak", "party": "JUI", "votes": 16046 }
+    ],
+    "flag": "",
+    "id": 127,
+    "xGrid": 19,
+    "yGrid": 5,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-127",
+    "voteMargin": 46.4
+  },
+  {
+    "desc": "NE 128 Sylhet 9",
+    "voterTurnout": 51.8,
+    "totalVotes": 91717,
+    "result": [
+      { "candidate": "Abdul Haq, Adv.", "party": "AL", "votes": 67067 },
+      { "candidate": "Fazl-ul-Karim", "party": "JUI", "votes": 13805 }
+    ],
+    "flag": "",
+    "id": 128,
+    "xGrid": 19,
+    "yGrid": 6,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-128",
+    "voteMargin": 58.1
+  },
+  {
+    "desc": "NE 129 Sylhet 10",
+    "voterTurnout": 56.3,
+    "totalVotes": 93763,
+    "result": [
+      { "candidate": "Abdus Samad", "party": "AL", "votes": 50164 },
+      { "candidate": "Gulzar Ahmad", "party": "NAP-W", "votes": 29272 }
+    ],
+    "flag": "",
+    "id": 129,
+    "xGrid": 18,
+    "yGrid": 7,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-129",
+    "voteMargin": 22.3
+  },
+  {
+    "desc": "NE 130 Sylhet 11",
+    "voterTurnout": 58.2,
+    "totalVotes": 102702,
+    "result": [
+      { "candidate": "Dewan M Obaid-ur-Raza", "party": "AL", "votes": 53937 },
+      { "candidate": "Dewan Anwar Raza Ch.", "party": "NAP-W", "votes": 17121 }
+    ],
+    "flag": "",
+    "id": 130,
+    "xGrid": 17,
+    "yGrid": 7,
+    "region": "Sylhet",
+    "province": "East Pak",
+    "seat": "NE-130",
+    "voteMargin": 35.8
+  },
+  {
+    "desc": "NE 131 Comilla 1",
+    "voterTurnout": 58.5,
+    "totalVotes": 114189,
+    "result": [
+      { "candidate": "Taheruddin Thakur", "party": "AL", "votes": 70634 },
+      { "candidate": "Ali Ahad", "party": "PNL", "votes": 26696 }
+    ],
+    "flag": "Multiple",
+    "id": 131,
+    "xGrid": 16,
+    "yGrid": 9,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-131",
+    "voteMargin": 38.5
+  },
+  {
+    "desc": "NE 132 Comilla 2",
+    "voterTurnout": 59.9,
+    "totalVotes": 113277,
+    "result": [
+      { "candidate": "Ali Azam", "party": "AL", "votes": 97536 },
+      { "candidate": "Abdur Rahman Khan", "party": "PDP", "votes": 5226 }
+    ],
+    "flag": "",
+    "id": 132,
+    "xGrid": 17,
+    "yGrid": 9,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-132",
+    "voteMargin": 81.5
+  },
+  {
+    "desc": "NE 133 Comilla 3",
+    "voterTurnout": 67.2,
+    "totalVotes": 143067,
+    "result": [
+      { "candidate": "Dewan Abdul Abbas", "party": "AL", "votes": 134234 },
+      {
+        "candidate": "Shafiq-ul-Islam M. Muzammil Haq",
+        "party": "PML-C",
+        "votes": 5119
+      }
+    ],
+    "flag": "",
+    "id": 133,
+    "xGrid": 15,
+    "yGrid": 9,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-133",
+    "voteMargin": 90.2
+  },
+  {
+    "desc": "NE 134 Comilla 4",
+    "voterTurnout": 53.9,
+    "totalVotes": 88128,
+    "result": [
+      { "candidate": "Siraj-ul-Haq", "party": "AL", "votes": 61278 },
+      { "candidate": "Golam Haqqani", "party": "JI", "votes": 4688 }
+    ],
+    "flag": "",
+    "id": 134,
+    "xGrid": 16,
+    "yGrid": 8,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-134",
+    "voteMargin": 64.2
+  },
+  {
+    "desc": "NE 135 Comilla 5",
+    "voterTurnout": 50.3,
+    "totalVotes": 90066,
+    "result": [
+      { "candidate": "Khurshid Alam", "party": "AL", "votes": 73847 },
+      { "candidate": "Abad Nuruddin Mahmood", "party": "PML-C", "votes": 9393 }
+    ],
+    "flag": "",
+    "id": 135,
+    "xGrid": 15,
+    "yGrid": 10,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-135",
+    "voteMargin": 71.6
+  },
+  {
+    "desc": "NE 136 Comilla 6",
+    "voterTurnout": 43.8,
+    "totalVotes": 75860,
+    "result": [
+      { "candidate": "Kazi Zahir-ul-Qayoom", "party": "AL", "votes": 66223 },
+      { "candidate": "Shafiq-ul-Haq", "party": "JI", "votes": 7777 }
+    ],
+    "flag": "",
+    "id": 136,
+    "xGrid": 14,
+    "yGrid": 8,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-136",
+    "voteMargin": 77
+  },
+  {
+    "desc": "NE 137 Comilla 7",
+    "voterTurnout": 47.6,
+    "totalVotes": 81010,
+    "result": [
+      { "candidate": "A.M. Ahmed Khaliq", "party": "AL", "votes": 59545 },
+      { "candidate": "Oli Ahad", "party": "PML-C", "votes": 21465 }
+    ],
+    "flag": "",
+    "id": 137,
+    "xGrid": 15,
+    "yGrid": 12,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-137",
+    "voteMargin": 47
+  },
+  {
+    "desc": "NE 138 Comilla 8",
+    "voterTurnout": 56.2,
+    "totalVotes": 102808,
+    "result": [
+      { "candidate": "Khankar Mushtaq Ahmed", "party": "AL", "votes": 94759 },
+      { "candidate": "Ramizuddin Ahmed", "party": "PDP", "votes": 6266 }
+    ],
+    "flag": "",
+    "id": 138,
+    "xGrid": 14,
+    "yGrid": 13,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-138",
+    "voteMargin": 86.1
+  },
+  {
+    "desc": "NE 139 Comilla 9",
+    "voterTurnout": 56.3,
+    "totalVotes": 117968,
+    "result": [
+      { "candidate": "Haji Abdul Hashim", "party": "AL", "votes": 110152 },
+      { "candidate": "Abdul Wadood Mian", "party": "JI", "votes": 3621 }
+    ],
+    "flag": "",
+    "id": 139,
+    "xGrid": 17,
+    "yGrid": 10,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-139",
+    "voteMargin": 90.3
+  },
+  {
+    "desc": "NE 140 Comilla 10",
+    "voterTurnout": 43.6,
+    "totalVotes": 83055,
+    "result": [
+      { "candidate": "Shujat Ali", "party": "AL", "votes": 53886 },
+      { "candidate": "Prof. Muzaffar Ahmed", "party": "NAP-W", "votes": 16186 }
+    ],
+    "flag": "",
+    "id": 140,
+    "xGrid": 17,
+    "yGrid": 12,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-140",
+    "voteMargin": 45.4
+  },
+  {
+    "desc": "NE 141 Comilla 11",
+    "voterTurnout": 46.3,
+    "totalVotes": 86572,
+    "result": [
+      { "candidate": "Abdul Awal Bhuyian", "party": "AL", "votes": 64190 },
+      {
+        "candidate": "Molana Amin-ul-Islam Mian",
+        "party": "JUI-NI",
+        "votes": 17820
+      }
+    ],
+    "flag": "",
+    "id": 141,
+    "xGrid": 16,
+    "yGrid": 11,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-141",
+    "voteMargin": 53.6
+  },
+  {
+    "desc": "NE 142 Comilla 12",
+    "voterTurnout": 63.6,
+    "totalVotes": 129020,
+    "result": [
+      { "candidate": "Hafiz Habib-ur-Rahman", "party": "AL", "votes": 123082 },
+      { "candidate": "M.A. Salam", "party": "PML-C", "votes": 4078 }
+    ],
+    "flag": "",
+    "id": 142,
+    "xGrid": 17,
+    "yGrid": 11,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-142",
+    "voteMargin": 92.2
+  },
+  {
+    "desc": "NE 143 Comilla 13",
+    "voterTurnout": 49.6,
+    "totalVotes": 100851,
+    "result": [
+      { "candidate": "Waliullah", "party": "AL", "votes": 89842 },
+      { "candidate": "Molana Abdul Khair", "party": "IGD", "votes": 6988 }
+    ],
+    "flag": "Multiple",
+    "id": 143,
+    "xGrid": 15,
+    "yGrid": 13,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-143",
+    "voteMargin": 82.2
+  },
+  {
+    "desc": "NE 144 Comilla 14",
+    "voterTurnout": 59,
+    "totalVotes": 113290,
+    "result": [
+      { "candidate": "M. Mizan-ur-Rahman", "party": "AL", "votes": 90168 },
+      { "candidate": "M. Abdul Haq", "party": "JUI-NI", "votes": 21464 }
+    ],
+    "flag": "",
+    "id": 144,
+    "xGrid": 14,
+    "yGrid": 11,
+    "region": "Comilla",
+    "province": "East Pak",
+    "seat": "NE-144",
+    "voteMargin": 60.6
+  },
+  {
+    "desc": "NE 145 Noakhali 1",
+    "voterTurnout": 48.3,
+    "totalVotes": 80260,
+    "result": [
+      { "candidate": "M. Obaidullah Mojumder", "party": "AL", "votes": 65030 },
+      { "candidate": "Mehboob-ul-Haq", "party": "PNL", "votes": 14578 }
+    ],
+    "flag": "",
+    "id": 145,
+    "xGrid": 14,
+    "yGrid": 12,
+    "region": "Noakhali",
+    "province": "East Pak",
+    "seat": "NE-145",
+    "voteMargin": 62.9
+  },
+  {
+    "desc": "NE 146 Noakhali 2",
+    "voterTurnout": 49.3,
+    "totalVotes": 92565,
+    "result": [
+      { "candidate": "Kh. Ahmed", "party": "AL", "votes": 72710 },
+      { "candidate": "A.K.M. Baqar", "party": "JI", "votes": 13845 }
+    ],
+    "flag": "",
+    "id": 146,
+    "xGrid": 15,
+    "yGrid": 14,
+    "region": "Noakhali",
+    "province": "East Pak",
+    "seat": "NE-146",
+    "voteMargin": 63.6
+  },
+  {
+    "desc": "NE 147 Noakhali 3",
+    "voterTurnout": 46.7,
+    "totalVotes": 89982,
+    "result": [
+      { "candidate": "Noor-ul-Haq", "party": "AL", "votes": 71618 },
+      { "candidate": "Ali Azam Bhuya", "party": "JUI-NI", "votes": 9076 }
+    ],
+    "flag": "",
+    "id": 147,
+    "xGrid": 16,
+    "yGrid": 12,
+    "region": "Noakhali",
+    "province": "East Pak",
+    "seat": "NE-147",
+    "voteMargin": 69.5
+  },
+  {
+    "desc": "NE 148 Noakhali 4",
+    "voterTurnout": 40.2,
+    "totalVotes": 84180,
+    "result": [
+      { "candidate": "Abdul Malik Ukal", "party": "AL", "votes": 63227 },
+      {
+        "candidate": "Molana Nurul Amin Atiqi",
+        "party": "JUI-NI",
+        "votes": 17742
+      }
+    ],
+    "flag": "",
+    "id": 148,
+    "xGrid": 14,
+    "yGrid": 14,
+    "region": "Noakhali",
+    "province": "East Pak",
+    "seat": "NE-148",
+    "voteMargin": 54
+  },
+  {
+    "desc": "NE 149 Noakhali 5",
+    "voterTurnout": 44.6,
+    "totalVotes": 75238,
+    "result": [
+      { "candidate": "Dilawar Hussain, Adv.", "party": "AL", "votes": 56287 },
+      { "candidate": "Molana Syed Ahmad", "party": "JI", "votes": 11873 }
+    ],
+    "flag": "",
+    "id": 149,
+    "xGrid": 15,
+    "yGrid": 15,
+    "region": "Noakhali",
+    "province": "East Pak",
+    "seat": "NE-149",
+    "voteMargin": 59
+  },
+  {
+    "desc": "NE 150 Noakhali 6",
+    "voterTurnout": 50.3,
+    "totalVotes": 82988,
+    "result": [
+      { "candidate": "Khalid M. Ali", "party": "AL", "votes": 62133 },
+      { "candidate": "Shaiqullah", "party": "JI", "votes": 18848 }
+    ],
+    "flag": "",
+    "id": 150,
+    "xGrid": 16,
+    "yGrid": 13,
+    "region": "Noakhali",
+    "province": "East Pak",
+    "seat": "NE-150",
+    "voteMargin": 52.2
+  },
+  {
+    "desc": "NE 151 Noakhali 7",
+    "voterTurnout": 47.1,
+    "totalVotes": 80034,
+    "result": [
+      { "candidate": "M. Hanif", "party": "AL", "votes": 73954 },
+      { "candidate": "Prof. Mushfiq-ur-Rahman", "party": "JI", "votes": 3134 }
+    ],
+    "flag": "",
+    "id": 151,
+    "xGrid": 17,
+    "yGrid": 13,
+    "region": "Noakhali",
+    "province": "East Pak",
+    "seat": "NE-151",
+    "voteMargin": 88.5
+  },
+  {
+    "desc": "NE 152 Noakhali 8",
+    "voterTurnout": 48.8,
+    "totalVotes": 82063,
+    "result": [
+      { "candidate": "Abdur Rashid", "party": "AL", "votes": 70802 },
+      { "candidate": "Khalid Ch.", "party": "JI", "votes": 9268 }
+    ],
+    "flag": "",
+    "id": 152,
+    "xGrid": 18,
+    "yGrid": 12,
+    "region": "Noakhali",
+    "province": "East Pak",
+    "seat": "NE-152",
+    "voteMargin": 75
+  },
+  {
+    "desc": "NE 153 Chittagong 1",
+    "voterTurnout": 51.5,
+    "totalVotes": 87188,
+    "result": [
+      {
+        "candidate": "Mustafiz-ur-Rahman Siddiqi",
+        "party": "AL",
+        "votes": 78972
+      },
+      { "candidate": "A.K.M. Rafiquddin Ch.", "party": "Ind", "votes": 8216 }
+    ],
+    "flag": "",
+    "id": 153,
+    "xGrid": 17,
+    "yGrid": 14,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-153",
+    "voteMargin": 81.2
+  },
+  {
+    "desc": "NE 154 Chittagong 2",
+    "voterTurnout": 66.7,
+    "totalVotes": 126156,
+    "result": [
+      { "candidate": "M.A. Aziz", "party": "AL", "votes": 101530 },
+      { "candidate": "Usman Ramj", "party": "JI", "votes": 15199 }
+    ],
+    "flag": "",
+    "id": 154,
+    "xGrid": 18,
+    "yGrid": 14,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-154",
+    "voteMargin": 68.4
+  },
+  {
+    "desc": "NE 155 Chittagong 3",
+    "voterTurnout": 59.2,
+    "totalVotes": 109516,
+    "result": [
+      { "candidate": "Idrees", "party": "AL", "votes": 78835 },
+      {
+        "candidate": "Molana Ahmad Kabir Shiraj",
+        "party": "PML-C",
+        "votes": 19861
+      }
+    ],
+    "flag": "Multiple",
+    "id": 155,
+    "xGrid": 18,
+    "yGrid": 13,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-155",
+    "voteMargin": 53.8
+  },
+  {
+    "desc": "NE 156 Chittagong 4",
+    "voterTurnout": 50.8,
+    "totalVotes": 115059,
+    "result": [
+      { "candidate": "Syed M. Fazl-ul-Haq", "party": "AL", "votes": 82644 },
+      {
+        "candidate": "Molana Haroon (JUI-NI)",
+        "party": "JUI-NI",
+        "votes": 9825
+      }
+    ],
+    "flag": "",
+    "id": 156,
+    "xGrid": 19,
+    "yGrid": 15,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-156",
+    "voteMargin": 63.3
+  },
+  {
+    "desc": "NE 157 Chittagong 5",
+    "voterTurnout": 58,
+    "totalVotes": 110403,
+    "result": [
+      { "candidate": "Prof. M. Khalid", "party": "AL", "votes": 63433 },
+      { "candidate": "Fazl-ul-Qader Ch.", "party": "PML-C", "votes": 39578 }
+    ],
+    "flag": "",
+    "id": 157,
+    "xGrid": 18,
+    "yGrid": 15,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-157",
+    "voteMargin": 21.6
+  },
+  {
+    "desc": "NE 158 Chittagong 6",
+    "voterTurnout": 55.9,
+    "totalVotes": 100548,
+    "result": [
+      { "candidate": "Noor-ul-Islam Ch.", "party": "AL", "votes": 73217 },
+      { "candidate": "Ahmed-ur-Rahman", "party": "PML-C", "votes": 16415 }
+    ],
+    "flag": "",
+    "id": 158,
+    "xGrid": 18,
+    "yGrid": 17,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-158",
+    "voteMargin": 56.5
+  },
+  {
+    "desc": "NE 159 Chittagong 7",
+    "voterTurnout": 51.3,
+    "totalVotes": 95514,
+    "result": [
+      { "candidate": "Ata-ur-Rehman Khan", "party": "AL", "votes": 49346 },
+      { "candidate": "Bazl-ul-Karim Ch.", "party": "JI", "votes": 17765 }
+    ],
+    "flag": "",
+    "id": 159,
+    "xGrid": 19,
+    "yGrid": 16,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-159",
+    "voteMargin": 33.1
+  },
+  {
+    "desc": "NE 160 Chittagong 8",
+    "voterTurnout": 56,
+    "totalVotes": 122916,
+    "result": [
+      { "candidate": "Abul Saleh", "party": "AL", "votes": 68429 },
+      { "candidate": "Molana Siddiq Ahmed", "party": "JUI-NI", "votes": 34497 }
+    ],
+    "flag": "",
+    "id": 160,
+    "xGrid": 19,
+    "yGrid": 17,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-160",
+    "voteMargin": 27.6
+  },
+  {
+    "desc": "NE 161 Chittagong 9",
+    "voterTurnout": 51.8,
+    "totalVotes": 108195,
+    "result": [
+      { "candidate": "Noor Ahmed", "party": "AL", "votes": 47080 },
+      { "candidate": "Molvi Farid Ahmed", "party": "PDP", "votes": 34677 }
+    ],
+    "flag": "",
+    "id": 161,
+    "xGrid": 19,
+    "yGrid": 19,
+    "region": "Chittagong",
+    "province": "East Pak",
+    "seat": "NE-161",
+    "voteMargin": 11.5
+  },
+  {
+    "desc": "NE 162 Chittagong Hill Tracts",
+    "voterTurnout": 58.1,
+    "totalVotes": 116563,
+    "result": [
+      { "candidate": "Maj. Raja Tridiv Roy", "party": "Ind", "votes": 91449 },
+      { "candidate": "Charu Bikash Chakma", "party": "AL", "votes": 25114 }
+    ],
+    "flag": "",
+    "id": 162,
+    "xGrid": 20,
+    "yGrid": 14,
+    "region": "Chittagong Hill Tracts",
+    "province": "East Pak",
+    "seat": "NE-162",
+    "voteMargin": 56.9
+  },
+  {
+    "desc": "NW 1 Peshawar General Election 1970 Result",
+    "result": [
+      { "candidate": "Abdul Qayyum Khan", "party": "PML-Q", "votes": 27215 },
+      {
+        "candidate": "Hayat Muhammad Khan Sherpao",
+        "party": "PPP",
+        "votes": 23981
+      }
+    ],
+    "totalVotes": 91040,
+    "voterTurnout": 62.2,
+    "id": 163,
+    "xGrid": 15,
+    "yGrid": 27,
+    "region": "Peshawar",
+    "province": "West Pak",
+    "seat": "NW-1",
+    "voteMargin": 3.6
+  },
+  {
+    "desc": "NW 2 Peshawar General Election 1970 Result",
+    "result": [
+      { "candidate": "Ghulam Farooq", "party": "NAP-W", "votes": 34402 },
+      { "candidate": "Mian Muhammad Jan", "party": "JUI", "votes": 22529 }
+    ],
+    "totalVotes": 85110,
+    "voterTurnout": 56.5,
+    "id": 164,
+    "xGrid": 17,
+    "yGrid": 27,
+    "region": "Peshawar",
+    "province": "West Pak",
+    "seat": "NW-2",
+    "voteMargin": 14
+  },
+  {
+    "desc": "NW 3 Peshawar General Election 1970 Result",
+    "result": [
+      { "candidate": "Khan Abdul Wali Khan", "party": "NAP-W", "votes": 35220 },
+      { "candidate": "Abdul Barjan", "party": "JUI", "votes": 22871 }
+    ],
+    "totalVotes": 73807,
+    "voterTurnout": 57.6,
+    "id": 165,
+    "xGrid": 17,
+    "yGrid": 28,
+    "region": "Peshawar",
+    "province": "West Pak",
+    "seat": "NW-3",
+    "voteMargin": 16.7
+  },
+  {
+    "desc": "NW 4 Peshawar General Election 1970 Result",
+    "result": [
+      { "candidate": "Moulana Abdul Haq", "party": "JUI", "votes": 29856 },
+      {
+        "candidate": "Muhammad Ajmal Khattak",
+        "party": "NAP-W",
+        "votes": 27109
+      }
+    ],
+    "totalVotes": 82615,
+    "voterTurnout": 62.9,
+    "id": 166,
+    "xGrid": 16,
+    "yGrid": 27,
+    "region": "Peshawar",
+    "province": "West Pak",
+    "seat": "NW-4",
+    "voteMargin": 3.3
+  },
+  {
+    "desc": "NW 5 Hazara General Election 1970 Result",
+    "result": [
+      { "candidate": "Moulana Abdul Hakeem", "party": "JUI", "votes": 12915 },
+      { "candidate": "Muhammad Ayub Khan", "party": "Ind", "votes": 8553 }
+    ],
+    "totalVotes": 27801,
+    "voterTurnout": 29.6,
+    "id": 167,
+    "xGrid": 20,
+    "yGrid": 26,
+    "region": "Hazara",
+    "province": "West Pak",
+    "seat": "NW-5",
+    "voteMargin": 15.7
+  },
+  {
+    "desc": "NW 6 Hazara General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Moulana Ghulam Ghous Hazarvi",
+        "party": "JUI",
+        "votes": 27188
+      },
+      { "candidate": "Hanif Khan", "party": "PML-Q", "votes": 19595 }
+    ],
+    "totalVotes": 70140,
+    "voterTurnout": 38.8,
+    "id": 168,
+    "xGrid": 20,
+    "yGrid": 27,
+    "region": "Hazara",
+    "province": "West Pak",
+    "seat": "NW-6",
+    "voteMargin": 10.8
+  },
+  {
+    "desc": "NW 7 Hazara General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Sardar Inayat Ur Rehman Khan Abbasi",
+        "party": "PML-Q",
+        "votes": 39743
+      },
+      { "candidate": "Sardar Ali Bahadur", "party": "Ind", "votes": 25372 }
+    ],
+    "totalVotes": 86696,
+    "voterTurnout": 44.7,
+    "id": 169,
+    "xGrid": 20,
+    "yGrid": 25,
+    "region": "Hazara",
+    "province": "West Pak",
+    "seat": "NW-7",
+    "voteMargin": 16.6
+  },
+  {
+    "desc": "NW 8 Hazara General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Khan Abdul Qayyum Khan",
+        "party": "PML-Q",
+        "votes": 38305
+      },
+      { "candidate": "Sardar Bahadur Khan", "party": "PML-C", "votes": 22335 }
+    ],
+    "totalVotes": 82347,
+    "voterTurnout": 42.3,
+    "id": 170,
+    "xGrid": 20,
+    "yGrid": 24,
+    "region": "Hazara",
+    "province": "West Pak",
+    "seat": "NW-8",
+    "voteMargin": 19.4
+  },
+  {
+    "desc": "NW 9 Mardan General Election 1970 Result",
+    "result": [
+      { "candidate": "Abdul Khaliq Khan", "party": "PPP", "votes": 26653 },
+      { "candidate": "Mehar Dil Khan", "party": "NAP-W", "votes": 21033 }
+    ],
+    "totalVotes": 96348,
+    "voterTurnout": 63.9,
+    "id": 171,
+    "xGrid": 17,
+    "yGrid": 26,
+    "region": "Mardan",
+    "province": "West Pak",
+    "seat": "NW-9",
+    "voteMargin": 5.8
+  },
+  {
+    "desc": "NW 10 Mardan General Election 1970 Result",
+    "result": [
+      { "candidate": "Ameerzada Khan", "party": "NAP-W", "votes": 34032 },
+      { "candidate": "Moulvi Hamad Ullah", "party": "JUI", "votes": 17119 }
+    ],
+    "totalVotes": 83371,
+    "voterTurnout": 71.7,
+    "id": 172,
+    "xGrid": 18,
+    "yGrid": 26,
+    "region": "Mardan",
+    "province": "West Pak",
+    "seat": "NW-10",
+    "voteMargin": 20.3
+  },
+  {
+    "desc": "NW 11 Mardan Hazara General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Khan Abdul Qayyum Khan",
+        "party": "PML-Q",
+        "votes": 26415
+      },
+      { "candidate": "Abdul Aziz Khan", "party": "NAP-W", "votes": 19815 }
+    ],
+    "totalVotes": 81092,
+    "voterTurnout": 51.8,
+    "id": 173,
+    "xGrid": 19,
+    "yGrid": 27,
+    "region": "Mardan",
+    "province": "West Pak",
+    "seat": "NW-11",
+    "voteMargin": 8.1
+  },
+  {
+    "desc": "NW 12 Kohat General Election 1970 Result",
+    "result": [
+      { "candidate": "Moulvi Naimat Ullah", "party": "JUI", "votes": 35817 },
+      {
+        "candidate": "Muhammad Yousif Khattak",
+        "party": "PML-C",
+        "votes": 15014
+      }
+    ],
+    "totalVotes": 87142,
+    "voterTurnout": 35.9,
+    "id": 174,
+    "xGrid": 16,
+    "yGrid": 29,
+    "region": "Kohat",
+    "province": "West Pak",
+    "seat": "NW-12",
+    "voteMargin": 23.9
+  },
+  {
+    "desc": "NW 13 Dera Ismail Khan General Election 1970 Result",
+    "result": [
+      { "candidate": "Moulana Mufti Mehmood", "party": "JUI", "votes": 45978 },
+      { "candidate": "Zulfiqar Ali Bhutto", "party": "PPP", "votes": 33267 }
+    ],
+    "totalVotes": 100649,
+    "voterTurnout": 53.6,
+    "id": 175,
+    "xGrid": 15,
+    "yGrid": 33,
+    "region": "Dera Ismail Khan",
+    "province": "West Pak",
+    "seat": "NW-13",
+    "voteMargin": 12.6
+  },
+  {
+    "desc": "NW 14 Bannu General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Moulana Sadar us Shahid",
+        "party": "JUI",
+        "votes": 60511
+      },
+      { "candidate": "Malik Hamidullah Khan", "party": "PML-Q", "votes": 14896 }
+    ],
+    "totalVotes": 102742,
+    "voterTurnout": 65.9,
+    "id": 176,
+    "xGrid": 14,
+    "yGrid": 30,
+    "region": "Bannu",
+    "province": "West Pak",
+    "seat": "NW-14",
+    "voteMargin": 44.4
+  },
+  {
+    "desc": "NW 15 Chitral Dir General Election 1970 Result",
+    "result": [
+      { "candidate": "Jafir Ali Shah", "party": "PML-Q", "votes": 6418 },
+      { "candidate": "Muhammad Nadir Khan", "party": "JUI", "votes": 5835 }
+    ],
+    "totalVotes": 33403,
+    "voterTurnout": 36.6,
+    "id": 177,
+    "xGrid": 17,
+    "yGrid": 22,
+    "region": "Chitral",
+    "province": "West Pak",
+    "seat": "NW-15",
+    "voteMargin": 1.7
+  },
+  {
+    "desc": "NW 16 Swat General Election 1970 Result",
+    "result": [
+      { "candidate": "Rahim Shah", "party": "PML-Q", "votes": 18761 },
+      { "candidate": "Sher Muhammad Khan", "party": "PPP", "votes": 18481 }
+    ],
+    "totalVotes": 79381,
+    "voterTurnout": 39.5,
+    "id": 178,
+    "xGrid": 18,
+    "yGrid": 24,
+    "region": "Swat",
+    "province": "West Pak",
+    "seat": "NW-16",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NW 17 Swat General Election 1970 Result",
+    "result": [
+      { "candidate": "Mian Gul Aurangzaib", "party": "PML-Q", "votes": 35538 },
+      { "candidate": "Syed Badshah Gul", "party": "NAP-W", "votes": 23276 }
+    ],
+    "totalVotes": 100438,
+    "voterTurnout": 41,
+    "id": 179,
+    "xGrid": 17,
+    "yGrid": 25,
+    "region": "Swat",
+    "province": "West Pak",
+    "seat": "NW-17",
+    "voteMargin": 12.2
+  },
+  {
+    "desc": "NW 18 Dir General Election 1970 Result",
+    "result": [
+      { "candidate": "Sahibzada Saifullah", "party": "JI", "votes": 14187 },
+      { "candidate": "Jehanzaib Khan", "party": "Ind", "votes": 14036 }
+    ],
+    "totalVotes": 56061,
+    "voterTurnout": 30.4,
+    "id": 180,
+    "xGrid": 17,
+    "yGrid": 24,
+    "region": "Dir",
+    "province": "West Pak",
+    "seat": "NW-18",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NW 19 Tribal Area General Election 1970 Result",
+    "result": [
+      { "candidate": "Akbar Khan Mohmand", "party": "Ind", "votes": 2652 },
+      { "candidate": "Yousif Khan", "party": "Ind", "votes": 2246 }
+    ],
+    "totalVotes": 4898,
+    "voterTurnout": 82.2,
+    "id": 181,
+    "xGrid": 15,
+    "yGrid": 26,
+    "region": "Tribal Area",
+    "province": "West Pak",
+    "seat": "NW-19",
+    "voteMargin": 8.3
+  },
+  {
+    "desc": "NW 20 Tribal Area General Election 1970 Result",
+    "result": [
+      { "candidate": "Haji Saleh Khan", "party": "Ind", "votes": 735 },
+      { "candidate": "Zawar Hussain", "party": "Ind", "votes": 541 }
+    ],
+    "totalVotes": 1276,
+    "voterTurnout": 94,
+    "id": 182,
+    "xGrid": 15,
+    "yGrid": 28,
+    "region": "Tribal Area",
+    "province": "West Pak",
+    "seat": "NW-20",
+    "voteMargin": 15.2
+  },
+  {
+    "desc": "NW 21 Tribal Area General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Naimat Ullah Khan Shinwari",
+        "party": "Ind",
+        "votes": null
+      }
+    ],
+    "totalVotes": 0,
+    "voterTurnout": 85,
+    "id": 183,
+    "xGrid": 13,
+    "yGrid": 28,
+    "region": "Tribal Area",
+    "province": "West Pak",
+    "seat": "NW-21",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NW 22 Tribal Area General Election 1970 Result",
+    "result": [
+      { "candidate": "Malik Jahangir Khan", "party": "Ind", "votes": 1195 },
+      { "candidate": "Akbar Khan", "party": "Ind", "votes": 27 }
+    ],
+    "totalVotes": 1269,
+    "voterTurnout": 77,
+    "id": 184,
+    "xGrid": 12,
+    "yGrid": 30,
+    "region": "Tribal Area",
+    "province": "West Pak",
+    "seat": "NW-22",
+    "voteMargin": 92
+  },
+  {
+    "desc": "NW 23 Tribal Area General Election 1970 Result",
+    "result": [
+      { "candidate": "Abdul Malik", "party": "Ind", "votes": 609 },
+      { "candidate": "Gulab Khan", "party": "Ind", "votes": 578 }
+    ],
+    "totalVotes": 1187,
+    "voterTurnout": 97.8,
+    "id": 185,
+    "xGrid": 12,
+    "yGrid": 32,
+    "region": "Tribal Area",
+    "province": "West Pak",
+    "seat": "NW-23",
+    "voteMargin": 2.6
+  },
+  {
+    "desc": "NW 24 Tribal Area General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Major General (R) jamal Dar",
+        "party": "Ind",
+        "votes": 957
+      },
+      { "candidate": "Haju Nadar Khan", "party": "Ind", "votes": 878 }
+    ],
+    "totalVotes": 1835,
+    "voterTurnout": 92.7,
+    "id": 186,
+    "xGrid": 16,
+    "yGrid": 28,
+    "region": "Tribal Area",
+    "province": "West Pak",
+    "seat": "NW-24",
+    "voteMargin": 4.3
+  },
+  {
+    "desc": "NW 25 Tribal Area General Election 1970 Result",
+    "result": [
+      { "candidate": "Abdul Subhan Khan", "party": "Ind", "votes": 1446 },
+      { "candidate": "Gul Muhammad", "party": "Ind", "votes": 93 }
+    ],
+    "totalVotes": 1803,
+    "voterTurnout": 90.9,
+    "id": 187,
+    "xGrid": 16,
+    "yGrid": 25,
+    "region": "Tribal Area",
+    "province": "West Pak",
+    "seat": "NW-25",
+    "voteMargin": 75
+  },
+  {
+    "desc": "NW 26 Rawalpindi General Election 1970 Result",
+    "result": [
+      { "candidate": "Khurshid Hassan Mir", "party": "PPP", "votes": 67997 },
+      {
+        "candidate": "Air Marshal (R) Asgahr Khan",
+        "party": "Ind",
+        "votes": 28209
+      }
+    ],
+    "totalVotes": 120178,
+    "voterTurnout": 61.1,
+    "id": 188,
+    "xGrid": 20,
+    "yGrid": 28,
+    "region": "Rawalpindi",
+    "province": "West Pak",
+    "seat": "NW-26",
+    "voteMargin": 33.1
+  },
+  {
+    "desc": "NW 27 Rawalpindi General Election 1970 Result",
+    "result": [
+      { "candidate": "Malik Muhammad Jaffar", "party": "PPP", "votes": 64847 },
+      { "candidate": "Syed Ali Asghar Shah", "party": "CML", "votes": 18480 }
+    ],
+    "totalVotes": 135223,
+    "voterTurnout": 59,
+    "id": 189,
+    "xGrid": 20,
+    "yGrid": 29,
+    "region": "Rawalpindi",
+    "province": "West Pak",
+    "seat": "NW-27",
+    "voteMargin": 34.3
+  },
+  {
+    "desc": "NW 28 Rawalpindi General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Colonel (R) Habib Ahmad",
+        "party": "PPP",
+        "votes": 36925
+      },
+      { "candidate": "Raja Muhammad Anwar", "party": "Ind", "votes": 19931 }
+    ],
+    "totalVotes": 93725,
+    "voterTurnout": 54.8,
+    "id": 190,
+    "xGrid": 19,
+    "yGrid": 29,
+    "region": "Rawalpindi",
+    "province": "West Pak",
+    "seat": "NW-28",
+    "voteMargin": 18.1
+  },
+  {
+    "desc": "NW 29 Rawalpindi General Election 1970 Result",
+    "result": [
+      { "candidate": "Raja Abdul Aziz Bhatti", "party": "PPP", "votes": 57584 },
+      { "candidate": "Muhammad Akram", "party": "PML-C", "votes": 23649 }
+    ],
+    "totalVotes": 106383,
+    "voterTurnout": 57.8,
+    "id": 191,
+    "xGrid": 19,
+    "yGrid": 28,
+    "region": "Rawalpindi",
+    "province": "West Pak",
+    "seat": "NW-29",
+    "voteMargin": 31.9
+  },
+  {
+    "desc": "NW 30 Campbellpur General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Sardar Shaukat Hayyat",
+        "party": "PML-C",
+        "votes": 42280
+      },
+      { "candidate": "Syed Ashiq Hussain Shah", "party": "PPP", "votes": 32051 }
+    ],
+    "totalVotes": 119265,
+    "voterTurnout": 63.3,
+    "id": 192,
+    "xGrid": 18,
+    "yGrid": 29,
+    "region": "Campbellpur",
+    "province": "West Pak",
+    "seat": "NW-30",
+    "voteMargin": 8.6
+  },
+  {
+    "desc": "NW 31 Campbellpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Pir Syed Saif Ud Din", "party": "PML-C", "votes": 65131 },
+      { "candidate": "Malik Allah Yar", "party": "CML", "votes": 41838 }
+    ],
+    "totalVotes": 148322,
+    "voterTurnout": 63.5,
+    "id": 193,
+    "xGrid": 17,
+    "yGrid": 30,
+    "region": "Campbellpur",
+    "province": "West Pak",
+    "seat": "NW-31",
+    "voteMargin": 15.7
+  },
+  {
+    "desc": "NW 32 Jhelum General Election 1970 Result",
+    "result": [
+      { "candidate": "Doctor Ghulam Hussain", "party": "PPP", "votes": 56840 },
+      { "candidate": "Raja Lehraasab Khan", "party": "PML-C", "votes": 21622 }
+    ],
+    "totalVotes": 119291,
+    "voterTurnout": 62.5,
+    "id": 194,
+    "xGrid": 18,
+    "yGrid": 31,
+    "region": "Jhelum",
+    "province": "West Pak",
+    "seat": "NW-32",
+    "voteMargin": 29.5
+  },
+  {
+    "desc": "NW 33 Jhelum General Election 1970 Result",
+    "result": [
+      { "candidate": "Muhammad Amir Khan", "party": "PPP", "votes": 33473 },
+      {
+        "candidate": "Sardar Muhammad Ashraf Khan",
+        "party": "PML-C",
+        "votes": 30260
+      }
+    ],
+    "totalVotes": 109045,
+    "voterTurnout": 63.5,
+    "id": 195,
+    "xGrid": 19,
+    "yGrid": 31,
+    "region": "Jhelum",
+    "province": "West Pak",
+    "seat": "NW-33",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NW 34 Jhelum General Election 1970 Result",
+    "result": [
+      { "candidate": "Malik Muhammad Sadiq", "party": "PPP", "votes": 29812 },
+      { "candidate": "Shahbaz Khan", "party": "Ind", "votes": 29310 }
+    ],
+    "totalVotes": 72794,
+    "voterTurnout": 49.9,
+    "id": 196,
+    "xGrid": 20,
+    "yGrid": 30,
+    "region": "Jhelum",
+    "province": "West Pak",
+    "seat": "NW-34",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NW 35 Gujrat General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Zahoor Elahi",
+        "party": "PML-C",
+        "votes": 82120
+      },
+      { "candidate": "Nawab Asghar Ali", "party": "PML-Q", "votes": 70486 }
+    ],
+    "totalVotes": 164567,
+    "voterTurnout": 71,
+    "id": 197,
+    "xGrid": 22,
+    "yGrid": 30,
+    "region": "Gujrat",
+    "province": "West Pak",
+    "seat": "NW-35",
+    "voteMargin": 7.1
+  },
+  {
+    "desc": "NW 36 Gujrat General Election 1970 Result",
+    "result": [
+      { "candidate": "Fazal Elahi Chaudhary", "party": "PPP", "votes": 71024 },
+      { "candidate": "Muhammad Sardar Khan", "party": "PML-C", "votes": 40428 }
+    ],
+    "totalVotes": 139115,
+    "voterTurnout": 64.4,
+    "id": 198,
+    "xGrid": 21,
+    "yGrid": 31,
+    "region": "Gujrat",
+    "province": "West Pak",
+    "seat": "NW-36",
+    "voteMargin": 22
+  },
+  {
+    "desc": "NW 37 Gujrat General Election 1970 Result",
+    "result": [
+      { "candidate": "Manzoor Hussain Daudra", "party": "PPP", "votes": 33204 },
+      { "candidate": "Muhammad Nawaz Bosal", "party": "Ind", "votes": 26643 }
+    ],
+    "totalVotes": 106343,
+    "voterTurnout": 53.9,
+    "id": 199,
+    "xGrid": 22,
+    "yGrid": 31,
+    "region": "Gujrat",
+    "province": "West Pak",
+    "seat": "NW-37",
+    "voteMargin": 6.2
+  },
+  {
+    "desc": "NW 38 Gujrat General Election 1970 Result",
+    "result": [
+      { "candidate": "Ch. Ghulam Rasool", "party": "PPP", "votes": 64928 },
+      { "candidate": "Faiz Ahmad", "party": "Ind", "votes": 36355 }
+    ],
+    "totalVotes": 148752,
+    "voterTurnout": 69.7,
+    "id": 200,
+    "xGrid": 20,
+    "yGrid": 31,
+    "region": "Gujrat",
+    "province": "West Pak",
+    "seat": "NW-38",
+    "voteMargin": 19.2
+  },
+  {
+    "desc": "NW 39 Sargodha General Election 1970 Result",
+    "result": [
+      { "candidate": "Ch. Jahangir Ali", "party": "PPP", "votes": 48039 },
+      {
+        "candidate": "Khuda Dad Mian Ghulam Muhammad",
+        "party": "PML-C",
+        "votes": 30895
+      }
+    ],
+    "totalVotes": 119548,
+    "voterTurnout": 73.2,
+    "id": 201,
+    "xGrid": 18,
+    "yGrid": 33,
+    "region": "Sargodha",
+    "province": "West Pak",
+    "seat": "NW-39",
+    "voteMargin": 14.3
+  },
+  {
+    "desc": "NW 40 Sargodha General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Malik Anwar Ali Khan Noon",
+        "party": "PPP",
+        "votes": 57249
+      },
+      {
+        "candidate": "Malik Noor Hayat Khan Noon",
+        "party": "PML-Q",
+        "votes": 28789
+      }
+    ],
+    "totalVotes": 116844,
+    "voterTurnout": 64.6,
+    "id": 202,
+    "xGrid": 20,
+    "yGrid": 32,
+    "region": "Sargodha",
+    "province": "West Pak",
+    "seat": "NW-40",
+    "voteMargin": 24.4
+  },
+  {
+    "desc": "NW 41 Sargodha General Election 1970 Result",
+    "result": [
+      { "candidate": "Hafeez Ullah Cheema", "party": "PPP", "votes": 51428 },
+      { "candidate": "Zafar Ullah Khan", "party": "PML-C", "votes": 26061 }
+    ],
+    "totalVotes": 99864,
+    "voterTurnout": 71.3,
+    "id": 203,
+    "xGrid": 19,
+    "yGrid": 32,
+    "region": "Sargodha",
+    "province": "West Pak",
+    "seat": "NW-41",
+    "voteMargin": 25.4
+  },
+  {
+    "desc": "NW 42 Sargodha General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Malik Karam Bakhsh Awan",
+        "party": "PML-C",
+        "votes": 45513
+      },
+      { "candidate": "Nasim Ahmad Tahir", "party": "PPP", "votes": 29623 }
+    ],
+    "totalVotes": 121405,
+    "voterTurnout": 57.5,
+    "id": 204,
+    "xGrid": 17,
+    "yGrid": 33,
+    "region": "Sargodha",
+    "province": "West Pak",
+    "seat": "NW-42",
+    "voteMargin": 13.1
+  },
+  {
+    "desc": "NW 43 Sargodha General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Nawabzada Mian Muhammad Zakir",
+        "party": "PML-C",
+        "votes": 63040
+      },
+      { "candidate": "Malik Najeeb Ullah", "party": "PPP", "votes": 27816 }
+    ],
+    "totalVotes": 116602,
+    "voterTurnout": 74.3,
+    "id": 205,
+    "xGrid": 17,
+    "yGrid": 32,
+    "region": "Sargodha",
+    "province": "West Pak",
+    "seat": "NW-43",
+    "voteMargin": 30.2
+  },
+  {
+    "desc": "NW 44 Mianwali General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Nawabzada Malik Muzaffar Khan",
+        "party": "Ind",
+        "votes": 53202
+      },
+      {
+        "candidate": "Moulana Abdul Sattar Khan Niazi",
+        "party": "MJUP",
+        "votes": 47993
+      }
+    ],
+    "totalVotes": 145767,
+    "voterTurnout": 60.3,
+    "id": 206,
+    "xGrid": 16,
+    "yGrid": 31,
+    "region": "Mianwali",
+    "province": "West Pak",
+    "seat": "NW-44",
+    "voteMargin": 3.6
+  },
+  {
+    "desc": "NW 45 Mianwali General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Hassan Khan Dhandala",
+        "party": "PML-C",
+        "votes": 56279
+      },
+      { "candidate": "Aman Ullah Khan", "party": "MJUP", "votes": 52729 }
+    ],
+    "totalVotes": 147544,
+    "voterTurnout": 72.9,
+    "id": 207,
+    "xGrid": 16,
+    "yGrid": 34,
+    "region": "Mianwali",
+    "province": "West Pak",
+    "seat": "NW-45",
+    "voteMargin": 2.4
+  },
+  {
+    "desc": "NW 46 Jhang General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Mehar Ghulam Haider Bharwana",
+        "party": "MJUP",
+        "votes": 93979
+      },
+      {
+        "candidate": "Colonel (R) Abid Hussain",
+        "party": "Ind",
+        "votes": 77558
+      }
+    ],
+    "totalVotes": 171537,
+    "voterTurnout": 71,
+    "id": 208,
+    "xGrid": 18,
+    "yGrid": 34,
+    "region": "Jhang",
+    "province": "West Pak",
+    "seat": "NW-46",
+    "voteMargin": 9.6
+  },
+  {
+    "desc": "NW 47 Jhang General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Moulana Muhammad Zakir",
+        "party": "MJUP",
+        "votes": 66837
+      },
+      {
+        "candidate": "Sardarzada Muhammad Ali Shah",
+        "party": "PPP",
+        "votes": 62711
+      }
+    ],
+    "totalVotes": 172994,
+    "voterTurnout": 67.8,
+    "id": 209,
+    "xGrid": 18,
+    "yGrid": 35,
+    "region": "Jhang",
+    "province": "West Pak",
+    "seat": "NW-47",
+    "voteMargin": 2.4
+  },
+  {
+    "desc": "NW 48 Jhang General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Muhammad Nazeer Sultan",
+        "party": "MJUP",
+        "votes": 67846
+      },
+      { "candidate": "Muhammad Arif Khan", "party": "Ind", "votes": 58969 }
+    ],
+    "totalVotes": 147335,
+    "voterTurnout": 75,
+    "id": 210,
+    "xGrid": 17,
+    "yGrid": 36,
+    "region": "Jhang",
+    "province": "West Pak",
+    "seat": "NW-48",
+    "voteMargin": 6
+  },
+  {
+    "desc": "NW 49 Lyallpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Mukhtar Rana", "party": "PPP", "votes": 83927 },
+      { "candidate": "Zahid Sarfraz", "party": "PML-C", "votes": 19680 }
+    ],
+    "totalVotes": 130012,
+    "voterTurnout": 70,
+    "id": 211,
+    "xGrid": 21,
+    "yGrid": 34,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-49",
+    "voteMargin": 49.4
+  },
+  {
+    "desc": "NW 50 Lyallpur General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Atta Ullah",
+        "party": "PPP",
+        "votes": 93477
+      },
+      { "candidate": "Rafiq Saigol", "party": "MJUP", "votes": 26407 }
+    ],
+    "totalVotes": 119884,
+    "voterTurnout": 71.4,
+    "id": 212,
+    "xGrid": 19,
+    "yGrid": 34,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-50",
+    "voteMargin": 55.9
+  },
+  {
+    "desc": "NW 51 Lyallpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Ehsan Ul Haq", "party": "PPP", "votes": 71804 },
+      { "candidate": "Not Available", "party": "PML-C", "votes": 25479 }
+    ],
+    "totalVotes": 131360,
+    "voterTurnout": 71.5,
+    "id": 213,
+    "xGrid": 20,
+    "yGrid": 33,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-51",
+    "voteMargin": 35.3
+  },
+  {
+    "desc": "NW 52 Lyallpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Muhammad Bashir Ahmad", "party": "PPP", "votes": 68114 },
+      { "candidate": "Akhtar Hussain Gill", "party": "MJUP", "votes": 17984 }
+    ],
+    "totalVotes": 113842,
+    "voterTurnout": 70.7,
+    "id": 214,
+    "xGrid": 21,
+    "yGrid": 36,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-52",
+    "voteMargin": 44
+  },
+  {
+    "desc": "NW 53 Lyallpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Ch. Muhammad Aslam", "party": "PPP", "votes": 59392 },
+      { "candidate": "Hamza", "party": "PDP", "votes": 31160 }
+    ],
+    "totalVotes": 111916,
+    "voterTurnout": 69.6,
+    "id": 215,
+    "xGrid": 20,
+    "yGrid": 34,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-53",
+    "voteMargin": 25.2
+  },
+  {
+    "desc": "NW 54 Lyallpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Rai Hafeez Ullah Khan", "party": "PPP", "votes": 52901 },
+      { "candidate": "Israr Hussain Shah", "party": "MJUP", "votes": 33971 }
+    ],
+    "totalVotes": 114980,
+    "voterTurnout": 68.9,
+    "id": 216,
+    "xGrid": 18,
+    "yGrid": 36,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-54",
+    "voteMargin": 16.5
+  },
+  {
+    "desc": "NW 55 Lyallpur General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Anwar Ali Khan",
+        "party": "PPP",
+        "votes": 78122
+      },
+      { "candidate": "Ghulam Dastagir", "party": "PDP", "votes": 28761 }
+    ],
+    "totalVotes": 127224,
+    "voterTurnout": 69.7,
+    "id": 217,
+    "xGrid": 19,
+    "yGrid": 35,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-55",
+    "voteMargin": 38.8
+  },
+  {
+    "desc": "NW 56 Lyallpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Ghulam Nabi Chaudhary", "party": "PPP", "votes": 50210 },
+      { "candidate": "Arif Hussain", "party": "CML", "votes": 27300 }
+    ],
+    "totalVotes": 122676,
+    "voterTurnout": 67.7,
+    "id": 218,
+    "xGrid": 19,
+    "yGrid": 37,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-56",
+    "voteMargin": 18.7
+  },
+  {
+    "desc": "NW 57 Lyallpur General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Khan Chaudhary",
+        "party": "PPP",
+        "votes": 72555
+      },
+      { "candidate": "Abdul Hameed", "party": "MJUP", "votes": 24694 }
+    ],
+    "totalVotes": 124203,
+    "voterTurnout": 64.4,
+    "id": 219,
+    "xGrid": 17,
+    "yGrid": 37,
+    "region": "Lyallpur",
+    "province": "West Pak",
+    "seat": "NW-57",
+    "voteMargin": 38.5
+  },
+  {
+    "desc": "NW 58 Lahore General Election 1970 Result",
+    "result": [
+      { "candidate": "Malik Muhammad Akhtar", "party": "PPP", "votes": 56876 },
+      { "candidate": "Khawja Muhammad Rafiq", "party": "PDP", "votes": 12230 }
+    ],
+    "totalVotes": 99834,
+    "voterTurnout": 64.8,
+    "id": 220,
+    "xGrid": 24,
+    "yGrid": 33,
+    "region": "Lahore",
+    "province": "West Pak",
+    "seat": "NW-58",
+    "voteMargin": 44.7
+  },
+  {
+    "desc": "NW 59 Lahore General Election 1970 Result",
+    "result": [
+      { "candidate": "Dr. Mubashir Hassan", "party": "PPP", "votes": 82476 },
+      { "candidate": "Chaudhary Ghulam Jillani", "party": "JI", "votes": 16914 }
+    ],
+    "totalVotes": 126985,
+    "voterTurnout": 67.6,
+    "id": 221,
+    "xGrid": 22,
+    "yGrid": 36,
+    "region": "Lahore",
+    "province": "West Pak",
+    "seat": "NW-59",
+    "voteMargin": 51.6
+  },
+  {
+    "desc": "NW 60 Lahore General Election 1970 Result",
+    "result": [
+      { "candidate": "Zulfiqar Ali Bhutto", "party": "PPP", "votes": 78132 },
+      { "candidate": "Doctor Javid Iqbal", "party": "PML-C", "votes": 33921 }
+    ],
+    "totalVotes": 124434,
+    "voterTurnout": 62.7,
+    "id": 222,
+    "xGrid": 22,
+    "yGrid": 35,
+    "region": "Lahore",
+    "province": "West Pak",
+    "seat": "NW-60",
+    "voteMargin": 35.5
+  },
+  {
+    "desc": "NW 61 Lahore General Election 1970 Result",
+    "result": [
+      { "candidate": "Shaikh Rasheed Ahmad", "party": "PPP", "votes": 68721 },
+      { "candidate": "Mian Tufail Muhammad", "party": "JI", "votes": 35988 }
+    ],
+    "totalVotes": 125375,
+    "voterTurnout": 63.2,
+    "id": 223,
+    "xGrid": 24,
+    "yGrid": 35,
+    "region": "Lahore",
+    "province": "West Pak",
+    "seat": "NW-61",
+    "voteMargin": 26.1
+  },
+  {
+    "desc": "NW 62 Lahore General Election 1970 Result",
+    "result": [
+      { "candidate": "Malik Miraj Khalid", "party": "PPP", "votes": 89660 },
+      {
+        "candidate": "Nawab Zulfiqar Qazilbash",
+        "party": "Ind",
+        "votes": 29560
+      }
+    ],
+    "totalVotes": 144095,
+    "voterTurnout": 62.1,
+    "id": 224,
+    "xGrid": 23,
+    "yGrid": 35,
+    "region": "Lahore",
+    "province": "West Pak",
+    "seat": "NW-62",
+    "voteMargin": 41.7
+  },
+  {
+    "desc": "NW 63 Lahore General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Ahmad Raza Kasuri",
+        "party": "PPP",
+        "votes": 52769
+      },
+      { "candidate": "Mian Jamil Ahmad", "party": "MJUP", "votes": 49920 }
+    ],
+    "totalVotes": 121851,
+    "voterTurnout": 75.6,
+    "id": 225,
+    "xGrid": 22,
+    "yGrid": 33,
+    "region": "Lahore",
+    "province": "West Pak",
+    "seat": "NW-63",
+    "voteMargin": 2.3
+  },
+  {
+    "desc": "NW 64 Lahore General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Shafaat Khan Chohan",
+        "party": "PPP",
+        "votes": 48437
+      },
+      { "candidate": "Mohiuddin", "party": "MJAH", "votes": 29352 }
+    ],
+    "totalVotes": 120022,
+    "voterTurnout": 74.4,
+    "id": 226,
+    "xGrid": 23,
+    "yGrid": 36,
+    "region": "Lahore",
+    "province": "West Pak",
+    "seat": "NW-64",
+    "voteMargin": 15.9
+  },
+  {
+    "desc": "NW 65 Lahore General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Doctor Syed Mehmood Abbas Bukhari",
+        "party": "PPP",
+        "votes": 66712
+      },
+      { "candidate": "Anwar Abdul Rahim", "party": "PML-C", "votes": 24404 }
+    ],
+    "totalVotes": 123506,
+    "voterTurnout": 77.8,
+    "id": 227,
+    "xGrid": 20,
+    "yGrid": 36,
+    "region": "Lahore",
+    "province": "West Pak",
+    "seat": "NW-65",
+    "voteMargin": 34.3
+  },
+  {
+    "desc": "NW 66 Sheikhupura General Election 1970 Result",
+    "result": [
+      { "candidate": "Ch Mumtaz Ahmad", "party": "PPP", "votes": 63991 },
+      {
+        "candidate": "Chaudhary Muhammad Hussain Chahttha",
+        "party": "PML-C",
+        "votes": 39286
+      }
+    ],
+    "totalVotes": 103277,
+    "voterTurnout": 75.3,
+    "id": 228,
+    "xGrid": 24,
+    "yGrid": 34,
+    "region": "Sheikhupura",
+    "province": "West Pak",
+    "seat": "NW-66",
+    "voteMargin": 23.9
+  },
+  {
+    "desc": "NW 67 Sheikhupura General Election 1970 Result",
+    "result": [
+      { "candidate": "Mian Hamid Yaseen", "party": "PPP", "votes": 80576 },
+      { "candidate": "Abdul Latif", "party": "PML-C", "votes": 31019 }
+    ],
+    "totalVotes": 136466,
+    "voterTurnout": 76.3,
+    "id": 229,
+    "xGrid": 23,
+    "yGrid": 34,
+    "region": "Sheikhupura",
+    "province": "West Pak",
+    "seat": "NW-67",
+    "voteMargin": 36.3
+  },
+  {
+    "desc": "NW 68 Sheikhupura General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Iqbal",
+        "party": "PPP",
+        "votes": 70856
+      },
+      { "candidate": "Manzoor Hussain", "party": "PML-Q", "votes": 26896 }
+    ],
+    "totalVotes": 125831,
+    "voterTurnout": 76.4,
+    "id": 230,
+    "xGrid": 20,
+    "yGrid": 35,
+    "region": "Sheikhupura",
+    "province": "West Pak",
+    "seat": "NW-68",
+    "voteMargin": 34.9
+  },
+  {
+    "desc": "NW 69 Sheikhupura General Election 1970 Result",
+    "result": [
+      { "candidate": "Rai Shahadat Ali Khan", "party": "PPP", "votes": 58997 },
+      { "candidate": " ", "party": "PML-C", "votes": 33735 }
+    ],
+    "totalVotes": 92732,
+    "voterTurnout": 73.9,
+    "id": 231,
+    "xGrid": 19,
+    "yGrid": 33,
+    "region": "Sheikhupura",
+    "province": "West Pak",
+    "seat": "NW-69",
+    "voteMargin": 27.2
+  },
+  {
+    "desc": "NW 70 Gujranwala General Election 1970 Result",
+    "result": [
+      { "candidate": "Mian Manzoor e Hassan", "party": "PPP", "votes": 86160 },
+      { "candidate": "Abdul Aziz Zulfiqar", "party": "PML-C", "votes": 25710 }
+    ],
+    "totalVotes": 157746,
+    "voterTurnout": 67.8,
+    "id": 232,
+    "xGrid": 22,
+    "yGrid": 34,
+    "region": "Gujranwala",
+    "province": "West Pak",
+    "seat": "NW-70",
+    "voteMargin": 38.3
+  },
+  {
+    "desc": "NW 71 Gujranwala General Election 1970 Result",
+    "result": [
+      { "candidate": "Zulfiqar Ali Bajwa", "party": "PPP", "votes": 83718 },
+      { "candidate": "Ali M. Darriwal", "party": "PML-C", "votes": 43574 }
+    ],
+    "totalVotes": 170029,
+    "voterTurnout": 73.2,
+    "id": 233,
+    "xGrid": 23,
+    "yGrid": 32,
+    "region": "Gujranwala",
+    "province": "West Pak",
+    "seat": "NW-71",
+    "voteMargin": 23.6
+  },
+  {
+    "desc": "NW 72 Gujranwala General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Major (R) Ghulam Haider Cheema",
+        "party": "PPP",
+        "votes": 91229
+      },
+      {
+        "candidate": "Muhammad Nasir Khan Chattha",
+        "party": "PML-C",
+        "votes": 63836
+      }
+    ],
+    "totalVotes": 175236,
+    "voterTurnout": 77.1,
+    "id": 234,
+    "xGrid": 22,
+    "yGrid": 32,
+    "region": "Gujranwala",
+    "province": "West Pak",
+    "seat": "NW-72",
+    "voteMargin": 15.6
+  },
+  {
+    "desc": "NW 73 Gujranwala General Election 1970 Result",
+    "result": [
+      { "candidate": "Mian Shahadat Khan", "party": "PPP", "votes": 66386 },
+      { "candidate": "Saif Ullah Khan", "party": "Ind", "votes": 58687 }
+    ],
+    "totalVotes": 156560,
+    "voterTurnout": 78,
+    "id": 235,
+    "xGrid": 21,
+    "yGrid": 35,
+    "region": "Gujranwala",
+    "province": "West Pak",
+    "seat": "NW-73",
+    "voteMargin": 4.9
+  },
+  {
+    "desc": "NW 74 Sialkot General Election 1970 Result",
+    "result": [
+      { "candidate": "Mian Masood Ahmad", "party": "PPP", "votes": 93736 },
+      { "candidate": "Muhammad Alam", "party": "MJUP", "votes": 38843 }
+    ],
+    "totalVotes": 166153,
+    "voterTurnout": 77,
+    "id": 236,
+    "xGrid": 24,
+    "yGrid": 31,
+    "region": "Sialkot",
+    "province": "West Pak",
+    "seat": "NW-74",
+    "voteMargin": 33
+  },
+  {
+    "desc": "NW 75 Sialkot General Election 1970 Result",
+    "result": [
+      { "candidate": "Moulana Kausar Niazi", "party": "PPP", "votes": 96132 },
+      { "candidate": "Muhammad Ahmad", "party": "MJUP", "votes": 26443 }
+    ],
+    "totalVotes": 164483,
+    "voterTurnout": 72,
+    "id": 237,
+    "xGrid": 23,
+    "yGrid": 33,
+    "region": "Sialkot",
+    "province": "West Pak",
+    "seat": "NW-75",
+    "voteMargin": 42.4
+  },
+  {
+    "desc": "NW 76 Sialkot General Election 1970 Result",
+    "result": [
+      { "candidate": "Ch. Nasrullah Khan", "party": "PPP", "votes": 83266 },
+      { "candidate": "Abdul Wahid", "party": "PML-C", "votes": 15096 }
+    ],
+    "totalVotes": 126852,
+    "voterTurnout": 75.2,
+    "id": 238,
+    "xGrid": 23,
+    "yGrid": 31,
+    "region": "Sialkot",
+    "province": "West Pak",
+    "seat": "NW-76",
+    "voteMargin": 53.7
+  },
+  {
+    "desc": "NW 77 Sialkot General Election 1970 Result",
+    "result": [
+      { "candidate": "Malik Muhammad Suleman", "party": "PPP", "votes": 42296 },
+      { "candidate": "Ch. Abdul Raheem", "party": "MJUP", "votes": 23542 }
+    ],
+    "totalVotes": 138003,
+    "voterTurnout": 74.1,
+    "id": 239,
+    "xGrid": 24,
+    "yGrid": 32,
+    "region": "Sialkot",
+    "province": "West Pak",
+    "seat": "NW-77",
+    "voteMargin": 13.6
+  },
+  {
+    "desc": "NW 78 Sialkot General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Sultan Ahmad Cheema",
+        "party": "PPP",
+        "votes": 82609
+      },
+      { "candidate": "Muhammad Saeed", "party": "MJUP", "votes": 22667 }
+    ],
+    "totalVotes": 162851,
+    "voterTurnout": 73.1,
+    "id": 240,
+    "xGrid": 21,
+    "yGrid": 32,
+    "region": "Sialkot",
+    "province": "West Pak",
+    "seat": "NW-78",
+    "voteMargin": 36.8
+  },
+  {
+    "desc": "NW 79 Multan General Election 1970 Result",
+    "result": [
+      { "candidate": "Zulfiqar Ali Bhutto", "party": "PPP", "votes": 56360 },
+      { "candidate": "Moulana Hamid Ali Khan", "party": "MJUP", "votes": 41886 }
+    ],
+    "totalVotes": 127793,
+    "voterTurnout": 77.9,
+    "id": 241,
+    "xGrid": 20,
+    "yGrid": 37,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-79",
+    "voteMargin": 11.3
+  },
+  {
+    "desc": "NW 80 Multan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Nawab Sadiq Hussain Qureishi",
+        "party": "PPP",
+        "votes": 87557
+      },
+      {
+        "candidate": "Makhdoom Syed Alamdar Hussain Gillani",
+        "party": "PML-Q",
+        "votes": 26486
+      }
+    ],
+    "totalVotes": 128054,
+    "voterTurnout": 66.4,
+    "id": 242,
+    "xGrid": 17,
+    "yGrid": 38,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-80",
+    "voteMargin": 47.7
+  },
+  {
+    "desc": "NW 81 Multan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Sajid Abbas Hussain Gardezi",
+        "party": "PPP",
+        "votes": 50333
+      },
+      {
+        "candidate": "Sardar Allah Yar Khan Hiraj",
+        "party": "PML-C",
+        "votes": 25484
+      }
+    ],
+    "totalVotes": 139729,
+    "voterTurnout": 72.3,
+    "id": 243,
+    "xGrid": 16,
+    "yGrid": 36,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-81",
+    "voteMargin": 17.8
+  },
+  {
+    "desc": "NW 82 Multan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Zafarullah Khan Chaudhary",
+        "party": "Ind",
+        "votes": 50312
+      },
+      { "candidate": "Mian Qamar uz Zaman", "party": "PML-C", "votes": 28930 }
+    ],
+    "totalVotes": 109093,
+    "voterTurnout": 77.5,
+    "id": 244,
+    "xGrid": 16,
+    "yGrid": 37,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-82",
+    "voteMargin": 19.6
+  },
+  {
+    "desc": "NW 83 Multan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Ch. Barkatullah Advocate",
+        "party": "PPP",
+        "votes": 66830
+      },
+      { "candidate": "Khan Aftab Ahmad Khan", "party": "PML-Q", "votes": 28675 }
+    ],
+    "totalVotes": 125171,
+    "voterTurnout": 65.5,
+    "id": 245,
+    "xGrid": 16,
+    "yGrid": 39,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-83",
+    "voteMargin": 30.5
+  },
+  {
+    "desc": "NW 84 Multan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Mian Mumtaz Muhammad Khan Daultana",
+        "party": "PML-C",
+        "votes": 67739
+      },
+      {
+        "candidate": "Barrister Taj Muhammad Khan Langah",
+        "party": "PPP",
+        "votes": 52413
+      }
+    ],
+    "totalVotes": 145217,
+    "voterTurnout": 71.7,
+    "id": 246,
+    "xGrid": 15,
+    "yGrid": 39,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-84",
+    "voteMargin": 10.6
+  },
+  {
+    "desc": "NW 85 Multan General Election 1970 Result",
+    "result": [
+      { "candidate": "Khan Irshad Ahmad Khan", "party": "PPP", "votes": 65004 },
+      { "candidate": "Nawaz Khan", "party": "PML-Q", "votes": 32722 }
+    ],
+    "totalVotes": 137519,
+    "voterTurnout": 78.1,
+    "id": 247,
+    "xGrid": 17,
+    "yGrid": 39,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-85",
+    "voteMargin": 23.5
+  },
+  {
+    "desc": "NW 86 Multan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Syed Nasir Ali Shah Rizvi",
+        "party": "PPP",
+        "votes": 84430
+      },
+      { "candidate": "Muhammad Kabir Khan", "party": "PML-Q", "votes": 26936 }
+    ],
+    "totalVotes": 149060,
+    "voterTurnout": 77.2,
+    "id": 248,
+    "xGrid": 15,
+    "yGrid": 40,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-86",
+    "voteMargin": 38.6
+  },
+  {
+    "desc": "NW 87 Multan General Election 1970 Result",
+    "result": [
+      { "candidate": "Rana Taj Ahmad Noon", "party": "PPP", "votes": 82513 },
+      { "candidate": "Hamid Shah", "party": "PML-Q", "votes": 44116 }
+    ],
+    "totalVotes": 126629,
+    "voterTurnout": 74.3,
+    "id": 249,
+    "xGrid": 16,
+    "yGrid": 38,
+    "region": "Multan",
+    "province": "West Pak",
+    "seat": "NW-87",
+    "voteMargin": 30.3
+  },
+  {
+    "desc": "NW 88 Dera Ghazi Khan General Election 1970 Result",
+    "result": [
+      { "candidate": "Nazir Ahmad", "party": "JI", "votes": 32827 },
+      { "candidate": "Khawja Qutub Uddin", "party": "MJUP", "votes": 30155 }
+    ],
+    "totalVotes": 127174,
+    "voterTurnout": 77.9,
+    "id": 250,
+    "xGrid": 14,
+    "yGrid": 37,
+    "region": "Dera Ghazi Khan",
+    "province": "West Pak",
+    "seat": "NW-88",
+    "voteMargin": 2.1
+  },
+  {
+    "desc": "NW 89 Dera Ghazi Khan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Sardar Sher Baz Khan Mazari",
+        "party": "Ind",
+        "votes": 98164
+      },
+      { "candidate": "Shaukat Hussain Mazari", "party": "PPP", "votes": 31813 }
+    ],
+    "totalVotes": 143119,
+    "voterTurnout": 54.4,
+    "id": 251,
+    "xGrid": 13,
+    "yGrid": 41,
+    "region": "Dera Ghazi Khan",
+    "province": "West Pak",
+    "seat": "NW-89",
+    "voteMargin": 46.4
+  },
+  {
+    "desc": "NW 90 Muzaffargarh General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Mahar Manzoor Hussain Sumra",
+        "party": "PPP",
+        "votes": 55262
+      },
+      { "candidate": "Pir of Baroo Sahib", "party": "MJUP", "votes": 49476 }
+    ],
+    "totalVotes": 154520,
+    "voterTurnout": 60.3,
+    "id": 252,
+    "xGrid": 15,
+    "yGrid": 36,
+    "region": "Muzaffargarh",
+    "province": "West Pak",
+    "seat": "NW-90",
+    "voteMargin": 3.7
+  },
+  {
+    "desc": "NW 91 Muzaffargarh General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Muhammad Mustafa Khar",
+        "party": "PPP",
+        "votes": 41741
+      },
+      {
+        "candidate": "Nawabzada Nasrullah Khan",
+        "party": "PDP",
+        "votes": 32330
+      }
+    ],
+    "totalVotes": 141916,
+    "voterTurnout": 59.7,
+    "id": 253,
+    "xGrid": 15,
+    "yGrid": 37,
+    "region": "Muzaffargarh",
+    "province": "West Pak",
+    "seat": "NW-91",
+    "voteMargin": 6.6
+  },
+  {
+    "desc": "NW 92 Muzaffargarh General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Ibrahim Barq",
+        "party": "MJUP",
+        "votes": 53517
+      },
+      {
+        "candidate": "Nawabzada Nasrullah Khan",
+        "party": "PDP",
+        "votes": 46407
+      }
+    ],
+    "totalVotes": 150892,
+    "voterTurnout": 73.4,
+    "id": 254,
+    "xGrid": 14,
+    "yGrid": 39,
+    "region": "Muzaffargarh",
+    "province": "West Pak",
+    "seat": "NW-92",
+    "voteMargin": 4.7
+  },
+  {
+    "desc": "NW 93 Sahiwal General Election 1970 Result",
+    "result": [
+      { "candidate": "Sardar Abdul Aleem", "party": "PPP", "votes": 72363 },
+      { "candidate": "Chaudhary Taj Uddin", "party": "MJUP", "votes": 18758 }
+    ],
+    "totalVotes": 119966,
+    "voterTurnout": 76.2,
+    "id": 255,
+    "xGrid": 21,
+    "yGrid": 38,
+    "region": "Sahiwal",
+    "province": "West Pak",
+    "seat": "NW-93",
+    "voteMargin": 44.7
+  },
+  {
+    "desc": "NW 94 Sahiwal General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Hanif Khan",
+        "party": "PPP",
+        "votes": 61927
+      },
+      { "candidate": "Rai Muhammad Iqbal", "party": "PML-C", "votes": 19465 }
+    ],
+    "totalVotes": 117265,
+    "voterTurnout": 65.8,
+    "id": 256,
+    "xGrid": 21,
+    "yGrid": 37,
+    "region": "Sahiwal",
+    "province": "West Pak",
+    "seat": "NW-94",
+    "voteMargin": 36.2
+  },
+  {
+    "desc": "NW 95 Sahiwal General Election 1970 Result",
+    "result": [
+      { "candidate": "Haji Muhammad Sadiq", "party": "PPP", "votes": 69174 },
+      { "candidate": "Mian Abdul Haq", "party": "PML-Q", "votes": 25842 }
+    ],
+    "totalVotes": 114699,
+    "voterTurnout": 64.5,
+    "id": 257,
+    "xGrid": 22,
+    "yGrid": 37,
+    "region": "Sahiwal",
+    "province": "West Pak",
+    "seat": "NW-95",
+    "voteMargin": 37.8
+  },
+  {
+    "desc": "NW 96 Sahiwal General Election 1970 Result",
+    "result": [
+      { "candidate": "Rao Khurshid Ali Khan", "party": "PPP", "votes": 69012 },
+      {
+        "candidate": "Colonel (R) Syed Mukhtar Hussain",
+        "party": "Ind",
+        "votes": 25588
+      }
+    ],
+    "totalVotes": 121623,
+    "voterTurnout": 65.3,
+    "id": 258,
+    "xGrid": 20,
+    "yGrid": 38,
+    "region": "Sahiwal",
+    "province": "West Pak",
+    "seat": "NW-96",
+    "voteMargin": 35.7
+  },
+  {
+    "desc": "NW 97 Sahiwal General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Hassan Khan",
+        "party": "PPP",
+        "votes": 68056
+      },
+      {
+        "candidate": "Mian Muhammad Yaseen Khan Watto",
+        "party": "CML",
+        "votes": 44757
+      }
+    ],
+    "totalVotes": 169574,
+    "voterTurnout": 67.8,
+    "id": 259,
+    "xGrid": 19,
+    "yGrid": 36,
+    "region": "Sahiwal",
+    "province": "West Pak",
+    "seat": "NW-97",
+    "voteMargin": 13.7
+  },
+  {
+    "desc": "NW 98 Sahiwal General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Rao Muhammad Hashim Khan",
+        "party": "PPP",
+        "votes": 84658
+      },
+      {
+        "candidate": "Dewan Qutub Ud Din Chishti",
+        "party": "PML-Q",
+        "votes": 42592
+      }
+    ],
+    "totalVotes": 127250,
+    "voterTurnout": 75.9,
+    "id": 260,
+    "xGrid": 18,
+    "yGrid": 38,
+    "region": "Sahiwal",
+    "province": "West Pak",
+    "seat": "NW-98",
+    "voteMargin": 33.1
+  },
+  {
+    "desc": "NW 99 Sahiwal General Election 1970 Result",
+    "result": [
+      { "candidate": "Noor Muhammad", "party": "PPP", "votes": 58354 },
+      { "candidate": "Rana Khuda Dad Khan", "party": "PML-C", "votes": 27122 }
+    ],
+    "totalVotes": 111101,
+    "voterTurnout": 68.4,
+    "id": 261,
+    "xGrid": 19,
+    "yGrid": 38,
+    "region": "Sahiwal",
+    "province": "West Pak",
+    "seat": "NW-99",
+    "voteMargin": 28.1
+  },
+  {
+    "desc": "NW 100 Bahawalpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Nizam Uddin Haidar", "party": "PML-C", "votes": 68062 },
+      { "candidate": "Ghulam Jaffar", "party": "PPP", "votes": 25358 }
+    ],
+    "totalVotes": 126340,
+    "voterTurnout": 65.8,
+    "id": 262,
+    "xGrid": 16,
+    "yGrid": 40,
+    "region": "Bahawalpur",
+    "province": "West Pak",
+    "seat": "NW-100",
+    "voteMargin": 33.8
+  },
+  {
+    "desc": "NW 101 Bahawalpur General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Shahzada Saeed Ur Rasheed Abbasi",
+        "party": "Ind",
+        "votes": 99640
+      },
+      { "candidate": "Moulana Habib Ullah", "party": "JUI", "votes": 25024 }
+    ],
+    "totalVotes": 136866,
+    "voterTurnout": 71,
+    "id": 263,
+    "xGrid": 18,
+    "yGrid": 40,
+    "region": "Bahawalpur",
+    "province": "West Pak",
+    "seat": "NW-101",
+    "voteMargin": 54.5
+  },
+  {
+    "desc": "NW 102 Bahawalnagar Bahawalpur General Election 1970 Result",
+    "result": [
+      { "candidate": "Doctor Muhammad Shafi", "party": "PPP", "votes": 47112 },
+      { "candidate": "Ali Muhammad Khan", "party": "PML-C", "votes": 15285 }
+    ],
+    "totalVotes": 106462,
+    "voterTurnout": 67.6,
+    "id": 264,
+    "xGrid": 16,
+    "yGrid": 42,
+    "region": "Bahawalnagar",
+    "province": "West Pak",
+    "seat": "NW-102",
+    "voteMargin": 29.9
+  },
+  {
+    "desc": "NW 103 Bahawalnagar General Election 1970 Result",
+    "result": [
+      { "candidate": "Syed Rafiq Shah", "party": "PML-Q", "votes": 44322 },
+      { "candidate": "Ahmad", "party": "PPP", "votes": 39979 }
+    ],
+    "totalVotes": 84301,
+    "voterTurnout": 63.9,
+    "id": 265,
+    "xGrid": 19,
+    "yGrid": 40,
+    "region": "Bahawalnagar",
+    "province": "West Pak",
+    "seat": "NW-103",
+    "voteMargin": 5.2
+  },
+  {
+    "desc": "NW 104 Bahawalnagar General Election 1970 Result",
+    "result": [
+      { "candidate": "Mian Muhammad Rafiq", "party": "PPP", "votes": 47721 },
+      { "candidate": "Malik Muhammad Qasim", "party": "CML", "votes": 23714 }
+    ],
+    "totalVotes": 109423,
+    "voterTurnout": 69.3,
+    "id": 266,
+    "xGrid": 18,
+    "yGrid": 37,
+    "region": "Bahawalnagar",
+    "province": "West Pak",
+    "seat": "NW-104",
+    "voteMargin": 21.9
+  },
+  {
+    "desc": "NW 105 Rahim Yar Khan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Khawja Jamal Muhammad Korija",
+        "party": "CML",
+        "votes": 62481
+      },
+      {
+        "candidate": "Muhammad Mohsin Shah Jillani",
+        "party": "MJUP",
+        "votes": 45589
+      }
+    ],
+    "totalVotes": 135225,
+    "voterTurnout": 67.5,
+    "id": 267,
+    "xGrid": 14,
+    "yGrid": 42,
+    "region": "Rahim Yar Khan",
+    "province": "West Pak",
+    "seat": "NW-105",
+    "voteMargin": 12.5
+  },
+  {
+    "desc": "NW 106 Rahim Yar Khan General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Major (R) Abdul Nabi Kanjo",
+        "party": "PPP",
+        "votes": 49514
+      },
+      { "candidate": "Doctor Chaudhary Bashir", "party": "JI", "votes": 27253 }
+    ],
+    "totalVotes": 120602,
+    "voterTurnout": 68.3,
+    "id": 268,
+    "xGrid": 14,
+    "yGrid": 43,
+    "region": "Rahim Yar Khan",
+    "province": "West Pak",
+    "seat": "NW-106",
+    "voteMargin": 18.5
+  },
+  {
+    "desc": "NW 107 Rahim Yar Khan General Election 1970 Result",
+    "result": [
+      { "candidate": "Makhdoom Noor Muhammad", "party": "Ind", "votes": 54965 },
+      {
+        "candidate": "Makhdoom Syed Hassan Mehmood",
+        "party": "PML-Q",
+        "votes": 48538
+      }
+    ],
+    "totalVotes": 147576,
+    "voterTurnout": 76,
+    "id": 269,
+    "xGrid": 13,
+    "yGrid": 42,
+    "region": "Rahim Yar Khan",
+    "province": "West Pak",
+    "seat": "NW-107",
+    "voteMargin": 4.4
+  },
+  {
+    "desc": "NW 108 Jacobabad General Election 1970 Result",
+    "result": [
+      { "candidate": "Mir Darya Khan Khoso", "party": "PPP", "votes": 44920 },
+      { "candidate": "Mehran Khan", "party": "Ind", "votes": 43189 }
+    ],
+    "totalVotes": 142611,
+    "voterTurnout": 62.2,
+    "id": 270,
+    "xGrid": 10,
+    "yGrid": 43,
+    "region": "Jacobabad",
+    "province": "West Pak",
+    "seat": "NW-108",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NW 109 Sukkur General Election 1970 Result",
+    "result": [
+      { "candidate": "Sardar Moula Bux Somro", "party": "Ind", "votes": 31953 },
+      { "candidate": "Agha Ghulam Nabi Pathan", "party": "PPP", "votes": 30543 }
+    ],
+    "totalVotes": 85971,
+    "voterTurnout": 57.3,
+    "id": 271,
+    "xGrid": 9,
+    "yGrid": 44,
+    "region": "Sukkur",
+    "province": "West Pak",
+    "seat": "NW-109",
+    "voteMargin": 1.6
+  },
+  {
+    "desc": "NW 110 Sukkur General Election 1970 Result",
+    "result": [
+      { "candidate": "Ali Hassan Mangi", "party": "Ind", "votes": 36741 },
+      { "candidate": "Mufti Muhammad Hussain", "party": "MJUP", "votes": 22813 }
+    ],
+    "totalVotes": 90978,
+    "voterTurnout": 58.5,
+    "id": 272,
+    "xGrid": 11,
+    "yGrid": 45,
+    "region": "Sukkur",
+    "province": "West Pak",
+    "seat": "NW-110",
+    "voteMargin": 15.3
+  },
+  {
+    "desc": "NW 111 Sukkur General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Noor Muhammad Khan Lund",
+        "party": "PPP",
+        "votes": 66215
+      },
+      {
+        "candidate": "Sardar Ghulam Muhammad Mahar",
+        "party": "PML-Q",
+        "votes": 48188
+      }
+    ],
+    "totalVotes": 141468,
+    "voterTurnout": 68.5,
+    "id": 273,
+    "xGrid": 12,
+    "yGrid": 44,
+    "region": "Sukkur",
+    "province": "West Pak",
+    "seat": "NW-111",
+    "voteMargin": 12.7
+  },
+  {
+    "desc": "NW 112 Nawabshah General Election 1970 Result",
+    "result": [
+      { "candidate": "Hakim Ali Zardari", "party": "PPP", "votes": 63845 },
+      { "candidate": "Shabir Ahmad Shah", "party": "Ind", "votes": 52215 }
+    ],
+    "totalVotes": 153000,
+    "voterTurnout": 67.9,
+    "id": 274,
+    "xGrid": 8,
+    "yGrid": 46,
+    "region": "Nawabshah",
+    "province": "West Pak",
+    "seat": "NW-112",
+    "voteMargin": 7.6
+  },
+  {
+    "desc": "NW 113 Nawabshah General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Mustafa Khan Jatoi",
+        "party": "PPP",
+        "votes": 87597
+      },
+      { "candidate": "Syed Zafar Ali Shah", "party": "Ind", "votes": 55166 }
+    ],
+    "totalVotes": 164468,
+    "voterTurnout": 72.5,
+    "id": 275,
+    "xGrid": 9,
+    "yGrid": 48,
+    "region": "Nawabshah",
+    "province": "West Pak",
+    "seat": "NW-113",
+    "voteMargin": 19.7
+  },
+  {
+    "desc": "NW 114 Khairpur General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Syed Qaim Ali Shah Jillani",
+        "party": "PPP",
+        "votes": 58565
+      },
+      { "candidate": "Syed Ghous Ali Shah", "party": "PML-Q", "votes": 38096 }
+    ],
+    "totalVotes": 112832,
+    "voterTurnout": 68.1,
+    "id": 276,
+    "xGrid": 10,
+    "yGrid": 45,
+    "region": "Khairpur",
+    "province": "West Pak",
+    "seat": "NW-114",
+    "voteMargin": 18.1
+  },
+  {
+    "desc": "NW 115 Khairpur General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Pir Syed Abdul Qadir Shah Jillani",
+        "party": "PPP",
+        "votes": 69872
+      },
+      {
+        "candidate": "Peer Syed Abbas Ali Shah",
+        "party": "PML-Q",
+        "votes": 16006
+      }
+    ],
+    "totalVotes": 97047,
+    "voterTurnout": 62.8,
+    "id": 277,
+    "xGrid": 11,
+    "yGrid": 47,
+    "region": "Khairpur",
+    "province": "West Pak",
+    "seat": "NW-115",
+    "voteMargin": 55.5
+  },
+  {
+    "desc": "NW 116 Larkana General Election 1970 Result",
+    "result": [
+      { "candidate": "Zulfiqar Ali Bhutto", "party": "PPP", "votes": 71554 },
+      { "candidate": "Muhammad Ayub Khoro", "party": "PML-C", "votes": 31150 }
+    ],
+    "totalVotes": 106316,
+    "voterTurnout": 67.2,
+    "id": 278,
+    "xGrid": 8,
+    "yGrid": 45,
+    "region": "Larkana",
+    "province": "West Pak",
+    "seat": "NW-116",
+    "voteMargin": 38
+  },
+  {
+    "desc": "NW 117 Larkana General Election 1970 Result",
+    "result": [
+      { "candidate": "Mumtaz Ali Khan Bhutto", "party": "PPP", "votes": 58111 },
+      { "candidate": "Qazi Faiz Ullah", "party": "CML", "votes": 29455 }
+    ],
+    "totalVotes": 104872,
+    "voterTurnout": 62.1,
+    "id": 279,
+    "xGrid": 7,
+    "yGrid": 44,
+    "region": "Larkana",
+    "province": "West Pak",
+    "seat": "NW-117",
+    "voteMargin": 27.3
+  },
+  {
+    "desc": "NW 118 Hyderabad General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Moulana Syed Muhammad Ali Rizvi",
+        "party": "MJUP",
+        "votes": 34941
+      },
+      {
+        "candidate": "Moulana Wasi Mazhar Nadvi",
+        "party": "JI",
+        "votes": 32768
+      }
+    ],
+    "totalVotes": 103221,
+    "voterTurnout": 61.2,
+    "id": 280,
+    "xGrid": 9,
+    "yGrid": 51,
+    "region": "Hyderabad",
+    "province": "West Pak",
+    "seat": "NW-118",
+    "voteMargin": 2.1
+  },
+  {
+    "desc": "NW 119 Hyderabad General Election 1970 Result",
+    "result": [
+      { "candidate": "Mir Ejaz Ali Talpur", "party": "PPP", "votes": 75184 },
+      { "candidate": "Qazi Muhammad Akbar", "party": "PML-C", "votes": 19590 }
+    ],
+    "totalVotes": 114729,
+    "voterTurnout": 56.7,
+    "id": 281,
+    "xGrid": 10,
+    "yGrid": 50,
+    "region": "Hyderabad",
+    "province": "West Pak",
+    "seat": "NW-119",
+    "voteMargin": 48.5
+  },
+  {
+    "desc": "NW 120 Hyderabad General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Makhdoom Muhammad Zaman Talibul Moula",
+        "party": "PPP",
+        "votes": 73241
+      },
+      { "candidate": "Z A Shah Jamote", "party": "PML-Q", "votes": 31436 }
+    ],
+    "totalVotes": 110103,
+    "voterTurnout": 68.9,
+    "id": 282,
+    "xGrid": 9,
+    "yGrid": 52,
+    "region": "Hyderabad",
+    "province": "West Pak",
+    "seat": "NW-120",
+    "voteMargin": 38
+  },
+  {
+    "desc": "NW 121 Hyderabad General Election 1970 Result",
+    "result": [
+      { "candidate": "Zulfiqar Ali Bhutto", "party": "PPP", "votes": 64856 },
+      {
+        "candidate": "Haji Naeem Ud Din Laghari",
+        "party": "PML-C",
+        "votes": 29567
+      }
+    ],
+    "totalVotes": 96103,
+    "voterTurnout": 53.5,
+    "id": 283,
+    "xGrid": 11,
+    "yGrid": 52,
+    "region": "Hyderabad",
+    "province": "West Pak",
+    "seat": "NW-121",
+    "voteMargin": 36.7
+  },
+  {
+    "desc": "NW 122 Tharparkar General Election 1970 Result",
+    "result": [
+      { "candidate": "Mir Ali Bakhsh Khan", "party": "PPP", "votes": 69427 },
+      {
+        "candidate": "Ghulam Muhammad Khan Wassan",
+        "party": "PML-C",
+        "votes": 67570
+      }
+    ],
+    "totalVotes": 158037,
+    "voterTurnout": 60.8,
+    "id": 284,
+    "xGrid": 11,
+    "yGrid": 50,
+    "region": "Tharparkar",
+    "province": "West Pak",
+    "seat": "NW-122",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NW 123 Tharparkar General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Meer Ghulam Rasool Shah Jillani",
+        "party": "PPP",
+        "votes": 75638
+      },
+      { "candidate": "Muhammad Yousif", "party": "JI", "votes": 17414 }
+    ],
+    "totalVotes": 94354,
+    "voterTurnout": 43.7,
+    "id": 285,
+    "xGrid": 13,
+    "yGrid": 52,
+    "region": "Tharparkar",
+    "province": "West Pak",
+    "seat": "NW-123",
+    "voteMargin": 61.7
+  },
+  {
+    "desc": "NW 124 Dadu General Election 1970 Result",
+    "result": [
+      { "candidate": "Abdul Hameed Jatoi", "party": "PPP", "votes": 74242 },
+      {
+        "candidate": "Pir Syed Abdul Ghaffar Ali Shah",
+        "party": "PML-Q",
+        "votes": 33751
+      }
+    ],
+    "totalVotes": 113145,
+    "voterTurnout": 66.5,
+    "id": 286,
+    "xGrid": 7,
+    "yGrid": 46,
+    "region": "Dadu",
+    "province": "West Pak",
+    "seat": "NW-124",
+    "voteMargin": 35.8
+  },
+  {
+    "desc": "NW 125 Dadu General Election 1970 Result",
+    "result": [
+      { "candidate": "Malik Sikandar Khan", "party": "PPP", "votes": 51373 },
+      { "candidate": "Pir Syed Saleh Shah", "party": "PML-Q", "votes": 16797 }
+    ],
+    "totalVotes": 78762,
+    "voterTurnout": 57.5,
+    "id": 287,
+    "xGrid": 7,
+    "yGrid": 49,
+    "region": "Dadu",
+    "province": "West Pak",
+    "seat": "NW-125",
+    "voteMargin": 43.9
+  },
+  {
+    "desc": "NW 126 Sanghar General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Rais Atta Muhammad Marri",
+        "party": "PML-Q",
+        "votes": 98600
+      },
+      { "candidate": "Haji Fateh Uddin Khan", "party": "PPP", "votes": 73968 }
+    ],
+    "totalVotes": 189756,
+    "voterTurnout": 62.8,
+    "id": 288,
+    "xGrid": 12,
+    "yGrid": 49,
+    "region": "Sanghar",
+    "province": "West Pak",
+    "seat": "NW-126",
+    "voteMargin": 13
+  },
+  {
+    "desc": "NW 127 Thatta General Election 1970 Result",
+    "result": [
+      { "candidate": "Zulfiqar Ali Bhutto", "party": "PPP", "votes": 67368 },
+      {
+        "candidate": "Muhammad Yousif Khan Chandio",
+        "party": "PML-Q",
+        "votes": 22696
+      }
+    ],
+    "totalVotes": 96039,
+    "voterTurnout": 56.9,
+    "id": 289,
+    "xGrid": 8,
+    "yGrid": 53,
+    "region": "Thatta",
+    "province": "West Pak",
+    "seat": "NW-127",
+    "voteMargin": 46.5
+  },
+  {
+    "desc": "NW 128 Karachi General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Moulana Abdul Mustafa Al Azhari",
+        "party": "MJUP",
+        "votes": 38558
+      },
+      { "candidate": "Akbar Khan", "party": "PPP", "votes": 29462 }
+    ],
+    "totalVotes": 106303,
+    "voterTurnout": 55.4,
+    "id": 290,
+    "xGrid": 5,
+    "yGrid": 52,
+    "region": "Karachi",
+    "province": "West Pak",
+    "seat": "NW-128",
+    "voteMargin": 8.6
+  },
+  {
+    "desc": "NW 129 Karachi General Election 1970 Result",
+    "result": [
+      { "candidate": "Abdul Hafeez Pirzada", "party": "PPP", "votes": 63839 },
+      { "candidate": "Syed Zakir Ali", "party": "JI", "votes": 26431 }
+    ],
+    "totalVotes": 131202,
+    "voterTurnout": 52.4,
+    "id": 291,
+    "xGrid": 7,
+    "yGrid": 51,
+    "region": "Karachi",
+    "province": "West Pak",
+    "seat": "NW-129",
+    "voteMargin": 28.5
+  },
+  {
+    "desc": "NW 130 Karachi General Election 1970 Result",
+    "result": [
+      { "candidate": "Abdul Sattar Gabol", "party": "PPP", "votes": 48444 },
+      { "candidate": "Sufi Ayaz Khan", "party": "MJUP", "votes": 15108 }
+    ],
+    "totalVotes": 99783,
+    "voterTurnout": 53.8,
+    "id": 292,
+    "xGrid": 4,
+    "yGrid": 52,
+    "region": "Karachi",
+    "province": "West Pak",
+    "seat": "NW-130",
+    "voteMargin": 33.4
+  },
+  {
+    "desc": "NW 131 Karachi General Election 1970 Result",
+    "result": [
+      { "candidate": "Mehmood Azam Farooqi", "party": "JI", "votes": 48785 },
+      {
+        "candidate": "Moulana Muhammad Shafi Okarvi",
+        "party": "MJUP",
+        "votes": 48737
+      }
+    ],
+    "totalVotes": 139705,
+    "voterTurnout": 53.5,
+    "id": 293,
+    "xGrid": 5,
+    "yGrid": 51,
+    "region": "Karachi",
+    "province": "West Pak",
+    "seat": "NW-131",
+    "voteMargin": 0
+  },
+  {
+    "desc": "NW 132 Karachi General Election 1970 Result",
+    "result": [
+      { "candidate": "Professor Ghafor Ahmad", "party": "JI", "votes": 39878 },
+      { "candidate": "Malik Shahbuddin", "party": "MJUP", "votes": 23680 }
+    ],
+    "totalVotes": 97797,
+    "voterTurnout": 58.3,
+    "id": 294,
+    "xGrid": 6,
+    "yGrid": 52,
+    "region": "Karachi",
+    "province": "West Pak",
+    "seat": "NW-132",
+    "voteMargin": 16.6
+  },
+  {
+    "desc": "NW 133 Karachi General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Moulana Zafar Ahmad Ansari",
+        "party": "Ind",
+        "votes": 50230
+      },
+      { "candidate": "Kamal Azfar", "party": "PPP", "votes": 26783 }
+    ],
+    "totalVotes": 98961,
+    "voterTurnout": 54.4,
+    "id": 295,
+    "xGrid": 6,
+    "yGrid": 51,
+    "region": "Karachi",
+    "province": "West Pak",
+    "seat": "NW-133",
+    "voteMargin": 23.7
+  },
+  {
+    "desc": "NW 134 Karachi General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Moulana Shah Ahmad Noorani",
+        "party": "MJUP",
+        "votes": 28304
+      },
+      { "candidate": "Noor ul Arfin", "party": "PPP", "votes": 22609 }
+    ],
+    "totalVotes": 90775,
+    "voterTurnout": 61.1,
+    "id": 296,
+    "xGrid": 6,
+    "yGrid": 50,
+    "region": "Karachi",
+    "province": "West Pak",
+    "seat": "NW-134",
+    "voteMargin": 6.3
+  },
+  {
+    "desc": "NW 135 Quetta General Election 1970 Result",
+    "result": [
+      { "candidate": "Molvi Abdul Haq", "party": "JUI", "votes": 32065 },
+      { "candidate": "Saleh Mehmood Khan", "party": "Ind", "votes": 20226 }
+    ],
+    "totalVotes": 70908,
+    "voterTurnout": 34.4,
+    "id": 297,
+    "xGrid": 5,
+    "yGrid": 37,
+    "region": "Quetta",
+    "province": "West Pak",
+    "seat": "NW-135",
+    "voteMargin": 16.7
+  },
+  {
+    "desc": "NW 136 Quetta General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Sardar Khair Bakhsh Khan Mari",
+        "party": "NAP-W",
+        "votes": 106913
+      },
+      {
+        "candidate": "Mir Taj Muhammad Khan Jamali",
+        "party": "PML-C",
+        "votes": 34672
+      }
+    ],
+    "totalVotes": 167483,
+    "voterTurnout": 52.8,
+    "id": 298,
+    "xGrid": 9,
+    "yGrid": 38,
+    "region": "Quetta",
+    "province": "West Pak",
+    "seat": "NW-136",
+    "voteMargin": 43.1
+  },
+  {
+    "desc": "NW 137 Kalat General Election 1970 Result",
+    "result": [
+      { "candidate": "Dr. Abdul Hai Baloch", "party": "NAP-W", "votes": 32561 },
+      { "candidate": "Muhammad Umar", "party": "JUI", "votes": 15765 }
+    ],
+    "totalVotes": 69743,
+    "voterTurnout": 33,
+    "id": 299,
+    "xGrid": 6,
+    "yGrid": 41,
+    "region": "Kalat",
+    "province": "West Pak",
+    "seat": "NW-137",
+    "voteMargin": 24.1
+  },
+  {
+    "desc": "NW 138 Kalat General Election 1970 Result",
+    "result": [
+      {
+        "candidate": "Mir Ghous Bakhsh Khan Bazanjo",
+        "party": "NAP-W",
+        "votes": 29330
+      },
+      { "candidate": "Shahzada Mohi Ud Din", "party": "PML-Q", "votes": 22866 }
+    ],
+    "totalVotes": 63784,
+    "voterTurnout": 35,
+    "id": 300,
+    "xGrid": 0,
+    "yGrid": 46,
+    "region": "Kalat",
+    "province": "West Pak",
+    "seat": "NW-138",
+    "voteMargin": 10.1
+  }
+]

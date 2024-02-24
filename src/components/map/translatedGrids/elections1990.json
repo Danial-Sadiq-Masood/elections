@@ -1,0 +1,3948 @@
+[
+  {
+    "desc": "NA 1 Peshawar Election 1990 Result",
+    "result": [
+      { "candidate": "Ghulam Ahmad Bilour", "party": "ANP", "votes": "51233" },
+      {
+        "candidate": "Mohtarma Benazir Bhutto",
+        "party": "PDA",
+        "votes": "38951"
+      }
+    ],
+    "id": 1,
+    "xGrid": 17,
+    "yGrid": 5,
+    "totalVotes": 95307,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-1",
+    "voteMargin": 12.9
+  },
+  {
+    "desc": "NA 2 Peshawar  Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Arbab Muhammad Jehangir Khan",
+        "party": "ANP",
+        "votes": "31222"
+      },
+      {
+        "candidate": "Aftab Ahmad Khan Sherpao",
+        "party": "PDA",
+        "votes": "19137"
+      }
+    ],
+    "id": 2,
+    "xGrid": 18,
+    "yGrid": 5,
+    "totalVotes": 64557,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-2",
+    "voteMargin": 18.7
+  },
+  {
+    "desc": "NA 3 Peshawar Election 1990 Result",
+    "result": [
+      { "candidate": "Arbab Muhammad Zahir", "party": "ANP", "votes": "38730" },
+      { "candidate": "Abdul Latif", "party": "PDA", "votes": "19977" }
+    ],
+    "id": 3,
+    "xGrid": 18,
+    "yGrid": 6,
+    "totalVotes": 81746,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-3",
+    "voteMargin": 22.9
+  },
+  {
+    "desc": "NA 4 Nowshera Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Ajmal Khan Khattak",
+        "party": "ANP",
+        "votes": "38389"
+      },
+      { "candidate": "Pervaiz Khan Khattak", "party": "PDA", "votes": "25722" }
+    ],
+    "id": 4,
+    "xGrid": 17,
+    "yGrid": 6,
+    "totalVotes": 81711,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-4",
+    "voteMargin": 15.5
+  },
+  {
+    "desc": "Election 1990 Result NA 5 Charsadda",
+    "result": [
+      { "candidate": "Molvi Hassan Jan", "party": "JUI-F", "votes": "66452" },
+      { "candidate": "Abdul Wali Khan", "party": "ANP", "votes": "52929" }
+    ],
+    "id": 5,
+    "xGrid": 19,
+    "yGrid": 6,
+    "totalVotes": 121616,
+    "region": "Charsadda",
+    "province": "KP",
+    "seat": "NA-5",
+    "voteMargin": 11.1
+  },
+  {
+    "desc": "NA 6 Mardan-I Election 1990 Result",
+    "result": [
+      { "candidate": "Muhammad Azam Khan", "party": "ANP", "votes": "35880" },
+      { "candidate": "Khanzada Khan", "party": "PDA", "votes": "28616" }
+    ],
+    "id": 6,
+    "xGrid": 19,
+    "yGrid": 7,
+    "totalVotes": 86731,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-6",
+    "voteMargin": 8.4
+  },
+  {
+    "desc": "NA 7 Mardan General Election 1990 Result",
+    "result": [
+      { "candidate": "Khan Mir Afzal Khan", "party": "IJI", "votes": "37452" },
+      { "candidate": "Rahim Dad Khan", "party": "PDA", "votes": "24813" }
+    ],
+    "id": 7,
+    "xGrid": 19,
+    "yGrid": 5,
+    "totalVotes": 84154,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-7",
+    "voteMargin": 15
+  },
+  {
+    "desc": "NA 8 Swabi General Election 1990 Result",
+    "result": [
+      { "candidate": "Rehmanullah", "party": "ANP", "votes": "51909" },
+      { "candidate": "Saleem Khan", "party": "PDA", "votes": "28750" }
+    ],
+    "id": 8,
+    "xGrid": 20,
+    "yGrid": 6,
+    "totalVotes": 114425,
+    "region": "Swabi",
+    "province": "KP",
+    "seat": "NA-8",
+    "voteMargin": 20.2
+  },
+  {
+    "desc": "NA 9 Kohat General Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Iftikhar Hussain Gillani",
+        "party": "PDA",
+        "votes": "27848"
+      },
+      { "candidate": "Molvi Niamatullah", "party": "IJI", "votes": "26493" }
+    ],
+    "id": 9,
+    "xGrid": 18,
+    "yGrid": 8,
+    "totalVotes": 88219,
+    "region": "Kohat",
+    "province": "KP",
+    "seat": "NA-9",
+    "voteMargin": 1.5
+  },
+  {
+    "desc": "NA 10 Karak Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Al Haj Muhammad Aslam Khan Khattak",
+        "party": "Ind",
+        "votes": "27866"
+      },
+      { "candidate": "Moulana Shaheed Ahmad", "party": "IJI", "votes": "14684" }
+    ],
+    "id": 10,
+    "xGrid": 17,
+    "yGrid": 10,
+    "totalVotes": 55935,
+    "region": "Karak",
+    "province": "KP",
+    "seat": "NA-10",
+    "voteMargin": 23.6
+  },
+  {
+    "desc": "NA 11 Abbottabad General Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Mehtab Ahmad Khan",
+        "party": "IJI",
+        "votes": "64541"
+      },
+      { "candidate": "Amanullah Khan Jadoon", "party": "Ind", "votes": "31754" }
+    ],
+    "id": 11,
+    "xGrid": 23,
+    "yGrid": 5,
+    "totalVotes": 97980,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-11",
+    "voteMargin": 33.5
+  },
+  {
+    "desc": "NA 12 Abbottabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Haji Javed Iqbal Abbasi",
+        "party": "IJI",
+        "votes": "43764"
+      },
+      { "candidate": "Sardar Gul Khatab", "party": "Ind", "votes": "29247" }
+    ],
+    "id": 12,
+    "xGrid": 23,
+    "yGrid": 6,
+    "totalVotes": 85922,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-12",
+    "voteMargin": 16.9
+  },
+  {
+    "desc": "NA 13 Abbottabad Election 1990 Result",
+    "result": [
+      { "candidate": "Gohar Ayub Khan", "party": "IJI", "votes": "52923" },
+      { "candidate": "Omar Asghar Khan", "party": "PDA", "votes": "30970" }
+    ],
+    "id": 13,
+    "xGrid": 22,
+    "yGrid": 5,
+    "totalVotes": 96114,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-13",
+    "voteMargin": 22.8
+  },
+  {
+    "desc": "NA 14 Mansehra Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Yousaf",
+        "party": "Ind",
+        "votes": "34787"
+      },
+      { "candidate": "Syed Muzammil Shah", "party": "IJI", "votes": "31457" }
+    ],
+    "id": 14,
+    "xGrid": 22,
+    "yGrid": 4,
+    "totalVotes": 90004,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-14",
+    "voteMargin": 3.7
+  },
+  {
+    "desc": "NA 15 Mansehra Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Nawabzada Salah-ud-din Saeed Khan",
+        "party": "IJI",
+        "votes": "19109"
+      },
+      { "candidate": "Syed Qasim Shah", "party": "Ind", "votes": "16115" }
+    ],
+    "id": 15,
+    "xGrid": 21,
+    "yGrid": 5,
+    "totalVotes": 57797,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-15",
+    "voteMargin": 5.2
+  },
+  {
+    "desc": "NA 16 Mansehra Election 1990 Result",
+    "result": [
+      { "candidate": "Alam Zeb Khan", "party": "JUI-F", "votes": "13556" },
+      {
+        "candidate": "Khan Muhammad Ayub Khan",
+        "party": "Ind",
+        "votes": "10684"
+      }
+    ],
+    "id": 16,
+    "xGrid": 23,
+    "yGrid": 4,
+    "totalVotes": 35944,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-16",
+    "voteMargin": 8
+  },
+  {
+    "desc": "NA 17 Kohistan Election 1990 Result",
+    "result": [
+      { "candidate": "Molvi Muhammad Amin", "party": "JUI-F", "votes": "7752" },
+      { "candidate": "Malik Said Ahmad", "party": "Ind", "votes": "4607" }
+    ],
+    "id": 17,
+    "xGrid": 22,
+    "yGrid": 3,
+    "totalVotes": 27387,
+    "region": "Kohistan",
+    "province": "KP",
+    "seat": "NA-17",
+    "voteMargin": 11.5
+  },
+  {
+    "desc": "NA 18 Dera Ismail Khan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Fazal Karim Khan Kundi",
+        "party": "PDA",
+        "votes": "64533"
+      },
+      {
+        "candidate": "Moualna Fazal ur Rehman",
+        "party": "JUI-F",
+        "votes": "52890"
+      }
+    ],
+    "id": 18,
+    "xGrid": 16,
+    "yGrid": 12,
+    "totalVotes": 156796,
+    "region": "Dera Ismail Khan",
+    "province": "KP",
+    "seat": "NA-18",
+    "voteMargin": 7.4
+  },
+  {
+    "desc": "NA 19 Bannu Election 1990 Result",
+    "result": [
+      { "candidate": "Maulvi Ali Akbar", "party": "JUI-F", "votes": "28471" },
+      { "candidate": "Riaz Khan", "party": "PDA", "votes": "12519" }
+    ],
+    "id": 19,
+    "xGrid": 16,
+    "yGrid": 9,
+    "totalVotes": 57765,
+    "region": "Bannu",
+    "province": "KP",
+    "seat": "NA-19",
+    "voteMargin": 27.6
+  },
+  {
+    "desc": "NA 20 Bannu Election 1990 Result",
+    "result": [
+      { "candidate": "Nasir Muhammad Khan", "party": "IJI", "votes": "38877" },
+      { "candidate": "Ahmad Jan", "party": "JUI-F", "votes": "34322" }
+    ],
+    "id": 20,
+    "xGrid": 16,
+    "yGrid": 10,
+    "totalVotes": 75937,
+    "region": "Bannu",
+    "province": "KP",
+    "seat": "NA-20",
+    "voteMargin": 6
+  },
+  {
+    "desc": "NA 21 Swat  Election 1990 Result",
+    "result": [
+      { "candidate": "Khaliq Dad Khan", "party": "IJI", "votes": "24891" },
+      { "candidate": "Ubaidur Rehman", "party": "JUI-F", "votes": "17480" }
+    ],
+    "id": 21,
+    "xGrid": 20,
+    "yGrid": 3,
+    "totalVotes": 73161,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-21",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 22 Swat  Election 1990 Result",
+    "result": [
+      { "candidate": "Abdul Matin Khan", "party": "Ind", "votes": "19084" },
+      { "candidate": "Haji Fazal-e-Khaliq", "party": "IJI", "votes": "18901" }
+    ],
+    "id": 22,
+    "xGrid": 20,
+    "yGrid": 2,
+    "totalVotes": 67325,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-22",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 23 Swat Election 1990 Result",
+    "result": [
+      { "candidate": "Muhammad Afzal Khan", "party": "PDA", "votes": "32515" },
+      { "candidate": "Shaujat Ali Khan", "party": "IJI", "votes": "28080" }
+    ],
+    "id": 23,
+    "xGrid": 20,
+    "yGrid": 4,
+    "totalVotes": 87535,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-23",
+    "voteMargin": 5.1
+  },
+  {
+    "desc": "NA 24 Chitral Election 1990 Result",
+    "result": [
+      { "candidate": "Shahzada Muhayud Din", "party": "IJI", "votes": "35269" },
+      { "candidate": "Piar Ali Alana", "party": "PDA", "votes": "20628" }
+    ],
+    "id": 24,
+    "xGrid": 19,
+    "yGrid": 0,
+    "totalVotes": 63971,
+    "region": "Chitral",
+    "province": "KP",
+    "seat": "NA-24",
+    "voteMargin": 22.9
+  },
+  {
+    "desc": "NA 25 Dir Election 1990 Result",
+    "result": [
+      { "candidate": "Najmud Din", "party": "PDA", "votes": "28533" },
+      { "candidate": "Sahibzada Fathullah", "party": "IJI", "votes": "27147" }
+    ],
+    "id": 25,
+    "xGrid": 19,
+    "yGrid": 3,
+    "totalVotes": 67266,
+    "region": "Dir",
+    "province": "KP",
+    "seat": "NA-25",
+    "voteMargin": 2.1
+  },
+  {
+    "desc": "NA 26 Malakand Election 1990 Result",
+    "result": [
+      { "candidate": "Ahmad Hassan", "party": "PDA", "votes": "31331" },
+      {
+        "candidate": "Maulana Gauhar Rehman Khan",
+        "party": "IJI",
+        "votes": "29888"
+      }
+    ],
+    "id": 26,
+    "xGrid": 21,
+    "yGrid": 3,
+    "totalVotes": 90640,
+    "region": "Malakand",
+    "province": "KP",
+    "seat": "NA-26",
+    "voteMargin": 1.6
+  },
+  {
+    "desc": "NA 27 Tribal Area Election 1990 Result",
+    "result": [
+      { "candidate": "Haji Baroz", "party": "Ind", "votes": "Uncontested" }
+    ],
+    "id": 27,
+    "xGrid": 18,
+    "yGrid": 7,
+    "totalVotes": "Uncontested",
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-27",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 28 Tribal Area Election 1990 Result",
+    "result": [
+      { "candidate": "Syed Yousuf Hussain", "party": "Ind", "votes": "607" },
+      { "candidate": "Abdul Manan", "party": "Ind", "votes": "550" }
+    ],
+    "id": 28,
+    "xGrid": 15,
+    "yGrid": 7,
+    "totalVotes": 1246,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-28",
+    "voteMargin": 4.6
+  },
+  {
+    "desc": "NA 29 Tribal Area Election 1990 Result",
+    "result": [
+      { "candidate": "Spin Gul", "party": "Ind", "votes": "956" },
+      { "candidate": "Noor Sayed Mian", "party": "Ind", "votes": "955" }
+    ],
+    "id": 29,
+    "xGrid": 17,
+    "yGrid": 7,
+    "totalVotes": 4507,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-29",
+    "voteMargin": 0
+  },
+  {
+    "desc": "NA 30 Tribal Area Election 1990 Result",
+    "result": [
+      { "candidate": "Muhammad Ajmal", "party": "Ind", "votes": "494" },
+      { "candidate": "Qadar Khan", "party": "Ind", "votes": "281" }
+    ],
+    "id": 30,
+    "xGrid": 15,
+    "yGrid": 9,
+    "totalVotes": 1010,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-30",
+    "voteMargin": 21.1
+  },
+  {
+    "desc": "NA 31 Tribal AreaElection 1990 Result",
+    "result": [
+      { "candidate": "Haji Sakhi Jan", "party": "Ind", "votes": "536" },
+      { "candidate": "Ghiasuddin", "party": "Ind", "votes": "396" }
+    ],
+    "id": 31,
+    "xGrid": 14,
+    "yGrid": 11,
+    "totalVotes": 970,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-31",
+    "voteMargin": 14.4
+  },
+  {
+    "desc": "NA 32 Tribal Area Election 1990 Result",
+    "result": [
+      { "candidate": "Haji Lal Khan", "party": "Ind", "votes": "842" },
+      { "candidate": "Mian Shah Jahan", "party": "Ind", "votes": "639" }
+    ],
+    "id": 32,
+    "xGrid": 18,
+    "yGrid": 4,
+    "totalVotes": 1906,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-32",
+    "voteMargin": 10.7
+  },
+  {
+    "desc": "NA 33 Tribal Area Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Haji Muhammad Ayub Afridi",
+        "party": "Ind",
+        "votes": "2080"
+      },
+      { "candidate": "Malik Nadir Khan", "party": "Ind", "votes": "794" }
+    ],
+    "id": 33,
+    "xGrid": 16,
+    "yGrid": 7,
+    "totalVotes": 2922,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-33",
+    "voteMargin": 44
+  },
+  {
+    "desc": "NA 34 Tribal Area Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Malik Muhammad Aslam Khan",
+        "party": "Ind",
+        "votes": "Uncontested"
+      }
+    ],
+    "id": 34,
+    "xGrid": 15,
+    "yGrid": 11,
+    "totalVotes": "Uncontested",
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-34",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 35 Islamabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Haji Muhammad Nawaz Khokhar",
+        "party": "IJI",
+        "votes": "56795"
+      },
+      { "candidate": "Raja Peraiz Khan", "party": "PDA", "votes": "43467" }
+    ],
+    "id": 35,
+    "xGrid": 22,
+    "yGrid": 6,
+    "totalVotes": 107496,
+    "region": "Islamabad",
+    "province": "ICT",
+    "seat": "NA-35",
+    "voteMargin": 12.4
+  },
+  {
+    "desc": "NA 36 Rawalpindi  Election 1990 Result",
+    "result": [
+      { "candidate": "Shahid Khaqan Abbasi", "party": "IJI", "votes": "80305" },
+      { "candidate": "Raja Muhammad Anwar", "party": "PDA", "votes": "54011" }
+    ],
+    "id": 36,
+    "xGrid": 22,
+    "yGrid": 7,
+    "totalVotes": 134842,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-36",
+    "voteMargin": 19.5
+  },
+  {
+    "desc": "NA 37 Rawalpindi  Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Raja Muhammad Zaheer Khan",
+        "party": "IJI",
+        "votes": "75784"
+      },
+      {
+        "candidate": "Raja Abdul Aziz Bhatti",
+        "party": "PDA",
+        "votes": "54753"
+      }
+    ],
+    "id": 37,
+    "xGrid": 20,
+    "yGrid": 8,
+    "totalVotes": 141034,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-37",
+    "voteMargin": 14.9
+  },
+  {
+    "desc": "NA 38 Rawalpindi  Election 1990 Result",
+    "result": [
+      { "candidate": "Sheikh Rasheed Ahmad", "party": "IJI", "votes": "78107" },
+      {
+        "candidate": "Chaudhary Mushtaq Hussain",
+        "party": "PDA",
+        "votes": "54701"
+      }
+    ],
+    "id": 38,
+    "xGrid": 21,
+    "yGrid": 8,
+    "totalVotes": 139935,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-38",
+    "voteMargin": 16.7
+  },
+  {
+    "desc": "NA 39 Rawalpindi  Election 1990 Result",
+    "result": [
+      { "candidate": "Muhammad Ejaz ul Haq", "party": "IJI", "votes": "87829" },
+      { "candidate": "Raja Shahid Zafar", "party": "PDA", "votes": "57130" }
+    ],
+    "id": 39,
+    "xGrid": 20,
+    "yGrid": 7,
+    "totalVotes": 146672,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-39",
+    "voteMargin": 20.9
+  },
+  {
+    "desc": "NA 40 Rawalpindi  Election 1990 Result",
+    "result": [
+      { "candidate": "Ch. Nisar Ali Khan", "party": "IJI", "votes": "78530" },
+      { "candidate": "Ghulam Sarwar Khan", "party": "PDA", "votes": "63021" }
+    ],
+    "id": 40,
+    "xGrid": 22,
+    "yGrid": 8,
+    "totalVotes": 141551,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-40",
+    "voteMargin": 11
+  },
+  {
+    "desc": "NA 41 Attock  Election 1990 Result",
+    "result": [
+      { "candidate": "Shaikh Aftab Ahmad", "party": "IJI", "votes": "71134" },
+      {
+        "candidate": "Malik Muhammad Aslam Khan",
+        "party": "PDA",
+        "votes": "36058"
+      }
+    ],
+    "id": 41,
+    "xGrid": 19,
+    "yGrid": 8,
+    "totalVotes": 108788,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-41",
+    "voteMargin": 32.2
+  },
+  {
+    "desc": "NA 42 Attock  Election 1990 Result",
+    "result": [
+      { "candidate": "Malik Allah Yar Khan", "party": "PDA", "votes": "68458" },
+      { "candidate": "Amir Muhamamd Khan", "party": "PDA", "votes": "55174" }
+    ],
+    "id": 42,
+    "xGrid": 19,
+    "yGrid": 9,
+    "totalVotes": 159869,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-42",
+    "voteMargin": 8.3
+  },
+  {
+    "desc": "NA 43 Chakwal  Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Lt. General Abdul Majeed Malik",
+        "party": "IJI",
+        "votes": "79873"
+      },
+      {
+        "candidate": "Sardar Muhammad Ashraf Khan",
+        "party": "PDA",
+        "votes": "60902"
+      }
+    ],
+    "id": 43,
+    "xGrid": 21,
+    "yGrid": 9,
+    "totalVotes": 149106,
+    "region": "Chakwal",
+    "province": "Punjab",
+    "seat": "NA-43",
+    "voteMargin": 12.7
+  },
+  {
+    "desc": "NA 44 Chakwal 2  Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Mansoor Hayyat Khan Taman",
+        "party": "IJI",
+        "votes": "79239"
+      },
+      {
+        "candidate": "Sardar Ghulam Abbas Khan",
+        "party": "PDA",
+        "votes": "69593"
+      }
+    ],
+    "id": 44,
+    "xGrid": 20,
+    "yGrid": 9,
+    "totalVotes": 150631,
+    "region": "Chakwal",
+    "province": "Punjab",
+    "seat": "NA-44",
+    "voteMargin": 6.4
+  },
+  {
+    "desc": "NA 45 Jhelum  Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Altaf Hussain",
+        "party": "PDA",
+        "votes": "58806"
+      },
+      {
+        "candidate": "Raja Muhammad Afzal Khan",
+        "party": "IJI",
+        "votes": "58455"
+      }
+    ],
+    "id": 45,
+    "xGrid": 21,
+    "yGrid": 10,
+    "totalVotes": 123820,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-45",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 46 Jhelum  Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Nawabzada Iqbal Mehdi Khan",
+        "party": "Ind",
+        "votes": "57177"
+      },
+      { "candidate": "Doctor Ghulam Hussain", "party": "PDA", "votes": "53430" }
+    ],
+    "id": 46,
+    "xGrid": 22,
+    "yGrid": 9,
+    "totalVotes": 114961,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-46",
+    "voteMargin": 3.3
+  },
+  {
+    "desc": "NA 47 Sargodha  Election 1990 Result",
+    "result": [
+      { "candidate": "Ehsan ul Haq Piracha", "party": "PDA", "votes": "55350" },
+      { "candidate": "Mian Naseer Ahmad", "party": "IJI", "votes": "51092" }
+    ],
+    "id": 47,
+    "xGrid": 20,
+    "yGrid": 10,
+    "totalVotes": 109856,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-47",
+    "voteMargin": 3.9
+  },
+  {
+    "desc": "NA 48 Sargodha Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Nawaz Sharif",
+        "party": "IJI",
+        "votes": "69141"
+      },
+      { "candidate": "Liaqat Hayyat", "party": "PDA", "votes": "45274" }
+    ],
+    "id": 48,
+    "xGrid": 21,
+    "yGrid": 11,
+    "totalVotes": 116246,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-48",
+    "voteMargin": 20.5
+  },
+  {
+    "desc": "NA 49 Sargodha Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Haji Muhammad Javaid Iqbal Cheema",
+        "party": "IJI",
+        "votes": "59576"
+      },
+      { "candidate": "Syed Ehsan Qadir Shah", "party": "PDA", "votes": "55131" }
+    ],
+    "id": 49,
+    "xGrid": 19,
+    "yGrid": 12,
+    "totalVotes": 124297,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-49",
+    "voteMargin": 3.6
+  },
+  {
+    "desc": "NA 50 Sargodha Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Anwar Ali Cheema",
+        "party": "IJI",
+        "votes": "77073"
+      },
+      {
+        "candidate": "Riaz Amir alias Abdul Haq",
+        "party": "PDA",
+        "votes": "51581"
+      }
+    ],
+    "id": 50,
+    "xGrid": 20,
+    "yGrid": 12,
+    "totalVotes": 130476,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-50",
+    "voteMargin": 19.5
+  },
+  {
+    "desc": "NA 51 Sargodha / Khushab Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Malik Muhammad Naeem Khan",
+        "party": "IJI",
+        "votes": "84908"
+      },
+      {
+        "candidate": "Malik Muhammad Bashir Awan",
+        "party": "Ind",
+        "votes": "61804"
+      }
+    ],
+    "id": 51,
+    "xGrid": 20,
+    "yGrid": 11,
+    "totalVotes": 146712,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-51",
+    "voteMargin": 15.7
+  },
+  {
+    "desc": "NA 52 Khushab Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Malik Khuda Bukhsh Tewana",
+        "party": "IJI",
+        "votes": "61854"
+      },
+      {
+        "candidate": "Sardar Shuja Muhammad Khan",
+        "party": "PDA",
+        "votes": "51269"
+      }
+    ],
+    "id": 52,
+    "xGrid": 19,
+    "yGrid": 11,
+    "totalVotes": 128212,
+    "region": "Khushab",
+    "province": "Punjab",
+    "seat": "NA-52",
+    "voteMargin": 8.3
+  },
+  {
+    "desc": "NA 53 Mianwali Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Maulana Abdul Sattar Khan Niazi",
+        "party": "IJI",
+        "votes": "55848"
+      },
+      {
+        "candidate": "Doctor Sher Afghan Khan Niazi",
+        "party": "PDA",
+        "votes": "31659"
+      }
+    ],
+    "id": 53,
+    "xGrid": 17,
+    "yGrid": 9,
+    "totalVotes": 100277,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-53",
+    "voteMargin": 24.1
+  },
+  {
+    "desc": "NA 54 Mianwali Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Gul Hameed Khan Rokhari",
+        "party": "IJI",
+        "votes": "69501"
+      },
+      {
+        "candidate": "Doctor Sher Afghan Niaqzi",
+        "party": "PDA",
+        "votes": "34633"
+      }
+    ],
+    "id": 54,
+    "xGrid": 18,
+    "yGrid": 10,
+    "totalVotes": 107270,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-54",
+    "voteMargin": 32.5
+  },
+  {
+    "desc": "NA 55 Bhakkar Election 1990 Result",
+    "result": [
+      { "candidate": "Aziz Ahmad Khan", "party": "IJI", "votes": "66846" },
+      { "candidate": "Bashir Ahmad Khan", "party": "Ind", "votes": "35289" }
+    ],
+    "id": 55,
+    "xGrid": 18,
+    "yGrid": 12,
+    "totalVotes": 104001,
+    "region": "Bhakkar",
+    "province": "Punjab",
+    "seat": "NA-55",
+    "voteMargin": 30.3
+  },
+  {
+    "desc": "NA 56 Bhakkar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Zafar Ullah Khan Dhandla",
+        "party": "IJI",
+        "votes": "52893"
+      },
+      {
+        "candidate": "Rasheed Akbar Khan Nawani",
+        "party": "Ind",
+        "votes": "38695"
+      }
+    ],
+    "id": 56,
+    "xGrid": 17,
+    "yGrid": 13,
+    "totalVotes": 110780,
+    "region": "Bhakkar",
+    "province": "Punjab",
+    "seat": "NA-56",
+    "voteMargin": 12.8
+  },
+  {
+    "desc": "NA 57 Faisalabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Dildar Ahmad Cheema",
+        "party": "IJI",
+        "votes": "75202"
+      },
+      { "candidate": "Umar Draz Khan", "party": "PDA", "votes": "58590" }
+    ],
+    "id": 57,
+    "xGrid": 23,
+    "yGrid": 13,
+    "totalVotes": 138796,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-57",
+    "voteMargin": 12
+  },
+  {
+    "desc": "NA 58 Faisalabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Rai Muhammad Aslam Khan",
+        "party": "PDA",
+        "votes": "42857"
+      },
+      { "candidate": "Arif Hussain", "party": "IJI", "votes": "40273" }
+    ],
+    "id": 58,
+    "xGrid": 22,
+    "yGrid": 14,
+    "totalVotes": 100404,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-58",
+    "voteMargin": 2.6
+  },
+  {
+    "desc": "NA 59 Faisalabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Alhaj Mian Nasir Ahmad Khan",
+        "party": "IJI",
+        "votes": "46624"
+      },
+      {
+        "candidate": "Khan Shahadat Ali Khan Baloch",
+        "party": "PDA",
+        "votes": "40722"
+      }
+    ],
+    "id": 59,
+    "xGrid": 21,
+    "yGrid": 14,
+    "totalVotes": 103695,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-59",
+    "voteMargin": 5.7
+  },
+  {
+    "desc": "NA 60 Faisalabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Abdullah Ghazi",
+        "party": "IJI",
+        "votes": "56307"
+      },
+      { "candidate": "Abdul Saboor", "party": "PDA", "votes": "30275" }
+    ],
+    "id": 60,
+    "xGrid": 21,
+    "yGrid": 13,
+    "totalVotes": 113518,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-60",
+    "voteMargin": 22.9
+  },
+  {
+    "desc": "NA 61 Faisalabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Nazeer Ahmad",
+        "party": "IJI",
+        "votes": "72351"
+      },
+      {
+        "candidate": "Chaudhary Muhammad Ilyas Ahmad",
+        "party": "PDA",
+        "votes": "61967"
+      }
+    ],
+    "id": 61,
+    "xGrid": 22,
+    "yGrid": 13,
+    "totalVotes": 135122,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-61",
+    "voteMargin": 7.7
+  },
+  {
+    "desc": "NA 62 Faisalabad Election 1990 Result",
+    "result": [
+      { "candidate": "Muhammad Khan Junejo", "party": "IJI", "votes": "57208" },
+      { "candidate": "Ghulam Mustafaq Bajwa", "party": "PDA", "votes": "34925" }
+    ],
+    "id": 62,
+    "xGrid": 22,
+    "yGrid": 15,
+    "totalVotes": 92133,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-62",
+    "voteMargin": 24.2
+  },
+  {
+    "desc": "NA 63 Faisalabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Akram Ansari",
+        "party": "IJI",
+        "votes": "60983"
+      },
+      { "candidate": "Ahmad Saeed Awan", "party": "PDA", "votes": "50008" }
+    ],
+    "id": 63,
+    "xGrid": 20,
+    "yGrid": 13,
+    "totalVotes": 115661,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-63",
+    "voteMargin": 9.5
+  },
+  {
+    "desc": "NA 64 Faisalabad Election 1990 Result",
+    "result": [
+      { "candidate": "Mian Zahid Sarfraz", "party": "IJI", "votes": "62536" },
+      { "candidate": "Fazal Hussain Rahi", "party": "PDA", "votes": "52165" }
+    ],
+    "id": 64,
+    "xGrid": 19,
+    "yGrid": 13,
+    "totalVotes": 119644,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-64",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 65 Faisalabad Election 1990 Result",
+    "result": [
+      { "candidate": "Chaudhary Sher Ali", "party": "IJI", "votes": "67086" },
+      { "candidate": "Mehar Abdur Rasheed", "party": "PDA", "votes": "63396" }
+    ],
+    "id": 65,
+    "xGrid": 21,
+    "yGrid": 15,
+    "totalVotes": 134645,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-65",
+    "voteMargin": 2.7
+  },
+  {
+    "desc": "NA 66 Jhang Election 1990 Result",
+    "result": [
+      { "candidate": "Amir Hussain Syed", "party": "PDA", "votes": "40124" },
+      { "candidate": "Riaz Ahmad Lali", "party": "IJI", "votes": "39850" }
+    ],
+    "id": 66,
+    "xGrid": 21,
+    "yGrid": 12,
+    "totalVotes": 106218,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-66",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 67 Jhang Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Moulana Haji Rehmatullah",
+        "party": "IJI",
+        "votes": "57263"
+      },
+      { "candidate": "Syed Asad Hayyat Shah", "party": "PDA", "votes": "47378" }
+    ],
+    "id": 67,
+    "xGrid": 17,
+    "yGrid": 15,
+    "totalVotes": 116491,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-67",
+    "voteMargin": 8.5
+  },
+  {
+    "desc": "NA 68 Jhang Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Qari Isar ul Haq Qasmi",
+        "party": "IJI",
+        "votes": "62486"
+      },
+      {
+        "candidate": "Nawab Amanullah Khan Sial",
+        "party": "PDA",
+        "votes": "33031"
+      }
+    ],
+    "id": 68,
+    "xGrid": 19,
+    "yGrid": 15,
+    "totalVotes": 118727,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-68",
+    "voteMargin": 24.8
+  },
+  {
+    "desc": "NA 69 Jhang Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Faisal Saleh Hayyat",
+        "party": "PDA",
+        "votes": "63642"
+      },
+      { "candidate": "Syeda Abida Hussain", "party": "IJI", "votes": "48048" }
+    ],
+    "id": 69,
+    "xGrid": 18,
+    "yGrid": 14,
+    "totalVotes": 122200,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-69",
+    "voteMargin": 12.8
+  },
+  {
+    "desc": "NA 70 Jhang Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Muhammad Nazir Sultan",
+        "party": "PDA",
+        "votes": "58892"
+      },
+      {
+        "candidate": "Mehar Akhtar Abbas Bharwana",
+        "party": "IJI",
+        "votes": "58710"
+      }
+    ],
+    "id": 70,
+    "xGrid": 18,
+    "yGrid": 15,
+    "totalVotes": 118731,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-70",
+    "voteMargin": 0.2
+  },
+  {
+    "desc": "NA 71 Toba Tek Singh Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Asad ur Rehman",
+        "party": "IJI",
+        "votes": "65540"
+      },
+      { "candidate": "Javed Ahmad Khan", "party": "PDA", "votes": "57791" }
+    ],
+    "id": 71,
+    "xGrid": 19,
+    "yGrid": 14,
+    "totalVotes": 127275,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-71",
+    "voteMargin": 6.1
+  },
+  {
+    "desc": "NA 72 Toba Tek Singh Election 1990 Result",
+    "result": [
+      { "candidate": "Muhammad Ejaz Ul Haq", "party": "IJI", "votes": "76372" },
+      {
+        "candidate": "Qazi Ghias Ud Din Janbaz",
+        "party": "PDA",
+        "votes": "44752"
+      }
+    ],
+    "id": 72,
+    "xGrid": 20,
+    "yGrid": 14,
+    "totalVotes": 122610,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-72",
+    "voteMargin": 25.8
+  },
+  {
+    "desc": "NA 73 TT Singh Election 1990 Result",
+    "result": [
+      { "candidate": "Hamza", "party": "IJI", "votes": "69499" },
+      { "candidate": "Haji Muhammad Ishaq", "party": "PDA", "votes": "50194" }
+    ],
+    "id": 73,
+    "xGrid": 20,
+    "yGrid": 15,
+    "totalVotes": 120022,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-73",
+    "voteMargin": 16.1
+  },
+  {
+    "desc": "NA 74 Gujranwala Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Hamid Nasir Chatha",
+        "party": "IJI",
+        "votes": "89326"
+      },
+      {
+        "candidate": "Colonel (R) Ghulam Sarwar Cheema",
+        "party": "PDA",
+        "votes": "54095"
+      }
+    ],
+    "id": 74,
+    "xGrid": 25,
+    "yGrid": 10,
+    "totalVotes": 147516,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-74",
+    "voteMargin": 23.9
+  },
+  {
+    "desc": "NA 75 Gujranwala Election 1990 Result",
+    "result": [
+      { "candidate": "Afzal Hussain Tarar", "party": "Ind", "votes": "49406" },
+      {
+        "candidate": "Syed Muhammad Arif Hussain",
+        "party": "IJI",
+        "votes": "47101"
+      }
+    ],
+    "id": 75,
+    "xGrid": 23,
+    "yGrid": 11,
+    "totalVotes": 129296,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-75",
+    "voteMargin": 1.8
+  },
+  {
+    "desc": "NA 76 Gujranwala Election 1990 Result",
+    "result": [
+      { "candidate": "Ghulam Dastgir Khan", "party": "IJI", "votes": "67697" },
+      { "candidate": "Al-Haj Aman Ullah", "party": "PDA", "votes": "57897" }
+    ],
+    "id": 76,
+    "xGrid": 24,
+    "yGrid": 10,
+    "totalVotes": 130751,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-76",
+    "voteMargin": 7.5
+  },
+  {
+    "desc": "NA 77 Gujranwala Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chauhdary Muhammad Asgahr",
+        "party": "IJI",
+        "votes": "59225"
+      },
+      {
+        "candidate": "Kh. Muhammad Aslam Lone",
+        "party": "PDA",
+        "votes": "50328"
+      }
+    ],
+    "id": 77,
+    "xGrid": 26,
+    "yGrid": 12,
+    "totalVotes": 123708,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-77",
+    "voteMargin": 7.2
+  },
+  {
+    "desc": "NA 78 Gujranwala Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Rana Nazeer Ahmad Khan",
+        "party": "IJI",
+        "votes": "65836"
+      },
+      {
+        "candidate": "Chaudhary Muhammad Abdullah Virk",
+        "party": "PDA",
+        "votes": "59139"
+      }
+    ],
+    "id": 78,
+    "xGrid": 23,
+    "yGrid": 12,
+    "totalVotes": 124975,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-78",
+    "voteMargin": 5.4
+  },
+  {
+    "desc": "NA 79 Gujranwala Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Ashraf Warraich",
+        "party": "PDA",
+        "votes": "65262"
+      },
+      { "candidate": "Ch. Ijaz Ahmad", "party": "IJI", "votes": "62051" }
+    ],
+    "id": 79,
+    "xGrid": 24,
+    "yGrid": 11,
+    "totalVotes": 130808,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-79",
+    "voteMargin": 2.5
+  },
+  {
+    "desc": "NA 80 Gujrat Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Tajamul Hussain",
+        "party": "IJI",
+        "votes": "94688"
+      },
+      {
+        "candidate": "Nawabzada Ghazanfar Ali Gul",
+        "party": "PDA",
+        "votes": "63797"
+      }
+    ],
+    "id": 80,
+    "xGrid": 24,
+    "yGrid": 9,
+    "totalVotes": 165247,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-80",
+    "voteMargin": 18.7
+  },
+  {
+    "desc": "NA 81 Gujrat Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Shujaat Hussain",
+        "party": "IJI",
+        "votes": "80861"
+      },
+      {
+        "candidate": "Chaudhary Ahmad Mukhtar",
+        "party": "PDA",
+        "votes": "74621"
+      }
+    ],
+    "id": 81,
+    "xGrid": 22,
+    "yGrid": 10,
+    "totalVotes": 165438,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-81",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 82 Gujrat Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Manzoor Hussain Shah",
+        "party": "IJI",
+        "votes": "76341"
+      },
+      {
+        "candidate": "Haji Chaudhary Muhammad Asghari",
+        "party": "PDA",
+        "votes": "65252"
+      }
+    ],
+    "id": 82,
+    "xGrid": 25,
+    "yGrid": 9,
+    "totalVotes": 159338,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-82",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 83 Gujrat Election 1990 Result",
+    "result": [
+      { "candidate": "Nasir Iqbal", "party": "IJI", "votes": "62788" },
+      { "candidate": "Zafar Ullah Tarar", "party": "PDA", "votes": "52881" }
+    ],
+    "id": 83,
+    "xGrid": 23,
+    "yGrid": 9,
+    "totalVotes": 131870,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-83",
+    "voteMargin": 7.5
+  },
+  {
+    "desc": "NA 84 Gujrat Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Nawaz",
+        "party": "PDA",
+        "votes": "41086"
+      },
+      { "candidate": "Umar Hayyat Lailka", "party": "IJI", "votes": "28884" }
+    ],
+    "id": 84,
+    "xGrid": 23,
+    "yGrid": 10,
+    "totalVotes": 94886,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-84",
+    "voteMargin": 12.9
+  },
+  {
+    "desc": "NA 85 Sialkot Election 1990 Result",
+    "result": [
+      { "candidate": "Mian Muhammad Shafi", "party": "IJI", "votes": "59515" },
+      { "candidate": "Mian Masud Ahmad", "party": "PDA", "votes": "38333" }
+    ],
+    "id": 85,
+    "xGrid": 26,
+    "yGrid": 10,
+    "totalVotes": 106014,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-85",
+    "voteMargin": 20
+  },
+  {
+    "desc": "NA 86 Sialkot Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Ameer Hussain",
+        "party": "IJI",
+        "votes": "67731"
+      },
+      {
+        "candidate": "Mina Muhammad Rasheed Akhtar",
+        "party": "PDA",
+        "votes": "58596"
+      }
+    ],
+    "id": 86,
+    "xGrid": 28,
+    "yGrid": 10,
+    "totalVotes": 136656,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-86",
+    "voteMargin": 6.7
+  },
+  {
+    "desc": "NA 87 Sialkot Election 1990 Result",
+    "result": [
+      { "candidate": "Nazir Ahmad Khan", "party": "IJI", "votes": "81137" },
+      { "candidate": "Javaid Mahmood Ghuman", "party": "PDA", "votes": "50320" }
+    ],
+    "id": 87,
+    "xGrid": 26,
+    "yGrid": 9,
+    "totalVotes": 139810,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-87",
+    "voteMargin": 22
+  },
+  {
+    "desc": "NA 88 Sialkot Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Abdul Sattar",
+        "party": "IJI",
+        "votes": "72764"
+      },
+      { "candidate": "Muhammad Ahmad", "party": "PDA", "votes": "47602" }
+    ],
+    "id": 88,
+    "xGrid": 28,
+    "yGrid": 11,
+    "totalVotes": 123268,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-88",
+    "voteMargin": 20.4
+  },
+  {
+    "desc": "NA 89 Sialkot Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Sarwar Khan",
+        "party": "IJI",
+        "votes": "67966"
+      },
+      { "candidate": "Ch. Muhammad Akhtar", "party": "PDA", "votes": "39995" }
+    ],
+    "id": 89,
+    "xGrid": 26,
+    "yGrid": 11,
+    "totalVotes": 110286,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-89",
+    "voteMargin": 25.4
+  },
+  {
+    "desc": "NA 90 Sialkot Election 1990 Result",
+    "result": [
+      { "candidate": "Ghulam Mustafa", "party": "IJI", "votes": "60982" },
+      {
+        "candidate": "Chaudhary Shafayat Ahmad Khan",
+        "party": "PDA",
+        "votes": "34253"
+      }
+    ],
+    "id": 90,
+    "xGrid": 27,
+    "yGrid": 10,
+    "totalVotes": 100620,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-90",
+    "voteMargin": 26.6
+  },
+  {
+    "desc": "NA 91 Sialkot Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Ishfaq Taj",
+        "party": "IJI",
+        "votes": "Uncontested"
+      }
+    ],
+    "id": 91,
+    "xGrid": 27,
+    "yGrid": 12,
+    "totalVotes": "Uncontested",
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-91",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 92 Lahore Election 1990 Result",
+    "result": [
+      { "candidate": "Hamayun Akhtar Khan", "party": "IJI", "votes": "57866" },
+      { "candidate": "Rafiq Ahmad Shaikh", "party": "PDA", "votes": "44384" }
+    ],
+    "id": 92,
+    "xGrid": 25,
+    "yGrid": 12,
+    "totalVotes": 107753,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-92",
+    "voteMargin": 12.5
+  },
+  {
+    "desc": "NA 93 Lahore Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chudhary Aitzaz Ahsan",
+        "party": "PDA",
+        "votes": "65624"
+      },
+      { "candidate": "Ihsan ul Haq", "party": "IJI", "votes": "52697" }
+    ],
+    "id": 93,
+    "xGrid": 24,
+    "yGrid": 13,
+    "totalVotes": 126184,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-93",
+    "voteMargin": 10.2
+  },
+  {
+    "desc": "NA 94 Lahore Election 1990 Result",
+    "result": [
+      { "candidate": "Mian Umar Hayyat", "party": "IJI", "votes": "53352" },
+      { "candidate": "Salman Taseer", "party": "PDA", "votes": "51953" }
+    ],
+    "id": 94,
+    "xGrid": 24,
+    "yGrid": 14,
+    "totalVotes": 109136,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-94",
+    "voteMargin": 1.3
+  },
+  {
+    "desc": "NA 95 Lahore Election 1990 Result",
+    "result": [
+      { "candidate": "Mian Nawaz Sharif", "party": "IJI", "votes": "59944" },
+      {
+        "candidate": "Air Marshel (R) Muhammad Asghar Khan",
+        "party": "PDA",
+        "votes": "39585"
+      }
+    ],
+    "id": 95,
+    "xGrid": 25,
+    "yGrid": 14,
+    "totalVotes": 102670,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-95",
+    "voteMargin": 19.8
+  },
+  {
+    "desc": "NA 96 Lahore Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Shahbaz Sharif",
+        "party": "IJI",
+        "votes": "54506"
+      },
+      { "candidate": "Jahangir Badar", "party": "PDA", "votes": "41902" }
+    ],
+    "id": 96,
+    "xGrid": 23,
+    "yGrid": 14,
+    "totalVotes": 98050,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-96",
+    "voteMargin": 12.9
+  },
+  {
+    "desc": "NA 97 Lahore Election 1990 Result",
+    "result": [
+      { "candidate": "Liaqat Baloch", "party": "IJI", "votes": "68943" },
+      {
+        "candidate": "Khawja Ahmad Tariq Raheem",
+        "party": "PDA",
+        "votes": "51058"
+      }
+    ],
+    "id": 97,
+    "xGrid": 25,
+    "yGrid": 11,
+    "totalVotes": 126965,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-97",
+    "voteMargin": 14.1
+  },
+  {
+    "desc": "NA 98 Lahore Election 1990 Result",
+    "result": [
+      { "candidate": "Mian Muhammad Usman", "party": "IJI", "votes": "60220" },
+      {
+        "candidate": "Sheikh Muhammad Rasheed",
+        "party": "PDA",
+        "votes": "48686"
+      }
+    ],
+    "id": 98,
+    "xGrid": 25,
+    "yGrid": 15,
+    "totalVotes": 114063,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-98",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 99 Lahore Election 1990 Result",
+    "result": [
+      { "candidate": "Wazir Ali Bhatti", "party": "IJI", "votes": "42549" },
+      { "candidate": "Muhammad Arshad", "party": "PDA", "votes": "32962" }
+    ],
+    "id": 99,
+    "xGrid": 24,
+    "yGrid": 15,
+    "totalVotes": 79296,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-99",
+    "voteMargin": 12.1
+  },
+  {
+    "desc": "NA 100 Lahore Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Ashiq Ali Diyal",
+        "party": "IJI",
+        "votes": "46842"
+      },
+      { "candidate": "Malik Meraj Khalid", "party": "PDA", "votes": "34289" }
+    ],
+    "id": 100,
+    "xGrid": 27,
+    "yGrid": 11,
+    "totalVotes": 85588,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-100",
+    "voteMargin": 14.7
+  },
+  {
+    "desc": "NA 101 Sheikhupura Election 1990 Result",
+    "result": [
+      { "candidate": "Rana Tanveer Hussain", "party": "IJI", "votes": "60175" },
+      { "candidate": "Nisar Ahmad Punnu", "party": "PDA", "votes": "56429" }
+    ],
+    "id": 101,
+    "xGrid": 24,
+    "yGrid": 12,
+    "totalVotes": 123593,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-101",
+    "voteMargin": 3
+  },
+  {
+    "desc": "NA 102 Sheikhupura Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Nazir Ahmad Virk",
+        "party": "IJI",
+        "votes": "39430"
+      },
+      { "candidate": "Munawar Hussain Manj", "party": "PAT", "votes": "38377" }
+    ],
+    "id": 102,
+    "xGrid": 25,
+    "yGrid": 13,
+    "totalVotes": 119391,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-102",
+    "voteMargin": 0.9
+  },
+  {
+    "desc": "NA 103 Sheikhupura Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Barjees Tahir",
+        "party": "IJI",
+        "votes": "49701"
+      },
+      { "candidate": "Muhammad Arif Awan", "party": "PDA", "votes": "32570" }
+    ],
+    "id": 103,
+    "xGrid": 26,
+    "yGrid": 13,
+    "totalVotes": 101309,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-103",
+    "voteMargin": 16.9
+  },
+  {
+    "desc": "NA 104 Sheikhupura Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Haji Naeem Hussain Chatha",
+        "party": "IJI",
+        "votes": "59036"
+      },
+      {
+        "candidate": "Chaudhary Tawakkal Ullah Virk",
+        "party": "PDA",
+        "votes": "44803"
+      }
+    ],
+    "id": 104,
+    "xGrid": 27,
+    "yGrid": 13,
+    "totalVotes": 119628,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-104",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 105 Sheikhupura Election 1990 Result",
+    "result": [
+      { "candidate": "Rai Mansab Ali Khan", "party": "IJI", "votes": "43708" },
+      {
+        "candidate": "Rai Rasheed Ahmad Khan",
+        "party": "PDA",
+        "votes": "37098"
+      }
+    ],
+    "id": 105,
+    "xGrid": 22,
+    "yGrid": 12,
+    "totalVotes": 89021,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-105",
+    "voteMargin": 7.4
+  },
+  {
+    "desc": "NA 106 Kasur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Aseff Ahmad Ali",
+        "party": "Ind",
+        "votes": "46590"
+      },
+      { "candidate": "Riaz Ahmad", "party": "Ind", "votes": "29032" }
+    ],
+    "id": 106,
+    "xGrid": 25,
+    "yGrid": 17,
+    "totalVotes": 107857,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-106",
+    "voteMargin": 16.3
+  },
+  {
+    "desc": "NA 107 Kasur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Rao Khizar Hayyat Khan",
+        "party": "IJI",
+        "votes": "43657"
+      },
+      { "candidate": "Chaudhary Hakim Ali", "party": "PDA", "votes": "35883" }
+    ],
+    "id": 107,
+    "xGrid": 23,
+    "yGrid": 15,
+    "totalVotes": 89395,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-107",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 108 Kasur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Rana Muhammad Hayyat Khan",
+        "party": "Ind",
+        "votes": "51189"
+      },
+      {
+        "candidate": "Sardar Talib Hussain Nakai",
+        "party": "IJI",
+        "votes": "41554"
+      }
+    ],
+    "id": 108,
+    "xGrid": 25,
+    "yGrid": 16,
+    "totalVotes": 108282,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-108",
+    "voteMargin": 8.9
+  },
+  {
+    "desc": "NA 109 Kasur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Maulana Mueenuddin Lakhvi",
+        "party": "IJI",
+        "votes": "53859"
+      },
+      {
+        "candidate": "Sardar Muhammad Ashiq Dogar",
+        "party": "PDA",
+        "votes": "45856"
+      }
+    ],
+    "id": 109,
+    "xGrid": 24,
+    "yGrid": 17,
+    "totalVotes": 105487,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-109",
+    "voteMargin": 7.6
+  },
+  {
+    "desc": "NA 110 Okara Election 1990 Result",
+    "result": [
+      { "candidate": "Mian Muhammad Zaman", "party": "IJI", "votes": "54096" },
+      { "candidate": "Rao Sakandar Iqbal", "party": "PDA", "votes": "45184" }
+    ],
+    "id": 110,
+    "xGrid": 23,
+    "yGrid": 17,
+    "totalVotes": 103792,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-110",
+    "voteMargin": 8.6
+  },
+  {
+    "desc": "NA 111 Okara Election 1990 Result",
+    "result": [
+      { "candidate": "Syed Sajjad Haider", "party": "IJI", "votes": "50728" },
+      {
+        "candidate": "Rai Muhammad Aslam Khan",
+        "party": "PDA",
+        "votes": "48895"
+      }
+    ],
+    "id": 111,
+    "xGrid": 23,
+    "yGrid": 16,
+    "totalVotes": 104291,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-111",
+    "voteMargin": 1.8
+  },
+  {
+    "desc": "NA 112 Okara Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mian Manzoor Ahmad Khan Watto",
+        "party": "IJI",
+        "votes": "66753"
+      },
+      { "candidate": "Syed Abbas Raza Rizvi", "party": "PDA", "votes": "39998" }
+    ],
+    "id": 112,
+    "xGrid": 24,
+    "yGrid": 16,
+    "totalVotes": 110528,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-112",
+    "voteMargin": 24.2
+  },
+  {
+    "desc": "NA 113 Okara Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Yasin Khan Wattoo",
+        "party": "IJI",
+        "votes": "71129"
+      },
+      {
+        "candidate": "Mian Atta Muhammad Maneka",
+        "party": "PDA",
+        "votes": "46473"
+      }
+    ],
+    "id": 113,
+    "xGrid": 24,
+    "yGrid": 18,
+    "totalVotes": 120502,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-113",
+    "voteMargin": 20.5
+  },
+  {
+    "desc": "NA 114 Multan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Yousif Raza Gillani",
+        "party": "PDA",
+        "votes": "60076"
+      },
+      {
+        "candidate": "Makhdoom Syed Hamid Raza Gillani",
+        "party": "IJI",
+        "votes": "54781"
+      }
+    ],
+    "id": 114,
+    "xGrid": 18,
+    "yGrid": 17,
+    "totalVotes": 118190,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-114",
+    "voteMargin": 4.5
+  },
+  {
+    "desc": "NA 115 Multan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Hamid Saeed Kazmi",
+        "party": "JUP-N",
+        "votes": "62637"
+      },
+      {
+        "candidate": "Pir Riaz Hussain Qureshi",
+        "party": "PDA",
+        "votes": "42288"
+      }
+    ],
+    "id": 115,
+    "xGrid": 18,
+    "yGrid": 19,
+    "totalVotes": 107184,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-115",
+    "voteMargin": 19
+  },
+  {
+    "desc": "NA 116 Multan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Tanveer ul Hassan Gillani",
+        "party": "IJI",
+        "votes": "50066"
+      },
+      {
+        "candidate": "Malik Mukhtar Ahmad Awan",
+        "party": "PDA",
+        "votes": "39852"
+      }
+    ],
+    "id": 116,
+    "xGrid": 17,
+    "yGrid": 18,
+    "totalVotes": 94590,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-116",
+    "voteMargin": 10.8
+  },
+  {
+    "desc": "NA 117 Multan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Haji Hayyatullah Khan Tareen",
+        "party": "IJI",
+        "votes": "64567"
+      },
+      {
+        "candidate": "Rana Mumtaz Ahmad Khan Noon",
+        "party": "PDA",
+        "votes": "56382"
+      }
+    ],
+    "id": 117,
+    "xGrid": 19,
+    "yGrid": 19,
+    "totalVotes": 126235,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-117",
+    "voteMargin": 6.5
+  },
+  {
+    "desc": "NA 118 Multan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Siddique Khan Kanjo",
+        "party": "IJI",
+        "votes": "60954"
+      },
+      {
+        "candidate": "Mirza Muhammad Nasir Baig",
+        "party": "PDA",
+        "votes": "40558"
+      }
+    ],
+    "id": 118,
+    "xGrid": 18,
+    "yGrid": 18,
+    "totalVotes": 116606,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-118",
+    "voteMargin": 17.5
+  },
+  {
+    "desc": "NA 119 Multan Election 1990 Result",
+    "result": [
+      { "candidate": "Syed Javed Ali Shah", "party": "IJI", "votes": "66900" },
+      {
+        "candidate": "Rana Shukat Hayyat Noon",
+        "party": "PDA",
+        "votes": "52084"
+      }
+    ],
+    "id": 119,
+    "xGrid": 17,
+    "yGrid": 19,
+    "totalVotes": 120964,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-119",
+    "voteMargin": 12.2
+  },
+  {
+    "desc": "NA 120 Multan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Javed Hashmi",
+        "party": "IJI",
+        "votes": "70025"
+      },
+      { "candidate": "Khalid Iqbal Randhawa", "party": "PDA", "votes": "52881" }
+    ],
+    "id": 120,
+    "xGrid": 19,
+    "yGrid": 20,
+    "totalVotes": 123676,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-120",
+    "voteMargin": 13.9
+  },
+  {
+    "desc": "NA 121 Khanewal Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Fakhar Imam Shah",
+        "party": "IJI",
+        "votes": "58479"
+      },
+      {
+        "candidate": "Mahar Muhammad Iqbal Hiraj",
+        "party": "PDA",
+        "votes": "45523"
+      }
+    ],
+    "id": 121,
+    "xGrid": 19,
+    "yGrid": 16,
+    "totalVotes": 116215,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-121",
+    "voteMargin": 11.1
+  },
+  {
+    "desc": "NA 122 Khanewal Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Major ( R ) Aftab Ahmad Khan Daha",
+        "party": "IJI",
+        "votes": "63998"
+      },
+      {
+        "candidate": "Mian Qamar uz Zaman Shah Khagga",
+        "party": "PDA",
+        "votes": "44784"
+      }
+    ],
+    "id": 122,
+    "xGrid": 19,
+    "yGrid": 18,
+    "totalVotes": 111498,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-122",
+    "voteMargin": 17.2
+  },
+  {
+    "desc": "NA 123 Khanewal Election 1990 Result",
+    "result": [
+      { "candidate": "Ghulam Haider Wyne", "party": "IJI", "votes": "76045" },
+      {
+        "candidate": "Pir Muhammad Aslam Bodla",
+        "party": "PDA",
+        "votes": "54856"
+      }
+    ],
+    "id": 123,
+    "xGrid": 18,
+    "yGrid": 16,
+    "totalVotes": 135268,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-123",
+    "voteMargin": 15.7
+  },
+  {
+    "desc": "NA 124 Sahiwal Election 1990 Result",
+    "result": [
+      { "candidate": "Anwar ul Haq Ramay", "party": "IJI", "votes": "63665" },
+      {
+        "candidate": "Chaudhary Naurez Shakoor",
+        "party": "PDA",
+        "votes": "55677"
+      }
+    ],
+    "id": 124,
+    "xGrid": 21,
+    "yGrid": 17,
+    "totalVotes": 122702,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-124",
+    "voteMargin": 6.5
+  },
+  {
+    "desc": "NA 125 Sahiwal Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mehar Ghulam Farid Kathia",
+        "party": "PDA",
+        "votes": "54982"
+      },
+      {
+        "candidate": "Muhammad Arshad Khan Lodhi",
+        "party": "IJI",
+        "votes": "50529"
+      }
+    ],
+    "id": 125,
+    "xGrid": 22,
+    "yGrid": 17,
+    "totalVotes": 119389,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-125",
+    "voteMargin": 3.7
+  },
+  {
+    "desc": "NA 126 Sahiwal Election 1990 Result",
+    "result": [
+      { "candidate": "Rai Ahmad Nawaz Khan", "party": "IJI", "votes": "69338" },
+      { "candidate": "Shahnaz Javed", "party": "PDA", "votes": "65810" }
+    ],
+    "id": 126,
+    "xGrid": 21,
+    "yGrid": 18,
+    "totalVotes": 140005,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-126",
+    "voteMargin": 2.5
+  },
+  {
+    "desc": "NA 127 Sahiwal Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Raja Shahid Saeed Khan",
+        "party": "IJI",
+        "votes": "61831"
+      },
+      { "candidate": "Tika Muhammad Iqbal", "party": "PDA", "votes": "43101" }
+    ],
+    "id": 127,
+    "xGrid": 22,
+    "yGrid": 18,
+    "totalVotes": 106898,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-127",
+    "voteMargin": 17.5
+  },
+  {
+    "desc": "NA 128 Sahiwal Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mian Mehmood Ahmad Khan",
+        "party": "IJI",
+        "votes": "60593"
+      },
+      {
+        "candidate": "Rao Muhammad Hashim Khan",
+        "party": "PDA",
+        "votes": "45960"
+      }
+    ],
+    "id": 128,
+    "xGrid": 20,
+    "yGrid": 18,
+    "totalVotes": 112844,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-128",
+    "voteMargin": 13
+  },
+  {
+    "desc": "NA 129 Vehari Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Nawaz Khan Aias Dilawar Khan Khichi",
+        "party": "IJI",
+        "votes": "87427"
+      },
+      {
+        "candidate": "Mian Muhammad Mumtaz Khan Bhabha",
+        "party": "PDA",
+        "votes": "55922"
+      }
+    ],
+    "id": 129,
+    "xGrid": 20,
+    "yGrid": 16,
+    "totalVotes": 145453,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-129",
+    "voteMargin": 21.7
+  },
+  {
+    "desc": "NA 130 Vehari Election 1990 Result",
+    "result": [
+      { "candidate": "Akbar Ali Bhatti", "party": "IJI", "votes": "50917" },
+      {
+        "candidate": "Muhammad Ahsan Khan Khakwani",
+        "party": "PDA",
+        "votes": "44088"
+      }
+    ],
+    "id": 130,
+    "xGrid": 20,
+    "yGrid": 17,
+    "totalVotes": 132514,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-130",
+    "voteMargin": 5.2
+  },
+  {
+    "desc": "NA 131 Vehari Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Shahid Mehdi Naseem Shah",
+        "party": "IJI",
+        "votes": "72159"
+      },
+      { "candidate": "Qurban Ali Chohan", "party": "PDA", "votes": "60747" }
+    ],
+    "id": 131,
+    "xGrid": 21,
+    "yGrid": 16,
+    "totalVotes": 135768,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-131",
+    "voteMargin": 8.4
+  },
+  {
+    "desc": "NA 132 Dera Ghazi Khan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Amjad Farooq Khan",
+        "party": "IJI",
+        "votes": "78360"
+      },
+      {
+        "candidate": "Khawaja Kamaluddin Anwar",
+        "party": "PDA",
+        "votes": "55711"
+      }
+    ],
+    "id": 132,
+    "xGrid": 16,
+    "yGrid": 15,
+    "totalVotes": 139623,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-132",
+    "voteMargin": 16.2
+  },
+  {
+    "desc": "NA 133 DG Khan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Farooq Ahmad Khan Leghari",
+        "party": "PDA",
+        "votes": "76378"
+      },
+      {
+        "candidate": "Sardar Tufail Ahmad Khan Laghari",
+        "party": "IJI",
+        "votes": "56342"
+      }
+    ],
+    "id": 133,
+    "xGrid": 15,
+    "yGrid": 17,
+    "totalVotes": 138264,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-133",
+    "voteMargin": 14.5
+  },
+  {
+    "desc": "NA 134 Rajanpur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mir Balakh Sher Khan Mazari",
+        "party": "IJI",
+        "votes": "76446"
+      },
+      {
+        "candidate": "Sardar Ashiq Muhammad Khan Mazari",
+        "party": "PDA",
+        "votes": "57765"
+      }
+    ],
+    "id": 134,
+    "xGrid": 15,
+    "yGrid": 20,
+    "totalVotes": 134211,
+    "region": "Rajanpur",
+    "province": "Punjab",
+    "seat": "NA-134",
+    "voteMargin": 13.9
+  },
+  {
+    "desc": "NA 135 Muzaffargarh Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Abdul Qayyum Khan Jatoi",
+        "party": "JUP-N",
+        "votes": "54039"
+      },
+      {
+        "candidate": "Syed Jamil Ahmad Hussain Bukhari",
+        "party": "PDA",
+        "votes": "51338"
+      }
+    ],
+    "id": 135,
+    "xGrid": 19,
+    "yGrid": 17,
+    "totalVotes": 113583,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-135",
+    "voteMargin": 2.4
+  },
+  {
+    "desc": "NA 136 Muzaffargarh Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mian Atta Muhammad Qureshi",
+        "party": "JUP-N",
+        "votes": "54424"
+      },
+      {
+        "candidate": "Nawabzada Nasrullah Khan",
+        "party": "PDP",
+        "votes": "46638"
+      }
+    ],
+    "id": 136,
+    "xGrid": 16,
+    "yGrid": 16,
+    "totalVotes": 109528,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-136",
+    "voteMargin": 7.1
+  },
+  {
+    "desc": "NA 137 Muzaffargarh Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Malik Ghulam Muhammad Mustafa Khar",
+        "party": "Ind",
+        "votes": "43435"
+      },
+      {
+        "candidate": "Malik Ghulam Muhammad Noor Rabbani Khar",
+        "party": "Ind",
+        "votes": "30438"
+      }
+    ],
+    "id": 137,
+    "xGrid": 16,
+    "yGrid": 17,
+    "totalVotes": 100349,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-137",
+    "voteMargin": 13
+  },
+  {
+    "desc": "NA 138 Muzaffargarh Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Muhammad Mustafa Khar",
+        "party": "Ind",
+        "votes": "51755"
+      },
+      {
+        "candidate": "Mian Ghulam Abbas Qureishi",
+        "party": "IJI",
+        "votes": "39741"
+      }
+    ],
+    "id": 138,
+    "xGrid": 16,
+    "yGrid": 18,
+    "totalVotes": 104449,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-138",
+    "voteMargin": 11.5
+  },
+  {
+    "desc": "NA 139 Layyah Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Pir Syed Muhammad Khurshid Shah",
+        "party": "IJI",
+        "votes": "59848"
+      },
+      {
+        "candidate": "Malik Niaz Ahmad Jakhar",
+        "party": "PDA",
+        "votes": "43180"
+      }
+    ],
+    "id": 139,
+    "xGrid": 17,
+    "yGrid": 14,
+    "totalVotes": 108241,
+    "region": "Layyah",
+    "province": "Punjab",
+    "seat": "NA-139",
+    "voteMargin": 15.4
+  },
+  {
+    "desc": "NA 140 Layyah Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Faiz-ul-Hassan",
+        "party": "IJI",
+        "votes": "51446"
+      },
+      {
+        "candidate": "Muhammad Jehangir Khan Sehar",
+        "party": "PDA",
+        "votes": "44694"
+      }
+    ],
+    "id": 140,
+    "xGrid": 17,
+    "yGrid": 17,
+    "totalVotes": 96140,
+    "region": "Layyah",
+    "province": "Punjab",
+    "seat": "NA-140",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 141 Bahawalpur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Usman Abbasi",
+        "party": "Ind",
+        "votes": "59175"
+      },
+      {
+        "candidate": "Prince Salahud Din Abbasi",
+        "party": "IJI",
+        "votes": "58807"
+      }
+    ],
+    "id": 141,
+    "xGrid": 18,
+    "yGrid": 20,
+    "totalVotes": 119913,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-141",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 142 Bahawalpur Election 1990 Result",
+    "result": [
+      { "candidate": "Farooq Anwar Abbasi", "party": "IJI", "votes": "71825" },
+      { "candidate": "Farooq Azam Malik", "party": "PDA", "votes": "47515" }
+    ],
+    "id": 142,
+    "xGrid": 20,
+    "yGrid": 19,
+    "totalVotes": 123731,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-142",
+    "voteMargin": 19.6
+  },
+  {
+    "desc": "NA 143 Bahawalpur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Tasneem Nawaz Gardezi",
+        "party": "IJI",
+        "votes": ""
+      },
+      { "candidate": "", "party": "PDA", "votes": "" }
+    ],
+    "id": 143,
+    "xGrid": 17,
+    "yGrid": 21,
+    "totalVotes": 0,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-143",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 144 Bahawalnagar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Muhammad Asgahr Shah",
+        "party": "Ind",
+        "votes": "50555"
+      },
+      {
+        "candidate": "Syed Mumtaz Alam Gillani",
+        "party": "PDA",
+        "votes": "42897"
+      }
+    ],
+    "id": 144,
+    "xGrid": 23,
+    "yGrid": 18,
+    "totalVotes": 128102,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-144",
+    "voteMargin": 6
+  },
+  {
+    "desc": "NA 145 Bahawalnagar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mian Abdul Sattar Khan Lalika",
+        "party": "IJI",
+        "votes": "81088"
+      },
+      { "candidate": "Mian Mumtaz Ahmad", "party": "PDA", "votes": "60521" }
+    ],
+    "id": 145,
+    "xGrid": 22,
+    "yGrid": 19,
+    "totalVotes": 146418,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-145",
+    "voteMargin": 14
+  },
+  {
+    "desc": "NA 146 Bahawalnagar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Abdul Ghafoor Chaudhary",
+        "party": "IJI",
+        "votes": "74872"
+      },
+      {
+        "candidate": "Ali Akbar Mazhar Wains",
+        "party": "PDA",
+        "votes": "66076"
+      }
+    ],
+    "id": 146,
+    "xGrid": 21,
+    "yGrid": 19,
+    "totalVotes": 144503,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-146",
+    "voteMargin": 6.1
+  },
+  {
+    "desc": "NA 147 Rahim Yar Khan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Ahmad Alam Anwar",
+        "party": "PDA",
+        "votes": "66205"
+      },
+      {
+        "candidate": "Khawaja Jamal Muhammad Koreja",
+        "party": "IJI",
+        "votes": "57432"
+      }
+    ],
+    "id": 147,
+    "xGrid": 16,
+    "yGrid": 20,
+    "totalVotes": 124046,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-147",
+    "voteMargin": 7.1
+  },
+  {
+    "desc": "NA 148 Rahimyar Khan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Makhdoom Shahab ud Din",
+        "party": "PDA",
+        "votes": "59181"
+      },
+      { "candidate": "Makhdoom Imaduddin", "party": "IJI", "votes": "57740" }
+    ],
+    "id": 148,
+    "xGrid": 16,
+    "yGrid": 21,
+    "totalVotes": 117320,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-148",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 149 Rahim Yar Khan Election 1990 Result",
+    "result": [
+      { "candidate": "Mian Abdul Khaliq", "party": "IJI", "votes": "80304" },
+      { "candidate": "Makhdoom Rukan ud Din", "party": "PDA", "votes": "51454" }
+    ],
+    "id": 149,
+    "xGrid": 16,
+    "yGrid": 22,
+    "totalVotes": 135712,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-149",
+    "voteMargin": 21.3
+  },
+  {
+    "desc": "NA 150 Rahimyar Khan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Makhdoom Syed Ahmad Mehmood",
+        "party": "IJI",
+        "votes": "52816"
+      },
+      { "candidate": "Rais Shabbir Ahmad", "party": "PDA", "votes": "45144" }
+    ],
+    "id": 150,
+    "xGrid": 15,
+    "yGrid": 22,
+    "totalVotes": 134043,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-150",
+    "voteMargin": 5.7
+  },
+  {
+    "desc": "NA 151 Sukkar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Khursheed Ahmad Shah",
+        "party": "PDA",
+        "votes": "60733"
+      },
+      { "candidate": "Islamuddin Sheikh", "party": "IJI", "votes": "43618" }
+    ],
+    "id": 151,
+    "xGrid": 12,
+    "yGrid": 23,
+    "totalVotes": 110421,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-151",
+    "voteMargin": 15.5
+  },
+  {
+    "desc": "NA 152 Sukkar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Jam Saifullah Khan Dharejo",
+        "party": "PDA",
+        "votes": "48938"
+      },
+      {
+        "candidate": "Sardar Ghulam Muhammad Khan Magar",
+        "party": "Ind",
+        "votes": "39985"
+      }
+    ],
+    "id": 152,
+    "xGrid": 13,
+    "yGrid": 24,
+    "totalVotes": 91600,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-152",
+    "voteMargin": 9.8
+  },
+  {
+    "desc": "NA 153 Sukkar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Noor Muhammad Khan Lund",
+        "party": "PDA",
+        "votes": "49399"
+      },
+      {
+        "candidate": "Pir Syed Sadardin Shah",
+        "party": "Ind",
+        "votes": "34978"
+      }
+    ],
+    "id": 153,
+    "xGrid": 14,
+    "yGrid": 23,
+    "totalVotes": 87550,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-153",
+    "voteMargin": 16.5
+  },
+  {
+    "desc": "NA 154 Shikarpur Election 1990 Result",
+    "result": [
+      { "candidate": "Aftab Shahban Merani", "party": "PDA", "votes": "38301" },
+      { "candidate": "Junaid Ahmad Soomro", "party": "SNF", "votes": "20128" }
+    ],
+    "id": 154,
+    "xGrid": 11,
+    "yGrid": 23,
+    "totalVotes": 69490,
+    "region": "Shikarpur",
+    "province": "Sindh",
+    "seat": "NA-154",
+    "voteMargin": 26.2
+  },
+  {
+    "desc": "NA 155 Shikarpur Election 1990 Result",
+    "result": [
+      { "candidate": "Mir Altaf Khan Bhayo", "party": "PDA", "votes": "43193" },
+      {
+        "candidate": "Mumtaz Ali Khan Bhutto",
+        "party": "SNF",
+        "votes": "10333"
+      }
+    ],
+    "id": 155,
+    "xGrid": 12,
+    "yGrid": 22,
+    "totalVotes": 61502,
+    "region": "Shikarpur",
+    "province": "Sindh",
+    "seat": "NA-155",
+    "voteMargin": 53.4
+  },
+  {
+    "desc": "NA 156 Jacobabad Election 1990 Result",
+    "result": [
+      { "candidate": "Illahi Bukhsh Soomro", "party": "Ind", "votes": "53151" },
+      {
+        "candidate": "Sardar Muhammad Muqeem Khan",
+        "party": "PDA",
+        "votes": "52211"
+      }
+    ],
+    "id": 156,
+    "xGrid": 11,
+    "yGrid": 22,
+    "totalVotes": 106883,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-156",
+    "voteMargin": 0.9
+  },
+  {
+    "desc": "NA 157 Jacobabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mir Hazar Khan Bijarani",
+        "party": "Ind",
+        "votes": "81610"
+      },
+      {
+        "candidate": "Mir Mehran Khan Bijarani",
+        "party": "PDA",
+        "votes": "35818"
+      }
+    ],
+    "id": 157,
+    "xGrid": 13,
+    "yGrid": 22,
+    "totalVotes": 118893,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-157",
+    "voteMargin": 38.5
+  },
+  {
+    "desc": "NA 158 Naushero Feroze Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Mustafa Khan Jatoi",
+        "party": "IJI",
+        "votes": "88166"
+      },
+      {
+        "candidate": "Rehmatullah Khan Bihan",
+        "party": "PDA",
+        "votes": "21829"
+      }
+    ],
+    "id": 158,
+    "xGrid": 11,
+    "yGrid": 25,
+    "totalVotes": 111871,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-158",
+    "voteMargin": 59.3
+  },
+  {
+    "desc": "NA 159 Nawabshah Election 1990 Result",
+    "result": [
+      { "candidate": "Zafar Ali Shah", "party": "PDA", "votes": "57029" },
+      {
+        "candidate": "Ghulam Mujtaba Khan Jatoi",
+        "party": "IJI",
+        "votes": "51520"
+      }
+    ],
+    "id": 159,
+    "xGrid": 10,
+    "yGrid": 26,
+    "totalVotes": 111725,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-159",
+    "voteMargin": 4.9
+  },
+  {
+    "desc": "NA 160 Nawabshah Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Murtaza Khan Jatoi",
+        "party": "IJI",
+        "votes": "48588"
+      },
+      { "candidate": "Asif Ali Zardari", "party": "PDA", "votes": "44964" }
+    ],
+    "id": 160,
+    "xGrid": 11,
+    "yGrid": 26,
+    "totalVotes": 96120,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-160",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 161 Nawabshah Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Shabir Ahmad Shah",
+        "party": "PDA",
+        "votes": "57801"
+      },
+      { "candidate": "Ghulam Rasool Unar", "party": "IJI", "votes": "13656" }
+    ],
+    "id": 161,
+    "xGrid": 10,
+    "yGrid": 27,
+    "totalVotes": 71979,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-161",
+    "voteMargin": 61.3
+  },
+  {
+    "desc": "NA 162 Khairpur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Syed Pervez Ali Shah Jillani",
+        "party": "PDA",
+        "votes": "74358"
+      },
+      {
+        "candidate": "Pir Syed Ali Mardan Shah Pir Paggara",
+        "party": "Ind",
+        "votes": "46073"
+      }
+    ],
+    "id": 162,
+    "xGrid": 11,
+    "yGrid": 24,
+    "totalVotes": 129885,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-162",
+    "voteMargin": 21.8
+  },
+  {
+    "desc": "NA 163 Khairpur Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Pir Syed Abdul Qadir Shah",
+        "party": "PDA",
+        "votes": "79080"
+      },
+      {
+        "candidate": "Pir Syed Saddaruddin Shah",
+        "party": "Ind",
+        "votes": "39391"
+      }
+    ],
+    "id": 163,
+    "xGrid": 12,
+    "yGrid": 26,
+    "totalVotes": 120801,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-163",
+    "voteMargin": 32.9
+  },
+  {
+    "desc": "NA 164 Larkana Election 1990 Result",
+    "result": [
+      { "candidate": "Begum Nusrat Bhutto", "party": "PDA", "votes": "79901" },
+      { "candidate": "Shah Muhammad", "party": "Ind", "votes": "9203" }
+    ],
+    "id": 164,
+    "xGrid": 12,
+    "yGrid": 24,
+    "totalVotes": 89287,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-164",
+    "voteMargin": 79.2
+  },
+  {
+    "desc": "NA 165 Larkana Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Shabbir Ahmed Khan Chandio",
+        "party": "PDA",
+        "votes": "59164"
+      },
+      { "candidate": "Mumtaz Ali Bhutto", "party": "SNF", "votes": "16198" }
+    ],
+    "id": 165,
+    "xGrid": 10,
+    "yGrid": 24,
+    "totalVotes": 78578,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-165",
+    "voteMargin": 54.7
+  },
+  {
+    "desc": "NA 166 Larkana Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mohtarma Benazir Bhutto",
+        "party": "PDA",
+        "votes": "94462"
+      },
+      {
+        "candidate": "Sardar Allah Bux Jalbani",
+        "party": "Ind",
+        "votes": "718"
+      }
+    ],
+    "id": 166,
+    "xGrid": 9,
+    "yGrid": 23,
+    "totalVotes": 95519,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-166",
+    "voteMargin": 98.1
+  },
+  {
+    "desc": "NA 167 Hyederabad Election 1990 Result",
+    "result": [
+      { "candidate": "Makhdoom Amin Faheem", "party": "PDA", "votes": "50154" },
+      { "candidate": "Shah Muhammad Shah", "party": "Ind", "votes": "17074" }
+    ],
+    "id": 167,
+    "xGrid": 11,
+    "yGrid": 28,
+    "totalVotes": 68253,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-167",
+    "voteMargin": 48.5
+  },
+  {
+    "desc": "NA 168 Hyederabad Election 1990 Result",
+    "result": [
+      { "candidate": "Kanwar Naveed Jamel", "party": "MQM", "votes": "76578" },
+      { "candidate": "Shah Farid ul Haq", "party": "JUP-N", "votes": "13949" }
+    ],
+    "id": 168,
+    "xGrid": 12,
+    "yGrid": 29,
+    "totalVotes": 102521,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-168",
+    "voteMargin": 61.1
+  },
+  {
+    "desc": "NA 169 Hyederabad Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Dr. Khalid Maqbool Siddiqui",
+        "party": "MQM",
+        "votes": "91373"
+      },
+      {
+        "candidate": "Mrza Ashiq Hussain Baig",
+        "party": "PDA",
+        "votes": "24259"
+      }
+    ],
+    "id": 169,
+    "xGrid": 11,
+    "yGrid": 29,
+    "totalVotes": 119831,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-169",
+    "voteMargin": 56
+  },
+  {
+    "desc": "NA 170 Hyederabad Election 1990 Result",
+    "result": [
+      { "candidate": "Syed Naveed Qamar", "party": "PDA", "votes": "56902" },
+      {
+        "candidate": "Mir Mushtaq Ali Khan Talpur",
+        "party": "Ind",
+        "votes": "16563"
+      }
+    ],
+    "id": 170,
+    "xGrid": 10,
+    "yGrid": 30,
+    "totalVotes": 74034,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-170",
+    "voteMargin": 54.5
+  },
+  {
+    "desc": "NA 171 Hyederabad Election 1990 Result",
+    "result": [
+      { "candidate": "Abdul Sattar Bachani", "party": "PDA", "votes": "59209" },
+      { "candidate": "Syed Umeed Ali Shah", "party": "Ind", "votes": "22878" }
+    ],
+    "id": 171,
+    "xGrid": 11,
+    "yGrid": 30,
+    "totalVotes": 83139,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-171",
+    "voteMargin": 43.7
+  },
+  {
+    "desc": "NA 172 Badin Election 1990 Result",
+    "result": [
+      { "candidate": "Abdullah Halepoto", "party": "PDA", "votes": "42506" },
+      { "candidate": "Bashir Ahmad Laghari", "party": "Ind", "votes": "16249" }
+    ],
+    "id": 172,
+    "xGrid": 12,
+    "yGrid": 31,
+    "totalVotes": 64615,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-172",
+    "voteMargin": 40.6
+  },
+  {
+    "desc": "NA 173 Badin Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Bashir Ahmed Halepoto",
+        "party": "PDA",
+        "votes": "36133"
+      },
+      { "candidate": "Ghulam Ali Nizamani", "party": "Ind", "votes": "12951" }
+    ],
+    "id": 173,
+    "xGrid": 11,
+    "yGrid": 31,
+    "totalVotes": 52263,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-173",
+    "voteMargin": 44.4
+  },
+  {
+    "desc": "NA 174 Tharparkar Election 1990 Result",
+    "result": [
+      { "candidate": "Anees Ahmad Khan", "party": "MQM", "votes": "44909" },
+      { "candidate": "Syed Qurban Ali Shah", "party": "PDA", "votes": "44493" }
+    ],
+    "id": 174,
+    "xGrid": 14,
+    "yGrid": 29,
+    "totalVotes": 98528,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-174",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NA 175 Tharparkar Election 1990 Result",
+    "result": [
+      { "candidate": "Muhammad Khan Junejo", "party": "IJI", "votes": "32019" },
+      { "candidate": "Ali Nawaz Shah", "party": "PDA", "votes": "28930" }
+    ],
+    "id": 175,
+    "xGrid": 15,
+    "yGrid": 29,
+    "totalVotes": 72417,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-175",
+    "voteMargin": 4.3
+  },
+  {
+    "desc": "NA 176 Tharparkar Election 1990 Result",
+    "result": [
+      { "candidate": "Arbab Ghulam Rahim", "party": "Ind", "votes": "49970" },
+      { "candidate": "Fakir Muhammad Hafeez", "party": "PDA", "votes": "37938" }
+    ],
+    "id": 176,
+    "xGrid": 15,
+    "yGrid": 31,
+    "totalVotes": 87908,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-176",
+    "voteMargin": 13.7
+  },
+  {
+    "desc": "NA 177 Dadu Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Malik Asad Sikandar Khan",
+        "party": "PDA",
+        "votes": "53431"
+      },
+      { "candidate": "Abdul Hafeez Pirzada", "party": "PNP", "votes": "21333" }
+    ],
+    "id": 177,
+    "xGrid": 9,
+    "yGrid": 25,
+    "totalVotes": 76144,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-177",
+    "voteMargin": 42.2
+  },
+  {
+    "desc": "NA 178 Dadu Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Haji Muhammad Bux Jamali",
+        "party": "PDA",
+        "votes": "56243"
+      },
+      {
+        "candidate": "Doctor Manzoor Hussain Leghari",
+        "party": "Ind",
+        "votes": "21535"
+      }
+    ],
+    "id": 178,
+    "xGrid": 9,
+    "yGrid": 27,
+    "totalVotes": 78126,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-178",
+    "voteMargin": 44.4
+  },
+  {
+    "desc": "NA 179 Dadu Election 1990 Result",
+    "result": [
+      { "candidate": "Rafiq Ahmad Mahessar", "party": "PDA", "votes": "52949" },
+      { "candidate": "Abdul Hameed Khan", "party": "SNA", "votes": "31125" }
+    ],
+    "id": 179,
+    "xGrid": 9,
+    "yGrid": 29,
+    "totalVotes": 86073,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-179",
+    "voteMargin": 25.4
+  },
+  {
+    "desc": "NA 180 Sanghar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Pir Syed Ali Gohar Shah Rashdi",
+        "party": "Ind",
+        "votes": "76853"
+      },
+      { "candidate": "Zahoor Alam Khan Rind", "party": "PDA", "votes": "23319" }
+    ],
+    "id": 180,
+    "xGrid": 12,
+    "yGrid": 28,
+    "totalVotes": 100885,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-180",
+    "voteMargin": 53.1
+  },
+  {
+    "desc": "NA 181 Sanghar Election 1990 Result",
+    "result": [
+      { "candidate": "Jam Mashooq Ali", "party": "Ind", "votes": "71405" },
+      { "candidate": "Shah Nawaz Junejo", "party": "PDA", "votes": "46889" }
+    ],
+    "id": 181,
+    "xGrid": 14,
+    "yGrid": 28,
+    "totalVotes": 121752,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-181",
+    "voteMargin": 20.1
+  },
+  {
+    "desc": "NA 182 Thatta Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Hussain Alias Babu",
+        "party": "PDA",
+        "votes": "47370"
+      },
+      { "candidate": "Rasool Bux", "party": "AT-PG", "votes": "12015" }
+    ],
+    "id": 182,
+    "xGrid": 10,
+    "yGrid": 31,
+    "totalVotes": 63422,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-182",
+    "voteMargin": 55.7
+  },
+  {
+    "desc": "NA 183 Thatta Election 1990 Result",
+    "result": [
+      { "candidate": "Arbab Wazir Ahmad", "party": "PDA", "votes": "33774" },
+      {
+        "candidate": "Syed Shafqat Hussain Shah Sheerazi",
+        "party": "Ind",
+        "votes": "25562"
+      }
+    ],
+    "id": 183,
+    "xGrid": 10,
+    "yGrid": 32,
+    "totalVotes": 61707,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-183",
+    "voteMargin": 13.3
+  },
+  {
+    "desc": "NA 184 Karachi Election 1990 Result",
+    "result": [
+      { "candidate": "Muhammad Irfan Khan", "party": "MQM", "votes": "50042" },
+      { "candidate": "Abdul Ghani", "party": "PDA", "votes": "45004" }
+    ],
+    "id": 184,
+    "xGrid": 7,
+    "yGrid": 29,
+    "totalVotes": 118655,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-184",
+    "voteMargin": 4.2
+  },
+  {
+    "desc": "NA 185 Karachi West Election 1990 Result",
+    "result": [
+      { "candidate": "Syed Salim ul Haq", "party": "MQM", "votes": "93883" },
+      { "candidate": "Muhammad Affaq Khan", "party": "PDA", "votes": "15563" }
+    ],
+    "id": 185,
+    "xGrid": 7,
+    "yGrid": 31,
+    "totalVotes": 120348,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-185",
+    "voteMargin": 65.1
+  },
+  {
+    "desc": "NA 186 Karachi Election 1990 Result",
+    "result": [
+      { "candidate": "Kanwar Khalid Younis", "party": "MQM", "votes": "90497" },
+      {
+        "candidate": "Professor Ghafoor Ahmad",
+        "party": "IJI",
+        "votes": "21254"
+      }
+    ],
+    "id": 186,
+    "xGrid": 6,
+    "yGrid": 29,
+    "totalVotes": 117302,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-186",
+    "voteMargin": 59
+  },
+  {
+    "desc": "NA 187 Karachi Central Election 1990 Result",
+    "result": [
+      { "candidate": "Imran Farooq", "party": "MQM", "votes": "111340" },
+      {
+        "candidate": "Syed Hussain Abbas Zaidi",
+        "party": "PDA",
+        "votes": "3487"
+      }
+    ],
+    "id": 187,
+    "xGrid": 8,
+    "yGrid": 32,
+    "totalVotes": 117531,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-187",
+    "voteMargin": 91.8
+  },
+  {
+    "desc": "NA 188 Karachi Central Election 1990 Result",
+    "result": [
+      { "candidate": "Syed Muhammad Aslam", "party": "MQM", "votes": "142591" },
+      { "candidate": "Muhammad Usman Ramz", "party": "Ind", "votes": "12410" }
+    ],
+    "id": 188,
+    "xGrid": 6,
+    "yGrid": 30,
+    "totalVotes": 160483,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-188",
+    "voteMargin": 81.1
+  },
+  {
+    "desc": "NA 189 Karachi South Election 1990 Result",
+    "result": [
+      { "candidate": "Asif Ali Zardari", "party": "PDA", "votes": "54308" },
+      {
+        "candidate": "Muhammad Yousaf Khan Baloch",
+        "party": "IJI",
+        "votes": "12615"
+      }
+    ],
+    "id": 189,
+    "xGrid": 9,
+    "yGrid": 30,
+    "totalVotes": 72396,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-189",
+    "voteMargin": 57.6
+  },
+  {
+    "desc": "NA 190 Bahawalnagar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Farooq Sattar",
+        "party": "MQM",
+        "votes": "52887"
+      },
+      {
+        "candidate": "Moulana Shah Ahmad Noorani Siddiqui",
+        "party": "JUP-N",
+        "votes": "35804"
+      }
+    ],
+    "id": 190,
+    "xGrid": 8,
+    "yGrid": 31,
+    "totalVotes": 89774,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-190",
+    "voteMargin": 19
+  },
+  {
+    "desc": "NA 191 Karachi South Election 1990 Result",
+    "result": [
+      { "candidate": "Syed Tariq Mehmood", "party": "MQM", "votes": "40573" },
+      { "candidate": "Abdul Sattar", "party": "IJI", "votes": "20019" }
+    ],
+    "id": 191,
+    "xGrid": 7,
+    "yGrid": 30,
+    "totalVotes": 80915,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-191",
+    "voteMargin": 25.4
+  },
+  {
+    "desc": "NA 192 Karachi Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Rafique Essani",
+        "party": "MQM",
+        "votes": "61938"
+      },
+      { "candidate": "Zuhari Akram Nadeem", "party": "IJI", "votes": "10654" }
+    ],
+    "id": 192,
+    "xGrid": 10,
+    "yGrid": 29,
+    "totalVotes": 81797,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-192",
+    "voteMargin": 62.7
+  },
+  {
+    "desc": "NA 193 Karachi East Election 1990 Result",
+    "result": [
+      { "candidate": "Islam Nabi", "party": "MQM", "votes": "72272" },
+      { "candidate": "Syed Munawar Hassan", "party": "IJI", "votes": "21329" }
+    ],
+    "id": 193,
+    "xGrid": 9,
+    "yGrid": 31,
+    "totalVotes": 101433,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-193",
+    "voteMargin": 50.2
+  },
+  {
+    "desc": "NA 194 Karachi East Election 1990 Result",
+    "result": [
+      { "candidate": "Syed Amin Ul Haq", "party": "MQM", "votes": "71807" },
+      {
+        "candidate": "Muhammad Khalil Qureishi",
+        "party": "PDA",
+        "votes": "15400"
+      }
+    ],
+    "id": 194,
+    "xGrid": 8,
+    "yGrid": 29,
+    "totalVotes": 90723,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-194",
+    "voteMargin": 62.2
+  },
+  {
+    "desc": "NA 195 Karachi East Election 1990 Result",
+    "result": [
+      { "candidate": "Rehan Umar Farooqi", "party": "MQM", "votes": "71265" },
+      { "candidate": "Sher Muhammad", "party": "PDA", "votes": "33495" }
+    ],
+    "id": 195,
+    "xGrid": 7,
+    "yGrid": 32,
+    "totalVotes": 106135,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-195",
+    "voteMargin": 35.6
+  },
+  {
+    "desc": "NA 196 Karachi East Election 1990 Result",
+    "result": [
+      { "candidate": "Waseem Ahmad", "party": "MQM", "votes": "90337" },
+      {
+        "candidate": "Sardar Akhtar Ali Baloch",
+        "party": "PDA",
+        "votes": "40983"
+      }
+    ],
+    "id": 196,
+    "xGrid": 8,
+    "yGrid": 30,
+    "totalVotes": 133578,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-196",
+    "voteMargin": 36.9
+  },
+  {
+    "desc": "NA 197 Quetta Chagai Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Fateh Muhammad Muhammad Hasni",
+        "party": "PDA",
+        "votes": "37874"
+      },
+      { "candidate": "Hafiz Hussain Ahmad", "party": "JUI-F", "votes": "34207" }
+    ],
+    "id": 197,
+    "xGrid": 5,
+    "yGrid": 19,
+    "totalVotes": 113378,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-197",
+    "voteMargin": 3.2
+  },
+  {
+    "desc": "NA 198 Pishin Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mehmood Khan Achakzai",
+        "party": "PKMAP",
+        "votes": "34003"
+      },
+      { "candidate": "Molvi Abdul Ghani", "party": "JUI-F", "votes": "28825" }
+    ],
+    "id": 198,
+    "xGrid": 8,
+    "yGrid": 15,
+    "totalVotes": 77402,
+    "region": "Pishin",
+    "province": "Balochistan",
+    "seat": "NA-198",
+    "voteMargin": 6.7
+  },
+  {
+    "desc": "NA 199 Loralai Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Yaqoob Khan Nasir",
+        "party": "IJI",
+        "votes": "15864"
+      },
+      {
+        "candidate": "Mir Baz Muhammad Khan Khethran",
+        "party": "PDA",
+        "votes": "13016"
+      }
+    ],
+    "id": 199,
+    "xGrid": 13,
+    "yGrid": 16,
+    "totalVotes": 55451,
+    "region": "Loralai",
+    "province": "Balochistan",
+    "seat": "NA-199",
+    "voteMargin": 5.1
+  },
+  {
+    "desc": "NA 200 Zhob Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Maulvi Muhammad Khan Sherani",
+        "party": "JUI-F",
+        "votes": "15965"
+      },
+      {
+        "candidate": "Nawab Muhammad Ayaz Khan Jogezai",
+        "party": "PKMAP",
+        "votes": "10038"
+      }
+    ],
+    "id": 200,
+    "xGrid": 13,
+    "yGrid": 13,
+    "totalVotes": 36065,
+    "region": "Zhob",
+    "province": "Balochistan",
+    "seat": "NA-200",
+    "voteMargin": 16.4
+  },
+  {
+    "desc": "NA 201 Kachhi Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mir Yar Muhammad Rind",
+        "party": "JWP",
+        "votes": "42586"
+      },
+      {
+        "candidate": "Doctor Abdul Hayee Baloch",
+        "party": "BNM",
+        "votes": "12738"
+      }
+    ],
+    "id": 201,
+    "xGrid": 10,
+    "yGrid": 19,
+    "totalVotes": 65349,
+    "region": "Kachhi",
+    "province": "Balochistan",
+    "seat": "NA-201",
+    "voteMargin": 45.7
+  },
+  {
+    "desc": "NA 202 Sibi Kohlu Dera Bugti Ziarat Election 1990 Result",
+    "result": [
+      { "candidate": "Saleem Akbar Bugti", "party": "JWP", "votes": "57094" },
+      { "candidate": "Raziq Bugti", "party": "PNP", "votes": "6764" }
+    ],
+    "id": 202,
+    "xGrid": 12,
+    "yGrid": 19,
+    "totalVotes": 77341,
+    "region": "Sibi",
+    "province": "Balochistan",
+    "seat": "NA-202",
+    "voteMargin": 65.1
+  },
+  {
+    "desc": "NA 203 Jaffarabad Tamboo Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Mir Nabi Bux Khan Khosa",
+        "party": "PDA",
+        "votes": "24131"
+      },
+      {
+        "candidate": "Mir Zafar Ullah Khan Jamali",
+        "party": "IJI",
+        "votes": "19645"
+      }
+    ],
+    "id": 203,
+    "xGrid": 10,
+    "yGrid": 21,
+    "totalVotes": 49136,
+    "region": "Jaffarabad",
+    "province": "Balochistan",
+    "seat": "NA-203",
+    "voteMargin": 9.1
+  },
+  {
+    "desc": "NA 204 Kalat / Kharan Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Moulvi Muhammad Siddique Shah",
+        "party": "JUI-F",
+        "votes": "18647"
+      },
+      {
+        "candidate": "Nawab Muhammad Aslam Khan Raisani",
+        "party": "PNP",
+        "votes": "14828"
+      }
+    ],
+    "id": 204,
+    "xGrid": 5,
+    "yGrid": 22,
+    "totalVotes": 54253,
+    "region": "Kalat",
+    "province": "Balochistan",
+    "seat": "NA-204",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 205 Khuzdar Election 1990 Result",
+    "result": [
+      { "candidate": "Mir Bizan Bizanjo", "party": "PNP", "votes": "21294" },
+      {
+        "candidate": "Mir Muhammad Naseer Mengal",
+        "party": "IJI",
+        "votes": "15053"
+      }
+    ],
+    "id": 205,
+    "xGrid": 6,
+    "yGrid": 25,
+    "totalVotes": 45935,
+    "region": "Khuzdar",
+    "province": "Balochistan",
+    "seat": "NA-205",
+    "voteMargin": 13.6
+  },
+  {
+    "desc": "NA 206 Lasbela Gawadar Election 1990 Result",
+    "result": [
+      {
+        "candidate": "Shahzada Jam Muhammad Yousaf",
+        "party": "IJI",
+        "votes": "20487"
+      },
+      { "candidate": "Ghulam Akbar Lasi", "party": "PDA", "votes": "19828" }
+    ],
+    "id": 206,
+    "xGrid": 2,
+    "yGrid": 29,
+    "totalVotes": 63395,
+    "region": "Lasbela",
+    "province": "Balochistan",
+    "seat": "NA-206",
+    "voteMargin": 1
+  },
+  {
+    "desc": "NA 207 Turbat Panjgur Election 1990 Result",
+    "result": [
+      { "candidate": "Mir Bizan Bizanjo", "party": "PNP", "votes": "26166" },
+      {
+        "candidate": "Doctor Muhammad Yaseen",
+        "party": "BNM",
+        "votes": "23782"
+      }
+    ],
+    "id": 207,
+    "xGrid": 0,
+    "yGrid": 26,
+    "totalVotes": 56991,
+    "region": "Turbat",
+    "province": "Balochistan",
+    "seat": "NA-207",
+    "voteMargin": 4.2
+  }
+]

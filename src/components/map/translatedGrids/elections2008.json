@@ -1,0 +1,5274 @@
+[
+  {
+    "desc": "NA 1 Peshawar I Detail Election Result 2002",
+    "voterTurnout": 22.97,
+    "totalVotes": 88325,
+    "result": [
+      {
+        "candidate": "Haji Ghulam Ahmad Bilour",
+        "party": "ANP",
+        "votes": 44210
+      },
+      { "candidate": "Ayub Shah", "party": "PPP", "votes": 37682 }
+    ],
+    "id": 1,
+    "xGrid": 18,
+    "yGrid": 6,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-1",
+    "voteMargin": 7.4
+  },
+  {
+    "desc": "NA 2 Peshawar II Detail Election Result 2002",
+    "voterTurnout": 24.73,
+    "totalVotes": 76293,
+    "result": [
+      { "candidate": "Dr. Arbab Alamgir Khan", "party": "PPP", "votes": 34443 },
+      {
+        "candidate": "Arbab Najeeb Ullah Khan Khalil",
+        "party": "ANP",
+        "votes": 23992
+      }
+    ],
+    "id": 2,
+    "xGrid": 18,
+    "yGrid": 8,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-2",
+    "voteMargin": 13.7
+  },
+  {
+    "desc": "NA 3 Peshawar III Detail Election Result 2002",
+    "voterTurnout": 36.25,
+    "totalVotes": 90895,
+    "result": [
+      { "candidate": "Noor Alam Khan", "party": "PPP", "votes": 27038 },
+      { "candidate": "Muhammad Hashim Babar", "party": "ANP", "votes": 26201 }
+    ],
+    "id": 3,
+    "xGrid": 18,
+    "yGrid": 7,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-3",
+    "voteMargin": 0.9
+  },
+  {
+    "desc": "NA 4 Peshawar IV Detail Election Result 2002",
+    "voterTurnout": 30.62,
+    "totalVotes": 80806,
+    "result": [
+      {
+        "candidate": "Arbab Muhammad Zahir Khan",
+        "party": "ANP",
+        "votes": 31598
+      },
+      { "candidate": "Muhammad Azam Afridi", "party": "PPP", "votes": 18702 }
+    ],
+    "id": 4,
+    "xGrid": 19,
+    "yGrid": 6,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-4",
+    "voteMargin": 16
+  },
+  {
+    "desc": "NA 5 Nowshera I Detail Election Result 2002",
+    "voterTurnout": 37,
+    "totalVotes": 94570,
+    "result": [
+      {
+        "candidate": "Eng:Muhammad Tariq Khattak",
+        "party": "PPP",
+        "votes": 31907
+      },
+      { "candidate": "Tariq Hameed Khattak", "party": "ANP", "votes": 29572 }
+    ],
+    "id": 5,
+    "xGrid": 20,
+    "yGrid": 7,
+    "region": "Nowshera",
+    "province": "KP",
+    "seat": "NA-5",
+    "voteMargin": 2.5
+  },
+  {
+    "desc": "NA 6 Nowshera II Detail Election Result 2002",
+    "voterTurnout": 37.19,
+    "totalVotes": 57193,
+    "result": [
+      { "candidate": "Masood Abbas Khattak", "party": "ANP", "votes": 36835 },
+      { "candidate": "Mian Jamshed-ud-Din", "party": "PPP-S", "votes": 20358 }
+    ],
+    "id": 6,
+    "xGrid": 19,
+    "yGrid": 7,
+    "region": "Nowshera",
+    "province": "KP",
+    "seat": "NA-6",
+    "voteMargin": 28.8
+  },
+  {
+    "desc": "NA 7 Charsadda I Detail Election Result 2002",
+    "voterTurnout": 32.32,
+    "totalVotes": 78705,
+    "result": [
+      { "candidate": "Asfandiyar Wali Khan", "party": "ANP", "votes": 57234 },
+      { "candidate": "Naseer Mohammad Khan", "party": "PPP", "votes": 17883 }
+    ],
+    "id": 7,
+    "xGrid": 17,
+    "yGrid": 6,
+    "region": "Charsadda",
+    "province": "KP",
+    "seat": "NA-7",
+    "voteMargin": 50
+  },
+  {
+    "desc": "NA 8 Charsadda II Detail Election Result 2002",
+    "voterTurnout": 32.31,
+    "totalVotes": 78062,
+    "result": [
+      {
+        "candidate": "Aftab Ahmad Khan Sherpao",
+        "party": "PPP-S",
+        "votes": 30626
+      },
+      { "candidate": "Bashir Khan Umerzai", "party": "ANP", "votes": 29951 }
+    ],
+    "id": 8,
+    "xGrid": 16,
+    "yGrid": 6,
+    "region": "Charsadda",
+    "province": "KP",
+    "seat": "NA-8",
+    "voteMargin": 0.9
+  },
+  {
+    "desc": "NA 9 Mardan I Detail Election Result 2002",
+    "voterTurnout": 30.8,
+    "totalVotes": 57054,
+    "result": [
+      { "candidate": "Himayat Ullah Mayar", "party": "ANP", "votes": 30770 },
+      { "candidate": "Moulana Shuja ul Mulk", "party": "JUI-S", "votes": 24621 }
+    ],
+    "id": 9,
+    "xGrid": 20,
+    "yGrid": 5,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-9",
+    "voteMargin": 10.8
+  },
+  {
+    "desc": "NA 10 Mardan II Detail Election Result 2002",
+    "voterTurnout": 37.76,
+    "totalVotes": 87919,
+    "result": [
+      { "candidate": "Maulana Mohammad Qasim", "party": "MMA", "votes": 29279 },
+      {
+        "candidate": "Nawabzada Abdul Qadir Khan",
+        "party": "PPP",
+        "votes": 23138
+      }
+    ],
+    "id": 10,
+    "xGrid": 19,
+    "yGrid": 5,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-10",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 11 Mardan III Detail Election Result 2002",
+    "voterTurnout": 15.77,
+    "totalVotes": 39941,
+    "result": [
+      { "candidate": "Khanzada Khan", "party": "PPP", "votes": 20896 },
+      {
+        "candidate": "Maulana Taj-ul-Amin Jabal1",
+        "party": "MMA",
+        "votes": 18155
+      }
+    ],
+    "id": 11,
+    "xGrid": 20,
+    "yGrid": 6,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-11",
+    "voteMargin": 6.9
+  },
+  {
+    "desc": "NA 12 Swabi I Detail Election Result 2002",
+    "voterTurnout": 39.26,
+    "totalVotes": 108071,
+    "result": [
+      {
+        "candidate": "Engineer Usman Khan Tarkai",
+        "party": "Ind",
+        "votes": 49872
+      },
+      { "candidate": "Asfandiyar Wali Khan", "party": "ANP", "votes": 49574 }
+    ],
+    "id": 12,
+    "xGrid": 22,
+    "yGrid": 5,
+    "region": "Swabi",
+    "province": "KP",
+    "seat": "NA-12",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 13 Swabi II Detail Election Result 2002",
+    "voterTurnout": 36.65,
+    "totalVotes": 91565,
+    "result": [
+      { "candidate": "Perviz Khan Advocate", "party": "ANP", "votes": 26603 },
+      { "candidate": "Muhammad Naeem", "party": "PPP", "votes": 19418 }
+    ],
+    "id": 13,
+    "xGrid": 22,
+    "yGrid": 6,
+    "region": "Swabi",
+    "province": "KP",
+    "seat": "NA-13",
+    "voteMargin": 7.8
+  },
+  {
+    "desc": "NA 14 Kohat Detail Election Result 2002",
+    "voterTurnout": 28.41,
+    "totalVotes": 98618,
+    "result": [
+      { "candidate": "Pir Dilawar Shah", "party": "ANP", "votes": 30681 },
+      {
+        "candidate": "Malak Mohammad Asad Khan",
+        "party": "Ind",
+        "votes": 23030
+      }
+    ],
+    "id": 14,
+    "xGrid": 18,
+    "yGrid": 9,
+    "region": "Kohat",
+    "province": "KP",
+    "seat": "NA-14",
+    "voteMargin": 7.8
+  },
+  {
+    "desc": "NA 15 Karak Detail Election Result 2002",
+    "voterTurnout": 38.78,
+    "totalVotes": 110588,
+    "result": [
+      { "candidate": "Mufti Ajmal Khan", "party": "MMA", "votes": 28665 },
+      {
+        "candidate": "Shams ur Rehman Khattak",
+        "party": "PML-N",
+        "votes": 22053
+      }
+    ],
+    "id": 15,
+    "xGrid": 18,
+    "yGrid": 10,
+    "region": "Karak",
+    "province": "KP",
+    "seat": "NA-15",
+    "voteMargin": 6
+  },
+  {
+    "desc": "NA 16 Hangu Detail Election Result 2002",
+    "voterTurnout": 31.8,
+    "totalVotes": 58476,
+    "result": [
+      { "candidate": "Syed Haider Ali Shah", "party": "ANP", "votes": 22180 },
+      {
+        "candidate": "Maulana Mian Hussain Jalali",
+        "party": "MMA",
+        "votes": 19513
+      }
+    ],
+    "id": 16,
+    "xGrid": 17,
+    "yGrid": 9,
+    "region": "Hangu",
+    "province": "KP",
+    "seat": "NA-16",
+    "voteMargin": 4.6
+  },
+  {
+    "desc": "NA 17 Abbottabad I Detail Election Result 2002",
+    "voterTurnout": 42.72,
+    "totalVotes": 131710,
+    "result": [
+      {
+        "candidate": "Sardar Mehtab Ahmed Khan",
+        "party": "PML-N",
+        "votes": 58041
+      },
+      {
+        "candidate": "Dr.Muhammad Azhar Khan Jadoon",
+        "party": "Ind",
+        "votes": 36668
+      }
+    ],
+    "id": 17,
+    "xGrid": 23,
+    "yGrid": 4,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-17",
+    "voteMargin": 16.2
+  },
+  {
+    "desc": "NA 18 Abbottabad II Detail Election Result 2002",
+    "voterTurnout": 44.26,
+    "totalVotes": 147185,
+    "result": [
+      { "candidate": "Murtaza Javid Abbasi", "party": "PML-N", "votes": 72586 },
+      {
+        "candidate": "Sardar Muhammad Yaqoob",
+        "party": "PML-Q",
+        "votes": 35480
+      }
+    ],
+    "id": 18,
+    "xGrid": 24,
+    "yGrid": 5,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-18",
+    "voteMargin": 25.2
+  },
+  {
+    "desc": "NA 19 Haripur Detail Election Result 2002",
+    "voterTurnout": 47.1,
+    "totalVotes": 222498,
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Mushtaq",
+        "party": "PML-N",
+        "votes": 98670
+      },
+      { "candidate": "Raja Amir Zaman", "party": "Ind", "votes": 71254 }
+    ],
+    "id": 19,
+    "xGrid": 21,
+    "yGrid": 7,
+    "region": "Haripur",
+    "province": "KP",
+    "seat": "NA-19",
+    "voteMargin": 12.3
+  },
+  {
+    "desc": "NA 20 Mansehra I Detail Election Result 2002",
+    "voterTurnout": 36.02,
+    "totalVotes": 155114,
+    "result": [
+      {
+        "candidate": "Sardar Shajehan Yousaf",
+        "party": "PML-Q",
+        "votes": 73644
+      },
+      {
+        "candidate": "Lt Gen(R) Salah-ud-Din Trimzi",
+        "party": "PML-N",
+        "votes": 72526
+      }
+    ],
+    "id": 20,
+    "xGrid": 22,
+    "yGrid": 4,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-20",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 21 Mansehra II Detail Election Result 2002",
+    "voterTurnout": 0,
+    "totalVotes": 137948,
+    "result": [
+      { "candidate": "Laiq Muhammad Khan", "party": "MMA", "votes": 36629 },
+      { "candidate": "Zar Gul Khan", "party": "PML-Q", "votes": 31774 }
+    ],
+    "id": 21,
+    "xGrid": 21,
+    "yGrid": 4,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-21",
+    "voteMargin": 3.5
+  },
+  {
+    "desc": "NA 22 Battagram Detail Election Result 2002",
+    "voterTurnout": 36.69,
+    "totalVotes": 55043,
+    "result": [
+      { "candidate": "Muhammad Nawaz Khan", "party": "PML-Q", "votes": 22316 },
+      { "candidate": "Qari Muhammad Yousaf", "party": "MMA", "votes": 20036 }
+    ],
+    "id": 22,
+    "xGrid": 21,
+    "yGrid": 5,
+    "region": "Battagram",
+    "province": "KP",
+    "seat": "NA-22",
+    "voteMargin": 4.1
+  },
+  {
+    "desc": "NA 23 Kohistan Detail Election Result 2002",
+    "voterTurnout": 16.7,
+    "totalVotes": 53086,
+    "result": [
+      { "candidate": "Mehboobullah", "party": "Ind", "votes": 14100 },
+      { "candidate": "Haji Misar Khan", "party": "PPP", "votes": 13412 }
+    ],
+    "id": 23,
+    "xGrid": 22,
+    "yGrid": 2,
+    "region": "Kohistan",
+    "province": "KP",
+    "seat": "NA-23",
+    "voteMargin": 1.3
+  },
+  {
+    "desc": "NA 24 Dera Ismail Khan Detail Election Result 2002",
+    "voterTurnout": 41.14,
+    "totalVotes": 138631,
+    "result": [
+      { "candidate": "Faisal Karim Kundi", "party": "PPP", "votes": 83560 },
+      { "candidate": "Maulana Fazal ur Rehman", "party": "MMA", "votes": 45990 }
+    ],
+    "id": 24,
+    "xGrid": 17,
+    "yGrid": 13,
+    "region": "Dera Ismail Khan",
+    "province": "KP",
+    "seat": "NA-24",
+    "voteMargin": 27.1
+  },
+  {
+    "desc": "NA 25 Tank I Detail Election Result 2002",
+    "voterTurnout": 43,
+    "totalVotes": 132830,
+    "result": [
+      { "candidate": "Atta ur Rehman", "party": "MMA", "votes": 44673 },
+      { "candidate": "Habibullah Khan Kundi", "party": "PML-Q", "votes": 42831 }
+    ],
+    "id": 25,
+    "xGrid": 17,
+    "yGrid": 12,
+    "region": "Tank",
+    "province": "KP",
+    "seat": "NA-25",
+    "voteMargin": 1.4
+  },
+  {
+    "desc": "NA 26 Bannu Detail Election Result 2002",
+    "voterTurnout": 43.42,
+    "totalVotes": 164463,
+    "result": [
+      {
+        "candidate": "Maulana Fazal Ur Rehman",
+        "party": "MMA",
+        "votes": 91484
+      },
+      { "candidate": "Malik Nasir Khan", "party": "Ind", "votes": 56546 }
+    ],
+    "id": 26,
+    "xGrid": 16,
+    "yGrid": 9,
+    "region": "Bannu",
+    "province": "KP",
+    "seat": "NA-26",
+    "voteMargin": 21.2
+  },
+  {
+    "desc": "NA 27 Lakki Marwat Detail Election Result 2002",
+    "voterTurnout": 47.44,
+    "totalVotes": 123547,
+    "result": [
+      {
+        "candidate": "Hamayun Saifullah Khan",
+        "party": "PML-Q",
+        "votes": 61303
+      },
+      {
+        "candidate": "Doctor Muhammad Khalid Raza Pir Zakori Sharif",
+        "party": "MMA",
+        "votes": 52315
+      }
+    ],
+    "id": 27,
+    "xGrid": 18,
+    "yGrid": 11,
+    "region": "Lakki Marwat",
+    "province": "KP",
+    "seat": "NA-27",
+    "voteMargin": 7.3
+  },
+  {
+    "desc": "NA 28 Buner Detail Election Result 2002",
+    "voterTurnout": 27.346,
+    "totalVotes": 72883,
+    "result": [
+      { "candidate": "Istiqbal Khan", "party": "ANP", "votes": 30903 },
+      { "candidate": "Bakht Jehan Khan", "party": "Ind", "votes": 30116 }
+    ],
+    "id": 28,
+    "xGrid": 21,
+    "yGrid": 6,
+    "region": "Buner",
+    "province": "KP",
+    "seat": "NA-28",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 29 Swat I Detail Election Result 2002",
+    "voterTurnout": 18.13,
+    "totalVotes": 63611,
+    "result": [
+      { "candidate": "Muzafer ul Mulk", "party": "ANP", "votes": 19860 },
+      {
+        "candidate": "Main Gul Adnan Aurangzeb",
+        "party": "Ind",
+        "votes": 17253
+      }
+    ],
+    "id": 29,
+    "xGrid": 19,
+    "yGrid": 4,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-29",
+    "voteMargin": 4.1
+  },
+  {
+    "desc": "NA 30 Swat II Detail Election Result 2002",
+    "voterTurnout": 19.8,
+    "totalVotes": 65635,
+    "result": [
+      { "candidate": "Syed Allauddin", "party": "PPP", "votes": 24063 },
+      { "candidate": "Shujaat Ali Khan", "party": "PML-Q", "votes": 16337 }
+    ],
+    "id": 30,
+    "xGrid": 20,
+    "yGrid": 3,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-30",
+    "voteMargin": 11.8
+  },
+  {
+    "desc": "NA 31 Shangla Detail Election Result 2002",
+    "voterTurnout": 26.04,
+    "totalVotes": 63508,
+    "result": [
+      { "candidate": "Eng: Amir Muqam", "party": "PML-Q", "votes": 26928 },
+      { "candidate": "Sadeed ur Rehman", "party": "ANP", "votes": 15740 }
+    ],
+    "id": 31,
+    "xGrid": 23,
+    "yGrid": 5,
+    "region": "Shangla",
+    "province": "KP",
+    "seat": "NA-31",
+    "voteMargin": 17.6
+  },
+  {
+    "desc": "NA 32 Chitral Detail Election Result 2002",
+    "voterTurnout": 45.4,
+    "totalVotes": 86368,
+    "result": [
+      { "candidate": "Shahzada Muhyuddin", "party": "PML-Q", "votes": 33278 },
+      { "candidate": "Sardar Muhammad Khan", "party": "Ind", "votes": 31120 }
+    ],
+    "id": 32,
+    "xGrid": 19,
+    "yGrid": 0,
+    "region": "Chitral",
+    "province": "KP",
+    "seat": "NA-32",
+    "voteMargin": 2.5
+  },
+  {
+    "desc": "NA 33 Dir Detail Election Result 2002",
+    "voterTurnout": 26.75,
+    "totalVotes": 69911,
+    "result": [
+      { "candidate": "Najum-din Khan", "party": "PPP", "votes": 27594 },
+      { "candidate": "Sahibzada Sibghatullalh", "party": "Ind", "votes": 19910 }
+    ],
+    "id": 33,
+    "xGrid": 19,
+    "yGrid": 2,
+    "region": "Dir",
+    "province": "KP",
+    "seat": "NA-33",
+    "voteMargin": 11
+  },
+  {
+    "desc": "NA 34 Lower Dir Detail Election Result 2002",
+    "voterTurnout": 24.2,
+    "totalVotes": 78749,
+    "result": [
+      { "candidate": "Malak Azmat Khan", "party": "PPP", "votes": 38068 },
+      { "candidate": "Muhammad Ayoub Khan", "party": "ANP", "votes": 24480 }
+    ],
+    "id": 34,
+    "xGrid": 19,
+    "yGrid": 3,
+    "region": "Lower Dir",
+    "province": "KP",
+    "seat": "NA-34",
+    "voteMargin": 17.3
+  },
+  {
+    "desc": "NA 35 Malakand Detail Election Result 2002",
+    "voterTurnout": 31.29,
+    "totalVotes": 55716,
+    "result": [
+      { "candidate": "Lal Muhammad Khan", "party": "PPP", "votes": 34472 },
+      { "candidate": "Nisar Muhammad", "party": "PPP-S", "votes": 15028 }
+    ],
+    "id": 35,
+    "xGrid": 20,
+    "yGrid": 4,
+    "region": "Malakand",
+    "province": "KP",
+    "seat": "NA-35",
+    "voteMargin": 34.9
+  },
+  {
+    "desc": "NA 36 Tribal Area I Detail Election Result 2002",
+    "voterTurnout": 18.15,
+    "totalVotes": 22873,
+    "result": [
+      { "candidate": "Bilal Rehman", "party": "Ind", "votes": 5270 },
+      { "candidate": "Shahbaz Khan Mohmand", "party": "Ind", "votes": 4229 }
+    ],
+    "id": 36,
+    "xGrid": 17,
+    "yGrid": 5,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-36",
+    "voteMargin": 4.6
+  },
+  {
+    "desc": "NA 37 Tribal Area II Detail Election Result 2002",
+    "voterTurnout": 61.82,
+    "totalVotes": 87090,
+    "result": [
+      { "candidate": "Sajid Hussain Turi", "party": "Ind", "votes": 26287 },
+      {
+        "candidate": "Doctor Syed Riaz Hussain",
+        "party": "Ind",
+        "votes": 20793
+      }
+    ],
+    "id": 37,
+    "xGrid": 16,
+    "yGrid": 7,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-37",
+    "voteMargin": 6.3
+  },
+  {
+    "desc": "NA 38 Tribal Area III Detail Election Result 2002",
+    "voterTurnout": 28.31,
+    "totalVotes": 24900,
+    "result": [
+      { "candidate": "Munir Khan Orakzai", "party": "Ind", "votes": 16525 },
+      {
+        "candidate": "Maulana Akhunzada Obaidullah Sharif",
+        "party": "Ind",
+        "votes": 4270
+      }
+    ],
+    "id": 38,
+    "xGrid": 16,
+    "yGrid": 8,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-38",
+    "voteMargin": 49.2
+  },
+  {
+    "desc": "NA 39 Tribal Area IV Detail Election Result 2002",
+    "voterTurnout": 40.1,
+    "totalVotes": 49126,
+    "result": [
+      { "candidate": "Jawad Hussain", "party": "Ind", "votes": 21844 },
+      { "candidate": "Dr. Gul Karim Khan", "party": "Ind", "votes": 8247 }
+    ],
+    "id": 39,
+    "xGrid": 17,
+    "yGrid": 8,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-39",
+    "voteMargin": 27.7
+  },
+  {
+    "desc": "NA 40 Tribal Area V Detail Election Result 2002",
+    "voterTurnout": 27.87,
+    "totalVotes": 34638,
+    "result": [
+      { "candidate": "Muhammad Kamran Khan", "party": "Ind", "votes": 5894 },
+      { "candidate": "Abdul Qayyum", "party": "PCM", "votes": 5441 }
+    ],
+    "id": 40,
+    "xGrid": 15,
+    "yGrid": 9,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-40",
+    "voteMargin": 1.3
+  },
+  {
+    "desc": "NA 41 Tribal Area VI Detail Election Result 2002",
+    "voterTurnout": 33.2,
+    "totalVotes": 31855,
+    "result": [
+      {
+        "candidate": "Moulana Abul Malik Wazir",
+        "party": "Ind",
+        "votes": 9000
+      },
+      { "candidate": "Ghalib Khan", "party": "Ind", "votes": 8177 }
+    ],
+    "id": 41,
+    "xGrid": 15,
+    "yGrid": 11,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-41",
+    "voteMargin": 2.6
+  },
+  {
+    "desc": "NA 42 Tribal Area VII Detail Election Result 2002",
+    "voterTurnout": 33.99,
+    "totalVotes": 31387,
+    "result": [
+      {
+        "candidate": "Moulana Abdul Malik Wazir",
+        "party": "Ind",
+        "votes": 7957
+      },
+      { "candidate": "Ghalib Khan", "party": "Ind", "votes": 7921 }
+    ],
+    "id": 42,
+    "xGrid": 16,
+    "yGrid": 11,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-42",
+    "voteMargin": 0.1
+  },
+  {
+    "desc": "NA 43 Tribal Area  Election 2002 Result",
+    "voterTurnout": 12.849,
+    "totalVotes": 14910,
+    "result": [
+      { "candidate": "Shaukatullah Khan", "party": "Ind", "votes": 7428 },
+      { "candidate": "Sheikh Jehanzada", "party": "Ind", "votes": 3079 }
+    ],
+    "id": 43,
+    "xGrid": 18,
+    "yGrid": 4,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-43",
+    "voteMargin": 29.2
+  },
+  {
+    "desc": "NA 44 Tribal Area IX Detail Election Result 2002",
+    "voterTurnout": 17.69,
+    "totalVotes": 23221,
+    "result": [
+      { "candidate": "Syed Akhun Zada Chittan", "party": "Ind", "votes": 6257 },
+      { "candidate": "Shahab ud Din Khan", "party": "Ind", "votes": 5203 }
+    ],
+    "id": 44,
+    "xGrid": 18,
+    "yGrid": 3,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-44",
+    "voteMargin": 4.5
+  },
+  {
+    "desc": "NA 45 Tribal Area X Detail Election Result 2002",
+    "voterTurnout": 35.16,
+    "totalVotes": 34966,
+    "result": [
+      { "candidate": "Noor Ul Haq Qadri", "party": "Ind", "votes": 13876 },
+      {
+        "candidate": "Mohammad Ibrahim Koki Khel",
+        "party": "Ind",
+        "votes": 12548
+      }
+    ],
+    "id": 45,
+    "xGrid": 18,
+    "yGrid": 5,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-45",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 46 Tribal Area XI Detail Election Result 2002",
+    "voterTurnout": 23.8,
+    "totalVotes": 22248,
+    "result": [
+      {
+        "candidate": "Hamidullah Jan Afridi BQK",
+        "party": "Ind",
+        "votes": 5660
+      },
+      {
+        "candidate": "Mohammad Saeed Afridi BQK",
+        "party": "Ind",
+        "votes": 5035
+      }
+    ],
+    "id": 46,
+    "xGrid": 17,
+    "yGrid": 7,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-46",
+    "voteMargin": 2.8
+  },
+  {
+    "desc": "NA 47 Tribal Area XII Detail Election Result 2002",
+    "voterTurnout": 35.14,
+    "totalVotes": 47706,
+    "result": [
+      { "candidate": "Zafar Baig Bhattani", "party": "Ind", "votes": 21426 },
+      { "candidate": "Doctor Nasim Afridi", "party": "Ind", "votes": 10468 }
+    ],
+    "id": 47,
+    "xGrid": 17,
+    "yGrid": 10,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-47",
+    "voteMargin": 23
+  },
+  {
+    "desc": "NA 48 Islamabad I Detail Election Result 2002",
+    "voterTurnout": 43.72,
+    "totalVotes": 104409,
+    "result": [
+      { "candidate": "Anjum Aqeel Khan", "party": "PML-N", "votes": 61480 },
+      { "candidate": "Dr. Syed Israr Hussain", "party": "PPP", "votes": 26485 }
+    ],
+    "id": 48,
+    "xGrid": 22,
+    "yGrid": 7,
+    "region": "Islamabad",
+    "province": "ICT",
+    "seat": "NA-48",
+    "voteMargin": 33.5
+  },
+  {
+    "desc": "NA 49 Islamabad II Detail Election Result 2002",
+    "voterTurnout": 56.23,
+    "totalVotes": 135591,
+    "result": [
+      {
+        "candidate": "Dr.Tariq Fazal Chaudhry",
+        "party": "PML-N",
+        "votes": 45482
+      },
+      {
+        "candidate": "Syed Nayyer Hussain Bukhari",
+        "party": "PPP",
+        "votes": 44726
+      }
+    ],
+    "id": 49,
+    "xGrid": 23,
+    "yGrid": 7,
+    "region": "Islamabad",
+    "province": "ICT",
+    "seat": "NA-49",
+    "voteMargin": 0.6
+  },
+  {
+    "desc": "NA 50 Rawalpindi I Detail Election Result 2002",
+    "voterTurnout": 51.5,
+    "totalVotes": 206356,
+    "result": [
+      {
+        "candidate": "Shahid Khaqan Abbassi",
+        "party": "PML-N",
+        "votes": 99988
+      },
+      { "candidate": "Ghulam Murtaza Satti", "party": "PPP", "votes": 77978 }
+    ],
+    "id": 50,
+    "xGrid": 23,
+    "yGrid": 6,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-50",
+    "voteMargin": 10.7
+  },
+  {
+    "desc": "NA 51 Rawalpindi II Detail Election Result 2002",
+    "voterTurnout": 54.28,
+    "totalVotes": 206717,
+    "result": [
+      { "candidate": "Raja Pervaiz Ashraf", "party": "PPP", "votes": 80247 },
+      {
+        "candidate": "Raja Qasim Javaid Ikhlas",
+        "party": "PML-Q",
+        "votes": 69690
+      }
+    ],
+    "id": 51,
+    "xGrid": 23,
+    "yGrid": 8,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-51",
+    "voteMargin": 5.1
+  },
+  {
+    "desc": "NA 52 Rawalpindi III Detail Election Result 2002",
+    "voterTurnout": 21.06,
+    "totalVotes": 79175,
+    "result": [
+      { "candidate": "Muhammad Safdar", "party": "PML-N", "votes": 54917 },
+      { "candidate": "Muhammad Nasir Raja", "party": "PML-Q", "votes": 22773 }
+    ],
+    "id": 52,
+    "xGrid": 24,
+    "yGrid": 6,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-52",
+    "voteMargin": 40.6
+  },
+  {
+    "desc": "NA 53 Rawalpindi Detail Election Result 2002",
+    "voterTurnout": 52.32,
+    "totalVotes": 175409,
+    "result": [
+      { "candidate": "Ch. Nisar Ali Khan", "party": "PML-N", "votes": 72257 },
+      { "candidate": "Ghulam Sarwar Khan", "party": "PML-Q", "votes": 49068 }
+    ],
+    "id": 53,
+    "xGrid": 22,
+    "yGrid": 8,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-53",
+    "voteMargin": 13.2
+  },
+  {
+    "desc": "NA 54 Rawalpindi Detail Election Result 2002",
+    "voterTurnout": 38.5,
+    "totalVotes": 103041,
+    "result": [
+      { "candidate": "Malik Abrar Ahmad", "party": "PML-N", "votes": 58228 },
+      { "candidate": "Zumarad Khan", "party": "PPP", "votes": 33749 }
+    ],
+    "id": 54,
+    "xGrid": 24,
+    "yGrid": 7,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-54",
+    "voteMargin": 23.8
+  },
+  {
+    "desc": "NA 55 Rawalpindi Detail Election Result 2002",
+    "voterTurnout": 0,
+    "totalVotes": 118395,
+    "result": [
+      { "candidate": "Malik Shakeel Awan", "party": "PML-N", "votes": 63888 },
+      { "candidate": "Shiekh Rasheed Ahmed", "party": "AML", "votes": 42530 }
+    ],
+    "id": 55,
+    "xGrid": 22,
+    "yGrid": 9,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-55",
+    "voteMargin": 18
+  },
+  {
+    "desc": "NA 56 Rawalpindi Detail Election Result 2002",
+    "voterTurnout": 35.06,
+    "totalVotes": 107633,
+    "result": [
+      {
+        "candidate": "Muhammad Hanif Abbasi",
+        "party": "PML-N",
+        "votes": 73433
+      },
+      {
+        "candidate": "Sardar Shaukat Hayat Khan Advocate",
+        "party": "PPP",
+        "votes": 22720
+      }
+    ],
+    "id": 56,
+    "xGrid": 24,
+    "yGrid": 8,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-56",
+    "voteMargin": 47.1
+  },
+  {
+    "desc": "NA 57 Attock I Detail Election Result 2002",
+    "voterTurnout": 48.76,
+    "totalVotes": 127533,
+    "result": [
+      { "candidate": "SHEIKH AFTAB AHMAD", "party": "PML-N", "votes": 38755 },
+      { "candidate": "MALIK AMIN ASLAM KHAN", "party": "Ind", "votes": 38392 }
+    ],
+    "id": 57,
+    "xGrid": 19,
+    "yGrid": 8,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-57",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 58 Attock II Detail Election Result 2002",
+    "voterTurnout": 57,
+    "totalVotes": 181330,
+    "result": [
+      { "candidate": "Ch.Pervaiz Ellahi", "party": "PML-Q", "votes": 70743 },
+      { "candidate": "Malik Sohail Khan", "party": "PML-N", "votes": 59726 }
+    ],
+    "id": 58,
+    "xGrid": 20,
+    "yGrid": 8,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-58",
+    "voteMargin": 6.1
+  },
+  {
+    "desc": "NA 59 Attock III Detail Election Result 2002",
+    "voterTurnout": 60.68,
+    "totalVotes": 156228,
+    "result": [
+      {
+        "candidate": "SARDAR SALEEM HAIDER KHAN",
+        "party": "PPP",
+        "votes": 71400
+      },
+      { "candidate": "WASEEM GULZAR", "party": "PML-Q", "votes": 58880 }
+    ],
+    "id": 59,
+    "xGrid": 19,
+    "yGrid": 9,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-59",
+    "voteMargin": 8
+  },
+  {
+    "desc": "NA 60 Chakwal I Detail Election Result 2002",
+    "voterTurnout": 57,
+    "totalVotes": 242256,
+    "result": [
+      { "candidate": "AYAZ AMIR", "party": "PML-N", "votes": 125437 },
+      {
+        "candidate": "SARDAR MUHAMMAD NAWAB KHAN",
+        "party": "PML-Q",
+        "votes": 91255
+      }
+    ],
+    "id": 60,
+    "xGrid": 21,
+    "yGrid": 8,
+    "region": "Chakwal",
+    "province": "Punjab",
+    "seat": "NA-60",
+    "voteMargin": 14.1
+  },
+  {
+    "desc": "NA 61 Chakwal II Detail Election Result 2002",
+    "voterTurnout": 38.42,
+    "totalVotes": 148929,
+    "result": [
+      { "candidate": "Sardar Mumtaz Khan", "party": "PML-N", "votes": 104739 },
+      {
+        "candidate": "Sardar Mansoor Hayat Tamman",
+        "party": "Ind",
+        "votes": 37978
+      }
+    ],
+    "id": 61,
+    "xGrid": 21,
+    "yGrid": 9,
+    "region": "Chakwal",
+    "province": "Punjab",
+    "seat": "NA-61",
+    "voteMargin": 44.8
+  },
+  {
+    "desc": "NA 62 Jhelum I Detail Election Result 2002",
+    "voterTurnout": 50.33,
+    "totalVotes": 179824,
+    "result": [
+      { "candidate": "Raja Muhammad Safdar", "party": "PML-N", "votes": 92479 },
+      {
+        "candidate": "Chaudhary Shahbaz Hussain",
+        "party": "PML-Q",
+        "votes": 61524
+      }
+    ],
+    "id": 62,
+    "xGrid": 26,
+    "yGrid": 8,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-62",
+    "voteMargin": 17.2
+  },
+  {
+    "desc": "NA 63 Jhelum II Detail Election Result 2002",
+    "voterTurnout": 43,
+    "totalVotes": 158985,
+    "result": [
+      {
+        "candidate": "Raja Muhammad Asad Khan",
+        "party": "PML-N",
+        "votes": 79662
+      },
+      { "candidate": "Ch.Shahbaz Hussain", "party": "PML-Q", "votes": 51666 }
+    ],
+    "id": 63,
+    "xGrid": 27,
+    "yGrid": 8,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-63",
+    "voteMargin": 17.6
+  },
+  {
+    "desc": "NA 64 Sarghoda I Detail Election Result 2002",
+    "voterTurnout": 42.18,
+    "totalVotes": 176605,
+    "result": [
+      { "candidate": "Nadeem Afzal Gondal", "party": "PPP", "votes": 65628 },
+      {
+        "candidate": "Muhammad Farooq Baha-ul-Haq Shah",
+        "party": "PML-N",
+        "votes": 60460
+      }
+    ],
+    "id": 64,
+    "xGrid": 20,
+    "yGrid": 10,
+    "region": "Sarghoda",
+    "province": "Punjab",
+    "seat": "NA-64",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NA 65 Sarghoda II Detail Election Result 2002",
+    "voterTurnout": 44.8,
+    "totalVotes": 149236,
+    "result": [
+      { "candidate": "Ch. Ghais Ahmed Mela", "party": "PML-Q", "votes": 53518 },
+      {
+        "candidate": "Mahar Khliq Yar Khan Lak",
+        "party": "PPP",
+        "votes": 53257
+      }
+    ],
+    "id": 65,
+    "xGrid": 21,
+    "yGrid": 11,
+    "region": "Sarghoda",
+    "province": "Punjab",
+    "seat": "NA-65",
+    "voteMargin": 0.2
+  },
+  {
+    "desc": "NA 66 Sarghoda III Detail Election Result 2002",
+    "voterTurnout": 37,
+    "totalVotes": 145468,
+    "result": [
+      { "candidate": "Tasneem Ahmed Qureshi", "party": "PPP", "votes": 69943 },
+      { "candidate": "Muhammad Hamid Hameed", "party": "PML-N", "votes": 65020 }
+    ],
+    "id": 66,
+    "xGrid": 20,
+    "yGrid": 9,
+    "region": "Sarghoda",
+    "province": "Punjab",
+    "seat": "NA-66",
+    "voteMargin": 3.4
+  },
+  {
+    "desc": "NA 67 Sarghoda IV Detail Election Result 2002",
+    "voterTurnout": 46.85,
+    "totalVotes": 170981,
+    "result": [
+      { "candidate": "Ch. Anwar Ali Cheema", "party": "PML-Q", "votes": 83594 },
+      { "candidate": "Dr.Zulfiqar Ali Bhatti", "party": "PPP", "votes": 66392 }
+    ],
+    "id": 67,
+    "xGrid": 21,
+    "yGrid": 12,
+    "region": "Sarghoda",
+    "province": "Punjab",
+    "seat": "NA-67",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 68 Sarghoda V Detail Election Result 2002",
+    "voterTurnout": 40.05,
+    "totalVotes": 150109,
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Shafqat Hayat Khan",
+        "party": "PML-N",
+        "votes": 88967
+      },
+      {
+        "candidate": "Mian Azhar Ahmed Qureshi",
+        "party": "Ind",
+        "votes": 58579
+      }
+    ],
+    "id": 68,
+    "xGrid": 22,
+    "yGrid": 11,
+    "region": "Sarghoda",
+    "province": "Punjab",
+    "seat": "NA-68",
+    "voteMargin": 20.2
+  },
+  {
+    "desc": "NA 69 Khushab I Detail Election Result 2002",
+    "voterTurnout": 59.92,
+    "totalVotes": 164024,
+    "result": [
+      { "candidate": "Sumaira Malik", "party": "PML-Q", "votes": 61076 },
+      { "candidate": "Umer Aslam Khan", "party": "Ind", "votes": 60443 }
+    ],
+    "id": 69,
+    "xGrid": 21,
+    "yGrid": 10,
+    "region": "Khushab",
+    "province": "Punjab",
+    "seat": "NA-69",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NA 70 Khushab II Detail Election Result 2002",
+    "voterTurnout": 60.75,
+    "totalVotes": 160524,
+    "result": [
+      {
+        "candidate": "Malik Shakir Bashir Awan",
+        "party": "PML-N",
+        "votes": 66361
+      },
+      {
+        "candidate": "Malik Muhammad Ehsan Ullah Tiwana",
+        "party": "Ind",
+        "votes": 58906
+      }
+    ],
+    "id": 70,
+    "xGrid": 20,
+    "yGrid": 11,
+    "region": "Khushab",
+    "province": "Punjab",
+    "seat": "NA-70",
+    "voteMargin": 4.6
+  },
+  {
+    "desc": "NA 71 Mianwali I Detail Election Result 2002",
+    "voterTurnout": 50.82,
+    "totalVotes": 162464,
+    "result": [
+      {
+        "candidate": "Nawabzada Malik Amad Khan",
+        "party": "Ind",
+        "votes": 83098
+      },
+      {
+        "candidate": "Amanatullah Khan Shadikhel.",
+        "party": "Ind",
+        "votes": 73019
+      }
+    ],
+    "id": 71,
+    "xGrid": 19,
+    "yGrid": 10,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-71",
+    "voteMargin": 6.2
+  },
+  {
+    "desc": "NA 72 Mianwali II Detail Election Result 2002",
+    "voterTurnout": 53.83,
+    "totalVotes": 160129,
+    "result": [
+      { "candidate": "Humair Hayat Rokhari", "party": "Ind", "votes": 49294 },
+      {
+        "candidate": "Dr.Sher Afghan Khan Niazi",
+        "party": "PML-Q",
+        "votes": 46931
+      }
+    ],
+    "id": 72,
+    "xGrid": 19,
+    "yGrid": 11,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-72",
+    "voteMargin": 1.5
+  },
+  {
+    "desc": "NA 73 Bhakkar I Detail Election Result 2002",
+    "voterTurnout": 67,
+    "totalVotes": 173223,
+    "result": [
+      {
+        "candidate": "Abdul Majeed Khan Khanan Khel",
+        "party": "Ind",
+        "votes": 83850
+      },
+      {
+        "candidate": "Muhammad Sana Ullah Khan Masti Khel",
+        "party": "PML-N",
+        "votes": 82740
+      }
+    ],
+    "id": 73,
+    "xGrid": 18,
+    "yGrid": 12,
+    "region": "Bhakkar",
+    "province": "Punjab",
+    "seat": "NA-73",
+    "voteMargin": 0.6
+  },
+  {
+    "desc": "NA 74 Bhakkar II Detail Election Result 2002",
+    "voterTurnout": 64.81,
+    "totalVotes": 188776,
+    "result": [
+      { "candidate": "Rasheed Akbar Khan", "party": "Ind", "votes": 98366 },
+      {
+        "candidate": "Dr. Muhammad Afzal Khan Dhandla",
+        "party": "PML-N",
+        "votes": 86688
+      }
+    ],
+    "id": 74,
+    "xGrid": 18,
+    "yGrid": 14,
+    "region": "Bhakkar",
+    "province": "Punjab",
+    "seat": "NA-74",
+    "voteMargin": 6.2
+  },
+  {
+    "desc": "NA 75 Faisalabad I Detail Election Result 2002",
+    "voterTurnout": 58.83,
+    "totalVotes": 153838,
+    "result": [
+      { "candidate": "Tariq Mehmood Bajwa.", "party": "PPP", "votes": 83699 },
+      {
+        "candidate": "Lietutant Col (R)Ghulam Rasul Sahi.",
+        "party": "PML-Q",
+        "votes": 68196
+      }
+    ],
+    "id": 75,
+    "xGrid": 22,
+    "yGrid": 12,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-75",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 76 Faisalabad II Detail Election Result 2002",
+    "voterTurnout": 56.11,
+    "totalVotes": 139108,
+    "result": [
+      {
+        "candidate": "Malik Nawab Sher Waseer",
+        "party": "PPP",
+        "votes": 43294
+      },
+      { "candidate": "Zahid Nazir", "party": "PML-Q", "votes": 41068 }
+    ],
+    "id": 76,
+    "xGrid": 24,
+    "yGrid": 13,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-76",
+    "voteMargin": 1.6
+  },
+  {
+    "desc": "NA 77 Faisalabad III Detail Election Result 2002",
+    "voterTurnout": 58.91,
+    "totalVotes": 138490,
+    "result": [
+      { "candidate": "Muhammad Asim Nazir.", "party": "PML-Q", "votes": 63776 },
+      {
+        "candidate": "Muhammad Talal Chaudhry.",
+        "party": "PML-N",
+        "votes": 49807
+      }
+    ],
+    "id": 77,
+    "xGrid": 21,
+    "yGrid": 15,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-77",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 78 Faisalabad IV Detail Election Result 2002",
+    "voterTurnout": 53.8,
+    "totalVotes": 141598,
+    "result": [
+      { "candidate": "Raheela Perveen.", "party": "PPP", "votes": 79127 },
+      {
+        "candidate": "Mian Rajab Ali Khan Baloch.",
+        "party": "PML-Q",
+        "votes": 59231
+      }
+    ],
+    "id": 78,
+    "xGrid": 20,
+    "yGrid": 15,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-78",
+    "voteMargin": 14.1
+  },
+  {
+    "desc": "NA 79 Faisalabad V Detail Election Result 2002",
+    "voterTurnout": 56.56,
+    "totalVotes": 148867,
+    "result": [
+      {
+        "candidate": "Rana Muhammad Farooq Saeed Khan",
+        "party": "Ind",
+        "votes": 58563
+      },
+      {
+        "candidate": "Muhammad Safdar Shakir.",
+        "party": "PML-Q",
+        "votes": 29267
+      }
+    ],
+    "id": 79,
+    "xGrid": 23,
+    "yGrid": 14,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-79",
+    "voteMargin": 19.7
+  },
+  {
+    "desc": "NA 80 Faisalabad VI Detail Election Result 2002",
+    "voterTurnout": 54.75,
+    "totalVotes": 138897,
+    "result": [
+      { "candidate": "Asif Tauseef.", "party": "PML-Q", "votes": 56724 },
+      {
+        "candidate": "Mian Muhammad Qasim Farooq.",
+        "party": "PML-N",
+        "votes": 44927
+      }
+    ],
+    "id": 80,
+    "xGrid": 23,
+    "yGrid": 12,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-80",
+    "voteMargin": 8.5
+  },
+  {
+    "desc": "NA 81 Faisalabad VII Detail Election Result 2002",
+    "voterTurnout": 60.64,
+    "totalVotes": 144790,
+    "result": [
+      { "candidate": "Saeed Iqbal.", "party": "PPP", "votes": 65322 },
+      {
+        "candidate": "Doctor Nisar Ahmad Jat.",
+        "party": "PML-Q",
+        "votes": 55646
+      }
+    ],
+    "id": 81,
+    "xGrid": 22,
+    "yGrid": 13,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-81",
+    "voteMargin": 6.7
+  },
+  {
+    "desc": "NA 82 Faisalabad VIII Detail Election Result 2002",
+    "voterTurnout": 47,
+    "totalVotes": 132853,
+    "result": [
+      {
+        "candidate": "Sahibzada Haji Muhammad Fazal-e-Kareem.",
+        "party": "PML-N",
+        "votes": 62889
+      },
+      { "candidate": "Aezid Mahmood Khan.", "party": "PPP", "votes": 55073 }
+    ],
+    "id": 82,
+    "xGrid": 22,
+    "yGrid": 14,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-82",
+    "voteMargin": 5.9
+  },
+  {
+    "desc": "NA 83 Faisalabad IX Detail Election Result 2002",
+    "voterTurnout": 45.96,
+    "totalVotes": 139999,
+    "result": [
+      {
+        "candidate": "Muhammad Ijaz Virk Advocate.",
+        "party": "PPP",
+        "votes": 56910
+      },
+      { "candidate": "Mian Abdul Mannan.", "party": "PML-N", "votes": 55861 }
+    ],
+    "id": 83,
+    "xGrid": 24,
+    "yGrid": 14,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-83",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 84 Faisalabad X Detail Election Result 2002",
+    "voterTurnout": 45.4,
+    "totalVotes": 112068,
+    "result": [
+      { "candidate": "Abid Ali.", "party": "PML-N", "votes": 59616 },
+      { "candidate": "Mehar Abdul Rashid.", "party": "PPP", "votes": 38421 }
+    ],
+    "id": 84,
+    "xGrid": 25,
+    "yGrid": 14,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-84",
+    "voteMargin": 18.9
+  },
+  {
+    "desc": "NA 85 Faisalabad XI Detail Election Result 2002",
+    "voterTurnout": 46.45,
+    "totalVotes": 130907,
+    "result": [
+      {
+        "candidate": "Haji Muhammad Akram Ansari.",
+        "party": "PML-N",
+        "votes": 72197
+      },
+      { "candidate": "Shakeel Ahmed.", "party": "PPP", "votes": 46461 }
+    ],
+    "id": 85,
+    "xGrid": 23,
+    "yGrid": 13,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-85",
+    "voteMargin": 19.7
+  },
+  {
+    "desc": "NA 86 Jhang I Detail Election Result 2002",
+    "voterTurnout": 45.14,
+    "totalVotes": 138686,
+    "result": [
+      { "candidate": "Syed Anayat Ali Shah", "party": "PPP", "votes": 57583 },
+      { "candidate": "Muhammad Tahir Shah", "party": "PML-Q", "votes": 40829 }
+    ],
+    "id": 86,
+    "xGrid": 20,
+    "yGrid": 13,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-86",
+    "voteMargin": 12.1
+  },
+  {
+    "desc": "NA 87 Jhang II Detail Election Result 2002",
+    "voterTurnout": 47.6,
+    "totalVotes": 142022,
+    "result": [
+      { "candidate": "Ghulam Bibi Bharwana", "party": "PML-Q", "votes": 63515 },
+      { "candidate": "Syeda Sughra Imam", "party": "PPP", "votes": 55621 }
+    ],
+    "id": 88,
+    "xGrid": 21,
+    "yGrid": 13,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-87",
+    "voteMargin": 5.6
+  },
+  {
+    "desc": "NA 88 Jhang III Detail Election Result 2002",
+    "voterTurnout": 45.46,
+    "totalVotes": 160934,
+    "result": [
+      {
+        "candidate": "Makhdoom Syed Faisal Saleh Hayat",
+        "party": "PML-Q",
+        "votes": 72162
+      },
+      { "candidate": "Syeda Abida Hussain", "party": "PPP", "votes": 56892 }
+    ],
+    "id": 87,
+    "xGrid": 21,
+    "yGrid": 14,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-88",
+    "voteMargin": 9.5
+  },
+  {
+    "desc": "NA 89 Jhang IV Detail Election Result 2002",
+    "voterTurnout": 41.51,
+    "totalVotes": 125421,
+    "result": [
+      { "candidate": "Sheikh Waqas Akram", "party": "PML-Q", "votes": 51976 },
+      {
+        "candidate": "Molana Muhammad Ahmed Ludhyanvi",
+        "party": "Ind",
+        "votes": 45216
+      }
+    ],
+    "id": 89,
+    "xGrid": 19,
+    "yGrid": 13,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-89",
+    "voteMargin": 5.4
+  },
+  {
+    "desc": "NA 90 Jhang V Detail Election Result 2002",
+    "voterTurnout": 49.3,
+    "totalVotes": 130849,
+    "result": [
+      { "candidate": "Saima Akhtar Bharwana", "party": "Ind", "votes": 64759 },
+      {
+        "candidate": "Sahibzada Muhammad Nazir Sultan",
+        "party": "PML-Q",
+        "votes": 58099
+      }
+    ],
+    "id": 90,
+    "xGrid": 20,
+    "yGrid": 12,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-90",
+    "voteMargin": 5.1
+  },
+  {
+    "desc": "NA 91 Jhang VI Detail Election Result 2002",
+    "voterTurnout": 48.51,
+    "totalVotes": 150514,
+    "result": [
+      {
+        "candidate": "Muhammad Mehboob Sultan",
+        "party": "PML-Q",
+        "votes": 75803
+      },
+      { "candidate": "Atta Ullah Khan", "party": "PPP", "votes": 65253 }
+    ],
+    "id": 91,
+    "xGrid": 19,
+    "yGrid": 12,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-91",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 92 Toba Tek Singh I Detail Election Result 2002",
+    "voterTurnout": 60.15,
+    "totalVotes": 169210,
+    "result": [
+      {
+        "candidate": "Farkhanda Amjad Warraich",
+        "party": "PML-Q",
+        "votes": 69827
+      },
+      { "candidate": "Hamza", "party": "PML-N", "votes": 57203 }
+    ],
+    "id": 92,
+    "xGrid": 22,
+    "yGrid": 15,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-92",
+    "voteMargin": 7.5
+  },
+  {
+    "desc": "NA 93 Toba Tek Singh II Detail Election Result 2002",
+    "voterTurnout": 60.41,
+    "totalVotes": 169690,
+    "result": [
+      {
+        "candidate": "Muhammad Junaid Anwaar Chudhary",
+        "party": "PML-N",
+        "votes": 84061
+      },
+      {
+        "candidate": "Mian Muhammad Kashif Ashfaq",
+        "party": "PML-Q",
+        "votes": 64287
+      }
+    ],
+    "id": 93,
+    "xGrid": 23,
+    "yGrid": 15,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-93",
+    "voteMargin": 11.7
+  },
+  {
+    "desc": "NA 94 Toba Tek Singh III Detail Election Result 2002",
+    "voterTurnout": 60.34,
+    "totalVotes": 184430,
+    "result": [
+      { "candidate": "Riaz Fatiyana", "party": "PML-Q", "votes": 63444 },
+      { "candidate": "Haider Ali Khan Kharal", "party": "PPP", "votes": 59348 }
+    ],
+    "id": 94,
+    "xGrid": 21,
+    "yGrid": 16,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-94",
+    "voteMargin": 2.2
+  },
+  {
+    "desc": "NA 95 Gujranwala I Detail Election Result 2002",
+    "voterTurnout": 33.4,
+    "totalVotes": 107847,
+    "result": [
+      { "candidate": "Usman Ibrahim", "party": "PML-N", "votes": 51705 },
+      { "candidate": "Ch. Zeshan Ilyas", "party": "PPP", "votes": 44034 }
+    ],
+    "id": 95,
+    "xGrid": 26,
+    "yGrid": 10,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-95",
+    "voteMargin": 7.1
+  },
+  {
+    "desc": "NA 96 Gujranwala II Detail Election Result 2002",
+    "voterTurnout": 29.7,
+    "totalVotes": 100373,
+    "result": [
+      {
+        "candidate": "Engineer.Khuram Dastgir Khan",
+        "party": "PML-N",
+        "votes": 61972
+      },
+      { "candidate": "Khawaja Muhammad Saleh", "party": "PPP", "votes": 32898 }
+    ],
+    "id": 96,
+    "xGrid": 27,
+    "yGrid": 11,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-96",
+    "voteMargin": 29
+  },
+  {
+    "desc": "NA 97 Gujranwala III Detail Election Result 2002",
+    "voterTurnout": 34.02,
+    "totalVotes": 113526,
+    "result": [
+      {
+        "candidate": "Ch. Mehmood Bashir Virk",
+        "party": "PML-N",
+        "votes": 48701
+      },
+      { "candidate": "Dr. Zafar Chaudhary", "party": "PPP", "votes": 41545 }
+    ],
+    "id": 97,
+    "xGrid": 25,
+    "yGrid": 9,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-97",
+    "voteMargin": 6.3
+  },
+  {
+    "desc": "NA 98 Gujranwala IV Detail Election Result 2002",
+    "voterTurnout": 40.96,
+    "totalVotes": 145988,
+    "result": [
+      { "candidate": "Imtiaz Safdar Warraich", "party": "PPP", "votes": 68509 },
+      { "candidate": "Asif Aqeel", "party": "PML-N", "votes": 46992 }
+    ],
+    "id": 98,
+    "xGrid": 26,
+    "yGrid": 11,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-98",
+    "voteMargin": 14.7
+  },
+  {
+    "desc": "NA 99 Gujranwala V Detail Election Result 2002",
+    "voterTurnout": 43.8,
+    "totalVotes": 145824,
+    "result": [
+      {
+        "candidate": "Rana Nazir Ahmad Khan",
+        "party": "PML-N",
+        "votes": 60219
+      },
+      {
+        "candidate": "Ch. Muhammad Abdullah Virk",
+        "party": "PPP",
+        "votes": 44705
+      }
+    ],
+    "id": 99,
+    "xGrid": 25,
+    "yGrid": 10,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-99",
+    "voteMargin": 10.6
+  },
+  {
+    "desc": "NA 100 Gujranwala VI Detail Election Result 2002",
+    "voterTurnout": 43.79,
+    "totalVotes": 142896,
+    "result": [
+      {
+        "candidate": "Ch. Tassaduq Masood Khan",
+        "party": "PPP",
+        "votes": 71112
+      },
+      { "candidate": "Azhar Qayyum Nahra", "party": "PML-N", "votes": 66901 }
+    ],
+    "id": 100,
+    "xGrid": 28,
+    "yGrid": 12,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-100",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NA 101 Gujranwala VII Detail Election Result 2002",
+    "voterTurnout": 43.83,
+    "totalVotes": 161010,
+    "result": [
+      {
+        "candidate": "Justice(R) Iftikhar Ahmad Cheema",
+        "party": "PML-N",
+        "votes": 71792
+      },
+      { "candidate": "Hamid Nasir Chatha", "party": "PML-Q", "votes": 48813 }
+    ],
+    "id": 101,
+    "xGrid": 25,
+    "yGrid": 11,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-101",
+    "voteMargin": 14.3
+  },
+  {
+    "desc": "NA 102 Hafizabad I Detail Election Result 2002",
+    "voterTurnout": 61.2,
+    "totalVotes": 120688,
+    "result": [
+      { "candidate": "Saira Afzal Tarar", "party": "PML-N", "votes": 56313 },
+      { "candidate": "Ch Shoukat Ali Bhatti", "party": "PML-Q", "votes": 42808 }
+    ],
+    "id": 102,
+    "xGrid": 24,
+    "yGrid": 10,
+    "region": "Hafizabad",
+    "province": "Punjab",
+    "seat": "NA-102",
+    "voteMargin": 11.2
+  },
+  {
+    "desc": "NA 103 Hafizabad II Detail Election Result 2002",
+    "voterTurnout": 63.37,
+    "totalVotes": 121383,
+    "result": [
+      {
+        "candidate": "Ch Liaqat Abbas Bhatti",
+        "party": "PML-Q",
+        "votes": 56791
+      },
+      {
+        "candidate": "Mian Shahid Hussain Khan",
+        "party": "PML-N",
+        "votes": 54411
+      }
+    ],
+    "id": 103,
+    "xGrid": 23,
+    "yGrid": 11,
+    "region": "Hafizabad",
+    "province": "Punjab",
+    "seat": "NA-103",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 104 Gujrat I Detail Election Result 2002",
+    "voterTurnout": 55.07,
+    "totalVotes": 170348,
+    "result": [
+      {
+        "candidate": "Chaudhary Wajahat Hussain",
+        "party": "PML-Q",
+        "votes": 96379
+      },
+      {
+        "candidate": "Nawabzada Ghazanfar Ali Gul",
+        "party": "PPP",
+        "votes": 63374
+      }
+    ],
+    "id": 104,
+    "xGrid": 24,
+    "yGrid": 11,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-104",
+    "voteMargin": 19.4
+  },
+  {
+    "desc": "NA 105 Gujrat II Detail Election Result 2002",
+    "voterTurnout": 45.32,
+    "totalVotes": 146179,
+    "result": [
+      { "candidate": "Ch. Ahmed Mukhtar", "party": "PPP", "votes": 79735 },
+      { "candidate": "Ch. Shujaat Hussain", "party": "PML-Q", "votes": 65738 }
+    ],
+    "id": 105,
+    "xGrid": 25,
+    "yGrid": 8,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-105",
+    "voteMargin": 9.6
+  },
+  {
+    "desc": "NA 106 Gujrat III Detail Election Result 2002",
+    "voterTurnout": 55.54,
+    "totalVotes": 172429,
+    "result": [
+      { "candidate": "Qamar Zaman Kaira", "party": "PPP", "votes": 89555 },
+      {
+        "candidate": "Syed Noor-ul-Hassan Shah",
+        "party": "PML-Q",
+        "votes": 71016
+      }
+    ],
+    "id": 106,
+    "xGrid": 24,
+    "yGrid": 9,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-106",
+    "voteMargin": 10.8
+  },
+  {
+    "desc": "NA 107 Gujrat IV Detail Election Result 2002",
+    "voterTurnout": 45.99,
+    "totalVotes": 181842,
+    "result": [
+      {
+        "candidate": "Muhammad Hanif Malik",
+        "party": "PML-N",
+        "votes": 104382
+      },
+      {
+        "candidate": "Rehman Naseer Chaudhary",
+        "party": "PML-Q",
+        "votes": 74062
+      }
+    ],
+    "id": 107,
+    "xGrid": 23,
+    "yGrid": 10,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-107",
+    "voteMargin": 16.7
+  },
+  {
+    "desc": "NA 108 Mandi Bahauddin I Detail Election Result 2002",
+    "voterTurnout": 55.41,
+    "totalVotes": 182462,
+    "result": [
+      { "candidate": "Muhammad Tariq Tarar", "party": "PPP", "votes": 73951 },
+      { "candidate": "Ijaz Ahmed Chaudhary", "party": "Ind", "votes": 67769 }
+    ],
+    "id": 108,
+    "xGrid": 23,
+    "yGrid": 9,
+    "region": "Mandi Bahauddin",
+    "province": "Punjab",
+    "seat": "NA-108",
+    "voteMargin": 3.4
+  },
+  {
+    "desc": "NA 109 Mandi Bahauddin II Detail Election Result 2002",
+    "voterTurnout": 55,
+    "totalVotes": 165013,
+    "result": [
+      { "candidate": "Nazar Muhammad Gondal", "party": "PPP", "votes": 74163 },
+      { "candidate": "Nasir Iqbal Busal", "party": "PML-Q", "votes": 67489 }
+    ],
+    "id": 109,
+    "xGrid": 22,
+    "yGrid": 10,
+    "region": "Mandi Bahauddin",
+    "province": "Punjab",
+    "seat": "NA-109",
+    "voteMargin": 4
+  },
+  {
+    "desc": "NA 110 Sialkot I Detail Election Result 2002",
+    "voterTurnout": 42.8,
+    "totalVotes": 114825,
+    "result": [
+      {
+        "candidate": "Khawaja Muhammad Asif.",
+        "party": "PML-N",
+        "votes": 73007
+      },
+      {
+        "candidate": "Zahid Pervaiz alias Zahid Bashir.",
+        "party": "PPP",
+        "votes": 32157
+      }
+    ],
+    "id": 110,
+    "xGrid": 27,
+    "yGrid": 9,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-110",
+    "voteMargin": 35.6
+  },
+  {
+    "desc": "NA 111 Sialkot II Detail Election Result 2002",
+    "voterTurnout": 55.7,
+    "totalVotes": 163783,
+    "result": [
+      { "candidate": "Dr. Fardos Ashiq Awan.", "party": "PPP", "votes": 78925 },
+      { "candidate": "Ch.Amir Hussain.", "party": "PML-Q", "votes": 46372 }
+    ],
+    "id": 111,
+    "xGrid": 28,
+    "yGrid": 10,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-111",
+    "voteMargin": 19.9
+  },
+  {
+    "desc": "NA 112 Sialkot III Detail Election Result 2002",
+    "voterTurnout": 55.63,
+    "totalVotes": 164695,
+    "result": [
+      {
+        "candidate": "Rana Abdul Sattar Bin Rana Shamim Ahmed Khan",
+        "party": "PML-N",
+        "votes": 92182
+      },
+      { "candidate": "Ch.Shujat Hussain", "party": "PML-Q", "votes": 42713 }
+    ],
+    "id": 112,
+    "xGrid": 28,
+    "yGrid": 9,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-112",
+    "voteMargin": 30
+  },
+  {
+    "desc": "NA 113 Sialkot IV Detail Election Result 2002",
+    "voterTurnout": 55.02,
+    "totalVotes": 155414,
+    "result": [
+      {
+        "candidate": "Sahabzada Syed Murtaza Amin",
+        "party": "PML-N",
+        "votes": 77819
+      },
+      { "candidate": "Ali Asjad Malhi", "party": "PML-Q", "votes": 39186 }
+    ],
+    "id": 113,
+    "xGrid": 27,
+    "yGrid": 10,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-113",
+    "voteMargin": 24.9
+  },
+  {
+    "desc": "NA 114 Sialkot V Detail Election Result 2002",
+    "voterTurnout": 59,
+    "totalVotes": 175113,
+    "result": [
+      { "candidate": "Zahid Hamid", "party": "PML-N", "votes": 62362 },
+      { "candidate": "Ch: Abdul Sattar", "party": "PML-Q", "votes": 56343 }
+    ],
+    "id": 114,
+    "xGrid": 28,
+    "yGrid": 11,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-114",
+    "voteMargin": 3.4
+  },
+  {
+    "desc": "NA 115 Narowal I Detail Election Result 2002",
+    "voterTurnout": 56.87,
+    "totalVotes": 111256,
+    "result": [
+      { "candidate": "Sumaira Naz", "party": "PML-N", "votes": 59688 },
+      { "candidate": "Muhammad Naseer Khan", "party": "PML-Q", "votes": 40205 }
+    ],
+    "id": 115,
+    "xGrid": 26,
+    "yGrid": 9,
+    "region": "Narowal",
+    "province": "Punjab",
+    "seat": "NA-115",
+    "voteMargin": 17.5
+  },
+  {
+    "desc": "NA 116 Narowal II Detail Election Result 2002",
+    "voterTurnout": 53.73,
+    "totalVotes": 114350,
+    "result": [
+      { "candidate": "Ch.Muhammd Tariq Anees", "party": "Ind", "votes": 45097 },
+      { "candidate": "Daniyal Aziz", "party": "PML-Q", "votes": 37138 }
+    ],
+    "id": 116,
+    "xGrid": 29,
+    "yGrid": 11,
+    "region": "Narowal",
+    "province": "Punjab",
+    "seat": "NA-116",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 117 Narowal III Detail Election Result 2002",
+    "voterTurnout": 55.3,
+    "totalVotes": 113809,
+    "result": [
+      { "candidate": "Ahsan Iqbal", "party": "PML-N", "votes": 66633 },
+      { "candidate": "Rifat Javed Kahloon", "party": "PML-Q", "votes": 36231 }
+    ],
+    "id": 117,
+    "xGrid": 29,
+    "yGrid": 10,
+    "region": "Narowal",
+    "province": "Punjab",
+    "seat": "NA-117",
+    "voteMargin": 26.7
+  },
+  {
+    "desc": "NA 118 Lahore I Detail Election Result 2002",
+    "voterTurnout": 37.7,
+    "totalVotes": 92862,
+    "result": [
+      { "candidate": "Muhammad Riaz", "party": "PML-N", "votes": 55900 },
+      { "candidate": "Syed Asif Hashmi", "party": "PPP", "votes": 24712 }
+    ],
+    "id": 118,
+    "xGrid": 28,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-118",
+    "voteMargin": 33.6
+  },
+  {
+    "desc": "NA 119 Lahore II Detail Election Result 2002",
+    "voterTurnout": "",
+    "totalVotes": 0,
+    "result": [
+      {
+        "candidate": "Muhammad Hamza Shahbaz Sharif",
+        "party": "PML-N",
+        "votes": 0
+      }
+    ],
+    "id": 119,
+    "xGrid": 27,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-119",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 120 Lahore III Detail Election Result 2002",
+    "voterTurnout": 36.28,
+    "totalVotes": 96275,
+    "result": [
+      { "candidate": "Bilal Yaseen", "party": "PML-N", "votes": 65946 },
+      { "candidate": "Jahangir Badar", "party": "PPP", "votes": 24380 }
+    ],
+    "id": 120,
+    "xGrid": 24,
+    "yGrid": 12,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-120",
+    "voteMargin": 43.2
+  },
+  {
+    "desc": "NA 121 Lahore IV Detail Election Result 2002",
+    "voterTurnout": 36.18,
+    "totalVotes": 108453,
+    "result": [
+      { "candidate": "Mian Margoob Ahmad", "party": "PML-N", "votes": 72227 },
+      { "candidate": "Aurangzeb Shaafi Burki", "party": "PPP", "votes": 27934 }
+    ],
+    "id": 121,
+    "xGrid": 25,
+    "yGrid": 12,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-121",
+    "voteMargin": 40.8
+  },
+  {
+    "desc": "NA 122 Lahore V Detail Election Result 2002",
+    "voterTurnout": 35.62,
+    "totalVotes": 116359,
+    "result": [
+      { "candidate": "Sardar Ayaz Sadiq", "party": "PML-N", "votes": 79506 },
+      {
+        "candidate": "Mian Omer Misbah-ul-Rehman",
+        "party": "PPP",
+        "votes": 24963
+      }
+    ],
+    "id": 122,
+    "xGrid": 26,
+    "yGrid": 12,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-122",
+    "voteMargin": 46.9
+  },
+  {
+    "desc": "NA 123 Lahore VI Detail Election Result 2002",
+    "voterTurnout": 0,
+    "totalVotes": 58468,
+    "result": [
+      {
+        "candidate": "Mohammad Pervaiz Malik",
+        "party": "PML-N",
+        "votes": 44146
+      },
+      { "candidate": "Mian Hamid Miraj", "party": "Ind", "votes": 9192 }
+    ],
+    "id": 123,
+    "xGrid": 27,
+    "yGrid": 12,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-123",
+    "voteMargin": 59.8
+  },
+  {
+    "desc": "NA 124 Lahore VII Detail Election Result 2002",
+    "voterTurnout": 39,
+    "totalVotes": 106458,
+    "result": [
+      { "candidate": "Sheikh Rohale Asghar", "party": "PML-N", "votes": 71342 },
+      { "candidate": "Ayaz Imran", "party": "PPP", "votes": 23412 }
+    ],
+    "id": 124,
+    "xGrid": 26,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-124",
+    "voteMargin": 45
+  },
+  {
+    "desc": "NA 125 Lahore VIII Detail Election Result 2002",
+    "voterTurnout": 35.86,
+    "totalVotes": 110246,
+    "result": [
+      { "candidate": "Khawaja Saad Rafique", "party": "PML-N", "votes": 70752 },
+      { "candidate": "Muhammad Naveed Ch.", "party": "PPP", "votes": 24592 }
+    ],
+    "id": 125,
+    "xGrid": 25,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-125",
+    "voteMargin": 41.9
+  },
+  {
+    "desc": "NA 126 Lahore IX Detail Election Result 2002",
+    "voterTurnout": 33.2,
+    "totalVotes": 119684,
+    "result": [
+      { "candidate": "Umer Sohail Zia Butt", "party": "PML-N", "votes": 69718 },
+      { "candidate": "Syed Hasnat Ahmed", "party": "PPP", "votes": 25056 }
+    ],
+    "id": 126,
+    "xGrid": 28,
+    "yGrid": 14,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-126",
+    "voteMargin": 37.3
+  },
+  {
+    "desc": "NA 127 Lahore X Detail Election Result 2002",
+    "voterTurnout": 33.82,
+    "totalVotes": 93052,
+    "result": [
+      {
+        "candidate": "Chaudhry Nasir Ahmed Bhutta",
+        "party": "PML-N",
+        "votes": 53602
+      },
+      { "candidate": "Dr. Muhammad Riaz", "party": "PPP", "votes": 21698 }
+    ],
+    "id": 127,
+    "xGrid": 27,
+    "yGrid": 14,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-127",
+    "voteMargin": 34.3
+  },
+  {
+    "desc": "NA 128 Lahore XI Detail Election Result 2002",
+    "voterTurnout": 45.54,
+    "totalVotes": 122617,
+    "result": [
+      {
+        "candidate": "Malik Muhammad Afzal Khokhar",
+        "party": "PML-N",
+        "votes": 65727
+      },
+      {
+        "candidate": "Malik Karamat Ali Khokhar",
+        "party": "PPP",
+        "votes": 37608
+      }
+    ],
+    "id": 128,
+    "xGrid": 26,
+    "yGrid": 14,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-128",
+    "voteMargin": 22.9
+  },
+  {
+    "desc": "NA 129 Lahore XII Detail Election Result 2002",
+    "voterTurnout": 48,
+    "totalVotes": 93717,
+    "result": [
+      { "candidate": "Tariq Shabbir Advocate", "party": "PPP", "votes": 36604 },
+      {
+        "candidate": "Maj.(R) Habib Ullah Warraich",
+        "party": "PML-Q",
+        "votes": 29058
+      }
+    ],
+    "id": 129,
+    "xGrid": 29,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-129",
+    "voteMargin": 8.1
+  },
+  {
+    "desc": "NA 130 Lahore XIII Detail Election Result 2002",
+    "voterTurnout": 43.62,
+    "totalVotes": 98851,
+    "result": [
+      { "candidate": "Samina Khalid Ghurki", "party": "PPP", "votes": 44692 },
+      { "candidate": "Sadia Shabir", "party": "PML-N", "votes": 41041 }
+    ],
+    "id": 130,
+    "xGrid": 29,
+    "yGrid": 14,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-130",
+    "voteMargin": 3.7
+  },
+  {
+    "desc": "NA 131 Sheikhupura I Detail Election Result 2002",
+    "voterTurnout": 56.2,
+    "totalVotes": 123186,
+    "result": [
+      { "candidate": "Rana Afzaal Hussain", "party": "PML-N", "votes": 119180 },
+      {
+        "candidate": "Brdg: (R) Zulfiqar Ahmed Dhillon",
+        "party": "PML-Q",
+        "votes": 2587
+      }
+    ],
+    "id": 131,
+    "xGrid": 30,
+    "yGrid": 12,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-131",
+    "voteMargin": 94.6
+  },
+  {
+    "desc": "NA 132 Sheikhupura II Detail Election Result 2002",
+    "voterTurnout": 49.34,
+    "totalVotes": 108107,
+    "result": [
+      {
+        "candidate": "Rana Tanveer Hussain.",
+        "party": "PML-N",
+        "votes": 48193
+      },
+      {
+        "candidate": "Syed Gayoor Abbas Bukhari.",
+        "party": "PPP",
+        "votes": 34084
+      }
+    ],
+    "id": 132,
+    "xGrid": 30,
+    "yGrid": 11,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-132",
+    "voteMargin": 13.1
+  },
+  {
+    "desc": "NA 133 Sheikhupura III Detail Election Result 2002",
+    "voterTurnout": 45.73,
+    "totalVotes": 97934,
+    "result": [
+      { "candidate": "Mian Javed Latif", "party": "PML-N", "votes": 44786 },
+      {
+        "candidate": "Ch.Muhammad Saeed Virk",
+        "party": "PML-Q",
+        "votes": 28005
+      }
+    ],
+    "id": 133,
+    "xGrid": 30,
+    "yGrid": 14,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-133",
+    "voteMargin": 17.1
+  },
+  {
+    "desc": "NA 134 Sheikhupura III Detail Election Result 2002",
+    "voterTurnout": 51.66,
+    "totalVotes": 104981,
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Irfan Dogar",
+        "party": "PML-N",
+        "votes": 47925
+      },
+      { "candidate": "Khurram Munawar Manj", "party": "PML-Q", "votes": 32928 }
+    ],
+    "id": 134,
+    "xGrid": 30,
+    "yGrid": 13,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-134",
+    "voteMargin": 14.3
+  },
+  {
+    "desc": "NA 135 Nankana Sahib I Detail Election Result 2002",
+    "voterTurnout": 54.79,
+    "totalVotes": 118463,
+    "result": [
+      {
+        "candidate": "Choudhary Muhammad Barjees Tahir",
+        "party": "PML-N",
+        "votes": 46739
+      },
+      { "candidate": "Rai Ijaz Ahmad Khan", "party": "PPP", "votes": 42588 }
+    ],
+    "id": 135,
+    "xGrid": 27,
+    "yGrid": 15,
+    "region": "Nankana Sahib",
+    "province": "Punjab",
+    "seat": "NA-135",
+    "voteMargin": 3.5
+  },
+  {
+    "desc": "NA 136 Sheikhupura I Detail Election Result 2002",
+    "voterTurnout": 54.83,
+    "totalVotes": 116174,
+    "result": [
+      { "candidate": "Ch.Bilal Ahmed Virk", "party": "PML-N", "votes": 49681 },
+      { "candidate": "Peer Tariq Ahmed Shah", "party": "PML-Q", "votes": 39371 }
+    ],
+    "id": 136,
+    "xGrid": 29,
+    "yGrid": 12,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-136",
+    "voteMargin": 8.9
+  },
+  {
+    "desc": "NA 137 Nankana Sahib II Detail Election Result 2002",
+    "voterTurnout": 55.6,
+    "totalVotes": 124965,
+    "result": [
+      { "candidate": "Saeed Ahmed Zafar", "party": "Ind", "votes": 54732 },
+      { "candidate": "Rai Mansab Ali Khan", "party": "PML-Q", "votes": 44745 }
+    ],
+    "id": 137,
+    "xGrid": 26,
+    "yGrid": 15,
+    "region": "Nankana Sahib",
+    "province": "Punjab",
+    "seat": "NA-137",
+    "voteMargin": 8
+  },
+  {
+    "desc": "NA 138 Kasur I Detail Election Result 2002",
+    "voterTurnout": 58.45,
+    "totalVotes": 132243,
+    "result": [
+      {
+        "candidate": "Rao Mazhar Hayyat Khan",
+        "party": "PML-N",
+        "votes": 58832
+      },
+      {
+        "candidate": "Sardar Tofail Ahmed Khan",
+        "party": "PML-Q",
+        "votes": 39986
+      }
+    ],
+    "id": 138,
+    "xGrid": 28,
+    "yGrid": 15,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-138",
+    "voteMargin": 14.3
+  },
+  {
+    "desc": "NA 139 Kasur Election 2002 Result",
+    "voterTurnout": 50.66,
+    "totalVotes": 117709,
+    "result": [
+      { "candidate": "Waseem Akhtar Sheikh", "party": "PML-N", "votes": 51436 },
+      { "candidate": "Ch. Manzoor Ahmad", "party": "PPP", "votes": 44002 }
+    ],
+    "id": 139,
+    "xGrid": 29,
+    "yGrid": 15,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-139",
+    "voteMargin": 6.3
+  },
+  {
+    "desc": "NA 140 Kasur Election 2002 Result",
+    "voterTurnout": 56.41,
+    "totalVotes": 133236,
+    "result": [
+      {
+        "candidate": "Malik Rasheed Ahmed Khan",
+        "party": "Ind",
+        "votes": 47295
+      },
+      {
+        "candidate": "Dr. Azeem ud Din Zahid Lakhwi",
+        "party": "Ind",
+        "votes": 47206
+      }
+    ],
+    "id": 140,
+    "xGrid": 29,
+    "yGrid": 16,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-140",
+    "voteMargin": 0.1
+  },
+  {
+    "desc": "NA 141 Kasur Election 2002 Result",
+    "voterTurnout": 52.45,
+    "totalVotes": 126876,
+    "result": [
+      {
+        "candidate": "Rana Muhammad Ishaq Khan",
+        "party": "PML-N",
+        "votes": 58807
+      },
+      {
+        "candidate": "Sardar Muhammad Asif Nakai",
+        "party": "PML-Q",
+        "votes": 44468
+      }
+    ],
+    "id": 141,
+    "xGrid": 27,
+    "yGrid": 16,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-141",
+    "voteMargin": 11.3
+  },
+  {
+    "desc": "NA 142 Kasur Election 2002 Result",
+    "voterTurnout": 54.93,
+    "totalVotes": 119693,
+    "result": [
+      {
+        "candidate": "Sardar Talib Hassan Nakai",
+        "party": "PML-Q",
+        "votes": 47192
+      },
+      {
+        "candidate": "Rana Muhammad Hayat Khan",
+        "party": "PML-N",
+        "votes": 45538
+      }
+    ],
+    "id": 142,
+    "xGrid": 28,
+    "yGrid": 16,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-142",
+    "voteMargin": 1.4
+  },
+  {
+    "desc": "NA 143 Okara Election 2002 Result",
+    "voterTurnout": 45.88,
+    "totalVotes": 124135,
+    "result": [
+      {
+        "candidate": "Capt.(Rtd) Rai Ghulam Mujtaba Kharral",
+        "party": "PPP",
+        "votes": 63960
+      },
+      {
+        "candidate": "Muhammad Aslam Khan Kharral",
+        "party": "PML-Q",
+        "votes": 43798
+      }
+    ],
+    "id": 143,
+    "xGrid": 24,
+    "yGrid": 16,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-143",
+    "voteMargin": 16.2
+  },
+  {
+    "desc": "NA 144 Okara Election 2002 Result",
+    "voterTurnout": 40.5,
+    "totalVotes": 118044,
+    "result": [
+      { "candidate": "Sajjad Ul Hassan", "party": "Ind", "votes": 77795 },
+      { "candidate": "Rao Sikandar Iqbal", "party": "PML-Q", "votes": 33527 }
+    ],
+    "id": 144,
+    "xGrid": 25,
+    "yGrid": 15,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-144",
+    "voteMargin": 37.5
+  },
+  {
+    "desc": "NA 145 Okara Election 2002 Result",
+    "voterTurnout": 46.59,
+    "totalVotes": 129554,
+    "result": [
+      {
+        "candidate": "Syed Sumsan Ali Shah Bukhari",
+        "party": "PPP",
+        "votes": 64607
+      },
+      {
+        "candidate": "Syed Gulzar Sabtain Shah",
+        "party": "PML-Q",
+        "votes": 42761
+      }
+    ],
+    "id": 145,
+    "xGrid": 26,
+    "yGrid": 16,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-145",
+    "voteMargin": 16.9
+  },
+  {
+    "desc": "NA 146 Okara Election 2002 Result",
+    "voterTurnout": 44.71,
+    "totalVotes": 133915,
+    "result": [
+      {
+        "candidate": "Mian Manzoor Ahmad Khan Wattoo",
+        "party": "Ind",
+        "votes": 46941
+      },
+      {
+        "candidate": "Rao Muhammad Ajmal Khan",
+        "party": "PML-Q",
+        "votes": 46006
+      }
+    ],
+    "id": 146,
+    "xGrid": 24,
+    "yGrid": 15,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-146",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 147 Okara Election 2002 Result",
+    "voterTurnout": 30.06,
+    "totalVotes": 95961,
+    "result": [
+      {
+        "candidate": "Khurram Jahangir Wattoo",
+        "party": "PPP",
+        "votes": 79195
+      },
+      {
+        "candidate": "Muhammad Zafar Yasin Wattoo",
+        "party": "Ind",
+        "votes": 15965
+      }
+    ],
+    "id": 147,
+    "xGrid": 25,
+    "yGrid": 16,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-147",
+    "voteMargin": 65.9
+  },
+  {
+    "desc": "NA 148 Multan Election 2002 Result",
+    "voterTurnout": 43.6,
+    "totalVotes": 138099,
+    "result": [
+      { "candidate": "Syed Ali Musa Gillani", "party": "PPP", "votes": 93106 },
+      {
+        "candidate": "Malik Abdul Ghaffar Dogar",
+        "party": "PML-N",
+        "votes": 42819
+      }
+    ],
+    "id": 148,
+    "xGrid": 19,
+    "yGrid": 16,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-148",
+    "voteMargin": 36.4
+  },
+  {
+    "desc": "NA 149 Multan Election 2002 Result",
+    "voterTurnout": 29.63,
+    "totalVotes": 63940,
+    "result": [
+      {
+        "candidate": "Sheikh Muhammad Tariq Rasheed",
+        "party": "PML-N",
+        "votes": 37143
+      },
+      { "candidate": "Malik Liaquat Ali Dogar", "party": "PPP", "votes": 24531 }
+    ],
+    "id": 149,
+    "xGrid": 19,
+    "yGrid": 15,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-149",
+    "voteMargin": 19.7
+  },
+  {
+    "desc": "NA 150 Multan Election 2002 Result",
+    "voterTurnout": 31.72,
+    "totalVotes": 126863,
+    "result": [
+      {
+        "candidate": "Rana Mahmood-ul-Hassan",
+        "party": "PML-N",
+        "votes": 57774
+      },
+      {
+        "candidate": "Syed Abdul Qadir Gillani",
+        "party": "PPP",
+        "votes": 43299
+      }
+    ],
+    "id": 150,
+    "xGrid": 20,
+    "yGrid": 16,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-150",
+    "voteMargin": 11.4
+  },
+  {
+    "desc": "NA 151 Multan Election 2002 Result",
+    "voterTurnout": 38.85,
+    "totalVotes": 126275,
+    "result": [
+      {
+        "candidate": "Syed Abdul Qadir Gillani",
+        "party": "PPP",
+        "votes": 64364
+      },
+      { "candidate": "Shokat Hayat Khan Bosan", "party": "Ind", "votes": 60779 }
+    ],
+    "id": 151,
+    "xGrid": 19,
+    "yGrid": 18,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-151",
+    "voteMargin": 2.8
+  },
+  {
+    "desc": "NA 152 Multan Election 2002 Result",
+    "voterTurnout": 41.23,
+    "totalVotes": 135092,
+    "result": [
+      { "candidate": "Liaqat Ali Khan", "party": "PPP", "votes": 47880 },
+      { "candidate": "Syed Mujahid Ali Shah", "party": "PML-Q", "votes": 38126 }
+    ],
+    "id": 152,
+    "xGrid": 19,
+    "yGrid": 17,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-152",
+    "voteMargin": 7.2
+  },
+  {
+    "desc": "NA 153 Multan Election 2002 Result",
+    "voterTurnout": 46.91,
+    "totalVotes": 158217,
+    "result": [
+      {
+        "candidate": "Dewan Syed Ashiq Hussain Bukhari",
+        "party": "PML-Q",
+        "votes": 69246
+      },
+      {
+        "candidate": "Rana Muhammad Qasim Noon",
+        "party": "Ind",
+        "votes": 68762
+      }
+    ],
+    "id": 153,
+    "xGrid": 18,
+    "yGrid": 18,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-153",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 154 Lodhran Election 2002 Result",
+    "voterTurnout": 66.31,
+    "totalVotes": 168986,
+    "result": [
+      {
+        "candidate": "Muhammad Saddique Khan Baluch",
+        "party": "PML-Q",
+        "votes": 81983
+      },
+      {
+        "candidate": "Mirza Muhammad Nasir Baig",
+        "party": "PPP",
+        "votes": 79611
+      }
+    ],
+    "id": 154,
+    "xGrid": 20,
+    "yGrid": 18,
+    "region": "Lodhran",
+    "province": "Punjab",
+    "seat": "NA-154",
+    "voteMargin": 1.4
+  },
+  {
+    "desc": "NA 155 Lodhran Election 2002 Result",
+    "voterTurnout": 56.65,
+    "totalVotes": 153001,
+    "result": [
+      {
+        "candidate": "Muhammad Akhtar Khan Kanju",
+        "party": "Ind",
+        "votes": 79977
+      },
+      { "candidate": "Hayat Ullah Khan Tareen", "party": "PPP", "votes": 68941 }
+    ],
+    "id": 155,
+    "xGrid": 20,
+    "yGrid": 14,
+    "region": "Lodhran",
+    "province": "Punjab",
+    "seat": "NA-155",
+    "voteMargin": 7.2
+  },
+  {
+    "desc": "NA 156 Khanewal Election 2002 Result",
+    "voterTurnout": 60.94,
+    "totalVotes": 147362,
+    "result": [
+      {
+        "candidate": "Muhammad Raza Hayat Hiraj",
+        "party": "PML-Q",
+        "votes": 71381
+      },
+      { "candidate": "Syed Fakhar Imam", "party": "PPP", "votes": 58271 }
+    ],
+    "id": 156,
+    "xGrid": 21,
+    "yGrid": 18,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-156",
+    "voteMargin": 8.9
+  },
+  {
+    "desc": "NA 157 Khanewal Election 2002 Result",
+    "voterTurnout": 52.93,
+    "totalVotes": 137567,
+    "result": [
+      { "candidate": "Hamid Yar Hiraj", "party": "PML-Q", "votes": 58819 },
+      { "candidate": "Muhammad Khan Daha", "party": "PML-N", "votes": 58231 }
+    ],
+    "id": 157,
+    "xGrid": 18,
+    "yGrid": 15,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-157",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NA 158 Khanewal Election 2002 Result",
+    "voterTurnout": 60.8,
+    "totalVotes": 155604,
+    "result": [
+      { "candidate": "Pir Aslam Bodla", "party": "PML-Q", "votes": 57777 },
+      {
+        "candidate": "Pir Haider Zaman Qureshi",
+        "party": "PPP",
+        "votes": 56821
+      }
+    ],
+    "id": 158,
+    "xGrid": 21,
+    "yGrid": 17,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-158",
+    "voteMargin": 0.6
+  },
+  {
+    "desc": "NA 159 Khanewal Election 2002 Result",
+    "voterTurnout": 62.59,
+    "totalVotes": 154589,
+    "result": [
+      { "candidate": "Ch. Iftikhar Nazir", "party": "PPP", "votes": 78255 },
+      {
+        "candidate": "Malik Ghulam Murtaza Maitla",
+        "party": "PML-Q",
+        "votes": 61188
+      }
+    ],
+    "id": 159,
+    "xGrid": 20,
+    "yGrid": 17,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-159",
+    "voteMargin": 11
+  },
+  {
+    "desc": "NA 160 Sahiwal Election 2002 Result",
+    "voterTurnout": 51.12,
+    "totalVotes": 124168,
+    "result": [
+      {
+        "candidate": "Syed Imran Ahmed Shah",
+        "party": "PML-N",
+        "votes": 59373
+      },
+      {
+        "candidate": "Ch.Nauraiz Shakoor Khan",
+        "party": "PML-Q",
+        "votes": 31119
+      }
+    ],
+    "id": 160,
+    "xGrid": 24,
+    "yGrid": 17,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-160",
+    "voteMargin": 22.8
+  },
+  {
+    "desc": "NA 161 Sahiwal Election 2002 Result",
+    "voterTurnout": 57.36,
+    "totalVotes": 128909,
+    "result": [
+      { "candidate": "Ghulam Farid Kathia", "party": "PPP", "votes": 38962 },
+      { "candidate": "Ch.Muhammad Ashraf", "party": "PDP", "votes": 33110 }
+    ],
+    "id": 161,
+    "xGrid": 25,
+    "yGrid": 17,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-161",
+    "voteMargin": 4.5
+  },
+  {
+    "desc": "NA 162 Sahiwal Election 2002 Result",
+    "voterTurnout": 57.58,
+    "totalVotes": 165517,
+    "result": [
+      { "candidate": "Ch. Zahid Iqbal", "party": "PML-N", "votes": 75579 },
+      { "candidate": "Rai Hassan Nawaz Khan", "party": "Ind", "votes": 65414 }
+    ],
+    "id": 162,
+    "xGrid": 26,
+    "yGrid": 18,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-162",
+    "voteMargin": 6.1
+  },
+  {
+    "desc": "NA 163 Sahiwal Election 2002 Result",
+    "voterTurnout": 61.43,
+    "totalVotes": 131852,
+    "result": [
+      {
+        "candidate": "Malik Nauman Ahmed Langriyal",
+        "party": "PML-Q",
+        "votes": 39864
+      },
+      { "candidate": "Begum Shahnaz Javed", "party": "PPP", "votes": 37986 }
+    ],
+    "id": 163,
+    "xGrid": 26,
+    "yGrid": 17,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-163",
+    "voteMargin": 1.4
+  },
+  {
+    "desc": "NA 164 Pakpattan Election 2002 Result",
+    "voterTurnout": 58.55,
+    "totalVotes": 113109,
+    "result": [
+      {
+        "candidate": "Sardar Mansab Ali Doggar",
+        "party": "PML-N",
+        "votes": 35597
+      },
+      {
+        "candidate": "Pir Muhammad Shah Khagga",
+        "party": "PML-Q",
+        "votes": 34196
+      }
+    ],
+    "id": 164,
+    "xGrid": 23,
+    "yGrid": 17,
+    "region": "Pakpattan",
+    "province": "Punjab",
+    "seat": "NA-164",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 165 Pakpattan Election 2002 Result",
+    "voterTurnout": 54.48,
+    "totalVotes": 119903,
+    "result": [
+      {
+        "candidate": "Syed Muhammad Salman Mohsin Gillani",
+        "party": "PML-N",
+        "votes": 67400
+      },
+      {
+        "candidate": "Mian Ahmad Raza Khan Maneka",
+        "party": "PML-Q",
+        "votes": 36603
+      }
+    ],
+    "id": 165,
+    "xGrid": 24,
+    "yGrid": 18,
+    "region": "Pakpattan",
+    "province": "Punjab",
+    "seat": "NA-165",
+    "voteMargin": 25.7
+  },
+  {
+    "desc": "NA 166 Pakpattan Election 2002 Result",
+    "voterTurnout": 57.9,
+    "totalVotes": 123530,
+    "result": [
+      {
+        "candidate": "Rana Zahid Hussain Khan",
+        "party": "PML-N",
+        "votes": 66418
+      },
+      { "candidate": "Dr.Junaid Mumtaz Joya", "party": "PML-Q", "votes": 42860 }
+    ],
+    "id": 166,
+    "xGrid": 23,
+    "yGrid": 18,
+    "region": "Pakpattan",
+    "province": "Punjab",
+    "seat": "NA-166",
+    "voteMargin": 19.1
+  },
+  {
+    "desc": "NA 167 Vehari Election 2002 Result",
+    "voterTurnout": 42.48,
+    "totalVotes": 152880,
+    "result": [
+      { "candidate": "Ch. Asghar Ali Jutt", "party": "PPP", "votes": 74308 },
+      { "candidate": "Ch. Nazir Ahmed Arain", "party": "Ind", "votes": 42606 }
+    ],
+    "id": 167,
+    "xGrid": 22,
+    "yGrid": 17,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-167",
+    "voteMargin": 20.7
+  },
+  {
+    "desc": "NA 168 Vehari Election 2002 Result",
+    "voterTurnout": 49.8,
+    "totalVotes": 120626,
+    "result": [
+      { "candidate": "Natasha Doultana", "party": "PPP", "votes": 70146 },
+      { "candidate": "Bilal Akbar Bhatti", "party": "PML-N", "votes": 46328 }
+    ],
+    "id": 168,
+    "xGrid": 22,
+    "yGrid": 18,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-168",
+    "voteMargin": 19.7
+  },
+  {
+    "desc": "NA 169 Vehari Election 2002 Result",
+    "voterTurnout": 48.24,
+    "totalVotes": 150635,
+    "result": [
+      { "candidate": "Tehmina Daultana", "party": "PML-N", "votes": 48999 },
+      {
+        "candidate": "Khan Aftab Ahmad Khan Khichi",
+        "party": "PML-Q",
+        "votes": 45885
+      }
+    ],
+    "id": 169,
+    "xGrid": 22,
+    "yGrid": 16,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-169",
+    "voteMargin": 2.1
+  },
+  {
+    "desc": "NA 170 Vehari Election 2002 Result",
+    "voterTurnout": 48.4,
+    "totalVotes": 154733,
+    "result": [
+      {
+        "candidate": "Mehmood Hayat Khan alias Tochi Khan",
+        "party": "PPP",
+        "votes": 87124
+      },
+      {
+        "candidate": "Aurangzaib Khan Khichi",
+        "party": "PML-Q",
+        "votes": 56816
+      }
+    ],
+    "id": 170,
+    "xGrid": 22,
+    "yGrid": 19,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-170",
+    "voteMargin": 19.6
+  },
+  {
+    "desc": "NA 171 Dera Ghazi Khan Election 2002 Result",
+    "voterTurnout": 44.42,
+    "totalVotes": 162634,
+    "result": [
+      {
+        "candidate": "Khawja Sheeraz Mehmood",
+        "party": "PML-Q",
+        "votes": 39628
+      },
+      { "candidate": "Amjad Farooq Khan Khosa", "party": "Ind", "votes": 36400 }
+    ],
+    "id": 171,
+    "xGrid": 16,
+    "yGrid": 16,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-171",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 172 Dera Ghazi Khan Election 2002 Result",
+    "voterTurnout": 31.02,
+    "totalVotes": 120002,
+    "result": [
+      {
+        "candidate": "Sardar Awais Ahmed Khan Laghari",
+        "party": "PML-Q",
+        "votes": 61918
+      },
+      { "candidate": "Dr Hafiz Abdul Karim", "party": "PML-N", "votes": 40460 }
+    ],
+    "id": 172,
+    "xGrid": 17,
+    "yGrid": 18,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-172",
+    "voteMargin": 17.9
+  },
+  {
+    "desc": "NA 173 Dera Ghazi Khan Election 2008 Result",
+    "voterTurnout": 41.89,
+    "totalVotes": 134657,
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Saif-ul-Din Khan Khosa",
+        "party": "PML-N",
+        "votes": 56475
+      },
+      {
+        "candidate": "Sardar Awais Ahmad Khan Leghari",
+        "party": "PML-Q",
+        "votes": 56074
+      }
+    ],
+    "id": 173,
+    "xGrid": 16,
+    "yGrid": 17,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-173",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 174 Rajanpur Election 2002 Result",
+    "voterTurnout": 46.37,
+    "totalVotes": 130455,
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Jafar Khan Leghari",
+        "party": "PML-Q",
+        "votes": 50440
+      },
+      {
+        "candidate": "Sardar Nasrullh Khan Dreshak.",
+        "party": "Ind",
+        "votes": 40049
+      }
+    ],
+    "id": 174,
+    "xGrid": 17,
+    "yGrid": 19,
+    "region": "Rajanpur",
+    "province": "Punjab",
+    "seat": "NA-174",
+    "voteMargin": 8
+  },
+  {
+    "desc": "NA 175 Rajanpur Election 2002 Result",
+    "voterTurnout": 48.17,
+    "totalVotes": 132214,
+    "result": [
+      {
+        "candidate": "Meer Doost Muhammad Mazari",
+        "party": "PPP",
+        "votes": 78427
+      },
+      {
+        "candidate": "Sardar Nasrullh Khan Dreshak.",
+        "party": "PML-Q",
+        "votes": 46210
+      }
+    ],
+    "id": 175,
+    "xGrid": 15,
+    "yGrid": 21,
+    "region": "Rajanpur",
+    "province": "Punjab",
+    "seat": "NA-175",
+    "voteMargin": 24.4
+  },
+  {
+    "desc": "NA 176 Muzaffargarh Election 2002 Result",
+    "voterTurnout": 53.28,
+    "totalVotes": 142246,
+    "result": [
+      {
+        "candidate": "Muhammad Mohsin Ali Qureshi",
+        "party": "PPP",
+        "votes": 50826
+      },
+      {
+        "candidate": "Malik Ghulam Qasim Hinjra",
+        "party": "PML-Q",
+        "votes": 46745
+      }
+    ],
+    "id": 176,
+    "xGrid": 17,
+    "yGrid": 15,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-176",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NA 177 Muzaffargarh Election 2002 Result",
+    "voterTurnout": 57.05,
+    "totalVotes": 141471,
+    "result": [
+      { "candidate": "Hina Rabbani Khar", "party": "PPP", "votes": 84916 },
+      { "candidate": "Khalid Ahmad Gurmani", "party": "PML-Q", "votes": 50834 }
+    ],
+    "id": 177,
+    "xGrid": 17,
+    "yGrid": 16,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-177",
+    "voteMargin": 24.1
+  },
+  {
+    "desc": "NA 178 Muzaffargarh Election 2002 Result",
+    "voterTurnout": 43.08,
+    "totalVotes": 120939,
+    "result": [
+      { "candidate": "Jamshed Ahmed Dasti", "party": "PPP", "votes": 53817 },
+      {
+        "candidate": "Nawabzada Iftikhar Ahmad Khan Babar",
+        "party": "PDP",
+        "votes": 50102
+      }
+    ],
+    "id": 178,
+    "xGrid": 17,
+    "yGrid": 17,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-178",
+    "voteMargin": 3.1
+  },
+  {
+    "desc": "NA 179 Muzaffargarh Election 2002 Result",
+    "voterTurnout": 56,
+    "totalVotes": 146490,
+    "result": [
+      {
+        "candidate": "Muhammad Moazam Ali Khan Jatoi",
+        "party": "PPP",
+        "votes": 79643
+      },
+      {
+        "candidate": "Makhdom Zada Syed Basit Ahmad Sultan Bukhari",
+        "party": "PML-Q",
+        "votes": 60637
+      }
+    ],
+    "id": 179,
+    "xGrid": 19,
+    "yGrid": 19,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-179",
+    "voteMargin": 13
+  },
+  {
+    "desc": "NA 180 Muzaffargarh Election 2002 Result",
+    "voterTurnout": 54.31,
+    "totalVotes": 135912,
+    "result": [
+      {
+        "candidate": "Abdul Qayyum Khan Jatoi",
+        "party": "PPP",
+        "votes": 68270
+      },
+      {
+        "candidate": "Sardar Ashiq Hussain Gopan",
+        "party": "PML-Q",
+        "votes": 63144
+      }
+    ],
+    "id": 180,
+    "xGrid": 18,
+    "yGrid": 19,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-180",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 181 Layyah Election 2002 Result",
+    "voterTurnout": 63.59,
+    "totalVotes": 163166,
+    "result": [
+      {
+        "candidate": "Sardar Bahadar Ahmad Khan Seehar",
+        "party": "PML-Q",
+        "votes": 58797
+      },
+      {
+        "candidate": "Sahibzada-Faizul-Hassan",
+        "party": "PML-N",
+        "votes": 56951
+      }
+    ],
+    "id": 181,
+    "xGrid": 18,
+    "yGrid": 13,
+    "region": "Layyah",
+    "province": "Punjab",
+    "seat": "NA-181",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 182 Layyah Election 2002 Result",
+    "voterTurnout": 58.93,
+    "totalVotes": 169346,
+    "result": [
+      {
+        "candidate": "Syed Muhammad Saqlain Bukhari",
+        "party": "PML-N",
+        "votes": 75910
+      },
+      {
+        "candidate": "Malik Niaz Ahmad Jakhar",
+        "party": "PML-Q",
+        "votes": 52108
+      }
+    ],
+    "id": 182,
+    "xGrid": 17,
+    "yGrid": 14,
+    "region": "Layyah",
+    "province": "Punjab",
+    "seat": "NA-182",
+    "voteMargin": 14.1
+  },
+  {
+    "desc": "NA 183 Bahawalpur Election 2002 Result",
+    "voterTurnout": 37.13,
+    "totalVotes": 114145,
+    "result": [
+      { "candidate": "Aarif Aziz Sheikh", "party": "PPP", "votes": 71394 },
+      {
+        "candidate": "Mukhdoom Syed Sami-ul-Hassan Gilani",
+        "party": "PML-Q",
+        "votes": 39644
+      }
+    ],
+    "id": 183,
+    "xGrid": 18,
+    "yGrid": 21,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-183",
+    "voteMargin": 27.8
+  },
+  {
+    "desc": "NA 184 Bahawalpur Election 2002 Result",
+    "voterTurnout": 42.2,
+    "totalVotes": 134088,
+    "result": [
+      {
+        "candidate": "Khadija Aamir Yar Malik",
+        "party": "PPP",
+        "votes": 74287
+      },
+      {
+        "candidate": "Mian Najeeb-ud-Din Owaisi",
+        "party": "PML-N",
+        "votes": 48776
+      }
+    ],
+    "id": 184,
+    "xGrid": 20,
+    "yGrid": 20,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-184",
+    "voteMargin": 19
+  },
+  {
+    "desc": "NA 185 Bahawalpur Election 2002 Result",
+    "voterTurnout": 33.97,
+    "totalVotes": 121413,
+    "result": [
+      {
+        "candidate": "Muhammad Baleegh-ur-Rehman",
+        "party": "PML-N",
+        "votes": 54334
+      },
+      {
+        "candidate": "Muhammad Farooq Azam Malik",
+        "party": "PPP",
+        "votes": 47337
+      }
+    ],
+    "id": 185,
+    "xGrid": 19,
+    "yGrid": 20,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-185",
+    "voteMargin": 5.8
+  },
+  {
+    "desc": "NA 186 Bahawalpur Election 2002 Result",
+    "voterTurnout": 46.54,
+    "totalVotes": 156295,
+    "result": [
+      {
+        "candidate": "Mian Riaz Hussain Pirzada",
+        "party": "PML-Q",
+        "votes": 66757
+      },
+      {
+        "candidate": "Syed Tasneem Nawaz Gardezi",
+        "party": "Ind",
+        "votes": 50468
+      }
+    ],
+    "id": 186,
+    "xGrid": 20,
+    "yGrid": 19,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-186",
+    "voteMargin": 10.4
+  },
+  {
+    "desc": "NA 187 Bahawalpur Election 2002 Result",
+    "voterTurnout": 46.78,
+    "totalVotes": 144746,
+    "result": [
+      { "candidate": "Ch. Saud Majeed", "party": "PML-N", "votes": 77860 },
+      { "candidate": "Ch.Pervaiz Elahi", "party": "PML-Q", "votes": 60079 }
+    ],
+    "id": 187,
+    "xGrid": 19,
+    "yGrid": 21,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-187",
+    "voteMargin": 12.3
+  },
+  {
+    "desc": "NA 188 Bahawalnagar Election 2002 Result",
+    "voterTurnout": 54.98,
+    "totalVotes": 142799,
+    "result": [
+      {
+        "candidate": "Muhammad Akhtar Khadim Alias Khadim Hussain.",
+        "party": "PML-Q",
+        "votes": 52981
+      },
+      { "candidate": "Shoukat Ali Joya Laleka", "party": "PPP", "votes": 44861 }
+    ],
+    "id": 188,
+    "xGrid": 24,
+    "yGrid": 19,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-188",
+    "voteMargin": 5.7
+  },
+  {
+    "desc": "NA 189 Bahawalnagar Election 2002 Result",
+    "voterTurnout": 41.11,
+    "totalVotes": 129080,
+    "result": [
+      {
+        "candidate": "Sayed Mumtaz Alam Gillani",
+        "party": "PPP",
+        "votes": 49678
+      },
+      {
+        "candidate": "Dr. Mian Akhtar Ali Lalika",
+        "party": "PML-N",
+        "votes": 37218
+      }
+    ],
+    "id": 189,
+    "xGrid": 25,
+    "yGrid": 18,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-189",
+    "voteMargin": 9.7
+  },
+  {
+    "desc": "NA 190 Bahawalnagar Election 2002 Result",
+    "voterTurnout": 48.81,
+    "totalVotes": 151037,
+    "result": [
+      {
+        "candidate": "Abdul Ghafoor Chaudhary",
+        "party": "PPP",
+        "votes": 77664
+      },
+      { "candidate": "Tahir Bashir Cheema", "party": "PML-Q", "votes": 70081 }
+    ],
+    "id": 190,
+    "xGrid": 23,
+    "yGrid": 19,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-190",
+    "voteMargin": 5
+  },
+  {
+    "desc": "NA 191 Bahawalnagar Election 2002 Result",
+    "voterTurnout": 47.53,
+    "totalVotes": 168500,
+    "result": [
+      { "candidate": "Muhammad Afzal Sindhu", "party": "PPP", "votes": 83903 },
+      { "candidate": "Muhammad Ijaz-Ul-Haq", "party": "PML-Z", "votes": 79283 }
+    ],
+    "id": 191,
+    "xGrid": 21,
+    "yGrid": 20,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-191",
+    "voteMargin": 2.7
+  },
+  {
+    "desc": "NA 192 Rahimyar Khan Election 2002 Result",
+    "voterTurnout": 39.84,
+    "totalVotes": 155489,
+    "result": [
+      { "candidate": "Syed Hamid Saeed Kazmi", "party": "PPP", "votes": 65395 },
+      {
+        "candidate": "Makhdoom Syed Ahmad Alam Anwar",
+        "party": "PML-Q",
+        "votes": 45579
+      }
+    ],
+    "id": 192,
+    "xGrid": 17,
+    "yGrid": 21,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-192",
+    "voteMargin": 12.7
+  },
+  {
+    "desc": "NA 193 Rahimyar Khan Election 2002 Result",
+    "voterTurnout": 39.03,
+    "totalVotes": 134669,
+    "result": [
+      { "candidate": "Mian Abdul Sattar", "party": "PPP", "votes": 58572 },
+      { "candidate": "Sheikh Muhammad Anwar", "party": "PML-Q", "votes": 37021 }
+    ],
+    "id": 193,
+    "xGrid": 17,
+    "yGrid": 22,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-193",
+    "voteMargin": 16
+  },
+  {
+    "desc": "NA 194 Rahimyar Khan Election 2002 Result",
+    "voterTurnout": 39.9,
+    "totalVotes": 138162,
+    "result": [
+      { "candidate": "Makhdoom Shahab-ud-Din", "party": "PPP", "votes": 59710 },
+      {
+        "candidate": "Makhdoom Khusru Bakhtiar",
+        "party": "PML-Q",
+        "votes": 42442
+      }
+    ],
+    "id": 194,
+    "xGrid": 17,
+    "yGrid": 20,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-194",
+    "voteMargin": 12.5
+  },
+  {
+    "desc": "NA 195 Rahimyar Khan Election 2002 Result",
+    "voterTurnout": 43.24,
+    "totalVotes": 102918,
+    "result": [
+      { "candidate": "Syed Mustafa Mehmood", "party": "PML-F", "votes": 81097 },
+      {
+        "candidate": "Molvi Muhammad Tariq Chohan",
+        "party": "Ind",
+        "votes": 17898
+      }
+    ],
+    "id": 195,
+    "xGrid": 16,
+    "yGrid": 21,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-195",
+    "voteMargin": 61.4
+  },
+  {
+    "desc": "NA 196 Rahimyar Khan Election 2002 Result",
+    "voterTurnout": 41.01,
+    "totalVotes": 140670,
+    "result": [
+      { "candidate": "Javed Iqbal Warraich", "party": "PPP", "votes": 52090 },
+      { "candidate": "Mian Imtiaz Ahmad", "party": "Ind", "votes": 47205 }
+    ],
+    "id": 196,
+    "xGrid": 16,
+    "yGrid": 22,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-196",
+    "voteMargin": 3.5
+  },
+  {
+    "desc": "NA 197 Rahimyar Khan Election 2002 Result",
+    "voterTurnout": 41,
+    "totalVotes": 140934,
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Arshad Khan Laghari",
+        "party": "PML-N",
+        "votes": 82565
+      },
+      { "candidate": "Rais Munir Ahmad", "party": "PML-Q", "votes": 53983 }
+    ],
+    "id": 197,
+    "xGrid": 15,
+    "yGrid": 22,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-197",
+    "voteMargin": 20.3
+  },
+  {
+    "desc": "NA 198 Sukkur Election 2002 Result",
+    "voterTurnout": 41.41,
+    "totalVotes": 107595,
+    "result": [
+      { "candidate": "Nauman Islam Shaikh.", "party": "PPP", "votes": 74086 },
+      { "candidate": "Tahir Hussain Shah.", "party": "PML-Q", "votes": 22854 }
+    ],
+    "id": 198,
+    "xGrid": 13,
+    "yGrid": 23,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-198",
+    "voteMargin": 47.6
+  },
+  {
+    "desc": "NA 199 Sukkur Election 2002 Result",
+    "voterTurnout": 48.59,
+    "totalVotes": 128416,
+    "result": [
+      {
+        "candidate": "Syed Khursheed Ahmed Shah",
+        "party": "PPP",
+        "votes": 93394
+      },
+      { "candidate": "Taj Mohammad Shaikh", "party": "PML-Q", "votes": 34204 }
+    ],
+    "id": 199,
+    "xGrid": 14,
+    "yGrid": 24,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-199",
+    "voteMargin": 46.1
+  },
+  {
+    "desc": "NA 200 Ghotki Election 2002 Result",
+    "voterTurnout": 50.51,
+    "totalVotes": 142454,
+    "result": [
+      {
+        "candidate": "Mian Abdul Haq alias Mian Mitho",
+        "party": "PPP",
+        "votes": 59022
+      },
+      {
+        "candidate": "Khalid Ahmed Khan Lund",
+        "party": "PML-Q",
+        "votes": 50223
+      }
+    ],
+    "id": 200,
+    "xGrid": 15,
+    "yGrid": 23,
+    "region": "Ghotki",
+    "province": "Sindh",
+    "seat": "NA-200",
+    "voteMargin": 6.2
+  },
+  {
+    "desc": "NA 201 Ghotki Election 2002 Result",
+    "voterTurnout": 46.19,
+    "totalVotes": 127440,
+    "result": [
+      {
+        "candidate": "Ali Mohammad Khan Mahar",
+        "party": "Ind",
+        "votes": 74714
+      },
+      {
+        "candidate": "Sardar Ahmed Khan alias Fayyaz Ali Khan Lund",
+        "party": "PPP",
+        "votes": 51894
+      }
+    ],
+    "id": 201,
+    "xGrid": 14,
+    "yGrid": 23,
+    "region": "Ghotki",
+    "province": "Sindh",
+    "seat": "NA-201",
+    "voteMargin": 17.9
+  },
+  {
+    "desc": "NA 202 Shikarpur Election 2002 Result",
+    "voterTurnout": 38.62,
+    "totalVotes": 101773,
+    "result": [
+      { "candidate": "Aftab Shahban Mirani", "party": "PPP", "votes": 47379 },
+      { "candidate": "Muhammad Ibrahim Jatoi", "party": "NPP", "votes": 39405 }
+    ],
+    "id": 202,
+    "xGrid": 13,
+    "yGrid": 22,
+    "region": "Shikarpur",
+    "province": "Sindh",
+    "seat": "NA-202",
+    "voteMargin": 7.8
+  },
+  {
+    "desc": "NA 203 Shikarpur Election 2002 Result",
+    "voterTurnout": 51.95,
+    "totalVotes": 129387,
+    "result": [
+      { "candidate": "Ghous Bux Khan Mahar", "party": "PML-Q", "votes": 89921 },
+      {
+        "candidate": "Sardar Wahid Baksh Bhahiyo",
+        "party": "PPP",
+        "votes": 39123
+      }
+    ],
+    "id": 203,
+    "xGrid": 12,
+    "yGrid": 23,
+    "region": "Shikarpur",
+    "province": "Sindh",
+    "seat": "NA-203",
+    "voteMargin": 39.3
+  },
+  {
+    "desc": "NA 204 Larkana Election 2002 Result",
+    "voterTurnout": 26.58,
+    "totalVotes": 97697,
+    "result": [
+      {
+        "candidate": "Mr. Shahid Hussain Bhutto",
+        "party": "PPP",
+        "votes": 81439
+      },
+      {
+        "candidate": "Muhtarma Ghanwa Bhutto",
+        "party": "PPP-SB",
+        "votes": 12271
+      }
+    ],
+    "id": 204,
+    "xGrid": 11,
+    "yGrid": 24,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-204",
+    "voteMargin": 70.8
+  },
+  {
+    "desc": "NA 205 Larkana Election 2002 Result",
+    "voterTurnout": 37.54,
+    "totalVotes": 101146,
+    "result": [
+      { "candidate": "Nazir Ahmed Bughio", "party": "PPP", "votes": 72928 },
+      { "candidate": "Altaf Hussain Unar", "party": "PML-Q", "votes": 25847 }
+    ],
+    "id": 205,
+    "xGrid": 12,
+    "yGrid": 24,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-205",
+    "voteMargin": 46.5
+  },
+  {
+    "desc": "NA 206 Larkana Election 2002 Result",
+    "voterTurnout": 52,
+    "totalVotes": 75181,
+    "result": [
+      {
+        "candidate": "Mir Amir Ali Khan Magsi",
+        "party": "PPP",
+        "votes": 49524
+      },
+      { "candidate": "Sardar Khan Chandio", "party": "PML-Q", "votes": 23545 }
+    ],
+    "id": 206,
+    "xGrid": 10,
+    "yGrid": 23,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-206",
+    "voteMargin": 34.6
+  },
+  {
+    "desc": "NA 207 Larkana Election 2002 Result",
+    "voterTurnout": "",
+    "totalVotes": 0,
+    "result": [{ "candidate": "Faryal Talpur", "party": "PPP", "votes": 0 }],
+    "id": 207,
+    "xGrid": 11,
+    "yGrid": 23,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-207",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 208 Jacobabad Election 2002 Result",
+    "voterTurnout": 28.33,
+    "totalVotes": 74040,
+    "result": [
+      {
+        "candidate": "Mir Aijaz Hussain Jakhrani",
+        "party": "PPP",
+        "votes": 52813
+      },
+      { "candidate": "Fahad Malik", "party": "PML-Q", "votes": 16482 }
+    ],
+    "id": 208,
+    "xGrid": 12,
+    "yGrid": 22,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-208",
+    "voteMargin": 49.1
+  },
+  {
+    "desc": "NA 209 Jacobabad Election 2002 Result",
+    "voterTurnout": 47.06,
+    "totalVotes": 131698,
+    "result": [
+      {
+        "candidate": "Mir Hazzar Khan Bijarani.",
+        "party": "PPP",
+        "votes": 111578
+      },
+      {
+        "candidate": "Mufti Ali Hassan Buriro.",
+        "party": "MMA",
+        "votes": 12041
+      }
+    ],
+    "id": 209,
+    "xGrid": 13,
+    "yGrid": 21,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-209",
+    "voteMargin": 75.6
+  },
+  {
+    "desc": "NA 210 Jacobabad Election 2002 Result",
+    "voterTurnout": 29.53,
+    "totalVotes": 84803,
+    "result": [
+      { "candidate": "Gul Muhammad Jakhrani", "party": "PPP", "votes": 82189 },
+      {
+        "candidate": "Asghar Ali Khan Bajrani",
+        "party": "JUI-S",
+        "votes": 2286
+      }
+    ],
+    "id": 210,
+    "xGrid": 14,
+    "yGrid": 22,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-210",
+    "voteMargin": 94.2
+  },
+  {
+    "desc": "NA 211 Naushero Feroze Election 2002 Result",
+    "voterTurnout": 44.138,
+    "totalVotes": 164572,
+    "result": [
+      {
+        "candidate": "Ghulam Murtaza Khan Jatoi",
+        "party": "NPP",
+        "votes": 109319
+      },
+      { "candidate": "Zulfiqar Ali Behan", "party": "PPP", "votes": 54268 }
+    ],
+    "id": 211,
+    "xGrid": 11,
+    "yGrid": 26,
+    "region": "Naushero Feroze",
+    "province": "Sindh",
+    "seat": "NA-211",
+    "voteMargin": 33.5
+  },
+  {
+    "desc": "NA 212 Naushero Feroze Election 2002 Result",
+    "voterTurnout": 43.04,
+    "totalVotes": 158163,
+    "result": [
+      { "candidate": "Zaffar Ali Shah", "party": "PPP", "votes": 98999 },
+      { "candidate": "Sayed Murad Ali Shah", "party": "PML-Q", "votes": 47286 }
+    ],
+    "id": 212,
+    "xGrid": 12,
+    "yGrid": 25,
+    "region": "Naushero Feroze",
+    "province": "Sindh",
+    "seat": "NA-212",
+    "voteMargin": 32.7
+  },
+  {
+    "desc": "NA 213 Nawabshah Election 2002 Result",
+    "voterTurnout": 47.59,
+    "totalVotes": 162196,
+    "result": [
+      { "candidate": "Azra Fazal Pecheho", "party": "PPP", "votes": 108404 },
+      {
+        "candidate": "Syed Zahid Hussain Shah",
+        "party": "PML-F",
+        "votes": 47127
+      }
+    ],
+    "id": 213,
+    "xGrid": 12,
+    "yGrid": 27,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-213",
+    "voteMargin": 37.8
+  },
+  {
+    "desc": "NA 214 Nawabshah Election 2002 Result",
+    "voterTurnout": 47.1,
+    "totalVotes": 131321,
+    "result": [
+      {
+        "candidate": "Syed Ghulam Mustafa Shah S/o Syed Sabbir Ahmed Sha",
+        "party": "PPP",
+        "votes": 81194
+      },
+      { "candidate": "Khan Muhammad Dhari", "party": "PML-Q", "votes": 47075 }
+    ],
+    "id": 214,
+    "xGrid": 11,
+    "yGrid": 27,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-214",
+    "voteMargin": 26
+  },
+  {
+    "desc": "NA 215 Khairpur Election 2002 Result",
+    "voterTurnout": 39.16,
+    "totalVotes": 140602,
+    "result": [
+      { "candidate": "Nawab Ali Wassan", "party": "PPP", "votes": 98782 },
+      { "candidate": "Syed Javed Ali Shah", "party": "PML-F", "votes": 34014 }
+    ],
+    "id": 215,
+    "xGrid": 13,
+    "yGrid": 24,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-215",
+    "voteMargin": 46.1
+  },
+  {
+    "desc": "NA 216 Khairpur Election 2002 Result",
+    "voterTurnout": 48.25,
+    "totalVotes": 177833,
+    "result": [
+      {
+        "candidate": "Pir Syed Saddaruddin Shah Rashdi",
+        "party": "PML-F",
+        "votes": 97347
+      },
+      { "candidate": "Sajid Ali Banbhan", "party": "PPP", "votes": 79033 }
+    ],
+    "id": 216,
+    "xGrid": 14,
+    "yGrid": 26,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-216",
+    "voteMargin": 10.3
+  },
+  {
+    "desc": "NA 217 Khairpur Election 2002 Result",
+    "voterTurnout": 40.53,
+    "totalVotes": 133065,
+    "result": [
+      {
+        "candidate": "Pir Syed Fazal Ali Shah Jeelani",
+        "party": "PPP",
+        "votes": 77125
+      },
+      {
+        "candidate": "Syed Kazim Ali Shah Lakyari",
+        "party": "PML-F",
+        "votes": 51183
+      }
+    ],
+    "id": 217,
+    "xGrid": 10,
+    "yGrid": 24,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-217",
+    "voteMargin": 19.5
+  },
+  {
+    "desc": "NA 218 Hyderabad Election 2002 Result",
+    "voterTurnout": 49.29,
+    "totalVotes": 127049,
+    "result": [
+      {
+        "candidate": "Mr. Makhdoom Muhammad Ameen Faheem",
+        "party": "PPP",
+        "votes": 97717
+      },
+      {
+        "candidate": "Mr. Makhdoom Shah Nawaz Qureshi",
+        "party": "PML-N",
+        "votes": 26510
+      }
+    ],
+    "id": 218,
+    "xGrid": 14,
+    "yGrid": 28,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-218",
+    "voteMargin": 56
+  },
+  {
+    "desc": "NA 219 Hyderabad Election 2002 Result",
+    "voterTurnout": 56.08,
+    "totalVotes": 195804,
+    "result": [
+      { "candidate": "Syed Tayyab Hussain", "party": "MQM", "votes": 168136 },
+      { "candidate": "Ali Muhammad Sehto", "party": "PPP", "votes": 25343 }
+    ],
+    "id": 219,
+    "xGrid": 11,
+    "yGrid": 29,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-219",
+    "voteMargin": 72.9
+  },
+  {
+    "desc": "NA 220 Hyderabad Election 2002 Result",
+    "voterTurnout": 48.53,
+    "totalVotes": 174698,
+    "result": [
+      { "candidate": "Salahuddin", "party": "MQM", "votes": 147040 },
+      { "candidate": "Irfan Qureshi", "party": "PPP", "votes": 24108 }
+    ],
+    "id": 220,
+    "xGrid": 12,
+    "yGrid": 29,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-220",
+    "voteMargin": 70.4
+  },
+  {
+    "desc": "NA 221 Hyderabad Election 2002 Result",
+    "voterTurnout": 37.12,
+    "totalVotes": 119559,
+    "result": [
+      { "candidate": "Syed Ameer Shah Jamot", "party": "PPP", "votes": 102737 },
+      {
+        "candidate": "Hussaini Shahabuddin Shah",
+        "party": "PML-Q",
+        "votes": 10609
+      }
+    ],
+    "id": 221,
+    "xGrid": 12,
+    "yGrid": 30,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-221",
+    "voteMargin": 77.1
+  },
+  {
+    "desc": "NA 222 Tando Muhammad Khan Hyderabad Badin Election 2002 Result",
+    "voterTurnout": 36.52,
+    "totalVotes": 113490,
+    "result": [
+      { "candidate": "Syed Naveed Qamar", "party": "PPP", "votes": 84041 },
+      {
+        "candidate": "Pir Sajjad Saeed Jan Sirhandi",
+        "party": "PML-Q",
+        "votes": 26391
+      }
+    ],
+    "id": 222,
+    "xGrid": 13,
+    "yGrid": 31,
+    "region": "Tando Allahyar",
+    "province": "Sindh",
+    "seat": "NA-222",
+    "voteMargin": 50.8
+  },
+  {
+    "desc": "NA 223 Hyderabad Election 2002 Result",
+    "voterTurnout": 48.99,
+    "totalVotes": 130876,
+    "result": [
+      {
+        "candidate": "Shamshad Sattar Bachani",
+        "party": "PPP",
+        "votes": 84669
+      },
+      { "candidate": "Adeeba Gul Magsi", "party": "PML-Q", "votes": 44502 }
+    ],
+    "id": 223,
+    "xGrid": 13,
+    "yGrid": 29,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-223",
+    "voteMargin": 30.7
+  },
+  {
+    "desc": "NA 224 Badin Election 2002 Result",
+    "voterTurnout": 41.8,
+    "totalVotes": 130014,
+    "result": [
+      { "candidate": "Ghulam Ali Nizamani", "party": "PPP", "votes": 87102 },
+      { "candidate": "Ali Akber Nizamani", "party": "PML-F", "votes": 37369 }
+    ],
+    "id": 224,
+    "xGrid": 13,
+    "yGrid": 30,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-224",
+    "voteMargin": 38.3
+  },
+  {
+    "desc": "NA 225  Badin Tando Muhammad Khan Election 2002 Result",
+    "voterTurnout": 42,
+    "totalVotes": 116844,
+    "result": [
+      { "candidate": "Dr.Fahmida Mirza", "party": "PPP", "votes": 88983 },
+      { "candidate": "Bibi Yasmeen Shah", "party": "PML-Q", "votes": 24488 }
+    ],
+    "id": 225,
+    "xGrid": 12,
+    "yGrid": 31,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-225",
+    "voteMargin": 55.2
+  },
+  {
+    "desc": "NA 226  Mirpurkhas Election 2002 Result",
+    "voterTurnout": 41.76,
+    "totalVotes": 143934,
+    "result": [
+      {
+        "candidate": "Pir Aftab Hussain Shah Jillani",
+        "party": "PPP",
+        "votes": 78543
+      },
+      {
+        "candidate": "Professor Khursheed Ahmed Siddiqui",
+        "party": "MQM",
+        "votes": 38309
+      }
+    ],
+    "id": 226,
+    "xGrid": 14,
+    "yGrid": 29,
+    "region": "Mirpurkhas",
+    "province": "Sindh",
+    "seat": "NA-226",
+    "voteMargin": 28
+  },
+  {
+    "desc": "NA 227 Mirpurkhas Election 2002 Result",
+    "voterTurnout": 38.8,
+    "totalVotes": 124933,
+    "result": [
+      { "candidate": "Mir Munawar Ali Talpur", "party": "PPP", "votes": 82697 },
+      { "candidate": "Syed Qurban Ali Shah", "party": "PML-Q", "votes": 31159 }
+    ],
+    "id": 227,
+    "xGrid": 14,
+    "yGrid": 30,
+    "region": "Mirpurkhas",
+    "province": "Sindh",
+    "seat": "NA-227",
+    "voteMargin": 41.3
+  },
+  {
+    "desc": "NA 228  Mirpurkhas Election 2002 Result",
+    "voterTurnout": 48.4,
+    "totalVotes": 130986,
+    "result": [
+      {
+        "candidate": "Nawab Mohammad Yousif Talpur",
+        "party": "PPP",
+        "votes": 75080
+      },
+      { "candidate": "Mohammad Qasim Soomro", "party": "Ind", "votes": 30079 }
+    ],
+    "id": 228,
+    "xGrid": 15,
+    "yGrid": 28,
+    "region": "Mirpurkhas",
+    "province": "Sindh",
+    "seat": "NA-228",
+    "voteMargin": 34.4
+  },
+  {
+    "desc": "NA 229  Tharparkar Election 2002 Result",
+    "voterTurnout": 65.03,
+    "totalVotes": 164597,
+    "result": [
+      { "candidate": "Arbab Zakaullah", "party": "PML-Q", "votes": 135697 },
+      { "candidate": "Mahesh Kumar Malhani", "party": "PPP", "votes": 28411 }
+    ],
+    "id": 229,
+    "xGrid": 15,
+    "yGrid": 31,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-229",
+    "voteMargin": 65.2
+  },
+  {
+    "desc": "NA 230  Tharparkar Election 2002 Result",
+    "voterTurnout": 64.21,
+    "totalVotes": 153057,
+    "result": [
+      {
+        "candidate": "Dr. Ghulam Hyder Samejo",
+        "party": "PML-Q",
+        "votes": 109580
+      },
+      { "candidate": "Imam Ali Samejo", "party": "PPP", "votes": 43436 }
+    ],
+    "id": 230,
+    "xGrid": 17,
+    "yGrid": 30,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-230",
+    "voteMargin": 43.2
+  },
+  {
+    "desc": "NA 231  Dadu Election 2002 Result",
+    "voterTurnout": 37.79,
+    "totalVotes": 181156,
+    "result": [
+      {
+        "candidate": "Nawab Abdul Ghani Talpur",
+        "party": "PPP",
+        "votes": 138320
+      },
+      { "candidate": "Syed Jalal Mehmood Shah", "party": "SUP", "votes": 33361 }
+    ],
+    "id": 231,
+    "xGrid": 11,
+    "yGrid": 28,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-231",
+    "voteMargin": 57.9
+  },
+  {
+    "desc": "NA 232  Dadu Election 2002 Result",
+    "voterTurnout": 32,
+    "totalVotes": 122176,
+    "result": [
+      { "candidate": "Rafique Ahmed Jamali", "party": "PPP", "votes": 87467 },
+      { "candidate": "Liquat Ali Khan Jatoi", "party": "PML-Q", "votes": 34019 }
+    ],
+    "id": 232,
+    "xGrid": 10,
+    "yGrid": 26,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-232",
+    "voteMargin": 43.7
+  },
+  {
+    "desc": "NA 233 Dadu Election 2002 Result",
+    "voterTurnout": 31.19,
+    "totalVotes": 134071,
+    "result": [
+      { "candidate": "Talat Iqbal Mahessar", "party": "PPP", "votes": 83493 },
+      { "candidate": "Ihsan Ali Jatoi", "party": "PML-Q", "votes": 50146 }
+    ],
+    "id": 233,
+    "xGrid": 10,
+    "yGrid": 25,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-233",
+    "voteMargin": 24.9
+  },
+  {
+    "desc": "NA 234  Sanghar Election 2002 Result",
+    "voterTurnout": 52.01,
+    "totalVotes": 116811,
+    "result": [
+      {
+        "candidate": "Muhammad Jadam Mangrio",
+        "party": "PML-F",
+        "votes": 71394
+      },
+      {
+        "candidate": "Ghulam Muhammad Junejo Alias Gul Junejo",
+        "party": "PPP",
+        "votes": 44858
+      }
+    ],
+    "id": 234,
+    "xGrid": 13,
+    "yGrid": 28,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-234",
+    "voteMargin": 22.7
+  },
+  {
+    "desc": "NA 235 Sanghar Election 2002 Result",
+    "voterTurnout": 52.57,
+    "totalVotes": 101681,
+    "result": [
+      { "candidate": "Ghulam Dastgir Raja", "party": "PML-F", "votes": 68122 },
+      { "candidate": "Sarfraz Raja", "party": "PPP", "votes": 31997 }
+    ],
+    "id": 235,
+    "xGrid": 14,
+    "yGrid": 27,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-235",
+    "voteMargin": 35.5
+  },
+  {
+    "desc": "NA 236  Sanghar Election 2002 Result",
+    "voterTurnout": 50,
+    "totalVotes": 141232,
+    "result": [
+      { "candidate": "Roshan Din junejo", "party": "PPP", "votes": 90311 },
+      { "candidate": "Jam Mashooque Ali", "party": "PML-F", "votes": 49483 }
+    ],
+    "id": 236,
+    "xGrid": 12,
+    "yGrid": 28,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-236",
+    "voteMargin": 28.9
+  },
+  {
+    "desc": "NA 237  Thatta Election 2002 Result",
+    "voterTurnout": 34.51,
+    "totalVotes": 141633,
+    "result": [
+      { "candidate": "Dr. Abdul Wahid Soomro", "party": "PPP", "votes": 85138 },
+      {
+        "candidate": "Syed Riaz Hussain Shah Sheerazi",
+        "party": "PML-Q",
+        "votes": 56052
+      }
+    ],
+    "id": 237,
+    "xGrid": 11,
+    "yGrid": 32,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-237",
+    "voteMargin": 20.5
+  },
+  {
+    "desc": "NA 238  Thatta Election 2002 Result",
+    "voterTurnout": 39.73,
+    "totalVotes": 140464,
+    "result": [
+      {
+        "candidate": "Syed Ayaz Ali Shah Sheerazi",
+        "party": "PML-Q",
+        "votes": 76812
+      },
+      { "candidate": "Arbab Wazir Ahmed Memon", "party": "PPP", "votes": 62175 }
+    ],
+    "id": 238,
+    "xGrid": 10,
+    "yGrid": 31,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-238",
+    "voteMargin": 10.4
+  },
+  {
+    "desc": "NA 239 Karachi Election 2002 Result",
+    "voterTurnout": 36.19,
+    "totalVotes": 110675,
+    "result": [
+      { "candidate": "Abdul Qadir Patel", "party": "PPP", "votes": 56840 },
+      {
+        "candidate": "Dr. K.S. Mujahid Khan Baloch",
+        "party": "MQM",
+        "votes": 24013
+      }
+    ],
+    "id": 239,
+    "xGrid": 9,
+    "yGrid": 30,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-239",
+    "voteMargin": 29.7
+  },
+  {
+    "desc": "NA 240 Karachi Election 2002 Result",
+    "voterTurnout": 46.79,
+    "totalVotes": 130646,
+    "result": [
+      { "candidate": "Khawaja Sohail Mansoor", "party": "MQM", "votes": 67799 },
+      { "candidate": "Abdullah Bloch", "party": "PPP", "votes": 61017 }
+    ],
+    "id": 240,
+    "xGrid": 8,
+    "yGrid": 32,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-240",
+    "voteMargin": 5.2
+  },
+  {
+    "desc": "NA 241 Karachi Election 2002 Result",
+    "voterTurnout": 54.85,
+    "totalVotes": 145735,
+    "result": [
+      { "candidate": "S.A.Iqbal Qadiri", "party": "MQM", "votes": 93617 },
+      { "candidate": "Zarbali Syed", "party": "ANP", "votes": 36236 }
+    ],
+    "id": 241,
+    "xGrid": 8,
+    "yGrid": 29,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-241",
+    "voteMargin": 39.4
+  },
+  {
+    "desc": "NA 242 Karachi Election 2002 Result",
+    "voterTurnout": 60.25,
+    "totalVotes": 176700,
+    "result": [
+      {
+        "candidate": "DR. ABDUL QADIR KHANZADA",
+        "party": "MQM",
+        "votes": 147892
+      },
+      {
+        "candidate": "MUHAMMAD AFAQUE KHAN alias SHAHID",
+        "party": "PPP",
+        "votes": 27294
+      }
+    ],
+    "id": 242,
+    "xGrid": 10,
+    "yGrid": 29,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-242",
+    "voteMargin": 68.3
+  },
+  {
+    "desc": "NA 243 Karachi Election 2002 Result",
+    "voterTurnout": 58.16,
+    "totalVotes": 192133,
+    "result": [
+      { "candidate": "Abdul Waseem", "party": "MQM", "votes": 167764 },
+      {
+        "candidate": "Zafar Ahmed Siddiqui Advocate",
+        "party": "PPP",
+        "votes": 22147
+      }
+    ],
+    "id": 243,
+    "xGrid": 8,
+    "yGrid": 30,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-243",
+    "voteMargin": 75.8
+  },
+  {
+    "desc": "NA 244 Karachi Election 2002 Result",
+    "voterTurnout": 64.31,
+    "totalVotes": 185012,
+    "result": [
+      { "candidate": "Shaikh Salahuddin", "party": "MQM", "votes": 174044 },
+      { "candidate": "Ghulam Qadir", "party": "PPP", "votes": 9271 }
+    ],
+    "id": 244,
+    "xGrid": 10,
+    "yGrid": 28,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-244",
+    "voteMargin": 89.1
+  },
+  {
+    "desc": "NA 245 Karachi Election 2002 Result",
+    "voterTurnout": 49.18,
+    "totalVotes": 168328,
+    "result": [
+      { "candidate": "Farhat Muhammad Khan", "party": "MQM", "votes": 149157 },
+      { "candidate": "Qazi Muhammad Bashir", "party": "PPP", "votes": 15392 }
+    ],
+    "id": 245,
+    "xGrid": 9,
+    "yGrid": 32,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-245",
+    "voteMargin": 79.5
+  },
+  {
+    "desc": "NA 246 Karachi Election 2002 Result",
+    "voterTurnout": 63.07,
+    "totalVotes": 194278,
+    "result": [
+      { "candidate": "Sufyan Yousuf", "party": "MQM", "votes": 186933 },
+      { "candidate": "Sohail Ansari", "party": "PPP", "votes": 6741 }
+    ],
+    "id": 246,
+    "xGrid": 7,
+    "yGrid": 30,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-246",
+    "voteMargin": 92.7
+  },
+  {
+    "desc": "NA 247 Karachi Election 2002 Result",
+    "voterTurnout": 60,
+    "totalVotes": 182714,
+    "result": [
+      { "candidate": "Dr.Nadeem Ehsan", "party": "MQM", "votes": 168007 },
+      { "candidate": "Saathi Ishaque Advocate", "party": "PPP", "votes": 13963 }
+    ],
+    "id": 247,
+    "xGrid": 9,
+    "yGrid": 29,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-247",
+    "voteMargin": 84.3
+  },
+  {
+    "desc": "NA 248 Karachi Election 2002 Result",
+    "voterTurnout": 30.28,
+    "totalVotes": 104466,
+    "result": [
+      { "candidate": "Nabeel Ahmed Gabol", "party": "PPP", "votes": 84217 },
+      { "candidate": "Shakoor Shad", "party": "Ind", "votes": 9651 }
+    ],
+    "id": 248,
+    "xGrid": 8,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-248",
+    "voteMargin": 71.4
+  },
+  {
+    "desc": "NA 249 Karachi Election 2002 Result",
+    "voterTurnout": 47,
+    "totalVotes": 180748,
+    "result": [
+      {
+        "candidate": "Dr. Muhammad Farooq Sattar",
+        "party": "MQM",
+        "votes": 103846
+      },
+      { "candidate": "Abdul Habib Memon", "party": "PPP", "votes": 73324 }
+    ],
+    "id": 249,
+    "xGrid": 7,
+    "yGrid": 29,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-249",
+    "voteMargin": 16.9
+  },
+  {
+    "desc": "NA 250 Karachi Election 2002 Result",
+    "voterTurnout": 30.22,
+    "totalVotes": 101658,
+    "result": [
+      { "candidate": "Khush Bakhat Shujaat", "party": "MQM", "votes": 52045 },
+      { "candidate": "Dr. Mirza Ikhtiar Baig", "party": "PPP", "votes": 44412 }
+    ],
+    "id": 250,
+    "xGrid": 9,
+    "yGrid": 33,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-250",
+    "voteMargin": 7.5
+  },
+  {
+    "desc": "NA 251 Karachi Election 2002 Result",
+    "voterTurnout": 39.64,
+    "totalVotes": 131024,
+    "result": [
+      { "candidate": "Waseem Akhter", "party": "MQM", "votes": 83537 },
+      { "candidate": "Mushahiduallh Khan", "party": "PML-N", "votes": 22304 }
+    ],
+    "id": 251,
+    "xGrid": 8,
+    "yGrid": 28,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-251",
+    "voteMargin": 46.7
+  },
+  {
+    "desc": "NA 252 Karachi Election 2002 Result",
+    "voterTurnout": 42.35,
+    "totalVotes": 115287,
+    "result": [
+      { "candidate": "Abdul Rasheed Godil", "party": "MQM", "votes": 87280 },
+      { "candidate": "Syed Asghar Hussain", "party": "PPP", "votes": 25337 }
+    ],
+    "id": 252,
+    "xGrid": 11,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-252",
+    "voteMargin": 53.7
+  },
+  {
+    "desc": "NA 253 Karachi Election 2002 Result",
+    "voterTurnout": 39.22,
+    "totalVotes": 152802,
+    "result": [
+      {
+        "candidate": "Syed Haider Abbas Rizvi",
+        "party": "MQM",
+        "votes": 96973
+      },
+      { "candidate": "Syed Faisal Raza Abidi", "party": "PPP", "votes": 47101 }
+    ],
+    "id": 253,
+    "xGrid": 10,
+    "yGrid": 30,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-253",
+    "voteMargin": 32.6
+  },
+  {
+    "desc": "NA 254 Karachi Election 2002 Result",
+    "voterTurnout": 50.13,
+    "totalVotes": 153227,
+    "result": [
+      {
+        "candidate": "Dr. Muhammad Ayoub Shaikh",
+        "party": "MQM",
+        "votes": 132648
+      },
+      { "candidate": "Syed Sohail Abrar", "party": "PPP", "votes": 14302 }
+    ],
+    "id": 254,
+    "xGrid": 9,
+    "yGrid": 28,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-254",
+    "voteMargin": 77.2
+  },
+  {
+    "desc": "NA 255 Karachi Election 2002 Result",
+    "voterTurnout": 57.8,
+    "totalVotes": 190638,
+    "result": [
+      { "candidate": "Syed Asif Hassnain", "party": "MQM", "votes": 157971 },
+      {
+        "candidate": "Haji Nafees Ahmed Usmani Advocate",
+        "party": "PPP",
+        "votes": 31389
+      }
+    ],
+    "id": 255,
+    "xGrid": 10,
+    "yGrid": 32,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-255",
+    "voteMargin": 66.4
+  },
+  {
+    "desc": "NA 256 Karachi Election 2002 Result",
+    "voterTurnout": 44.5,
+    "totalVotes": 163868,
+    "result": [
+      {
+        "candidate": "Iqbal Muhammad Ali Khan",
+        "party": "MQM",
+        "votes": 123491
+      },
+      { "candidate": "Mirza Maqbool Ahmed", "party": "PPP", "votes": 23829 }
+    ],
+    "id": 256,
+    "xGrid": 7,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-256",
+    "voteMargin": 60.8
+  },
+  {
+    "desc": "NA 257 Karachi Election 2002 Result",
+    "voterTurnout": 48.75,
+    "totalVotes": 185901,
+    "result": [
+      { "candidate": "Sajid Ahmed", "party": "MQM", "votes": 134498 },
+      {
+        "candidate": "Riaz Hussain Lund Balouch",
+        "party": "PPP",
+        "votes": 46084
+      }
+    ],
+    "id": 257,
+    "xGrid": 11,
+    "yGrid": 30,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-257",
+    "voteMargin": 47.6
+  },
+  {
+    "desc": "NA 258 Karachi Election 2002 Result",
+    "voterTurnout": 41.03,
+    "totalVotes": 169235,
+    "result": [
+      { "candidate": "Sher Muhammad Balcoh", "party": "PPP", "votes": 134696 },
+      { "candidate": "Nisar Ahmed Shar", "party": "MQM", "votes": 15017 }
+    ],
+    "id": 258,
+    "xGrid": 9,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-258",
+    "voteMargin": 70.7
+  },
+  {
+    "desc": "NA 259 Quetta Election 2002 Result",
+    "voterTurnout": 17.14,
+    "totalVotes": 60817,
+    "result": [
+      {
+        "candidate": "Syed Nasir Ali Shah alias Syed Abbas",
+        "party": "PPP",
+        "votes": 24936
+      },
+      {
+        "candidate": "Anwar ul Haq alias Anno",
+        "party": "PML-Q",
+        "votes": 11387
+      }
+    ],
+    "id": 259,
+    "xGrid": 9,
+    "yGrid": 16,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-259",
+    "voteMargin": 22.3
+  },
+  {
+    "desc": "NA 260 Quetta Chagai Nushki Election 2002 Result",
+    "voterTurnout": 25.95,
+    "totalVotes": 100597,
+    "result": [
+      {
+        "candidate": "Sardar Al-Haaj Muhammad Umar Goragaje",
+        "party": "PPP",
+        "votes": 40773
+      },
+      {
+        "candidate": "Sardar Fateh Muhammad Muhammad Hassani",
+        "party": "PML-Q",
+        "votes": 29443
+      }
+    ],
+    "id": 260,
+    "xGrid": 1,
+    "yGrid": 20,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-260",
+    "voteMargin": 11.3
+  },
+  {
+    "desc": "NA 261 Pishin Ziarat Election 2002 Result",
+    "voterTurnout": 28.66,
+    "totalVotes": 81820,
+    "result": [
+      { "candidate": "Molvi Agha Muhammad", "party": "MMA", "votes": 30611 },
+      {
+        "candidate": "Muhammad Sarwar Khan Kakar",
+        "party": "PML-Q",
+        "votes": 23350
+      }
+    ],
+    "id": 261,
+    "xGrid": 9,
+    "yGrid": 15,
+    "region": "Pishin",
+    "province": "Balochistan",
+    "seat": "NA-261",
+    "voteMargin": 8.9
+  },
+  {
+    "desc": "NA 262 Killa Abdullah Election 2002 Result",
+    "voterTurnout": 34.48,
+    "totalVotes": 135887,
+    "result": [
+      { "candidate": "Haji Rozuddin", "party": "MMA", "votes": 45590 },
+      {
+        "candidate": "Malik Muhammad Usman Achakzai.",
+        "party": "ANP",
+        "votes": 44455
+      }
+    ],
+    "id": 262,
+    "xGrid": 8,
+    "yGrid": 15,
+    "region": "Killa",
+    "province": "Balochistan",
+    "seat": "NA-262",
+    "voteMargin": 0.8
+  },
+  {
+    "desc": "NA 263 Old Loralai Election 2002 Result",
+    "voterTurnout": 40.58,
+    "totalVotes": 84944,
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Yaqoob Khan Nasir",
+        "party": "PML-N",
+        "votes": 34985
+      },
+      {
+        "candidate": "Sardar Mir Baz Muhammad Khan Khethran",
+        "party": "PPP",
+        "votes": 30233
+      }
+    ],
+    "id": 263,
+    "xGrid": 14,
+    "yGrid": 16,
+    "region": "Loralai",
+    "province": "Balochistan",
+    "seat": "NA-263",
+    "voteMargin": 5.6
+  },
+  {
+    "desc": "NA 264 Zhob / Killa Saifullah Election 2002 Result",
+    "voterTurnout": 27.86,
+    "totalVotes": 58782,
+    "result": [
+      { "candidate": "Maulvi Asmatullah", "party": "Ind", "votes": 24204 },
+      {
+        "candidate": "Maulana Malik Muhammad Khan Sherani",
+        "party": "MMA",
+        "votes": 17066
+      }
+    ],
+    "id": 264,
+    "xGrid": 13,
+    "yGrid": 14,
+    "region": "Zhob",
+    "province": "Balochistan",
+    "seat": "NA-264",
+    "voteMargin": 12.1
+  },
+  {
+    "desc": "NA 265 Old Sibi Dera Bugti Election 2002 Result",
+    "voterTurnout": 35.94,
+    "totalVotes": 99592,
+    "result": [
+      {
+        "candidate": "Mir Ahmadan Khan Bugti",
+        "party": "PML-Q",
+        "votes": 56715
+      },
+      { "candidate": "Mir Dostain Khan Domki", "party": "Ind", "votes": 17411 }
+    ],
+    "id": 265,
+    "xGrid": 12,
+    "yGrid": 19,
+    "region": "Sibi",
+    "province": "Balochistan",
+    "seat": "NA-265",
+    "voteMargin": 39.5
+  },
+  {
+    "desc": "NA 266 Nasirabad Election 2002 Result",
+    "voterTurnout": 23.35,
+    "totalVotes": 145809,
+    "result": [
+      { "candidate": "Taj Muhammad Jamali", "party": "PPP", "votes": 76556 },
+      { "candidate": "M Zahoor H.K Khoso ", "party": "Ind", "votes": 51648 }
+    ],
+    "id": 266,
+    "xGrid": 11,
+    "yGrid": 21,
+    "region": "Nasirabad",
+    "province": "Balochistan",
+    "seat": "NA-266",
+    "voteMargin": 17.1
+  },
+  {
+    "desc": "NA 267 Old Kachhi Election 2002 Result",
+    "voterTurnout": 46.36,
+    "totalVotes": 111549,
+    "result": [
+      { "candidate": "Mir Hamayun Aziz Kurd", "party": "Ind", "votes": 61249 },
+      {
+        "candidate": "Sardar Yar Muhammad Rind",
+        "party": "PML-Q",
+        "votes": 48275
+      }
+    ],
+    "id": 267,
+    "xGrid": 10,
+    "yGrid": 20,
+    "region": "Kachhi",
+    "province": "Balochistan",
+    "seat": "NA-267",
+    "voteMargin": 11.6
+  },
+  {
+    "desc": "NA 268 Kalat Mastung Election 2002 Result",
+    "voterTurnout": 31.06,
+    "totalVotes": 62833,
+    "result": [
+      { "candidate": "Dr. Ayatullah Durrani.", "party": "PPP", "votes": 19355 },
+      { "candidate": "Sardar Sanaullah Zehri.", "party": "NP", "votes": 15846 }
+    ],
+    "id": 268,
+    "xGrid": 8,
+    "yGrid": 19,
+    "region": "Kalat",
+    "province": "Balochistan",
+    "seat": "NA-268",
+    "voteMargin": 5.6
+  },
+  {
+    "desc": "NA 269 Khuzdar Election 2002 Result",
+    "voterTurnout": 33.68,
+    "totalVotes": 58672,
+    "result": [
+      {
+        "candidate": "Muhammad Usman Advocate",
+        "party": "Ind",
+        "votes": 17609
+      },
+      { "candidate": "Molvi Qamar-ud-Din", "party": "MMA", "votes": 15938 }
+    ],
+    "id": 269,
+    "xGrid": 8,
+    "yGrid": 24,
+    "region": "Khuzdar",
+    "province": "Balochistan",
+    "seat": "NA-269",
+    "voteMargin": 2.8
+  },
+  {
+    "desc": "NA 270 Awaran Lasbela Election 2002 Result",
+    "voterTurnout": 39.23,
+    "totalVotes": 92398,
+    "result": [
+      {
+        "candidate": "Jam Mir Muhammad Yousuf",
+        "party": "PML-Q",
+        "votes": 50476
+      },
+      { "candidate": "Nasrullah Roonjha", "party": "PPP", "votes": 41922 }
+    ],
+    "id": 270,
+    "xGrid": 6,
+    "yGrid": 27,
+    "region": "Awaran",
+    "province": "Balochistan",
+    "seat": "NA-270",
+    "voteMargin": 9.3
+  },
+  {
+    "desc": "NA 271 Kharan Washuk Panjgur Election 2002 Result",
+    "voterTurnout": 0,
+    "totalVotes": 48468,
+    "result": [
+      {
+        "candidate": "Lt. Gen.(R) Abdul Qadir",
+        "party": "Ind",
+        "votes": 22175
+      },
+      {
+        "candidate": "Mir Muhammad Shoaib Baloch",
+        "party": "BNP-A",
+        "votes": 10166
+      }
+    ],
+    "id": 271,
+    "xGrid": 3,
+    "yGrid": 23,
+    "region": "Kharan",
+    "province": "Balochistan",
+    "seat": "NA-271",
+    "voteMargin": 24.8
+  },
+  {
+    "desc": "NA 272 Kech Gwadar Election 2002 Result",
+    "voterTurnout": 33.75,
+    "totalVotes": 103938,
+    "result": [
+      { "candidate": "Yaqoob Bizenjo.", "party": "BNP-A", "votes": 61655 },
+      { "candidate": "Zubeda Jalal", "party": "Ind", "votes": 33564 }
+    ],
+    "id": 272,
+    "xGrid": 0,
+    "yGrid": 28,
+    "region": "Kech",
+    "province": "Balochistan",
+    "seat": "NA-272",
+    "voteMargin": 27
+  }
+]

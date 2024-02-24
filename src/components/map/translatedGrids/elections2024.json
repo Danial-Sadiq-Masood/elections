@@ -1,0 +1,2662 @@
+[
+  {
+    "id": 1,
+    "xGrid": 19,
+    "yGrid": 0,
+    "seat": "NA-1",
+    "region": "Chitral",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 2,
+    "xGrid": 21,
+    "yGrid": 2,
+    "seat": "NA-2",
+    "region": "Swat-I",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 3,
+    "xGrid": 21,
+    "yGrid": 4,
+    "seat": "NA-3",
+    "region": "Swat-II",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 4,
+    "xGrid": 21,
+    "yGrid": 3,
+    "seat": "NA-4",
+    "region": "Swat-III",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 5,
+    "xGrid": 20,
+    "yGrid": 2,
+    "seat": "NA-5",
+    "region": "Upper Dir",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 6,
+    "xGrid": 20,
+    "yGrid": 4,
+    "seat": "NA-6",
+    "region": "Lower Dir-I",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 7,
+    "xGrid": 20,
+    "yGrid": 3,
+    "seat": "NA-7",
+    "region": "Lower Dir-II",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 8,
+    "xGrid": 19,
+    "yGrid": 4,
+    "seat": "NA-8",
+    "region": "Bajaur",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 9,
+    "xGrid": 19,
+    "yGrid": 8,
+    "seat": "NA-9",
+    "region": "Malakand",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 10,
+    "xGrid": 22,
+    "yGrid": 3,
+    "seat": "NA-10",
+    "region": "Buner",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 11,
+    "xGrid": 23,
+    "yGrid": 4,
+    "seat": "NA-11",
+    "region": "Shangla",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 12,
+    "xGrid": 23,
+    "yGrid": 3,
+    "seat": "NA-12",
+    "region": "Kohistan",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 13,
+    "xGrid": 22,
+    "yGrid": 4,
+    "seat": "NA-13",
+    "region": "Battagram",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 14,
+    "xGrid": 24,
+    "yGrid": 5,
+    "seat": "NA-14",
+    "region": "Mansehra-I",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 15,
+    "xGrid": 25,
+    "yGrid": 5,
+    "seat": "NA-15",
+    "region": "Maneshra-II",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 16,
+    "xGrid": 24,
+    "yGrid": 6,
+    "seat": "NA-16",
+    "region": "Abbottabad-I",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 17,
+    "xGrid": 25,
+    "yGrid": 6,
+    "seat": "NA-17",
+    "region": "Abbottabad-II",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 18,
+    "xGrid": 24,
+    "yGrid": 4,
+    "seat": "NA-18",
+    "region": "Haripur",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 19,
+    "xGrid": 21,
+    "yGrid": 5,
+    "seat": "NA-19",
+    "region": "Swabi-I",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 20,
+    "xGrid": 21,
+    "yGrid": 6,
+    "seat": "NA-20",
+    "region": "Swabi-ll",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 21,
+    "xGrid": 19,
+    "yGrid": 5,
+    "seat": "NA-21",
+    "region": "Mardan-l",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 22,
+    "xGrid": 21,
+    "yGrid": 7,
+    "seat": "NA-22",
+    "region": "Mardan-ll",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 23,
+    "xGrid": 20,
+    "yGrid": 5,
+    "seat": "NA-23",
+    "region": "Mardan-lll",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 24,
+    "xGrid": 22,
+    "yGrid": 6,
+    "seat": "NA-24",
+    "region": "Charsadda-l",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 25,
+    "xGrid": 22,
+    "yGrid": 9,
+    "seat": "NA-25",
+    "region": "Charsadda-ll",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 26,
+    "xGrid": 17,
+    "yGrid": 6,
+    "seat": "NA-26",
+    "region": "Mohmand",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 27,
+    "xGrid": 18,
+    "yGrid": 6,
+    "seat": "NA-27",
+    "region": "Khyber",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 28,
+    "xGrid": 19,
+    "yGrid": 6,
+    "seat": "NA-28",
+    "region": "Peshawar-l",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 29,
+    "xGrid": 21,
+    "yGrid": 8,
+    "seat": "NA-29",
+    "region": "Peshawar-ll",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 30,
+    "xGrid": 19,
+    "yGrid": 7,
+    "seat": "NA-30",
+    "region": "Peshawar-lll",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 31,
+    "xGrid": 20,
+    "yGrid": 7,
+    "seat": "NA-31",
+    "region": "Peshawar-lV",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 32,
+    "xGrid": 20,
+    "yGrid": 6,
+    "seat": "NA-32",
+    "region": "Peshawar-V",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 33,
+    "xGrid": 22,
+    "yGrid": 5,
+    "seat": "NA-33",
+    "region": "Nowshera-l",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 34,
+    "xGrid": 23,
+    "yGrid": 5,
+    "seat": "NA-34",
+    "region": "Nowshera-ll",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 35,
+    "xGrid": 18,
+    "yGrid": 7,
+    "seat": "NA-35",
+    "region": "Kohat",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 36,
+    "xGrid": 18,
+    "yGrid": 8,
+    "seat": "NA-36",
+    "region": "Hangu/Orakzai",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 37,
+    "xGrid": 17,
+    "yGrid": 7,
+    "seat": "NA-37",
+    "region": "Kurram",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 38,
+    "xGrid": 19,
+    "yGrid": 9,
+    "seat": "NA-38",
+    "region": "Karak",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 39,
+    "xGrid": 18,
+    "yGrid": 9,
+    "seat": "NA-39",
+    "region": "Bannu",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 40,
+    "xGrid": 17,
+    "yGrid": 9,
+    "seat": "NA-40",
+    "region": "North Waziristan",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 41,
+    "xGrid": 18,
+    "yGrid": 10,
+    "seat": "NA-41",
+    "region": "Lakki Marwat",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 42,
+    "xGrid": 16,
+    "yGrid": 11,
+    "seat": "NA-42",
+    "region": "South Waziristan",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 43,
+    "xGrid": 17,
+    "yGrid": 11,
+    "seat": "NA-43",
+    "region": "Tank/Dera Ismail Khan",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 44,
+    "xGrid": 18,
+    "yGrid": 12,
+    "seat": "NA-44",
+    "region": "Dera Ismail Khan-l",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 45,
+    "xGrid": 18,
+    "yGrid": 13,
+    "seat": "NA-45",
+    "region": "Dera Ismail Khan-ll",
+    "result": [],
+    "province": "KP",
+    "voteMargin": 0
+  },
+  {
+    "id": 46,
+    "xGrid": 24,
+    "yGrid": 7,
+    "seat": "NA-46",
+    "region": "ICT-I",
+    "result": [],
+    "province": "ICT",
+    "voteMargin": 0
+  },
+  {
+    "id": 47,
+    "xGrid": 22,
+    "yGrid": 7,
+    "seat": "NA-47",
+    "region": "ICT-ll",
+    "result": [],
+    "province": "ICT",
+    "voteMargin": 0
+  },
+  {
+    "id": 48,
+    "xGrid": 23,
+    "yGrid": 7,
+    "seat": "NA-48",
+    "region": "ICT-lll",
+    "result": [],
+    "province": "ICT",
+    "voteMargin": 0
+  },
+  {
+    "id": 49,
+    "xGrid": 20,
+    "yGrid": 8,
+    "seat": "NA-49",
+    "region": "Attock-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 50,
+    "xGrid": 20,
+    "yGrid": 9,
+    "seat": "NA-50",
+    "region": "Attock-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 51,
+    "xGrid": 23,
+    "yGrid": 6,
+    "seat": "NA-51",
+    "region": "Murree",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 52,
+    "xGrid": 27,
+    "yGrid": 7,
+    "seat": "NA-52",
+    "region": "Rawalpindi-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 53,
+    "xGrid": 23,
+    "yGrid": 8,
+    "seat": "NA-53",
+    "region": "Rawalpindi-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 54,
+    "xGrid": 24,
+    "yGrid": 8,
+    "seat": "NA-54",
+    "region": "Rawalpindi-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 55,
+    "xGrid": 26,
+    "yGrid": 7,
+    "seat": "NA-55",
+    "region": "Rawalpindi-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 56,
+    "xGrid": 25,
+    "yGrid": 7,
+    "seat": "NA-56",
+    "region": "Rawalpindi-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 57,
+    "xGrid": 22,
+    "yGrid": 8,
+    "seat": "NA-57",
+    "region": "Rawalpindi-Vl",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 58,
+    "xGrid": 21,
+    "yGrid": 9,
+    "seat": "NA-58",
+    "region": "Chakwal",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 59,
+    "xGrid": 23,
+    "yGrid": 9,
+    "seat": "NA-59",
+    "region": "Talagang/Chakwal",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 60,
+    "xGrid": 25,
+    "yGrid": 8,
+    "seat": "NA-60",
+    "region": "Jhelum-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 61,
+    "xGrid": 22,
+    "yGrid": 10,
+    "seat": "NA-61",
+    "region": "Jhelum-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 62,
+    "xGrid": 26,
+    "yGrid": 9,
+    "seat": "NA-62",
+    "region": "Gujrat-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 63,
+    "xGrid": 27,
+    "yGrid": 8,
+    "seat": "NA-63",
+    "region": "Gujrat-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 64,
+    "xGrid": 26,
+    "yGrid": 8,
+    "seat": "NA-64",
+    "region": "Gujrat-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 65,
+    "xGrid": 25,
+    "yGrid": 9,
+    "seat": "NA-65",
+    "region": "Gujrat-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 66,
+    "xGrid": 28,
+    "yGrid": 10,
+    "seat": "NA-66",
+    "region": "Wazirabad",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 67,
+    "xGrid": 25,
+    "yGrid": 11,
+    "seat": "NA-67",
+    "region": "Hafizabad",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 68,
+    "xGrid": 23,
+    "yGrid": 10,
+    "seat": "NA-68",
+    "region": "M.B.Din-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 69,
+    "xGrid": 24,
+    "yGrid": 9,
+    "seat": "NA-69",
+    "region": "M.B.Din-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 70,
+    "xGrid": 28,
+    "yGrid": 8,
+    "seat": "NA-70",
+    "region": "Sialkot-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 71,
+    "xGrid": 27,
+    "yGrid": 9,
+    "seat": "NA-71",
+    "region": "Sialkot-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 72,
+    "xGrid": 29,
+    "yGrid": 8,
+    "seat": "NA-72",
+    "region": "Sialkot-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 73,
+    "xGrid": 28,
+    "yGrid": 9,
+    "seat": "NA-73",
+    "region": "Sialkot-IV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 74,
+    "xGrid": 28,
+    "yGrid": 7,
+    "seat": "NA-74",
+    "region": "Sialkot-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 75,
+    "xGrid": 29,
+    "yGrid": 10,
+    "seat": "NA-75",
+    "region": "Narowal-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 76,
+    "xGrid": 29,
+    "yGrid": 9,
+    "seat": "NA-76",
+    "region": "Narowal-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 77,
+    "xGrid": 24,
+    "yGrid": 10,
+    "seat": "NA-77",
+    "region": "Gujranwala-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 78,
+    "xGrid": 27,
+    "yGrid": 10,
+    "seat": "NA-78",
+    "region": "Gujranwala-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 79,
+    "xGrid": 26,
+    "yGrid": 11,
+    "seat": "NA-79",
+    "region": "Gujranwala-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 80,
+    "xGrid": 25,
+    "yGrid": 10,
+    "seat": "NA-80",
+    "region": "Gujranwala-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 81,
+    "xGrid": 26,
+    "yGrid": 10,
+    "seat": "NA-81",
+    "region": "Gujranwala-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 82,
+    "xGrid": 24,
+    "yGrid": 11,
+    "seat": "NA-82",
+    "region": "Sargodha-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 83,
+    "xGrid": 22,
+    "yGrid": 12,
+    "seat": "NA-83",
+    "region": "Sargodha-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 84,
+    "xGrid": 22,
+    "yGrid": 11,
+    "seat": "NA-84",
+    "region": "Sargodha-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 85,
+    "xGrid": 23,
+    "yGrid": 11,
+    "seat": "NA-85",
+    "region": "Sargodha-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 86,
+    "xGrid": 21,
+    "yGrid": 11,
+    "seat": "NA-86",
+    "region": "Sargodha-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 87,
+    "xGrid": 21,
+    "yGrid": 10,
+    "seat": "NA-87",
+    "region": "Khushab-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 88,
+    "xGrid": 21,
+    "yGrid": 12,
+    "seat": "NA-88",
+    "region": "Khushab-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 89,
+    "xGrid": 20,
+    "yGrid": 10,
+    "seat": "NA-89",
+    "region": "Mianwali-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 90,
+    "xGrid": 19,
+    "yGrid": 10,
+    "seat": "NA-90",
+    "region": "Mianwali-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 91,
+    "xGrid": 19,
+    "yGrid": 12,
+    "seat": "NA-91",
+    "region": "Bhakkar-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 92,
+    "xGrid": 20,
+    "yGrid": 11,
+    "seat": "NA-92",
+    "region": "Bhakkar-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 93,
+    "xGrid": 23,
+    "yGrid": 13,
+    "seat": "NA-93",
+    "region": "Chiniot-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 94,
+    "xGrid": 24,
+    "yGrid": 13,
+    "seat": "NA-94",
+    "region": "Chiniot-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 95,
+    "xGrid": 24,
+    "yGrid": 12,
+    "seat": "NA-95",
+    "region": "Faisalabad-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 96,
+    "xGrid": 25,
+    "yGrid": 13,
+    "seat": "NA-96",
+    "region": "Faisalabad-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 97,
+    "xGrid": 24,
+    "yGrid": 15,
+    "seat": "NA-97",
+    "region": "Faisalabad-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 98,
+    "xGrid": 26,
+    "yGrid": 13,
+    "seat": "NA-98",
+    "region": "Faisalabad-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 99,
+    "xGrid": 23,
+    "yGrid": 12,
+    "seat": "NA-99",
+    "region": "Faisalabad-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 100,
+    "xGrid": 25,
+    "yGrid": 12,
+    "seat": "NA-100",
+    "region": "Faisalabad-Vl",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 101,
+    "xGrid": 24,
+    "yGrid": 14,
+    "seat": "NA-101",
+    "region": "Faisalabad-Vll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 102,
+    "xGrid": 23,
+    "yGrid": 15,
+    "seat": "NA-102",
+    "region": "Faisalabad-Vlll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 103,
+    "xGrid": 23,
+    "yGrid": 14,
+    "seat": "NA-103",
+    "region": "Faisalabad-lX",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 104,
+    "xGrid": 25,
+    "yGrid": 15,
+    "seat": "NA-104",
+    "region": "Faisalabad-X",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 105,
+    "xGrid": 22,
+    "yGrid": 14,
+    "seat": "NA-105",
+    "region": "T.T.Singh-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 106,
+    "xGrid": 22,
+    "yGrid": 13,
+    "seat": "NA-106",
+    "region": "T.T.Singh-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 107,
+    "xGrid": 21,
+    "yGrid": 14,
+    "seat": "NA-107",
+    "region": "T.T.Singh-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 108,
+    "xGrid": 21,
+    "yGrid": 13,
+    "seat": "NA-108",
+    "region": "Jhang-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 109,
+    "xGrid": 20,
+    "yGrid": 14,
+    "seat": "NA-109",
+    "region": "Jhang-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 110,
+    "xGrid": 20,
+    "yGrid": 13,
+    "seat": "NA-110",
+    "region": "Jhang-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 111,
+    "xGrid": 26,
+    "yGrid": 14,
+    "seat": "NA-111",
+    "region": "NankanaSahib-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 112,
+    "xGrid": 25,
+    "yGrid": 14,
+    "seat": "NA-112",
+    "region": "NankanaSahib-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 113,
+    "xGrid": 28,
+    "yGrid": 11,
+    "seat": "NA-113",
+    "region": "Sheikhupura-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 114,
+    "xGrid": 29,
+    "yGrid": 11,
+    "seat": "NA-114",
+    "region": "Sheikhupura-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 115,
+    "xGrid": 27,
+    "yGrid": 11,
+    "seat": "NA-115",
+    "region": "Sheikhupura-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 116,
+    "xGrid": 28,
+    "yGrid": 12,
+    "seat": "NA-116",
+    "region": "Sheikhupura-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 117,
+    "xGrid": 27,
+    "yGrid": 16,
+    "seat": "NA-117",
+    "region": "Lahore-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 118,
+    "xGrid": 30,
+    "yGrid": 12,
+    "seat": "NA-118",
+    "region": "Lahore-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 119,
+    "xGrid": 30,
+    "yGrid": 13,
+    "seat": "NA-119",
+    "region": "Lahore-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 120,
+    "xGrid": 26,
+    "yGrid": 12,
+    "seat": "NA-120",
+    "region": "Lahore-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 121,
+    "xGrid": 28,
+    "yGrid": 13,
+    "seat": "NA-121",
+    "region": "Lahore-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 122,
+    "xGrid": 27,
+    "yGrid": 13,
+    "seat": "NA-122",
+    "region": "Lahore-Vl",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 123,
+    "xGrid": 27,
+    "yGrid": 15,
+    "seat": "NA-123",
+    "region": "Lahore-Vll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 124,
+    "xGrid": 29,
+    "yGrid": 12,
+    "seat": "NA-124",
+    "region": "Lahore-Vlll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 125,
+    "xGrid": 26,
+    "yGrid": 16,
+    "seat": "NA-125",
+    "region": "Lahore-IX",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 126,
+    "xGrid": 27,
+    "yGrid": 12,
+    "seat": "NA-126",
+    "region": "Lahore-X",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 127,
+    "xGrid": 28,
+    "yGrid": 15,
+    "seat": "NA-127",
+    "region": "Lahore-Xl",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 128,
+    "xGrid": 26,
+    "yGrid": 15,
+    "seat": "NA-128",
+    "region": "Lahore-Xll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 129,
+    "xGrid": 29,
+    "yGrid": 13,
+    "seat": "NA-129",
+    "region": "Lahore-Xlll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 130,
+    "xGrid": 27,
+    "yGrid": 14,
+    "seat": "NA-130",
+    "region": "Lahore-XlV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 131,
+    "xGrid": 29,
+    "yGrid": 14,
+    "seat": "NA-131",
+    "region": "Kasur-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 132,
+    "xGrid": 28,
+    "yGrid": 14,
+    "seat": "NA-132",
+    "region": "Kasur-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 133,
+    "xGrid": 28,
+    "yGrid": 16,
+    "seat": "NA-133",
+    "region": "Kasur-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 134,
+    "xGrid": 29,
+    "yGrid": 15,
+    "seat": "NA-134",
+    "region": "Kasur-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 135,
+    "xGrid": 26,
+    "yGrid": 17,
+    "seat": "NA-135",
+    "region": "Okara-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 136,
+    "xGrid": 24,
+    "yGrid": 16,
+    "seat": "NA-136",
+    "region": "Okara-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 137,
+    "xGrid": 25,
+    "yGrid": 16,
+    "seat": "NA-137",
+    "region": "Okara-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 138,
+    "xGrid": 25,
+    "yGrid": 17,
+    "seat": "NA-138",
+    "region": "Okara-IV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 139,
+    "xGrid": 25,
+    "yGrid": 18,
+    "seat": "NA-139",
+    "region": "Pakpattan-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 140,
+    "xGrid": 24,
+    "yGrid": 17,
+    "seat": "NA-140",
+    "region": "Pakpattan-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 141,
+    "xGrid": 22,
+    "yGrid": 16,
+    "seat": "NA-141",
+    "region": "Sahiwal-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 142,
+    "xGrid": 23,
+    "yGrid": 16,
+    "seat": "NA-142",
+    "region": "Sahiwal-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 143,
+    "xGrid": 22,
+    "yGrid": 17,
+    "seat": "NA-143",
+    "region": "Sahiwal-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 144,
+    "xGrid": 19,
+    "yGrid": 15,
+    "seat": "NA-144",
+    "region": "Khanewal-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 145,
+    "xGrid": 20,
+    "yGrid": 17,
+    "seat": "NA-145",
+    "region": "Khanewal-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 146,
+    "xGrid": 19,
+    "yGrid": 17,
+    "seat": "NA-146",
+    "region": "Khanewal-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 147,
+    "xGrid": 20,
+    "yGrid": 16,
+    "seat": "NA-147",
+    "region": "Khanewal-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 148,
+    "xGrid": 21,
+    "yGrid": 19,
+    "seat": "NA-148",
+    "region": "Multan-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 149,
+    "xGrid": 21,
+    "yGrid": 17,
+    "seat": "NA-149",
+    "region": "Multan-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 150,
+    "xGrid": 21,
+    "yGrid": 18,
+    "seat": "NA-150",
+    "region": "Multan-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 151,
+    "xGrid": 20,
+    "yGrid": 19,
+    "seat": "NA-151",
+    "region": "Multan-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 152,
+    "xGrid": 20,
+    "yGrid": 18,
+    "seat": "NA-152",
+    "region": "Multan-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 153,
+    "xGrid": 20,
+    "yGrid": 20,
+    "seat": "NA-153",
+    "region": "Multan-Vl",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 154,
+    "xGrid": 22,
+    "yGrid": 15,
+    "seat": "NA-154",
+    "region": "Lodhran-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 155,
+    "xGrid": 21,
+    "yGrid": 16,
+    "seat": "NA-155",
+    "region": "Lodhran-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 156,
+    "xGrid": 24,
+    "yGrid": 18,
+    "seat": "NA-156",
+    "region": "Vehari-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 157,
+    "xGrid": 23,
+    "yGrid": 17,
+    "seat": "NA-157",
+    "region": "Vehari-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 158,
+    "xGrid": 23,
+    "yGrid": 18,
+    "seat": "NA-158",
+    "region": "Vehari-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 159,
+    "xGrid": 22,
+    "yGrid": 18,
+    "seat": "NA-159",
+    "region": "Vehari-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 160,
+    "xGrid": 26,
+    "yGrid": 18,
+    "seat": "NA-160",
+    "region": "Bahawalnagar-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 161,
+    "xGrid": 24,
+    "yGrid": 19,
+    "seat": "NA-161",
+    "region": "Bahawalnagar-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 162,
+    "xGrid": 27,
+    "yGrid": 17,
+    "seat": "NA-162",
+    "region": "Bahawalnagar-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 163,
+    "xGrid": 23,
+    "yGrid": 19,
+    "seat": "NA-163",
+    "region": "Bahawalnagar-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 164,
+    "xGrid": 22,
+    "yGrid": 19,
+    "seat": "NA-164",
+    "region": "Bahawalpur-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 165,
+    "xGrid": 20,
+    "yGrid": 21,
+    "seat": "NA-165",
+    "region": "Bahawalpur-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 166,
+    "xGrid": 19,
+    "yGrid": 20,
+    "seat": "NA-166",
+    "region": "Bahawalpur-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 167,
+    "xGrid": 18,
+    "yGrid": 20,
+    "seat": "NA-167",
+    "region": "Bahawalpur-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 168,
+    "xGrid": 21,
+    "yGrid": 20,
+    "seat": "NA-168",
+    "region": "Bahawalpur-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 169,
+    "xGrid": 17,
+    "yGrid": 20,
+    "seat": "NA-169",
+    "region": "Rahim Yar Khan-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 170,
+    "xGrid": 18,
+    "yGrid": 22,
+    "seat": "NA-170",
+    "region": "Rahim Yar Khan-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 171,
+    "xGrid": 18,
+    "yGrid": 21,
+    "seat": "NA-171",
+    "region": "Rahim Yar Khan-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 172,
+    "xGrid": 17,
+    "yGrid": 22,
+    "seat": "NA-172",
+    "region": "Rahim Yar Khan-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 173,
+    "xGrid": 17,
+    "yGrid": 21,
+    "seat": "NA-173",
+    "region": "Rahim Yar Khan-V",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 174,
+    "xGrid": 17,
+    "yGrid": 23,
+    "seat": "NA-174",
+    "region": "Rahim Yar Khan-Vl",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 175,
+    "xGrid": 18,
+    "yGrid": 16,
+    "seat": "NA-175",
+    "region": "Muzaffargarh-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 176,
+    "xGrid": 18,
+    "yGrid": 17,
+    "seat": "NA-176",
+    "region": "Muzaffargarh-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 177,
+    "xGrid": 19,
+    "yGrid": 18,
+    "seat": "NA-177",
+    "region": "Muzaffargarh-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 178,
+    "xGrid": 18,
+    "yGrid": 18,
+    "seat": "NA-178",
+    "region": "Muzaffargarh-lV",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 179,
+    "xGrid": 20,
+    "yGrid": 15,
+    "seat": "NA-179",
+    "region": "Kot Addu-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 180,
+    "xGrid": 19,
+    "yGrid": 16,
+    "seat": "NA-180",
+    "region": "Kot Addu-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 181,
+    "xGrid": 19,
+    "yGrid": 14,
+    "seat": "NA-181",
+    "region": "Layyah-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 182,
+    "xGrid": 18,
+    "yGrid": 15,
+    "seat": "NA-182",
+    "region": "Layyah-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 183,
+    "xGrid": 18,
+    "yGrid": 14,
+    "seat": "NA-183",
+    "region": "Taunsa",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 184,
+    "xGrid": 17,
+    "yGrid": 16,
+    "seat": "NA-184",
+    "region": "DG.Khan-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 185,
+    "xGrid": 17,
+    "yGrid": 17,
+    "seat": "NA-185",
+    "region": "DG.Khan-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 186,
+    "xGrid": 17,
+    "yGrid": 15,
+    "seat": "NA-186",
+    "region": "DG.Khan-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 187,
+    "xGrid": 18,
+    "yGrid": 19,
+    "seat": "NA-187",
+    "region": "Rajanpur-l",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 188,
+    "xGrid": 16,
+    "yGrid": 20,
+    "seat": "NA-188",
+    "region": "Rajanpur-ll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 189,
+    "xGrid": 15,
+    "yGrid": 20,
+    "seat": "NA-189",
+    "region": "Rajanpur-lll",
+    "result": [],
+    "province": "Punjab",
+    "voteMargin": 0
+  },
+  {
+    "id": 190,
+    "xGrid": 13,
+    "yGrid": 22,
+    "seat": "NA-190",
+    "region": "Jacobabad",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 191,
+    "xGrid": 15,
+    "yGrid": 21,
+    "seat": "NA-191",
+    "region": "Jacobabad/Kashmore",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 192,
+    "xGrid": 14,
+    "yGrid": 22,
+    "seat": "NA-192",
+    "region": "Kashmore/Shikarpur",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 193,
+    "xGrid": 13,
+    "yGrid": 23,
+    "seat": "NA-193",
+    "region": "Shikarpur",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 194,
+    "xGrid": 12,
+    "yGrid": 24,
+    "seat": "NA-194",
+    "region": "Larkana-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 195,
+    "xGrid": 13,
+    "yGrid": 24,
+    "seat": "NA-195",
+    "region": "Larkana-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 196,
+    "xGrid": 11,
+    "yGrid": 23,
+    "seat": "NA-196",
+    "region": "Kamber Shahdadkot-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 197,
+    "xGrid": 12,
+    "yGrid": 23,
+    "seat": "NA-197",
+    "region": "Kamber Shahdadkot-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 198,
+    "xGrid": 16,
+    "yGrid": 23,
+    "seat": "NA-198",
+    "region": "Ghotki-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 199,
+    "xGrid": 15,
+    "yGrid": 23,
+    "seat": "NA-199",
+    "region": "Ghotki-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 200,
+    "xGrid": 14,
+    "yGrid": 23,
+    "seat": "NA-200",
+    "region": "Sukkur-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 201,
+    "xGrid": 15,
+    "yGrid": 24,
+    "seat": "NA-201",
+    "region": "Sukkur-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 202,
+    "xGrid": 14,
+    "yGrid": 24,
+    "seat": "NA-202",
+    "region": "Khairpur-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 203,
+    "xGrid": 13,
+    "yGrid": 25,
+    "seat": "NA-203",
+    "region": "Khairpur-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 204,
+    "xGrid": 14,
+    "yGrid": 26,
+    "seat": "NA-204",
+    "region": "Khairpur-lll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 205,
+    "xGrid": 12,
+    "yGrid": 25,
+    "seat": "NA-205",
+    "region": "Naushero Feroze-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 206,
+    "xGrid": 12,
+    "yGrid": 26,
+    "seat": "NA-206",
+    "region": "Naushero Feroze-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 207,
+    "xGrid": 13,
+    "yGrid": 26,
+    "seat": "NA-207",
+    "region": "Shaheed Benazirabad-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 208,
+    "xGrid": 14,
+    "yGrid": 27,
+    "seat": "NA-208",
+    "region": "Shaheed Benazirabad-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 209,
+    "xGrid": 16,
+    "yGrid": 28,
+    "seat": "NA-209",
+    "region": "Sanghar-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 210,
+    "xGrid": 13,
+    "yGrid": 27,
+    "seat": "NA-210",
+    "region": "Sanghar-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 211,
+    "xGrid": 15,
+    "yGrid": 29,
+    "seat": "NA-211",
+    "region": "Mirpurkhas-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 212,
+    "xGrid": 15,
+    "yGrid": 30,
+    "seat": "NA-212",
+    "region": "Mirpurkhas-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 213,
+    "xGrid": 16,
+    "yGrid": 29,
+    "seat": "NA-213",
+    "region": "Umerkot",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 214,
+    "xGrid": 18,
+    "yGrid": 30,
+    "seat": "NA-214",
+    "region": "Tharparkar-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 215,
+    "xGrid": 16,
+    "yGrid": 31,
+    "seat": "NA-215",
+    "region": "Tharparkar-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 216,
+    "xGrid": 13,
+    "yGrid": 29,
+    "seat": "NA-216",
+    "region": "Matiari",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 217,
+    "xGrid": 14,
+    "yGrid": 29,
+    "seat": "NA-217",
+    "region": "Tando Allahyar",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 218,
+    "xGrid": 14,
+    "yGrid": 28,
+    "seat": "NA-218",
+    "region": "Hyderabad-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 219,
+    "xGrid": 13,
+    "yGrid": 30,
+    "seat": "NA-219",
+    "region": "Hyderabad-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 220,
+    "xGrid": 12,
+    "yGrid": 28,
+    "seat": "NA-220",
+    "region": "Hyderabad-lll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 221,
+    "xGrid": 14,
+    "yGrid": 30,
+    "seat": "NA-221",
+    "region": "Tando Muhammad Khan",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 222,
+    "xGrid": 13,
+    "yGrid": 31,
+    "seat": "NA-222",
+    "region": "Badin-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 223,
+    "xGrid": 14,
+    "yGrid": 32,
+    "seat": "NA-223",
+    "region": "Badin-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 224,
+    "xGrid": 12,
+    "yGrid": 32,
+    "seat": "NA-224",
+    "region": "Sajawal",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 225,
+    "xGrid": 11,
+    "yGrid": 30,
+    "seat": "NA-225",
+    "region": "Thatta",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 226,
+    "xGrid": 13,
+    "yGrid": 28,
+    "seat": "NA-226",
+    "region": "Jamshoro",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 227,
+    "xGrid": 11,
+    "yGrid": 25,
+    "seat": "NA-227",
+    "region": "Dadu-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 228,
+    "xGrid": 11,
+    "yGrid": 26,
+    "seat": "NA-228",
+    "region": "Dadu-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 229,
+    "xGrid": 11,
+    "yGrid": 31,
+    "seat": "NA-229",
+    "region": "Malir-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 230,
+    "xGrid": 9,
+    "yGrid": 30,
+    "seat": "NA-230",
+    "region": "Malir-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 231,
+    "xGrid": 11,
+    "yGrid": 29,
+    "seat": "NA-231",
+    "region": "Malir-lll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 232,
+    "xGrid": 9,
+    "yGrid": 32,
+    "seat": "NA-232",
+    "region": "Karachi Korangi-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 233,
+    "xGrid": 8,
+    "yGrid": 30,
+    "seat": "NA-233",
+    "region": "Karachi Korangi-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 234,
+    "xGrid": 12,
+    "yGrid": 30,
+    "seat": "NA-234",
+    "region": "Karachi Korangi-lll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 235,
+    "xGrid": 10,
+    "yGrid": 29,
+    "seat": "NA-235",
+    "region": "Karachi East-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 236,
+    "xGrid": 10,
+    "yGrid": 28,
+    "seat": "NA-236",
+    "region": "Karachi East-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 237,
+    "xGrid": 11,
+    "yGrid": 32,
+    "seat": "NA-237",
+    "region": "Karachi East-lll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 238,
+    "xGrid": 7,
+    "yGrid": 30,
+    "seat": "NA-238",
+    "region": "Karachi East-lV",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 239,
+    "xGrid": 11,
+    "yGrid": 28,
+    "seat": "NA-239",
+    "region": "Karachi South-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 240,
+    "xGrid": 10,
+    "yGrid": 31,
+    "seat": "NA-240",
+    "region": "Karachi South-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 241,
+    "xGrid": 7,
+    "yGrid": 29,
+    "seat": "NA-241",
+    "region": "Karachi South-lll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 242,
+    "xGrid": 10,
+    "yGrid": 32,
+    "seat": "NA-242",
+    "region": "Karachi Keamari-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 243,
+    "xGrid": 8,
+    "yGrid": 31,
+    "seat": "NA-243",
+    "region": "Karachi Keamari-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 244,
+    "xGrid": 8,
+    "yGrid": 29,
+    "seat": "NA-244",
+    "region": "Karachi West-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 245,
+    "xGrid": 10,
+    "yGrid": 30,
+    "seat": "NA-245",
+    "region": "Karachi West-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 246,
+    "xGrid": 9,
+    "yGrid": 29,
+    "seat": "NA-246",
+    "region": "Karachi West-lll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 247,
+    "xGrid": 12,
+    "yGrid": 29,
+    "seat": "NA-247",
+    "region": "Karachi Central-l",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 248,
+    "xGrid": 9,
+    "yGrid": 31,
+    "seat": "NA-248",
+    "region": "Karachi Central-ll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 249,
+    "xGrid": 9,
+    "yGrid": 28,
+    "seat": "NA-249",
+    "region": "Karachi Central-lll",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 250,
+    "xGrid": 12,
+    "yGrid": 31,
+    "seat": "NA-250",
+    "region": "Karachi Central-lV",
+    "result": [],
+    "province": "Sindh",
+    "voteMargin": 0
+  },
+  {
+    "id": 251,
+    "xGrid": 15,
+    "yGrid": 13,
+    "seat": "NA-251",
+    "region": "Sherani",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 252,
+    "xGrid": 16,
+    "yGrid": 16,
+    "seat": "NA-252",
+    "region": "MusaKhail",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 253,
+    "xGrid": 13,
+    "yGrid": 17,
+    "seat": "NA-253",
+    "region": "Ziarat",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 254,
+    "xGrid": 11,
+    "yGrid": 21,
+    "seat": "NA-254",
+    "region": "Jhal Magsi",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 255,
+    "xGrid": 14,
+    "yGrid": 21,
+    "seat": "NA-255",
+    "region": "Sohbatpur",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 256,
+    "xGrid": 9,
+    "yGrid": 24,
+    "seat": "NA-256",
+    "region": "Khuzdar",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 257,
+    "xGrid": 7,
+    "yGrid": 28,
+    "seat": "NA-257",
+    "region": "Hub/Lasbela",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 258,
+    "xGrid": 3,
+    "yGrid": 26,
+    "seat": "NA-258",
+    "region": "Panjgur/Kech",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 259,
+    "xGrid": 0,
+    "yGrid": 28,
+    "seat": "NA-259",
+    "region": "Kech/Gwadar",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 260,
+    "xGrid": 3,
+    "yGrid": 22,
+    "seat": "NA-260",
+    "region": "Chagai",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 261,
+    "xGrid": 8,
+    "yGrid": 20,
+    "seat": "NA-261",
+    "region": "Surab",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 262,
+    "xGrid": 8,
+    "yGrid": 17,
+    "seat": "NA-262",
+    "region": "Quetta-l",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 263,
+    "xGrid": 10,
+    "yGrid": 16,
+    "seat": "NA-263",
+    "region": "Quetta-ll",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 264,
+    "xGrid": 9,
+    "yGrid": 17,
+    "seat": "NA-264",
+    "region": "Quetta-lll",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 265,
+    "xGrid": 10,
+    "yGrid": 15,
+    "seat": "NA-265",
+    "region": "Pishin",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  },
+  {
+    "id": 266,
+    "xGrid": 9,
+    "yGrid": 15,
+    "seat": "NA-266",
+    "region": "Killa Abdullah",
+    "result": [],
+    "province": "Balochistan",
+    "voteMargin": 0
+  }
+]

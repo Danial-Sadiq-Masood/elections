@@ -1,0 +1,4946 @@
+[
+  {
+    "desc": "NA 1 Chitral General Election 2018 Result",
+    "voterTurnout": 60.97,
+    "totalVotes": 158925,
+    "result": [
+      {
+        "candidate": "Moulana Abdul Akbar Chitrali",
+        "party": "MMA",
+        "votes": 48616
+      },
+      { "candidate": "Abdul Latif", "party": "PTI", "votes": 38481 }
+    ],
+    "id": 1,
+    "xGrid": 19,
+    "yGrid": 0,
+    "region": "Chitral",
+    "province": "KP",
+    "seat": "NA-1",
+    "voteMargin": 6.4
+  },
+  {
+    "desc": "NA 2 Swat General Election 2018 Result",
+    "voterTurnout": 43.29,
+    "totalVotes": 157060,
+    "result": [
+      { "candidate": "Haider Ali Khan", "party": "PTI", "votes": 61687 },
+      { "candidate": "Amir Muqam", "party": "PML-N", "votes": 41125 }
+    ],
+    "id": 2,
+    "xGrid": 21,
+    "yGrid": 3,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-2",
+    "voteMargin": 13.1
+  },
+  {
+    "desc": "NA 3 Swat General Election 2018 Result",
+    "voterTurnout": 40.35,
+    "totalVotes": 155420,
+    "result": [
+      { "candidate": "Saleem Rehman", "party": "PTI", "votes": 68162 },
+      {
+        "candidate": "Mian Muhammad Shahbaz Sharif",
+        "party": "PML-N",
+        "votes": 22756
+      }
+    ],
+    "id": 3,
+    "xGrid": 20,
+    "yGrid": 2,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-3",
+    "voteMargin": 29.2
+  },
+  {
+    "desc": "NA 4 Swat General Election 2018 Result",
+    "voterTurnout": 39.22,
+    "totalVotes": 153909,
+    "result": [
+      { "candidate": "Murad Saeed", "party": "PTI", "votes": 71600 },
+      { "candidate": "Muhammad Salim Khan", "party": "ANP", "votes": 30975 }
+    ],
+    "id": 4,
+    "xGrid": 20,
+    "yGrid": 3,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-4",
+    "voteMargin": 26.4
+  },
+  {
+    "desc": "NA 5 Upper Dir General Election 2018 Result",
+    "voterTurnout": 48.26,
+    "totalVotes": 207664,
+    "result": [
+      { "candidate": "SAHIBZADA SIBGHATULLAH", "party": "PTI", "votes": 66545 },
+      { "candidate": "SAHIBZADA TARIQULLAH", "party": "MMA", "votes": 57657 }
+    ],
+    "id": 5,
+    "xGrid": 19,
+    "yGrid": 2,
+    "region": "Upper Dir",
+    "province": "KP",
+    "seat": "NA-5",
+    "voteMargin": 4.3
+  },
+  {
+    "desc": "NA 6 Lower Dir General Election 2018 Result",
+    "voterTurnout": 48.9,
+    "totalVotes": 166820,
+    "result": [
+      { "candidate": "Mehboob Shah", "party": "PTI", "votes": 63440 },
+      { "candidate": "Asad Ullah", "party": "MMA", "votes": 36665 }
+    ],
+    "id": 6,
+    "xGrid": 19,
+    "yGrid": 4,
+    "region": "Lower Dir",
+    "province": "KP",
+    "seat": "NA-6",
+    "voteMargin": 16.1
+  },
+  {
+    "desc": "NA 7 Lower Dir General Election 2018 Result",
+    "voterTurnout": 44.22,
+    "totalVotes": 141723,
+    "result": [
+      { "candidate": "Muhammad Bashir Khan", "party": "PTI", "votes": 63017 },
+      { "candidate": "Siraj Ul Haq", "party": "MMA", "votes": 46040 }
+    ],
+    "id": 7,
+    "xGrid": 19,
+    "yGrid": 3,
+    "region": "Lower Dir",
+    "province": "KP",
+    "seat": "NA-7",
+    "voteMargin": 12
+  },
+  {
+    "desc": "NA 8 Malakand Protected Area General Election 2018 Result",
+    "voterTurnout": 48.24,
+    "totalVotes": 180838,
+    "result": [
+      { "candidate": "Junaid Akbar", "party": "PTI", "votes": 81310 },
+      { "candidate": "Bilawal Bhutto Zardari", "party": "PPP", "votes": 43724 }
+    ],
+    "id": 8,
+    "xGrid": 22,
+    "yGrid": 5,
+    "region": "Malakand",
+    "province": "KP",
+    "seat": "NA-8",
+    "voteMargin": 20.8
+  },
+  {
+    "desc": "NA 9 Buner General Election 2018 Result",
+    "voterTurnout": 40.62,
+    "totalVotes": 173336,
+    "result": [
+      { "candidate": "SHER AKBAR KHAN", "party": "PTI", "votes": 58037 },
+      { "candidate": "KAMRAN KHAN", "party": "PML-N", "votes": 38358 }
+    ],
+    "id": 9,
+    "xGrid": 21,
+    "yGrid": 5,
+    "region": "Buner",
+    "province": "KP",
+    "seat": "NA-9",
+    "voteMargin": 11.4
+  },
+  {
+    "desc": "NA 10 Shangla General Election 2018 Result",
+    "voterTurnout": 34.27,
+    "totalVotes": 123670,
+    "result": [
+      { "candidate": "Ibadullah Khan", "party": "PML-N", "votes": 34070 },
+      { "candidate": "Sadeed ur Rahman", "party": "ANP", "votes": 32665 }
+    ],
+    "id": 10,
+    "xGrid": 21,
+    "yGrid": 4,
+    "region": "Shangla",
+    "province": "KP",
+    "seat": "NA-10",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 11 Kohistan Lower Kohistan Kolai Pallas Kohistan General Election 2018 Result",
+    "voterTurnout": 40.89,
+    "totalVotes": 61700,
+    "result": [
+      { "candidate": "Afreen Khan", "party": "MMA", "votes": 15859 },
+      { "candidate": "Dost Muhammad Shakir", "party": "Ind", "votes": 14148 }
+    ],
+    "id": 11,
+    "xGrid": 22,
+    "yGrid": 3,
+    "region": "Kohistan",
+    "province": "KP",
+    "seat": "NA-11",
+    "voteMargin": 2.8
+  },
+  {
+    "desc": "NA 12 Battagram General Election 2018 Result",
+    "voterTurnout": 35.5,
+    "totalVotes": 88188,
+    "result": [
+      { "candidate": "Muhammad Nawaz Khan", "party": "PTI", "votes": 34270 },
+      { "candidate": "Muhammad Yousaf", "party": "MMA", "votes": 23881 }
+    ],
+    "id": 12,
+    "xGrid": 22,
+    "yGrid": 4,
+    "region": "Battagram",
+    "province": "KP",
+    "seat": "NA-12",
+    "voteMargin": 11.8
+  },
+  {
+    "desc": "NA 13 Mansehra General Election 2018 Result",
+    "voterTurnout": 59.66,
+    "totalVotes": 253535,
+    "result": [
+      { "candidate": "Saleh Muhammad", "party": "Ind", "votes": 109262 },
+      {
+        "candidate": "Sardar Shah JehanYousaf",
+        "party": "PML-N",
+        "votes": 107808
+      }
+    ],
+    "id": 13,
+    "xGrid": 23,
+    "yGrid": 4,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-13",
+    "voteMargin": 0.6
+  },
+  {
+    "desc": "NA 14 Mansehra Torghar General Election 2018 Result",
+    "voterTurnout": 41.49,
+    "totalVotes": 203976,
+    "result": [
+      { "candidate": "Muhammad Sajjad", "party": "PML-N", "votes": 74889 },
+      { "candidate": "Zar Gul Khan", "party": "PTI", "votes": 59638 }
+    ],
+    "id": 14,
+    "xGrid": 23,
+    "yGrid": 5,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-14",
+    "voteMargin": 7.5
+  },
+  {
+    "desc": "NA 15 Abbottabad General Election 2018 Result",
+    "voterTurnout": 50.56,
+    "totalVotes": 234157,
+    "result": [
+      { "candidate": "Murtaza Javed Abbasi", "party": "PML-N", "votes": 95340 },
+      { "candidate": "Ali Asghar Khan", "party": "PTI", "votes": 81845 }
+    ],
+    "id": 15,
+    "xGrid": 23,
+    "yGrid": 6,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-15",
+    "voteMargin": 5.8
+  },
+  {
+    "desc": "NA 16 Abbottabad General Election 2018 Result",
+    "voterTurnout": 49.84,
+    "totalVotes": 175228,
+    "result": [
+      { "candidate": "Ali Khan Jadoon", "party": "PTI", "votes": 85203 },
+      { "candidate": "Mohabbat Khan", "party": "PML-N", "votes": 54879 }
+    ],
+    "id": 16,
+    "xGrid": 22,
+    "yGrid": 6,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-16",
+    "voteMargin": 17.3
+  },
+  {
+    "desc": "NA 17 Haripur General Election 2018 Result",
+    "voterTurnout": 52.22,
+    "totalVotes": 334580,
+    "result": [
+      { "candidate": "Omar Ayub Khan", "party": "PTI", "votes": 172609 },
+      { "candidate": "Babar Nawaz Khan", "party": "PML-N", "votes": 132756 }
+    ],
+    "id": 17,
+    "xGrid": 21,
+    "yGrid": 6,
+    "region": "Haripur",
+    "province": "KP",
+    "seat": "NA-17",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 18 Swabi General Election 2018 Result",
+    "voterTurnout": 43.39,
+    "totalVotes": 187543,
+    "result": [
+      { "candidate": "Asad Qaiser", "party": "PTI", "votes": 78970 },
+      { "candidate": "FAZAL ALI", "party": "MMA", "votes": 34217 }
+    ],
+    "id": 18,
+    "xGrid": 20,
+    "yGrid": 5,
+    "region": "Swabi",
+    "province": "KP",
+    "seat": "NA-18",
+    "voteMargin": 23.9
+  },
+  {
+    "desc": "NA 19 Swabi General Election 2018 Result",
+    "voterTurnout": 45.67,
+    "totalVotes": 203707,
+    "result": [
+      { "candidate": "Usman Khan", "party": "PTI", "votes": 83903 },
+      { "candidate": "Waris Khan", "party": "ANP", "votes": 53286 }
+    ],
+    "id": 19,
+    "xGrid": 20,
+    "yGrid": 6,
+    "region": "Swabi",
+    "province": "KP",
+    "seat": "NA-19",
+    "voteMargin": 15
+  },
+  {
+    "desc": "NA 20 Mardan General Election 2018 Result",
+    "voterTurnout": 45.16,
+    "totalVotes": 187360,
+    "result": [
+      { "candidate": "Mujahid Ali", "party": "PTI", "votes": 78140 },
+      { "candidate": "Gul Nawaz Khan", "party": "ANP", "votes": 38713 }
+    ],
+    "id": 20,
+    "xGrid": 20,
+    "yGrid": 4,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-20",
+    "voteMargin": 21
+  },
+  {
+    "desc": "NA 21 Mardan General Election 2018 Result",
+    "voterTurnout": 45.89,
+    "totalVotes": 185898,
+    "result": [
+      { "candidate": "Amir Haider Azam Khan", "party": "ANP", "votes": 78911 },
+      { "candidate": "Muhammad Atif", "party": "PTI", "votes": 78878 }
+    ],
+    "id": 21,
+    "xGrid": 17,
+    "yGrid": 4,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-21",
+    "voteMargin": 0
+  },
+  {
+    "desc": "NA 22 Mardan General Election 2018 Result",
+    "voterTurnout": 51.59,
+    "totalVotes": 195463,
+    "result": [
+      { "candidate": "Ali Muhammad", "party": "PTI", "votes": 58577 },
+      { "candidate": "Muhammad Qasam", "party": "MMA", "votes": 56318 }
+    ],
+    "id": 22,
+    "xGrid": 18,
+    "yGrid": 4,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-22",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 23 Charsadda General Election 2018 Result",
+    "voterTurnout": 42.18,
+    "totalVotes": 169290,
+    "result": [
+      { "candidate": "Anwar Taj", "party": "PTI", "votes": 59371 },
+      { "candidate": "Haji Zafar Ali Khan", "party": "MMA", "votes": 41391 }
+    ],
+    "id": 23,
+    "xGrid": 18,
+    "yGrid": 5,
+    "region": "Charsadda",
+    "province": "KP",
+    "seat": "NA-23",
+    "voteMargin": 10.6
+  },
+  {
+    "desc": "NA 24 Charsadda General Election 2018 Result",
+    "voterTurnout": 45.29,
+    "totalVotes": 202073,
+    "result": [
+      { "candidate": "Fazal Muhammad Khan", "party": "PTI", "votes": 83495 },
+      { "candidate": "Asfandyar Wali Khan", "party": "ANP", "votes": 59483 }
+    ],
+    "id": 24,
+    "xGrid": 19,
+    "yGrid": 6,
+    "region": "Charsadda",
+    "province": "KP",
+    "seat": "NA-24",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 25 Nowshera General Election 2018 Result",
+    "voterTurnout": 48.79,
+    "totalVotes": 179039,
+    "result": [
+      { "candidate": "Pervez Khattak", "party": "PTI", "votes": 82118 },
+      { "candidate": "Khan Pervez", "party": "PPP", "votes": 35658 }
+    ],
+    "id": 25,
+    "xGrid": 20,
+    "yGrid": 7,
+    "region": "Nowshera",
+    "province": "KP",
+    "seat": "NA-25",
+    "voteMargin": 25.9
+  },
+  {
+    "desc": "NA 26 Nowshera General Election 2018 Result",
+    "voterTurnout": 49.87,
+    "totalVotes": 182523,
+    "result": [
+      { "candidate": "Imran Khattak", "party": "PTI", "votes": 90256 },
+      { "candidate": "Jamal Khan Khattak", "party": "ANP", "votes": 47132 }
+    ],
+    "id": 26,
+    "xGrid": 21,
+    "yGrid": 7,
+    "region": "Nowshera",
+    "province": "KP",
+    "seat": "NA-26",
+    "voteMargin": 23.6
+  },
+  {
+    "desc": "NA 27 Peshawar General Election 2018 Result",
+    "voterTurnout": 45.83,
+    "totalVotes": 149161,
+    "result": [
+      { "candidate": "Noor Alam Khan", "party": "PTI", "votes": 71158 },
+      { "candidate": "Haji Ghulam Ali", "party": "MMA", "votes": 39310 }
+    ],
+    "id": 27,
+    "xGrid": 18,
+    "yGrid": 6,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-27",
+    "voteMargin": 21.4
+  },
+  {
+    "desc": "NA 28 Peshawar General Election 2018 Result",
+    "voterTurnout": 44.71,
+    "totalVotes": 145382,
+    "result": [
+      { "candidate": "Arbab Amir Ayub", "party": "PTI", "votes": 74414 },
+      { "candidate": "Sabir Hussain Awan", "party": "MMA", "votes": 27292 }
+    ],
+    "id": 28,
+    "xGrid": 19,
+    "yGrid": 8,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-28",
+    "voteMargin": 32.4
+  },
+  {
+    "desc": "NA 29 Peshawar General Election 2018 Result",
+    "voterTurnout": 40.62,
+    "totalVotes": 125540,
+    "result": [
+      { "candidate": "Nasir Khan", "party": "PTI", "votes": 49762 },
+      { "candidate": "Naeem Jan", "party": "MMA", "votes": 29357 }
+    ],
+    "id": 29,
+    "xGrid": 18,
+    "yGrid": 7,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-29",
+    "voteMargin": 16.3
+  },
+  {
+    "desc": "NA 30 Peshawar General Election 2018 Result",
+    "voterTurnout": 40.64,
+    "totalVotes": 122412,
+    "result": [
+      { "candidate": "Sher Ali Arbab", "party": "PTI", "votes": 73781 },
+      { "candidate": "Arbab Najeeb Ullah Khan", "party": "MMA", "votes": 18111 }
+    ],
+    "id": 30,
+    "xGrid": 18,
+    "yGrid": 8,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-30",
+    "voteMargin": 45.5
+  },
+  {
+    "desc": "NA 31 Peshawar General Election 2018 Result",
+    "voterTurnout": 42.2,
+    "totalVotes": 160984,
+    "result": [
+      {
+        "candidate": "Shaukat Ali S o Liaqat Ali",
+        "party": "PTI",
+        "votes": 87895
+      },
+      {
+        "candidate": "Haji Ghulam Ahmad Bilour",
+        "party": "ANP",
+        "votes": 42476
+      }
+    ],
+    "id": 31,
+    "xGrid": 19,
+    "yGrid": 7,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-31",
+    "voteMargin": 28.2
+  },
+  {
+    "desc": "NA 32 Kohat General Election 2018 Result",
+    "voterTurnout": 38.95,
+    "totalVotes": 190658,
+    "result": [
+      { "candidate": "Shehryar Afridi", "party": "PTI", "votes": 82248 },
+      {
+        "candidate": "Gohar Muhammad Khan Bangash",
+        "party": "MMA",
+        "votes": 47412
+      }
+    ],
+    "id": 32,
+    "xGrid": 17,
+    "yGrid": 8,
+    "region": "Kohat",
+    "province": "KP",
+    "seat": "NA-32",
+    "voteMargin": 18.3
+  },
+  {
+    "desc": "NA 33 Hangu General Election 2018 Result",
+    "voterTurnout": 28.47,
+    "totalVotes": 77891,
+    "result": [
+      { "candidate": "Khial Zaman", "party": "PTI", "votes": 28819 },
+      { "candidate": "Atiq Ur Rehman", "party": "MMA", "votes": 27968 }
+    ],
+    "id": 33,
+    "xGrid": 17,
+    "yGrid": 9,
+    "region": "Hangu",
+    "province": "KP",
+    "seat": "NA-33",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 34 Karak General Election 2018 Result",
+    "voterTurnout": 49.69,
+    "totalVotes": 194588,
+    "result": [
+      { "candidate": "Shahid Ahmad", "party": "PTI", "votes": 77181 },
+      { "candidate": "Mir Zakim Khan", "party": "MMA", "votes": 28534 }
+    ],
+    "id": 34,
+    "xGrid": 18,
+    "yGrid": 9,
+    "region": "Karak",
+    "province": "KP",
+    "seat": "NA-34",
+    "voteMargin": 25
+  },
+  {
+    "desc": "NA 35 Bannu General Election 2018 Result",
+    "voterTurnout": 42.55,
+    "totalVotes": 238962,
+    "result": [
+      {
+        "candidate": "Imran Ahmed Khan Niazi",
+        "party": "PTI",
+        "votes": 113822
+      },
+      { "candidate": "Akram Khan Durrani", "party": "MMA", "votes": 106820 }
+    ],
+    "id": 35,
+    "xGrid": 16,
+    "yGrid": 11,
+    "region": "Bannu",
+    "province": "KP",
+    "seat": "NA-35",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NA 36 Lakki Marwat General Election 2018 Result",
+    "voterTurnout": 50.06,
+    "totalVotes": 201699,
+    "result": [
+      { "candidate": "Muhammad Anwar", "party": "MMA", "votes": 91065 },
+      { "candidate": "Ishfaq Ahmad Khan", "party": "PTI", "votes": 81849 }
+    ],
+    "id": 36,
+    "xGrid": 18,
+    "yGrid": 10,
+    "region": "Lakki",
+    "province": "KP",
+    "seat": "NA-36",
+    "voteMargin": 4.6
+  },
+  {
+    "desc": "NA 37 Tank General Election 2018 Result",
+    "voterTurnout": 43.7,
+    "totalVotes": 76472,
+    "result": [
+      { "candidate": "Asad Mehmood", "party": "MMA", "votes": 28504 },
+      { "candidate": "Habibullah Khan", "party": "PTI", "votes": 16599 }
+    ],
+    "id": 37,
+    "xGrid": 16,
+    "yGrid": 10,
+    "region": "Tank",
+    "province": "KP",
+    "seat": "NA-37",
+    "voteMargin": 15.6
+  },
+  {
+    "desc": "NA 38 Dera Ismail Khan General Election 2018 Result",
+    "voterTurnout": 54.82,
+    "totalVotes": 186887,
+    "result": [
+      { "candidate": "Ali Amin Khan", "party": "PTI", "votes": 80236 },
+      { "candidate": "Fazl ur Rehman", "party": "MMA", "votes": 45457 }
+    ],
+    "id": 38,
+    "xGrid": 18,
+    "yGrid": 14,
+    "region": "Dera Ismail Khan",
+    "province": "KP",
+    "seat": "NA-38",
+    "voteMargin": 18.6
+  },
+  {
+    "desc": "NA 39 Dera Ismail Khan General Election 2018 Result",
+    "voterTurnout": 3.44,
+    "totalVotes": 159064,
+    "result": [
+      { "candidate": "Muhammad Yaqoob Sheikh", "party": "PTI", "votes": 79334 },
+      { "candidate": "Fazl ur Rehman", "party": "MMA", "votes": 52031 }
+    ],
+    "id": 39,
+    "xGrid": 17,
+    "yGrid": 13,
+    "region": "Dera Ismail Khan",
+    "province": "KP",
+    "seat": "NA-39",
+    "voteMargin": 17.2
+  },
+  {
+    "desc": "NA 40 Bajur Agency General Election 2018 Result",
+    "voterTurnout": 40.9,
+    "totalVotes": 102689,
+    "result": [
+      { "candidate": "Gul Dad khan", "party": "PTI", "votes": 34616 },
+      { "candidate": "Sardar Khan", "party": "Ind", "votes": 17850 }
+    ],
+    "id": 40,
+    "xGrid": 19,
+    "yGrid": 5,
+    "region": "Bajaur",
+    "province": "FATA",
+    "seat": "NA-40",
+    "voteMargin": 16.3
+  },
+  {
+    "desc": "NA 41 Bajur Agency General Election 2018 Result",
+    "voterTurnout": 38.17,
+    "totalVotes": 88439,
+    "result": [
+      { "candidate": "Gul Zafar Khan", "party": "PTI", "votes": 22730 },
+      { "candidate": "Abdul Majeed", "party": "Ind", "votes": 14792 }
+    ],
+    "id": 41,
+    "xGrid": 18,
+    "yGrid": 3,
+    "region": "Bajaur",
+    "province": "FATA",
+    "seat": "NA-41",
+    "voteMargin": 9
+  },
+  {
+    "desc": "NA 42 Mohmand Agency General Election 2018 Result",
+    "voterTurnout": 0,
+    "totalVotes": 83359,
+    "result": [
+      { "candidate": "Sajid Khan", "party": "PTI", "votes": 22717 },
+      { "candidate": "Bilal Rahman", "party": "Ind", "votes": 21076 }
+    ],
+    "id": 42,
+    "xGrid": 17,
+    "yGrid": 5,
+    "region": "Mohmand Agency",
+    "province": "FATA",
+    "seat": "NA-42",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 43 Khyber Agency General Election 2018 Result",
+    "voterTurnout": 37.9,
+    "totalVotes": 84335,
+    "result": [
+      { "candidate": "Noor Ul Haq AlQadri", "party": "PTI", "votes": 33243 },
+      {
+        "candidate": "Alhaj Shah Jee Gul Afridi",
+        "party": "Ind",
+        "votes": 30151
+      }
+    ],
+    "id": 43,
+    "xGrid": 17,
+    "yGrid": 6,
+    "region": "Khyber Agency",
+    "province": "FATA",
+    "seat": "NA-43",
+    "voteMargin": 3.7
+  },
+  {
+    "desc": "NA 44 Khyber Agency General Election 2018 Result",
+    "voterTurnout": 25.32,
+    "totalVotes": 66023,
+    "result": [
+      { "candidate": "Mohammad Iqbal Khan", "party": "PTI", "votes": 12537 },
+      { "candidate": "Hameed Ullah Jan Arfidi", "party": "Ind", "votes": 9042 }
+    ],
+    "id": 44,
+    "xGrid": 16,
+    "yGrid": 7,
+    "region": "Khyber Agency",
+    "province": "FATA",
+    "seat": "NA-44",
+    "voteMargin": 5.3
+  },
+  {
+    "desc": "NA 45 Kurram Agency General Election 2018 Result",
+    "voterTurnout": 35.01,
+    "totalVotes": 56357,
+    "result": [
+      { "candidate": "Munir Khan Orakzai", "party": "MMA", "votes": 16353 },
+      { "candidate": "Said Jamal", "party": "PTI", "votes": 13601 }
+    ],
+    "id": 45,
+    "xGrid": 17,
+    "yGrid": 7,
+    "region": "Kurram Agency",
+    "province": "FATA",
+    "seat": "NA-45",
+    "voteMargin": 4.9
+  },
+  {
+    "desc": "NA 46 Kurram Agency General Election 2018 Result",
+    "voterTurnout": 43.17,
+    "totalVotes": 73341,
+    "result": [
+      { "candidate": "Sajid Hussain Turi", "party": "PPP", "votes": 21461 },
+      { "candidate": "Syed Iqbal Mian", "party": "PTI", "votes": 16938 }
+    ],
+    "id": 46,
+    "xGrid": 15,
+    "yGrid": 7,
+    "region": "Kurram Agency",
+    "province": "FATA",
+    "seat": "NA-46",
+    "voteMargin": 6.2
+  },
+  {
+    "desc": "NA 47 Orakzai Agency General Election 2018 Result",
+    "voterTurnout": 32.87,
+    "totalVotes": 53790,
+    "result": [
+      { "candidate": "Jawad Hussain", "party": "PTI", "votes": 11102 },
+      { "candidate": "Qasim gul", "party": "MMA", "votes": 6898 }
+    ],
+    "id": 47,
+    "xGrid": 16,
+    "yGrid": 6,
+    "region": "Orakzai Agency",
+    "province": "FATA",
+    "seat": "NA-47",
+    "voteMargin": 7.8
+  },
+  {
+    "desc": "NA 48 North Waziristan Agency General Election 2018 Result",
+    "voterTurnout": 23.32,
+    "totalVotes": 63343,
+    "result": [
+      { "candidate": "Mohsin Javed", "party": "Ind", "votes": 16496 },
+      { "candidate": "Misbah Uddin", "party": "MMA", "votes": 15352 }
+    ],
+    "id": 48,
+    "xGrid": 15,
+    "yGrid": 9,
+    "region": "North Waziristan",
+    "province": "FATA",
+    "seat": "NA-48",
+    "voteMargin": 1.8
+  },
+  {
+    "desc": "NA 49 South Waziristan Agency General Election 2018 Result",
+    "voterTurnout": 20.71,
+    "totalVotes": 36429,
+    "result": [
+      { "candidate": "Muhammad Jamal Ud Din", "party": "MMA", "votes": 7794 },
+      { "candidate": "Dost Muhammad Khan", "party": "PTI", "votes": 6606 }
+    ],
+    "id": 49,
+    "xGrid": 15,
+    "yGrid": 10,
+    "region": "South Waziristan",
+    "province": "FATA",
+    "seat": "NA-49",
+    "voteMargin": 3.3
+  },
+  {
+    "desc": "NA 50 South Waziristan Agency General Election 2018 Result",
+    "voterTurnout": 33,
+    "totalVotes": 46673,
+    "result": [
+      { "candidate": "Muhammad Ali", "party": "Ind", "votes": 23530 },
+      { "candidate": "Syed Tariq Gillani", "party": "Ind", "votes": 8250 }
+    ],
+    "id": 50,
+    "xGrid": 17,
+    "yGrid": 11,
+    "region": "South Waziristan",
+    "province": "FATA",
+    "seat": "NA-50",
+    "voteMargin": 32.7
+  },
+  {
+    "desc": "NA 51 F R Tribal Area General Election 2018 Result",
+    "voterTurnout": 41.89,
+    "totalVotes": 68780,
+    "result": [
+      { "candidate": "Abdul Shakoor", "party": "MMA", "votes": 21896 },
+      { "candidate": "Qaiser Jamal", "party": "PTI", "votes": 18689 }
+    ],
+    "id": 51,
+    "xGrid": 16,
+    "yGrid": 12,
+    "region": "FR Tribal Area",
+    "province": "FATA",
+    "seat": "NA-51",
+    "voteMargin": 4.7
+  },
+  {
+    "desc": "NA 52 ICT General Election 2018 Result",
+    "voterTurnout": 64.26,
+    "totalVotes": 148162,
+    "result": [
+      {
+        "candidate": "Raja Khurram Shahzad Nawaz",
+        "party": "PTI",
+        "votes": 64690
+      },
+      { "candidate": "Muhammad Afzal Khokhar", "party": "PPP", "votes": 34072 }
+    ],
+    "id": 52,
+    "xGrid": 23,
+    "yGrid": 7,
+    "region": "Islamabad",
+    "province": "ICT",
+    "seat": "NA-52",
+    "voteMargin": 20.7
+  },
+  {
+    "desc": "NA 53 ICT General Election 2018 Result",
+    "voterTurnout": 56.53,
+    "totalVotes": 174976,
+    "result": [
+      { "candidate": "Imran Ahmed Khan Niazi", "party": "PTI", "votes": 92891 },
+      { "candidate": "Shahid Khaqan Abbasi", "party": "PML-N", "votes": 44314 }
+    ],
+    "id": 53,
+    "xGrid": 24,
+    "yGrid": 7,
+    "region": "Islamabad",
+    "province": "ICT",
+    "seat": "NA-53",
+    "voteMargin": 27.8
+  },
+  {
+    "desc": "NA 54 ICT General Election 2018 Result",
+    "voterTurnout": 54.24,
+    "totalVotes": 117747,
+    "result": [
+      { "candidate": "Asad Umer", "party": "PTI", "votes": 56945 },
+      { "candidate": "Anjum Aqeel Khan", "party": "PML-N", "votes": 32991 }
+    ],
+    "id": 54,
+    "xGrid": 22,
+    "yGrid": 7,
+    "region": "Islamabad",
+    "province": "ICT",
+    "seat": "NA-54",
+    "voteMargin": 20.3
+  },
+  {
+    "desc": "NA 55 Attock General Election 2018 Result",
+    "voterTurnout": 53.47,
+    "totalVotes": 297411,
+    "result": [
+      { "candidate": "TAHIR SADIQ", "party": "PTI", "votes": 145168 },
+      { "candidate": "SHEIKH AFTAB AHMED", "party": "PML-N", "votes": 101773 }
+    ],
+    "id": 55,
+    "xGrid": 21,
+    "yGrid": 8,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-55",
+    "voteMargin": 14.6
+  },
+  {
+    "desc": "NA 56 Attock General Election 2018 Result",
+    "voterTurnout": 52.5,
+    "totalVotes": 389595,
+    "result": [
+      { "candidate": "Tahir Sadiq", "party": "PTI", "votes": 163325 },
+      { "candidate": "MALIK SOHAIL KHAN", "party": "PML-N", "votes": 99404 }
+    ],
+    "id": 56,
+    "xGrid": 20,
+    "yGrid": 8,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-56",
+    "voteMargin": 16.4
+  },
+  {
+    "desc": "NA 57 Rawalpindi General Election 2018 Result",
+    "voterTurnout": 55.32,
+    "totalVotes": 322692,
+    "result": [
+      { "candidate": "SADAQAT ALI KHAN", "party": "PTI", "votes": 136249 },
+      { "candidate": "Shahid Khaqan Abbasi", "party": "PML-N", "votes": 124703 }
+    ],
+    "id": 57,
+    "xGrid": 23,
+    "yGrid": 8,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-57",
+    "voteMargin": 3.6
+  },
+  {
+    "desc": "NA 58 Rawalpindi General Election 2018 Result",
+    "voterTurnout": 53.82,
+    "totalVotes": 328150,
+    "result": [
+      { "candidate": "Raja Pervaiz Ashraf", "party": "PPP", "votes": 125090 },
+      {
+        "candidate": "Choudhary Muhammad Azeem",
+        "party": "PTI",
+        "votes": 96574
+      }
+    ],
+    "id": 58,
+    "xGrid": 22,
+    "yGrid": 8,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-58",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 59 Rawalpindi General Election 2018 Result",
+    "voterTurnout": 58.78,
+    "totalVotes": 202313,
+    "result": [
+      { "candidate": "Ghulam Sarwar Khan", "party": "PTI", "votes": 89055 },
+      { "candidate": "CH NISAR ALI KHAN", "party": "Ind", "votes": 66369 }
+    ],
+    "id": 59,
+    "xGrid": 24,
+    "yGrid": 8,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-59",
+    "voteMargin": 11.2
+  },
+  {
+    "desc": "NA 60 Rawalpindi General Election 2018 Result",
+    "voterTurnout": 50,
+    "totalVotes": 92450,
+    "result": [
+      { "candidate": "Shaikh Rashid Shafiq", "party": "PTI", "votes": 44483 },
+      { "candidate": "Sajjad Khan", "party": "PML-N", "votes": 43836 }
+    ],
+    "id": 60,
+    "xGrid": 25,
+    "yGrid": 8,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-60",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 61 Rawalpindi General Election 2018 Result",
+    "voterTurnout": 51.38,
+    "totalVotes": 186057,
+    "result": [
+      { "candidate": "Aamir Mehmood Kiani", "party": "PTI", "votes": 105000 },
+      { "candidate": "Ibrar Ahmed", "party": "PML-N", "votes": 60125 }
+    ],
+    "id": 61,
+    "xGrid": 25,
+    "yGrid": 7,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-61",
+    "voteMargin": 24.1
+  },
+  {
+    "desc": "NA 62 Rawalpindi General Election 2018 Result",
+    "voterTurnout": 52.01,
+    "totalVotes": 231685,
+    "result": [
+      { "candidate": "SHEIKH RASHID AHMED", "party": "AML", "votes": 117719 },
+      { "candidate": "DANYAL CHAUDHRY", "party": "PML-N", "votes": 91312 }
+    ],
+    "id": 62,
+    "xGrid": 22,
+    "yGrid": 9,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-62",
+    "voteMargin": 11.4
+  },
+  {
+    "desc": "NA 63 Rawalpindi General Election 2018 Result",
+    "voterTurnout": 58.14,
+    "totalVotes": 211826,
+    "result": [
+      { "candidate": "Ghulam Sarwar Khan", "party": "PTI", "votes": 100986 },
+      { "candidate": "CH NISAR ALI KHAN", "party": "Ind", "votes": 65767 }
+    ],
+    "id": 63,
+    "xGrid": 21,
+    "yGrid": 9,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-63",
+    "voteMargin": 16.6
+  },
+  {
+    "desc": "NA 64 Chakwal General Election 2018 Result",
+    "voterTurnout": 58.15,
+    "totalVotes": 311355,
+    "result": [
+      { "candidate": "ZULFIQAR ALI KHAN", "party": "PTI", "votes": 155214 },
+      { "candidate": "TAHIR IQBAL", "party": "PML-N", "votes": 130051 }
+    ],
+    "id": 64,
+    "xGrid": 19,
+    "yGrid": 9,
+    "region": "Chakwal",
+    "province": "Punjab",
+    "seat": "NA-64",
+    "voteMargin": 8.1
+  },
+  {
+    "desc": "NA 65 Chakwal General Election 2018 Result",
+    "voterTurnout": 57.35,
+    "totalVotes": 306975,
+    "result": [
+      { "candidate": "Parvez Elahi", "party": "PML-Q", "votes": 157497 },
+      { "candidate": "Muhammad Faez Malik", "party": "PML-N", "votes": 106081 }
+    ],
+    "id": 65,
+    "xGrid": 20,
+    "yGrid": 9,
+    "region": "Chakwal",
+    "province": "Punjab",
+    "seat": "NA-65",
+    "voteMargin": 16.7
+  },
+  {
+    "desc": "NA 66 Jhelum General Election 2018 Result",
+    "voterTurnout": 51.94,
+    "totalVotes": 269646,
+    "result": [
+      {
+        "candidate": "CHAUDHARY FARRUKH ALTAF",
+        "party": "PTI",
+        "votes": 112356
+      },
+      {
+        "candidate": "CHAUDHARY NADEEM KHADIM",
+        "party": "PML-N",
+        "votes": 92912
+      }
+    ],
+    "id": 66,
+    "xGrid": 26,
+    "yGrid": 8,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-66",
+    "voteMargin": 7.2
+  },
+  {
+    "desc": "NA 67 Jhelum General Election 2018 Result",
+    "voterTurnout": 51.87,
+    "totalVotes": 205262,
+    "result": [
+      { "candidate": "Fawad Ahmed", "party": "PTI", "votes": 93102 },
+      { "candidate": "Raja Matloob Mehdi", "party": "PML-N", "votes": 82475 }
+    ],
+    "id": 67,
+    "xGrid": 26,
+    "yGrid": 7,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-67",
+    "voteMargin": 5.2
+  },
+  {
+    "desc": "NA 68 Gujrat General Election 2018 Result",
+    "voterTurnout": 53.01,
+    "totalVotes": 234318,
+    "result": [
+      { "candidate": "Hussain Elahi", "party": "PML-Q", "votes": 104678 },
+      {
+        "candidate": "Nawabzada Ghazanfar Ali Gul",
+        "party": "PML-N",
+        "votes": 68810
+      }
+    ],
+    "id": 68,
+    "xGrid": 26,
+    "yGrid": 9,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-68",
+    "voteMargin": 15.3
+  },
+  {
+    "desc": "NA 69 Gujrat General Election 2018 Result",
+    "voterTurnout": 46.6,
+    "totalVotes": 212770,
+    "result": [
+      { "candidate": "Parvez Elahi", "party": "PML-Q", "votes": 122336 },
+      { "candidate": "Ch Mubasher Hussain", "party": "PML-N", "votes": 49295 }
+    ],
+    "id": 69,
+    "xGrid": 23,
+    "yGrid": 9,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-69",
+    "voteMargin": 34.3
+  },
+  {
+    "desc": "NA 70 Gujrat General Election 2018 Result",
+    "voterTurnout": 49.74,
+    "totalVotes": 235525,
+    "result": [
+      { "candidate": "Syed Faiz ul Hassan", "party": "PTI", "votes": 95168 },
+      { "candidate": "Jaffar Iqbal", "party": "PML-N", "votes": 67233 }
+    ],
+    "id": 70,
+    "xGrid": 24,
+    "yGrid": 9,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-70",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 71 Gujrat General Election 2018 Result",
+    "voterTurnout": 50.87,
+    "totalVotes": 246756,
+    "result": [
+      { "candidate": "Chaudhry Abid Raza", "party": "PML-N", "votes": 88588 },
+      {
+        "candidate": "Muhammad Ilyas Choudhary",
+        "party": "PTI",
+        "votes": 81538
+      }
+    ],
+    "id": 71,
+    "xGrid": 25,
+    "yGrid": 9,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-71",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NA 72 Sialkot General Election 2018 Result",
+    "voterTurnout": 58.11,
+    "totalVotes": 252907,
+    "result": [
+      {
+        "candidate": "CHAUDHRY ARMGHAN SUBHANI",
+        "party": "PML-N",
+        "votes": 129041
+      },
+      { "candidate": "FIRDOUS ASHIQ", "party": "PTI", "votes": 91393 }
+    ],
+    "id": 72,
+    "xGrid": 27,
+    "yGrid": 10,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-72",
+    "voteMargin": 14.9
+  },
+  {
+    "desc": "NA 73 Sialkot General Election 2018 Result",
+    "voterTurnout": 51.99,
+    "totalVotes": 246716,
+    "result": [
+      {
+        "candidate": "Khawaja Muhammad Asif",
+        "party": "PML-N",
+        "votes": 117002
+      },
+      { "candidate": "Muhammad Usman Dar", "party": "PTI", "votes": 115596 }
+    ],
+    "id": 73,
+    "xGrid": 26,
+    "yGrid": 11,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-73",
+    "voteMargin": 0.6
+  },
+  {
+    "desc": "NA 74 Sialkot General Election 2018 Result",
+    "voterTurnout": 55.4,
+    "totalVotes": 254678,
+    "result": [
+      { "candidate": "Ali Zahid", "party": "PML-N", "votes": 97235 },
+      { "candidate": "GHULAM ABBAS", "party": "PTI", "votes": 93734 }
+    ],
+    "id": 74,
+    "xGrid": 26,
+    "yGrid": 10,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-74",
+    "voteMargin": 1.4
+  },
+  {
+    "desc": "NA 75 Sialkot General Election 2018 Result",
+    "voterTurnout": 55.84,
+    "totalVotes": 245754,
+    "result": [
+      {
+        "candidate": "Syed Iftikhar Ul Hassan",
+        "party": "PML-N",
+        "votes": 101617
+      },
+      { "candidate": "Ali Asjad Malhi", "party": "PTI", "votes": 61432 }
+    ],
+    "id": 75,
+    "xGrid": 27,
+    "yGrid": 9,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-75",
+    "voteMargin": 16.4
+  },
+  {
+    "desc": "NA 76 Sialkot General Election 2018 Result",
+    "voterTurnout": 57.68,
+    "totalVotes": 264954,
+    "result": [
+      {
+        "candidate": "Rana Shamim Ahmed Khan",
+        "party": "PML-N",
+        "votes": 133664
+      },
+      { "candidate": "Muhammad Aslam", "party": "PTI", "votes": 93190 }
+    ],
+    "id": 76,
+    "xGrid": 28,
+    "yGrid": 9,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-76",
+    "voteMargin": 15.3
+  },
+  {
+    "desc": "NA 77 Narowal General Election 2018 Result",
+    "voterTurnout": 54.86,
+    "totalVotes": 267585,
+    "result": [
+      { "candidate": "Mehnaz Akber Aziz", "party": "PML-N", "votes": 106366 },
+      { "candidate": "Muhammad Tariq Anees", "party": "Ind", "votes": 70596 }
+    ],
+    "id": 77,
+    "xGrid": 29,
+    "yGrid": 10,
+    "region": "Narowal",
+    "province": "Punjab",
+    "seat": "NA-77",
+    "voteMargin": 13.4
+  },
+  {
+    "desc": "NA 78 Narowal General Election 2018 Result",
+    "voterTurnout": 55.06,
+    "totalVotes": 277817,
+    "result": [
+      {
+        "candidate": "Ahsan Iqbal Chaudhary",
+        "party": "PML-N",
+        "votes": 159651
+      },
+      { "candidate": "Abrar Ul Haq", "party": "PTI", "votes": 88250 }
+    ],
+    "id": 78,
+    "xGrid": 29,
+    "yGrid": 11,
+    "region": "Narowal",
+    "province": "Punjab",
+    "seat": "NA-78",
+    "voteMargin": 25.7
+  },
+  {
+    "desc": "NA 79 Gujranwala General Election 2018 Result",
+    "voterTurnout": 54.66,
+    "totalVotes": 291205,
+    "result": [
+      { "candidate": "NISAR AHMED CHEEMA", "party": "PML-N", "votes": 142545 },
+      { "candidate": "MUHAMMAD AHMED CHATTHA", "party": "PTI", "votes": 118709 }
+    ],
+    "id": 79,
+    "xGrid": 28,
+    "yGrid": 10,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-79",
+    "voteMargin": 8.2
+  },
+  {
+    "desc": "NA 80 Gujranwala General Election 2018 Result",
+    "voterTurnout": 53.36,
+    "totalVotes": 209655,
+    "result": [
+      {
+        "candidate": "CH MEHMOOD BASHIR VIRK",
+        "party": "PML-N",
+        "votes": 108653
+      },
+      { "candidate": "TARIQ MEHMOOD", "party": "PTI", "votes": 71937 }
+    ],
+    "id": 80,
+    "xGrid": 27,
+    "yGrid": 12,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-80",
+    "voteMargin": 17.5
+  },
+  {
+    "desc": "NA 81 Gujranwala General Election 2018 Result",
+    "voterTurnout": 50.58,
+    "totalVotes": 247206,
+    "result": [
+      {
+        "candidate": "Khurram Dastgir Khan",
+        "party": "PML-N",
+        "votes": 130837
+      },
+      { "candidate": "Ch Muhammad Siddique", "party": "PTI", "votes": 88166 }
+    ],
+    "id": 81,
+    "xGrid": 25,
+    "yGrid": 10,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-81",
+    "voteMargin": 17.3
+  },
+  {
+    "desc": "NA 82 Gujranwala General Election 2018 Result",
+    "voterTurnout": 52.26,
+    "totalVotes": 224670,
+    "result": [
+      {
+        "candidate": "Usman Ibrahim S O Muhammad Ibrahim",
+        "party": "PML-N",
+        "votes": 117520
+      },
+      { "candidate": "Ali Ashraf", "party": "PTI", "votes": 67400 }
+    ],
+    "id": 82,
+    "xGrid": 27,
+    "yGrid": 11,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-82",
+    "voteMargin": 22.3
+  },
+  {
+    "desc": "NA 83 Gujranwala General Election 2018 Result",
+    "voterTurnout": 55.07,
+    "totalVotes": 241378,
+    "result": [
+      { "candidate": "ZULIFIQAR AHMAD", "party": "PML-N", "votes": 139235 },
+      { "candidate": "RANA NAZIR AHMAD KHAN", "party": "PTI", "votes": 75940 }
+    ],
+    "id": 83,
+    "xGrid": 28,
+    "yGrid": 11,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-83",
+    "voteMargin": 26.2
+  },
+  {
+    "desc": "NA 84 Gujranwala General Election 2018 Result",
+    "voterTurnout": 57.36,
+    "totalVotes": 243640,
+    "result": [
+      { "candidate": "Azhar Qayyum Nahra", "party": "PML-N", "votes": 119612 },
+      { "candidate": "Ch Bilal Ejaz", "party": "PTI", "votes": 89728 }
+    ],
+    "id": 84,
+    "xGrid": 24,
+    "yGrid": 14,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-84",
+    "voteMargin": 12.3
+  },
+  {
+    "desc": "NA 85 M.B.Din General Election 2018 Result",
+    "voterTurnout": 53.45,
+    "totalVotes": 260546,
+    "result": [
+      {
+        "candidate": "Haji Imtiaz Ahmed Choudhary",
+        "party": "PTI",
+        "votes": 99996
+      },
+      { "candidate": "Mushahid Raza", "party": "PML-N", "votes": 80367 }
+    ],
+    "id": 85,
+    "xGrid": 24,
+    "yGrid": 10,
+    "region": "Mandi Bahauddin",
+    "province": "Punjab",
+    "seat": "NA-85",
+    "voteMargin": 7.5
+  },
+  {
+    "desc": "NA 86 M.B.Din General Election 2018 Result",
+    "voterTurnout": 55.05,
+    "totalVotes": 266722,
+    "result": [
+      { "candidate": "Nasir Iqbal Bosal", "party": "PML-N", "votes": 147105 },
+      { "candidate": "Nazar Muhammad Gondal", "party": "PTI", "votes": 80637 }
+    ],
+    "id": 86,
+    "xGrid": 23,
+    "yGrid": 11,
+    "region": "Mandi Bahauddin",
+    "province": "Punjab",
+    "seat": "NA-86",
+    "voteMargin": 24.9
+  },
+  {
+    "desc": "NA 87 Hafizabad General Election 2018 Result",
+    "voterTurnout": 59.13,
+    "totalVotes": 395158,
+    "result": [
+      { "candidate": "Ch Shoukat Ali Bhatti", "party": "PTI", "votes": 165618 },
+      { "candidate": "Saira Tarar", "party": "PML-N", "votes": 157453 }
+    ],
+    "id": 87,
+    "xGrid": 23,
+    "yGrid": 10,
+    "region": "Hafizabad",
+    "province": "Punjab",
+    "seat": "NA-87",
+    "voteMargin": 2.1
+  },
+  {
+    "desc": "NA 88 Sargodha General Election 2018 Result",
+    "voterTurnout": 57.11,
+    "totalVotes": 275884,
+    "result": [
+      { "candidate": "MUKHTAR AHMAD MALIK", "party": "PML-N", "votes": 129615 },
+      { "candidate": "Nadeem Afzal Gondal", "party": "PTI", "votes": 115622 }
+    ],
+    "id": 88,
+    "xGrid": 22,
+    "yGrid": 10,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-88",
+    "voteMargin": 5.1
+  },
+  {
+    "desc": "NA 89 Sargodha General Election 2018 Result",
+    "voterTurnout": 58.93,
+    "totalVotes": 254572,
+    "result": [
+      { "candidate": "Mohsin Nawaz Ranjha", "party": "PML-N", "votes": 114245 },
+      { "candidate": "Usama Ahmad Mela", "party": "PTI", "votes": 113422 }
+    ],
+    "id": 89,
+    "xGrid": 20,
+    "yGrid": 10,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-89",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 90 Sargodha General Election 2018 Result",
+    "voterTurnout": 52.97,
+    "totalVotes": 219686,
+    "result": [
+      {
+        "candidate": "Ch Muhammad Hamid Hameed",
+        "party": "PML-N",
+        "votes": 93948
+      },
+      { "candidate": "Nadia Aziz", "party": "PTI", "votes": 85220 }
+    ],
+    "id": 90,
+    "xGrid": 22,
+    "yGrid": 11,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-90",
+    "voteMargin": 4
+  },
+  {
+    "desc": "NA 91 Sargodha General Election 2018 Result",
+    "voterTurnout": 59.45,
+    "totalVotes": 265560,
+    "result": [
+      { "candidate": "Zulfiqar Ali Bhatti", "party": "PML-N", "votes": 110525 },
+      {
+        "candidate": "CHOUDHARY AMIR SULTAN CHEEMA",
+        "party": "PTI",
+        "votes": 110246
+      }
+    ],
+    "id": 91,
+    "xGrid": 21,
+    "yGrid": 11,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-91",
+    "voteMargin": 0.1
+  },
+  {
+    "desc": "NA 92 Sargodha General Election 2018 Result",
+    "voterTurnout": 56.81,
+    "totalVotes": 254312,
+    "result": [
+      { "candidate": "SYED JAVED HUSNAIN", "party": "PML-N", "votes": 97013 },
+      {
+        "candidate": "SAHIBZADA NAEEM UD DIN SIALVI",
+        "party": "PTI",
+        "votes": 65406
+      }
+    ],
+    "id": 92,
+    "xGrid": 21,
+    "yGrid": 10,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-92",
+    "voteMargin": 12.4
+  },
+  {
+    "desc": "NA 93 Khushab General Election 2018 Result",
+    "voterTurnout": 57.86,
+    "totalVotes": 240123,
+    "result": [
+      { "candidate": "Umar Aslam Khan", "party": "PTI", "votes": 100448 },
+      { "candidate": "Sumaira Malik", "party": "PML-N", "votes": 70401 }
+    ],
+    "id": 93,
+    "xGrid": 20,
+    "yGrid": 11,
+    "region": "Khushab",
+    "province": "Punjab",
+    "seat": "NA-93",
+    "voteMargin": 12.5
+  },
+  {
+    "desc": "NA 94 Khushab General Election 2018 Result",
+    "voterTurnout": 59.49,
+    "totalVotes": 229094,
+    "result": [
+      {
+        "candidate": "MALIK MUHAMMAD EHSAN ULLAH TIWANA",
+        "party": "PTI",
+        "votes": 93864
+      },
+      {
+        "candidate": "MALIK SHAKIR BASHIR AWAN",
+        "party": "PML-N",
+        "votes": 85109
+      }
+    ],
+    "id": 94,
+    "xGrid": 20,
+    "yGrid": 12,
+    "region": "Khushab",
+    "province": "Punjab",
+    "seat": "NA-94",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 95 Mianwali General Election 2018 Result",
+    "voterTurnout": 54.29,
+    "totalVotes": 244695,
+    "result": [
+      {
+        "candidate": "Imran Ahmed Khan Niazi",
+        "party": "PTI",
+        "votes": 163538
+      },
+      { "candidate": "OBAID ULLAH KHAN", "party": "PML-N", "votes": 50015 }
+    ],
+    "id": 95,
+    "xGrid": 19,
+    "yGrid": 10,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-95",
+    "voteMargin": 46.4
+  },
+  {
+    "desc": "NA 96 Mianwali General Election 2018 Result",
+    "voterTurnout": 57.95,
+    "totalVotes": 254673,
+    "result": [
+      { "candidate": "AMJID ALI KHAN", "party": "PTI", "votes": 157422 },
+      {
+        "candidate": "MUHAMMAD HUMAIR HAYAT KHAN NIAZI",
+        "party": "PML-N",
+        "votes": 54909
+      }
+    ],
+    "id": 96,
+    "xGrid": 19,
+    "yGrid": 11,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-96",
+    "voteMargin": 40.3
+  },
+  {
+    "desc": "NA 97 Bhakkar General Election 2018 Result",
+    "voterTurnout": 65.97,
+    "totalVotes": 277996,
+    "result": [
+      {
+        "candidate": "MUHAMMAD SANA ULLAH KHAN MASTI KHEL",
+        "party": "Ind",
+        "votes": 120729
+      },
+      { "candidate": "ABDUL MAJEED KHAN", "party": "PML-N", "votes": 91607 }
+    ],
+    "id": 97,
+    "xGrid": 17,
+    "yGrid": 12,
+    "region": "Bhakkar",
+    "province": "Punjab",
+    "seat": "NA-97",
+    "voteMargin": 10.5
+  },
+  {
+    "desc": "NA 98 Bhakkar General Election 2018 Result",
+    "voterTurnout": 67.98,
+    "totalVotes": 287382,
+    "result": [
+      { "candidate": "Muhammad Afzal Khan", "party": "PTI", "votes": 138307 },
+      { "candidate": "Rashid Akbar Khan", "party": "Ind", "votes": 133679 }
+    ],
+    "id": 98,
+    "xGrid": 19,
+    "yGrid": 12,
+    "region": "Bhakkar",
+    "province": "Punjab",
+    "seat": "NA-98",
+    "voteMargin": 1.6
+  },
+  {
+    "desc": "NA 99 Chiniot General Election 2018 Result",
+    "voterTurnout": 55.56,
+    "totalVotes": 206792,
+    "result": [
+      { "candidate": "GHULAM MUHAMMAD", "party": "PTI", "votes": 81330 },
+      { "candidate": "GHULAM ABBAS", "party": "Ind", "votes": 64307 }
+    ],
+    "id": 99,
+    "xGrid": 19,
+    "yGrid": 13,
+    "region": "Chiniot",
+    "province": "Punjab",
+    "seat": "NA-99",
+    "voteMargin": 8.2
+  },
+  {
+    "desc": "NA 100 Chiniot General Election 2018 Result",
+    "voterTurnout": 61.68,
+    "totalVotes": 216487,
+    "result": [
+      { "candidate": "QAISER AHMED SHEIKH", "party": "PML-N", "votes": 76415 },
+      { "candidate": "ZULFIQAR ALI SHAH", "party": "PTI", "votes": 75559 }
+    ],
+    "id": 100,
+    "xGrid": 20,
+    "yGrid": 13,
+    "region": "Chiniot",
+    "province": "Punjab",
+    "seat": "NA-100",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NA 101 Faisalabad General Election 2018 Result",
+    "voterTurnout": 58.19,
+    "totalVotes": 260844,
+    "result": [
+      { "candidate": "Muhammad Asim Nazir", "party": "Ind", "votes": 147812 },
+      { "candidate": "Zafar Zulqarnain Sahi", "party": "PTI", "votes": 86575 }
+    ],
+    "id": 101,
+    "xGrid": 23,
+    "yGrid": 14,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-101",
+    "voteMargin": 23.5
+  },
+  {
+    "desc": "NA 102 Faisalabad General Election 2018 Result",
+    "voterTurnout": 54.67,
+    "totalVotes": 266192,
+    "result": [
+      { "candidate": "NAWAB SHER", "party": "PTI", "votes": 109708 },
+      { "candidate": "MUHAMMAD TALLAL BADAR", "party": "PML-N", "votes": 97869 }
+    ],
+    "id": 102,
+    "xGrid": 23,
+    "yGrid": 15,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-102",
+    "voteMargin": 4.4
+  },
+  {
+    "desc": "NA 103 Faisalabad General Election 2018 Result",
+    "voterTurnout": 50,
+    "totalVotes": 203888,
+    "result": [
+      {
+        "candidate": "Ali Gohar Khan Baloch",
+        "party": "PML-N",
+        "votes": 77539
+      },
+      {
+        "candidate": "Muhammad Saad Ullah Baloch",
+        "party": "PTI",
+        "votes": 66627
+      }
+    ],
+    "id": 103,
+    "xGrid": 24,
+    "yGrid": 15,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-103",
+    "voteMargin": 5.4
+  },
+  {
+    "desc": "NA 104 Faisalabad General Election 2018 Result",
+    "voterTurnout": 55.88,
+    "totalVotes": 267809,
+    "result": [
+      {
+        "candidate": "Ch Muhammad Shahbaz Babar",
+        "party": "PML-N",
+        "votes": 95099
+      },
+      {
+        "candidate": "Sardar Dildar Ahmad Cheema",
+        "party": "PTI",
+        "votes": 73320
+      }
+    ],
+    "id": 104,
+    "xGrid": 22,
+    "yGrid": 16,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-104",
+    "voteMargin": 8.1
+  },
+  {
+    "desc": "NA 105 Faisalabad General Election 2018 Result",
+    "voterTurnout": 56.84,
+    "totalVotes": 240501,
+    "result": [
+      { "candidate": "Raza Nasrullah", "party": "PTI", "votes": 77862 },
+      { "candidate": "Muhammad Masood Nazir", "party": "Ind", "votes": 69211 }
+    ],
+    "id": 105,
+    "xGrid": 21,
+    "yGrid": 13,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-105",
+    "voteMargin": 3.6
+  },
+  {
+    "desc": "NA 106 Faisalabad General Election 2018 Result",
+    "voterTurnout": 58.92,
+    "totalVotes": 239441,
+    "result": [
+      {
+        "candidate": "Rana Sana Ullah Khan",
+        "party": "PML-N",
+        "votes": 106319
+      },
+      { "candidate": "Nisar Ahmad", "party": "PTI", "votes": 103799 }
+    ],
+    "id": 106,
+    "xGrid": 22,
+    "yGrid": 13,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-106",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 107 Faisalabad General Election 2018 Result",
+    "voterTurnout": 57.52,
+    "totalVotes": 245950,
+    "result": [
+      { "candidate": "Khurram Shahzad", "party": "PTI", "votes": 126441 },
+      {
+        "candidate": "Haji Muhammad Akram Ansari",
+        "party": "PML-N",
+        "votes": 102159
+      }
+    ],
+    "id": 107,
+    "xGrid": 24,
+    "yGrid": 13,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-107",
+    "voteMargin": 9.9
+  },
+  {
+    "desc": "NA 108 Faisalabad General Election 2018 Result",
+    "voterTurnout": 57.01,
+    "totalVotes": 242582,
+    "result": [
+      { "candidate": "FARRUKH HABIB", "party": "PTI", "votes": 112740 },
+      { "candidate": "ABID SHER ALI", "party": "PML-N", "votes": 111529 }
+    ],
+    "id": 108,
+    "xGrid": 25,
+    "yGrid": 13,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-108",
+    "voteMargin": 0.5
+  },
+  {
+    "desc": "NA 109 Faisalabad General Election 2018 Result",
+    "voterTurnout": 58.05,
+    "totalVotes": 239769,
+    "result": [
+      { "candidate": "FAIZ ULLAH", "party": "PTI", "votes": 122905 },
+      { "candidate": "MIAN ABDUL MANNAN", "party": "PML-N", "votes": 94476 }
+    ],
+    "id": 109,
+    "xGrid": 23,
+    "yGrid": 13,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-109",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 110 Faisalabad General Election 2018 Result",
+    "voterTurnout": 57.01,
+    "totalVotes": 249613,
+    "result": [
+      { "candidate": "Raja Riaz Ahmad", "party": "PTI", "votes": 114215 },
+      { "candidate": "Muhammad Afzal Khan", "party": "PML-N", "votes": 108172 }
+    ],
+    "id": 110,
+    "xGrid": 21,
+    "yGrid": 12,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-110",
+    "voteMargin": 2.4
+  },
+  {
+    "desc": "NA 111 Toba Tek Singh General Election 2018 Result",
+    "voterTurnout": 58.32,
+    "totalVotes": 246568,
+    "result": [
+      {
+        "candidate": "CHAUDHARY KHALID JAVED",
+        "party": "PML-N",
+        "votes": 110556
+      },
+      { "candidate": "USAMA HAMZA", "party": "PTI", "votes": 85448 }
+    ],
+    "id": 111,
+    "xGrid": 21,
+    "yGrid": 14,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-111",
+    "voteMargin": 10.2
+  },
+  {
+    "desc": "NA 112 Toba Tek Singh General Election 2018 Result",
+    "voterTurnout": 59.22,
+    "totalVotes": 272751,
+    "result": [
+      {
+        "candidate": "MUHAMMAD JUNAID ANWAR CHAUDHRY",
+        "party": "PML-N",
+        "votes": 125303
+      },
+      { "candidate": "MUHAMMAD ASHFAQ", "party": "PTI", "votes": 121031 }
+    ],
+    "id": 112,
+    "xGrid": 22,
+    "yGrid": 15,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-112",
+    "voteMargin": 1.6
+  },
+  {
+    "desc": "NA 113 Toba Tek Singh General Election 2018 Result",
+    "voterTurnout": 59.9,
+    "totalVotes": 254969,
+    "result": [
+      { "candidate": "MUHAMMAD RIAZ KHAN", "party": "PTI", "votes": 128274 },
+      {
+        "candidate": "CHAUDHARY ASAD UR REHMAN",
+        "party": "PML-N",
+        "votes": 106018
+      }
+    ],
+    "id": 113,
+    "xGrid": 22,
+    "yGrid": 14,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-113",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 114 Jhang General Election 2018 Result",
+    "voterTurnout": 62.45,
+    "totalVotes": 294749,
+    "result": [
+      {
+        "candidate": "SAHIBZADA MUHAMMAD MEHBOOB SULTAN",
+        "party": "PTI",
+        "votes": 106043
+      },
+      {
+        "candidate": "MAKHDOOM SYED FAISAL SALEH HAYAT",
+        "party": "PPP",
+        "votes": 105454
+      }
+    ],
+    "id": 114,
+    "xGrid": 20,
+    "yGrid": 14,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-114",
+    "voteMargin": 0.2
+  },
+  {
+    "desc": "NA 115 Jhang General Election 2018 Result",
+    "voterTurnout": 57.39,
+    "totalVotes": 253830,
+    "result": [
+      { "candidate": "GHULAM BIBI", "party": "PTI", "votes": 91434 },
+      { "candidate": "MUHAMMAD AHMAD", "party": "Ind", "votes": 68515 }
+    ],
+    "id": 115,
+    "xGrid": 18,
+    "yGrid": 13,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-115",
+    "voteMargin": 9
+  },
+  {
+    "desc": "NA 116 Jhang General Election 2018 Result",
+    "voterTurnout": 62.15,
+    "totalVotes": 282368,
+    "result": [
+      { "candidate": "Muhammad Ameer Sultan", "party": "PTI", "votes": 90649 },
+      { "candidate": "MUHAMMAD ASIF MUAVIA", "party": "Ind", "votes": 70842 }
+    ],
+    "id": 116,
+    "xGrid": 19,
+    "yGrid": 14,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-116",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 117 Nankana Sahib General Election 2018 Result",
+    "voterTurnout": 58.4,
+    "totalVotes": 233870,
+    "result": [
+      {
+        "candidate": "CH MUHAMMAD BARJEES TAHIR",
+        "party": "PML-N",
+        "votes": 71891
+      },
+      { "candidate": "TARIQ MEHMOOD BAJWA", "party": "Ind", "votes": 68995 }
+    ],
+    "id": 117,
+    "xGrid": 22,
+    "yGrid": 12,
+    "region": "Nankana Sahib",
+    "province": "Punjab",
+    "seat": "NA-117",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 118 Nankana Sahib General Election 2018 Result",
+    "voterTurnout": 58.64,
+    "totalVotes": 208702,
+    "result": [
+      { "candidate": "Ijaz Ahmad Shah", "party": "PTI", "votes": 63818 },
+      {
+        "candidate": "Shezra Mansab Ali Khan Kharal",
+        "party": "PML-N",
+        "votes": 61413
+      }
+    ],
+    "id": 118,
+    "xGrid": 23,
+    "yGrid": 12,
+    "region": "Nankana Sahib",
+    "province": "Punjab",
+    "seat": "NA-118",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 119 Sheikhupura General Election 2018 Result",
+    "voterTurnout": 56.04,
+    "totalVotes": 229687,
+    "result": [
+      {
+        "candidate": "RAHAT AMAN ULLAH BHATTI",
+        "party": "PTI",
+        "votes": 110231
+      },
+      { "candidate": "RANA AFZAAL HUSSAIN", "party": "PML-N", "votes": 94072 }
+    ],
+    "id": 119,
+    "xGrid": 24,
+    "yGrid": 11,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-119",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 120 Sheikhupura General Election 2018 Result",
+    "voterTurnout": 59.35,
+    "totalVotes": 216295,
+    "result": [
+      { "candidate": "Rana Tanveer Hussain", "party": "PML-N", "votes": 99674 },
+      { "candidate": "Ali Asghar Chaudhary", "party": "PTI", "votes": 74165 }
+    ],
+    "id": 120,
+    "xGrid": 24,
+    "yGrid": 12,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-120",
+    "voteMargin": 11.8
+  },
+  {
+    "desc": "NA 121 Sheikhupura General Election 2018 Result",
+    "voterTurnout": 56.16,
+    "totalVotes": 240240,
+    "result": [
+      { "candidate": "Javed Latif", "party": "PML-N", "votes": 101622 },
+      { "candidate": "Muhammad Saeed Virk", "party": "PTI", "votes": 71308 }
+    ],
+    "id": 121,
+    "xGrid": 25,
+    "yGrid": 11,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-121",
+    "voteMargin": 12.6
+  },
+  {
+    "desc": "NA 122 Sheikhupura General Election 2018 Result",
+    "voterTurnout": 57.83,
+    "totalVotes": 263515,
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Arfan Dogar",
+        "party": "PML-N",
+        "votes": 96000
+      },
+      { "candidate": "Ali Salaman", "party": "PTI", "votes": 64616 }
+    ],
+    "id": 122,
+    "xGrid": 25,
+    "yGrid": 14,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-122",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 123 Lahore General Election 2018 Result",
+    "voterTurnout": 51.13,
+    "totalVotes": 203871,
+    "result": [
+      { "candidate": "muhammad Riaz", "party": "PML-N", "votes": 97193 },
+      { "candidate": "wajid azeem", "party": "PTI", "votes": 72535 }
+    ],
+    "id": 123,
+    "xGrid": 25,
+    "yGrid": 12,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-123",
+    "voteMargin": 12.1
+  },
+  {
+    "desc": "NA 124 Lahore General Election 2018 Result",
+    "voterTurnout": 48.5,
+    "totalVotes": 254901,
+    "result": [
+      {
+        "candidate": "Muhammad Hamza Shehbaz Sharif",
+        "party": "PML-N",
+        "votes": 146294
+      },
+      { "candidate": "Muhammad Nauman Qaiser", "party": "PTI", "votes": 80981 }
+    ],
+    "id": 124,
+    "xGrid": 27,
+    "yGrid": 14,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-124",
+    "voteMargin": 25.6
+  },
+  {
+    "desc": "NA 125 Lahore General Election 2018 Result",
+    "voterTurnout": 0,
+    "totalVotes": 251251,
+    "result": [
+      { "candidate": "Waheed Alam Khan", "party": "PML-N", "votes": 122327 },
+      { "candidate": "Yasmin Raashid", "party": "PTI", "votes": 106857 }
+    ],
+    "id": 125,
+    "xGrid": 26,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-125",
+    "voteMargin": 6.2
+  },
+  {
+    "desc": "NA 126 Lahore General Election 2018 Result",
+    "voterTurnout": 52.26,
+    "totalVotes": 228368,
+    "result": [
+      { "candidate": "Muhammad Hammad Azhar", "party": "PTI", "votes": 105734 },
+      {
+        "candidate": "Mehr Ishtiaq Ahmad Anwar",
+        "party": "PML-N",
+        "votes": 102677
+      }
+    ],
+    "id": 126,
+    "xGrid": 26,
+    "yGrid": 12,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-126",
+    "voteMargin": 1.3
+  },
+  {
+    "desc": "NA 127 Lahore General Election 2018 Result",
+    "voterTurnout": 50.75,
+    "totalVotes": 209135,
+    "result": [
+      { "candidate": "ALI PERVAIZ", "party": "PML-N", "votes": 113265 },
+      { "candidate": "JAMSHED IQBAL", "party": "PTI", "votes": 66818 }
+    ],
+    "id": 127,
+    "xGrid": 27,
+    "yGrid": 16,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-127",
+    "voteMargin": 22.2
+  },
+  {
+    "desc": "NA 128 Lahore General Election 2018 Result",
+    "voterTurnout": 55.21,
+    "totalVotes": 187080,
+    "result": [
+      { "candidate": "Sh Rohale Asghar", "party": "PML-N", "votes": 98199 },
+      { "candidate": "Ijaz Ahmad", "party": "PTI", "votes": 52774 }
+    ],
+    "id": 128,
+    "xGrid": 29,
+    "yGrid": 12,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-128",
+    "voteMargin": 24.3
+  },
+  {
+    "desc": "NA 129 Lahore General Election 2018 Result",
+    "voterTurnout": 53.96,
+    "totalVotes": 214705,
+    "result": [
+      { "candidate": "Sardar Ayaz Sadiq", "party": "PML-N", "votes": 103021 },
+      { "candidate": "Abdul Aleem Khan", "party": "PTI", "votes": 94879 }
+    ],
+    "id": 129,
+    "xGrid": 28,
+    "yGrid": 12,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-129",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 130 Lahore General Election 2018 Result",
+    "voterTurnout": 52.99,
+    "totalVotes": 252258,
+    "result": [
+      { "candidate": "Shafqat Mahmood", "party": "PTI", "votes": 127405 },
+      { "candidate": "Khawaja Ahmad Hasan", "party": "PML-N", "votes": 104625 }
+    ],
+    "id": 130,
+    "xGrid": 26,
+    "yGrid": 15,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-130",
+    "voteMargin": 9
+  },
+  {
+    "desc": "NA 131 Lahore General Election 2018 Result",
+    "voterTurnout": 52.59,
+    "totalVotes": 188711,
+    "result": [
+      { "candidate": "Imran Ahmed Khan Niazi", "party": "PTI", "votes": 84313 },
+      { "candidate": "Khawaja Saad Rafique", "party": "PML-N", "votes": 83633 }
+    ],
+    "id": 131,
+    "xGrid": 27,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-131",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NA 132 Lahore General Election 2018 Result",
+    "voterTurnout": 60.45,
+    "totalVotes": 186927,
+    "result": [
+      {
+        "candidate": "Mian Muhammad Shehbaz Sharif",
+        "party": "PML-N",
+        "votes": 95834
+      },
+      {
+        "candidate": "Ch Muhammad Mansha Sindhu",
+        "party": "PTI",
+        "votes": 49093
+      }
+    ],
+    "id": 132,
+    "xGrid": 29,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-132",
+    "voteMargin": 25
+  },
+  {
+    "desc": "NA 133 Lahore General Election 2018 Result",
+    "voterTurnout": 51.89,
+    "totalVotes": 190531,
+    "result": [
+      {
+        "candidate": "Mohammad pervaiz malik",
+        "party": "PML-N",
+        "votes": 89678
+      },
+      { "candidate": "Ejaz ahmad chaudary", "party": "PTI", "votes": 77231 }
+    ],
+    "id": 133,
+    "xGrid": 26,
+    "yGrid": 14,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-133",
+    "voteMargin": 6.5
+  },
+  {
+    "desc": "NA 134 Lahore General Election 2018 Result",
+    "voterTurnout": 53.4,
+    "totalVotes": 141597,
+    "result": [
+      { "candidate": "Rana Mubashir Iqbal", "party": "PML-N", "votes": 76291 },
+      { "candidate": "Malik Zaheer Abbas", "party": "PTI", "votes": 45991 }
+    ],
+    "id": 134,
+    "xGrid": 28,
+    "yGrid": 13,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-134",
+    "voteMargin": 21.4
+  },
+  {
+    "desc": "NA 135 Lahore General Election 2018 Result",
+    "voterTurnout": 53.94,
+    "totalVotes": 136375,
+    "result": [
+      { "candidate": "MALIK KARAMAT ALI", "party": "PTI", "votes": 64765 },
+      {
+        "candidate": "MALIK SAIF UL MALOOK KHOKHAR",
+        "party": "PML-N",
+        "votes": 55431
+      }
+    ],
+    "id": 135,
+    "xGrid": 26,
+    "yGrid": 16,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-135",
+    "voteMargin": 6.8
+  },
+  {
+    "desc": "NA 136 Lahore General Election 2018 Result",
+    "voterTurnout": 56.08,
+    "totalVotes": 162841,
+    "result": [
+      { "candidate": "MUHAMMAD AFZAL", "party": "PML-N", "votes": 88831 },
+      { "candidate": "MALIK ASAD ALI", "party": "PTI", "votes": 44669 }
+    ],
+    "id": 136,
+    "xGrid": 27,
+    "yGrid": 15,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-136",
+    "voteMargin": 27.1
+  },
+  {
+    "desc": "NA 137 Kasur General Election 2018 Result",
+    "voterTurnout": 58.91,
+    "totalVotes": 265668,
+    "result": [
+      { "candidate": "Saad Waseem", "party": "PML-N", "votes": 121207 },
+      { "candidate": "Sardar Asif Ali Daula", "party": "PTI", "votes": 42930 }
+    ],
+    "id": 137,
+    "xGrid": 28,
+    "yGrid": 15,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-137",
+    "voteMargin": 29.5
+  },
+  {
+    "desc": "NA 138 Kasur General Election 2018 Result",
+    "voterTurnout": 62.38,
+    "totalVotes": 259091,
+    "result": [
+      { "candidate": "RASHEED AHMAD KHAN", "party": "PML-N", "votes": 109385 },
+      { "candidate": "RASHID TUFAIL", "party": "PTI", "votes": 78458 }
+    ],
+    "id": 138,
+    "xGrid": 29,
+    "yGrid": 14,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-138",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 139 Kasur General Election 2018 Result",
+    "voterTurnout": 59.99,
+    "totalVotes": 281027,
+    "result": [
+      {
+        "candidate": "RANA MUHAMMAD ISHAQ KHAN",
+        "party": "PML-N",
+        "votes": 121767
+      },
+      { "candidate": "AZEEM UD DIN ZAHID", "party": "PTI", "votes": 112893 }
+    ],
+    "id": 139,
+    "xGrid": 28,
+    "yGrid": 14,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-139",
+    "voteMargin": 3.2
+  },
+  {
+    "desc": "NA 140 Kasur General Election 2018 Result",
+    "voterTurnout": 60.65,
+    "totalVotes": 281981,
+    "result": [
+      {
+        "candidate": "SARDAR TALIB HASSAN NAKAI",
+        "party": "PTI",
+        "votes": 124621
+      },
+      {
+        "candidate": "RANA MUHAMMAD HAYAT KHAN",
+        "party": "PML-N",
+        "votes": 124385
+      }
+    ],
+    "id": 140,
+    "xGrid": 25,
+    "yGrid": 16,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-140",
+    "voteMargin": 0.1
+  },
+  {
+    "desc": "NA 141 Okara General Election 2018 Result",
+    "voterTurnout": 60.23,
+    "totalVotes": 262877,
+    "result": [
+      { "candidate": "NADEEM ABBAS", "party": "PML-N", "votes": 92841 },
+      {
+        "candidate": "SYED SUMSAM ALI SHAH BUKHARI",
+        "party": "PTI",
+        "votes": 60217
+      }
+    ],
+    "id": 141,
+    "xGrid": 25,
+    "yGrid": 15,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-141",
+    "voteMargin": 12.4
+  },
+  {
+    "desc": "NA 142 Okara General Election 2018 Result",
+    "voterTurnout": 56.81,
+    "totalVotes": 235192,
+    "result": [
+      { "candidate": "Riaz ul Haq", "party": "PML-N", "votes": 140733 },
+      { "candidate": "Rao Hassan Sikandar", "party": "PTI", "votes": 76592 }
+    ],
+    "id": 142,
+    "xGrid": 24,
+    "yGrid": 16,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-142",
+    "voteMargin": 27.3
+  },
+  {
+    "desc": "NA 143 Okara General Election 2018 Result",
+    "voterTurnout": 58.22,
+    "totalVotes": 246272,
+    "result": [
+      {
+        "candidate": "RAO MUHAMMAD AJMAL KHAN",
+        "party": "PML-N",
+        "votes": 142988
+      },
+      {
+        "candidate": "SYED GULZAR SIBTAIN SHAH",
+        "party": "PTI",
+        "votes": 89177
+      }
+    ],
+    "id": 143,
+    "xGrid": 23,
+    "yGrid": 17,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-143",
+    "voteMargin": 21.9
+  },
+  {
+    "desc": "NA 144 Okara General Election 2018 Result",
+    "voterTurnout": 57.42,
+    "totalVotes": 241463,
+    "result": [
+      {
+        "candidate": "Muhammad Mueen Wattoo",
+        "party": "PML-N",
+        "votes": 118670
+      },
+      {
+        "candidate": "MIAN MANZOOR AHMAD KHAN WATTOO",
+        "party": "Ind",
+        "votes": 105585
+      }
+    ],
+    "id": 144,
+    "xGrid": 23,
+    "yGrid": 16,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-144",
+    "voteMargin": 5.4
+  },
+  {
+    "desc": "NA 145 Pakpattan General Election 2018 Result",
+    "voterTurnout": 57.62,
+    "totalVotes": 280086,
+    "result": [
+      { "candidate": "Ahmad Raza Maneka", "party": "PML-N", "votes": 118581 },
+      { "candidate": "Muhammad Shah Khagga", "party": "PTI", "votes": 90683 }
+    ],
+    "id": 145,
+    "xGrid": 24,
+    "yGrid": 17,
+    "region": "Pakpattan",
+    "province": "Punjab",
+    "seat": "NA-145",
+    "voteMargin": 10
+  },
+  {
+    "desc": "NA 146 Pakpattan General Election 2018 Result",
+    "voterTurnout": 59.55,
+    "totalVotes": 298980,
+    "result": [
+      {
+        "candidate": "rana iradat sharif khan",
+        "party": "PML-N",
+        "votes": 138789
+      },
+      {
+        "candidate": "MIAN MUHAMMAD AMJAD JOIYA",
+        "party": "PTI",
+        "votes": 101509
+      }
+    ],
+    "id": 146,
+    "xGrid": 24,
+    "yGrid": 18,
+    "region": "Pakpattan",
+    "province": "Punjab",
+    "seat": "NA-146",
+    "voteMargin": 12.5
+  },
+  {
+    "desc": "NA 147 Sahiwal General Election 2018 Result",
+    "voterTurnout": 56.04,
+    "totalVotes": 260514,
+    "result": [
+      {
+        "candidate": "SYED IMRAN AHMAD SHAH",
+        "party": "PML-N",
+        "votes": 120697
+      },
+      {
+        "candidate": "CHAUDHRY NOURAIZ SHAKOOR KHAN",
+        "party": "PTI",
+        "votes": 86462
+      }
+    ],
+    "id": 147,
+    "xGrid": 23,
+    "yGrid": 19,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-147",
+    "voteMargin": 13.1
+  },
+  {
+    "desc": "NA 148 Sahiwal General Election 2018 Result",
+    "voterTurnout": 56.1,
+    "totalVotes": 269177,
+    "result": [
+      {
+        "candidate": "Chaudry Muhammad Ashraf",
+        "party": "PML-N",
+        "votes": 128880
+      },
+      {
+        "candidate": "Malik Muhammad Yar Dhakoo",
+        "party": "PTI",
+        "votes": 87557
+      }
+    ],
+    "id": 148,
+    "xGrid": 23,
+    "yGrid": 18,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-148",
+    "voteMargin": 15.4
+  },
+  {
+    "desc": "NA 149 Sahiwal General Election 2018 Result",
+    "voterTurnout": 56.92,
+    "totalVotes": 278627,
+    "result": [
+      {
+        "candidate": "RAI MUHAMMAD MURTAZA IQBAL",
+        "party": "PTI",
+        "votes": 137632
+      },
+      { "candidate": "MUHAMMAD TUFAIL", "party": "PML-N", "votes": 111999 }
+    ],
+    "id": 149,
+    "xGrid": 20,
+    "yGrid": 15,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-149",
+    "voteMargin": 9.2
+  },
+  {
+    "desc": "NA 150 Khanewal General Election 2018 Result",
+    "voterTurnout": 59.87,
+    "totalVotes": 222475,
+    "result": [
+      { "candidate": "Syed Fakhar Imam", "party": "Ind", "votes": 101396 },
+      {
+        "candidate": "Muhammad Raza Hayat Hiraj",
+        "party": "PTI",
+        "votes": 91812
+      }
+    ],
+    "id": 150,
+    "xGrid": 19,
+    "yGrid": 15,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-150",
+    "voteMargin": 4.3
+  },
+  {
+    "desc": "NA 151 Khanewal General Election 2018 Result",
+    "voterTurnout": 58.62,
+    "totalVotes": 233754,
+    "result": [
+      { "candidate": "Muhammad Khan Daha", "party": "PML-N", "votes": 111198 },
+      { "candidate": "Ahmad Yar Hiraj", "party": "PTI", "votes": 109520 }
+    ],
+    "id": 151,
+    "xGrid": 19,
+    "yGrid": 16,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-151",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 152 Khanewal General Election 2018 Result",
+    "voterTurnout": 58.62,
+    "totalVotes": 231252,
+    "result": [
+      {
+        "candidate": "Zahoor Hussain Qureshi",
+        "party": "PTI",
+        "votes": 108707
+      },
+      {
+        "candidate": "Pir M Aslam Bodla Siddiqui",
+        "party": "PML-N",
+        "votes": 98938
+      }
+    ],
+    "id": 152,
+    "xGrid": 20,
+    "yGrid": 16,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-152",
+    "voteMargin": 4.2
+  },
+  {
+    "desc": "NA 153 Khanewal General Election 2018 Result",
+    "voterTurnout": 61.29,
+    "totalVotes": 247328,
+    "result": [
+      {
+        "candidate": "Chaudhry Iftikhar Nazir",
+        "party": "PML-N",
+        "votes": 106291
+      },
+      { "candidate": "Malik Ghulam Murtaza", "party": "PTI", "votes": 76920 }
+    ],
+    "id": 153,
+    "xGrid": 21,
+    "yGrid": 17,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-153",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 154 Multan General Election 2018 Result",
+    "voterTurnout": 57.04,
+    "totalVotes": 214634,
+    "result": [
+      { "candidate": "AHMAD HUSSAIN", "party": "PTI", "votes": 74220 },
+      {
+        "candidate": "SYED ABDUL QADIR GILLANI",
+        "party": "PPP",
+        "votes": 64257
+      }
+    ],
+    "id": 154,
+    "xGrid": 19,
+    "yGrid": 17,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-154",
+    "voteMargin": 4.6
+  },
+  {
+    "desc": "NA 155 Multan General Election 2018 Result",
+    "voterTurnout": 49.27,
+    "totalVotes": 236624,
+    "result": [
+      {
+        "candidate": "Malik Muhammad Amir Doger",
+        "party": "PTI",
+        "votes": 135726
+      },
+      {
+        "candidate": "Muhammad Tariq Rasheed",
+        "party": "PML-N",
+        "votes": 80993
+      }
+    ],
+    "id": 155,
+    "xGrid": 21,
+    "yGrid": 16,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-155",
+    "voteMargin": 23.1
+  },
+  {
+    "desc": "NA 156 Multan General Election 2018 Result",
+    "voterTurnout": 49.87,
+    "totalVotes": 218738,
+    "result": [
+      {
+        "candidate": "Makhdoom Shah Mahmood Hussain Qureshi",
+        "party": "PTI",
+        "votes": 116272
+      },
+      { "candidate": "Amir Saeed Ansari", "party": "PML-N", "votes": 84940 }
+    ],
+    "id": 156,
+    "xGrid": 20,
+    "yGrid": 18,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-156",
+    "voteMargin": 14.3
+  },
+  {
+    "desc": "NA 157 Multan General Election 2018 Result",
+    "voterTurnout": 57.27,
+    "totalVotes": 219522,
+    "result": [
+      {
+        "candidate": "MAKHDOOM ZAIN HUSSAIN QURESHI",
+        "party": "PTI",
+        "votes": 77371
+      },
+      { "candidate": "SAYED ALI MOOSA GILANI", "party": "PPP", "votes": 70830 }
+    ],
+    "id": 157,
+    "xGrid": 19,
+    "yGrid": 19,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-157",
+    "voteMargin": 3
+  },
+  {
+    "desc": "NA 158 Multan General Election 2018 Result",
+    "voterTurnout": 56.76,
+    "totalVotes": 241985,
+    "result": [
+      { "candidate": "Muhammad ibrahim khan", "party": "PTI", "votes": 83304 },
+      { "candidate": "Syed Yousaf Raza Gilani", "party": "PPP", "votes": 74443 }
+    ],
+    "id": 158,
+    "xGrid": 20,
+    "yGrid": 17,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-158",
+    "voteMargin": 3.7
+  },
+  {
+    "desc": "NA 159 Multan General Election 2018 Result",
+    "voterTurnout": 56.48,
+    "totalVotes": 226785,
+    "result": [
+      {
+        "candidate": "Rana Muhammad Qasim Noon",
+        "party": "PTI",
+        "votes": 102606
+      },
+      {
+        "candidate": "Muhammad Zulqarnain Bukhari",
+        "party": "PML-N",
+        "votes": 99374
+      }
+    ],
+    "id": 159,
+    "xGrid": 19,
+    "yGrid": 20,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-159",
+    "voteMargin": 1.4
+  },
+  {
+    "desc": "NA 160 Lodhran General Election 2018 Result",
+    "voterTurnout": 60.2,
+    "totalVotes": 267535,
+    "result": [
+      {
+        "candidate": "ABDUL REHMAN KHAN KANJU",
+        "party": "PML-N",
+        "votes": 125740
+      },
+      {
+        "candidate": "MUHAMMAD AKHTAR KHAN KANJU",
+        "party": "PTI",
+        "votes": 115321
+      }
+    ],
+    "id": 160,
+    "xGrid": 18,
+    "yGrid": 19,
+    "region": "Lodhran",
+    "province": "Punjab",
+    "seat": "NA-160",
+    "voteMargin": 3.9
+  },
+  {
+    "desc": "NA 161 Lodhran General Election 2018 Result",
+    "voterTurnout": 57.73,
+    "totalVotes": 258848,
+    "result": [
+      { "candidate": "MIAN MUHAMMAD SHAFIQ", "party": "PTI", "votes": 121300 },
+      {
+        "candidate": "KHAN MUHAMMAD SIDDIQUE KHAN BALOOCH",
+        "party": "PML-N",
+        "votes": 116093
+      }
+    ],
+    "id": 161,
+    "xGrid": 20,
+    "yGrid": 19,
+    "region": "Lodhran",
+    "province": "Punjab",
+    "seat": "NA-161",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 162 Vehari General Election 2018 Result",
+    "voterTurnout": 55.91,
+    "totalVotes": 230227,
+    "result": [
+      {
+        "candidate": "Choudhary Faqir Ahmad",
+        "party": "PML-N",
+        "votes": 81956
+      },
+      { "candidate": "Ayesha Nazir", "party": "Ind", "votes": 64766 }
+    ],
+    "id": 162,
+    "xGrid": 22,
+    "yGrid": 17,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-162",
+    "voteMargin": 7.5
+  },
+  {
+    "desc": "NA 163 Vehari General Election 2018 Result",
+    "voterTurnout": 57.87,
+    "totalVotes": 211965,
+    "result": [
+      { "candidate": "Sajid Mehdi", "party": "PML-N", "votes": 70325 },
+      {
+        "candidate": "Muhammad Ishaq Khan Khakwani",
+        "party": "PTI",
+        "votes": 56873
+      }
+    ],
+    "id": 163,
+    "xGrid": 22,
+    "yGrid": 18,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-163",
+    "voteMargin": 6.3
+  },
+  {
+    "desc": "NA 164 Vehari General Election 2018 Result",
+    "voterTurnout": 57.58,
+    "totalVotes": 229456,
+    "result": [
+      { "candidate": "Tahir Iqbal", "party": "PTI", "votes": 82084 },
+      {
+        "candidate": "Begum Tehmina Doultana",
+        "party": "PML-N",
+        "votes": 68198
+      }
+    ],
+    "id": 164,
+    "xGrid": 21,
+    "yGrid": 18,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-164",
+    "voteMargin": 6.1
+  },
+  {
+    "desc": "NA 165 Vehari General Election 2018 Result",
+    "voterTurnout": 56.39,
+    "totalVotes": 213842,
+    "result": [
+      { "candidate": "Aurangzeb Khan Khichi", "party": "PTI", "votes": 99287 },
+      {
+        "candidate": "Saeed Ahmad Khan Manais",
+        "party": "PML-N",
+        "votes": 65536
+      }
+    ],
+    "id": 165,
+    "xGrid": 22,
+    "yGrid": 19,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-165",
+    "voteMargin": 15.8
+  },
+  {
+    "desc": "NA 166 Bahawalnagar General Election 2018 Result",
+    "voterTurnout": 62.92,
+    "totalVotes": 219458,
+    "result": [
+      {
+        "candidate": "Muhammad Abdul Ghafar Wattoo",
+        "party": "Ind",
+        "votes": 101811
+      },
+      { "candidate": "Syed Muhammad Asghar", "party": "PTI", "votes": 93020 }
+    ],
+    "id": 166,
+    "xGrid": 25,
+    "yGrid": 17,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-166",
+    "voteMargin": 4
+  },
+  {
+    "desc": "NA 167 Bahawalnagar General Election 2018 Result",
+    "voterTurnout": 56.81,
+    "totalVotes": 209306,
+    "result": [
+      { "candidate": "Alam Dad Laleka", "party": "PML-N", "votes": 91349 },
+      {
+        "candidate": "Mian Mumtaz Ahmad Mutayana",
+        "party": "PTI",
+        "votes": 49772
+      }
+    ],
+    "id": 167,
+    "xGrid": 21,
+    "yGrid": 19,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-167",
+    "voteMargin": 19.9
+  },
+  {
+    "desc": "NA 168 Bahawalnagar General Election 2018 Result",
+    "voterTurnout": 56.51,
+    "totalVotes": 227221,
+    "result": [
+      { "candidate": "Ehsan Ul Haq Bajwa", "party": "PML-N", "votes": 124218 },
+      { "candidate": "Fatima Tahir Cheema", "party": "PTI", "votes": 74517 }
+    ],
+    "id": 168,
+    "xGrid": 26,
+    "yGrid": 17,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-168",
+    "voteMargin": 21.9
+  },
+  {
+    "desc": "NA 169 Bahawalnagar General Election 2018 Result",
+    "voterTurnout": 60.34,
+    "totalVotes": 242832,
+    "result": [
+      {
+        "candidate": "NOOR UL HASSAN TANVIR",
+        "party": "PML-N",
+        "votes": 91763
+      },
+      { "candidate": "Muhammad Ijaz Ul Haq", "party": "PML-F", "votes": 72461 }
+    ],
+    "id": 169,
+    "xGrid": 25,
+    "yGrid": 18,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-169",
+    "voteMargin": 7.9
+  },
+  {
+    "desc": "NA 170 Bahawalpur General Election 2018 Result",
+    "voterTurnout": 52.29,
+    "totalVotes": 185464,
+    "result": [
+      {
+        "candidate": "MUHAMMAD FAROOQ AZAM MALIK",
+        "party": "PTI",
+        "votes": 84495
+      },
+      {
+        "candidate": "MUHAMMAD BALIGH UR REHMAN",
+        "party": "PML-N",
+        "votes": 74694
+      }
+    ],
+    "id": 170,
+    "xGrid": 17,
+    "yGrid": 19,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-170",
+    "voteMargin": 5.3
+  },
+  {
+    "desc": "NA 171 Bahawalpur General Election 2018 Result",
+    "voterTurnout": 59.95,
+    "totalVotes": 236422,
+    "result": [
+      {
+        "candidate": "Mian Riaz Hussain Pirzada",
+        "party": "PML-N",
+        "votes": 99202
+      },
+      {
+        "candidate": "choudhary Naeem ud Din Warraich",
+        "party": "PTI",
+        "votes": 88297
+      }
+    ],
+    "id": 171,
+    "xGrid": 20,
+    "yGrid": 20,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-171",
+    "voteMargin": 4.6
+  },
+  {
+    "desc": "NA 172 Bahawalpur General Election 2018 Result",
+    "voterTurnout": 64.08,
+    "totalVotes": 224681,
+    "result": [
+      {
+        "candidate": "Chaudhary Tariq Bashir Cheema",
+        "party": "PML-Q",
+        "votes": 106383
+      },
+      { "candidate": "Saud Majeed", "party": "PML-N", "votes": 101971 }
+    ],
+    "id": 172,
+    "xGrid": 19,
+    "yGrid": 21,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-172",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 173 Bahawalpur General Election 2018 Result",
+    "voterTurnout": 56.02,
+    "totalVotes": 210049,
+    "result": [
+      {
+        "candidate": "MIAN NAJEEB UD DIN AWAISI",
+        "party": "PML-N",
+        "votes": 86142
+      },
+      { "candidate": "KHADEEJA AAMIR", "party": "PTI", "votes": 60211 }
+    ],
+    "id": 173,
+    "xGrid": 18,
+    "yGrid": 18,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-173",
+    "voteMargin": 12.3
+  },
+  {
+    "desc": "NA 174 Bahawalpur General Election 2018 Result",
+    "voterTurnout": 52.68,
+    "totalVotes": 187100,
+    "result": [
+      {
+        "candidate": "Makhdoom Syed Sami ul Hassan Gillani",
+        "party": "PTI",
+        "votes": 63884
+      },
+      {
+        "candidate": "PRINCE BAHAWAL ABBAS ABBASI",
+        "party": "Ind",
+        "votes": 58092
+      }
+    ],
+    "id": 174,
+    "xGrid": 18,
+    "yGrid": 21,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-174",
+    "voteMargin": 3.1
+  },
+  {
+    "desc": "NA 175 Rahim Yar Khan General Election 2018 Result",
+    "voterTurnout": 56.49,
+    "totalVotes": 236534,
+    "result": [
+      { "candidate": "Syed Mobeen Ahmed", "party": "PTI", "votes": 96967 },
+      {
+        "candidate": "Khawaja Ghulam Rasool Kureja",
+        "party": "PPP",
+        "votes": 89113
+      }
+    ],
+    "id": 175,
+    "xGrid": 17,
+    "yGrid": 20,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-175",
+    "voteMargin": 3.3
+  },
+  {
+    "desc": "NA 176 Rahim Yar Khan General Election 2018 Result",
+    "voterTurnout": 54.84,
+    "totalVotes": 211149,
+    "result": [
+      { "candidate": "SHEIKH FAYYAZ UD DIN", "party": "PML-N", "votes": 78536 },
+      { "candidate": "MIAN GHOUS MUHAMMAD", "party": "PTI", "votes": 59860 }
+    ],
+    "id": 176,
+    "xGrid": 17,
+    "yGrid": 22,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-176",
+    "voteMargin": 8.8
+  },
+  {
+    "desc": "NA 177 Rahim Yar Khan General Election 2018 Result",
+    "voterTurnout": 54.71,
+    "totalVotes": 216718,
+    "result": [
+      {
+        "candidate": "Makhdoom Khusro Bukhtyar",
+        "party": "PTI",
+        "votes": 100768
+      },
+      { "candidate": "Makhdoom Shahab ud Din", "party": "PPP", "votes": 64645 }
+    ],
+    "id": 177,
+    "xGrid": 16,
+    "yGrid": 20,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-177",
+    "voteMargin": 16.7
+  },
+  {
+    "desc": "NA 178 Rahim Yar Khan General Election 2018 Result",
+    "voterTurnout": 56.2,
+    "totalVotes": 197373,
+    "result": [
+      { "candidate": "SYED MUSTAFA MAHMUD", "party": "PPP", "votes": 93044 },
+      { "candidate": "MUHAMMAD TARIQ", "party": "PML-N", "votes": 50723 }
+    ],
+    "id": 178,
+    "xGrid": 16,
+    "yGrid": 21,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-178",
+    "voteMargin": 21.4
+  },
+  {
+    "desc": "NA 179 Rahim Yar Khan General Election 2018 Result",
+    "voterTurnout": 57.25,
+    "totalVotes": 249334,
+    "result": [
+      { "candidate": "JAVED IQBAL", "party": "PTI", "votes": 110827 },
+      { "candidate": "MIAN IMTIAZ AHMAD", "party": "PML-N", "votes": 88795 }
+    ],
+    "id": 179,
+    "xGrid": 17,
+    "yGrid": 21,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-179",
+    "voteMargin": 8.8
+  },
+  {
+    "desc": "NA 180 Rahim Yar Khan General Election 2018 Result",
+    "voterTurnout": 58.86,
+    "totalVotes": 220665,
+    "result": [
+      { "candidate": "Syed Murtaza Mahmud", "party": "PPP", "votes": 71988 },
+      {
+        "candidate": "MUHAMMAD ARSHAD KHAN LEGHARI",
+        "party": "PML-N",
+        "votes": 54990
+      }
+    ],
+    "id": 180,
+    "xGrid": 16,
+    "yGrid": 22,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-180",
+    "voteMargin": 7.7
+  },
+  {
+    "desc": "NA 181 Muzaffargarh General Election 2018 Result",
+    "voterTurnout": 62.56,
+    "totalVotes": 197827,
+    "result": [
+      { "candidate": "Muhammad Shabbir Ali", "party": "Ind", "votes": 64012 },
+      { "candidate": "Malik Sulatan Mehmood", "party": "Ind", "votes": 54253 }
+    ],
+    "id": 181,
+    "xGrid": 18,
+    "yGrid": 17,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-181",
+    "voteMargin": 4.9
+  },
+  {
+    "desc": "NA 182 Muzaffargarh General Election 2018 Result",
+    "voterTurnout": 60.99,
+    "totalVotes": 197599,
+    "result": [
+      {
+        "candidate": "Mahar Irshad Ahmad Khan",
+        "party": "PPP",
+        "votes": 53054
+      },
+      { "candidate": "Jamshed Ahmed", "party": "PAR", "votes": 50566 }
+    ],
+    "id": 182,
+    "xGrid": 18,
+    "yGrid": 16,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-182",
+    "voteMargin": 1.3
+  },
+  {
+    "desc": "NA 183 Muzaffargarh General Election 2018 Result",
+    "voterTurnout": 63.22,
+    "totalVotes": 204329,
+    "result": [
+      { "candidate": "Raza Rabani Khar", "party": "PPP", "votes": 54922 },
+      { "candidate": "Fiaz Hussain", "party": "Ind", "votes": 39922 }
+    ],
+    "id": 183,
+    "xGrid": 17,
+    "yGrid": 17,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-183",
+    "voteMargin": 7.3
+  },
+  {
+    "desc": "NA 184 Muzaffargarh General Election 2018 Result",
+    "voterTurnout": 58.52,
+    "totalVotes": 198505,
+    "result": [
+      {
+        "candidate": "Nawabzada Iftakhar Ahmed Khan Babar",
+        "party": "PPP",
+        "votes": 54778
+      },
+      {
+        "candidate": "Malik Ahmed Kareem Qaswer Langrial",
+        "party": "Ind",
+        "votes": 41673
+      }
+    ],
+    "id": 184,
+    "xGrid": 19,
+    "yGrid": 18,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-184",
+    "voteMargin": 6.6
+  },
+  {
+    "desc": "NA 185 Muzaffargarh General Election 2018 Result",
+    "voterTurnout": 68,
+    "totalVotes": 196031,
+    "result": [
+      {
+        "candidate": "Makhdom Zada Sayed Basit Ahmad Sultan",
+        "party": "Ind",
+        "votes": 94282
+      },
+      {
+        "candidate": "Muhammad Mazzam Ali Khan",
+        "party": "PTI",
+        "votes": 72822
+      }
+    ],
+    "id": 185,
+    "xGrid": 16,
+    "yGrid": 19,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-185",
+    "voteMargin": 10.9
+  },
+  {
+    "desc": "NA 186 Muzaffargarh General Election 2018 Result",
+    "voterTurnout": 60.12,
+    "totalVotes": 190540,
+    "result": [
+      { "candidate": "Aamir Talal Khan", "party": "PTI", "votes": 62915 },
+      { "candidate": "Muhammad Dawood Khan", "party": "PPP", "votes": 52790 }
+    ],
+    "id": 186,
+    "xGrid": 16,
+    "yGrid": 18,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-186",
+    "voteMargin": 5.3
+  },
+  {
+    "desc": "NA 187 Layyah General Election 2018 Result",
+    "voterTurnout": 63.45,
+    "totalVotes": 280772,
+    "result": [
+      { "candidate": "Abdul Majeed Khan", "party": "PTI", "votes": 93903 },
+      {
+        "candidate": "Sardar Bahadur Ahmed Khan",
+        "party": "Ind",
+        "votes": 88225
+      }
+    ],
+    "id": 187,
+    "xGrid": 21,
+    "yGrid": 15,
+    "region": "Layyah",
+    "province": "Punjab",
+    "seat": "NA-187",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 188 Layyah General Election 2018 Result",
+    "voterTurnout": 64.02,
+    "totalVotes": 279417,
+    "result": [
+      { "candidate": "Niaz Ahmed", "party": "PTI", "votes": 109420 },
+      {
+        "candidate": "Syed Muhammad Saqlain Bukhari",
+        "party": "PML-N",
+        "votes": 102943
+      }
+    ],
+    "id": 188,
+    "xGrid": 18,
+    "yGrid": 15,
+    "region": "Layyah",
+    "province": "Punjab",
+    "seat": "NA-188",
+    "voteMargin": 2.3
+  },
+  {
+    "desc": "NA 189 Dera Ghazi Khan General Election 2018 Result",
+    "voterTurnout": 52.35,
+    "totalVotes": 166880,
+    "result": [
+      { "candidate": "Khawja Sheraz Mehmood", "party": "PTI", "votes": 78596 },
+      {
+        "candidate": "Sardar Meer Badshah Khan Qaisrani",
+        "party": "Ind",
+        "votes": 39522
+      }
+    ],
+    "id": 189,
+    "xGrid": 17,
+    "yGrid": 14,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-189",
+    "voteMargin": 23.4
+  },
+  {
+    "desc": "NA 190 Dera Ghazi Khan General Election 2018 Result",
+    "voterTurnout": 51.66,
+    "totalVotes": 157766,
+    "result": [
+      {
+        "candidate": "MUHAMMAD AMJAD FAROOQ KHAN KHOSA",
+        "party": "Ind",
+        "votes": 72159
+      },
+      {
+        "candidate": "SARDAR ZULFIQAR ALI KHAN KHOSA",
+        "party": "PTI",
+        "votes": 71964
+      }
+    ],
+    "id": 190,
+    "xGrid": 16,
+    "yGrid": 17,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-190",
+    "voteMargin": 0.1
+  },
+  {
+    "desc": "NA 191 Dera Ghazi Khan General Election 2018 Result",
+    "voterTurnout": 50.54,
+    "totalVotes": 185872,
+    "result": [
+      { "candidate": "Zartaj Gul", "party": "PTI", "votes": 79817 },
+      {
+        "candidate": "Sardar Awais Ahmed Khan Leghari",
+        "party": "PML-N",
+        "votes": 54548
+      }
+    ],
+    "id": 191,
+    "xGrid": 15,
+    "yGrid": 17,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-191",
+    "voteMargin": 13.6
+  },
+  {
+    "desc": "NA 192 Dera Ghazi Khan General Election 2018 Result",
+    "voterTurnout": 54.88,
+    "totalVotes": 160360,
+    "result": [
+      {
+        "candidate": "Sirdar Muhammad Khan Laghari",
+        "party": "PTI",
+        "votes": 80522
+      },
+      {
+        "candidate": "Mian Muhammad Shehbaz Sharif",
+        "party": "PML-N",
+        "votes": 67608
+      }
+    ],
+    "id": 192,
+    "xGrid": 17,
+    "yGrid": 18,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-192",
+    "voteMargin": 8.1
+  },
+  {
+    "desc": "NA 193 Rajanpur General Election 2018 Result",
+    "voterTurnout": 55.68,
+    "totalVotes": 166506,
+    "result": [
+      {
+        "candidate": "SARDAR MUHAMMAD JAFFAR KHAN LEGHARI",
+        "party": "PTI",
+        "votes": 81149
+      },
+      {
+        "candidate": "SARDAR SHER ALI GURCHANI",
+        "party": "Ind",
+        "votes": 46693
+      }
+    ],
+    "id": 193,
+    "xGrid": 15,
+    "yGrid": 18,
+    "region": "Rajanpur",
+    "province": "Punjab",
+    "seat": "NA-193",
+    "voteMargin": 20.7
+  },
+  {
+    "desc": "NA 194 Rajanpur General Election 2018 Result",
+    "voterTurnout": 59.9,
+    "totalVotes": 173585,
+    "result": [
+      {
+        "candidate": "SARDAR NASRULLAH KHAN DRESHAK",
+        "party": "PTI",
+        "votes": 73225
+      },
+      {
+        "candidate": "Hafeez Ur Rehman Khan Dreshak",
+        "party": "Ind",
+        "votes": 64565
+      }
+    ],
+    "id": 194,
+    "xGrid": 15,
+    "yGrid": 19,
+    "region": "Rajanpur",
+    "province": "Punjab",
+    "seat": "NA-194",
+    "voteMargin": 5
+  },
+  {
+    "desc": "NA 195 Rajanpur General Election 2018 Result",
+    "voterTurnout": 63.52,
+    "totalVotes": 167541,
+    "result": [
+      {
+        "candidate": "Sardar Riaz Mehmood Khan Mazari",
+        "party": "PTI",
+        "votes": 89796
+      },
+      { "candidate": "Khizar Hussain Mazari", "party": "PML-N", "votes": 68872 }
+    ],
+    "id": 195,
+    "xGrid": 15,
+    "yGrid": 20,
+    "region": "Rajanpur",
+    "province": "Punjab",
+    "seat": "NA-195",
+    "voteMargin": 12.5
+  },
+  {
+    "desc": "NA 196 Jacobabad General Election 2018 Result",
+    "voterTurnout": 44.59,
+    "totalVotes": 203066,
+    "result": [
+      { "candidate": "Muhammad Mian Soomro", "party": "PTI", "votes": 92274 },
+      { "candidate": "Aijaz Hussain Jakhrani", "party": "PPP", "votes": 86876 }
+    ],
+    "id": 196,
+    "xGrid": 12,
+    "yGrid": 21,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-196",
+    "voteMargin": 2.7
+  },
+  {
+    "desc": "NA 197 Kashmore General Election 2018 Result",
+    "voterTurnout": 36.37,
+    "totalVotes": 150033,
+    "result": [
+      { "candidate": "Ehsan ur Rehman Mazari", "party": "PPP", "votes": 84742 },
+      { "candidate": "Shamsher Ali Mazari", "party": "MMA", "votes": 47326 }
+    ],
+    "id": 197,
+    "xGrid": 14,
+    "yGrid": 22,
+    "region": "Kashmore",
+    "province": "Sindh",
+    "seat": "NA-197",
+    "voteMargin": 24.9
+  },
+  {
+    "desc": "NA 198 Shikarpur General Election 2018 Result",
+    "voterTurnout": 50.13,
+    "totalVotes": 145781,
+    "result": [
+      { "candidate": "Abid Hussain Bhayo", "party": "PPP", "votes": 64187 },
+      { "candidate": "Muhammad Ibrahim Jatoi", "party": "Ind", "votes": 44829 }
+    ],
+    "id": 198,
+    "xGrid": 12,
+    "yGrid": 22,
+    "region": "Shikarpur",
+    "province": "Sindh",
+    "seat": "NA-198",
+    "voteMargin": 13.3
+  },
+  {
+    "desc": "NA 199 Shikarpur General Election 2018 Result",
+    "voterTurnout": 49.75,
+    "totalVotes": 137036,
+    "result": [
+      { "candidate": "Ghous Bux Khan Mahar", "party": "GDA", "votes": 62785 },
+      { "candidate": "Zulfiqar Ali Kamario", "party": "PPP", "votes": 55987 }
+    ],
+    "id": 199,
+    "xGrid": 11,
+    "yGrid": 23,
+    "region": "Shikarpur",
+    "province": "Sindh",
+    "seat": "NA-199",
+    "voteMargin": 5
+  },
+  {
+    "desc": "NA 200 Larkana General Election 2018 Result",
+    "voterTurnout": 48.25,
+    "totalVotes": 152407,
+    "result": [
+      { "candidate": "Bilawal Bhutto Zardari", "party": "PPP", "votes": 84426 },
+      { "candidate": "Rashid Mehmood Soomro", "party": "MMA", "votes": 50200 }
+    ],
+    "id": 200,
+    "xGrid": 12,
+    "yGrid": 23,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-200",
+    "voteMargin": 22.5
+  },
+  {
+    "desc": "NA 201 Larkana General Election 2018 Result",
+    "voterTurnout": 52.71,
+    "totalVotes": 183130,
+    "result": [
+      { "candidate": "Khursheed Ahmed Junejo", "party": "PPP", "votes": 97051 },
+      { "candidate": "Allah Bux Unar", "party": "GDA", "votes": 69111 }
+    ],
+    "id": 201,
+    "xGrid": 11,
+    "yGrid": 24,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-201",
+    "voteMargin": 15.3
+  },
+  {
+    "desc": "NA 202 Kamber Shahdadkot General Election 2018 Result",
+    "voterTurnout": 42.73,
+    "totalVotes": 127881,
+    "result": [
+      { "candidate": "Aftab Shahban Mirani", "party": "PPP", "votes": 72159 },
+      { "candidate": "Nasir Mahmood", "party": "MMA", "votes": 36046 }
+    ],
+    "id": 202,
+    "xGrid": 10,
+    "yGrid": 23,
+    "region": "Kamber Shahdadkot",
+    "province": "Sindh",
+    "seat": "NA-202",
+    "voteMargin": 28.2
+  },
+  {
+    "desc": "NA 203 Kamber Shahdadkot General Election 2018 Result",
+    "voterTurnout": 35.93,
+    "totalVotes": 105327,
+    "result": [
+      {
+        "candidate": "Mir Amer Ali Khan Magsi",
+        "party": "PPP",
+        "votes": 80026
+      },
+      { "candidate": "Sakhawat Ali", "party": "PTI", "votes": 12982 }
+    ],
+    "id": 203,
+    "xGrid": 10,
+    "yGrid": 24,
+    "region": "Kamber Shahdadkot",
+    "province": "Sindh",
+    "seat": "NA-203",
+    "voteMargin": 63.7
+  },
+  {
+    "desc": "NA 204 Ghotki General Election 2018 Result",
+    "voterTurnout": 58.37,
+    "totalVotes": 204069,
+    "result": [
+      { "candidate": "Khalid Ahmed Khan Lund", "party": "PPP", "votes": 99878 },
+      {
+        "candidate": "Abdul Haque alias Mian Mitha",
+        "party": "Ind",
+        "votes": 91739
+      }
+    ],
+    "id": 204,
+    "xGrid": 15,
+    "yGrid": 22,
+    "region": "Ghotki",
+    "province": "Sindh",
+    "seat": "NA-204",
+    "voteMargin": 4
+  },
+  {
+    "desc": "NA 205 Ghotki General Election 2018 Result",
+    "voterTurnout": 50.37,
+    "totalVotes": 157632,
+    "result": [
+      {
+        "candidate": "Ali Muhammad Khan Mahar",
+        "party": "Ind",
+        "votes": 71943
+      },
+      { "candidate": "Ahsanullah", "party": "PPP", "votes": 41843 }
+    ],
+    "id": 205,
+    "xGrid": 14,
+    "yGrid": 23,
+    "region": "Ghotki",
+    "province": "Sindh",
+    "seat": "NA-205",
+    "voteMargin": 19.1
+  },
+  {
+    "desc": "NA 206 Sukkur General Election 2018 Result",
+    "voterTurnout": 58.14,
+    "totalVotes": 162784,
+    "result": [
+      {
+        "candidate": "Syed Khursheed Ahmed Shah",
+        "party": "PPP",
+        "votes": 84726
+      },
+      { "candidate": "Syed Tahir Hussain Shah", "party": "PTI", "votes": 58805 }
+    ],
+    "id": 206,
+    "xGrid": 14,
+    "yGrid": 24,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-206",
+    "voteMargin": 15.9
+  },
+  {
+    "desc": "NA 207 Sukkur General Election 2018 Result",
+    "voterTurnout": 46.47,
+    "totalVotes": 166622,
+    "result": [
+      { "candidate": "NAUMAN ISLAM SHAIKH", "party": "PPP", "votes": 69379 },
+      { "candidate": "MUBEEN AHMED", "party": "PTI", "votes": 60089 }
+    ],
+    "id": 207,
+    "xGrid": 13,
+    "yGrid": 23,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-207",
+    "voteMargin": 5.6
+  },
+  {
+    "desc": "NA 208 Khairpur General Election 2018 Result",
+    "voterTurnout": 50.87,
+    "totalVotes": 172473,
+    "result": [
+      { "candidate": "Nafisa Shah", "party": "PPP", "votes": 107847 },
+      { "candidate": "Syed Ghous Ali Shah", "party": "GDA", "votes": 57477 }
+    ],
+    "id": 208,
+    "xGrid": 13,
+    "yGrid": 24,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-208",
+    "voteMargin": 29.2
+  },
+  {
+    "desc": "NA 209 Khairpur General Election 2018 Result",
+    "voterTurnout": 55.94,
+    "totalVotes": 177514,
+    "result": [
+      {
+        "candidate": "Pir Syed Fazal Ali Shah Jillani",
+        "party": "PPP",
+        "votes": 95921
+      },
+      { "candidate": "Pir Sadruddin Shah", "party": "GDA", "votes": 76046 }
+    ],
+    "id": 209,
+    "xGrid": 13,
+    "yGrid": 25,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-209",
+    "voteMargin": 11.2
+  },
+  {
+    "desc": "NA 210 Khairpur General Election 2018 Result",
+    "voterTurnout": 50.21,
+    "totalVotes": 182441,
+    "result": [
+      {
+        "candidate": "Syed Javed Ali Shah Jillani",
+        "party": "PPP",
+        "votes": 90718
+      },
+      { "candidate": "Syed Kazim Ali Shah", "party": "GDA", "votes": 78525 }
+    ],
+    "id": 210,
+    "xGrid": 12,
+    "yGrid": 24,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-210",
+    "voteMargin": 6.7
+  },
+  {
+    "desc": "NA 211 Naushahro Feroze General Election 2018 Result",
+    "voterTurnout": 55.49,
+    "totalVotes": 206810,
+    "result": [
+      { "candidate": "Syed Abrar Ali Shah", "party": "PPP", "votes": 110914 },
+      {
+        "candidate": "Allalahando Shah Alias Zafar Ali Shah",
+        "party": "GDA",
+        "votes": 80485
+      }
+    ],
+    "id": 211,
+    "xGrid": 12,
+    "yGrid": 25,
+    "region": "Naushero Feroze",
+    "province": "Sindh",
+    "seat": "NA-211",
+    "voteMargin": 14.7
+  },
+  {
+    "desc": "NA 212 Naushahro Feroze General Election 2018 Result",
+    "voterTurnout": 54.68,
+    "totalVotes": 194091,
+    "result": [
+      { "candidate": "Zulfiqar Ali Behan", "party": "PPP", "votes": 90266 },
+      {
+        "candidate": "Ghulam Murtaza Khan Jatoi",
+        "party": "GDA",
+        "votes": 84361
+      }
+    ],
+    "id": 212,
+    "xGrid": 11,
+    "yGrid": 26,
+    "region": "Naushero Feroze",
+    "province": "Sindh",
+    "seat": "NA-212",
+    "voteMargin": 3
+  },
+  {
+    "desc": "NA 213 Shaheed Benazirabad General Election 2018 Result",
+    "voterTurnout": 46.86,
+    "totalVotes": 188009,
+    "result": [
+      { "candidate": "Asif Ali Zardari", "party": "PPP", "votes": 101362 },
+      {
+        "candidate": "Sardar Sher Muhammad Rind Baloch",
+        "party": "GDA",
+        "votes": 54344
+      }
+    ],
+    "id": 213,
+    "xGrid": 12,
+    "yGrid": 26,
+    "region": "Shaheed Benazirabad",
+    "province": "Sindh",
+    "seat": "NA-213",
+    "voteMargin": 25
+  },
+  {
+    "desc": "NA 214 Shaheed Benazirabad General Election 2018 Result",
+    "voterTurnout": 55.79,
+    "totalVotes": 187993,
+    "result": [
+      {
+        "candidate": "Syed Ghulam Mustafa Shah",
+        "party": "PPP",
+        "votes": 110902
+      },
+      { "candidate": "Syed Zain Ul Abdin", "party": "SUP", "votes": 54676 }
+    ],
+    "id": 214,
+    "xGrid": 11,
+    "yGrid": 27,
+    "region": "Shaheed Benazirabad",
+    "province": "Sindh",
+    "seat": "NA-214",
+    "voteMargin": 29.9
+  },
+  {
+    "desc": "NA 215 Sanghar General Election 2018 Result",
+    "voterTurnout": 54.86,
+    "totalVotes": 164479,
+    "result": [
+      { "candidate": "Naveed Dero", "party": "PPP", "votes": 77812 },
+      { "candidate": "HAJI KHUDA BAKSH", "party": "GDA", "votes": 77227 }
+    ],
+    "id": 215,
+    "xGrid": 13,
+    "yGrid": 27,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-215",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NA 216 Sanghar General Election 2018 Result",
+    "voterTurnout": 57.62,
+    "totalVotes": 158571,
+    "result": [
+      { "candidate": "Shazia Jant Marri", "party": "PPP", "votes": 80752 },
+      { "candidate": "Kishin Chand Parwani", "party": "GDA", "votes": 70436 }
+    ],
+    "id": 216,
+    "xGrid": 14,
+    "yGrid": 28,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-216",
+    "voteMargin": 6.5
+  },
+  {
+    "desc": "NA 217 Sanghar General Election 2018 Result",
+    "voterTurnout": 47.59,
+    "totalVotes": 157968,
+    "result": [
+      { "candidate": "Roshanuddin Junejo", "party": "PPP", "votes": 102361 },
+      {
+        "candidate": "Mehar Ali Alias Mahi Khan",
+        "party": "GDA",
+        "votes": 43757
+      }
+    ],
+    "id": 217,
+    "xGrid": 13,
+    "yGrid": 28,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-217",
+    "voteMargin": 37.1
+  },
+  {
+    "desc": "NA 218 Mirpurkhas General Election 2018 Result",
+    "voterTurnout": 50.63,
+    "totalVotes": 170739,
+    "result": [
+      { "candidate": "Ali Nawaz Shah", "party": "Ind", "votes": 75795 },
+      { "candidate": "Pir Hassan Ali Shah", "party": "PPP", "votes": 67552 }
+    ],
+    "id": 218,
+    "xGrid": 14,
+    "yGrid": 29,
+    "region": "Mirpurkhas",
+    "province": "Sindh",
+    "seat": "NA-218",
+    "voteMargin": 4.8
+  },
+  {
+    "desc": "NA 219 Mirpurkhas General Election 2018 Result",
+    "voterTurnout": 53.39,
+    "totalVotes": 175605,
+    "result": [
+      { "candidate": "Mir Munwar Ali Talpur", "party": "PPP", "votes": 105823 },
+      { "candidate": "Arbab Ghulam Rahim", "party": "GDA", "votes": 51145 }
+    ],
+    "id": 219,
+    "xGrid": 14,
+    "yGrid": 30,
+    "region": "Mirpurkhas",
+    "province": "Sindh",
+    "seat": "NA-219",
+    "voteMargin": 31.1
+  },
+  {
+    "desc": "NA 220 Umerkot General Election 2018 Result",
+    "voterTurnout": 61.96,
+    "totalVotes": 274686,
+    "result": [
+      {
+        "candidate": "Nawab Muhammad Yousuf Talpur",
+        "party": "PPP",
+        "votes": 162979
+      },
+      {
+        "candidate": "Makhdoom Shah Mahmood Hussain Qureshi",
+        "party": "PTI",
+        "votes": 104267
+      }
+    ],
+    "id": 220,
+    "xGrid": 15,
+    "yGrid": 29,
+    "region": "Umerkot",
+    "province": "Sindh",
+    "seat": "NA-220",
+    "voteMargin": 21.4
+  },
+  {
+    "desc": "NA 221 Tharparkar General Election 2018 Result",
+    "voterTurnout": 68.68,
+    "totalVotes": 157186,
+    "result": [
+      {
+        "candidate": "Pir Noor Muhammad Shah Jeelani",
+        "party": "PPP",
+        "votes": 79098
+      },
+      {
+        "candidate": "Makhdoom Shah Mahmood Hussain Qureshi",
+        "party": "PTI",
+        "votes": 72127
+      }
+    ],
+    "id": 221,
+    "xGrid": 17,
+    "yGrid": 30,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-221",
+    "voteMargin": 4.4
+  },
+  {
+    "desc": "NA 222 Tharparkar General Election 2018 Result",
+    "voterTurnout": 70.91,
+    "totalVotes": 222577,
+    "result": [
+      { "candidate": "Mahesh Kumar Malani", "party": "PPP", "votes": 106630 },
+      { "candidate": "Arbab Zakaullah", "party": "GDA", "votes": 87251 }
+    ],
+    "id": 222,
+    "xGrid": 15,
+    "yGrid": 31,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-222",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 223 Matiari General Election 2018 Result",
+    "voterTurnout": 54.06,
+    "totalVotes": 179259,
+    "result": [
+      {
+        "candidate": "Makhdoom Jameel Uz Zaman",
+        "party": "PPP",
+        "votes": 109960
+      },
+      {
+        "candidate": "Makhdoom Fazal Hussain Qureshi",
+        "party": "GDA",
+        "votes": 50366
+      }
+    ],
+    "id": 223,
+    "xGrid": 12,
+    "yGrid": 27,
+    "region": "Matiari",
+    "province": "Sindh",
+    "seat": "NA-223",
+    "voteMargin": 33.2
+  },
+  {
+    "desc": "NA 224 Tando Allahyar General Election 2018 Result",
+    "voterTurnout": 54.05,
+    "totalVotes": 189523,
+    "result": [
+      { "candidate": "Zulfiqar Bachani", "party": "PPP", "votes": 97147 },
+      { "candidate": "Mohammad Mohsin", "party": "GDA", "votes": 70914 }
+    ],
+    "id": 224,
+    "xGrid": 13,
+    "yGrid": 29,
+    "region": "Tando Allahyar",
+    "province": "Sindh",
+    "seat": "NA-224",
+    "voteMargin": 13.8
+  },
+  {
+    "desc": "NA 225 Hyderabad General Election 2018 Result",
+    "voterTurnout": 48.1,
+    "totalVotes": 140421,
+    "result": [
+      { "candidate": "Syed Hussain Tariq", "party": "PPP", "votes": 81983 },
+      {
+        "candidate": "Khawand Bux Ghulam Muhammad",
+        "party": "PTI",
+        "votes": 50968
+      }
+    ],
+    "id": 225,
+    "xGrid": 12,
+    "yGrid": 28,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-225",
+    "voteMargin": 22.1
+  },
+  {
+    "desc": "NA 226 Hyderabad General Election 2018 Result",
+    "voterTurnout": 39.59,
+    "totalVotes": 145709,
+    "result": [
+      { "candidate": "Sabir Hussain", "party": "MQM", "votes": 46646 },
+      { "candidate": "Jamshed Ali Shaikh", "party": "PTI", "votes": 38672 }
+    ],
+    "id": 226,
+    "xGrid": 12,
+    "yGrid": 30,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-226",
+    "voteMargin": 5.5
+  },
+  {
+    "desc": "NA 227 Hyderabad General Election 2018 Result",
+    "voterTurnout": 39.89,
+    "totalVotes": 145203,
+    "result": [
+      {
+        "candidate": "Salahuddin son of Shaikh Rahimuddin",
+        "party": "MQM",
+        "votes": 52053
+      },
+      { "candidate": "Q Muhammad Hakam", "party": "PTI", "votes": 41513 }
+    ],
+    "id": 227,
+    "xGrid": 11,
+    "yGrid": 29,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-227",
+    "voteMargin": 7.3
+  },
+  {
+    "desc": "NA 228 Tando Muhammad Khan General Election 2018 Result",
+    "voterTurnout": 53.51,
+    "totalVotes": 140076,
+    "result": [
+      { "candidate": "Syed Naveed Qamar", "party": "PPP", "votes": 76067 },
+      { "candidate": "Mir Ali Nawaz Talpur", "party": "GDA", "votes": 45159 }
+    ],
+    "id": 228,
+    "xGrid": 12,
+    "yGrid": 29,
+    "region": "Tando Muhammad Khan",
+    "province": "Sindh",
+    "seat": "NA-228",
+    "voteMargin": 22.1
+  },
+  {
+    "desc": "NA 229 Badin General Election 2018 Result",
+    "voterTurnout": 52.96,
+    "totalVotes": 195265,
+    "result": [
+      { "candidate": "Mir Ghulam Ali Talpur", "party": "PPP", "votes": 96977 },
+      { "candidate": "Muhammad Hasam Mirza", "party": "GDA", "votes": 81828 }
+    ],
+    "id": 229,
+    "xGrid": 13,
+    "yGrid": 30,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-229",
+    "voteMargin": 7.8
+  },
+  {
+    "desc": "NA 230 Badin General Election 2018 Result",
+    "voterTurnout": 58.17,
+    "totalVotes": 206056,
+    "result": [
+      { "candidate": "Fehmida Mirza", "party": "GDA", "votes": 96875 },
+      { "candidate": "Haji Rasool Bux Chandio", "party": "PPP", "votes": 96015 }
+    ],
+    "id": 230,
+    "xGrid": 13,
+    "yGrid": 31,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-230",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NA 231 Sujawal General Election 2018 Result",
+    "voterTurnout": 45.89,
+    "totalVotes": 152824,
+    "result": [
+      {
+        "candidate": "Syed Ayaz Ali Shah Serazi",
+        "party": "PPP",
+        "votes": 129980
+      },
+      {
+        "candidate": "Molvi Muhammad Saleh Alhadad",
+        "party": "MMA",
+        "votes": 11177
+      }
+    ],
+    "id": 231,
+    "xGrid": 11,
+    "yGrid": 32,
+    "region": "Sajawal",
+    "province": "Sindh",
+    "seat": "NA-231",
+    "voteMargin": 77.7
+  },
+  {
+    "desc": "NA 232 Thatta General Election 2018 Result",
+    "voterTurnout": 43.41,
+    "totalVotes": 182484,
+    "result": [
+      { "candidate": "Shams un Nisa", "party": "PPP", "votes": 152691 },
+      { "candidate": "Arslan Bux Brohi", "party": "PTI", "votes": 18900 }
+    ],
+    "id": 232,
+    "xGrid": 10,
+    "yGrid": 30,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-232",
+    "voteMargin": 73.3
+  },
+  {
+    "desc": "NA 233 Jamshoro General Election 2018 Result",
+    "voterTurnout": 56.35,
+    "totalVotes": 229406,
+    "result": [
+      {
+        "candidate": "SIKANDAR ALI RAHOUPOTO",
+        "party": "PPP",
+        "votes": 133492
+      },
+      { "candidate": "SAYED JALAL MEHMOOD", "party": "SUP", "votes": 81289 }
+    ],
+    "id": 233,
+    "xGrid": 11,
+    "yGrid": 28,
+    "region": "Jamshoro",
+    "province": "Sindh",
+    "seat": "NA-233",
+    "voteMargin": 22.8
+  },
+  {
+    "desc": "NA 234 Dadu General Election 2018 Result",
+    "voterTurnout": 50.41,
+    "totalVotes": 181763,
+    "result": [
+      { "candidate": "Irfan Ali Leghari", "party": "PPP", "votes": 96038 },
+      { "candidate": "Liaquat Ali Jatoi", "party": "PTI", "votes": 82730 }
+    ],
+    "id": 234,
+    "xGrid": 10,
+    "yGrid": 25,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-234",
+    "voteMargin": 7.3
+  },
+  {
+    "desc": "NA 235 Dadu General Election 2018 Result",
+    "voterTurnout": 49.67,
+    "totalVotes": 168393,
+    "result": [
+      { "candidate": "Rafique Ahmed Jamali", "party": "PPP", "votes": 81200 },
+      { "candidate": "Karim Ali Jatoi", "party": "PTI", "votes": 63008 }
+    ],
+    "id": 235,
+    "xGrid": 10,
+    "yGrid": 26,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-235",
+    "voteMargin": 10.8
+  },
+  {
+    "desc": "NA 236 Malir General Election 2018 Result",
+    "voterTurnout": 50.4,
+    "totalVotes": 115459,
+    "result": [
+      { "candidate": "JAM ABDUL KARIM BIJAR", "party": "PPP", "votes": 66623 },
+      { "candidate": "MASROOR ALI", "party": "PTI", "votes": 26456 }
+    ],
+    "id": 236,
+    "xGrid": 9,
+    "yGrid": 28,
+    "region": "Malir",
+    "province": "Sindh",
+    "seat": "NA-236",
+    "voteMargin": 34.8
+  },
+  {
+    "desc": "NA 237 Malir General Election 2018 Result",
+    "voterTurnout": 42.23,
+    "totalVotes": 126763,
+    "result": [
+      { "candidate": "Jamil Ahmed Khan", "party": "PTI", "votes": 33280 },
+      { "candidate": "Abdul Hakeem Baloch", "party": "PPP", "votes": 31907 }
+    ],
+    "id": 237,
+    "xGrid": 9,
+    "yGrid": 32,
+    "region": "Malir",
+    "province": "Sindh",
+    "seat": "NA-237",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 238 Malir General Election 2018 Result",
+    "voterTurnout": 44,
+    "totalVotes": 100408,
+    "result": [
+      { "candidate": "Syed Rafiullah", "party": "PPP", "votes": 29598 },
+      { "candidate": "Hafiz Aurangzaib", "party": "PRP", "votes": 19463 }
+    ],
+    "id": 238,
+    "xGrid": 11,
+    "yGrid": 30,
+    "region": "Malir",
+    "province": "Sindh",
+    "seat": "NA-238",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 239 Korangi Karachi General Election 2018 Result",
+    "voterTurnout": 42.41,
+    "totalVotes": 220937,
+    "result": [
+      { "candidate": "MUHAMMAD AKRAM", "party": "PTI", "votes": 69147 },
+      { "candidate": "SOHAIL MANSOOR KHAWAJA", "party": "MQM", "votes": 68811 }
+    ],
+    "id": 239,
+    "xGrid": 10,
+    "yGrid": 29,
+    "region": "Korangi",
+    "province": "Sindh",
+    "seat": "NA-239",
+    "voteMargin": 0.2
+  },
+  {
+    "desc": "NA 240 Korangi Karachi General Election 2018 Result",
+    "voterTurnout": 37.38,
+    "totalVotes": 174958,
+    "result": [
+      {
+        "candidate": "IQBAL MUHAMMAD ALI KHAN",
+        "party": "MQM",
+        "votes": 61165
+      },
+      { "candidate": "MUHAMMAD ASIF", "party": "TLP", "votes": 30535 }
+    ],
+    "id": 240,
+    "xGrid": 7,
+    "yGrid": 32,
+    "region": "Korangi",
+    "province": "Sindh",
+    "seat": "NA-240",
+    "voteMargin": 17.5
+  },
+  {
+    "desc": "NA 241 Korangi Karachi General Election 2018 Result",
+    "voterTurnout": 36.28,
+    "totalVotes": 111812,
+    "result": [
+      { "candidate": "Faheem Khan", "party": "PTI", "votes": 26706 },
+      {
+        "candidate": "Muhammad Moin Aamer Pirzada",
+        "party": "MQM",
+        "votes": 23873
+      }
+    ],
+    "id": 241,
+    "xGrid": 9,
+    "yGrid": 30,
+    "region": "Korangi",
+    "province": "Sindh",
+    "seat": "NA-241",
+    "voteMargin": 2.5
+  },
+  {
+    "desc": "NA 242 Karachi East General Election 2018 Result",
+    "voterTurnout": 38.56,
+    "totalVotes": 68849,
+    "result": [
+      { "candidate": "Saif Ur Rehman", "party": "PTI", "votes": 27333 },
+      { "candidate": "Muhammad Iqbal", "party": "PPP", "votes": 11823 }
+    ],
+    "id": 242,
+    "xGrid": 10,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-242",
+    "voteMargin": 22.5
+  },
+  {
+    "desc": "NA 243 Karachi East General Election 2018 Result",
+    "voterTurnout": 41.14,
+    "totalVotes": 163018,
+    "result": [
+      { "candidate": "Imran Ahmed Khan Niazi", "party": "PTI", "votes": 91358 },
+      { "candidate": "Syed Ali Raza", "party": "MQM", "votes": 24082 }
+    ],
+    "id": 243,
+    "xGrid": 8,
+    "yGrid": 30,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-243",
+    "voteMargin": 41.3
+  },
+  {
+    "desc": "NA 244 Karachi East General Election 2018 Result",
+    "voterTurnout": 41.91,
+    "totalVotes": 167995,
+    "result": [
+      { "candidate": "Syed Ali Haider Zaidi", "party": "PTI", "votes": 69475 },
+      { "candidate": "Miftah Ismail Ahmed", "party": "PML-N", "votes": 31247 }
+    ],
+    "id": 244,
+    "xGrid": 9,
+    "yGrid": 29,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-244",
+    "voteMargin": 22.8
+  },
+  {
+    "desc": "NA 245 Karachi East General Election 2018 Result",
+    "voterTurnout": 37.49,
+    "totalVotes": 163439,
+    "result": [
+      { "candidate": "Aamir Hussain", "party": "PTI", "votes": 56615 },
+      { "candidate": "Muhammad Farooq Sattar", "party": "MQM", "votes": 35247 }
+    ],
+    "id": 245,
+    "xGrid": 8,
+    "yGrid": 32,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-245",
+    "voteMargin": 13.1
+  },
+  {
+    "desc": "NA 246 Karachi South General Election 2018 Result",
+    "voterTurnout": 38.49,
+    "totalVotes": 203109,
+    "result": [
+      { "candidate": "Abdul Shakoor Shad", "party": "PTI", "votes": 52750 },
+      { "candidate": "Ahmed Bakhsh", "party": "TLP", "votes": 42345 }
+    ],
+    "id": 246,
+    "xGrid": 8,
+    "yGrid": 29,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-246",
+    "voteMargin": 5.1
+  },
+  {
+    "desc": "NA 247 Karachi South General Election 2018 Result",
+    "voterTurnout": 40.27,
+    "totalVotes": 216446,
+    "result": [
+      { "candidate": "ARIF UR REHMAN ALVI", "party": "PTI", "votes": 91020 },
+      { "candidate": "SYED ZAMAN ALI JAFRI", "party": "TLP", "votes": 24680 }
+    ],
+    "id": 247,
+    "xGrid": 11,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-247",
+    "voteMargin": 30.6
+  },
+  {
+    "desc": "NA 248 Karachi West General Election 2018 Result",
+    "voterTurnout": 41.11,
+    "totalVotes": 121592,
+    "result": [
+      { "candidate": "Abdul Qadir Patel", "party": "PPP", "votes": 35124 },
+      { "candidate": "Sardar Aziz", "party": "PTI", "votes": 34101 }
+    ],
+    "id": 248,
+    "xGrid": 8,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-248",
+    "voteMargin": 0.8
+  },
+  {
+    "desc": "NA 249 Karachi West General Election 2018 Result",
+    "voterTurnout": 39.58,
+    "totalVotes": 128501,
+    "result": [
+      { "candidate": "Muhammad Faisal Vawda", "party": "PTI", "votes": 35344 },
+      {
+        "candidate": "Mian Muhammad Shehbaz Sharif",
+        "party": "PML-N",
+        "votes": 34626
+      }
+    ],
+    "id": 249,
+    "xGrid": 7,
+    "yGrid": 29,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-249",
+    "voteMargin": 0.6
+  },
+  {
+    "desc": "NA 250 Karachi West General Election 2018 Result",
+    "voterTurnout": 37.4,
+    "totalVotes": 146717,
+    "result": [
+      { "candidate": "Attaullah", "party": "PTI", "votes": 36049 },
+      { "candidate": "Fayyaz Kaim Khani", "party": "MQM", "votes": 29086 }
+    ],
+    "id": 250,
+    "xGrid": 9,
+    "yGrid": 33,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-250",
+    "voteMargin": 4.7
+  },
+  {
+    "desc": "NA 251 Karachi West General Election 2018 Result",
+    "voterTurnout": 43.81,
+    "totalVotes": 174404,
+    "result": [
+      { "candidate": "SYED AMIN UL HAQUE", "party": "MQM", "votes": 56888 },
+      { "candidate": "MOHAMMAD ASLAM", "party": "PTI", "votes": 33462 }
+    ],
+    "id": 251,
+    "xGrid": 7,
+    "yGrid": 30,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-251",
+    "voteMargin": 13.4
+  },
+  {
+    "desc": "NA 252 Karachi West General Election 2018 Result",
+    "voterTurnout": 39.61,
+    "totalVotes": 84542,
+    "result": [
+      { "candidate": "Aftab Jehangir", "party": "PTI", "votes": 21065 },
+      { "candidate": "Abdul Qadir Khanzada", "party": "MQM", "votes": 17858 }
+    ],
+    "id": 252,
+    "xGrid": 10,
+    "yGrid": 28,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-252",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 253 Karachi Central General Election 2018 Result",
+    "voterTurnout": 38.12,
+    "totalVotes": 152046,
+    "result": [
+      { "candidate": "Usama Qadri", "party": "MQM", "votes": 52426 },
+      { "candidate": "Muhammmad Ashraf Jabbar", "party": "PTI", "votes": 39145 }
+    ],
+    "id": 253,
+    "xGrid": 9,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-253",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 254 Karachi Central General Election 2018 Result",
+    "voterTurnout": 39.2,
+    "totalVotes": 196063,
+    "result": [
+      { "candidate": "Muhammad Aslam Khan", "party": "PTI", "votes": 75702 },
+      { "candidate": "Sheikh Salahud din", "party": "MQM", "votes": 48813 }
+    ],
+    "id": 254,
+    "xGrid": 7,
+    "yGrid": 28,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-254",
+    "voteMargin": 13.7
+  },
+  {
+    "desc": "NA 255 Karachi Central General Election 2018 Result",
+    "voterTurnout": 37.91,
+    "totalVotes": 172253,
+    "result": [
+      {
+        "candidate": "KHALID MAQBOOL SIDDIQUI",
+        "party": "MQM",
+        "votes": 59807
+      },
+      { "candidate": "MEHMOOD BAQI MOULVI", "party": "PTI", "votes": 50352 }
+    ],
+    "id": 255,
+    "xGrid": 10,
+    "yGrid": 32,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-255",
+    "voteMargin": 5.5
+  },
+  {
+    "desc": "NA 256 Karachi Central General Election 2018 Result",
+    "voterTurnout": 41.25,
+    "totalVotes": 198866,
+    "result": [
+      { "candidate": "Muhammad Najeeb Haroon", "party": "PTI", "votes": 89850 },
+      { "candidate": "Amir Wali uddin Chishti", "party": "MQM", "votes": 45575 }
+    ],
+    "id": 256,
+    "xGrid": 7,
+    "yGrid": 31,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-256",
+    "voteMargin": 22.3
+  },
+  {
+    "desc": "NA 257 Killa Saifullah Zhob Sherani General Election 2018 Result",
+    "voterTurnout": 46.86,
+    "totalVotes": 117972,
+    "result": [
+      { "candidate": "Abdul Wasay", "party": "MMA", "votes": 43851 },
+      { "candidate": "Allah Noor", "party": "PKMAP", "votes": 22446 }
+    ],
+    "id": 257,
+    "xGrid": 13,
+    "yGrid": 14,
+    "region": "Killa Saifullah",
+    "province": "Balochistan",
+    "seat": "NA-257",
+    "voteMargin": 18.1
+  },
+  {
+    "desc": "NA 258 Loralai Musa Khel Ziarat Dukki Harnai General Election 2018 Result",
+    "voterTurnout": 52.68,
+    "totalVotes": 158673,
+    "result": [
+      { "candidate": "Muhammad Israr Tareen", "party": "BAP", "votes": 42938 },
+      { "candidate": "Amir Zaman", "party": "MMA", "votes": 38457 }
+    ],
+    "id": 258,
+    "xGrid": 13,
+    "yGrid": 16,
+    "region": "Loralai",
+    "province": "Balochistan",
+    "seat": "NA-258",
+    "voteMargin": 2.8
+  },
+  {
+    "desc": "NA 259 Dera Bugti Kohlu Barkhan Sibi Lehri General Election 2018 Result",
+    "voterTurnout": 44.79,
+    "totalVotes": 147641,
+    "result": [
+      {
+        "candidate": "Nawabzada Shahzain Bugtti",
+        "party": "JWP",
+        "votes": 22787
+      },
+      {
+        "candidate": "Mir Tariq Mehmood Kethran",
+        "party": "Ind",
+        "votes": 21213
+      }
+    ],
+    "id": 259,
+    "xGrid": 13,
+    "yGrid": 19,
+    "region": "Dera Bugti",
+    "province": "Balochistan",
+    "seat": "NA-259",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 260 Nasirabad General Election 2018 Result",
+    "voterTurnout": 39.14,
+    "totalVotes": 130510,
+    "result": [
+      { "candidate": "Khalid Hussain Magsi", "party": "BAP", "votes": 53330 },
+      {
+        "candidate": "Sardar Yar Muhammad Rind",
+        "party": "PTI",
+        "votes": 40188
+      }
+    ],
+    "id": 260,
+    "xGrid": 10,
+    "yGrid": 20,
+    "region": "Nasirabad",
+    "province": "Balochistan",
+    "seat": "NA-260",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 261 Jafarabad Sohbatpur General Election 2018 Result",
+    "voterTurnout": 38.89,
+    "totalVotes": 110593,
+    "result": [
+      {
+        "candidate": "Mir Khan Muhammad Jamali",
+        "party": "PTI",
+        "votes": 45222
+      },
+      { "candidate": "Mir Changez Khan Jamali", "party": "PPP", "votes": 27563 }
+    ],
+    "id": 261,
+    "xGrid": 11,
+    "yGrid": 22,
+    "region": "Jafarabad",
+    "province": "Balochistan",
+    "seat": "NA-261",
+    "voteMargin": 16
+  },
+  {
+    "desc": "NA 262 Pishin General Election 2018 Result",
+    "voterTurnout": 47.87,
+    "totalVotes": 117336,
+    "result": [
+      { "candidate": "Kamal Uddin", "party": "MMA", "votes": 50258 },
+      { "candidate": "Muhammad Essa Khan", "party": "PKMAP", "votes": 28344 }
+    ],
+    "id": 262,
+    "xGrid": 9,
+    "yGrid": 15,
+    "region": "Pishin",
+    "province": "Balochistan",
+    "seat": "NA-262",
+    "voteMargin": 18.7
+  },
+  {
+    "desc": "NA 263 Pishin General Election 2018 Result",
+    "voterTurnout": 41.03,
+    "totalVotes": 92032,
+    "result": [
+      { "candidate": "Salahuddin", "party": "MMA", "votes": 37971 },
+      { "candidate": "Asghar Khan", "party": "ANP", "votes": 21417 }
+    ],
+    "id": 263,
+    "xGrid": 8,
+    "yGrid": 15,
+    "region": "Pishin",
+    "province": "Balochistan",
+    "seat": "NA-263",
+    "voteMargin": 18
+  },
+  {
+    "desc": "NA 264 Killa Abdullah General Election 2018 Result",
+    "voterTurnout": 39.77,
+    "totalVotes": 67291,
+    "result": [
+      { "candidate": "Asmatullah", "party": "MMA", "votes": 14887 },
+      { "candidate": "Malik Abdul Wali Kakar", "party": "BNP", "votes": 10071 }
+    ],
+    "id": 264,
+    "xGrid": 8,
+    "yGrid": 17,
+    "region": "Killa Abdullah",
+    "province": "Balochistan",
+    "seat": "NA-264",
+    "voteMargin": 7.2
+  },
+  {
+    "desc": "NA 265 Quetta General Election 2018 Result",
+    "voterTurnout": 36.79,
+    "totalVotes": 114731,
+    "result": [
+      { "candidate": "Qasim Khan Soori", "party": "PTI", "votes": 25973 },
+      { "candidate": "Mir Lashkari Raisani", "party": "BNP", "votes": 20389 }
+    ],
+    "id": 265,
+    "xGrid": 8,
+    "yGrid": 16,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-265",
+    "voteMargin": 4.9
+  },
+  {
+    "desc": "NA 266 Quetta General Election 2018 Result",
+    "voterTurnout": 34.3,
+    "totalVotes": 61541,
+    "result": [
+      { "candidate": "Agha Hassan Baloch", "party": "BNP", "votes": 20034 },
+      { "candidate": "Hafiz hussain ahmed", "party": "MMA", "votes": 11057 }
+    ],
+    "id": 266,
+    "xGrid": 9,
+    "yGrid": 17,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-266",
+    "voteMargin": 14.6
+  },
+  {
+    "desc": "NA 267 Mastung Kalat General Election 2018 Result",
+    "voterTurnout": 48.66,
+    "totalVotes": 110840,
+    "result": [
+      { "candidate": "Syed Mehmood Shah", "party": "MMA", "votes": 26645 },
+      { "candidate": "Manzoor Ahmed Baloch", "party": "BNP", "votes": 25738 }
+    ],
+    "id": 267,
+    "xGrid": 8,
+    "yGrid": 19,
+    "region": "Mastung",
+    "province": "Balochistan",
+    "seat": "NA-267",
+    "voteMargin": 0.8
+  },
+  {
+    "desc": "NA 268 Chaghai Nushki General Election 2018 Result",
+    "voterTurnout": 1.76,
+    "totalVotes": 3973,
+    "result": [
+      { "candidate": "Muhammad Usman Badini", "party": "MMA", "votes": 1210 },
+      { "candidate": "Muhammad Hashim", "party": "BNP", "votes": 1137 }
+    ],
+    "id": 268,
+    "xGrid": 2,
+    "yGrid": 20,
+    "region": "Chaghai",
+    "province": "Balochistan",
+    "seat": "NA-268",
+    "voteMargin": 1.8
+  },
+  {
+    "desc": "NA 269 Khuzdar General Election 2018 Result",
+    "voterTurnout": 54.32,
+    "totalVotes": 113650,
+    "result": [
+      { "candidate": "Muhammad Akhtar Mengal", "party": "BNP", "votes": 52875 },
+      { "candidate": "Mohammad Khalid Bizenjo", "party": "BAP", "votes": 19720 }
+    ],
+    "id": 269,
+    "xGrid": 8,
+    "yGrid": 24,
+    "region": "Khuzdar",
+    "province": "Balochistan",
+    "seat": "NA-269",
+    "voteMargin": 29.2
+  },
+  {
+    "desc": "NA 270 Panjgur Washuk Kharan Awaran General Election 2018 Result",
+    "voterTurnout": 40.48,
+    "totalVotes": 87644,
+    "result": [
+      { "candidate": "Ehsanullah Reki", "party": "BAP", "votes": 18568 },
+      { "candidate": "Mohammad Hanif", "party": "BNP-A", "votes": 16040 }
+    ],
+    "id": 270,
+    "xGrid": 3,
+    "yGrid": 25,
+    "region": "Panjgur",
+    "province": "Balochistan",
+    "seat": "NA-270",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NA 271 Kech General Election 2018 Result",
+    "voterTurnout": 39.51,
+    "totalVotes": 85305,
+    "result": [
+      { "candidate": "Zubaida Jalal", "party": "BAP", "votes": 32866 },
+      { "candidate": "Syed Ahsan Shah", "party": "BNP-A", "votes": 20583 }
+    ],
+    "id": 271,
+    "xGrid": 0,
+    "yGrid": 28,
+    "region": "Kech",
+    "province": "Balochistan",
+    "seat": "NA-271",
+    "voteMargin": 14.4
+  },
+  {
+    "desc": "NA 272 Lasbela Gawadar General Election 2018 Result",
+    "voterTurnout": 56.02,
+    "totalVotes": 189427,
+    "result": [
+      {
+        "candidate": "Mohammad Aslam Bhootani",
+        "party": "Ind",
+        "votes": 68804
+      },
+      { "candidate": "Jam Kamal Khan", "party": "BAP", "votes": 63275 }
+    ],
+    "id": 272,
+    "xGrid": 4,
+    "yGrid": 29,
+    "region": "Lasbela",
+    "province": "Balochistan",
+    "seat": "NA-272",
+    "voteMargin": 2.9
+  }
+]

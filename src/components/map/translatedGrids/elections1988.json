@@ -1,0 +1,3883 @@
+[
+  {
+    "desc": "NA 1 Peshawar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Aftab Ahmad Khan Sherpao",
+        "party": "PPP",
+        "votes": "44658"
+      },
+      { "candidate": "Ghulam Ahmad Bilour", "party": "ANP", "votes": "35947" }
+    ],
+    "id": 1,
+    "xGrid": 17,
+    "yGrid": 5,
+    "totalVotes": 84766,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-1",
+    "voteMargin": 10.3
+  },
+  {
+    "desc": "NA 2 Peshawar  Election 1988 Result",
+    "result": [
+      { "candidate": "Khan Bahadar Khan", "party": "PPP", "votes": "24444" },
+      { "candidate": "Arbab Saif-ur-Rehman", "party": "ANP", "votes": "19402" }
+    ],
+    "id": 2,
+    "xGrid": 18,
+    "yGrid": 5,
+    "totalVotes": 57161,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-2",
+    "voteMargin": 8.8
+  },
+  {
+    "desc": "NA 3 Peshawar Election 1988 Result",
+    "result": [
+      { "candidate": "Sardar Ali Khan", "party": "PPP", "votes": "28408" },
+      { "candidate": "Abdul Latif", "party": "ANP", "votes": "24727" }
+    ],
+    "id": 3,
+    "xGrid": 18,
+    "yGrid": 6,
+    "totalVotes": 78176,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-3",
+    "voteMargin": 4.7
+  },
+  {
+    "desc": "NA 4 Peshawar Election 1988 Result",
+    "result": [
+      { "candidate": "Main Muzaffar Shah", "party": "PPP", "votes": "27902" },
+      { "candidate": "Ahrar Khattak", "party": "ANP", "votes": "27817" }
+    ],
+    "id": 4,
+    "xGrid": 17,
+    "yGrid": 6,
+    "totalVotes": 73118,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-4",
+    "voteMargin": 0.1
+  },
+  {
+    "desc": "Election 1988 Result NA 5 Charsadda",
+    "result": [
+      { "candidate": "Khan Abdul Wali Khan", "party": "ANP", "votes": "63195" },
+      { "candidate": "Ihsanullah Khan", "party": "IJI", "votes": "34431" }
+    ],
+    "id": 5,
+    "xGrid": 19,
+    "yGrid": 6,
+    "totalVotes": 102013,
+    "region": "Charsadda",
+    "province": "KP",
+    "seat": "NA-5",
+    "voteMargin": 28.2
+  },
+  {
+    "desc": "NA 6 Mardan-I Election 1988 Result",
+    "result": [
+      { "candidate": "Haji Muhammad Yaqoob", "party": "PPP", "votes": "46091" },
+      { "candidate": "Muhammad Azam Khan", "party": "ANP", "votes": "32138" }
+    ],
+    "id": 6,
+    "xGrid": 19,
+    "yGrid": 7,
+    "totalVotes": 78229,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-6",
+    "voteMargin": 17.8
+  },
+  {
+    "desc": "NA 7 Mardan General Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Haji Muhamamd Ahmad",
+        "party": "JUI-F",
+        "votes": "23542"
+      },
+      { "candidate": "Haji Sarfraz Khan", "party": "PPP", "votes": "22594" }
+    ],
+    "id": 7,
+    "xGrid": 19,
+    "yGrid": 5,
+    "totalVotes": 81339,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-7",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 8 Swabi General Election 1988 Result",
+    "result": [
+      { "candidate": "Abdul Khaliq Khan", "party": "ANP", "votes": "40257" },
+      { "candidate": "Moulvi Hamadullah", "party": "IJI", "votes": "36959" }
+    ],
+    "id": 8,
+    "xGrid": 20,
+    "yGrid": 6,
+    "totalVotes": 114948,
+    "region": "Swabi",
+    "province": "KP",
+    "seat": "NA-8",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NA 9 Kohat General Election 1988 Result",
+    "result": [
+      { "candidate": "Moulvi Niamatullah", "party": "IJI", "votes": "30554" },
+      {
+        "candidate": "Syed Iftikhar Hussain Gillani",
+        "party": "PPP",
+        "votes": "19049"
+      }
+    ],
+    "id": 9,
+    "xGrid": 18,
+    "yGrid": 8,
+    "totalVotes": 83352,
+    "region": "Kohat",
+    "province": "KP",
+    "seat": "NA-9",
+    "voteMargin": 13.8
+  },
+  {
+    "desc": "NA 10 Karak Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Maulana Shaheed Ahmad",
+        "party": "JUI-D",
+        "votes": "26411"
+      },
+      {
+        "candidate": "Muhammad Aslam Khan Khattak",
+        "party": "IJI",
+        "votes": "19767"
+      }
+    ],
+    "id": 10,
+    "xGrid": 17,
+    "yGrid": 10,
+    "totalVotes": 52083,
+    "region": "Karak",
+    "province": "KP",
+    "seat": "NA-10",
+    "voteMargin": 12.8
+  },
+  {
+    "desc": "NA 11 Abbottabad General Election 1988 Result",
+    "result": [
+      { "candidate": "Farid Jadoon", "party": "Ind", "votes": "35805" },
+      { "candidate": "Malik Abdur Rauf", "party": "IJI", "votes": "21236" }
+    ],
+    "id": 11,
+    "xGrid": 23,
+    "yGrid": 5,
+    "totalVotes": 88804,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-11",
+    "voteMargin": 16.4
+  },
+  {
+    "desc": "NA 12 Abbottabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sardar Haji Gul Khattab Khan",
+        "party": "IJI",
+        "votes": "31655"
+      },
+      {
+        "candidate": "Haji Javid Iqbal Abbasi",
+        "party": "Ind",
+        "votes": "24629"
+      }
+    ],
+    "id": 12,
+    "xGrid": 23,
+    "yGrid": 6,
+    "totalVotes": 80659,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-12",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 13 Abbottabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Raja Sikandar Zaman Khan",
+        "party": "IJI",
+        "votes": "60128"
+      },
+      {
+        "candidate": "Begum Bilqis Nasrun Minallah",
+        "party": "PPP",
+        "votes": "25066"
+      }
+    ],
+    "id": 13,
+    "xGrid": 22,
+    "yGrid": 5,
+    "totalVotes": 97010,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-13",
+    "voteMargin": 36.1
+  },
+  {
+    "desc": "NA 14 Mansehra Election 1988 Result",
+    "result": [
+      { "candidate": "Syed Qasim Shah", "party": "Ind", "votes": "34363" },
+      { "candidate": "Syed Muzammil Shah", "party": "Ind", "votes": "26642" }
+    ],
+    "id": 14,
+    "xGrid": 22,
+    "yGrid": 4,
+    "totalVotes": 79462,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-14",
+    "voteMargin": 9.7
+  },
+  {
+    "desc": "NA 15 Mansehra Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Nawabzada Salah-ud-din Saeed Khan",
+        "party": "Ind",
+        "votes": "20868"
+      },
+      { "candidate": "Zaria Gull", "party": "Ind", "votes": "14575" }
+    ],
+    "id": 15,
+    "xGrid": 21,
+    "yGrid": 5,
+    "totalVotes": 56985,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-15",
+    "voteMargin": 11
+  },
+  {
+    "desc": "NA 16 Mansehra Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Haji Muhammad Ayub Khan",
+        "party": "IJI",
+        "votes": "11294"
+      },
+      { "candidate": "Alamzab Khan", "party": "JUI-F", "votes": "10890" }
+    ],
+    "id": 16,
+    "xGrid": 23,
+    "yGrid": 4,
+    "totalVotes": 31382,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-16",
+    "voteMargin": 1.3
+  },
+  {
+    "desc": "NA 17 Kohistan Election 1988 Result",
+    "result": [
+      { "candidate": "Fazl-e-Haq", "party": "IJI", "votes": "5525" },
+      { "candidate": "Muhammad Siraj", "party": "ANP", "votes": "3814" }
+    ],
+    "id": 17,
+    "xGrid": 22,
+    "yGrid": 3,
+    "totalVotes": 17458,
+    "region": "Kohistan",
+    "province": "KP",
+    "seat": "NA-17",
+    "voteMargin": 9.8
+  },
+  {
+    "desc": "NA 18 Dera Ismail Khan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Moulana Fazal-ur-Rehman",
+        "party": "JUI-F",
+        "votes": "62472"
+      },
+      {
+        "candidate": "Fazal Karim Khan Kundi",
+        "party": "IJI",
+        "votes": "35370"
+      }
+    ],
+    "id": 18,
+    "xGrid": 16,
+    "yGrid": 12,
+    "totalVotes": 150113,
+    "region": "Dera Ismail Khan",
+    "province": "KP",
+    "seat": "NA-18",
+    "voteMargin": 18.1
+  },
+  {
+    "desc": "NA 19 Bannu Election 1988 Result",
+    "result": [
+      { "candidate": "Maulvi Ali Akbar", "party": "JUI-F", "votes": "19094" },
+      {
+        "candidate": "Pir Syed Tahir Ali Shah",
+        "party": "IJI",
+        "votes": "12634"
+      }
+    ],
+    "id": 19,
+    "xGrid": 16,
+    "yGrid": 9,
+    "totalVotes": 56351,
+    "region": "Bannu",
+    "province": "KP",
+    "seat": "NA-19",
+    "voteMargin": 11.5
+  },
+  {
+    "desc": "NA 20 Bannu Election 1988 Result",
+    "result": [
+      { "candidate": "Anwar Saifullah", "party": "IJI", "votes": "37572" },
+      { "candidate": "Moulvi Ahmad Jan", "party": "JUI-F", "votes": "29779" }
+    ],
+    "id": 20,
+    "xGrid": 16,
+    "yGrid": 10,
+    "totalVotes": 75417,
+    "region": "Bannu",
+    "province": "KP",
+    "seat": "NA-20",
+    "voteMargin": 10.3
+  },
+  {
+    "desc": "NA 21 Swat  Election 1988 Result",
+    "result": [
+      { "candidate": "Shahzada Amani Room", "party": "PPP", "votes": "28739" },
+      { "candidate": "Obaid ur Rehman", "party": "JUI-F", "votes": "21748" }
+    ],
+    "id": 21,
+    "xGrid": 20,
+    "yGrid": 3,
+    "totalVotes": 69548,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-21",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 22 Swat  Election 1988 Result",
+    "result": [
+      { "candidate": "Hafiz Fazal Razik", "party": "IJI", "votes": "16639" },
+      { "candidate": "Nasrullah Khan", "party": "ANP", "votes": "16149" }
+    ],
+    "id": 22,
+    "xGrid": 20,
+    "yGrid": 2,
+    "totalVotes": 67669,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-22",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 23 Swat Election 1988 Result",
+    "result": [
+      { "candidate": "Mehboob ur Rehman", "party": "PPP", "votes": "23613" },
+      { "candidate": "Muhammad Afzal Khan", "party": "ANP", "votes": "22597" }
+    ],
+    "id": 23,
+    "xGrid": 20,
+    "yGrid": 4,
+    "totalVotes": 77155,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-23",
+    "voteMargin": 1.3
+  },
+  {
+    "desc": "NA 24 Chitral Election 1988 Result",
+    "result": [
+      { "candidate": "Begum Nusrat Bhutto", "party": "PPP", "votes": "32819" },
+      { "candidate": "Shahzada Muhayud Din", "party": "IJI", "votes": "23405" }
+    ],
+    "id": 24,
+    "xGrid": 19,
+    "yGrid": 0,
+    "totalVotes": 58373,
+    "region": "Chitral",
+    "province": "KP",
+    "seat": "NA-24",
+    "voteMargin": 16.1
+  },
+  {
+    "desc": "NA 25 Dir Election 1988 Result",
+    "result": [
+      { "candidate": "Fathullah", "party": "IJI", "votes": "35288" },
+      { "candidate": "Najmud Din", "party": "PPP", "votes": "28974" }
+    ],
+    "id": 25,
+    "xGrid": 19,
+    "yGrid": 3,
+    "totalVotes": 74643,
+    "region": "Dir",
+    "province": "KP",
+    "seat": "NA-25",
+    "voteMargin": 8.5
+  },
+  {
+    "desc": "NA 26 Malakand Election 1988 Result",
+    "result": [
+      { "candidate": "Muhammad Hanif Khan", "party": "PPP", "votes": "39174" },
+      {
+        "candidate": "Maulana Inayatur Rehman",
+        "party": "IJI",
+        "votes": "23294"
+      }
+    ],
+    "id": 26,
+    "xGrid": 21,
+    "yGrid": 3,
+    "totalVotes": 88021,
+    "region": "Malakand",
+    "province": "KP",
+    "seat": "NA-26",
+    "voteMargin": 18
+  },
+  {
+    "desc": "NA 27 Tribal Area Election 1988 Result",
+    "result": [
+      { "candidate": "Qadar Gull", "party": "Ind", "votes": "3198" },
+      { "candidate": "Haji Baroz", "party": "Ind", "votes": "3192" }
+    ],
+    "id": 27,
+    "xGrid": 18,
+    "yGrid": 7,
+    "totalVotes": 6894,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-27",
+    "voteMargin": 0.1
+  },
+  {
+    "desc": "NA 28 Tribal Area Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Akhundzada Muhammad Saeed Parachamkani",
+        "party": "Ind",
+        "votes": "630"
+      },
+      { "candidate": "Hussain Jan Tori", "party": "Ind", "votes": "550" }
+    ],
+    "id": 28,
+    "xGrid": 15,
+    "yGrid": 7,
+    "totalVotes": 1255,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-28",
+    "voteMargin": 6.4
+  },
+  {
+    "desc": "NA 29 Tribal Area Election 1988 Result",
+    "result": [
+      { "candidate": "Ghazi Said Jamal", "party": "Ind", "votes": "2744" },
+      { "candidate": "Khial Shah", "party": "Ind", "votes": "1474" }
+    ],
+    "id": 29,
+    "xGrid": 17,
+    "yGrid": 7,
+    "totalVotes": 6024,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-29",
+    "voteMargin": 21.1
+  },
+  {
+    "desc": "NA 30 Tribal Area Election 1988 Result",
+    "result": [
+      { "candidate": "Malik Haji Nadir Khan", "party": "Ind", "votes": "485" },
+      { "candidate": "Mamoor Khan", "party": "Ind", "votes": "313" }
+    ],
+    "id": 30,
+    "xGrid": 15,
+    "yGrid": 9,
+    "totalVotes": 1087,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-30",
+    "voteMargin": 15.8
+  },
+  {
+    "desc": "NA 31 Tribal AreaElection 1988 Result",
+    "result": [
+      { "candidate": "Haji Sakhi Jan", "party": "Ind", "votes": "739" },
+      { "candidate": "Malik Shahzad", "party": "Ind", "votes": "239" }
+    ],
+    "id": 31,
+    "xGrid": 14,
+    "yGrid": 11,
+    "totalVotes": 1038,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-31",
+    "voteMargin": 48.2
+  },
+  {
+    "desc": "NA 32 Tribal Area Election 1988 Result",
+    "result": [
+      { "candidate": "Bismillah Khan", "party": "Ind", "votes": "1506" },
+      { "candidate": "Mehboob Jan", "party": "Ind", "votes": "1181" }
+    ],
+    "id": 32,
+    "xGrid": 18,
+    "yGrid": 4,
+    "totalVotes": 3710,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-32",
+    "voteMargin": 8.8
+  },
+  {
+    "desc": "NA 33 Tribal Area Election 1988 Result",
+    "result": [
+      { "candidate": "Malik Waris Khan", "party": "Ind", "votes": "1035" },
+      { "candidate": "Malik Nadir Khan", "party": "Ind", "votes": "877" }
+    ],
+    "id": 33,
+    "xGrid": 16,
+    "yGrid": 7,
+    "totalVotes": 2723,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-33",
+    "voteMargin": 5.8
+  },
+  {
+    "desc": "NA 34 Tribal Area Election 1988 Result",
+    "result": [
+      { "candidate": "Malik Momin Khan", "party": "Ind", "votes": "521" },
+      { "candidate": "Malik Noor Sher Khan", "party": "Ind", "votes": "471" }
+    ],
+    "id": 34,
+    "xGrid": 15,
+    "yGrid": 11,
+    "totalVotes": 1147,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-34",
+    "voteMargin": 4.4
+  },
+  {
+    "desc": "NA 35 Islamabad Election 1988 Result",
+    "result": [
+      { "candidate": "Raja Pervez Khan", "party": "PPP", "votes": "39994" },
+      {
+        "candidate": "Haji Muhammad Nawaz Khokhar",
+        "party": "Ind",
+        "votes": "23551"
+      }
+    ],
+    "id": 35,
+    "xGrid": 22,
+    "yGrid": 6,
+    "totalVotes": 107160,
+    "region": "Islamabad",
+    "province": "ICT",
+    "seat": "NA-35",
+    "voteMargin": 15.3
+  },
+  {
+    "desc": "NA 36 Rawalpindi  Election 1988 Result",
+    "result": [
+      { "candidate": "Shahid Khaqan Abbasi", "party": "Ind", "votes": "47295" },
+      { "candidate": "Raja Zafar ul Haq", "party": "IJI", "votes": "45075" }
+    ],
+    "id": 36,
+    "xGrid": 22,
+    "yGrid": 7,
+    "totalVotes": 137452,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-36",
+    "voteMargin": 1.6
+  },
+  {
+    "desc": "NA 37 Rawalpindi  Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Raja Muhammad Zahir Khan",
+        "party": "IJI",
+        "votes": "61188"
+      },
+      { "candidate": "Abdul Aziz", "party": "Ind", "votes": "39294" }
+    ],
+    "id": 37,
+    "xGrid": 20,
+    "yGrid": 8,
+    "totalVotes": 139142,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-37",
+    "voteMargin": 15.7
+  },
+  {
+    "desc": "NA 38 Rawalpindi  Election 1988 Result",
+    "result": [
+      { "candidate": "Sheikh Rasheed Ahmad", "party": "IJI", "votes": "73052" },
+      {
+        "candidate": "General (R) Tikka Khan",
+        "party": "PPP",
+        "votes": "57665"
+      }
+    ],
+    "id": 38,
+    "xGrid": 21,
+    "yGrid": 8,
+    "totalVotes": 136864,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-38",
+    "voteMargin": 11.2
+  },
+  {
+    "desc": "NA 39 Rawalpindi  Election 1988 Result",
+    "result": [
+      { "candidate": "Raja Shahid Zafar", "party": "PPP", "votes": "60701" },
+      {
+        "candidate": "Muhammad Basharat Raja",
+        "party": "IJI",
+        "votes": "44719"
+      }
+    ],
+    "id": 39,
+    "xGrid": 20,
+    "yGrid": 7,
+    "totalVotes": 145359,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-39",
+    "voteMargin": 11
+  },
+  {
+    "desc": "NA 40 Rawalpindi  Election 1988 Result",
+    "result": [
+      { "candidate": " Nisar Ali Khan", "party": "IJI", "votes": "64186" },
+      { "candidate": "Habib Khan", "party": "PPP", "votes": "57878" }
+    ],
+    "id": 40,
+    "xGrid": 22,
+    "yGrid": 8,
+    "totalVotes": 122763,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-40",
+    "voteMargin": 5.1
+  },
+  {
+    "desc": "NA 41 Attock  Election 1988 Result",
+    "result": [
+      { "candidate": "Malik Muhammad Aslam", "party": "PPP", "votes": "47676" },
+      { "candidate": "Taj Muhammad Khanzada", "party": "IJI", "votes": "36058" }
+    ],
+    "id": 41,
+    "xGrid": 19,
+    "yGrid": 8,
+    "totalVotes": 95756,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-41",
+    "voteMargin": 12.1
+  },
+  {
+    "desc": "NA 42 Attock  Election 1988 Result",
+    "result": [
+      { "candidate": "Amir Muhammad Khan", "party": "PPP", "votes": "67729" },
+      { "candidate": "Malik Allah Yar Khan", "party": "PAI", "votes": "51906" }
+    ],
+    "id": 42,
+    "xGrid": 19,
+    "yGrid": 9,
+    "totalVotes": 159375,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-42",
+    "voteMargin": 9.9
+  },
+  {
+    "desc": "NA 43 Chakwal  Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Lt. General Abdul Majeed Malik",
+        "party": "IJI",
+        "votes": "61621"
+      },
+      {
+        "candidate": "Sardar Muhammad Ashraf Khan",
+        "party": "PPP",
+        "votes": "52997"
+      }
+    ],
+    "id": 43,
+    "xGrid": 21,
+    "yGrid": 9,
+    "totalVotes": 142294,
+    "region": "Chakwal",
+    "province": "Punjab",
+    "seat": "NA-43",
+    "voteMargin": 6.1
+  },
+  {
+    "desc": "NA 44 Chakwal 2  Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sardar Mansoor Hayyat Khan",
+        "party": "IJI",
+        "votes": "75928"
+      },
+      {
+        "candidate": "Air Marshal (R) Muhammad Noor Khan",
+        "party": "PPP",
+        "votes": "60962"
+      }
+    ],
+    "id": 44,
+    "xGrid": 20,
+    "yGrid": 9,
+    "totalVotes": 136890,
+    "region": "Chakwal",
+    "province": "Punjab",
+    "seat": "NA-44",
+    "voteMargin": 10.9
+  },
+  {
+    "desc": "NA 45 Jhelum  Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Raja Muhammad Afzal Khan",
+        "party": "IJI",
+        "votes": "49041"
+      },
+      { "candidate": "Doctor Ghulam Hussain", "party": "Ind", "votes": "36650" }
+    ],
+    "id": 45,
+    "xGrid": 21,
+    "yGrid": 10,
+    "totalVotes": 119169,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-45",
+    "voteMargin": 10.4
+  },
+  {
+    "desc": "NA 46 Jhelum  Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Nawabzada Iqbal Mehdi",
+        "party": "Ind",
+        "votes": "42255"
+      },
+      { "candidate": "Doctor Ghulam Hussain", "party": "Ind", "votes": "40733" }
+    ],
+    "id": 46,
+    "xGrid": 22,
+    "yGrid": 9,
+    "totalVotes": 100776,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-46",
+    "voteMargin": 1.5
+  },
+  {
+    "desc": "NA 47 Sargodha  Election 1988 Result",
+    "result": [
+      { "candidate": "Ehsan ul Haq Piracha", "party": "PPP", "votes": "55089" },
+      { "candidate": "Mian Naseer Ahmad", "party": "Ind", "votes": "52433" }
+    ],
+    "id": 47,
+    "xGrid": 20,
+    "yGrid": 10,
+    "totalVotes": 109577,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-47",
+    "voteMargin": 2.4
+  },
+  {
+    "desc": "NA 48 Sargodha Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Qadir Bakhsh Meela",
+        "party": "PPP",
+        "votes": "44651"
+      },
+      { "candidate": "Nazir Ahmad", "party": "Ind", "votes": "31677" }
+    ],
+    "id": 48,
+    "xGrid": 21,
+    "yGrid": 11,
+    "totalVotes": 107589,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-48",
+    "voteMargin": 12.1
+  },
+  {
+    "desc": "NA 49 Sargodha Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Haji Muhammad Javaid Iqbal Cheema",
+        "party": "IJI",
+        "votes": "65210"
+      },
+      { "candidate": "Mumtaz Ahmad Kahloon", "party": "PPP", "votes": "57351" }
+    ],
+    "id": 49,
+    "xGrid": 19,
+    "yGrid": 12,
+    "totalVotes": 124960,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-49",
+    "voteMargin": 6.3
+  },
+  {
+    "desc": "NA 50 Sargodha Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Anwar Ali Cheema",
+        "party": "IJI",
+        "votes": "71264"
+      },
+      {
+        "candidate": "Ch. Farukh Javaid Chuman",
+        "party": "PPP",
+        "votes": "45763"
+      }
+    ],
+    "id": 50,
+    "xGrid": 20,
+    "yGrid": 12,
+    "totalVotes": 130362,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-50",
+    "voteMargin": 19.6
+  },
+  {
+    "desc": "NA 51 Sargodha / Khushab Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Malik Muhammad Naeem Khan",
+        "party": "IJI",
+        "votes": "81522"
+      },
+      {
+        "candidate": "Malik Mian Sultan Awan",
+        "party": "PPP",
+        "votes": "47906"
+      }
+    ],
+    "id": 51,
+    "xGrid": 20,
+    "yGrid": 11,
+    "totalVotes": 135029,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-51",
+    "voteMargin": 24.9
+  },
+  {
+    "desc": "NA 52 Khushab Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Malik Khuda Bukhsh Tiwana",
+        "party": "Ind",
+        "votes": "56750"
+      },
+      { "candidate": "Naseer Ahmad Aheer", "party": "IJI", "votes": "37092" }
+    ],
+    "id": 52,
+    "xGrid": 19,
+    "yGrid": 11,
+    "totalVotes": 119052,
+    "region": "Khushab",
+    "province": "Punjab",
+    "seat": "NA-52",
+    "voteMargin": 16.5
+  },
+  {
+    "desc": "NA 53 Mianwali Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Maulana Abdul Sattar Khan Niazi",
+        "party": "PAI",
+        "votes": "44847"
+      },
+      {
+        "candidate": "Nawabzada Malik Muzaffar Khan",
+        "party": "Ind",
+        "votes": "25043"
+      }
+    ],
+    "id": 53,
+    "xGrid": 17,
+    "yGrid": 9,
+    "totalVotes": 91061,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-53",
+    "voteMargin": 21.7
+  },
+  {
+    "desc": "NA 54 Mianwali Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Doctor Sher Afghan Khan Niazi",
+        "party": "PAI",
+        "votes": "42699"
+      },
+      { "candidate": "Khan Aamir Hayat Khan", "party": "IJI", "votes": "40477" }
+    ],
+    "id": 54,
+    "xGrid": 18,
+    "yGrid": 10,
+    "totalVotes": 108957,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-54",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 55 Bhakkar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Zafar Ullah Khan",
+        "party": "Ind",
+        "votes": "49480"
+      },
+      { "candidate": "Bashir Ahmad Khan", "party": "PAI", "votes": "38400" }
+    ],
+    "id": 55,
+    "xGrid": 18,
+    "yGrid": 12,
+    "totalVotes": 113741,
+    "region": "Bhakkar",
+    "province": "Punjab",
+    "seat": "NA-55",
+    "voteMargin": 9.7
+  },
+  {
+    "desc": "NA 56 Bhakkar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Rasheed Akbar Khan Nawani",
+        "party": "Ind",
+        "votes": "49233"
+      },
+      {
+        "candidate": "Aman ullah Khan Shahani",
+        "party": "Ind",
+        "votes": "36308"
+      }
+    ],
+    "id": 56,
+    "xGrid": 17,
+    "yGrid": 13,
+    "totalVotes": 105938,
+    "region": "Bhakkar",
+    "province": "Punjab",
+    "seat": "NA-56",
+    "voteMargin": 12.2
+  },
+  {
+    "desc": "NA 57 Faisalabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Nazir Ahmad",
+        "party": "Ind",
+        "votes": "60204"
+      },
+      {
+        "candidate": "Rana Muhammad Aslam Khan",
+        "party": "PPP",
+        "votes": "58833"
+      }
+    ],
+    "id": 57,
+    "xGrid": 23,
+    "yGrid": 13,
+    "totalVotes": 127874,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-57",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 58 Faisalabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Rai Muhammad Aslam Khan",
+        "party": "PPP",
+        "votes": "54868"
+      },
+      { "candidate": "Rai Salahuddin Khan", "party": "IJI", "votes": "41552" }
+    ],
+    "id": 58,
+    "xGrid": 22,
+    "yGrid": 14,
+    "totalVotes": 100376,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-58",
+    "voteMargin": 13.3
+  },
+  {
+    "desc": "NA 59 Faisalabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Khan Shahadat Ali Khan Baloch",
+        "party": "PPP",
+        "votes": "50414"
+      },
+      { "candidate": "Mian Nasir Ali Khan", "party": "IJI", "votes": "37803" }
+    ],
+    "id": 59,
+    "xGrid": 21,
+    "yGrid": 14,
+    "totalVotes": 94363,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-59",
+    "voteMargin": 13.4
+  },
+  {
+    "desc": "NA 60 Faisalabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Abdus Saboor Khan",
+        "party": "PPP",
+        "votes": "28013"
+      },
+      {
+        "candidate": "Muhammad Abdullah Ghazi",
+        "party": "IJI",
+        "votes": "24190"
+      }
+    ],
+    "id": 60,
+    "xGrid": 21,
+    "yGrid": 13,
+    "totalVotes": 105529,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-60",
+    "voteMargin": 3.6
+  },
+  {
+    "desc": "NA 61 Faisalabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Nazeer Ahmad",
+        "party": "IJI",
+        "votes": "71782"
+      },
+      { "candidate": "Talib Hussain", "party": "PPP", "votes": "54811" }
+    ],
+    "id": 61,
+    "xGrid": 22,
+    "yGrid": 13,
+    "totalVotes": 128843,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-61",
+    "voteMargin": 13.2
+  },
+  {
+    "desc": "NA 62 Faisalabad Election 1988 Result",
+    "result": [
+      { "candidate": "Ghulam Mustafa Bajwa", "party": "IJI", "votes": "48019" },
+      {
+        "candidate": "Chaudhary Muhammad Latif Randhawa",
+        "party": "PPP",
+        "votes": "38435"
+      }
+    ],
+    "id": 62,
+    "xGrid": 22,
+    "yGrid": 15,
+    "totalVotes": 89815,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-62",
+    "voteMargin": 10.7
+  },
+  {
+    "desc": "NA 63 Faisalabad Election 1988 Result",
+    "result": [
+      { "candidate": "Nisar Akbar Khan", "party": "PPP", "votes": "54251" },
+      { "candidate": "Muhammad Akram Ansari", "party": "IJI", "votes": "45962" }
+    ],
+    "id": 63,
+    "xGrid": 20,
+    "yGrid": 13,
+    "totalVotes": 111375,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-63",
+    "voteMargin": 7.4
+  },
+  {
+    "desc": "NA 64 Faisalabad Election 1988 Result",
+    "result": [
+      { "candidate": "Ahmad Saeed Awan", "party": "PPP", "votes": "54438" },
+      { "candidate": "Mian Zahid Sarfraz", "party": "Ind", "votes": "49745" }
+    ],
+    "id": 64,
+    "xGrid": 19,
+    "yGrid": 13,
+    "totalVotes": 115088,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-64",
+    "voteMargin": 4.1
+  },
+  {
+    "desc": "NA 65 Faisalabad Election 1988 Result",
+    "result": [
+      { "candidate": "Mehar Abdur Rasheed", "party": "PPP", "votes": "69604" },
+      { "candidate": "Chaudhary Sher Ali", "party": "Ind", "votes": "57621" }
+    ],
+    "id": 65,
+    "xGrid": 21,
+    "yGrid": 15,
+    "totalVotes": 131478,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-65",
+    "voteMargin": 9.1
+  },
+  {
+    "desc": "NA 66 Jhang Election 1988 Result",
+    "result": [
+      { "candidate": "Amir Hussain Syed", "party": "PPP", "votes": "35761" },
+      {
+        "candidate": "Sardarzada Muhammad Ali Shah",
+        "party": "IJI",
+        "votes": "32896"
+      }
+    ],
+    "id": 66,
+    "xGrid": 21,
+    "yGrid": 12,
+    "totalVotes": 98966,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-66",
+    "voteMargin": 2.9
+  },
+  {
+    "desc": "NA 67 Jhang Election 1988 Result",
+    "result": [
+      { "candidate": "Syeda Abida Hussain", "party": "Ind", "votes": "60847" },
+      {
+        "candidate": "Moulana Haji Rehmatullah",
+        "party": "IJI",
+        "votes": "42107"
+      }
+    ],
+    "id": 67,
+    "xGrid": 17,
+    "yGrid": 15,
+    "totalVotes": 105253,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-67",
+    "voteMargin": 17.8
+  },
+  {
+    "desc": "NA 68 Jhang Election 1988 Result",
+    "result": [
+      { "candidate": "Syeda Abida Hussain", "party": "Ind", "votes": "47374" },
+      {
+        "candidate": "Moulana Haq Nawaz Jhangvi",
+        "party": "JUI-F",
+        "votes": "38995"
+      }
+    ],
+    "id": 68,
+    "xGrid": 19,
+    "yGrid": 15,
+    "totalVotes": 118836,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-68",
+    "voteMargin": 7.1
+  },
+  {
+    "desc": "NA 69 Jhang Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Faisal Saleh Hayyat",
+        "party": "PPP",
+        "votes": "54268"
+      },
+      {
+        "candidate": "Syed Iftikhar Ali Shah",
+        "party": "IJI",
+        "votes": "33805"
+      }
+    ],
+    "id": 69,
+    "xGrid": 18,
+    "yGrid": 14,
+    "totalVotes": 106965,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-69",
+    "voteMargin": 19.1
+  },
+  {
+    "desc": "NA 70 Jhang Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Muhamamd Nazir Sultan",
+        "party": "PPP",
+        "votes": "61550"
+      },
+      {
+        "candidate": "Khan Muhammad Arif Khan",
+        "party": "IJI",
+        "votes": "50185"
+      }
+    ],
+    "id": 70,
+    "xGrid": 18,
+    "yGrid": 15,
+    "totalVotes": 112298,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-70",
+    "voteMargin": 10.1
+  },
+  {
+    "desc": "NA 71 Toba Tek Singh Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Asard ur Rehman",
+        "party": "IJI",
+        "votes": "65430"
+      },
+      {
+        "candidate": "Khalid Ahmad Khan Kharal",
+        "party": "PPP",
+        "votes": "50811"
+      }
+    ],
+    "id": 71,
+    "xGrid": 19,
+    "yGrid": 14,
+    "totalVotes": 123280,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-71",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 72 Toba Tek Singh Election 1988 Result",
+    "result": [
+      { "candidate": "Abdul Sattar", "party": "IJI", "votes": "66836" },
+      {
+        "candidate": "Qazi Ghias Ud Din Janbaz",
+        "party": "PPP",
+        "votes": "51510"
+      }
+    ],
+    "id": 72,
+    "xGrid": 20,
+    "yGrid": 14,
+    "totalVotes": 120711,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-72",
+    "voteMargin": 12.7
+  },
+  {
+    "desc": "NA 73 TT Singh Election 1988 Result",
+    "result": [
+      { "candidate": "Haji Muhammad Ishaq", "party": "PPP", "votes": "55471" },
+      { "candidate": "Hamza", "party": "IJI", "votes": "52137" }
+    ],
+    "id": 73,
+    "xGrid": 20,
+    "yGrid": 15,
+    "totalVotes": 118542,
+    "region": "Toba Tek Singh",
+    "province": "Punjab",
+    "seat": "NA-73",
+    "voteMargin": 2.8
+  },
+  {
+    "desc": "NA 74 Gujranwala Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Colonel (R) Ghulam Sarwar Cheema",
+        "party": "PPP",
+        "votes": "72240"
+      },
+      {
+        "candidate": "Chaudhary Hamid Nasir Chatha",
+        "party": "IJI",
+        "votes": "66141"
+      }
+    ],
+    "id": 74,
+    "xGrid": 25,
+    "yGrid": 10,
+    "totalVotes": 139211,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-74",
+    "voteMargin": 4.4
+  },
+  {
+    "desc": "NA 75 Gujranwala Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Malik Fazal Hussain Khan",
+        "party": "PPP",
+        "votes": "63313"
+      },
+      {
+        "candidate": "Chaudhary Irshad Ullah Tarar",
+        "party": "IJI",
+        "votes": "52700"
+      }
+    ],
+    "id": 75,
+    "xGrid": 23,
+    "yGrid": 11,
+    "totalVotes": 119666,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-75",
+    "voteMargin": 8.9
+  },
+  {
+    "desc": "NA 76 Gujranwala Election 1988 Result",
+    "result": [
+      { "candidate": "Al-Haj Amanullah", "party": "PPP", "votes": "63653" },
+      { "candidate": "Ghulam Dastgir Khan", "party": "IJI", "votes": "60018" }
+    ],
+    "id": 76,
+    "xGrid": 24,
+    "yGrid": 10,
+    "totalVotes": 128820,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-76",
+    "voteMargin": 2.8
+  },
+  {
+    "desc": "NA 77 Gujranwala Election 1988 Result",
+    "result": [
+      { "candidate": "Muhamamd Aslam Lone", "party": "PPP", "votes": "63318" },
+      {
+        "candidate": "Chaudhary Muhammad Anwar Bhindar",
+        "party": "IJI",
+        "votes": "52547"
+      }
+    ],
+    "id": 77,
+    "xGrid": 26,
+    "yGrid": 12,
+    "totalVotes": 119159,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-77",
+    "voteMargin": 9
+  },
+  {
+    "desc": "NA 78 Gujranwala Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Rana Nazeer Ahmad Khan",
+        "party": "IJI",
+        "votes": "55019"
+      },
+      { "candidate": "Mehdi Hassan Bhatti", "party": "PPP", "votes": "30385" }
+    ],
+    "id": 78,
+    "xGrid": 23,
+    "yGrid": 12,
+    "totalVotes": 108801,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-78",
+    "voteMargin": 22.6
+  },
+  {
+    "desc": "NA 79 Gujranwala Election 1988 Result",
+    "result": [
+      { "candidate": "Chaudhary Ejaz Ahmad", "party": "IJI", "votes": "40967" },
+      { "candidate": "Mian Shahdat Khan", "party": "PPP", "votes": "33890" }
+    ],
+    "id": 79,
+    "xGrid": 24,
+    "yGrid": 11,
+    "totalVotes": 119345,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-79",
+    "voteMargin": 5.9
+  },
+  {
+    "desc": "NA 80 Gujrat Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Tajamul Hussain",
+        "party": "IJI",
+        "votes": "74852"
+      },
+      {
+        "candidate": "Nawabzada Mazhar Ali Khan",
+        "party": "PPP",
+        "votes": "71412"
+      }
+    ],
+    "id": 80,
+    "xGrid": 24,
+    "yGrid": 9,
+    "totalVotes": 151265,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-80",
+    "voteMargin": 2.3
+  },
+  {
+    "desc": "NA 81 Gujrat Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Shujaat Hussain",
+        "party": "IJI",
+        "votes": "78025"
+      },
+      {
+        "candidate": "Mushtaq Hussain Pagganwala",
+        "party": "PPP",
+        "votes": "69437"
+      }
+    ],
+    "id": 81,
+    "xGrid": 22,
+    "yGrid": 10,
+    "totalVotes": 150497,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-81",
+    "voteMargin": 5.7
+  },
+  {
+    "desc": "NA 82 Gujrat Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Asghari",
+        "party": "PPP",
+        "votes": "76341"
+      },
+      {
+        "candidate": "Syed Manzoor Hussain Shah",
+        "party": "IJI",
+        "votes": "63670"
+      }
+    ],
+    "id": 82,
+    "xGrid": 25,
+    "yGrid": 9,
+    "totalVotes": 155547,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-82",
+    "voteMargin": 8.1
+  },
+  {
+    "desc": "NA 83 Gujrat Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Mumtaz Ahmad Tarar",
+        "party": "PPP",
+        "votes": "50520"
+      },
+      {
+        "candidate": "Choudhary Muhammad Iqbal",
+        "party": "IJI",
+        "votes": "40839"
+      }
+    ],
+    "id": 83,
+    "xGrid": 23,
+    "yGrid": 9,
+    "totalVotes": 125935,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-83",
+    "voteMargin": 7.7
+  },
+  {
+    "desc": "NA 84 Gujrat Election 1988 Result",
+    "result": [
+      { "candidate": "Umar Hayyat Lailka", "party": "IJI", "votes": "32827" },
+      { "candidate": "Nazar Muhammad Gondal", "party": "PPP", "votes": "31125" }
+    ],
+    "id": 84,
+    "xGrid": 23,
+    "yGrid": 10,
+    "totalVotes": 86465,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-84",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 85 Sialkot Election 1988 Result",
+    "result": [
+      { "candidate": "Mian Muhamamd Shafi", "party": "IJI", "votes": "59902" },
+      { "candidate": "Akhtar Javed Pirzada", "party": "PPP", "votes": "40850" }
+    ],
+    "id": 85,
+    "xGrid": 26,
+    "yGrid": 10,
+    "totalVotes": 106696,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-85",
+    "voteMargin": 17.9
+  },
+  {
+    "desc": "NA 86 Sialkot Election 1988 Result",
+    "result": [
+      { "candidate": "Amir Hussain", "party": "IJI", "votes": "58545" },
+      { "candidate": "Faiz Ahmad", "party": "PPP", "votes": "55163" }
+    ],
+    "id": 86,
+    "xGrid": 28,
+    "yGrid": 10,
+    "totalVotes": 124181,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-86",
+    "voteMargin": 2.7
+  },
+  {
+    "desc": "NA 87 Sialkot Election 1988 Result",
+    "result": [
+      { "candidate": "Khurshid Alam", "party": "PPP", "votes": "52676" },
+      { "candidate": "Nazir Ahmad Khan", "party": "IJI", "votes": "51737" }
+    ],
+    "id": 87,
+    "xGrid": 26,
+    "yGrid": 9,
+    "totalVotes": 126708,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-87",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 88 Sialkot Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Nawaz Sharif",
+        "party": "IJI",
+        "votes": "45271"
+      },
+      {
+        "candidate": "Chaudhary Asdullah Hajwa",
+        "party": "PDP",
+        "votes": "30927"
+      }
+    ],
+    "id": 88,
+    "xGrid": 28,
+    "yGrid": 11,
+    "totalVotes": 99717,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-88",
+    "voteMargin": 14.4
+  },
+  {
+    "desc": "NA 89 Sialkot Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Alhaj Hamid Nawaz Khan",
+        "party": "PPP",
+        "votes": "32201"
+      },
+      {
+        "candidate": "Chaudhary Muhammad Sarwar Khan",
+        "party": "IJI",
+        "votes": "32027"
+      }
+    ],
+    "id": 89,
+    "xGrid": 26,
+    "yGrid": 11,
+    "totalVotes": 101234,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-89",
+    "voteMargin": 0.2
+  },
+  {
+    "desc": "NA 90 Sialkot Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Anwar ul Haq",
+        "party": "IJI",
+        "votes": "43901"
+      },
+      { "candidate": "Ghulam Sarwar Khan", "party": "PPP", "votes": "25075" }
+    ],
+    "id": 90,
+    "xGrid": 27,
+    "yGrid": 10,
+    "totalVotes": 89011,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-90",
+    "voteMargin": 21.2
+  },
+  {
+    "desc": "NA 91 Sialkot Election 1988 Result",
+    "result": [
+      { "candidate": "Chaudhary Anwar Aziz", "party": "IJI", "votes": "31621" },
+      { "candidate": "Muhammad Idress Taj", "party": "PPP", "votes": "27690" }
+    ],
+    "id": 91,
+    "xGrid": 27,
+    "yGrid": 12,
+    "totalVotes": 84266,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-91",
+    "voteMargin": 4.7
+  },
+  {
+    "desc": "NA 92 Lahore Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Hussain Ansari",
+        "party": "PAI",
+        "votes": "46091"
+      },
+      { "candidate": "Rafiq Ahmad Sheikh", "party": "PPP", "votes": "44717" }
+    ],
+    "id": 92,
+    "xGrid": 25,
+    "yGrid": 12,
+    "totalVotes": 97643,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-92",
+    "voteMargin": 1.4
+  },
+  {
+    "desc": "NA 93 Lahore Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chudhary Aitzaz Ahsan",
+        "party": "PPP",
+        "votes": "71860"
+      },
+      {
+        "candidate": "Alhaj Sheikh Rohail Asghar",
+        "party": "IJI",
+        "votes": "41181"
+      }
+    ],
+    "id": 93,
+    "xGrid": 24,
+    "yGrid": 13,
+    "totalVotes": 122979,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-93",
+    "voteMargin": 24.9
+  },
+  {
+    "desc": "NA 94 Lahore Election 1988 Result",
+    "result": [
+      { "candidate": "Benazir Bhutto", "party": "PPP", "votes": "53425" },
+      { "candidate": "Mian Umar Hayyat", "party": "Ind", "votes": "43733" }
+    ],
+    "id": 94,
+    "xGrid": 24,
+    "yGrid": 14,
+    "totalVotes": 102591,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-94",
+    "voteMargin": 9.4
+  },
+  {
+    "desc": "NA 95 Lahore Election 1988 Result",
+    "result": [
+      { "candidate": "Mian Nawaz Sharif", "party": "IJI", "votes": "49318" },
+      {
+        "candidate": "Arif Iqbal Hussain Bhatti",
+        "party": "PPP",
+        "votes": "36065"
+      }
+    ],
+    "id": 95,
+    "xGrid": 25,
+    "yGrid": 14,
+    "totalVotes": 87673,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-95",
+    "voteMargin": 15.1
+  },
+  {
+    "desc": "NA 96 Lahore Election 1988 Result",
+    "result": [
+      { "candidate": "Jahangir Badar", "party": "PPP", "votes": "43368" },
+      { "candidate": "Hafiz Salman Butt", "party": "IJI", "votes": "38694" }
+    ],
+    "id": 96,
+    "xGrid": 23,
+    "yGrid": 14,
+    "totalVotes": 85318,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-96",
+    "voteMargin": 5.5
+  },
+  {
+    "desc": "NA 97 Lahore Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Khawja Ahmad Tariq Raheem",
+        "party": "PPP",
+        "votes": "56903"
+      },
+      { "candidate": "Liaqat Baloch", "party": "IJI", "votes": "55655" }
+    ],
+    "id": 97,
+    "xGrid": 25,
+    "yGrid": 11,
+    "totalVotes": 118537,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-97",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 98 Lahore Election 1988 Result",
+    "result": [
+      { "candidate": "Mian Muhammad Usman", "party": "IJI", "votes": "51764" },
+      {
+        "candidate": "Sheikh Muhammad Rasheed",
+        "party": "PPP",
+        "votes": "47908"
+      }
+    ],
+    "id": 98,
+    "xGrid": 25,
+    "yGrid": 15,
+    "totalVotes": 108382,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-98",
+    "voteMargin": 3.6
+  },
+  {
+    "desc": "NA 99 Lahore Election 1988 Result",
+    "result": [
+      { "candidate": "Haji Muhammad Asghar", "party": "PPP", "votes": "31283" },
+      { "candidate": "Wazir Ali Bhatti", "party": "IJI", "votes": "25020" }
+    ],
+    "id": 99,
+    "xGrid": 24,
+    "yGrid": 15,
+    "totalVotes": 72404,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-99",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 100 Lahore Election 1988 Result",
+    "result": [
+      { "candidate": "Malik Meraj Khalid", "party": "PPP", "votes": "33903" },
+      { "candidate": "Safdar Ali", "party": "IJI", "votes": "30465" }
+    ],
+    "id": 100,
+    "xGrid": 27,
+    "yGrid": 11,
+    "totalVotes": 79297,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-100",
+    "voteMargin": 4.3
+  },
+  {
+    "desc": "NA 101 Sheikhupura Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Nisar Ahmad S/O Haji Muhammad Malik",
+        "party": "PPP",
+        "votes": "66859"
+      },
+      { "candidate": "Tanveer Hussain", "party": "IJI", "votes": "42901" }
+    ],
+    "id": 101,
+    "xGrid": 24,
+    "yGrid": 12,
+    "totalVotes": 113551,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-101",
+    "voteMargin": 21.1
+  },
+  {
+    "desc": "NA 102 Sheikhupura Election 1988 Result",
+    "result": [
+      { "candidate": "Malik Mushtaq Ahmad", "party": "PPP", "votes": "44200" },
+      {
+        "candidate": "Chaudhary Nazir Ahmad Virk",
+        "party": "IJI",
+        "votes": "32005"
+      }
+    ],
+    "id": 102,
+    "xGrid": 25,
+    "yGrid": 13,
+    "totalVotes": 116425,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-102",
+    "voteMargin": 10.5
+  },
+  {
+    "desc": "NA 103 Sheikhupura Election 1988 Result",
+    "result": [
+      { "candidate": "Muhammad Arif Awan", "party": "PPP", "votes": "38380" },
+      {
+        "candidate": "Muhammad Barjees Tahir",
+        "party": "Ind",
+        "votes": "31731"
+      }
+    ],
+    "id": 103,
+    "xGrid": 26,
+    "yGrid": 13,
+    "totalVotes": 97666,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-103",
+    "voteMargin": 6.8
+  },
+  {
+    "desc": "NA 104 Sheikhupura Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Tawakkal Ullah Virk",
+        "party": "PPP",
+        "votes": "62180"
+      },
+      {
+        "candidate": "Haji Naeem Hussain Chatha",
+        "party": "IJI",
+        "votes": "49630"
+      }
+    ],
+    "id": 104,
+    "xGrid": 27,
+    "yGrid": 13,
+    "totalVotes": 111810,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-104",
+    "voteMargin": 11.2
+  },
+  {
+    "desc": "NA 105 Sheikhupura Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Rai Rashid Ahmad Khan",
+        "party": "PPP",
+        "votes": "40731"
+      },
+      { "candidate": "Rai Mansab Ali Khan", "party": "IJI", "votes": "28730" }
+    ],
+    "id": 105,
+    "xGrid": 22,
+    "yGrid": 12,
+    "totalVotes": 81025,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-105",
+    "voteMargin": 14.8
+  },
+  {
+    "desc": "NA 106 Kasur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Khizar Hayyat Khan",
+        "party": "Ind",
+        "votes": "63993"
+      },
+      {
+        "candidate": "Sardar Aseff Ahmad Ali",
+        "party": "PPP",
+        "votes": "39468"
+      }
+    ],
+    "id": 106,
+    "xGrid": 25,
+    "yGrid": 17,
+    "totalVotes": 107290,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-106",
+    "voteMargin": 22.9
+  },
+  {
+    "desc": "NA 107 Kasur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Rao Khizar Hayyat Khan",
+        "party": "IJI",
+        "votes": "40697"
+      },
+      { "candidate": "Basit Jehangir Sheikh", "party": "PPP", "votes": "20502" }
+    ],
+    "id": 107,
+    "xGrid": 23,
+    "yGrid": 15,
+    "totalVotes": 86725,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-107",
+    "voteMargin": 23.3
+  },
+  {
+    "desc": "NA 108 Kasur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sardar Talib Hussain Nakai",
+        "party": "IJI",
+        "votes": "54479"
+      },
+      { "candidate": "Malik Ashiq Hussain", "party": "PPP", "votes": "38601" }
+    ],
+    "id": 108,
+    "xGrid": 25,
+    "yGrid": 16,
+    "totalVotes": 96869,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-108",
+    "voteMargin": 16.4
+  },
+  {
+    "desc": "NA 109 Kasur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Ashiq Dogar",
+        "party": "PPP",
+        "votes": "54411"
+      },
+      {
+        "candidate": "Maulana Mueenuddin Lakhvi",
+        "party": "IJI",
+        "votes": "49894"
+      }
+    ],
+    "id": 109,
+    "xGrid": 24,
+    "yGrid": 17,
+    "totalVotes": 104305,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-109",
+    "voteMargin": 4.3
+  },
+  {
+    "desc": "NA 110 Okara Election 1988 Result",
+    "result": [
+      { "candidate": "Rao Sakandar Iqbal", "party": "PPP", "votes": "56230" },
+      { "candidate": "Mian Muhammad Zaman", "party": "IJI", "votes": "45932" }
+    ],
+    "id": 110,
+    "xGrid": 23,
+    "yGrid": 17,
+    "totalVotes": 102626,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-110",
+    "voteMargin": 10
+  },
+  {
+    "desc": "NA 111 Okara Election 1988 Result",
+    "result": [
+      { "candidate": "Syed Sajjad Haider", "party": "IJI", "votes": "45639" },
+      { "candidate": "Muhammad Saeed", "party": "PPP", "votes": "41078" }
+    ],
+    "id": 111,
+    "xGrid": 23,
+    "yGrid": 16,
+    "totalVotes": 96113,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-111",
+    "voteMargin": 4.7
+  },
+  {
+    "desc": "NA 112 Okara Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Rao Muhammad Afzal Khan",
+        "party": "PPP",
+        "votes": "49342"
+      },
+      { "candidate": "Mian Nawaz Sharif", "party": "IJI", "votes": "47182" }
+    ],
+    "id": 112,
+    "xGrid": 24,
+    "yGrid": 16,
+    "totalVotes": 99065,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-112",
+    "voteMargin": 2.2
+  },
+  {
+    "desc": "NA 113 Okara Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mian Manzoor Ahmad Khan",
+        "party": "IJI",
+        "votes": "49099"
+      },
+      {
+        "candidate": "Mian Atta Muhammad Maneka",
+        "party": "PPP",
+        "votes": "45143"
+      }
+    ],
+    "id": 113,
+    "xGrid": 24,
+    "yGrid": 18,
+    "totalVotes": 94242,
+    "region": "Okara",
+    "province": "Punjab",
+    "seat": "NA-113",
+    "voteMargin": 4.2
+  },
+  {
+    "desc": "NA 114 Multan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Yousif Raza Gillani",
+        "party": "PPP",
+        "votes": "58300"
+      },
+      { "candidate": "Mian Nawaz Sharif", "party": "IJI", "votes": "41957" }
+    ],
+    "id": 114,
+    "xGrid": 18,
+    "yGrid": 17,
+    "totalVotes": 102771,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-114",
+    "voteMargin": 15.9
+  },
+  {
+    "desc": "NA 115 Multan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Pir Riaz Hussain Qureshi",
+        "party": "PPP",
+        "votes": "42059"
+      },
+      {
+        "candidate": "Syed Hamid Saeed Kazmi",
+        "party": "PAI",
+        "votes": "35508"
+      }
+    ],
+    "id": 115,
+    "xGrid": 18,
+    "yGrid": 19,
+    "totalVotes": 102891,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-115",
+    "voteMargin": 6.4
+  },
+  {
+    "desc": "NA 116 Multan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Malik Mukhtar Ahmad Awan",
+        "party": "PPP",
+        "votes": "45497"
+      },
+      {
+        "candidate": "Sheikh Muhammad Rasheed",
+        "party": "IJI",
+        "votes": "40849"
+      }
+    ],
+    "id": 116,
+    "xGrid": 17,
+    "yGrid": 18,
+    "totalVotes": 88982,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-116",
+    "voteMargin": 5.2
+  },
+  {
+    "desc": "NA 117 Multan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Siddique Khan Kanjoo",
+        "party": "IJI",
+        "votes": "50406"
+      },
+      {
+        "candidate": "Rana Mumtaz Ahmad Khan Noon",
+        "party": "PPP",
+        "votes": "49989"
+      }
+    ],
+    "id": 117,
+    "xGrid": 19,
+    "yGrid": 19,
+    "totalVotes": 104929,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-117",
+    "voteMargin": 0.4
+  },
+  {
+    "desc": "NA 118 Multan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mirza Muhammad Nasir Baig",
+        "party": "PPP",
+        "votes": "30746"
+      },
+      {
+        "candidate": "Syed Nasir ud Din Shah Rizvi",
+        "party": "PAI",
+        "votes": "27855"
+      }
+    ],
+    "id": 118,
+    "xGrid": 18,
+    "yGrid": 18,
+    "totalVotes": 93030,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-118",
+    "voteMargin": 3.1
+  },
+  {
+    "desc": "NA 119 Multan Election 1988 Result",
+    "result": [
+      { "candidate": "Rana Taj Ahmad Noon", "party": "PPP", "votes": "53475" },
+      {
+        "candidate": "Rana Shukat Hayyat Noon",
+        "party": "IJI",
+        "votes": "46363"
+      }
+    ],
+    "id": 119,
+    "xGrid": 17,
+    "yGrid": 19,
+    "totalVotes": 103542,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-119",
+    "voteMargin": 6.9
+  },
+  {
+    "desc": "NA 120 Multan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Abdur Rehman Wahla",
+        "party": "PPP",
+        "votes": "50947"
+      },
+      { "candidate": "Muhammad Javed Hashmi", "party": "IJI", "votes": "48086" }
+    ],
+    "id": 120,
+    "xGrid": 19,
+    "yGrid": 20,
+    "totalVotes": 100925,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-120",
+    "voteMargin": 2.8
+  },
+  {
+    "desc": "NA 121 Khanewal Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mahar Muhammad Iqbal Hiraj",
+        "party": "PPP",
+        "votes": "53278"
+      },
+      { "candidate": "Syed Fakhar Imam Shah", "party": "IJI", "votes": "48522" }
+    ],
+    "id": 121,
+    "xGrid": 19,
+    "yGrid": 16,
+    "totalVotes": 101800,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-121",
+    "voteMargin": 4.7
+  },
+  {
+    "desc": "NA 122 Khanewal Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Major ( R ) Aftab Ahmad Khan Daha",
+        "party": "IJI",
+        "votes": "50798"
+      },
+      { "candidate": "Riffar Hayat Khan", "party": "PPP", "votes": "29310" }
+    ],
+    "id": 122,
+    "xGrid": 19,
+    "yGrid": 18,
+    "totalVotes": 100590,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-122",
+    "voteMargin": 21.4
+  },
+  {
+    "desc": "NA 123 Khanewal Election 1988 Result",
+    "result": [
+      { "candidate": "Ghulam Haider Wyne", "party": "IJI", "votes": "57315" },
+      {
+        "candidate": "Pir Muhammad Aslam Bodla",
+        "party": "PPP",
+        "votes": "55419"
+      }
+    ],
+    "id": 123,
+    "xGrid": 18,
+    "yGrid": 16,
+    "totalVotes": 118753,
+    "region": "Khanewal",
+    "province": "Punjab",
+    "seat": "NA-123",
+    "voteMargin": 1.6
+  },
+  {
+    "desc": "NA 124 Sahiwal Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Naurez Shakoor",
+        "party": "PPP",
+        "votes": "61707"
+      },
+      { "candidate": "Anwar ul Haq Ramay", "party": "IJI", "votes": "47965" }
+    ],
+    "id": 124,
+    "xGrid": 21,
+    "yGrid": 17,
+    "totalVotes": 118415,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-124",
+    "voteMargin": 11.6
+  },
+  {
+    "desc": "NA 125 Sahiwal Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Chaudary Muhammad Ashraf",
+        "party": "IJI",
+        "votes": "56107"
+      },
+      {
+        "candidate": "Mehar Ghulam Farid Kathia",
+        "party": "PPP",
+        "votes": "48281"
+      }
+    ],
+    "id": 125,
+    "xGrid": 22,
+    "yGrid": 17,
+    "totalVotes": 112333,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-125",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 126 Sahiwal Election 1988 Result",
+    "result": [
+      { "candidate": "Rai Ahmad Nawaz Khan", "party": "IJI", "votes": "59077" },
+      {
+        "candidate": "Malik Iqbal Ahmad Khan",
+        "party": "PPP",
+        "votes": "53925"
+      }
+    ],
+    "id": 126,
+    "xGrid": 21,
+    "yGrid": 18,
+    "totalVotes": 129328,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-126",
+    "voteMargin": 4
+  },
+  {
+    "desc": "NA 127 Sahiwal Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mian Ghulam Muhammad Ahmad Manika",
+        "party": "IJI",
+        "votes": "54263"
+      },
+      {
+        "candidate": "Rao Muhammad Hashim Khan",
+        "party": "PPP",
+        "votes": "49683"
+      }
+    ],
+    "id": 127,
+    "xGrid": 22,
+    "yGrid": 18,
+    "totalVotes": 112588,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-127",
+    "voteMargin": 4.1
+  },
+  {
+    "desc": "NA 128 Sahiwal Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Raja Shahid Saeed Khan",
+        "party": "IJI",
+        "votes": "60552"
+      },
+      { "candidate": "Rana Naeem Mehmood", "party": "PPP", "votes": "48617" }
+    ],
+    "id": 128,
+    "xGrid": 20,
+    "yGrid": 18,
+    "totalVotes": 109169,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-128",
+    "voteMargin": 10.9
+  },
+  {
+    "desc": "NA 129 Vehari Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Mumtaz Khan Bhabha",
+        "party": "PPP",
+        "votes": "65813"
+      },
+      {
+        "candidate": "Muhammad Nawaz Khan Aias Dilawar Khan Khichi",
+        "party": "IJI",
+        "votes": "62552"
+      }
+    ],
+    "id": 129,
+    "xGrid": 20,
+    "yGrid": 16,
+    "totalVotes": 130664,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-129",
+    "voteMargin": 2.5
+  },
+  {
+    "desc": "NA 130 Vehari Election 1988 Result",
+    "result": [
+      { "candidate": "Akbar Ali Bhatti", "party": "IJI", "votes": "65024" },
+      { "candidate": "Ahsan Khan Khakwani", "party": "PPP", "votes": "51527" }
+    ],
+    "id": 130,
+    "xGrid": 20,
+    "yGrid": 17,
+    "totalVotes": 122428,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-130",
+    "voteMargin": 11
+  },
+  {
+    "desc": "NA 131 Vehari Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Shahid Mehdi Naseem Shah",
+        "party": "IJI",
+        "votes": "68220"
+      },
+      { "candidate": "M.S Baqar", "party": "PPP", "votes": "58112" }
+    ],
+    "id": 131,
+    "xGrid": 21,
+    "yGrid": 16,
+    "totalVotes": 126332,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-131",
+    "voteMargin": 8
+  },
+  {
+    "desc": "NA 132 Dera Ghazi Khan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Khawja Kamal uddin Anwar",
+        "party": "IJI",
+        "votes": "60297"
+      },
+      {
+        "candidate": "Manzoor Ahmad Khan Lund",
+        "party": "PPP",
+        "votes": "45590"
+      }
+    ],
+    "id": 132,
+    "xGrid": 16,
+    "yGrid": 15,
+    "totalVotes": 120234,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-132",
+    "voteMargin": 12.2
+  },
+  {
+    "desc": "NA 133 DG Khan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sardar Farooq Ahmad Khan Leghari",
+        "party": "PPP",
+        "votes": "76099"
+      },
+      { "candidate": "Bibi Afifa Mamdoot", "party": "IJI", "votes": "35947" }
+    ],
+    "id": 133,
+    "xGrid": 15,
+    "yGrid": 17,
+    "totalVotes": 115415,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-133",
+    "voteMargin": 34.8
+  },
+  {
+    "desc": "NA 134 Rajanpur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sardar Ashiq Muhammad Khan Mazari",
+        "party": "PPP",
+        "votes": "52936"
+      },
+      {
+        "candidate": "Sardar Nasrullah Khan Darishak",
+        "party": "IJI",
+        "votes": "52542"
+      }
+    ],
+    "id": 134,
+    "xGrid": 15,
+    "yGrid": 20,
+    "totalVotes": 116043,
+    "region": "Rajanpur",
+    "province": "Punjab",
+    "seat": "NA-134",
+    "voteMargin": 0.3
+  },
+  {
+    "desc": "NA 135 Muzaffargarh Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Doctor Zulfiqar Ali Burq",
+        "party": "Ind",
+        "votes": "26454"
+      },
+      {
+        "candidate": "Syed Jamil Ahmad Hussain Bukhari",
+        "party": "PPP",
+        "votes": "25832"
+      }
+    ],
+    "id": 135,
+    "xGrid": 19,
+    "yGrid": 17,
+    "totalVotes": 94855,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-135",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 136 Muzaffargarh Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Nawabzada Nasrullah Khan",
+        "party": "PDP",
+        "votes": "49245"
+      },
+      {
+        "candidate": "Mian Atta Muhammad Qureshi",
+        "party": "IJI",
+        "votes": "30120"
+      }
+    ],
+    "id": 136,
+    "xGrid": 16,
+    "yGrid": 16,
+    "totalVotes": 93572,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-136",
+    "voteMargin": 20.4
+  },
+  {
+    "desc": "NA 137 Muzaffargarh Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Malik Ghulam Muhammad Mustafa Khar",
+        "party": "NPP-K",
+        "votes": "48877"
+      },
+      {
+        "candidate": "Malik Ghulam Muhammad Fakhar-u-lrussal Arbi Khar",
+        "party": "IJI",
+        "votes": "17498"
+      }
+    ],
+    "id": 137,
+    "xGrid": 16,
+    "yGrid": 17,
+    "totalVotes": 81985,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-137",
+    "voteMargin": 38.3
+  },
+  {
+    "desc": "NA 138 Muzaffargarh Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Muhammad Mustafa Khar",
+        "party": "Ind",
+        "votes": "60945"
+      },
+      {
+        "candidate": "Mian Mahar Ahmad Gurmani",
+        "party": "PPP",
+        "votes": "15044"
+      }
+    ],
+    "id": 138,
+    "xGrid": 16,
+    "yGrid": 18,
+    "totalVotes": 80927,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-138",
+    "voteMargin": 56.7
+  },
+  {
+    "desc": "NA 139 Layyah Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Malik Niaz Ahmad Jakhar",
+        "party": "PPP",
+        "votes": "43056"
+      },
+      {
+        "candidate": "Pir Syed Muhammad Khurshid Shah",
+        "party": "PAI",
+        "votes": "34980"
+      }
+    ],
+    "id": 139,
+    "xGrid": 17,
+    "yGrid": 14,
+    "totalVotes": 97341,
+    "region": "Layyah",
+    "province": "Punjab",
+    "seat": "NA-139",
+    "voteMargin": 8.3
+  },
+  {
+    "desc": "NA 140 Layyah Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Faiz-ul-Hassan",
+        "party": "IJI",
+        "votes": "31413"
+      },
+      {
+        "candidate": "Muhammad Behram Khan Sehar Advocate",
+        "party": "PPP",
+        "votes": "27934"
+      }
+    ],
+    "id": 140,
+    "xGrid": 17,
+    "yGrid": 17,
+    "totalVotes": 89260,
+    "region": "Layyah",
+    "province": "Punjab",
+    "seat": "NA-140",
+    "voteMargin": 3.9
+  },
+  {
+    "desc": "NA 141 Bahawalpur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Prince Salah-ud-Din Abbasi",
+        "party": "Ind",
+        "votes": "70318"
+      },
+      { "candidate": "", "party": "Ind", "votes": "" }
+    ],
+    "id": 141,
+    "xGrid": 18,
+    "yGrid": 20,
+    "totalVotes": 70318,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-141",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 142 Bahawalpur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Farooq Azam Malik",
+        "party": "PPP",
+        "votes": "54217"
+      },
+      { "candidate": "", "party": "Ind", "votes": "" }
+    ],
+    "id": 142,
+    "xGrid": 20,
+    "yGrid": 19,
+    "totalVotes": 54217,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-142",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 143 Bahawalpur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Tasneem Nawaz Gardezi",
+        "party": "IJI",
+        "votes": "63960"
+      },
+      { "candidate": "", "party": "Ind", "votes": "" }
+    ],
+    "id": 143,
+    "xGrid": 17,
+    "yGrid": 21,
+    "totalVotes": 63960,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-143",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 144 Bahawalnagar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Mumtaz Alam Gillani",
+        "party": "PPP",
+        "votes": "38259"
+      },
+      {
+        "candidate": "Syed Muhammad Asgahr Shah",
+        "party": "IJI",
+        "votes": "36919"
+      }
+    ],
+    "id": 144,
+    "xGrid": 23,
+    "yGrid": 18,
+    "totalVotes": 113016,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-144",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 145 Bahawalnagar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mian Abdul Sattar Khan Lalika",
+        "party": "IJI",
+        "votes": "62940"
+      },
+      {
+        "candidate": "Malik Muhammad Qasim",
+        "party": "PML-MQ",
+        "votes": "55052"
+      }
+    ],
+    "id": 145,
+    "xGrid": 22,
+    "yGrid": 19,
+    "totalVotes": 129652,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-145",
+    "voteMargin": 6.1
+  },
+  {
+    "desc": "NA 146 Bahawalnagar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Abdul Ghafoor Chaudhary",
+        "party": "IJI",
+        "votes": "58765"
+      },
+      { "candidate": "Muhammad Afzak Sindhu", "party": "PPP", "votes": "57889" }
+    ],
+    "id": 146,
+    "xGrid": 21,
+    "yGrid": 19,
+    "totalVotes": 131753,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-146",
+    "voteMargin": 0.7
+  },
+  {
+    "desc": "NA 147 Rahim Yar Khan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Ahmad Alam Anwar",
+        "party": "IJI",
+        "votes": "51863"
+      },
+      { "candidate": "Moulana Siraj Ahmad", "party": "PPP", "votes": "35948" }
+    ],
+    "id": 147,
+    "xGrid": 16,
+    "yGrid": 20,
+    "totalVotes": 106907,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-147",
+    "voteMargin": 14.9
+  },
+  {
+    "desc": "NA 148 Rahimyar Khan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Makhdoom Rukun-ud-Din",
+        "party": "PPP",
+        "votes": "43110"
+      },
+      {
+        "candidate": "Makhdoom Shahab ud Din",
+        "party": "IJI",
+        "votes": "38586"
+      }
+    ],
+    "id": 148,
+    "xGrid": 16,
+    "yGrid": 21,
+    "totalVotes": 104963,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-148",
+    "voteMargin": 4.3
+  },
+  {
+    "desc": "NA 149 Rahim Yar Khan Election 1988 Result",
+    "result": [
+      { "candidate": "Mian Abdul Khaliq", "party": "IJI", "votes": "60847" },
+      { "candidate": "Sheikh Fayyaz Uddin", "party": "PPP", "votes": "55745" }
+    ],
+    "id": 149,
+    "xGrid": 16,
+    "yGrid": 22,
+    "totalVotes": 135818,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-149",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 150 Rahimyar Khan Election 1988 Result",
+    "result": [
+      { "candidate": "Rais Shabbir Ahmad", "party": "IJI", "votes": "46784" },
+      {
+        "candidate": "Sardar Muhammad Aslam Khan",
+        "party": "PPP",
+        "votes": "46047"
+      }
+    ],
+    "id": 150,
+    "xGrid": 15,
+    "yGrid": 22,
+    "totalVotes": 125333,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-150",
+    "voteMargin": 0.6
+  },
+  {
+    "desc": "NA 151 Sukkar Election 1988 Result",
+    "result": [
+      { "candidate": "Ali Hassan Mangi", "party": "PPP", "votes": "57751" },
+      {
+        "candidate": "Islamuddin Sheikh S/O Noor Muhammad Shaikh",
+        "party": "IJI",
+        "votes": "30672"
+      }
+    ],
+    "id": 151,
+    "xGrid": 12,
+    "yGrid": 23,
+    "totalVotes": 102939,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-151",
+    "voteMargin": 26.3
+  },
+  {
+    "desc": "NA 152 Sukkar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Fakir Abdul Haque @ Mian Mitho",
+        "party": "PPP",
+        "votes": "53646"
+      },
+      {
+        "candidate": "Sardar Ghulam Muhammad Khan Mahar",
+        "party": "IJI",
+        "votes": "25196"
+      }
+    ],
+    "id": 152,
+    "xGrid": 13,
+    "yGrid": 24,
+    "totalVotes": 85114,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-152",
+    "voteMargin": 33.4
+  },
+  {
+    "desc": "NA 153 Sukkar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Noor Muhammad Khan Lund",
+        "party": "PPP",
+        "votes": "52562"
+      },
+      { "candidate": "Ahmad Yar Khan", "party": "IJI", "votes": "27982" }
+    ],
+    "id": 153,
+    "xGrid": 14,
+    "yGrid": 23,
+    "totalVotes": 81943,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-153",
+    "voteMargin": 30
+  },
+  {
+    "desc": "NA 154 Shikarpur Election 1988 Result",
+    "result": [
+      { "candidate": "Agha Tariq Khan", "party": "PPP", "votes": "41244" },
+      { "candidate": "Elahi Bux Soomro", "party": "IJI", "votes": "17389" }
+    ],
+    "id": 154,
+    "xGrid": 11,
+    "yGrid": 23,
+    "totalVotes": 66112,
+    "region": "Shikarpur",
+    "province": "Sindh",
+    "seat": "NA-154",
+    "voteMargin": 36.1
+  },
+  {
+    "desc": "NA 155 Shikarpur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Agha Atta Muhammad Khan",
+        "party": "PPP",
+        "votes": "40621"
+      },
+      { "candidate": "Rahim Bux Soomro", "party": "Ind", "votes": "5619" }
+    ],
+    "id": 155,
+    "xGrid": 12,
+    "yGrid": 22,
+    "totalVotes": 51439,
+    "region": "Shikarpur",
+    "province": "Sindh",
+    "seat": "NA-155",
+    "voteMargin": 68
+  },
+  {
+    "desc": "NA 156 Jacobabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Muqeem Khan",
+        "party": "PPP",
+        "votes": "69222"
+      },
+      { "candidate": "Taj Muhammad Jamali", "party": "IJI", "votes": "8616" }
+    ],
+    "id": 156,
+    "xGrid": 11,
+    "yGrid": 22,
+    "totalVotes": 80529,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-156",
+    "voteMargin": 75.3
+  },
+  {
+    "desc": "NA 157 Jacobabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mir Mehran Khan Bijarani",
+        "party": "PPP",
+        "votes": "32532"
+      },
+      {
+        "candidate": "Mir Allah Jiwayo Bijarani",
+        "party": "Ind",
+        "votes": "23940"
+      }
+    ],
+    "id": 157,
+    "xGrid": 13,
+    "yGrid": 22,
+    "totalVotes": 61252,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-157",
+    "voteMargin": 14
+  },
+  {
+    "desc": "NA 158 Nawabshah Election 1988 Result",
+    "result": [
+      { "candidate": "Zafar Ali Shah", "party": "PPP", "votes": "71850" },
+      { "candidate": "Ghulam Mustafa Khan", "party": "IJI", "votes": "30490" }
+    ],
+    "id": 158,
+    "xGrid": 11,
+    "yGrid": 25,
+    "totalVotes": 103786,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-158",
+    "voteMargin": 39.9
+  },
+  {
+    "desc": "NA 159 Nawabshah Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Haji Rehmatullah Behan",
+        "party": "PPP",
+        "votes": "46143"
+      },
+      {
+        "candidate": "Ghulam Mustafa Khan Jatoi",
+        "party": "IJI",
+        "votes": "31110"
+      }
+    ],
+    "id": 159,
+    "xGrid": 10,
+    "yGrid": 26,
+    "totalVotes": 79271,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-159",
+    "voteMargin": 19
+  },
+  {
+    "desc": "NA 160 Nawabshah Election 1988 Result",
+    "result": [
+      { "candidate": "Hakim Ali Zardari", "party": "PPP", "votes": "35591" },
+      {
+        "candidate": "Haji Syed Noor Muhammad Shah",
+        "party": "IJI",
+        "votes": "18522"
+      }
+    ],
+    "id": 160,
+    "xGrid": 11,
+    "yGrid": 26,
+    "totalVotes": 84585,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-160",
+    "voteMargin": 20.2
+  },
+  {
+    "desc": "NA 161 Nawabshah Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Shabir Ahmad Shah",
+        "party": "PPP",
+        "votes": "51972"
+      },
+      { "candidate": "Muhammad Saleh", "party": "IJI", "votes": "13225" }
+    ],
+    "id": 161,
+    "xGrid": 10,
+    "yGrid": 27,
+    "totalVotes": 66803,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-161",
+    "voteMargin": 58
+  },
+  {
+    "desc": "NA-162 Khairpur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Pervez Ali Shah Jillani",
+        "party": "PPP",
+        "votes": "88151"
+      },
+      {
+        "candidate": "Pir Syed Ali Mardhan Shah Pir Paggara",
+        "party": "Ind",
+        "votes": "34363"
+      }
+    ],
+    "id": 162,
+    "xGrid": 11,
+    "yGrid": 24,
+    "totalVotes": 124074,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-162",
+    "voteMargin": 43.4
+  },
+  {
+    "desc": "NA 163 Khairpur Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Pir Syed Abdul Qadir Shah",
+        "party": "PPP",
+        "votes": "87319"
+      },
+      { "candidate": "Pir Saddaruddin Shah", "party": "Ind", "votes": "30108" }
+    ],
+    "id": 163,
+    "xGrid": 12,
+    "yGrid": 26,
+    "totalVotes": 119072,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-163",
+    "voteMargin": 48
+  },
+  {
+    "desc": "NA 164 Larkana Election 1988 Result",
+    "result": [
+      { "candidate": "Begum Nusrat Bhutto", "party": "PPP", "votes": "83449" },
+      { "candidate": "Hamida Begum", "party": "PNP", "votes": "4524" }
+    ],
+    "id": 164,
+    "xGrid": 12,
+    "yGrid": 24,
+    "totalVotes": 90496,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-164",
+    "voteMargin": 87.2
+  },
+  {
+    "desc": "NA 165 Larkana Election 1988 Result",
+    "result": [
+      { "candidate": "Begum Ashraf Abbassi", "party": "PPP", "votes": "" },
+      { "candidate": "", "party": "IJI", "votes": "" }
+    ],
+    "id": 165,
+    "xGrid": 10,
+    "yGrid": 24,
+    "totalVotes": 0,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-165",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 166 Larkana Election 1988 Result",
+    "result": [
+      { "candidate": "Mohtarma Benazir Bhutto", "party": "PPP", "votes": "" },
+      { "candidate": "", "party": "", "votes": "" }
+    ],
+    "id": 166,
+    "xGrid": 9,
+    "yGrid": 23,
+    "totalVotes": 0,
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-166",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 167 Hyederabad Election 1988 Result",
+    "result": [
+      { "candidate": "Makhdoom Amin Faheem", "party": "PPP", "votes": "" },
+      { "candidate": "", "party": "", "votes": "" }
+    ],
+    "id": 167,
+    "xGrid": 11,
+    "yGrid": 28,
+    "totalVotes": 0,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-167",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 168 Hyederabad Election 1988 Result",
+    "result": [
+      { "candidate": "Aftab Ahmad Sheikh", "party": "Ind", "votes": "" },
+      { "candidate": "", "party": "", "votes": "" }
+    ],
+    "id": 168,
+    "xGrid": 12,
+    "yGrid": 29,
+    "totalVotes": 0,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-168",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 169 Hyederabad Election 1988 Result",
+    "result": [
+      { "candidate": "Rashid Ahmad Khan", "party": "PPP", "votes": "" },
+      { "candidate": "", "party": "", "votes": "" }
+    ],
+    "id": 169,
+    "xGrid": 11,
+    "yGrid": 29,
+    "totalVotes": 0,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-169",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 170 Hyederabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Qazi Abdul Majeed Abid",
+        "party": "PPP",
+        "votes": "50869"
+      },
+      {
+        "candidate": "Meer Inayat Ali Khan Talpur",
+        "party": "Ind",
+        "votes": "15287"
+      }
+    ],
+    "id": 170,
+    "xGrid": 10,
+    "yGrid": 30,
+    "totalVotes": 69164,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-170",
+    "voteMargin": 51.4
+  },
+  {
+    "desc": "NA 171 Hyederabad Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Makdoom Ghulam Muhammad Khalique uz zamam",
+        "party": "PPP",
+        "votes": "61838"
+      },
+      { "candidate": "Syed Umeed Ali Shah", "party": "IJI", "votes": "22381" }
+    ],
+    "id": 171,
+    "xGrid": 11,
+    "yGrid": 30,
+    "totalVotes": 84662,
+    "region": "Hyederabad",
+    "province": "Sindh",
+    "seat": "NA-171",
+    "voteMargin": 46.6
+  },
+  {
+    "desc": "NA 172 Badin Election 1988 Result",
+    "result": [
+      { "candidate": "Abdullah Halepoto", "party": "PPP", "votes": "38963" },
+      {
+        "candidate": "Haji Najamuddin Leghari",
+        "party": "IJI",
+        "votes": "10279"
+      }
+    ],
+    "id": 172,
+    "xGrid": 12,
+    "yGrid": 31,
+    "totalVotes": 57008,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-172",
+    "voteMargin": 50.3
+  },
+  {
+    "desc": "NA 173 Badin Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Bashir Ahmad Halepoto",
+        "party": "PPP",
+        "votes": "35379"
+      },
+      { "candidate": "Haji Muhammad", "party": "Ind", "votes": "7093" }
+    ],
+    "id": 173,
+    "xGrid": 11,
+    "yGrid": 31,
+    "totalVotes": 50350,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-173",
+    "voteMargin": 56.2
+  },
+  {
+    "desc": "NA 174 Tharparkar Election 1988 Result",
+    "result": [
+      { "candidate": "Syed Qurban Ali Shah", "party": "PPP", "votes": "39471" },
+      { "candidate": "Anees Ahmad Khan", "party": "Ind", "votes": "30759" }
+    ],
+    "id": 174,
+    "xGrid": 14,
+    "yGrid": 29,
+    "totalVotes": 95507,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-174",
+    "voteMargin": 9.1
+  },
+  {
+    "desc": "NA 175 Tharparkar Election 1988 Result",
+    "result": [
+      { "candidate": "Ali Nawaz Shah", "party": "PPP", "votes": "34323" },
+      {
+        "candidate": "Haji Khair Muhammad Bhurgari",
+        "party": "Ind",
+        "votes": "18418"
+      }
+    ],
+    "id": 175,
+    "xGrid": 15,
+    "yGrid": 29,
+    "totalVotes": 68892,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-175",
+    "voteMargin": 23.1
+  },
+  {
+    "desc": "NA 176 Tharparkar Election 1988 Result",
+    "result": [
+      { "candidate": "Arbab Amir Hussain", "party": "Ind", "votes": "41279" },
+      { "candidate": "Gul Muhammad", "party": "PPP", "votes": "38469" }
+    ],
+    "id": 176,
+    "xGrid": 15,
+    "yGrid": 31,
+    "totalVotes": 82760,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-176",
+    "voteMargin": 3.4
+  },
+  {
+    "desc": "NA 177 Dadu Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Malik Asad Sikandar Khan",
+        "party": "PPP",
+        "votes": "61451"
+      },
+      { "candidate": "Rehmat Khan", "party": "Ind", "votes": "9887" }
+    ],
+    "id": 177,
+    "xGrid": 9,
+    "yGrid": 25,
+    "totalVotes": 73377,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-177",
+    "voteMargin": 70.3
+  },
+  {
+    "desc": "NA 178 Dadu Election 1988 Result",
+    "result": [
+      { "candidate": "Haji Muhammad Bux", "party": "PPP", "votes": "63824" },
+      { "candidate": "Liaqat Ali Khan", "party": "PNP", "votes": "12232" }
+    ],
+    "id": 178,
+    "xGrid": 9,
+    "yGrid": 27,
+    "totalVotes": 76500,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-178",
+    "voteMargin": 67.4
+  },
+  {
+    "desc": "NA 179 Dadu Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Haji Zafar Ali Leghari",
+        "party": "PPP",
+        "votes": "63179"
+      },
+      { "candidate": "Abdul Hamid Khan", "party": "PNP", "votes": "17075" }
+    ],
+    "id": 179,
+    "xGrid": 9,
+    "yGrid": 29,
+    "totalVotes": 84358,
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-179",
+    "voteMargin": 54.7
+  },
+  {
+    "desc": "NA 180 Sanghar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Pir Syed Ali Gohar Shah",
+        "party": "Ind",
+        "votes": "52725"
+      },
+      { "candidate": "Zahoor Alam Khan Rind", "party": "PPP", "votes": "30257" }
+    ],
+    "id": 180,
+    "xGrid": 12,
+    "yGrid": 28,
+    "totalVotes": 84044,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-180",
+    "voteMargin": 26.7
+  },
+  {
+    "desc": "NA 181 Sanghar Election 1988 Result",
+    "result": [
+      { "candidate": "Shah Nawaz Junejo", "party": "PPP", "votes": "49879" },
+      { "candidate": "Muhammad Khan Junejo", "party": "IJI", "votes": "30942" }
+    ],
+    "id": 181,
+    "xGrid": 14,
+    "yGrid": 28,
+    "totalVotes": 106971,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-181",
+    "voteMargin": 17.7
+  },
+  {
+    "desc": "NA 182 Thatta Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Hussain Alias Babu",
+        "party": "PPP",
+        "votes": "53289"
+      },
+      { "candidate": "Rasool Bux Palijo", "party": "ANP", "votes": "9813" }
+    ],
+    "id": 182,
+    "xGrid": 10,
+    "yGrid": 31,
+    "totalVotes": 64880,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-182",
+    "voteMargin": 67
+  },
+  {
+    "desc": "NA 183 Thatta Election 1988 Result",
+    "result": [
+      { "candidate": "Ghulam Mustafa Shah", "party": "PPP", "votes": "37332" },
+      { "candidate": "Khan Muhammad", "party": "Ind", "votes": "8181" }
+    ],
+    "id": 183,
+    "xGrid": 10,
+    "yGrid": 32,
+    "totalVotes": 50374,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-183",
+    "voteMargin": 57.9
+  },
+  {
+    "desc": "NA 184 Karachi Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Amir Haidar Kazmi",
+        "party": "PPP",
+        "votes": "33606"
+      },
+      { "candidate": "Muhammad Amin Lakhani", "party": "Ind", "votes": "33403" }
+    ],
+    "id": 184,
+    "xGrid": 7,
+    "yGrid": 29,
+    "totalVotes": 116637,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-184",
+    "voteMargin": 0.2
+  },
+  {
+    "desc": "NA 185 Karachi West Election 1988 Result",
+    "result": [
+      { "candidate": "Syed Salim ul Haq", "party": "Ind", "votes": "82310" },
+      { "candidate": "Muhammad Afaque Khan", "party": "PPP", "votes": "18545" }
+    ],
+    "id": 185,
+    "xGrid": 7,
+    "yGrid": 31,
+    "totalVotes": 121713,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-185",
+    "voteMargin": 52.4
+  },
+  {
+    "desc": "NA 186 Karachi Election 1988 Result",
+    "result": [
+      { "candidate": "Kanwar Khalid Younis", "party": "Ind", "votes": "87919" },
+      {
+        "candidate": "Professor Ghafoor Ahmad",
+        "party": "IJI",
+        "votes": "22805"
+      }
+    ],
+    "id": 186,
+    "xGrid": 6,
+    "yGrid": 29,
+    "totalVotes": 124546,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-186",
+    "voteMargin": 52.3
+  },
+  {
+    "desc": "NA 187 Karachi Central Election 1988 Result",
+    "result": [
+      { "candidate": "Imran Farooq", "party": "Ind", "votes": "93499" },
+      { "candidate": "Muzaffar Ahmad Hashmi", "party": "IJI", "votes": "12125" }
+    ],
+    "id": 187,
+    "xGrid": 8,
+    "yGrid": 32,
+    "totalVotes": 115338,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-187",
+    "voteMargin": 70.6
+  },
+  {
+    "desc": "NA 188 Karachi Central Election 1988 Result",
+    "result": [
+      { "candidate": "Syed Muhammad Aslam", "party": "Ind", "votes": "131012" },
+      { "candidate": "Muhammad Usman Ramz", "party": "IJI", "votes": "18257" }
+    ],
+    "id": 188,
+    "xGrid": 6,
+    "yGrid": 30,
+    "totalVotes": 160656,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-188",
+    "voteMargin": 70.2
+  },
+  {
+    "desc": "NA 189 Karachi South Election 1988 Result",
+    "result": [
+      { "candidate": "Benazir Bhutto", "party": "PPP", "votes": "62046" },
+      { "candidate": "Jasmshed Ahmad Khan", "party": "IJI", "votes": "10730" }
+    ],
+    "id": 189,
+    "xGrid": 9,
+    "yGrid": 30,
+    "totalVotes": 90147,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-189",
+    "voteMargin": 56.9
+  },
+  {
+    "desc": "NA 190 Bahawalnagar Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Farooq Sattar",
+        "party": "Ind",
+        "votes": "40716"
+      },
+      { "candidate": "Habib", "party": "Ind", "votes": "32082" }
+    ],
+    "id": 190,
+    "xGrid": 8,
+    "yGrid": 31,
+    "totalVotes": 99712,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-190",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 191 Karachi South Election 1988 Result",
+    "result": [
+      { "candidate": "Syed Tariq Mehmood", "party": "Ind", "votes": "36746" },
+      { "candidate": "Ghulam Sarwar Malik", "party": "PPIS", "votes": "28145" }
+    ],
+    "id": 191,
+    "xGrid": 7,
+    "yGrid": 30,
+    "totalVotes": 85718,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-191",
+    "voteMargin": 10
+  },
+  {
+    "desc": "NA 192 Karachi Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Dr. Muhammad Farooque Sattar",
+        "party": "Ind",
+        "votes": "57609"
+      },
+      { "candidate": "Piyar Ali Alana", "party": "PPP", "votes": "13791" }
+    ],
+    "id": 192,
+    "xGrid": 10,
+    "yGrid": 29,
+    "totalVotes": 91131,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-192",
+    "voteMargin": 48.1
+  },
+  {
+    "desc": "NA 193 Karachi East Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Syed Muhammad Zakariya Kazmi",
+        "party": "Ind",
+        "votes": "62038"
+      },
+      { "candidate": "Syed Munawar Hassan", "party": "IJI", "votes": "18039" }
+    ],
+    "id": 193,
+    "xGrid": 9,
+    "yGrid": 31,
+    "totalVotes": 99675,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-193",
+    "voteMargin": 44.1
+  },
+  {
+    "desc": "NA 194 Karachi East Election 1988 Result",
+    "result": [
+      { "candidate": "Syed Amin Ul Haq", "party": "Ind", "votes": "59710" },
+      { "candidate": "", "party": "", "votes": "" }
+    ],
+    "id": 194,
+    "xGrid": 8,
+    "yGrid": 29,
+    "totalVotes": 59710,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-194",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 195 Karachi East Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mahmood Hussain Hashmi",
+        "party": "Ind",
+        "votes": "81097"
+      },
+      { "candidate": "", "party": "", "votes": "" }
+    ],
+    "id": 195,
+    "xGrid": 7,
+    "yGrid": 32,
+    "totalVotes": 81097,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-195",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 196 Karachi East Election 1988 Result",
+    "result": [
+      { "candidate": "Waseem Ahmad", "party": "Ind", "votes": "73612" },
+      {
+        "candidate": "Syed Sagheer Husain Jafri",
+        "party": "PPP",
+        "votes": "32015"
+      }
+    ],
+    "id": 196,
+    "xGrid": 8,
+    "yGrid": 30,
+    "totalVotes": 122615,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-196",
+    "voteMargin": 33.9
+  },
+  {
+    "desc": "NA 197 Quetta Chagai Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Hafiz Hussain Ahmad",
+        "party": "JUI-F",
+        "votes": "23903"
+      },
+      {
+        "candidate": "Fateh Muhammad Muhammad Hasni",
+        "party": "IJI",
+        "votes": "21421"
+      }
+    ],
+    "id": 197,
+    "xGrid": 5,
+    "yGrid": 19,
+    "totalVotes": 112626,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-197",
+    "voteMargin": 2.2
+  },
+  {
+    "desc": "NA 198 Pishin Election 1988 Result",
+    "result": [
+      { "candidate": "Maulvi Abdul Ghani", "party": "JUI-F", "votes": "24959" },
+      { "candidate": "Doctor Kaleem Ullah", "party": "PMAI", "votes": "19343" }
+    ],
+    "id": 198,
+    "xGrid": 8,
+    "yGrid": 15,
+    "totalVotes": 65448,
+    "region": "Pishin",
+    "province": "Balochistan",
+    "seat": "NA-198",
+    "voteMargin": 8.6
+  },
+  {
+    "desc": "NA 199 Loralai Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mir Baz Muhammad Khan",
+        "party": "PPP",
+        "votes": "11484"
+      },
+      {
+        "candidate": "Sardar Muhammad Yaqoob Khan Nasir",
+        "party": "IJI",
+        "votes": "11003"
+      }
+    ],
+    "id": 199,
+    "xGrid": 13,
+    "yGrid": 16,
+    "totalVotes": 43589,
+    "region": "Loralai",
+    "province": "Balochistan",
+    "seat": "NA-199",
+    "voteMargin": 1.1
+  },
+  {
+    "desc": "NA 200 Zhob Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Maulvi Muhammad Khan Sherani",
+        "party": "JUI-F",
+        "votes": "13307"
+      },
+      { "candidate": "Molvi Allad Dad", "party": "JUI-D", "votes": "5224" }
+    ],
+    "id": 200,
+    "xGrid": 13,
+    "yGrid": 13,
+    "totalVotes": 29452,
+    "region": "Zhob",
+    "province": "Balochistan",
+    "seat": "NA-200",
+    "voteMargin": 27.4
+  },
+  {
+    "desc": "NA 201 Kachhi Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mir Tariq Hussain Magsi",
+        "party": "Ind",
+        "votes": "21625"
+      },
+      {
+        "candidate": "Doctor Abdul Hayee Baloch",
+        "party": "BNA",
+        "votes": "12784"
+      }
+    ],
+    "id": 201,
+    "xGrid": 10,
+    "yGrid": 19,
+    "totalVotes": 43609,
+    "region": "Kachhi",
+    "province": "Balochistan",
+    "seat": "NA-201",
+    "voteMargin": 20.3
+  },
+  {
+    "desc": "NA 202 Sibi Kohlu Dera Bugti Ziarat Election 1988 Result",
+    "result": [
+      { "candidate": "Saleem Akbar Bugti", "party": "Ind", "votes": "16945" },
+      { "candidate": "Ghulam Qadir Bugti", "party": "Ind", "votes": "7362" }
+    ],
+    "id": 202,
+    "xGrid": 12,
+    "yGrid": 19,
+    "totalVotes": 35320,
+    "region": "Sibi",
+    "province": "Balochistan",
+    "seat": "NA-202",
+    "voteMargin": 27.1
+  },
+  {
+    "desc": "NA 203 Jaffarabad Tamboo Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Mir Zafar Ullah Khan Jamali",
+        "party": "IJI",
+        "votes": "50854"
+      },
+      {
+        "candidate": "Mir Nabi Bux Khan Khosa",
+        "party": "Ind",
+        "votes": "17195"
+      }
+    ],
+    "id": 203,
+    "xGrid": 10,
+    "yGrid": 21,
+    "totalVotes": 72236,
+    "region": "Jaffarabad",
+    "province": "Balochistan",
+    "seat": "NA-203",
+    "voteMargin": 46.6
+  },
+  {
+    "desc": "NA 204 Kalat / Kharan Election 1988 Result",
+    "result": [
+      {
+        "candidate": "Moulvi Muhammad Siddique Shah",
+        "party": "JUI-F",
+        "votes": "19356"
+      },
+      { "candidate": "Malik Haji Abdus Samad", "party": "PNP", "votes": "8127" }
+    ],
+    "id": 204,
+    "xGrid": 5,
+    "yGrid": 22,
+    "totalVotes": 48326,
+    "region": "Kalat",
+    "province": "Balochistan",
+    "seat": "NA-204",
+    "voteMargin": 23.2
+  },
+  {
+    "desc": "NA 205 Khuzdar Election 1988 Result",
+    "result": [
+      { "candidate": "Mir Muhammad Arif", "party": "BNA", "votes": "15206" },
+      {
+        "candidate": "Mir Ghousa Bux Bizanjo",
+        "party": "PNP",
+        "votes": "11805"
+      }
+    ],
+    "id": 205,
+    "xGrid": 6,
+    "yGrid": 25,
+    "totalVotes": 42454,
+    "region": "Khuzdar",
+    "province": "Balochistan",
+    "seat": "NA-205",
+    "voteMargin": 8
+  },
+  {
+    "desc": "NA 206 Lasbela Gawadar Election 1988 Result",
+    "result": [
+      { "candidate": "Ghulam Akbar Lasi", "party": "IJI", "votes": "17423" },
+      { "candidate": "Sher Jan", "party": "PNP", "votes": "16756" }
+    ],
+    "id": 206,
+    "xGrid": 2,
+    "yGrid": 29,
+    "totalVotes": 54247,
+    "region": "Lasbela",
+    "province": "Balochistan",
+    "seat": "NA-206",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 207 Turbat Panjgur Election 1988 Result",
+    "result": [
+      { "candidate": "Manzoor Ahmad", "party": "BNA", "votes": "16094" },
+      {
+        "candidate": "Mir Ghous Bakhsh Bizanjo",
+        "party": "PNP",
+        "votes": "12083"
+      }
+    ],
+    "id": 207,
+    "xGrid": 0,
+    "yGrid": 26,
+    "totalVotes": 44220,
+    "region": "Turbat",
+    "province": "Balochistan",
+    "seat": "NA-207",
+    "voteMargin": 9.1
+  }
+]

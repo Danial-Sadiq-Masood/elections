@@ -1,0 +1,23 @@
+.heading {
+    font-size: 6.75rem;
+    letter-spacing: -0.125rem;
+    font-weight: 600;
+    line-height: 84%;
+}
+
+.heading > span:first-child::after {
+    content: '';
+    display: block;
+}
+
+.heading > span:nth-child(2)::before {
+    content: '';
+    padding-right: 10rem;
+}
+
+.heading > span:last-child {
+    font-family: "DM Serif Text", serif;
+    font-style: italic;
+    font-weight: 400;
+}
+

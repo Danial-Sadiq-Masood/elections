@@ -1,0 +1,3555 @@
+[
+  {
+    "desc": "NA 1 Peshawar General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Yousaf Khattak",
+        "party": "PML-Q",
+        "votes": "44905"
+      },
+      {
+        "candidate": "Air Marshal (R) Asghar Khan",
+        "party": "PNA",
+        "votes": "34040"
+      }
+    ],
+    "id": 1,
+    "xGrid": 18,
+    "yGrid": 5,
+    "totalVotes": 80319,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-1",
+    "voteMargin": 13.5
+  },
+  {
+    "desc": "NA 2 Peshawar General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Arbab Muhammad Jahangir Khan",
+        "party": "PPP",
+        "votes": "32399"
+      },
+      { "candidate": "Arbab Saif Ur Rehman", "party": "PNA", "votes": "30270" }
+    ],
+    "id": 2,
+    "xGrid": 17,
+    "yGrid": 6,
+    "totalVotes": 66026,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-2",
+    "voteMargin": 3.2
+  },
+  {
+    "desc": "NA 3 Peshawar General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Aftab Ahmad Khan Sherpao",
+        "party": "PPP",
+        "votes": "41227"
+      },
+      {
+        "candidate": "Sardar Sher Baz Khan Mazari",
+        "party": "PNA",
+        "votes": "32381"
+      }
+    ],
+    "id": 3,
+    "xGrid": 18,
+    "yGrid": 7,
+    "totalVotes": 76261,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-3",
+    "voteMargin": 11.6
+  },
+  {
+    "desc": "NA 4 Peshawar General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Begum Naseem Wali Khan",
+        "party": "PNA",
+        "votes": "48653"
+      },
+      { "candidate": "Abdur Rehman Khan", "party": "PPP", "votes": "26079" }
+    ],
+    "id": 4,
+    "xGrid": 17,
+    "yGrid": 5,
+    "totalVotes": 78120,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-4",
+    "voteMargin": 28.9
+  },
+  {
+    "desc": "NA 5 Peshawar General Election 1977 Result",
+    "result": [
+      { "candidate": "Moulana Abdul Haq", "party": "PNA", "votes": "49024" },
+      {
+        "candidate": "Nasarullah Khan Khattak",
+        "party": "PPP",
+        "votes": "33405"
+      }
+    ],
+    "id": 5,
+    "xGrid": 16,
+    "yGrid": 6,
+    "totalVotes": 82429,
+    "region": "Peshawar",
+    "province": "KP",
+    "seat": "NA-5",
+    "voteMargin": 18.9
+  },
+  {
+    "desc": "NA 6 Mardan General Election 1977 Result",
+    "result": [
+      { "candidate": "Khan Meer Afzal Khan", "party": "PPP", "votes": "42042" },
+      { "candidate": "Dilbar Khan", "party": "PNA", "votes": "30577" }
+    ],
+    "id": 6,
+    "xGrid": 16,
+    "yGrid": 5,
+    "totalVotes": 74554,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-6",
+    "voteMargin": 15.4
+  },
+  {
+    "desc": "NA 7 Mardan General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Yousif Khan", "party": "PNA", "votes": "32133" },
+      { "candidate": "Sarfraz Khan", "party": "PPP", "votes": "30820" }
+    ],
+    "id": 7,
+    "xGrid": 18,
+    "yGrid": 4,
+    "totalVotes": 66158,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-7",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 8 Mardan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Begum Nasim Wali Khan",
+        "party": "PNA",
+        "votes": "36585"
+      },
+      { "candidate": "Abdul Sattar Khan", "party": "PPP", "votes": "21031" }
+    ],
+    "id": 8,
+    "xGrid": 19,
+    "yGrid": 6,
+    "totalVotes": 65591,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-8",
+    "voteMargin": 23.7
+  },
+  {
+    "desc": "NA 9 Mardan General Election 1977 Result",
+    "result": [
+      { "candidate": "Ali Gohar Khan", "party": "PNA", "votes": "33724" },
+      { "candidate": "Haji Abdul Mastan", "party": "PPP", "votes": "18139" }
+    ],
+    "id": 9,
+    "xGrid": 19,
+    "yGrid": 4,
+    "totalVotes": 59672,
+    "region": "Mardan",
+    "province": "KP",
+    "seat": "NA-9",
+    "voteMargin": 26.1
+  },
+  {
+    "desc": "NA 10 Kohat General Election 1977 Result",
+    "result": [
+      { "candidate": "Moulana Habib Gul", "party": "PNA", "votes": "29491" },
+      { "candidate": "Syed Hassan Jan", "party": "PPP", "votes": "16329" }
+    ],
+    "id": 10,
+    "xGrid": 18,
+    "yGrid": 8,
+    "totalVotes": 60658,
+    "region": "Kohat",
+    "province": "KP",
+    "seat": "NA-10",
+    "voteMargin": 21.7
+  },
+  {
+    "desc": "NA 11 Kohat General Election 1977 Result",
+    "result": [
+      { "candidate": "Molvi Naimat Ullah", "party": "PNA", "votes": "25546" },
+      {
+        "candidate": "Muhammad Aslam Khan Khattak",
+        "party": "PPP",
+        "votes": "14997"
+      }
+    ],
+    "id": 11,
+    "xGrid": 16,
+    "yGrid": 8,
+    "totalVotes": 49317,
+    "region": "Kohat",
+    "province": "KP",
+    "seat": "NA-11",
+    "voteMargin": 21.4
+  },
+  {
+    "desc": "NA 12 Abbottabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Iqbal Khan Jadoon",
+        "party": "PPP",
+        "votes": "32136"
+      },
+      {
+        "candidate": "Air Marshal (R) Asghar Khan",
+        "party": "PNA",
+        "votes": "26954"
+      }
+    ],
+    "id": 12,
+    "xGrid": 22,
+    "yGrid": 5,
+    "totalVotes": 73907,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-12",
+    "voteMargin": 7
+  },
+  {
+    "desc": "NA 13 Abbottabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Air Marshal (R) Asghar Khan",
+        "party": "PNA",
+        "votes": "35711"
+      },
+      {
+        "candidate": "Sardar Muhammad Fazal E Raziq Khan",
+        "party": "PPP",
+        "votes": "17172"
+      }
+    ],
+    "id": 13,
+    "xGrid": 21,
+    "yGrid": 5,
+    "totalVotes": 69944,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-13",
+    "voteMargin": 26.5
+  },
+  {
+    "desc": "NA 14 Abbottabad General Election 1977 Result",
+    "result": [
+      { "candidate": "Gohar Ayub Khan", "party": "PNA", "votes": "40071" },
+      { "candidate": "Akhtar Nawaz Khan", "party": "PPP", "votes": "33142" }
+    ],
+    "id": 14,
+    "xGrid": 19,
+    "yGrid": 7,
+    "totalVotes": 78141,
+    "region": "Abbottabad",
+    "province": "KP",
+    "seat": "NA-14",
+    "voteMargin": 8.9
+  },
+  {
+    "desc": "NA 15 Mansehra General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Hanif Khan", "party": "PPP", "votes": "27589" },
+      { "candidate": "Shaukat Ali Khan", "party": "PNA", "votes": "20743" }
+    ],
+    "id": 15,
+    "xGrid": 20,
+    "yGrid": 4,
+    "totalVotes": 74591,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-15",
+    "voteMargin": 9.2
+  },
+  {
+    "desc": "NA 16 Mansehra General Election 1977 Result",
+    "result": [
+      { "candidate": "Fakhar uz Zaman Khan", "party": "PNA", "votes": "20459" },
+      { "candidate": "Moulana Abdul Hakeem", "party": "PPP", "votes": "9164" }
+    ],
+    "id": 16,
+    "xGrid": 21,
+    "yGrid": 4,
+    "totalVotes": 35834,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-16",
+    "voteMargin": 31.5
+  },
+  {
+    "desc": "NA 17 Mansehra Kohistan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Haji Faqir Muhammad Khan",
+        "party": "PNA",
+        "votes": "14190"
+      },
+      { "candidate": "Muhammad Ayub Khan", "party": "PPP", "votes": "9538" }
+    ],
+    "id": 17,
+    "xGrid": 21,
+    "yGrid": 2,
+    "totalVotes": 41476,
+    "region": "Mansehra",
+    "province": "KP",
+    "seat": "NA-17",
+    "voteMargin": 11.2
+  },
+  {
+    "desc": "NA 18 Dera Ismail Khan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Moulana Mufti Mehmood",
+        "party": "PNA",
+        "votes": "65972"
+      },
+      { "candidate": "Gulzar Ahmad Khan", "party": "PPP", "votes": "63387" }
+    ],
+    "id": 18,
+    "xGrid": 15,
+    "yGrid": 12,
+    "totalVotes": 129359,
+    "region": "Dera Ismail Khan",
+    "province": "KP",
+    "seat": "NA-18",
+    "voteMargin": 2
+  },
+  {
+    "desc": "NA 19 Bannu General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Moulana Sadru Shaheed",
+        "party": "PNA",
+        "votes": "30161"
+      },
+      {
+        "candidate": "Muhammad Umar Jan Khan",
+        "party": "PPP",
+        "votes": "13794"
+      }
+    ],
+    "id": 19,
+    "xGrid": 15,
+    "yGrid": 8,
+    "totalVotes": 53080,
+    "region": "Bannu",
+    "province": "KP",
+    "seat": "NA-19",
+    "voteMargin": 30.8
+  },
+  {
+    "desc": "NA 20 Bannu General Election 1977 Result",
+    "result": [
+      { "candidate": "Ahmed Jan", "party": "PNA", "votes": "33960" },
+      { "candidate": "Anwar Kamal Khan", "party": "PPP", "votes": "24402" }
+    ],
+    "id": 20,
+    "xGrid": 15,
+    "yGrid": 9,
+    "totalVotes": 70265,
+    "region": "Bannu",
+    "province": "KP",
+    "seat": "NA-20",
+    "voteMargin": 13.6
+  },
+  {
+    "desc": "NA 21 Swat General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Gul Amirzeb", "party": "PPP", "votes": "23822" },
+      { "candidate": "Karim Bakhsh", "party": "PNA", "votes": "20624" }
+    ],
+    "id": 21,
+    "xGrid": 19,
+    "yGrid": 5,
+    "totalVotes": 57978,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-21",
+    "voteMargin": 5.5
+  },
+  {
+    "desc": "NA 22 Swat General Election 1977 Result",
+    "result": [
+      { "candidate": "Haji Fazal e Raziq", "party": "PNA", "votes": "30140" },
+      { "candidate": "Raheem Zada", "party": "PPP", "votes": "16103" }
+    ],
+    "id": 22,
+    "xGrid": 19,
+    "yGrid": 3,
+    "totalVotes": 51462,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-22",
+    "voteMargin": 27.3
+  },
+  {
+    "desc": "NA 23 Swat General Election 1977 Result",
+    "result": [
+      { "candidate": "Fateh Muhammad Khan", "party": "PPP", "votes": "27458" },
+      { "candidate": "Molvi Abdur Rehman", "party": "PNA", "votes": "22126" }
+    ],
+    "id": 23,
+    "xGrid": 19,
+    "yGrid": 2,
+    "totalVotes": 57996,
+    "region": "Swat",
+    "province": "KP",
+    "seat": "NA-23",
+    "voteMargin": 9.2
+  },
+  {
+    "desc": "NA 24 Chitral Dir General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Wali Khan", "party": "PPP", "votes": "21518" },
+      { "candidate": "Abdul Rehman", "party": "PNA", "votes": "18379" }
+    ],
+    "id": 24,
+    "xGrid": 18,
+    "yGrid": 0,
+    "totalVotes": 52526,
+    "region": "Chitral",
+    "province": "KP",
+    "seat": "NA-24",
+    "voteMargin": 6
+  },
+  {
+    "desc": "NA 25 Malakand Dir General Election 1977 Result",
+    "result": [
+      { "candidate": "Gauhar Rehman", "party": "PNA", "votes": "31895" },
+      { "candidate": "Lal Muhammad Khan", "party": "PPP", "votes": "24255" }
+    ],
+    "id": 25,
+    "xGrid": 17,
+    "yGrid": 4,
+    "totalVotes": 64980,
+    "region": "Malakand",
+    "province": "KP",
+    "seat": "NA-25",
+    "voteMargin": 11.8
+  },
+  {
+    "desc": "NA 26 Dir General Election 1977 Result",
+    "result": [
+      { "candidate": "Sahibzada Safiullah", "party": "PNA", "votes": "32205" },
+      {
+        "candidate": "Muhammad Shah Khan Khesro",
+        "party": "PPP",
+        "votes": "16398"
+      }
+    ],
+    "id": 26,
+    "xGrid": 18,
+    "yGrid": 3,
+    "totalVotes": 48603,
+    "region": "Dir",
+    "province": "KP",
+    "seat": "NA-26",
+    "voteMargin": 32.5
+  },
+  {
+    "desc": "NA 27 Tribal Area General Election 1977 Result",
+    "result": [
+      { "candidate": "Baroz", "party": "Ind", "votes": "1921" },
+      { "candidate": "Akbar Khan", "party": "Ind", "votes": "1263" }
+    ],
+    "id": 27,
+    "xGrid": 16,
+    "yGrid": 4,
+    "totalVotes": 4653,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-27",
+    "voteMargin": 14.1
+  },
+  {
+    "desc": "NA 28 Tribal Area General Election 1977 Result",
+    "result": [
+      { "candidate": "Baz Gull", "party": "Ind", "votes": "675" },
+      { "candidate": "Noor Ahmad", "party": "Ind", "votes": "624" }
+    ],
+    "id": 28,
+    "xGrid": 15,
+    "yGrid": 6,
+    "totalVotes": 1302,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-28",
+    "voteMargin": 3.9
+  },
+  {
+    "desc": "NA 29 Tribal Area General Election 1977 Result",
+    "result": [
+      { "candidate": "Shams ul Haq", "party": "Ind", "votes": "2435" },
+      { "candidate": "Molvi Saad Alam", "party": "Ind", "votes": "794" }
+    ],
+    "id": 29,
+    "xGrid": 15,
+    "yGrid": 7,
+    "totalVotes": 3495,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-29",
+    "voteMargin": 47
+  },
+  {
+    "desc": "NA 30 Tribal Area General Election 1977 Result",
+    "result": [
+      { "candidate": "Sardar Habibullah Khan", "party": "Ind", "votes": "505" },
+      { "candidate": "Sultan Mehmood", "party": "Ind", "votes": "441" }
+    ],
+    "id": 30,
+    "xGrid": 14,
+    "yGrid": 8,
+    "totalVotes": 1237,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-30",
+    "voteMargin": 5.2
+  },
+  {
+    "desc": "NA 31 Tribal Area General Election 1977 Result",
+    "result": [
+      { "candidate": "Said Khan", "party": "Ind", "votes": "451" },
+      { "candidate": "Sahib Jan", "party": "Ind", "votes": "291" }
+    ],
+    "id": 31,
+    "xGrid": 13,
+    "yGrid": 10,
+    "totalVotes": 1017,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-31",
+    "voteMargin": 15.7
+  },
+  {
+    "desc": "NA 32 Tribal Area General Election 1977 Result",
+    "result": [
+      { "candidate": "Abdul Subhan Khan", "party": "PPP", "votes": "2585" },
+      { "candidate": "Shahzada Muhammad Din", "party": "PNA", "votes": "1523" }
+    ],
+    "id": 32,
+    "xGrid": 17,
+    "yGrid": 3,
+    "totalVotes": 4382,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-32",
+    "voteMargin": 24.2
+  },
+  {
+    "desc": "NA 33 Tribal Area General Election 1977 Result",
+    "result": [
+      { "candidate": "Haji Gul Sher", "party": "Ind", "votes": "1116" },
+      { "candidate": "Haji Nawab Khan", "party": "Ind", "votes": "783" }
+    ],
+    "id": 33,
+    "xGrid": 15,
+    "yGrid": 5,
+    "totalVotes": 1966,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-33",
+    "voteMargin": 16.9
+  },
+  {
+    "desc": "NA 34 Tribal Area General Election 1977 Result",
+    "result": [
+      { "candidate": "Noor Sher Khan", "party": "Ind", "votes": "792" },
+      {
+        "candidate": "Brigadier (R) Hayat Ullah Khan",
+        "party": "Ind",
+        "votes": "197"
+      }
+    ],
+    "id": 34,
+    "xGrid": 14,
+    "yGrid": 10,
+    "totalVotes": 1195,
+    "region": "Tribal Area",
+    "province": "FATA",
+    "seat": "NA-34",
+    "voteMargin": 49.8
+  },
+  {
+    "desc": "NA 35 Islamabad General Election 1977 Result",
+    "result": [
+      { "candidate": "Zahoor Ahmad", "party": "PPP", "votes": "43794" },
+      { "candidate": "Ghafoor Ahmad", "party": "PNA", "votes": "22265" }
+    ],
+    "id": 35,
+    "xGrid": 22,
+    "yGrid": 6,
+    "totalVotes": 66298,
+    "region": "Islamabad",
+    "province": "ICT",
+    "seat": "NA-35",
+    "voteMargin": 32.5
+  },
+  {
+    "desc": "NA 36 Rawalpindi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Colonel (R) Habib Khan",
+        "party": "PPP",
+        "votes": "54923"
+      },
+      { "candidate": "Zafar ul Haq", "party": "PNA", "votes": "48751" }
+    ],
+    "id": 36,
+    "xGrid": 20,
+    "yGrid": 8,
+    "totalVotes": 105274,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-36",
+    "voteMargin": 5.9
+  },
+  {
+    "desc": "NA 37 Rawalpindi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Raja Abdul Aziz Bhatti",
+        "party": "PPP",
+        "votes": "69542"
+      },
+      { "candidate": "Malik Mehboob Hussain", "party": "Ind", "votes": "29048" }
+    ],
+    "id": 37,
+    "xGrid": 22,
+    "yGrid": 7,
+    "totalVotes": 112690,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-37",
+    "voteMargin": 35.9
+  },
+  {
+    "desc": "NA 38 Rawalpindi General Election 1977 Result",
+    "result": [
+      { "candidate": "Syed Ali Asghar Shah", "party": "PPP", "votes": "50634" },
+      {
+        "candidate": "Air Marshal (R) Asghar Khan",
+        "party": "PNA",
+        "votes": "40037"
+      }
+    ],
+    "id": 38,
+    "xGrid": 20,
+    "yGrid": 7,
+    "totalVotes": 91008,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-38",
+    "voteMargin": 11.6
+  },
+  {
+    "desc": "NA 39 Rawalpindi General Election 1977 Result",
+    "result": [
+      { "candidate": "Nazar Hussain Kiani", "party": "PPP", "votes": "58065" },
+      { "candidate": "Fateh Muhammad", "party": "PNA", "votes": "37347" }
+    ],
+    "id": 39,
+    "xGrid": 21,
+    "yGrid": 6,
+    "totalVotes": 95657,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-39",
+    "voteMargin": 21.7
+  },
+  {
+    "desc": "NA 40 Rawalpindi General Election 1977 Result",
+    "result": [
+      { "candidate": "Abdul Qayyum Butt", "party": "PPP", "votes": "64807" },
+      { "candidate": "Tassaduq Hussain", "party": "PNA", "votes": "34100" }
+    ],
+    "id": 40,
+    "xGrid": 21,
+    "yGrid": 7,
+    "totalVotes": 103164,
+    "region": "Rawalpindi",
+    "province": "Punjab",
+    "seat": "NA-40",
+    "voteMargin": 29.8
+  },
+  {
+    "desc": "NA 41 Campbellpur General Election 1977 Result",
+    "result": [
+      { "candidate": "Ahmad Waheed Akhtar", "party": "PPP", "votes": "49157" },
+      { "candidate": "Sheikh Muhammad Afzal", "party": "PNA", "votes": "26150" }
+    ],
+    "id": 41,
+    "xGrid": 20,
+    "yGrid": 6,
+    "totalVotes": 75307,
+    "region": "Campbellpur",
+    "province": "Punjab",
+    "seat": "NA-41",
+    "voteMargin": 30.6
+  },
+  {
+    "desc": "NA 42 Campbellpur General Election 1977 Result",
+    "result": [
+      { "candidate": "Sardar Shaukat Hayat", "party": "PPP", "votes": "89602" },
+      { "candidate": "Zahid Hussain Shah", "party": "PNA", "votes": "21474" }
+    ],
+    "id": 42,
+    "xGrid": 20,
+    "yGrid": 5,
+    "totalVotes": 111076,
+    "region": "Campbellpur",
+    "province": "Punjab",
+    "seat": "NA-42",
+    "voteMargin": 61.3
+  },
+  {
+    "desc": "NA 43 Attock General Election 1977 Result",
+    "result": [
+      { "candidate": "Pir Syed Safiuddin", "party": "PPP", "votes": "70866" },
+      { "candidate": "Abdul Rahman", "party": "PNA", "votes": "28729" }
+    ],
+    "id": 43,
+    "xGrid": 17,
+    "yGrid": 7,
+    "totalVotes": 104492,
+    "region": "Attock",
+    "province": "Punjab",
+    "seat": "NA-43",
+    "voteMargin": 40.3
+  },
+  {
+    "desc": "NA 44 Jhelum General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Doctor Ghulam Hussain",
+        "party": "PPP",
+        "votes": "70728"
+      },
+      { "candidate": "Chaudhary Abdul Malik", "party": "PNA", "votes": "38047" }
+    ],
+    "id": 44,
+    "xGrid": 22,
+    "yGrid": 8,
+    "totalVotes": 109993,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-44",
+    "voteMargin": 29.7
+  },
+  {
+    "desc": "NA 45 Jhelum General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sardar Khizar Hayat Khan",
+        "party": "PPP",
+        "votes": "78536"
+      },
+      { "candidate": "Mushtaq Ahmad", "party": "PNA", "votes": "31543" }
+    ],
+    "id": 45,
+    "xGrid": 23,
+    "yGrid": 8,
+    "totalVotes": 115238,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-45",
+    "voteMargin": 40.8
+  },
+  {
+    "desc": "NA 46 Jhelum General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Masood -ul- Hassan Bhatti",
+        "party": "PPP",
+        "votes": "72778"
+      },
+      { "candidate": "Moulvi Muhammad Akram", "party": "PNA", "votes": "18073" }
+    ],
+    "id": 46,
+    "xGrid": 21,
+    "yGrid": 8,
+    "totalVotes": 95577,
+    "region": "Jhelum",
+    "province": "Punjab",
+    "seat": "NA-46",
+    "voteMargin": 57.2
+  },
+  {
+    "desc": "NA 47 Gujrat General Election 1977 Result",
+    "result": [
+      { "candidate": "Zafar Mahdi", "party": "PPP", "votes": "91531" },
+      {
+        "candidate": "Chaudhary Zahoor Elahi",
+        "party": "PNA",
+        "votes": "28029"
+      }
+    ],
+    "id": 47,
+    "xGrid": 24,
+    "yGrid": 8,
+    "totalVotes": 120418,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-47",
+    "voteMargin": 52.7
+  },
+  {
+    "desc": "NA 48 Gujrat General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mian Mushtaq Hussain Pagganwala",
+        "party": "PPP",
+        "votes": "64790"
+      },
+      {
+        "candidate": "Chaudhary Zahoor Elahi",
+        "party": "PNA",
+        "votes": "39521"
+      }
+    ],
+    "id": 48,
+    "xGrid": 24,
+    "yGrid": 7,
+    "totalVotes": 109931,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-48",
+    "voteMargin": 23
+  },
+  {
+    "desc": "NA 49 Gujrat General Election 1977 Result",
+    "result": [
+      { "candidate": "Atta Elahi Chaudhary", "party": "PPP", "votes": "68008" },
+      { "candidate": "Muhammad Akram", "party": "PNA", "votes": "36028" }
+    ],
+    "id": 49,
+    "xGrid": 23,
+    "yGrid": 7,
+    "totalVotes": 106027,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-49",
+    "voteMargin": 30.2
+  },
+  {
+    "desc": "NA 50 Gujrat General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Sardar Khan", "party": "PPP", "votes": "70003" },
+      { "candidate": "Raja Muhammad Afzal", "party": "PNA", "votes": "32133" }
+    ],
+    "id": 50,
+    "xGrid": 20,
+    "yGrid": 10,
+    "totalVotes": 102812,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-50",
+    "voteMargin": 36.8
+  },
+  {
+    "desc": "NA 51 Gujrat General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Ghulam Rasool",
+        "party": "PPP",
+        "votes": "58247"
+      },
+      { "candidate": "Mumtaz Ahmad Tarar", "party": "PNA", "votes": "43167" }
+    ],
+    "id": 51,
+    "xGrid": 22,
+    "yGrid": 9,
+    "totalVotes": 107236,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-51",
+    "voteMargin": 14.1
+  },
+  {
+    "desc": "NA 52 Gujrat General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Gulzar", "party": "PPP", "votes": "57732" },
+      { "candidate": "Allama Inayat Ullah", "party": "PNA", "votes": "26548" }
+    ],
+    "id": 52,
+    "xGrid": 21,
+    "yGrid": 9,
+    "totalVotes": 92475,
+    "region": "Gujrat",
+    "province": "Punjab",
+    "seat": "NA-52",
+    "voteMargin": 33.7
+  },
+  {
+    "desc": "NA 53 Sargodha General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Malik Nasim Ahmad Aheer",
+        "party": "PPP",
+        "votes": "55433"
+      },
+      { "candidate": "Qari Abdul Sami", "party": "PNA", "votes": "35412" }
+    ],
+    "id": 53,
+    "xGrid": 19,
+    "yGrid": 8,
+    "totalVotes": 90845,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-53",
+    "voteMargin": 22
+  },
+  {
+    "desc": "NA 54 Sargodha General Election 1977 Result",
+    "result": [
+      { "candidate": "Malik Karam Bux", "party": "PPP", "votes": "58327" },
+      { "candidate": "Qazi Mureed Ahmad", "party": "PNA", "votes": "21207" }
+    ],
+    "id": 54,
+    "xGrid": 19,
+    "yGrid": 10,
+    "totalVotes": 88369,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-54",
+    "voteMargin": 42
+  },
+  {
+    "desc": "NA 55 Sargodha General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Zakir Qureshi",
+        "party": "PPP",
+        "votes": "78431"
+      },
+      { "candidate": "Syed Nusrat Ali Shah", "party": "PNA", "votes": "23949" }
+    ],
+    "id": 55,
+    "xGrid": 19,
+    "yGrid": 9,
+    "totalVotes": 102380,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-55",
+    "voteMargin": 53.2
+  },
+  {
+    "desc": "NA 56 Sargodha General Election 1977 Result",
+    "result": [
+      { "candidate": "Mahar Khuda Dad Khan", "party": "PPP", "votes": "56418" },
+      { "candidate": "Syed Mazhar Hussain", "party": "PNA", "votes": "28059" }
+    ],
+    "id": 56,
+    "xGrid": 17,
+    "yGrid": 11,
+    "totalVotes": 85750,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-56",
+    "voteMargin": 33.1
+  },
+  {
+    "desc": "NA 57 Sargodha General Election 1977 Result",
+    "result": [
+      { "candidate": "Hafeez Ullah", "party": "PPP", "votes": "77471" },
+      { "candidate": "Tufail Ahmad", "party": "PNA", "votes": "36015" }
+    ],
+    "id": 57,
+    "xGrid": 17,
+    "yGrid": 12,
+    "totalVotes": 114438,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-57",
+    "voteMargin": 36.2
+  },
+  {
+    "desc": "NA 58 Sargodha General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Malik Noor Hayat Khan Noon",
+        "party": "PPP",
+        "votes": "61382"
+      },
+      { "candidate": "Muhammad Akram Ranjha", "party": "PNA", "votes": "30136" }
+    ],
+    "id": 58,
+    "xGrid": 18,
+    "yGrid": 10,
+    "totalVotes": 93135,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-58",
+    "voteMargin": 33.5
+  },
+  {
+    "desc": "NA 59 Sargodha General Election 1977 Result",
+    "result": [
+      { "candidate": "Malik Anwar Ali Noon", "party": "PPP", "votes": "53978" },
+      { "candidate": "Chaudhary Fazal Elahi", "party": "PNA", "votes": "28697" }
+    ],
+    "id": 59,
+    "xGrid": 18,
+    "yGrid": 9,
+    "totalVotes": 86480,
+    "region": "Sargodha",
+    "province": "Punjab",
+    "seat": "NA-59",
+    "voteMargin": 29.2
+  },
+  {
+    "desc": "NA 60 Mianwali General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Nawab Malik Muzaffar Khan",
+        "party": "PPP",
+        "votes": "61944"
+      },
+      {
+        "candidate": "Moulana Abdul Sattar Khan Niazi",
+        "party": "PNA",
+        "votes": "51643"
+      }
+    ],
+    "id": 60,
+    "xGrid": 17,
+    "yGrid": 9,
+    "totalVotes": 113587,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-60",
+    "voteMargin": 9.1
+  },
+  {
+    "desc": "NA 61 Mianwali General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Ameer Abdullah Khan Rokhri",
+        "party": "PPP",
+        "votes": "89319"
+      },
+      {
+        "candidate": "Moulana Abdus Sattar Khan Niazi",
+        "party": "PNA",
+        "votes": "37004"
+      }
+    ],
+    "id": 61,
+    "xGrid": 17,
+    "yGrid": 10,
+    "totalVotes": 126323,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-61",
+    "voteMargin": 41.4
+  },
+  {
+    "desc": "NA 62 Mianwali General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Hussain Khan Dhandla",
+        "party": "PPP",
+        "votes": "81816"
+      },
+      {
+        "candidate": "Moulana Muhammad Abdullah",
+        "party": "PNA",
+        "votes": "33194"
+      }
+    ],
+    "id": 62,
+    "xGrid": 16,
+    "yGrid": 11,
+    "totalVotes": 118292,
+    "region": "Mianwali",
+    "province": "Punjab",
+    "seat": "NA-62",
+    "voteMargin": 41.1
+  },
+  {
+    "desc": "NA 63 Jhang General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Ali Shah", "party": "PPP", "votes": "83817" },
+      { "candidate": "Muhammad Zahoor", "party": "PNA", "votes": "33550" }
+    ],
+    "id": 63,
+    "xGrid": 19,
+    "yGrid": 11,
+    "totalVotes": 117367,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-63",
+    "voteMargin": 42.8
+  },
+  {
+    "desc": "NA 64 Jhang General Election 1977 Result",
+    "result": [
+      { "candidate": "Mehar Ghulam Haider", "party": "PPP", "votes": "77967" },
+      { "candidate": "Moulana Rehmat Ullah", "party": "PNA", "votes": "39514" }
+    ],
+    "id": 64,
+    "xGrid": 18,
+    "yGrid": 13,
+    "totalVotes": 117481,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-64",
+    "voteMargin": 32.7
+  },
+  {
+    "desc": "NA 65 Jhang General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Syed Faisal Saleh Hayat",
+        "party": "PPP",
+        "votes": "78803"
+      },
+      { "candidate": "Zafar Jamal Khan", "party": "PNA", "votes": "15875" }
+    ],
+    "id": 65,
+    "xGrid": 18,
+    "yGrid": 12,
+    "totalVotes": 96916,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-65",
+    "voteMargin": 64.9
+  },
+  {
+    "desc": "NA 66 Jhang General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Syed Zulfiqar Ali Bokhari",
+        "party": "PPP",
+        "votes": "64534"
+      },
+      {
+        "candidate": "Iftikhar Ahmad Khan Ansari",
+        "party": "PNA",
+        "votes": "40959"
+      }
+    ],
+    "id": 66,
+    "xGrid": 18,
+    "yGrid": 11,
+    "totalVotes": 105493,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-66",
+    "voteMargin": 22.3
+  },
+  {
+    "desc": "NA 67 Jhang General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Nazeer Sultan",
+        "party": "PPP",
+        "votes": "81142"
+      },
+      { "candidate": "Nawazish Ali Khan", "party": "PNA", "votes": "36316" }
+    ],
+    "id": 67,
+    "xGrid": 17,
+    "yGrid": 13,
+    "totalVotes": 119688,
+    "region": "Jhang",
+    "province": "Punjab",
+    "seat": "NA-67",
+    "voteMargin": 37.5
+  },
+  {
+    "desc": "NA 68 Faisalabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mian Muhammad Attaullah",
+        "party": "PPP",
+        "votes": "59723"
+      },
+      { "candidate": "Tufail Ahmad", "party": "PNA", "votes": "45577" }
+    ],
+    "id": 68,
+    "xGrid": 21,
+    "yGrid": 12,
+    "totalVotes": 106831,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-68",
+    "voteMargin": 13.2
+  },
+  {
+    "desc": "NA 69 Lyallpur General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Zahid Sarfraz", "party": "PNA", "votes": "46074" },
+      { "candidate": "Mian Muhammad Iqbal", "party": "PPP", "votes": "43920" }
+    ],
+    "id": 69,
+    "xGrid": 22,
+    "yGrid": 13,
+    "totalVotes": 92738,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-69",
+    "voteMargin": 2.3
+  },
+  {
+    "desc": "NA 70 Lyallpur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Nisar Akbar",
+        "party": "PPP",
+        "votes": "60776"
+      },
+      {
+        "candidate": "Muhammad Siddique Randhawa",
+        "party": "PNA",
+        "votes": "45722"
+      }
+    ],
+    "id": 70,
+    "xGrid": 21,
+    "yGrid": 14,
+    "totalVotes": 110015,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-70",
+    "voteMargin": 13.7
+  },
+  {
+    "desc": "NA 71 Lyallpur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Rana Sakhawat Ali Khan",
+        "party": "PPP",
+        "votes": "58464"
+      },
+      { "candidate": "Talib Hussain", "party": "PNA", "votes": "39090" }
+    ],
+    "id": 71,
+    "xGrid": 18,
+    "yGrid": 15,
+    "totalVotes": 97554,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-71",
+    "voteMargin": 19.9
+  },
+  {
+    "desc": "NA 72 Faisalabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Anwar Ali Khan",
+        "party": "PPP",
+        "votes": "58518"
+      },
+      { "candidate": "Asghar Ali", "party": "PNA", "votes": "18929" }
+    ],
+    "id": 72,
+    "xGrid": 18,
+    "yGrid": 14,
+    "totalVotes": 90076,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-72",
+    "voteMargin": 44
+  },
+  {
+    "desc": "NA 73 Lyallpur General Election 1977 Result",
+    "result": [
+      { "candidate": "Major (R) Moin Uddin", "party": "PPP", "votes": "74873" },
+      {
+        "candidate": "Chaudhary Muhammad Hussain",
+        "party": "PNA",
+        "votes": "25481"
+      }
+    ],
+    "id": 73,
+    "xGrid": 19,
+    "yGrid": 14,
+    "totalVotes": 103151,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-73",
+    "voteMargin": 47.9
+  },
+  {
+    "desc": "NA 74 Lyallpur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Imtiaz Ahmad Gill",
+        "party": "PPP",
+        "votes": "70565"
+      },
+      { "candidate": "Rehmat Ali", "party": "PNA", "votes": "40692" }
+    ],
+    "id": 74,
+    "xGrid": 20,
+    "yGrid": 14,
+    "totalVotes": 112747,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-74",
+    "voteMargin": 26.5
+  },
+  {
+    "desc": "NA 75 Lyallpur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Khan Shahdat Ali Khan Baloch",
+        "party": "PPP",
+        "votes": "62431"
+      },
+      { "candidate": "Muhammad Siddique", "party": "PNA", "votes": "23064" }
+    ],
+    "id": 75,
+    "xGrid": 20,
+    "yGrid": 13,
+    "totalVotes": 90373,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-75",
+    "voteMargin": 43.6
+  },
+  {
+    "desc": "NA 76 Lyallpur General Election 1977 Result",
+    "result": [
+      { "candidate": "Ghulam Nabi Chaudhry", "party": "PPP", "votes": "64535" },
+      {
+        "candidate": "Muhammad Abdullah Qazi",
+        "party": "PNA",
+        "votes": "43448"
+      }
+    ],
+    "id": 76,
+    "xGrid": 19,
+    "yGrid": 13,
+    "totalVotes": 107983,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-76",
+    "voteMargin": 19.5
+  },
+  {
+    "desc": "NA 77 Lyallpur General Election 1977 Result",
+    "result": [
+      { "candidate": "Asad Masood", "party": "PPP", "votes": "60597" },
+      { "candidate": "Haji Din Muhammad", "party": "PNA", "votes": "36517" }
+    ],
+    "id": 77,
+    "xGrid": 21,
+    "yGrid": 13,
+    "totalVotes": 100049,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-77",
+    "voteMargin": 24.1
+  },
+  {
+    "desc": "NA 78 Lyallpur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Rai Hafeez Ullah Khan Tariq",
+        "party": "PPP",
+        "votes": "65936"
+      },
+      {
+        "candidate": "Caption (R) Doctor Nasir Ahmad",
+        "party": "PNA",
+        "votes": "30755"
+      }
+    ],
+    "id": 78,
+    "xGrid": 20,
+    "yGrid": 11,
+    "totalVotes": 97868,
+    "region": "Lyallpur",
+    "province": "Punjab",
+    "seat": "NA-78",
+    "voteMargin": 35.9
+  },
+  {
+    "desc": "NA 79 Faisalabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Bashir Ahmad",
+        "party": "PPP",
+        "votes": "52311"
+      },
+      { "candidate": "Abdul Rehman Jami", "party": "PNA", "votes": "41204" }
+    ],
+    "id": 79,
+    "xGrid": 20,
+    "yGrid": 12,
+    "totalVotes": 93515,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-79",
+    "voteMargin": 11.9
+  },
+  {
+    "desc": "NA 80 Faisalabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Bashir Ahmad",
+        "party": "PPP",
+        "votes": "62522"
+      },
+      { "candidate": "Hamza M.A", "party": "PNA", "votes": "40145" }
+    ],
+    "id": 80,
+    "xGrid": 19,
+    "yGrid": 12,
+    "totalVotes": 103074,
+    "region": "Faisalabad",
+    "province": "Punjab",
+    "seat": "NA-80",
+    "voteMargin": 21.7
+  },
+  {
+    "desc": "NA 81 Lahore General Election 1977 Result",
+    "result": [
+      { "candidate": "S.M Masood", "party": "PPP", "votes": "45453" },
+      {
+        "candidate": "Chaudhary Rafiq Ahmad Bajwa",
+        "party": "PNA",
+        "votes": "33992"
+      }
+    ],
+    "id": 81,
+    "xGrid": 24,
+    "yGrid": 12,
+    "totalVotes": 79445,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-81",
+    "voteMargin": 14.4
+  },
+  {
+    "desc": "NA 82 Lahore General Election 1977 Result",
+    "result": [
+      { "candidate": "Khalid Lateef Kardar", "party": "PPP", "votes": "53757" },
+      { "candidate": "Muhammad Hanif Ramay", "party": "PNA", "votes": "32672" }
+    ],
+    "id": 82,
+    "xGrid": 26,
+    "yGrid": 12,
+    "totalVotes": 87603,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-82",
+    "voteMargin": 24.1
+  },
+  {
+    "desc": "NA 83 Lahore General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Ehsan Ul Haq", "party": "PPP", "votes": "64649" },
+      {
+        "candidate": "Khurshid Mehmood Kasuri",
+        "party": "PNA",
+        "votes": "31559"
+      }
+    ],
+    "id": 83,
+    "xGrid": 24,
+    "yGrid": 13,
+    "totalVotes": 96550,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-83",
+    "voteMargin": 34.3
+  },
+  {
+    "desc": "NA 84 Lahore General Election 1977 Result",
+    "result": [
+      { "candidate": "Doctor S.M Yaqoob", "party": "PPP", "votes": "45822" },
+      {
+        "candidate": "Malik Muhammad Qasim",
+        "party": "PML-Q",
+        "votes": "31886"
+      }
+    ],
+    "id": 84,
+    "xGrid": 23,
+    "yGrid": 12,
+    "totalVotes": 78301,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-84",
+    "voteMargin": 17.8
+  },
+  {
+    "desc": "NA 85 Lahore General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Salah-ud-Din", "party": "PPP", "votes": "51171" },
+      { "candidate": "Ameer Abdullah Khan", "party": "PNA", "votes": "31498" }
+    ],
+    "id": 85,
+    "xGrid": 25,
+    "yGrid": 12,
+    "totalVotes": 84140,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-85",
+    "voteMargin": 23.4
+  },
+  {
+    "desc": "NA 86 Lahore General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Malik Muhammad Akhtar Khuda Bux",
+        "party": "PPP",
+        "votes": "49753"
+      },
+      { "candidate": "Obaid Ullah Anwar", "party": "PNA", "votes": "40864" }
+    ],
+    "id": 86,
+    "xGrid": 23,
+    "yGrid": 13,
+    "totalVotes": 90724,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-86",
+    "voteMargin": 9.8
+  },
+  {
+    "desc": "NA 87 Lahore General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Rasheed", "party": "PPP", "votes": "58978" },
+      { "candidate": "Rehmat Ellahi", "party": "PNA", "votes": "35169" }
+    ],
+    "id": 87,
+    "xGrid": 24,
+    "yGrid": 11,
+    "totalVotes": 94453,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-87",
+    "voteMargin": 25.2
+  },
+  {
+    "desc": "NA 88 Lahore General Election 1977 Result",
+    "result": [
+      { "candidate": "Malik Meraj Khalid", "party": "PPP", "votes": "73398" },
+      { "candidate": "Abdul Qayyum Khan", "party": "PNA", "votes": "43629" }
+    ],
+    "id": 88,
+    "xGrid": 24,
+    "yGrid": 14,
+    "totalVotes": 117027,
+    "region": "Lahore",
+    "province": "Punjab",
+    "seat": "NA-88",
+    "voteMargin": 25.4
+  },
+  {
+    "desc": "NA 89 Kasur General Election 1977 Result",
+    "result": [
+      { "candidate": "Sardar Ahmad Ali", "party": "PPP", "votes": "59633" },
+      { "candidate": "Mian Amir Ahmad", "party": "PNA", "votes": "51538" }
+    ],
+    "id": 89,
+    "xGrid": 25,
+    "yGrid": 14,
+    "totalVotes": 112805,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-89",
+    "voteMargin": 7.2
+  },
+  {
+    "desc": "NA 90 Kasur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Major (R) Rehmat Khan",
+        "party": "PPP",
+        "votes": "51774"
+      },
+      {
+        "candidate": "Kamal Uddin Kamal Salapuri",
+        "party": "PNA",
+        "votes": "43716"
+      }
+    ],
+    "id": 90,
+    "xGrid": 24,
+    "yGrid": 15,
+    "totalVotes": 96047,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-90",
+    "voteMargin": 8.4
+  },
+  {
+    "desc": "NA 91 Kasur General Election 1977 Result",
+    "result": [
+      { "candidate": "Shafaat Khan", "party": "PPP", "votes": "81033" },
+      { "candidate": "Ehsan Elahi Zaheer", "party": "PNA", "votes": "34925" }
+    ],
+    "id": 91,
+    "xGrid": 23,
+    "yGrid": 15,
+    "totalVotes": 123260,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-91",
+    "voteMargin": 37.4
+  },
+  {
+    "desc": "NA 92 Kasur General Election 1977 Result",
+    "result": [
+      { "candidate": "Amjad Masood", "party": "PPP", "votes": "62948" },
+      { "candidate": "Moin Uddin Lakhvi", "party": "PNA", "votes": "49394" }
+    ],
+    "id": 92,
+    "xGrid": 25,
+    "yGrid": 13,
+    "totalVotes": 112342,
+    "region": "Kasur",
+    "province": "Punjab",
+    "seat": "NA-92",
+    "voteMargin": 12.1
+  },
+  {
+    "desc": "NA 93 Sheikhupura General Election 1977 Result",
+    "result": [
+      { "candidate": "Manzoor Hussain", "party": "PPP", "votes": "85703" },
+      { "candidate": "Chaudhary Murad Uddin", "party": "PNA", "votes": "24218" }
+    ],
+    "id": 93,
+    "xGrid": 22,
+    "yGrid": 12,
+    "totalVotes": 111637,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-93",
+    "voteMargin": 55.1
+  },
+  {
+    "desc": "NA 94 Sheikhupura General Election 1977 Result",
+    "result": [
+      { "candidate": "Malik Mushtaq Ahmad", "party": "PPP", "votes": "61757" },
+      { "candidate": "Mian Abdul Latif", "party": "PNA", "votes": "43138" }
+    ],
+    "id": 94,
+    "xGrid": 26,
+    "yGrid": 11,
+    "totalVotes": 106956,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-94",
+    "voteMargin": 17.4
+  },
+  {
+    "desc": "NA 95 Sheikhupura General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Arif", "party": "PPP", "votes": "73571" },
+      { "candidate": "Muhammad Hussain", "party": "PNA", "votes": "48036" }
+    ],
+    "id": 95,
+    "xGrid": 25,
+    "yGrid": 11,
+    "totalVotes": 121607,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-95",
+    "voteMargin": 21
+  },
+  {
+    "desc": "NA 96 Sheikhupura General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Shamim Haidar", "party": "PPP", "votes": "86912" },
+      { "candidate": "Mian Nazir Ahmad", "party": "PNA", "votes": "37062" }
+    ],
+    "id": 96,
+    "xGrid": 22,
+    "yGrid": 14,
+    "totalVotes": 123974,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-96",
+    "voteMargin": 40.2
+  },
+  {
+    "desc": "NA 97 Sheikhupura General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Rai Rasheed Ahmad Khan",
+        "party": "PPP",
+        "votes": "88247"
+      },
+      { "candidate": "Malik Shahdat Khan", "party": "PNA", "votes": "27656" }
+    ],
+    "id": 97,
+    "xGrid": 22,
+    "yGrid": 10,
+    "totalVotes": 115903,
+    "region": "Sheikhupura",
+    "province": "Punjab",
+    "seat": "NA-97",
+    "voteMargin": 52.3
+  },
+  {
+    "desc": "NA 98 Gujranwala General Election 1977 Result",
+    "result": [
+      { "candidate": "Ghulam Haider Cheema", "party": "PPP", "votes": "69182" },
+      { "candidate": "Hamid Nasir Chattha", "party": "PNA", "votes": "65512" }
+    ],
+    "id": 98,
+    "xGrid": 25,
+    "yGrid": 10,
+    "totalVotes": 136919,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-98",
+    "voteMargin": 2.7
+  },
+  {
+    "desc": "NA 99 Gujranwala General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Saifullah Tarar", "party": "PPP", "votes": "96514" },
+      {
+        "candidate": "Chaudhary Irshad ud Din",
+        "party": "PNA",
+        "votes": "44746"
+      }
+    ],
+    "id": 99,
+    "xGrid": 22,
+    "yGrid": 11,
+    "totalVotes": 144119,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-99",
+    "voteMargin": 35.9
+  },
+  {
+    "desc": "NA 100 Gujranwala General Election 1977 Result",
+    "result": [
+      { "candidate": "Ghulam Dastgir Khan", "party": "PNA", "votes": "52223" },
+      { "candidate": "Habib Ur Rehman", "party": "PPP", "votes": "48359" }
+    ],
+    "id": 100,
+    "xGrid": 24,
+    "yGrid": 10,
+    "totalVotes": 101740,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-100",
+    "voteMargin": 3.8
+  },
+  {
+    "desc": "NA 101 Gujranwala General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Azhar Hussain", "party": "PPP", "votes": "67662" },
+      {
+        "candidate": "Chaudhary Zafar Ullah Khan",
+        "party": "PNA",
+        "votes": "41236"
+      }
+    ],
+    "id": 101,
+    "xGrid": 21,
+    "yGrid": 10,
+    "totalVotes": 114267,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-101",
+    "voteMargin": 23.1
+  },
+  {
+    "desc": "NA 102 Gujranwala General Election 1977 Result",
+    "result": [
+      { "candidate": "Malik Mahdi Hassan", "party": "PPP", "votes": "61424" },
+      {
+        "candidate": "Syed Khalil ur Rehman Chishti",
+        "party": "PNA",
+        "votes": "55552"
+      }
+    ],
+    "id": 102,
+    "xGrid": 23,
+    "yGrid": 10,
+    "totalVotes": 119167,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-102",
+    "voteMargin": 4.9
+  },
+  {
+    "desc": "NA 103 Gujranwala General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Shahadat Khan", "party": "PPP", "votes": "72025" },
+      { "candidate": "Qazi Asmat Ullah", "party": "PNA", "votes": "48843" }
+    ],
+    "id": 103,
+    "xGrid": 23,
+    "yGrid": 11,
+    "totalVotes": 126177,
+    "region": "Gujranwala",
+    "province": "Punjab",
+    "seat": "NA-103",
+    "voteMargin": 18.4
+  },
+  {
+    "desc": "NA 104 Sialkot General Election 1977 Result",
+    "result": [
+      { "candidate": "Qazi Zaka Ud Din", "party": "PPP", "votes": "67305" },
+      {
+        "candidate": "Khawja Muhammad Sardar",
+        "party": "PNA",
+        "votes": "49925"
+      }
+    ],
+    "id": 104,
+    "xGrid": 26,
+    "yGrid": 10,
+    "totalVotes": 117230,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-104",
+    "voteMargin": 14.8
+  },
+  {
+    "desc": "NA 105 Sialkot General Election 1977 Result",
+    "result": [
+      { "candidate": "Mian Masood Ahmad", "party": "PPP", "votes": "84414" },
+      { "candidate": "Chaudhary Nasir Uddin", "party": "PNA", "votes": "30809" }
+    ],
+    "id": 105,
+    "xGrid": 25,
+    "yGrid": 8,
+    "totalVotes": 117222,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-105",
+    "voteMargin": 45.7
+  },
+  {
+    "desc": "NA 106 Sialkot General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Sultan Ahmad",
+        "party": "PPP",
+        "votes": "73648"
+      },
+      { "candidate": "Manzoor Ahmad", "party": "PNA", "votes": "52013" }
+    ],
+    "id": 106,
+    "xGrid": 27,
+    "yGrid": 10,
+    "totalVotes": 127510,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-106",
+    "voteMargin": 17
+  },
+  {
+    "desc": "NA 107 Sialkot General Election 1977 Result",
+    "result": [
+      { "candidate": "Moulana Kausar Niazi", "party": "PPP", "votes": "80011" },
+      { "candidate": "Asad Ullah Khan Bajwa", "party": "PNA", "votes": "30029" }
+    ],
+    "id": 107,
+    "xGrid": 23,
+    "yGrid": 9,
+    "totalVotes": 119891,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-107",
+    "voteMargin": 41.7
+  },
+  {
+    "desc": "NA 108 Sialkot General Election 1977 Result",
+    "result": [
+      { "candidate": "Hamid Nawaz Khan", "party": "PPP", "votes": "90775" },
+      { "candidate": "Muhammad Iqbal Butt", "party": "PNA", "votes": "21255" }
+    ],
+    "id": 108,
+    "xGrid": 26,
+    "yGrid": 9,
+    "totalVotes": 112030,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-108",
+    "voteMargin": 62.1
+  },
+  {
+    "desc": "NA 109 Sialkot General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Sarwar Khan Advocate",
+        "party": "PPP",
+        "votes": "81613"
+      },
+      { "candidate": "Barak Ullah Khan", "party": "PNA", "votes": "31523" }
+    ],
+    "id": 109,
+    "xGrid": 25,
+    "yGrid": 9,
+    "totalVotes": 113924,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-109",
+    "voteMargin": 44
+  },
+  {
+    "desc": "NA 110 Sialkot General Election 1977 Result",
+    "result": [
+      { "candidate": "Anwar Aziz Chaudhry", "party": "PPP", "votes": "101090" },
+      { "candidate": "Muhammad Salman", "party": "PNA", "votes": "8607" }
+    ],
+    "id": 110,
+    "xGrid": 24,
+    "yGrid": 9,
+    "totalVotes": 119235,
+    "region": "Sialkot",
+    "province": "Punjab",
+    "seat": "NA-110",
+    "voteMargin": 77.6
+  },
+  {
+    "desc": "NA 111 Multan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Syed Abbas Hussain Shah",
+        "party": "PPP",
+        "votes": "52356"
+      },
+      { "candidate": "Muhammad Rafiq", "party": "PNA", "votes": "51003" }
+    ],
+    "id": 111,
+    "xGrid": 17,
+    "yGrid": 16,
+    "totalVotes": 108527,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-111",
+    "voteMargin": 1.2
+  },
+  {
+    "desc": "NA 112 Multan General Election 1977 Result",
+    "result": [
+      { "candidate": "Riffat Hayat Khan", "party": "PPP", "votes": "53745" },
+      { "candidate": "Rao Shakir Ali", "party": "PNA", "votes": "41214" }
+    ],
+    "id": 112,
+    "xGrid": 17,
+    "yGrid": 17,
+    "totalVotes": 96045,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-112",
+    "voteMargin": 13
+  },
+  {
+    "desc": "NA 113 Multan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Barkat Ullah",
+        "party": "PPP",
+        "votes": "63743"
+      },
+      { "candidate": "Ghulam Haidar Wyne", "party": "PNA", "votes": "49161" }
+    ],
+    "id": 113,
+    "xGrid": 15,
+    "yGrid": 15,
+    "totalVotes": 114031,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-113",
+    "voteMargin": 12.8
+  },
+  {
+    "desc": "NA 114 Multan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Makhdoom Muhammad Sajjad Hussain Qureshi",
+        "party": "PPP",
+        "votes": "58844"
+      },
+      { "candidate": "Muhammad Arif", "party": "PNA", "votes": "37918" }
+    ],
+    "id": 114,
+    "xGrid": 16,
+    "yGrid": 17,
+    "totalVotes": 103107,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-114",
+    "voteMargin": 20.3
+  },
+  {
+    "desc": "NA 115 Multan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Syed Hamid Raza Gillani",
+        "party": "PPP",
+        "votes": "73918"
+      },
+      { "candidate": "Mian Sajid Parvaiz", "party": "PNA", "votes": "25837" }
+    ],
+    "id": 115,
+    "xGrid": 17,
+    "yGrid": 18,
+    "totalVotes": 104076,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-115",
+    "voteMargin": 46.2
+  },
+  {
+    "desc": "NA 116 Multan General Election 1977 Result",
+    "result": [
+      { "candidate": "Sheikh Khizar Hayat", "party": "PNA", "votes": "39688" },
+      {
+        "candidate": "Sahibzada Farooq Ali Khan Advocate",
+        "party": "PNA",
+        "votes": "38239"
+      }
+    ],
+    "id": 116,
+    "xGrid": 19,
+    "yGrid": 18,
+    "totalVotes": 79017,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-116",
+    "voteMargin": 1.8
+  },
+  {
+    "desc": "NA 117 Multan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Maulana Hamid Ali Khan",
+        "party": "PNA",
+        "votes": "49436"
+      },
+      { "candidate": "Babo Feroz Din Ansari", "party": "PPP", "votes": "45190" }
+    ],
+    "id": 117,
+    "xGrid": 18,
+    "yGrid": 18,
+    "totalVotes": 94626,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-117",
+    "voteMargin": 4.5
+  },
+  {
+    "desc": "NA 118 Multan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Abdur Rehman",
+        "party": "PPP",
+        "votes": "63308"
+      },
+      {
+        "candidate": "Khan Khurshid Ahamd Khan",
+        "party": "PNA",
+        "votes": "45673"
+      }
+    ],
+    "id": 118,
+    "xGrid": 16,
+    "yGrid": 15,
+    "totalVotes": 111523,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-118",
+    "voteMargin": 15.8
+  },
+  {
+    "desc": "NA 119 Multan General Election 1977 Result",
+    "result": [
+      { "candidate": "Syed Nasir Ali Rizvi", "party": "PPP", "votes": "64249" },
+      { "candidate": "Zafar Ullah Khan", "party": "PNA", "votes": "51104" }
+    ],
+    "id": 119,
+    "xGrid": 19,
+    "yGrid": 17,
+    "totalVotes": 116934,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-119",
+    "voteMargin": 11.2
+  },
+  {
+    "desc": "NA 120 Multan General Election 1977 Result",
+    "result": [
+      { "candidate": "Rana Taj Ahmad", "party": "PPP", "votes": "61335" },
+      { "candidate": "Abdul Razaq Khan", "party": "PNA", "votes": "51102" }
+    ],
+    "id": 120,
+    "xGrid": 16,
+    "yGrid": 18,
+    "totalVotes": 112437,
+    "region": "Multan",
+    "province": "Punjab",
+    "seat": "NA-120",
+    "voteMargin": 9.1
+  },
+  {
+    "desc": "NA 121 Vehari General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mohammad Nawaz Khan @ Dilawar Khan Khichi",
+        "party": "PPP",
+        "votes": "93943"
+      },
+      { "candidate": "Haji Jamshid Ali Khan", "party": "PNA", "votes": "36700" }
+    ],
+    "id": 121,
+    "xGrid": 19,
+    "yGrid": 16,
+    "totalVotes": 130643,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-121",
+    "voteMargin": 43.8
+  },
+  {
+    "desc": "NA 122 Vehari General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mian Riaz Ahmad Khan Daultana",
+        "party": "PPP",
+        "votes": "78761"
+      },
+      { "candidate": "Sufi Muhammad Tufail", "party": "PNA", "votes": "42611" }
+    ],
+    "id": 122,
+    "xGrid": 18,
+    "yGrid": 17,
+    "totalVotes": 123512,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-122",
+    "voteMargin": 29.3
+  },
+  {
+    "desc": "NA 123 Vehari General Election 1977 Result",
+    "result": [
+      { "candidate": "Agha Saleem Khurshid", "party": "PPP", "votes": "64253" },
+      { "candidate": "Qurban Ali Chohan", "party": "PNA", "votes": "54369" }
+    ],
+    "id": 123,
+    "xGrid": 18,
+    "yGrid": 16,
+    "totalVotes": 119826,
+    "region": "Vehari",
+    "province": "Punjab",
+    "seat": "NA-123",
+    "voteMargin": 8.2
+  },
+  {
+    "desc": "NA 124 Dera Ghazi Khan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Maulana Mufti Mahmood",
+        "party": "PNA",
+        "votes": "52159"
+      },
+      { "candidate": "Manzoor Ahmad Lund", "party": "PPP", "votes": "49886" }
+    ],
+    "id": 124,
+    "xGrid": 15,
+    "yGrid": 14,
+    "totalVotes": 102549,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-124",
+    "voteMargin": 2.2
+  },
+  {
+    "desc": "NA 125 Dera Ghazi Khan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sardar Farooq Ahmad Khan Leghari",
+        "party": "PPP",
+        "votes": "81878"
+      },
+      { "candidate": "Abdullah Khan", "party": "PNA", "votes": "31914" }
+    ],
+    "id": 125,
+    "xGrid": 14,
+    "yGrid": 16,
+    "totalVotes": 113792,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-125",
+    "voteMargin": 43.9
+  },
+  {
+    "desc": "NA 126 Dera Ghazi Khan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mir Balakh Sher Khan Mazari",
+        "party": "PPP",
+        "votes": "81858"
+      },
+      {
+        "candidate": "Malik Abdul Majid Javed",
+        "party": "PNA",
+        "votes": "26478"
+      }
+    ],
+    "id": 126,
+    "xGrid": 13,
+    "yGrid": 18,
+    "totalVotes": 108988,
+    "region": "Dera Ghazi Khan",
+    "province": "Punjab",
+    "seat": "NA-126",
+    "voteMargin": 50.8
+  },
+  {
+    "desc": "NA 127 Muzaffargarh General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Ibrahim Burq",
+        "party": "PPP",
+        "votes": "64737"
+      },
+      { "candidate": "Molvi Muhammad Luqman", "party": "PNA", "votes": "42950" }
+    ],
+    "id": 127,
+    "xGrid": 16,
+    "yGrid": 14,
+    "totalVotes": 130093,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-127",
+    "voteMargin": 16.7
+  },
+  {
+    "desc": "NA 128 Muzaffargarh General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Nawabzada Nasrullah Khan",
+        "party": "PNA",
+        "votes": "74006"
+      },
+      {
+        "candidate": "Sardar Amjad Hameed Khan Dasti",
+        "party": "PPP",
+        "votes": "45514"
+      }
+    ],
+    "id": 128,
+    "xGrid": 16,
+    "yGrid": 16,
+    "totalVotes": 119520,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-128",
+    "voteMargin": 23.8
+  },
+  {
+    "desc": "NA 129 Muzaffargarh General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Dost Muhammad Khan Buzdar",
+        "party": "PNA",
+        "votes": "73844"
+      },
+      {
+        "candidate": "Mian Ghulam Abbas Qureishi",
+        "party": "PPP",
+        "votes": "41604"
+      }
+    ],
+    "id": 129,
+    "xGrid": 17,
+    "yGrid": 15,
+    "totalVotes": 115448,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-129",
+    "voteMargin": 27.9
+  },
+  {
+    "desc": "NA 130 Muzaffargarh General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Malik Qadir Bakhash Jhakkar",
+        "party": "PPP",
+        "votes": "51237"
+      },
+      { "candidate": "Muhammad Bashir", "party": "PNA", "votes": "43010" }
+    ],
+    "id": 130,
+    "xGrid": 15,
+    "yGrid": 17,
+    "totalVotes": 94247,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-130",
+    "voteMargin": 8.7
+  },
+  {
+    "desc": "NA 131 Muzaffargarh General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Behram Khan Sehr",
+        "party": "PPP",
+        "votes": "47764"
+      },
+      { "candidate": "Rehmat Ali Alvi", "party": "PNA", "votes": "29438" }
+    ],
+    "id": 131,
+    "xGrid": 15,
+    "yGrid": 16,
+    "totalVotes": 89934,
+    "region": "Muzaffargarh",
+    "province": "Punjab",
+    "seat": "NA-131",
+    "voteMargin": 20.4
+  },
+  {
+    "desc": "NA 132 Sahiwal General Election 1977 Result",
+    "result": [
+      { "candidate": "Sardar Abdul Aleem", "party": "PPP", "votes": "62246" },
+      { "candidate": "Mehmood Ahmad", "party": "PNA", "votes": "42282" }
+    ],
+    "id": 132,
+    "xGrid": 22,
+    "yGrid": 15,
+    "totalVotes": 115612,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-132",
+    "voteMargin": 17.3
+  },
+  {
+    "desc": "NA 133 Sahiwal General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sardar Muhammad Nasim",
+        "party": "PPP",
+        "votes": "66107"
+      },
+      { "candidate": "Nazar Hussain Manzor", "party": "PNA", "votes": "37069" }
+    ],
+    "id": 133,
+    "xGrid": 21,
+    "yGrid": 15,
+    "totalVotes": 116255,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-133",
+    "voteMargin": 25
+  },
+  {
+    "desc": "NA 134 Sahiwal General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Chaudhary Muhammad Hanif Khan",
+        "party": "PPP",
+        "votes": "70993"
+      },
+      {
+        "candidate": "Ch. Muhammad Nawaz Khan",
+        "party": "PNA",
+        "votes": "43639"
+      }
+    ],
+    "id": 134,
+    "xGrid": 23,
+    "yGrid": 14,
+    "totalVotes": 116053,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-134",
+    "voteMargin": 23.6
+  },
+  {
+    "desc": "NA 135 Sahiwal General Election 1977 Result",
+    "result": [
+      { "candidate": "Rao Khurshid Ali", "party": "PPP", "votes": "79711" },
+      { "candidate": "Mian Zafar Iqbal", "party": "PNA", "votes": "41903" }
+    ],
+    "id": 135,
+    "xGrid": 21,
+    "yGrid": 16,
+    "totalVotes": 124649,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-135",
+    "voteMargin": 30.3
+  },
+  {
+    "desc": "NA 136 Sahiwal General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Saeed", "party": "PPP", "votes": "81075" },
+      { "candidate": "Muhammad Abbas", "party": "PNA", "votes": "47283" }
+    ],
+    "id": 136,
+    "xGrid": 20,
+    "yGrid": 15,
+    "totalVotes": 129214,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-136",
+    "voteMargin": 26.2
+  },
+  {
+    "desc": "NA 137 Sahiwal General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mian Mohammad Yaseen Khan",
+        "party": "PPP",
+        "votes": "95616"
+      },
+      { "candidate": "Molvi Noor Ullah", "party": "PNA", "votes": "33735" }
+    ],
+    "id": 137,
+    "xGrid": 22,
+    "yGrid": 16,
+    "totalVotes": 130923,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-137",
+    "voteMargin": 47.3
+  },
+  {
+    "desc": "NA 138 Sahiwal General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Rao Muhammad Hashim Khan",
+        "party": "PPP",
+        "votes": "75771"
+      },
+      { "candidate": "Bashir Ahmad", "party": "PNA", "votes": "42963" }
+    ],
+    "id": 138,
+    "xGrid": 20,
+    "yGrid": 16,
+    "totalVotes": 120465,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-138",
+    "voteMargin": 27.2
+  },
+  {
+    "desc": "NA 139 Sahiwal General Election 1977 Result",
+    "result": [
+      { "candidate": "Ahmad Saeed Khan", "party": "PPP", "votes": "78277" },
+      { "candidate": "Zafar Ullah Rana", "party": "PNA", "votes": "48661" }
+    ],
+    "id": 139,
+    "xGrid": 19,
+    "yGrid": 15,
+    "totalVotes": 126938,
+    "region": "Sahiwal",
+    "province": "Punjab",
+    "seat": "NA-139",
+    "voteMargin": 23.3
+  },
+  {
+    "desc": "NA 140 Bahawalpur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Shahzada Saeed- ur-Rasheed Abbasi",
+        "party": "PPP",
+        "votes": "60653"
+      },
+      { "candidate": "Muhammad Abdul Khaliq", "party": "PNA", "votes": "39054" }
+    ],
+    "id": 140,
+    "xGrid": 16,
+    "yGrid": 19,
+    "totalVotes": 104086,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-140",
+    "voteMargin": 20.8
+  },
+  {
+    "desc": "NA 141 Bahawalpur General Election 1977 Result",
+    "result": [
+      { "candidate": "Shuja Ullah Sheikh", "party": "PPP", "votes": "69544" },
+      { "candidate": "Hashmat Ali", "party": "PNA", "votes": "35688" }
+    ],
+    "id": 141,
+    "xGrid": 17,
+    "yGrid": 19,
+    "totalVotes": 107735,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-141",
+    "voteMargin": 31.4
+  },
+  {
+    "desc": "NA 142 Bahawalpur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Prince Salah Uddin Ahmad Abbasi",
+        "party": "PPP",
+        "votes": "67891"
+      },
+      { "candidate": "Mian Allah Nawaz", "party": "PNA", "votes": "32350" }
+    ],
+    "id": 142,
+    "xGrid": 18,
+    "yGrid": 19,
+    "totalVotes": 103752,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-142",
+    "voteMargin": 34.3
+  },
+  {
+    "desc": "NA 143 Bahawalpur Bahawalnagar General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sahibzada Noor Hassan",
+        "party": "PPP",
+        "votes": "55050"
+      },
+      {
+        "candidate": "Doctor Muhammad Ismail",
+        "party": "PNA",
+        "votes": "47417"
+      }
+    ],
+    "id": 143,
+    "xGrid": 17,
+    "yGrid": 20,
+    "totalVotes": 105598,
+    "region": "Bahawalpur",
+    "province": "Punjab",
+    "seat": "NA-143",
+    "voteMargin": 7.2
+  },
+  {
+    "desc": "NA 144 Bahawalnagar General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Rafiq Shah", "party": "PPP", "votes": "61747" },
+      { "candidate": "Molvi Muhammad Sharif", "party": "PNA", "votes": "41775" }
+    ],
+    "id": 144,
+    "xGrid": 21,
+    "yGrid": 17,
+    "totalVotes": 103522,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-144",
+    "voteMargin": 19.3
+  },
+  {
+    "desc": "NA 145 Bahawalnagar General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Afzal Watto", "party": "PPP", "votes": "55896" },
+      { "candidate": "Mian Muhammad Khaliq", "party": "PNA", "votes": "48068" }
+    ],
+    "id": 145,
+    "xGrid": 20,
+    "yGrid": 17,
+    "totalVotes": 105983,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-145",
+    "voteMargin": 7.4
+  },
+  {
+    "desc": "NA 146 Bahawalnagar General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Afzal", "party": "PPP", "votes": "60919" },
+      { "candidate": "Muhammad Qasim", "party": "PNA", "votes": "49596" }
+    ],
+    "id": 146,
+    "xGrid": 20,
+    "yGrid": 18,
+    "totalVotes": 110515,
+    "region": "Bahawalnagar",
+    "province": "Punjab",
+    "seat": "NA-146",
+    "voteMargin": 10.2
+  },
+  {
+    "desc": "NA 147 Rahim Yar Khan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Khawja Jamal Muhammad",
+        "party": "PPP",
+        "votes": "64049"
+      },
+      {
+        "candidate": "Shahzada Mamoon Ur Rasheed Abbasi",
+        "party": "Ind",
+        "votes": "58458"
+      }
+    ],
+    "id": 147,
+    "xGrid": 15,
+    "yGrid": 19,
+    "totalVotes": 122507,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-147",
+    "voteMargin": 4.6
+  },
+  {
+    "desc": "NA 148 Rahim Yar Khan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Makhdoom Hameed-ud-Din",
+        "party": "PPP",
+        "votes": "66082"
+      },
+      { "candidate": "Siraj Ahmad", "party": "PNA", "votes": "46837" }
+    ],
+    "id": 148,
+    "xGrid": 15,
+    "yGrid": 20,
+    "totalVotes": 112919,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-148",
+    "voteMargin": 17
+  },
+  {
+    "desc": "NA 149 Rahim Yar Khan General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Makhdoom Noor Muhammad Shah",
+        "party": "PNA",
+        "votes": "58428"
+      },
+      {
+        "candidate": "Doctor Muhammad Aslam Khan",
+        "party": "PPP",
+        "votes": "56888"
+      }
+    ],
+    "id": 149,
+    "xGrid": 15,
+    "yGrid": 21,
+    "totalVotes": 117062,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-149",
+    "voteMargin": 1.3
+  },
+  {
+    "desc": "NA 150 Rahim Yar Khan General Election 1977 Result",
+    "result": [
+      { "candidate": "Bilal Khan Sardar", "party": "PPP", "votes": "65518" },
+      {
+        "candidate": "Makhdoomzada Hassan Mehmood",
+        "party": "PNA",
+        "votes": "54459"
+      }
+    ],
+    "id": 150,
+    "xGrid": 14,
+    "yGrid": 21,
+    "totalVotes": 121950,
+    "region": "Rahim Yar Khan",
+    "province": "Punjab",
+    "seat": "NA-150",
+    "voteMargin": 9.1
+  },
+  {
+    "desc": "NA 151 Sukkur General Election 1977 Result",
+    "result": [
+      { "candidate": "Ali Hassan Mangi", "party": "PPP", "votes": "73086" },
+      { "candidate": "Molvi Abdul Karim", "party": "PNA", "votes": "22100" }
+    ],
+    "id": 151,
+    "xGrid": 11,
+    "yGrid": 22,
+    "totalVotes": 96471,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-151",
+    "voteMargin": 52.9
+  },
+  {
+    "desc": "NA 152 Sukkur General Election 1977 Result",
+    "result": [
+      { "candidate": "Agha Ghulam Nabi", "party": "PPP", "votes": "113898" },
+      { "candidate": "Muhammad Shah Amroti", "party": "PNA", "votes": "10444" }
+    ],
+    "id": 152,
+    "xGrid": 10,
+    "yGrid": 22,
+    "totalVotes": 124342,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-152",
+    "voteMargin": 83.2
+  },
+  {
+    "desc": "NA 153 Sukkur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sardar Ghulam Muhammad Khan Mahar",
+        "party": "PPP",
+        "votes": "127981"
+      },
+      { "candidate": "Muhammad Shah Amroti", "party": "PNA", "votes": "9774" }
+    ],
+    "id": 153,
+    "xGrid": 13,
+    "yGrid": 22,
+    "totalVotes": 138250,
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-153",
+    "voteMargin": 85.5
+  },
+  {
+    "desc": "NA 154 Sukkur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Noor Muhammad Khan Lund",
+        "party": "PPP",
+        "votes": "Unopposed"
+      }
+    ],
+    "id": 154,
+    "xGrid": 12,
+    "yGrid": 23,
+    "totalVotes": "Unopposed",
+    "region": "Sukkur",
+    "province": "Sindh",
+    "seat": "NA-154",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 155 Jacobabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mir Mehran Khan Bajarani",
+        "party": "PPP",
+        "votes": "Un Opposed"
+      }
+    ],
+    "id": 155,
+    "xGrid": 10,
+    "yGrid": 21,
+    "totalVotes": "Un Opposed",
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-155",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 156 Jacobabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Haji Khair Muhammad Khan",
+        "party": "PPP",
+        "votes": "100832"
+      },
+      { "candidate": "Ahmad Shah", "party": "PNA", "votes": "11716" }
+    ],
+    "id": 156,
+    "xGrid": 12,
+    "yGrid": 21,
+    "totalVotes": 112548,
+    "region": "Jacobabad",
+    "province": "Sindh",
+    "seat": "NA-156",
+    "voteMargin": 79.2
+  },
+  {
+    "desc": "NA 157 Nawabshah General Election 1977 Result",
+    "result": [
+      { "candidate": "Abdul Fateh", "party": "PPP", "votes": "Unopposed" }
+    ],
+    "id": 157,
+    "xGrid": 9,
+    "yGrid": 24,
+    "totalVotes": "Unopposed",
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-157",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 158 Nawabshah General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Ghulam Mujtaba Jatoi",
+        "party": "PPP",
+        "votes": "Un Contested"
+      }
+    ],
+    "id": 158,
+    "xGrid": 9,
+    "yGrid": 25,
+    "totalVotes": "Un Contested",
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-158",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 159 Nawabshah General Election 1977 Result",
+    "result": [
+      { "candidate": "Syed Shabbir Ahmad Shah", "party": "PPP", "votes": "UC" }
+    ],
+    "id": 159,
+    "xGrid": 9,
+    "yGrid": 26,
+    "totalVotes": "UC",
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-159",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 160 Nawabshah General Election 1977 Result",
+    "result": [
+      { "candidate": "Syed Noor Ahmad Shah", "party": "PPP", "votes": "83886" },
+      { "candidate": "Jan Muhammad Abbasi", "party": "PNA", "votes": "34062" }
+    ],
+    "id": 160,
+    "xGrid": 10,
+    "yGrid": 26,
+    "totalVotes": 119820,
+    "region": "Nawabshah",
+    "province": "Sindh",
+    "seat": "NA-160",
+    "voteMargin": 41.6
+  },
+  {
+    "desc": "NA 161 Khairpur General Election 1977 Result",
+    "result": [
+      { "candidate": "Syed Qaim Ali Shah", "party": "PPP", "votes": "104997" },
+      { "candidate": "Syed Ghous Ali Shah", "party": "Ind", "votes": "34999" }
+    ],
+    "id": 161,
+    "xGrid": 10,
+    "yGrid": 23,
+    "totalVotes": 141338,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-161",
+    "voteMargin": 49.5
+  },
+  {
+    "desc": "NA 162 Khairpur General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Pir Syed Abdul Qadir Shah",
+        "party": "PPP",
+        "votes": "120523"
+      },
+      { "candidate": "Haji Atta Muhammad", "party": "Ind", "votes": "15428" }
+    ],
+    "id": 162,
+    "xGrid": 11,
+    "yGrid": 25,
+    "totalVotes": 135951,
+    "region": "Khairpur",
+    "province": "Sindh",
+    "seat": "NA-162",
+    "voteMargin": 77.3
+  },
+  {
+    "desc": "NA 163 Larkana General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Zulfiqar Ali Bhutto",
+        "party": "PPP",
+        "votes": "Unopposed"
+      }
+    ],
+    "id": 163,
+    "xGrid": 9,
+    "yGrid": 22,
+    "totalVotes": "Unopposed",
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-163",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 164 Larkana General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sardar Ahmad Sultan",
+        "party": "PPP",
+        "votes": "Un Opposed"
+      }
+    ],
+    "id": 164,
+    "xGrid": 9,
+    "yGrid": 23,
+    "totalVotes": "Un Opposed",
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-164",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 165 Larkana General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mumtaz Ali Bhutto",
+        "party": "PPP",
+        "votes": "Un Opposed"
+      }
+    ],
+    "id": 165,
+    "xGrid": 8,
+    "yGrid": 22,
+    "totalVotes": "Un Opposed",
+    "region": "Larkana",
+    "province": "Sindh",
+    "seat": "NA-165",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 166 Hyderabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Makhdoom Muhammad Zaman",
+        "party": "PPP",
+        "votes": "Un Opposed"
+      }
+    ],
+    "id": 166,
+    "xGrid": 10,
+    "yGrid": 27,
+    "totalVotes": "Un Opposed",
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-166",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 167 Hyderabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Moulana Shah Ahmad Noorani",
+        "party": "PNA",
+        "votes": "60897"
+      },
+      { "candidate": "Elahi Bakhash Khan", "party": "PPP", "votes": "23963" }
+    ],
+    "id": 167,
+    "xGrid": 10,
+    "yGrid": 28,
+    "totalVotes": 85766,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-167",
+    "voteMargin": 43.1
+  },
+  {
+    "desc": "NA 168 Hyderabad General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Shaukat", "party": "PNA", "votes": "62732" },
+      { "candidate": "Muhammad Ashraf", "party": "PPP", "votes": "20005" }
+    ],
+    "id": 168,
+    "xGrid": 11,
+    "yGrid": 28,
+    "totalVotes": 83078,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-168",
+    "voteMargin": 51.4
+  },
+  {
+    "desc": "NA 169 Hyderabad General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mir Ejaz Ali Khan Talpur",
+        "party": "PPP",
+        "votes": "88194"
+      },
+      {
+        "candidate": "Haji Ghulam Siddique Jan",
+        "party": "PNA",
+        "votes": "8166"
+      }
+    ],
+    "id": 169,
+    "xGrid": 11,
+    "yGrid": 29,
+    "totalVotes": 96648,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-169",
+    "voteMargin": 82.8
+  },
+  {
+    "desc": "NA 170 Hyderabad General Election 1977 Result",
+    "result": [
+      { "candidate": "Syed Umed Ali Shah", "party": "PPP", "votes": "80018" },
+      {
+        "candidate": "Mir Ali Ahmad Khan Talpur",
+        "party": "Ind",
+        "votes": "14537"
+      }
+    ],
+    "id": 170,
+    "xGrid": 10,
+    "yGrid": 29,
+    "totalVotes": 95811,
+    "region": "Hyderabad",
+    "province": "Sindh",
+    "seat": "NA-170",
+    "voteMargin": 68.3
+  },
+  {
+    "desc": "NA 171 Badin General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Haji Najam Uddin Khan",
+        "party": "PPP",
+        "votes": "Un Opposed"
+      }
+    ],
+    "id": 171,
+    "xGrid": 10,
+    "yGrid": 30,
+    "totalVotes": "Un Opposed",
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-171",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 172 Badin General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Haji Abdullah Halepota",
+        "party": "PPP",
+        "votes": "54940"
+      },
+      { "candidate": "Ali Mir Shah", "party": "PNA", "votes": "9871" }
+    ],
+    "id": 172,
+    "xGrid": 11,
+    "yGrid": 30,
+    "totalVotes": 64811,
+    "region": "Badin",
+    "province": "Sindh",
+    "seat": "NA-172",
+    "voteMargin": 69.5
+  },
+  {
+    "desc": "NA 173 Tharparkar General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Peer Ghulam Rasool Shah Jillani",
+        "party": "PPP",
+        "votes": "81700"
+      },
+      { "candidate": "Mir Ali Ahmad Khan", "party": "Ind", "votes": "38113" }
+    ],
+    "id": 173,
+    "xGrid": 12,
+    "yGrid": 28,
+    "totalVotes": 124111,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-173",
+    "voteMargin": 35.1
+  },
+  {
+    "desc": "NA 174 Tharparkar General Election 1977 Result",
+    "result": [
+      { "candidate": "Syed Khadim Ali Shah", "party": "PPP", "votes": "98923" },
+      { "candidate": "Manzoor Hussain", "party": "PNA", "votes": "19903" }
+    ],
+    "id": 174,
+    "xGrid": 14,
+    "yGrid": 28,
+    "totalVotes": 118826,
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-174",
+    "voteMargin": 66.5
+  },
+  {
+    "desc": "NA 175 Tharparkar General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Niaz Muhammad Khan",
+        "party": "PPP",
+        "votes": "Un Opposed"
+      }
+    ],
+    "id": 175,
+    "xGrid": 14,
+    "yGrid": 30,
+    "totalVotes": "Un Opposed",
+    "region": "Tharparkar",
+    "province": "Sindh",
+    "seat": "NA-175",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 176 Dadu General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Malik Sikandar Khan",
+        "party": "PPP",
+        "votes": "Un Opposed"
+      }
+    ],
+    "id": 176,
+    "xGrid": 8,
+    "yGrid": 24,
+    "totalVotes": "Un Opposed",
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-176",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 177 Dadu General Election 1977 Result",
+    "result": [
+      { "candidate": "Rais Ullah Khan", "party": "PPP", "votes": "Un opposed" }
+    ],
+    "id": 177,
+    "xGrid": 8,
+    "yGrid": 25,
+    "totalVotes": "Un opposed",
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-177",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 178 Dadu General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Liaqat Ali Khan",
+        "party": "PPP",
+        "votes": "Un Contested"
+      }
+    ],
+    "id": 178,
+    "xGrid": 8,
+    "yGrid": 27,
+    "totalVotes": "Un Contested",
+    "region": "Dadu",
+    "province": "Sindh",
+    "seat": "NA-178",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 179 Sanghar General Election 1977 Result",
+    "result": [
+      { "candidate": "Haji Fatehuddin Shah", "party": "PPP", "votes": "57740" },
+      { "candidate": "Haji Khuda Bukhsh", "party": "PNA", "votes": "45344" }
+    ],
+    "id": 179,
+    "xGrid": 11,
+    "yGrid": 26,
+    "totalVotes": 103084,
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-179",
+    "voteMargin": 12
+  },
+  {
+    "desc": "NA 180 Sanghar General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Atta Muhammad Marri",
+        "party": "PPP",
+        "votes": "Unopposed"
+      }
+    ],
+    "id": 180,
+    "xGrid": 13,
+    "yGrid": 27,
+    "totalVotes": "Unopposed",
+    "region": "Sanghar",
+    "province": "Sindh",
+    "seat": "NA-180",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 181 Thatta General Election 1977 Result",
+    "result": [
+      { "candidate": "Muhammad Khan Somoro", "party": "PPP", "votes": "78181" },
+      {
+        "candidate": "Muhammad Ismail Chandio",
+        "party": "PNA",
+        "votes": "3556"
+      }
+    ],
+    "id": 181,
+    "xGrid": 9,
+    "yGrid": 30,
+    "totalVotes": 81737,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-181",
+    "voteMargin": 91.3
+  },
+  {
+    "desc": "NA 182 Thatta General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Yousif Khan Chandio",
+        "party": "PPP",
+        "votes": "47588"
+      },
+      { "candidate": "Molvi Noor Muhammad", "party": "PNA", "votes": "5506" }
+    ],
+    "id": 182,
+    "xGrid": 9,
+    "yGrid": 31,
+    "totalVotes": 53094,
+    "region": "Thatta",
+    "province": "Sindh",
+    "seat": "NA-182",
+    "voteMargin": 79.3
+  },
+  {
+    "desc": "NA 183 Karachi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Sardar Sher Baz Khan Mazari",
+        "party": "PNA",
+        "votes": "48139"
+      },
+      { "candidate": "Meer Hazar Khan", "party": "PPP", "votes": "36596" }
+    ],
+    "id": 183,
+    "xGrid": 5,
+    "yGrid": 29,
+    "totalVotes": 85898,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-183",
+    "voteMargin": 13.4
+  },
+  {
+    "desc": "NA 184 Karachi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Azam Farooqi",
+        "party": "PNA",
+        "votes": "54610"
+      },
+      { "candidate": "Hakim Saeed", "party": "PPP", "votes": "27089" }
+    ],
+    "id": 184,
+    "xGrid": 8,
+    "yGrid": 30,
+    "totalVotes": 82107,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-184",
+    "voteMargin": 33.5
+  },
+  {
+    "desc": "NA 185 Karachi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Hassan Haqani",
+        "party": "PNA",
+        "votes": "59688"
+      },
+      { "candidate": "Ali Muhammad", "party": "PPP", "votes": "28724" }
+    ],
+    "id": 185,
+    "xGrid": 5,
+    "yGrid": 30,
+    "totalVotes": 88412,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-185",
+    "voteMargin": 35
+  },
+  {
+    "desc": "NA 186 Karachi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Professor Ghafoor Ahmad",
+        "party": "PNA",
+        "votes": "55139"
+      },
+      {
+        "candidate": "Nawabzada Akbar Liaqat Ali Khan",
+        "party": "PPP",
+        "votes": "21334"
+      }
+    ],
+    "id": 186,
+    "xGrid": 7,
+    "yGrid": 28,
+    "totalVotes": 76630,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-186",
+    "voteMargin": 44.1
+  },
+  {
+    "desc": "NA 187 Karachi General Election 1977 Result",
+    "result": [
+      { "candidate": "Musheer Pesh Imam", "party": "PNA", "votes": "46453" },
+      {
+        "candidate": "Syed Imdad Hussain Shah",
+        "party": "PPP",
+        "votes": "36064"
+      }
+    ],
+    "id": 187,
+    "xGrid": 7,
+    "yGrid": 29,
+    "totalVotes": 82517,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-187",
+    "voteMargin": 12.6
+  },
+  {
+    "desc": "NA 188 Karachi General Election 1977 Result",
+    "result": [
+      { "candidate": "Abdul Sattar Gabol", "party": "PPP", "votes": "58801" },
+      { "candidate": "Saeed Haroon", "party": "PNA", "votes": "27505" }
+    ],
+    "id": 188,
+    "xGrid": 6,
+    "yGrid": 29,
+    "totalVotes": 87625,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-188",
+    "voteMargin": 35.7
+  },
+  {
+    "desc": "NA 189 Karachi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Muhammad Hanif Tayyab",
+        "party": "PNA",
+        "votes": "52905"
+      },
+      { "candidate": "Salman Ghanchi", "party": "PPP", "votes": "39823" }
+    ],
+    "id": 189,
+    "xGrid": 6,
+    "yGrid": 28,
+    "totalVotes": 93558,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-189",
+    "voteMargin": 14
+  },
+  {
+    "desc": "NA 190 Karachi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Air Marshal (R) Asghar Khan",
+        "party": "PNA",
+        "votes": "44252"
+      },
+      {
+        "candidate": "Syed Kamal ud Din Azfar",
+        "party": "PPP",
+        "votes": "29581"
+      }
+    ],
+    "id": 190,
+    "xGrid": 6,
+    "yGrid": 30,
+    "totalVotes": 73833,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-190",
+    "voteMargin": 19.9
+  },
+  {
+    "desc": "NA 191 Karachi General Election 1977 Result",
+    "result": [
+      { "candidate": "Syed Munawar Hassan", "party": "PNA", "votes": "73997" },
+      { "candidate": "Jamil Uddin Aali", "party": "PPP", "votes": "33086" }
+    ],
+    "id": 191,
+    "xGrid": 6,
+    "yGrid": 27,
+    "totalVotes": 107083,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-191",
+    "voteMargin": 38.2
+  },
+  {
+    "desc": "NA 192 Karachi General Election 1977 Result",
+    "result": [
+      { "candidate": "Shah Farid ul Haq", "party": "PNA", "votes": "52635" },
+      {
+        "candidate": "Professor Nabi Dad Khan",
+        "party": "PPP",
+        "votes": "26865"
+      }
+    ],
+    "id": 192,
+    "xGrid": 7,
+    "yGrid": 30,
+    "totalVotes": 80328,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-192",
+    "voteMargin": 32.1
+  },
+  {
+    "desc": "NA 193 Karachi General Election 1977 Result",
+    "result": [
+      { "candidate": "Abdul Hafeez Pirzada", "party": "PPP", "votes": "58938" },
+      {
+        "candidate": "Moulana Muhammad Zakaria",
+        "party": "PNA",
+        "votes": "32973"
+      }
+    ],
+    "id": 193,
+    "xGrid": 8,
+    "yGrid": 29,
+    "totalVotes": 92872,
+    "region": "Karachi",
+    "province": "Sindh",
+    "seat": "NA-193",
+    "voteMargin": 28
+  },
+  {
+    "desc": "NA 194 Quetta General Election 1977 Result",
+    "result": [
+      { "candidate": "Tahir Muhammad Khan", "party": "PPP", "votes": "24956" },
+      {
+        "candidate": "Arbab Abdul Qadir Khan",
+        "party": "PPNAP",
+        "votes": "15793"
+      }
+    ],
+    "id": 194,
+    "xGrid": 4,
+    "yGrid": 18,
+    "totalVotes": 43215,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-194",
+    "voteMargin": 21.2
+  },
+  {
+    "desc": "NA 195 Quetta General Election 1977 Result",
+    "result": [
+      { "candidate": "Yahya Bakhtiar", "party": "PPP", "votes": "18264" },
+      {
+        "candidate": "Mahmood Khan Achakzai",
+        "party": "PPNAP",
+        "votes": "16775"
+      }
+    ],
+    "id": 195,
+    "xGrid": 7,
+    "yGrid": 14,
+    "totalVotes": 44258,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-195",
+    "voteMargin": 3.4
+  },
+  {
+    "desc": "NA 196 Quetta General Election 1977 Result",
+    "result": [
+      { "candidate": "Wazir Ahmad Gogezai", "party": "PPP", "votes": "28908" },
+      { "candidate": "Molvi Rehmat Ullah", "party": "PPNAP", "votes": "15921" }
+    ],
+    "id": 196,
+    "xGrid": 12,
+    "yGrid": 13,
+    "totalVotes": 48232,
+    "region": "Quetta",
+    "province": "Balochistan",
+    "seat": "NA-196",
+    "voteMargin": 26.9
+  },
+  {
+    "desc": "NA 197 Sibi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Meer Taj Muhammad Khan Jamali",
+        "party": "PPP",
+        "votes": "Unopposed"
+      }
+    ],
+    "id": 197,
+    "xGrid": 11,
+    "yGrid": 17,
+    "totalVotes": "Unopposed",
+    "region": "Sibi",
+    "province": "Balochistan",
+    "seat": "NA-197",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 198 Sibi General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Meer Abdul Nabi Jamali",
+        "party": "PPP",
+        "votes": "Un Contested"
+      }
+    ],
+    "id": 198,
+    "xGrid": 9,
+    "yGrid": 19,
+    "totalVotes": "Un Contested",
+    "region": "Sibi",
+    "province": "Balochistan",
+    "seat": "NA-198",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 199 Kalat General Election 1977 Result",
+    "result": [
+      { "candidate": "Prince Mohyuddin", "party": "PPP", "votes": "Un Opposed" }
+    ],
+    "id": 199,
+    "xGrid": 6,
+    "yGrid": 23,
+    "totalVotes": "Un Opposed",
+    "region": "Kalat",
+    "province": "Balochistan",
+    "seat": "NA-199",
+    "voteMargin": 100
+  },
+  {
+    "desc": "NA 200 Kalat General Election 1977 Result",
+    "result": [
+      {
+        "candidate": "Mir Amanullah Khan Gichki",
+        "party": "PPP",
+        "votes": "Un Opposed"
+      }
+    ],
+    "id": 200,
+    "xGrid": 0,
+    "yGrid": 26,
+    "totalVotes": "Un Opposed",
+    "region": "Kalat",
+    "province": "Balochistan",
+    "seat": "NA-200",
+    "voteMargin": 100
+  }
+]

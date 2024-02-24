@@ -1,0 +1,36 @@
+.mapContainer {
+    position: inherit;
+    width: 72vw;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 1025px) and (min-height: 975px) {
+    .mapContainer {
+        width: 100vw;
+    }
+}
+
+@media only screen and (min-width: 1850px) {
+    .mapContainer {
+        width: 62vw;
+    }
+}
+
+@media only screen and (min-width: 2160px) {
+    .mapContainer {
+        width: 55vw;
+    }
+}
+
+@media only screen and (min-width: 2500px) {
+    .mapContainer {
+        width: 48vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .mapContainer {
+        transform: scale(2.5);
+        transform-origin: top center;
+    }
+}
