@@ -41,7 +41,7 @@ function App() {
   }, []);
 
   console.log(process.env.PUBLIC_URL);
-  
+
   return (
     <div className="App">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -50,11 +50,6 @@ function App() {
             <Route
               exact
               path='/'
-              element = { <Landing /> } 
-            />
-            <Route
-              exact
-              path='/data'
               element = { <Data /> } 
             />
           </Routes>
