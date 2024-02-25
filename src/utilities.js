@@ -258,9 +258,12 @@ export const partyScale = scaleOrdinal()
     }
   };
 
-  export function getElectionSummary(electionData, runnerup = 0) {
+  export function getElectionSummary(electionData, runnerup = 0, votesKey='votes') {
+    console.log('votes key', votesKey);
     const summary = {};
     electionData.forEach((result) => {
+
+
 
       if (result.result[runnerup]) {
         const winParty = result.result[runnerup].party;
@@ -274,7 +277,7 @@ export const partyScale = scaleOrdinal()
           }
         }
         else {
-          if (result.result[0].votes === result.result[1].votes) {
+          if (result.result[0][votesKey] === result.result[1][votesKey]) {
             if (summary[winParty]) {
               summary[winParty]+=0;
             } else {
@@ -307,6 +310,25 @@ export const partyScale = scaleOrdinal()
       }
     });
     return returnValue;
+  };
+
+  export function getElectionSummaryTopBar(electionData, votesKey='votes') {
+    let summary = electionData.reduce((acc,d)=>{
+      let winner = getWinner(d.result,votesKey);
+      acc[winner.party] = acc[winner.party] ? acc[winner.party] + 1 : 1 ;
+      return acc;
+    },{});
+
+    const partiesSorted = Object.entries(summary)
+      .sort((a, b) => b[1] - a[1]);
+
+    return partiesSorted.map((entry, index) => {
+      return {
+        party: entry[0],
+        seats: entry[1],
+        color: partyScale.domain().includes(entry[0]) ? partyScale(entry[0]) : "#dddddd"
+      }
+    });
   };
 
   export const Dictionary = {

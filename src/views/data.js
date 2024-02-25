@@ -22,7 +22,7 @@ import { turnoutAndVotes } from "../components/map/turnout/turnoutAndVotes";
 
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
-import { disableTurnout, getElectionSummary } from "../utilities";
+import { disableTurnout, getElectionSummary, getElectionSummaryTopBar } from "../utilities";
 
 import { PTI_Data } from "../components/map/translatedGrids/ptiData";
 
@@ -250,9 +250,7 @@ export default function Data() {
             <TopBar
               {...{ bringMapIn, currentYear, firebaseData }}
               leaders={
-                currentYear === "2024" && firebaseData
-                  ? getElectionSummary(firebaseData)
-                  : getElectionSummary(yearStates[currentYear].data)
+                getElectionSummaryTopBar(yearStates[currentYear].data,votesKey)
               }
             />
             <MapModes
@@ -265,7 +263,7 @@ export default function Data() {
           </Content>
           <RenderMap />
           <FiltersandLegend
-            leaders={getElectionSummary(yearStates[currentYear].data)}
+            leaders={getElectionSummary(yearStates[currentYear].data,0,votesKey)}
           />
 
           <Content>
@@ -376,14 +374,6 @@ function TopBar({
             </div>
           );
         })}
-
-        {!firebaseData && (
-          <>
-            <Leading party={"Ldng"} seats={0} color={"#ddd"} size={2}></Leading>
-            <Leading party={"Ldng"} seats={0} color={"#ddd"} size={2}></Leading>
-            <Leading party={"Ldng"} seats={0} color={"#ddd"} size={2}></Leading>
-          </>
-        )}
       </Leaders>
     </TopContainer>
   );

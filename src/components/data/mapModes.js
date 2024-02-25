@@ -81,10 +81,6 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState,
     return (
         <Container ref={container}>
             <div className='modes'>
-                <h3>Year</h3>
-                <YearInput/>
-            </div>
-            <div className='modes'>
                 <h3>Map Modes</h3>
                 {modes && modes.length > 0 && modes.map((mode) => {
                     return <CustomRadio setVotesKey={setVotesKey} key={mode} {...{currentYear, stateFunction, mapState}} active={state} text={mode}/>
@@ -183,9 +179,11 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear, setVo
     const processClick = async (txt) => {
         if (txt === "Voter Turnout" && mapState.mode !== 'turnout') {
             mapState.updateMode("turnout");
+            setVotesKey('declaredVotes');
         }
         else if (txt === "Vote Margin" && mapState.mode !== 'margin') {
             mapState.updateMode("margin");
+            setVotesKey('declaredVotes');
         }
         else if (txt === "Winning Party" && mapState.mode !== "party") {
             await mapState.updateMode("party");
@@ -207,9 +205,11 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear, setVo
             //mapState.updateMode("party");
             mapState.updateMode("Declared Winner Difference");
             console.log('updated data');
+            setVotesKey('declaredVotes');
         }else if (txt === "Loser Difference") {
             //mapState.updateMode("party");
             mapState.updateMode("Declared Loser Difference");
+            setVotesKey('declaredVotes');
             console.log('updated data');
         }
 
