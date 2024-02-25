@@ -174,23 +174,30 @@ class GridCanvas {
     return this;
   }
 
-  updateData(key,durMs=1000){
+  updateData(key){
 
-    this.animateModeTransition(
+    /*this.animateModeTransition(
       { 
         'fill': (d) => getWinColor(d,key),
         'fill-opacity' : 1
       },
-      {},
+      {
+        height : 0,
+        transform: (d) =>
+          `translate(0 ${this.cellWidth})`,
+        fill: getWinColor
+      }
+      ,
       {
         fill: (d) => contrast(getWinColor(d,key), "#000000") > 6
               ? "black"
               : "#ddd"
       }
-    )
+    )*/
+    this.updateMode('party',400,key);
   }
 
-  updateMode(mode, durMs = 400, key) {
+  updateMode(mode, durMs = 400, key='votes') {
     /*const { gridRects, propRects, gridLabels, cellWidth } = this;
     this.mode = mode;
 
@@ -239,6 +246,74 @@ class GridCanvas {
 
     const prevMode = this.mode;
     this.mode = mode;
+
+    console.log(mode);
+
+    const { gridRects, propRects, gridLabels, cellWidth } = this
+
+    if(mode === 'turnout'){
+      return this.animateModeTransition(
+        {
+          "fill-opacity":  0.1,
+          fill: "#bbb",
+        },
+        {
+          height : (d) =>
+                  cellWidth *
+                  d.voterTurnout / 100,
+          transform: (d) =>
+            `translate(0 ${
+                  cellWidth -
+                  cellWidth *
+                    (d.voterTurnout / 100)
+            })`,
+          fill: "#bbb"
+        }, 
+        {
+          fill: (d) => "black"
+        }
+      )
+    }else if(mode === 'margin'){
+      return this.animateModeTransition(
+        {
+          "fill-opacity":  0.1,
+          fill: "#bbb",
+        },
+        {
+          height : (d) =>
+                  cellWidth *
+                  d.voteMargin / 100,
+          transform: (d) =>
+            `translate(0 ${
+                  cellWidth -
+                  cellWidth *
+                    (d.voteMargin / 100)
+            })`,
+          fill: getWinColor
+        }, 
+        {
+          fill: (d) => "black"
+        }
+      )
+    }else{
+      return this.animateModeTransition(
+        {
+          "fill-opacity":  1,
+          fill: (d) => getWinColor(d,key),
+        },
+        {
+          height : 0,
+          transform: (d) =>
+            `translate(0 ${cellWidth})`,
+          fill: (d) => getWinColor(d,key)
+        }, 
+        {
+          fill: (d) => contrast(getWinColor(d,key), "#000000") > 6
+            ? "black"
+            : "#ddd"
+        }
+      )
+    }
 
     return this;
   }

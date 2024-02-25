@@ -76,7 +76,7 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState 
         gsap.to(container.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.4, delay: 0.75})
     }, [])
 
-    const modes = ["Winning Party", "Voter Turnout", "Vote Margin","Form 47 Data", "PTI Data"];
+    const modes = ["Voter Turnout", "Vote Margin","Form 47 Data", "PTI Data"];
     return (
         <Container ref={container}>
             <div className='modes'>
