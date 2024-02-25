@@ -24,7 +24,7 @@ function App() {
   useEffect(() => {
       ReactGA.initialize("G-FKREF78QMV");
 
-      const firebaseConfig = {
+      /*const firebaseConfig = {
         apiKey: process.env.API_KEY,
         authDomain: "elections-2024.firebaseapp.com",
         databaseURL: "https://elections-2024-default-rtdb.asia-southeast1.firebasedatabase.app",
@@ -37,7 +37,7 @@ function App() {
       
       // Initialize Firebase
       const app = initializeApp(firebaseConfig);
-      setFbApp(app);
+      setFbApp(app);*/
   }, []);
 
   console.log(process.env.PUBLIC_URL);

@@ -9,16 +9,18 @@ window.PTI_Data_fixed = data;
 
 //window.select = select;
 
-const getWinColor = (d) =>
-  d.result.length === 0 ||
+const getWinColor = (d,key='votes') =>{
+  d.result.sort((e,f) => f[key] - e[key]);
+  return d.result.length === 0 ||
   (d.result[0] &&
-    d.result[0].votes === 0 &&
+    d.result[0][key] === 0 &&
     d.result[1] &&
-    d.result[1].votes === 0)
+    d.result[1][key] === 0)
     ? "#eeeeee"
     : partyScale.domain().includes(d.result[0].party)
     ? partyScale(d.result[0].party)
     : "#dddddd";
+  }
 
 window.getWinColor = getWinColor;
 
@@ -172,33 +174,24 @@ class GridCanvas {
     return this;
   }
 
-  updateData(data,durMs=1000){
-    this.gridRects
-      .data(data)
-      //.selectAll('.grid-rect')
-      .transition()
-      .delay(function(d, i) { return i*0.05; })
-      .duration(durMs)
-      .attr(
-        'fill', getWinColor
-      );
+  updateData(key,durMs=1000){
 
-      this.gridLabels
-      .data(data)
-      .transition()
-      .duration(durMs)
-      .call(attrs, {
-        fill: (d) =>
-          this.mode === "party"
-            ? contrast(getWinColor(d), "#000000") > 6
+    this.animateModeTransition(
+      { 
+        'fill': (d) => getWinColor(d,key),
+        'fill-opacity' : 1
+      },
+      {},
+      {
+        fill: (d) => contrast(getWinColor(d,key), "#000000") > 6
               ? "black"
               : "#ddd"
-            : "black",
-      });
+      }
+    )
   }
 
-  updateMode(mode, durMs = 400) {
-    const { gridRects, propRects, gridLabels, cellWidth } = this;
+  updateMode(mode, durMs = 400, key) {
+    /*const { gridRects, propRects, gridLabels, cellWidth } = this;
     this.mode = mode;
 
     gridRects
@@ -242,7 +235,41 @@ class GridCanvas {
               ? "black"
               : "#ddd"
             : "black",
-      });
+      });*/
+
+    const prevMode = this.mode;
+    this.mode = mode;
+
+    return this;
+  }
+
+  animateModeTransition(gridRectAttrs,propRectsAttrs,gridLabelAttrs,durMs=400) {
+    const { gridRects, propRects, gridLabels, cellWidth } = this;
+    //this.mode = mode;
+
+    return Promise.all([
+      new Promise((res,rej)=>{
+        gridRects
+        .transition()
+        .duration(durMs)
+        .call(attrs,gridRectAttrs)
+        .end(res);
+      }),
+      new Promise((res,rej)=>{
+        propRects
+        .transition()
+        .duration(durMs)
+        .call(attrs,propRectsAttrs)
+        .end(res);
+      }),
+      new Promise((res,rej)=>{
+        gridLabels
+        .transition()
+        .duration(durMs)
+        .call(attrs,gridLabelAttrs)
+        .end(res);
+      })
+    ])
 
     return this;
   }

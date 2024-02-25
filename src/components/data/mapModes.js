@@ -183,15 +183,12 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear }) {
         }
         else if (txt === "Form 47 Data") {
             //mapState.updateMode("party");
-            mapState.updateData(window.ecp_data)
+            mapState.updateData('declaredVotes')
             console.log('updated data');
         }
         else if (txt === "PTI Data") {
             //mapState.updateMode("party");
-            window.PTI_Data_fixed.forEach((d)=>{
-                d.result.sort((d,e)=>e.votes - d.votes)
-            });
-            mapState.updateData(window.PTI_Data)
+            mapState.updateData('actualVotes')
             console.log('updated data');
         }
 

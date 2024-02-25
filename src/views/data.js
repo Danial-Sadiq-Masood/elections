@@ -75,12 +75,12 @@ export default function Data() {
 
   useEffect(() => {
     if (app) {
-      const database = dbFuncs.getDatabase(app);
+      /*const database = dbFuncs.getDatabase(app);
 
       window.dbFuncs = dbFuncs;
-      window.db = database;
+      window.db = database;*/
 
-      const dbRef = dbFuncs.ref(dbFuncs.getDatabase());
+      /*const dbRef = dbFuncs.ref(dbFuncs.getDatabase());
 
       const resRef = dbFuncs.ref(database, "results/");
       dbFuncs.onValue(resRef, (snapshot) => {
@@ -91,7 +91,7 @@ export default function Data() {
         } else {
           console.log("No data available");
         }
-      });
+      });*/
     } 
 
   }, [app]);

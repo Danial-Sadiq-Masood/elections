@@ -12,6 +12,9 @@ import elections2008 from './components/map/translatedGrids/elections2008.json';
 import elections2013 from './components/map/translatedGrids/elections2013.json';
 import elections2018 from './components/map/translatedGrids/elections2018.json';
 import elections2024 from './components/map/translatedGrids/elections2024.json';
+import elections2024ECP from './components/map/translatedGrids/elections2024ecp.json';
+
+window.ecp_data = elections2024ECP;
 
 const size = {
     never: '20px',
@@ -56,7 +59,7 @@ export const yearStates = {
       parties: ['Ind*', 'PML-N', 'PPP', 'MQM', 'Ind', 'IPP', 'JUI-F'],
       runnerups: ['Ind*', 'PML-N', 'PPP', 'MQM', 'Ind', 'IPP', 'JUI-F'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT'],
-      data: elections2024
+      data: elections2024ECP
     },
     '2018': {
       parties: ['PTI', 'PML-N', 'PPP', 'MMA', 'Ind', 'MQM', 'PML-Q', 'BAP', 'GDA', 'BNP', 'ANP', 'AML'],
