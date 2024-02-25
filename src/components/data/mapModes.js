@@ -184,14 +184,14 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear }) {
         else if (txt === "Winning Party" && mapState.mode !== "party") {
             mapState.updateMode("party");
         }
-        else if (txt === "Form 47 Data") {
+        else if (txt === "Form 47 Data" ) {
             //mapState.updateMode("party");
-            mapState.updateData('declaredVotes')
+            mapState.updateData('declaredVotes', 'form47')
             console.log('updated data');
         }
         else if (txt === "PTI Data") {
             //mapState.updateMode("party");
-            mapState.updateData('actualVotes')
+            mapState.updateData('actualVotes','pti data')
             console.log('updated data');
         }else if (txt === "Winner Difference") {
             //mapState.updateMode("party");

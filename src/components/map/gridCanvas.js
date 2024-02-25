@@ -192,7 +192,7 @@ class GridCanvas {
     return this;
   }
 
-  updateData(key){
+  updateData(key,mode){
 
     /*this.animateModeTransition(
       { 
@@ -212,7 +212,7 @@ class GridCanvas {
               : "#ddd"
       }
     )*/
-    this.updateMode('party',400,key);
+    this.updateMode(mode,400,key);
   }
 
   updateMode(mode, durMs = 400, key='votes') {
@@ -263,6 +263,11 @@ class GridCanvas {
       });*/
 
     const prevMode = this.mode;
+
+    if(prevMode === mode){
+      return Promise.resolve();
+    }
+
     this.mode = mode;
 
     console.log(mode);
