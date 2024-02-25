@@ -52,7 +52,7 @@ export default function Data() {
   const [voteMargin, setVoteMargin] = useState([0, 100]);
   const [voterTurnout, setVoterTurnout] = useState([0, 100]);
   const [gridGrps, setGridGrps] = useState(null);
-  const [mapMode, setMapMode] = useState("Winning Party");
+  const [mapMode, setMapMode] = useState("Form 47 Data");
 
   const [firebaseData, setFbData] = useState(null);
 
@@ -206,7 +206,7 @@ export default function Data() {
   }
 
   function resetModeAndFilters() {
-    setMapMode("Winning Party");
+    setMapMode("Form 47 Data");
     setPartyFilters([]);
     setRegionFilters([]);
     setVoteMargin([0, 100]);

@@ -10,8 +10,8 @@ window.PTI_Data_fixed = data;
 //window.select = select;
 
 const getWinColor = (d,key='votes') =>{
-  d.result.sort((e,f) => f[key] - e[key]);
-  return d.result.length === 0 ||
+  //d.result.sort((e,f) => f[key] - e[key]);
+  /*return d.result.length === 0 ||
   (d.result[0] &&
     d.result[0][key] === 0 &&
     d.result[1] &&
@@ -19,6 +19,16 @@ const getWinColor = (d,key='votes') =>{
     ? "#eeeeee"
     : partyScale.domain().includes(d.result[0].party)
     ? partyScale(d.result[0].party)
+    : "#dddddd";*/
+    if(d.result[0] &&
+      d.result[0][key] === 0 &&
+      d.result[1] &&
+      d.result[1][key] === 0){
+        return "#eeeeee"
+      }
+    let winner = d.result.reduce((acc,e)=>e[key] > acc[key] ? e : acc)
+    return partyScale.domain().includes(winner.party)
+    ? partyScale(winner.party)
     : "#dddddd";
   }
 

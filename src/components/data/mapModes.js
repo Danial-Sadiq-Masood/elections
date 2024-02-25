@@ -162,6 +162,8 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear }) {
 
     const container = useRef();
 
+    console.log(text,active);
+
     useEffect(() => {
         if (text === active) {
             container.current.classList.add('active');
