@@ -69,7 +69,7 @@ const Container = styled.div`
     }
 `
 
-export default function MapModes ({ currentYear, state, stateFunction, mapState }) {
+export default function MapModes ({ currentYear, state, stateFunction, mapState, setVotesKey }) {
     const container = useRef();
 
     useEffect(() => {
@@ -87,7 +87,7 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState 
             <div className='modes'>
                 <h3>Map Modes</h3>
                 {modes && modes.length > 0 && modes.map((mode) => {
-                    return <CustomRadio key={mode} {...{currentYear, stateFunction, mapState}} active={state} text={mode}/>
+                    return <CustomRadio setVotesKey={setVotesKey} key={mode} {...{currentYear, stateFunction, mapState}} active={state} text={mode}/>
                 })}
             </div>
         </Container>
@@ -95,7 +95,13 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState 
 }
 
 
-const RadioContainer = styled.button`
+const RadioContainer = styled.button.attrs((props) => {
+        let classList = props.active ? 'active' : '';
+        console.log(props);
+        return {
+            className: `${classList}`
+        }
+    })`
     position: relative;
     padding-left: 18px;
     margin: 5px 0px;
@@ -159,22 +165,22 @@ const RadioContainer = styled.button`
 
 `;
 
-function CustomRadio({ text, active, stateFunction, mapState, currentYear }) {
+function CustomRadio({ text, active, stateFunction, mapState, currentYear, setVotesKey}) {
 
     const container = useRef();
 
     console.log(text,active);
 
-    useEffect(() => {
+    /*useEffect(() => {
         if (text === active) {
             container.current.classList.add('active');
         }
         else {
             container.current.classList.remove('active');
         }
-    }, [active, text]);
+    }, [active, text]);*/
 
-    const processClick = (txt) => {
+    const processClick = async (txt) => {
         if (txt === "Voter Turnout" && mapState.mode !== 'turnout') {
             mapState.updateMode("turnout");
         }
@@ -182,16 +188,20 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear }) {
             mapState.updateMode("margin");
         }
         else if (txt === "Winning Party" && mapState.mode !== "party") {
-            mapState.updateMode("party");
+            await mapState.updateMode("party");
         }
         else if (txt === "Form 47 Data" ) {
             //mapState.updateMode("party");
-            mapState.updateData('declaredVotes', 'form47')
+            //setVotesKey('declaredVotes')
+            mapState.updateData('declaredVotes', 'form47');
+            setVotesKey('declaredVotes');
             console.log('updated data');
         }
         else if (txt === "PTI Data") {
             //mapState.updateMode("party");
-            mapState.updateData('actualVotes','pti data')
+            //setVotesKey('actualVotes')
+            mapState.updateData('actualVotes','pti data');
+            setVotesKey('actualVotes');
             console.log('updated data');
         }else if (txt === "Winner Difference") {
             //mapState.updateMode("party");
@@ -213,7 +223,8 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear }) {
     }
 
     return (
-        <RadioContainer $txt={text} $disabled={disableTurnout.includes(currentYear)} onClick={() => processClick(text)} ref={container}>
+        <RadioContainer $txt={text} active={text === active}
+        $disabled={disableTurnout.includes(currentYear)} onClick={() => processClick(text)} ref={container}>
             <p>{text}</p>
         </RadioContainer>
     )

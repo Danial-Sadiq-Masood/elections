@@ -22,6 +22,14 @@ elections2024ECP.forEach(d => {
   })
 })
 
+export function getWinner(d,key='votes'){
+  return d.reduce((acc,e)=>e[key] > acc[key] ? e : acc)
+}
+
+export function getLoser(d,key='votes'){
+  return d.reduce((acc,e)=>e[key] < acc[key] ? e : acc)
+}
+
 const size = {
     never: '20px',
     fold: '150px',

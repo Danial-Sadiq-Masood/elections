@@ -53,6 +53,7 @@ export default function Data() {
   const [voterTurnout, setVoterTurnout] = useState([0, 100]);
   const [gridGrps, setGridGrps] = useState(null);
   const [mapMode, setMapMode] = useState("Form 47 Data");
+  const [votesKey, setVotesKey] = useState("declaredVotes");
 
   const [firebaseData, setFbData] = useState(null);
 
@@ -218,6 +219,7 @@ export default function Data() {
       <Container>
         <ElectionsContext.Provider
           value={{
+            votesKey,
             currentYear,
             setCurrentYear,
             partyFilters,
@@ -258,6 +260,7 @@ export default function Data() {
               currentYear={currentYear}
               stateFunction={setMapMode}
               mapState={gridGrps}
+              setVotesKey={setVotesKey}
             />
           </Content>
           <RenderMap />
@@ -277,7 +280,7 @@ export default function Data() {
           </Arrow>
         </ElectionsContext.Provider>
       </Container>
-      <Tooltip {...{ showTooltip, toolTipData }} />
+      <Tooltip {...{ showTooltip, toolTipData, votesKey }} />
     </>
   );
 }

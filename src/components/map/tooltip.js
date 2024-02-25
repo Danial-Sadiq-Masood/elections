@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import gsap from "gsap";
 import { useEffect, useRef, useState } from "react";
-import { Dictionary } from "../../utilities";
+import { Dictionary, getLoser, getWinner} from "../../utilities";
 
 const Container = styled.div`
   padding: 10px 15px;
@@ -27,8 +27,10 @@ const Container = styled.div`
   }
 `;
 
-export default function Tooltip({ showTooltip, toolTipData }) {
+export default function Tooltip({ showTooltip, toolTipData, votesKey }) {
   const tooltip = useRef();
+
+  console.log(votesKey);
 
   const [innerData, setInnerData] = useState({
     position: null,
@@ -66,6 +68,8 @@ export default function Tooltip({ showTooltip, toolTipData }) {
 
   const { seatData, data, position, turnout, margin } = innerData;
 
+  const winner = getWinner(data,votesKey);
+  const loser = getLoser(data,votesKey);
   return (
     <Container $position={position} ref={tooltip}>
       {innerData && (
@@ -77,19 +81,19 @@ export default function Tooltip({ showTooltip, toolTipData }) {
             turnout={turnout}
           />
           {data.length === 0 && <p>Data unavailable</p>}
-          {data[0] && (
+          {winner && (
             <PartyDetail
               winner
-              name={data[0].candidate}
-              party={data[0].party}
-              votes={!data[1] ? "Uncont." : data[0].votes}
+              name={winner.candidate}
+              party={winner.party}
+              votes={!winner ? "Uncont." : winner[votesKey]}
             />
           )}
-          {data[1] && (
+          {loser && (
             <PartyDetail
-              name={data[1].candidate}
-              party={data[1].party}
-              votes={data[1].votes}
+              name={loser.candidate}
+              party={loser.party}
+              votes={loser[votesKey]}
             />
           )}
 

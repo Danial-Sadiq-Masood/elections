@@ -14,7 +14,7 @@ export default function RenderMap() {
 
     const mapContainer = useRef();
 
-    const { mapIn, triggerRedraw, setTriggerRedraw, setGridGrps, setTooltipData, setShowTooltip, mobileTranslate, currentYear, firebaseData } = useContext(ElectionsContext);
+    const { mapIn, votesKey, triggerRedraw, setTriggerRedraw, setGridGrps, setTooltipData, setShowTooltip, mobileTranslate, currentYear, firebaseData } = useContext(ElectionsContext);
 
     useEffect(() => {
         //Draw D3 Map here

@@ -212,7 +212,7 @@ class GridCanvas {
               : "#ddd"
       }
     )*/
-    this.updateMode(mode,400,key);
+    return this.updateMode(mode,400,key);
   }
 
   updateMode(mode, durMs = 400, key='votes') {
