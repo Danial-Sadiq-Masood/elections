@@ -76,7 +76,8 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState 
         gsap.to(container.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.4, delay: 0.75})
     }, [])
 
-    const modes = ["Voter Turnout", "Vote Margin","Form 47 Data", "PTI Data"];
+    const modes = ["Voter Turnout", "Vote Margin","Form 47 Data", "PTI Data", "Winner Difference", 
+        "Loser Difference"];
     return (
         <Container ref={container}>
             <div className='modes'>
@@ -191,6 +192,14 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear }) {
         else if (txt === "PTI Data") {
             //mapState.updateMode("party");
             mapState.updateData('actualVotes')
+            console.log('updated data');
+        }else if (txt === "Winner Difference") {
+            //mapState.updateMode("party");
+            mapState.updateMode("Declared Winner Difference");
+            console.log('updated data');
+        }else if (txt === "Loser Difference") {
+            //mapState.updateMode("party");
+            mapState.updateMode("Declared Loser Difference");
             console.log('updated data');
         }
 

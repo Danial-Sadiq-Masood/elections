@@ -16,6 +16,12 @@ import elections2024ECP from './components/map/translatedGrids/elections2024ecp.
 
 window.ecp_data = elections2024ECP;
 
+elections2024ECP.forEach(d => {
+  d.result.forEach((e)=>{
+    e.voteDifference = Math.abs((e.declaredVotes - e.actualVotes))/e.declaredVotes;
+  })
+})
+
 const size = {
     never: '20px',
     fold: '150px',

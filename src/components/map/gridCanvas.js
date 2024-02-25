@@ -9,6 +9,14 @@ window.PTI_Data_fixed = data;
 
 //window.select = select;
 
+function getWinner(d,key='votes'){
+  return d.result.reduce((acc,e)=>e[key] > acc[key] ? e : acc)
+}
+
+function getLoser(d,key='votes'){
+  return d.result.reduce((acc,e)=>e[key] < acc[key] ? e : acc)
+}
+
 const getWinColor = (d,key='votes') =>{
   //d.result.sort((e,f) => f[key] - e[key]);
   /*return d.result.length === 0 ||
@@ -305,6 +313,50 @@ class GridCanvas {
           fill: (d) => "black"
         }
       )
+    }else if(mode === 'Declared Winner Difference'){
+      return this.animateModeTransition(
+        {
+          "fill-opacity":  0.1,
+          fill: "#bbb",
+        },
+        {
+          height : (d) =>{
+            return cellWidth * getWinner(d).voteDifference;
+          },
+          transform: (d) =>
+            `translate(0 ${
+                  cellWidth -
+                  cellWidth *
+                    (getWinner(d).voteDifference)
+            })`,
+          fill: getWinColor
+        }, 
+        {
+          fill: (d) => "black"
+        }
+      )
+    }else if(mode === 'Declared Loser Difference'){
+      return this.animateModeTransition(
+        {
+          "fill-opacity":  0.1,
+          fill: "#bbb",
+        },
+        {
+          height : (d) =>{
+            return cellWidth * getLoser(d).voteDifference;
+          },
+          transform: (d) =>
+            `translate(0 ${
+                  cellWidth -
+                  cellWidth *
+                    (getLoser(d).voteDifference)
+            })`,
+          fill: (d) => getWinColor(d,'actualVotes')
+        }, 
+        {
+          fill: (d) => "black"
+        }
+      )
     }else{
       return this.animateModeTransition(
         {
@@ -391,7 +443,7 @@ function minMaxGrid(electionData) {
 function filterConstit(entry, filterObj) {
   const { winnerArr, runnerUpArr, turnoutArr, marginArr, provinceArr } =
     filterObj;
-  const winnerObj = entry.result[0];
+  const winnerObj = getWinner(entry)
   const winner = winnerObj ? winnerObj.party : undefined;
   const runnerUpObj = entry.result[1];
   const runnerUp = runnerUpObj ? runnerUpObj.party : undefined;
