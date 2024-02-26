@@ -69,21 +69,27 @@ const Container = styled.div`
     }
 `
 
-export default function MapModes ({ currentYear, state, stateFunction, mapState, setVotesKey }) {
+export default function MapModes ({ currentYear, state, stateFunction, mapState, setVotesKey, votesKey }) {
     const container = useRef();
 
     useEffect(() => {
         gsap.to(container.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.4, delay: 0.75})
     }, [])
 
-    const modes = ["Voter Turnout", "Vote Margin","Form 47 Data", "PTI Data", "Winner Difference", 
-        "Loser Difference"];
+    const dataSource = [{title : "Form 47 Data", key : 'declaredVotes'}, {title : "PTI Data", key : 'actualVotes'}];
+    const modes = ["Winning Party","Voter Turnout", "Vote Margin","Winner Difference", "Loser Difference"];
     return (
         <Container ref={container}>
             <div className='modes'>
+                <h3>Data Source</h3>
+                {dataSource && dataSource.length > 0 && dataSource.map((source) => {
+                    return <DataSourceRadio radioVotesKey={source.key} votesKey={votesKey} setVotesKey={setVotesKey} key={source.title} {...{currentYear, stateFunction, mapState}} active={state} text={source.title}/>
+                })}
+            </div>
+            <div className='modes'>
                 <h3>Map Modes</h3>
                 {modes && modes.length > 0 && modes.map((mode) => {
-                    return <CustomRadio setVotesKey={setVotesKey} key={mode} {...{currentYear, stateFunction, mapState}} active={state} text={mode}/>
+                    return <CustomRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{currentYear, stateFunction, mapState}} active={state} text={mode}/>
                 })}
             </div>
         </Container>
@@ -161,7 +167,7 @@ const RadioContainer = styled.button.attrs((props) => {
 
 `;
 
-function CustomRadio({ text, active, stateFunction, mapState, currentYear, setVotesKey}) {
+function CustomRadio({ text, active, stateFunction, mapState, currentYear,votesKey, processClick}) {
 
     const container = useRef();
 
@@ -176,56 +182,77 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear, setVo
         }
     }, [active, text]);*/
 
-    const processClick = async (txt) => {
-        if (txt === "Voter Turnout" && mapState.mode !== 'turnout') {
-            mapState.updateMode("turnout");
-            setVotesKey('declaredVotes');
-        }
-        else if (txt === "Vote Margin" && mapState.mode !== 'margin') {
-            mapState.updateMode("margin");
-            setVotesKey('declaredVotes');
-        }
-        else if (txt === "Winning Party" && mapState.mode !== "party") {
-            await mapState.updateMode("party");
-        }
-        else if (txt === "Form 47 Data" ) {
-            //mapState.updateMode("party");
-            //setVotesKey('declaredVotes')
-            mapState.updateData('declaredVotes', 'form47');
-            setVotesKey('declaredVotes');
-            console.log('updated data');
-        }
-        else if (txt === "PTI Data") {
-            //mapState.updateMode("party");
-            //setVotesKey('actualVotes')
-            mapState.updateData('actualVotes','pti data');
-            setVotesKey('actualVotes');
-            console.log('updated data');
-        }else if (txt === "Winner Difference") {
-            //mapState.updateMode("party");
-            mapState.updateMode("Declared Winner Difference");
-            console.log('updated data');
-            setVotesKey('declaredVotes');
-        }else if (txt === "Loser Difference") {
-            //mapState.updateMode("party");
-            mapState.updateMode("Declared Loser Difference");
-            setVotesKey('declaredVotes');
-            console.log('updated data');
-        }
-
-        ReactGA.event({
-            category: "Map Mode",
-            action: "click",
-            label: txt
-        });
-
-        stateFunction(txt);
-    }
-
     return (
         <RadioContainer $txt={text} active={text === active}
-        $disabled={disableTurnout.includes(currentYear)} onClick={() => processClick(text)} ref={container}>
+        $disabled={disableTurnout.includes(currentYear)} onClick={() => processModeClick(text,mapState,stateFunction,votesKey)} ref={container}>
             <p>{text}</p>
         </RadioContainer>
     )
+}
+
+function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, setVotesKey, processClick,votesKey, radioVotesKey}) {
+
+    const container = useRef();
+
+    console.log(text,active);
+
+    /*useEffect(() => {
+        if (text === active) {
+            container.current.classList.add('active');
+        }
+        else {
+            container.current.classList.remove('active');
+        }
+    }, [active, text]);*/
+
+    return (
+        <RadioContainer $txt={text} active={votesKey === radioVotesKey}
+        $disabled={disableTurnout.includes(currentYear)} onClick={() => processDataSourceClick(text,mapState,stateFunction,setVotesKey,votesKey,active,radioVotesKey)} ref={container}>
+            <p>{text}</p>
+        </RadioContainer>
+    )
+}
+
+function processModeClick(txt,mapState,stateFunction,votesKey){
+    if (txt === "Voter Turnout" && mapState.mode !== 'turnout') {
+        mapState.updateMode("turnout",400,votesKey);
+    }
+    else if (txt === "Vote Margin" && mapState.mode !== 'margin') {
+        mapState.updateMode("margin",400,votesKey);
+    }
+    else if (txt === "Winning Party" && mapState.mode !== "Winning Party") {
+        mapState.updateMode("Party",400,votesKey);
+    }else if (txt === "Winner Difference") {
+        mapState.updateMode("Declared Winner Difference");
+        console.log('updated data');
+    }else if (txt === "Loser Difference") {
+        mapState.updateMode("Declared Loser Difference");
+        console.log('updated data');
+    }
+
+    ReactGA.event({
+        category: "Map Mode",
+        action: "click",
+        label: txt
+    });
+
+    stateFunction(txt);
+}
+
+function processDataSourceClick(txt,mapState,stateFunction,setVotesKey,votesKey,state,radioVotesKey){
+
+    mapState.updateMode(mapState.mode,400,radioVotesKey);
+    
+    if (txt === "Form 47 Data" ) {
+        setVotesKey('declaredVotes')
+    }
+    else if (txt === "PTI Data") {
+        setVotesKey('actualVotes')
+    }
+    
+    ReactGA.event({
+        category: "Map Mode",
+        action: "click",
+        label: txt
+    });
 }

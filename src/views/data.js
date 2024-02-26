@@ -7,6 +7,7 @@ import FiltersandLegend from "../components/data/filtersAndLegend";
 import { ElectionsContext } from "../contexts";
 import RenderMap from "../components/map/renderMap";
 import MapModes from "../components/data/mapModes";
+import DataSource from "../components/data/dataSource";
 import { yearStates } from "../utilities";
 import Disclaimer from "../components/map/disclaimer";
 import { sum, scaleSqrt, max } from "d3";
@@ -52,7 +53,7 @@ export default function Data() {
   const [voteMargin, setVoteMargin] = useState([0, 100]);
   const [voterTurnout, setVoterTurnout] = useState([0, 100]);
   const [gridGrps, setGridGrps] = useState(null);
-  const [mapMode, setMapMode] = useState("Form 47 Data");
+  const [mapMode, setMapMode] = useState("Winning Party");
   const [votesKey, setVotesKey] = useState("declaredVotes");
 
   const [firebaseData, setFbData] = useState(null);
@@ -207,7 +208,7 @@ export default function Data() {
   }
 
   function resetModeAndFilters() {
-    setMapMode("Form 47 Data");
+    setMapMode("Winning Party");
     setPartyFilters([]);
     setRegionFilters([]);
     setVoteMargin([0, 100]);
@@ -259,6 +260,7 @@ export default function Data() {
               stateFunction={setMapMode}
               mapState={gridGrps}
               setVotesKey={setVotesKey}
+              votesKey={votesKey}
             />
           </Content>
           <RenderMap />

@@ -63,7 +63,7 @@ class GridCanvas {
       .attr("viewBox", `0 0 ${viewBoxWidth} ${viewBoxHeight}`);
 
     const cellWidth = cellSize - cellMargin;
-    const mode = "party";
+    const mode = "Winning Party";
 
     Object.assign(this, {
       root,
@@ -264,10 +264,6 @@ class GridCanvas {
 
     const prevMode = this.mode;
 
-    if(prevMode === mode){
-      return Promise.resolve();
-    }
-
     this.mode = mode;
 
     console.log(mode);
@@ -363,6 +359,7 @@ class GridCanvas {
         }
       )
     }else{
+      console.log(mode);
       return this.animateModeTransition(
         {
           "fill-opacity":  1,
