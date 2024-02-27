@@ -299,16 +299,16 @@ class GridCanvas {
           fill: "#bbb",
         },
         {
-          height : (d) =>
-                  cellWidth *
-                  d.voteMargin / 100,
+          height : (d) =>{
+            return cellWidth * Math.abs((d.result[0][key] - d.result[1][key])/(d.result[0][key] + d.result[1][key]));
+          },
           transform: (d) =>
             `translate(0 ${
                   cellWidth -
                   cellWidth *
-                    (d.voteMargin / 100)
+                    Math.abs((d.result[0][key] - d.result[1][key])/(d.result[0][key] + d.result[1][key]))
             })`,
-          fill: getWinColor
+          fill: (d) => getWinColor(d,key)
         }, 
         {
           fill: (d) => "black"

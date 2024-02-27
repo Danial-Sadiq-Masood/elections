@@ -22,6 +22,17 @@ elections2024ECP.forEach(d => {
   })
 })
 
+elections2024ECP.forEach(d => {
+  /*if(d.province === 'KP'){
+    d.xGrid -= 0.8
+    d.yGrid -= 0.8
+  }
+  if(d.province === 'Sindh'){
+    d.xGrid += 0.2
+    d.yGrid += 0.2
+  }*/
+})
+
 export function getWinner(d,key='votes'){
   return d.reduce((acc,e)=>e[key] > acc[key] ? e : acc)
 }

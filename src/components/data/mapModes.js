@@ -182,9 +182,11 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear,votesK
         }
     }, [active, text]);*/
 
+    const isActive = text === active;
+
     return (
         <RadioContainer $txt={text} active={text === active}
-        $disabled={disableTurnout.includes(currentYear)} onClick={() => processModeClick(text,mapState,stateFunction,votesKey)} ref={container}>
+        $disabled={disableTurnout.includes(currentYear)} onClick={() => processModeClick(text,mapState,stateFunction,votesKey,isActive)} ref={container}>
             <p>{text}</p>
         </RadioContainer>
     )
@@ -205,15 +207,22 @@ function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, s
         }
     }, [active, text]);*/
 
+    const isActive = votesKey === radioVotesKey;
+
     return (
-        <RadioContainer $txt={text} active={votesKey === radioVotesKey}
-        $disabled={disableTurnout.includes(currentYear)} onClick={() => processDataSourceClick(text,mapState,stateFunction,setVotesKey,votesKey,active,radioVotesKey)} ref={container}>
+        <RadioContainer $txt={text} active={isActive}
+        $disabled={disableTurnout.includes(currentYear)} onClick={() => processDataSourceClick(text,mapState,stateFunction,setVotesKey,votesKey,active,radioVotesKey,isActive)} ref={container}>
             <p>{text}</p>
         </RadioContainer>
     )
 }
 
-function processModeClick(txt,mapState,stateFunction,votesKey){
+function processModeClick(txt,mapState,stateFunction,votesKey,isActive){
+
+    if(isActive){
+        return;
+    }
+    
     if (txt === "Voter Turnout" && mapState.mode !== 'turnout') {
         mapState.updateMode("turnout",400,votesKey);
     }
@@ -239,7 +248,11 @@ function processModeClick(txt,mapState,stateFunction,votesKey){
     stateFunction(txt);
 }
 
-function processDataSourceClick(txt,mapState,stateFunction,setVotesKey,votesKey,state,radioVotesKey){
+function processDataSourceClick(txt,mapState,stateFunction,setVotesKey,votesKey,state,radioVotesKey,isActive){
+
+    if(isActive){
+        return;
+    }
 
     mapState.updateMode(mapState.mode,400,radioVotesKey);
     
