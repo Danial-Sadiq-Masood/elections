@@ -81,8 +81,8 @@ const size = {
 
 export const yearStates = {
     '2024': {
-      parties: ['Ind*', 'PML-N', 'PPP', 'MQM', 'Ind', 'IPP', 'JUI-F'],
-      runnerups: ['Ind*', 'PML-N', 'PPP', 'MQM', 'Ind', 'IPP', 'JUI-F'],
+      parties: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'Ind', 'IPP', 'JUI-F'],
+      runnerups: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'Ind', 'IPP', 'JUI-F'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT'],
       data: elections2024ECP
     },
@@ -225,7 +225,7 @@ export const partyScale = scaleOrdinal()
       "MMA",
       "PTI",
       "AL",
-      "Ind*"
+      "PTI-IND"
   ])
   .range([
       "#4CD0E0",
@@ -422,5 +422,5 @@ export const partyScale = scaleOrdinal()
       JGMD: "Jatiya Gana Mukti Dal",
       IGD: "Islami Gonotontri Dal",
       IPP: "Istehkam-e-Pakistan Party",
-      "Ind*": "Independent (PTI Backed)",
+      "PTI-IND": "Independent (PTI Backed)",
   };

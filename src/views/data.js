@@ -113,7 +113,7 @@ export default function Data() {
 
       constit.result.forEach((entry) => {
         if (entry.party === "Ind.") {
-          entry.party = "Ind*";
+          entry.party = "PTI-IND";
         } else if (entry.party === "JUIF") {
           entry.party = "JUI-F";
         } else if (entry.party === "JIP") {
