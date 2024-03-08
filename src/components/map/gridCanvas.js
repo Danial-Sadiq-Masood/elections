@@ -38,6 +38,15 @@ const getWinColor = (d,key='votes') =>{
     return partyScale.domain().includes(winner.party)
     ? partyScale(winner.party)
     : "#dddddd";
+    /*let colors = {
+      'KP' : 'red',
+      'Punjab' : 'yellow',
+      'Sindh' : 'green',
+      'Balochistan' : "blue",
+      'ICT' : 'pink'
+    }
+
+    return colors[d.province]*/
   }
 
 window.getWinColor = getWinColor;
