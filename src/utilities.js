@@ -12,7 +12,7 @@ import elections2008 from './components/map/translatedGrids/elections2008.json';
 import elections2013 from './components/map/translatedGrids/elections2013.json';
 import elections2018 from './components/map/translatedGrids/elections2018.json';
 import elections2024 from './components/map/translatedGrids/elections2024.json';
-import elections2024ECP from './components/map/translatedGrids/updatedRes2024.json';
+import elections2024ECP from './components/map/translatedGrids/elections2024ecp.json';
 
 window.ecp_data = elections2024ECP;
 
