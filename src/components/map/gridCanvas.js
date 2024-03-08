@@ -339,7 +339,7 @@ class GridCanvas {
                   cellWidth *
                     (getWinner(d).voteDifference)
             })`,
-          fill: getWinColor
+            fill: (d) => getWinColor(d,'declaredVotes')
         }, 
         {
           fill: (d) => "black"
