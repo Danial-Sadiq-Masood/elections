@@ -159,7 +159,7 @@
     "desc": "NA 9 Mardan I Detail Election Result 2002",
     "result": [
       { "candidate": "Molvi Shujaul Mulk", "party": "MMA", "votes": "54479" },
-      { "candidate": "Abbas Sarfaraz Khan", "party": "Ind", "votes": "15376" }
+      { "candidate": "Abbas Sarfaraz Khan", "party": "IND", "votes": "15376" }
     ],
     "id": 9,
     "xGrid": 20,
@@ -305,7 +305,7 @@
       },
       {
         "candidate": "Doctor Muhammad Azhar Khan Jadoon",
-        "party": "Ind",
+        "party": "IND",
         "votes": "30949"
       }
     ],
@@ -370,7 +370,7 @@
       },
       {
         "candidate": "Lt. Gen ® Syed Salahuddin Tirmizi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "37520"
       }
     ],
@@ -387,7 +387,7 @@
     "desc": "NA 21 Mansehra II Detail Election Result 2002",
     "result": [
       { "candidate": "Maulana Abdul Malik", "party": "MMA", "votes": "46331" },
-      { "candidate": "Faiz Muhammad Khan", "party": "Ind", "votes": "25771" }
+      { "candidate": "Faiz Muhammad Khan", "party": "IND", "votes": "25771" }
     ],
     "id": 21,
     "xGrid": 21,
@@ -478,7 +478,7 @@
         "party": "MMA",
         "votes": "78886"
       },
-      { "candidate": "Muhammad Mustafa Khan", "party": "Ind", "votes": "31867" }
+      { "candidate": "Muhammad Mustafa Khan", "party": "IND", "votes": "31867" }
     ],
     "id": 26,
     "xGrid": 16,
@@ -657,10 +657,10 @@
     "result": [
       {
         "candidate": "Maulana Ghulam Muhammad Sadiq",
-        "party": "Ind",
+        "party": "IND",
         "votes": "16358"
       },
-      { "candidate": "Azmat Khan", "party": "Ind", "votes": "3922" }
+      { "candidate": "Azmat Khan", "party": "IND", "votes": "3922" }
     ],
     "id": 36,
     "xGrid": 17,
@@ -676,12 +676,12 @@
     "result": [
       {
         "candidate": "Dr. Sayed Javaid Hussain Mian",
-        "party": "Ind",
+        "party": "IND",
         "votes": "21053"
       },
       {
         "candidate": "Syed Muhammad Jawad alias Jawad Agha",
-        "party": "Ind",
+        "party": "IND",
         "votes": "8602"
       }
     ],
@@ -697,8 +697,8 @@
   {
     "desc": "NA 38 Tribal Area III Detail Election Result 2002",
     "result": [
-      { "candidate": "Muneer Khan Orakzai", "party": "Ind", "votes": "6619" },
-      { "candidate": "Dr. Gul Manan", "party": "Ind", "votes": "3427" }
+      { "candidate": "Muneer Khan Orakzai", "party": "IND", "votes": "6619" },
+      { "candidate": "Dr. Gul Manan", "party": "IND", "votes": "3427" }
     ],
     "id": 38,
     "xGrid": 16,
@@ -714,10 +714,10 @@
     "result": [
       {
         "candidate": "Dr. Sayed Ghazi Gulab Jamal",
-        "party": "Ind",
+        "party": "IND",
         "votes": "11186"
       },
-      { "candidate": "Mian Hussain Jallali", "party": "Ind", "votes": "8006" }
+      { "candidate": "Mian Hussain Jallali", "party": "IND", "votes": "8006" }
     ],
     "id": 39,
     "xGrid": 17,
@@ -731,10 +731,10 @@
   {
     "desc": "NA 40 Tribal Area V Detail Election Result 2002",
     "result": [
-      { "candidate": "Molvi Nek Zaman", "party": "Ind", "votes": "14773" },
+      { "candidate": "Molvi Nek Zaman", "party": "IND", "votes": "14773" },
       {
         "candidate": "Malik Muhammad Ajmal Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "5464"
       }
     ],
@@ -752,10 +752,10 @@
     "result": [
       {
         "candidate": "Maulana Abdul Malik Wazir",
-        "party": "Ind",
+        "party": "IND",
         "votes": "8005"
       },
-      { "candidate": "Muhammad Saleh Shah", "party": "Ind", "votes": "6904" }
+      { "candidate": "Muhammad Saleh Shah", "party": "IND", "votes": "6904" }
     ],
     "id": 41,
     "xGrid": 15,
@@ -771,12 +771,12 @@
     "result": [
       {
         "candidate": "Maulana Muhammad Miraj Uddin",
-        "party": "Ind",
+        "party": "IND",
         "votes": "12360"
       },
       {
         "candidate": "General Alam Jan Masood",
-        "party": "Ind",
+        "party": "IND",
         "votes": "5027"
       }
     ],
@@ -794,12 +794,12 @@
     "result": [
       {
         "candidate": "Maulvi Muhammad Sadiq",
-        "party": "Ind",
+        "party": "IND",
         "votes": "13097"
       },
       {
         "candidate": "Engineer Shaukatullah Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "6885"
       }
     ],
@@ -817,10 +817,10 @@
     "result": [
       {
         "candidate": "Sahibzada Haroon Rashid",
-        "party": "Ind",
+        "party": "IND",
         "votes": "13389"
       },
-      { "candidate": "Shahabud-Din Khan", "party": "Ind", "votes": "8465" }
+      { "candidate": "Shahabud-Din Khan", "party": "IND", "votes": "8465" }
     ],
     "id": 44,
     "xGrid": 18,
@@ -836,10 +836,10 @@
     "result": [
       {
         "candidate": "Muhammad Noor Ul Haq Qadri",
-        "party": "Ind",
+        "party": "IND",
         "votes": "9121"
       },
-      { "candidate": "Ajab Khan Afridi", "party": "Ind", "votes": "4131" }
+      { "candidate": "Ajab Khan Afridi", "party": "IND", "votes": "4131" }
     ],
     "id": 45,
     "xGrid": 18,
@@ -855,10 +855,10 @@
     "result": [
       {
         "candidate": "Maulana Khalil ur Rehman Afridi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "5611"
       },
-      { "candidate": "Muhammad Saeed", "party": "Ind", "votes": "3566" }
+      { "candidate": "Muhammad Saeed", "party": "IND", "votes": "3566" }
     ],
     "id": 46,
     "xGrid": 17,
@@ -872,8 +872,8 @@
   {
     "desc": "NA 47 Tribal Area XII Detail Election Result 2002",
     "result": [
-      { "candidate": "Naseem Gull Afridi", "party": "Ind", "votes": "10341" },
-      { "candidate": "Ashfaq Khan Bhatanni", "party": "Ind", "votes": "10277" }
+      { "candidate": "Naseem Gull Afridi", "party": "IND", "votes": "10341" },
+      { "candidate": "Ashfaq Khan Bhatanni", "party": "IND", "votes": "10277" }
     ],
     "id": 47,
     "xGrid": 17,
@@ -907,7 +907,7 @@
         "party": "PPP",
         "votes": "47884"
       },
-      { "candidate": "Mustafa Nawaz Khokhar", "party": "Ind", "votes": "30016" }
+      { "candidate": "Mustafa Nawaz Khokhar", "party": "IND", "votes": "30016" }
     ],
     "id": 49,
     "xGrid": 23,
@@ -974,7 +974,7 @@
   {
     "desc": "NA 53 Rawalpindi Detail Election Result 2002",
     "result": [
-      { "candidate": "Ghulam Sarwar Khan", "party": "Ind", "votes": "66900" },
+      { "candidate": "Ghulam Sarwar Khan", "party": "IND", "votes": "66900" },
       {
         "candidate": "Chaudhary Nisar Ali Khan",
         "party": "PML-N",
@@ -1012,7 +1012,7 @@
   {
     "desc": "NA 55 Rawalpindi Detail Election Result 2002",
     "result": [
-      { "candidate": "Sheikh Rasheed Ahmad", "party": "Ind", "votes": "40649" },
+      { "candidate": "Sheikh Rasheed Ahmad", "party": "IND", "votes": "40649" },
       { "candidate": "Agha Riaz ul Islam", "party": "PPP", "votes": "28885" }
     ],
     "id": 55,
@@ -1027,7 +1027,7 @@
   {
     "desc": "NA 56 Rawalpindi Detail Election Result 2002",
     "result": [
-      { "candidate": "Sheikh Rasheed Ahmad", "party": "Ind", "votes": "30951" },
+      { "candidate": "Sheikh Rasheed Ahmad", "party": "IND", "votes": "30951" },
       { "candidate": "Sardar Shoukat Hayat", "party": "PPP", "votes": "19888" }
     ],
     "id": 56,
@@ -1122,7 +1122,7 @@
   {
     "desc": "NA 61 Chakwal II Detail Election Result 2002",
     "result": [
-      { "candidate": "Muhammad Faiz Malik", "party": "Ind", "votes": "101664" },
+      { "candidate": "Muhammad Faiz Malik", "party": "IND", "votes": "101664" },
       {
         "candidate": "Sardar Mansoor Hayat Taman",
         "party": "PML-Q",
@@ -1311,7 +1311,7 @@
     "result": [
       {
         "candidate": "Malik Muhammad Saifullah Tiwana",
-        "party": "Ind",
+        "party": "IND",
         "votes": "60754"
       },
       {
@@ -1708,7 +1708,7 @@
     "result": [
       {
         "candidate": "Maulana Muhammad Azam Tariq",
-        "party": "Ind",
+        "party": "IND",
         "votes": "41425"
       },
       {
@@ -1731,7 +1731,7 @@
     "result": [
       {
         "candidate": "Saima Akhtar Bharwana",
-        "party": "Ind",
+        "party": "IND",
         "votes": "56647"
       },
       {
@@ -1792,7 +1792,7 @@
     "result": [
       {
         "candidate": "Mian Muhammad Farhan Latif",
-        "party": "Ind",
+        "party": "IND",
         "votes": "81607"
       },
       { "candidate": "Hafeez Ullah Ishaq", "party": "PPP", "votes": "50597" }
@@ -1809,7 +1809,7 @@
   {
     "desc": "NA 94 Toba Tek Singh III Detail Election Result 2002",
     "result": [
-      { "candidate": "Riaz Fatiyana", "party": "Ind", "votes": "67603" },
+      { "candidate": "Riaz Fatiyana", "party": "IND", "votes": "67603" },
       {
         "candidate": "Khalid Ahmad Khan Kharal",
         "party": "PPP",
@@ -1999,7 +1999,7 @@
       },
       {
         "candidate": "Chaudhry Sarfraz Khan Bhatti",
-        "party": "Ind",
+        "party": "IND",
         "votes": "42990"
       }
     ],
@@ -2239,7 +2239,7 @@
       },
       {
         "candidate": "Sumaira Yassir Rasheed",
-        "party": "Ind",
+        "party": "IND",
         "votes": "27316"
       }
     ],
@@ -2260,7 +2260,7 @@
         "party": "PML-Q",
         "votes": "41857"
       },
-      { "candidate": "Muhammad Tariq Anees", "party": "Ind", "votes": "37145" }
+      { "candidate": "Muhammad Tariq Anees", "party": "IND", "votes": "37145" }
     ],
     "id": 116,
     "xGrid": 29,
@@ -2297,7 +2297,7 @@
   {
     "desc": "NA 118 Lahore I Detail Election Result 2002",
     "result": [
-      { "candidate": "Hafiz Salman Butt", "party": "Ind", "votes": "25484" },
+      { "candidate": "Hafiz Salman Butt", "party": "IND", "votes": "25484" },
       { "candidate": "Mian Muhammad Azhar", "party": "PML-Q", "votes": "21641" }
     ],
     "id": 118,
@@ -2711,7 +2711,7 @@
       },
       {
         "candidate": "Syeda Nelofar Qasim Mehdi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "24137"
       }
     ],
@@ -2734,7 +2734,7 @@
       },
       {
         "candidate": "Molana Moeen Ud Din Lakhvi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "49399"
       }
     ],
@@ -2780,7 +2780,7 @@
       },
       {
         "candidate": "Rana Muhammad Hayat Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "43921"
       }
     ],
@@ -2841,7 +2841,7 @@
       },
       {
         "candidate": "Syed Samsam Ali shah Bukhari",
-        "party": "Ind",
+        "party": "IND",
         "votes": "38687"
       }
     ],
@@ -2859,7 +2859,7 @@
     "result": [
       {
         "candidate": "Rao Muhammad Ajmal Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "62711"
       },
       {
@@ -3094,7 +3094,7 @@
   {
     "desc": "NA 157 Khanewal Election 2002 Result",
     "result": [
-      { "candidate": "Hamid Yar Hiraj", "party": "Ind", "votes": "74905" },
+      { "candidate": "Hamid Yar Hiraj", "party": "IND", "votes": "74905" },
       {
         "candidate": "Razwan Ahmed khan Daha",
         "party": "PML-N",
@@ -3414,7 +3414,7 @@
       },
       {
         "candidate": "Sardar Muhammad Khan Leghari",
-        "party": "Ind",
+        "party": "IND",
         "votes": "39423"
       }
     ],
@@ -3437,7 +3437,7 @@
       },
       {
         "candidate": "Sardar Hussain Ahmad Khan Leghari",
-        "party": "Ind",
+        "party": "IND",
         "votes": "45355"
       }
     ],
@@ -3478,12 +3478,12 @@
     "result": [
       {
         "candidate": "Sardar Nasrullah Khan Dreshak",
-        "party": "Ind",
+        "party": "IND",
         "votes": "69030"
       },
       {
         "candidate": "Sardar Khalid Bashir Mazari",
-        "party": "Ind",
+        "party": "IND",
         "votes": "38127"
       }
     ],
@@ -3523,7 +3523,7 @@
     "desc": "NA 177 Muzaffargarh Election 2002 Result",
     "result": [
       { "candidate": "Hina Rabbani Khar", "party": "PML-Q", "votes": "46752" },
-      { "candidate": "Khalid Ahmad Gurmani", "party": "Ind", "votes": "46409" }
+      { "candidate": "Khalid Ahmad Gurmani", "party": "IND", "votes": "46409" }
     ],
     "id": 177,
     "xGrid": 17,
@@ -3659,7 +3659,7 @@
       },
       {
         "candidate": "Syed Sohail Hassan Gillani",
-        "party": "Ind",
+        "party": "IND",
         "votes": "30482"
       }
     ],
@@ -3833,7 +3833,7 @@
     "result": [
       {
         "candidate": "Makhdoom Syed Ahmad Alam Anwar",
-        "party": "Ind",
+        "party": "IND",
         "votes": "74933"
       },
       {
@@ -4000,7 +4000,7 @@
         "party": "PPP",
         "votes": "68296"
       },
-      { "candidate": "Mian Farooq Ahmed", "party": "Ind", "votes": "35126" }
+      { "candidate": "Mian Farooq Ahmed", "party": "IND", "votes": "35126" }
     ],
     "id": 200,
     "xGrid": 15,
@@ -4016,7 +4016,7 @@
     "result": [
       {
         "candidate": "Ali Mohammad Khan Mahar",
-        "party": "Ind",
+        "party": "IND",
         "votes": "77950"
       },
       { "candidate": "Ghulam Rasool Kalhoro", "party": "PPP", "votes": "18115" }
@@ -4299,7 +4299,7 @@
       },
       {
         "candidate": "Sher Mohammad Phulpoto",
-        "party": "Ind",
+        "party": "IND",
         "votes": "36438"
       }
     ],
@@ -4461,7 +4461,7 @@
         "party": "PPP",
         "votes": "50624"
       },
-      { "candidate": "Adeeba Gul Magsi", "party": "Ind", "votes": "28610" }
+      { "candidate": "Adeeba Gul Magsi", "party": "IND", "votes": "28610" }
     ],
     "id": 223,
     "xGrid": 13,
@@ -4478,7 +4478,7 @@
       { "candidate": "Ghulam Ali Nizamani", "party": "PPP", "votes": "70231" },
       {
         "candidate": "Muhammad Akram Nizamani",
-        "party": "Ind",
+        "party": "IND",
         "votes": "65904"
       }
     ],
@@ -4613,7 +4613,7 @@
         "party": "PPP",
         "votes": "75568"
       },
-      { "candidate": "Syed Jalal Mehmood", "party": "Ind", "votes": "39320" }
+      { "candidate": "Syed Jalal Mehmood", "party": "IND", "votes": "39320" }
     ],
     "id": 231,
     "xGrid": 11,
@@ -4691,7 +4691,7 @@
       },
       {
         "candidate": "Muhammad Asad Ali Khan Junejo",
-        "party": "Ind",
+        "party": "IND",
         "votes": "34888"
       }
     ],
@@ -5130,7 +5130,7 @@
     "desc": "NA 258 Karachi Election 2002 Result",
     "result": [
       { "candidate": "Sher Muhammad Balcoh", "party": "PPP", "votes": "38325" },
-      { "candidate": "Abdul Hakeem Baloch", "party": "Ind", "votes": "27903" }
+      { "candidate": "Abdul Hakeem Baloch", "party": "IND", "votes": "27903" }
     ],
     "id": 258,
     "xGrid": 9,
@@ -5407,7 +5407,7 @@
   {
     "desc": "NA 272 Kech Gwadar Election 2002 Result",
     "result": [
-      { "candidate": "Mrs. Zubada Jalal", "party": "Ind", "votes": "44177" },
+      { "candidate": "Mrs. Zubada Jalal", "party": "IND", "votes": "44177" },
       { "candidate": "Doctor Abdul Malik", "party": "BNM", "votes": "36169" }
     ],
     "id": 272,

@@ -1,5 +1,5 @@
 Dictionary = {
-      Ind: "Independent",
+      IND: "Independent",
       MMA: "Muttahida Majlis-e-Amal",
       "PPP-S": "Pakistan People's Party (Sherpao)",
       "PML-Q": "Pakistan Muslim League (Q)",

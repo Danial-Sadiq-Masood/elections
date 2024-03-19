@@ -22,7 +22,7 @@
     "totalVotes": 102840,
     "result": [
       { "candidate": "Dr. Said-ur-Rahman", "party": "AL", "votes": 77259 },
-      { "candidate": "Sanjib Karzamiji", "party": "Ind", "votes": 15127 }
+      { "candidate": "Sanjib Karzamiji", "party": "IND", "votes": 15127 }
     ],
     "flag": "",
     "id": 2,
@@ -145,7 +145,7 @@
     "totalVotes": 97710,
     "result": [
       { "candidate": "Molah Jalaluddin", "party": "AL", "votes": 57091 },
-      { "candidate": "Siraj-ul-Islam", "party": "Ind", "votes": 20608 }
+      { "candidate": "Siraj-ul-Islam", "party": "IND", "votes": 20608 }
     ],
     "flag": "",
     "id": 9,
@@ -450,7 +450,7 @@
     "totalVotes": 111194,
     "result": [
       { "candidate": "Abdul Moin Talukdar", "party": "AL", "votes": 95694 },
-      { "candidate": "Shahidullah Khan", "party": "Ind", "votes": 7061 }
+      { "candidate": "Shahidullah Khan", "party": "IND", "votes": 7061 }
     ],
     "flag": "",
     "id": 26,
@@ -1002,7 +1002,7 @@
     "totalVotes": 114149,
     "result": [
       { "candidate": "Abdur Rab Serneabat", "party": "AL", "votes": 101130 },
-      { "candidate": "Qari Ghulam Manboob", "party": "Ind", "votes": 7136 }
+      { "candidate": "Qari Ghulam Manboob", "party": "IND", "votes": 7136 }
     ],
     "flag": "",
     "id": 58,
@@ -1159,7 +1159,7 @@
     "totalVotes": 77546,
     "result": [
       { "candidate": "M. Shams-ul-Haq", "party": "AL", "votes": 32449 },
-      { "candidate": "M.A. Jabbar", "party": "Ind", "votes": 23690 }
+      { "candidate": "M.A. Jabbar", "party": "IND", "votes": 23690 }
     ],
     "flag": "",
     "id": 67,
@@ -1231,7 +1231,7 @@
     "totalVotes": 97023,
     "result": [
       { "candidate": "Abdul Mannan", "party": "AL", "votes": 77824 },
-      { "candidate": "Dr. Aleem Al Razi", "party": "Ind", "votes": 14362 }
+      { "candidate": "Dr. Aleem Al Razi", "party": "IND", "votes": 14362 }
     ],
     "flag": "",
     "id": 71,
@@ -1248,7 +1248,7 @@
     "totalVotes": 102690,
     "result": [
       { "candidate": "M. Shawkat Ali Khan", "party": "AL", "votes": 91537 },
-      { "candidate": "Molana Abdul Wakf", "party": "Ind", "votes": 8865 }
+      { "candidate": "Molana Abdul Wakf", "party": "IND", "votes": 8865 }
     ],
     "flag": "Multiple",
     "id": 72,
@@ -1367,7 +1367,7 @@
     "totalVotes": 72543,
     "result": [
       { "candidate": "Anis-ur-Rahman", "party": "AL", "votes": 40838 },
-      { "candidate": "Seraj-ul-Haq", "party": "Ind", "votes": 15197 }
+      { "candidate": "Seraj-ul-Haq", "party": "IND", "votes": 15197 }
     ],
     "flag": "",
     "id": 79,
@@ -1486,7 +1486,7 @@
     "totalVotes": 87017,
     "result": [
       { "candidate": "Md. Shams-ul-Huda", "party": "AL", "votes": 62888 },
-      { "candidate": "Molana Shams-ul-Huda", "party": "Ind", "votes": 16258 }
+      { "candidate": "Molana Shams-ul-Huda", "party": "IND", "votes": 16258 }
     ],
     "flag": "",
     "id": 86,
@@ -1541,7 +1541,7 @@
     "totalVotes": 94897,
     "result": [
       { "candidate": "Javed Ali", "party": "AL", "votes": 59577 },
-      { "candidate": "Darfesh Bazlu Mian", "party": "Ind", "votes": 21126 }
+      { "candidate": "Darfesh Bazlu Mian", "party": "IND", "votes": 21126 }
     ],
     "flag": "Multiple",
     "id": 89,
@@ -1764,7 +1764,7 @@
       { "candidate": "Abid-ur-Reza Khan", "party": "AL", "votes": 79538 },
       {
         "candidate": "A. Rashid Sarkar+one other",
-        "party": "Ind",
+        "party": "IND",
         "votes": 19346
       }
     ],
@@ -1783,7 +1783,7 @@
     "totalVotes": 93445,
     "result": [
       { "candidate": "M.A. Qasim", "party": "AL", "votes": 77327 },
-      { "candidate": "Sirajuddin", "party": "Ind", "votes": 6719 }
+      { "candidate": "Sirajuddin", "party": "IND", "votes": 6719 }
     ],
     "flag": "",
     "id": 103,
@@ -1855,7 +1855,7 @@
     "totalVotes": 129267,
     "result": [
       { "candidate": "Shams-ul-Haq", "party": "AL", "votes": 104053 },
-      { "candidate": "Tanveer Ahmad Siddiq", "party": "Ind", "votes": 17737 }
+      { "candidate": "Tanveer Ahmad Siddiq", "party": "IND", "votes": 17737 }
     ],
     "flag": "",
     "id": 107,
@@ -1961,7 +1961,7 @@
     "totalVotes": 85836,
     "result": [
       { "candidate": "Fazl-ur-Rahman Bhuyiuan", "party": "AL", "votes": 66642 },
-      { "candidate": "Abu Tahir M. Abdullah", "party": "Ind", "votes": 14112 }
+      { "candidate": "Abu Tahir M. Abdullah", "party": "IND", "votes": 14112 }
     ],
     "flag": "Multiple",
     "id": 113,
@@ -1995,7 +1995,7 @@
     "totalVotes": 156414,
     "result": [
       { "candidate": "A. Razzaq Bhuiyan", "party": "AL", "votes": 136736 },
-      { "candidate": "Altamash-ul-Islam", "party": "Ind", "votes": 12151 }
+      { "candidate": "Altamash-ul-Islam", "party": "IND", "votes": 12151 }
     ],
     "flag": "",
     "id": 115,
@@ -2122,7 +2122,7 @@
     "totalVotes": 110676,
     "result": [
       { "candidate": "A. K. Latif-ur-Rehman", "party": "AL", "votes": 68484 },
-      { "candidate": "Syed Mahib-ul-Hassan", "party": "Ind", "votes": 22273 }
+      { "candidate": "Syed Mahib-ul-Hassan", "party": "IND", "votes": 22273 }
     ],
     "flag": "",
     "id": 122,
@@ -2673,7 +2673,7 @@
         "party": "AL",
         "votes": 78972
       },
-      { "candidate": "A.K.M. Rafiquddin Ch.", "party": "Ind", "votes": 8216 }
+      { "candidate": "A.K.M. Rafiquddin Ch.", "party": "IND", "votes": 8216 }
     ],
     "flag": "",
     "id": 153,
@@ -2833,7 +2833,7 @@
     "voterTurnout": 58.1,
     "totalVotes": 116563,
     "result": [
-      { "candidate": "Maj. Raja Tridiv Roy", "party": "Ind", "votes": 91449 },
+      { "candidate": "Maj. Raja Tridiv Roy", "party": "IND", "votes": 91449 },
       { "candidate": "Charu Bikash Chakma", "party": "AL", "votes": 25114 }
     ],
     "flag": "",
@@ -2921,7 +2921,7 @@
     "desc": "NW 5 Hazara General Election 1970 Result",
     "result": [
       { "candidate": "Moulana Abdul Hakeem", "party": "JUI", "votes": 12915 },
-      { "candidate": "Muhammad Ayub Khan", "party": "Ind", "votes": 8553 }
+      { "candidate": "Muhammad Ayub Khan", "party": "IND", "votes": 8553 }
     ],
     "totalVotes": 27801,
     "voterTurnout": 29.6,
@@ -2961,7 +2961,7 @@
         "party": "PML-Q",
         "votes": 39743
       },
-      { "candidate": "Sardar Ali Bahadur", "party": "Ind", "votes": 25372 }
+      { "candidate": "Sardar Ali Bahadur", "party": "IND", "votes": 25372 }
     ],
     "totalVotes": 86696,
     "voterTurnout": 44.7,
@@ -3153,7 +3153,7 @@
     "desc": "NW 18 Dir General Election 1970 Result",
     "result": [
       { "candidate": "Sahibzada Saifullah", "party": "JI", "votes": 14187 },
-      { "candidate": "Jehanzaib Khan", "party": "Ind", "votes": 14036 }
+      { "candidate": "Jehanzaib Khan", "party": "IND", "votes": 14036 }
     ],
     "totalVotes": 56061,
     "voterTurnout": 30.4,
@@ -3168,8 +3168,8 @@
   {
     "desc": "NW 19 Tribal Area General Election 1970 Result",
     "result": [
-      { "candidate": "Akbar Khan Mohmand", "party": "Ind", "votes": 2652 },
-      { "candidate": "Yousif Khan", "party": "Ind", "votes": 2246 }
+      { "candidate": "Akbar Khan Mohmand", "party": "IND", "votes": 2652 },
+      { "candidate": "Yousif Khan", "party": "IND", "votes": 2246 }
     ],
     "totalVotes": 4898,
     "voterTurnout": 82.2,
@@ -3184,8 +3184,8 @@
   {
     "desc": "NW 20 Tribal Area General Election 1970 Result",
     "result": [
-      { "candidate": "Haji Saleh Khan", "party": "Ind", "votes": 735 },
-      { "candidate": "Zawar Hussain", "party": "Ind", "votes": 541 }
+      { "candidate": "Haji Saleh Khan", "party": "IND", "votes": 735 },
+      { "candidate": "Zawar Hussain", "party": "IND", "votes": 541 }
     ],
     "totalVotes": 1276,
     "voterTurnout": 94,
@@ -3202,7 +3202,7 @@
     "result": [
       {
         "candidate": "Naimat Ullah Khan Shinwari",
-        "party": "Ind",
+        "party": "IND",
         "votes": null
       }
     ],
@@ -3219,8 +3219,8 @@
   {
     "desc": "NW 22 Tribal Area General Election 1970 Result",
     "result": [
-      { "candidate": "Malik Jahangir Khan", "party": "Ind", "votes": 1195 },
-      { "candidate": "Akbar Khan", "party": "Ind", "votes": 27 }
+      { "candidate": "Malik Jahangir Khan", "party": "IND", "votes": 1195 },
+      { "candidate": "Akbar Khan", "party": "IND", "votes": 27 }
     ],
     "totalVotes": 1269,
     "voterTurnout": 77,
@@ -3235,8 +3235,8 @@
   {
     "desc": "NW 23 Tribal Area General Election 1970 Result",
     "result": [
-      { "candidate": "Abdul Malik", "party": "Ind", "votes": 609 },
-      { "candidate": "Gulab Khan", "party": "Ind", "votes": 578 }
+      { "candidate": "Abdul Malik", "party": "IND", "votes": 609 },
+      { "candidate": "Gulab Khan", "party": "IND", "votes": 578 }
     ],
     "totalVotes": 1187,
     "voterTurnout": 97.8,
@@ -3253,10 +3253,10 @@
     "result": [
       {
         "candidate": "Major General (R) jamal Dar",
-        "party": "Ind",
+        "party": "IND",
         "votes": 957
       },
-      { "candidate": "Haju Nadar Khan", "party": "Ind", "votes": 878 }
+      { "candidate": "Haju Nadar Khan", "party": "IND", "votes": 878 }
     ],
     "totalVotes": 1835,
     "voterTurnout": 92.7,
@@ -3271,8 +3271,8 @@
   {
     "desc": "NW 25 Tribal Area General Election 1970 Result",
     "result": [
-      { "candidate": "Abdul Subhan Khan", "party": "Ind", "votes": 1446 },
-      { "candidate": "Gul Muhammad", "party": "Ind", "votes": 93 }
+      { "candidate": "Abdul Subhan Khan", "party": "IND", "votes": 1446 },
+      { "candidate": "Gul Muhammad", "party": "IND", "votes": 93 }
     ],
     "totalVotes": 1803,
     "voterTurnout": 90.9,
@@ -3290,7 +3290,7 @@
       { "candidate": "Khurshid Hassan Mir", "party": "PPP", "votes": 67997 },
       {
         "candidate": "Air Marshal (R) Asgahr Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": 28209
       }
     ],
@@ -3328,7 +3328,7 @@
         "party": "PPP",
         "votes": 36925
       },
-      { "candidate": "Raja Muhammad Anwar", "party": "Ind", "votes": 19931 }
+      { "candidate": "Raja Muhammad Anwar", "party": "IND", "votes": 19931 }
     ],
     "totalVotes": 93725,
     "voterTurnout": 54.8,
@@ -3432,7 +3432,7 @@
     "desc": "NW 34 Jhelum General Election 1970 Result",
     "result": [
       { "candidate": "Malik Muhammad Sadiq", "party": "PPP", "votes": 29812 },
-      { "candidate": "Shahbaz Khan", "party": "Ind", "votes": 29310 }
+      { "candidate": "Shahbaz Khan", "party": "IND", "votes": 29310 }
     ],
     "totalVotes": 72794,
     "voterTurnout": 49.9,
@@ -3484,7 +3484,7 @@
     "desc": "NW 37 Gujrat General Election 1970 Result",
     "result": [
       { "candidate": "Manzoor Hussain Daudra", "party": "PPP", "votes": 33204 },
-      { "candidate": "Muhammad Nawaz Bosal", "party": "Ind", "votes": 26643 }
+      { "candidate": "Muhammad Nawaz Bosal", "party": "IND", "votes": 26643 }
     ],
     "totalVotes": 106343,
     "voterTurnout": 53.9,
@@ -3500,7 +3500,7 @@
     "desc": "NW 38 Gujrat General Election 1970 Result",
     "result": [
       { "candidate": "Ch. Ghulam Rasool", "party": "PPP", "votes": 64928 },
-      { "candidate": "Faiz Ahmad", "party": "Ind", "votes": 36355 }
+      { "candidate": "Faiz Ahmad", "party": "IND", "votes": 36355 }
     ],
     "totalVotes": 148752,
     "voterTurnout": 69.7,
@@ -3617,7 +3617,7 @@
     "result": [
       {
         "candidate": "Nawabzada Malik Muzaffar Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": 53202
       },
       {
@@ -3666,7 +3666,7 @@
       },
       {
         "candidate": "Colonel (R) Abid Hussain",
-        "party": "Ind",
+        "party": "IND",
         "votes": 77558
       }
     ],
@@ -3712,7 +3712,7 @@
         "party": "MJUP",
         "votes": 67846
       },
-      { "candidate": "Muhammad Arif Khan", "party": "Ind", "votes": 58969 }
+      { "candidate": "Muhammad Arif Khan", "party": "IND", "votes": 58969 }
     ],
     "totalVotes": 147335,
     "voterTurnout": 75,
@@ -3950,7 +3950,7 @@
       { "candidate": "Malik Miraj Khalid", "party": "PPP", "votes": 89660 },
       {
         "candidate": "Nawab Zulfiqar Qazilbash",
-        "party": "Ind",
+        "party": "IND",
         "votes": 29560
       }
     ],
@@ -4156,7 +4156,7 @@
     "desc": "NW 73 Gujranwala General Election 1970 Result",
     "result": [
       { "candidate": "Mian Shahadat Khan", "party": "PPP", "votes": 66386 },
-      { "candidate": "Saif Ullah Khan", "party": "Ind", "votes": 58687 }
+      { "candidate": "Saif Ullah Khan", "party": "IND", "votes": 58687 }
     ],
     "totalVotes": 156560,
     "voterTurnout": 78,
@@ -4321,7 +4321,7 @@
     "result": [
       {
         "candidate": "Zafarullah Khan Chaudhary",
-        "party": "Ind",
+        "party": "IND",
         "votes": 50312
       },
       { "candidate": "Mian Qamar uz Zaman", "party": "PML-C", "votes": 28930 }
@@ -4453,7 +4453,7 @@
     "result": [
       {
         "candidate": "Sardar Sher Baz Khan Mazari",
-        "party": "Ind",
+        "party": "IND",
         "votes": 98164
       },
       { "candidate": "Shaukat Hussain Mazari", "party": "PPP", "votes": 31813 }
@@ -4594,7 +4594,7 @@
       { "candidate": "Rao Khurshid Ali Khan", "party": "PPP", "votes": 69012 },
       {
         "candidate": "Colonel (R) Syed Mukhtar Hussain",
-        "party": "Ind",
+        "party": "IND",
         "votes": 25588
       }
     ],
@@ -4693,7 +4693,7 @@
     "result": [
       {
         "candidate": "Shahzada Saeed Ur Rasheed Abbasi",
-        "party": "Ind",
+        "party": "IND",
         "votes": 99640
       },
       { "candidate": "Moulana Habib Ullah", "party": "JUI", "votes": 25024 }
@@ -4803,7 +4803,7 @@
   {
     "desc": "NW 107 Rahim Yar Khan General Election 1970 Result",
     "result": [
-      { "candidate": "Makhdoom Noor Muhammad", "party": "Ind", "votes": 54965 },
+      { "candidate": "Makhdoom Noor Muhammad", "party": "IND", "votes": 54965 },
       {
         "candidate": "Makhdoom Syed Hassan Mehmood",
         "party": "PML-Q",
@@ -4824,7 +4824,7 @@
     "desc": "NW 108 Jacobabad General Election 1970 Result",
     "result": [
       { "candidate": "Mir Darya Khan Khoso", "party": "PPP", "votes": 44920 },
-      { "candidate": "Mehran Khan", "party": "Ind", "votes": 43189 }
+      { "candidate": "Mehran Khan", "party": "IND", "votes": 43189 }
     ],
     "totalVotes": 142611,
     "voterTurnout": 62.2,
@@ -4839,7 +4839,7 @@
   {
     "desc": "NW 109 Sukkur General Election 1970 Result",
     "result": [
-      { "candidate": "Sardar Moula Bux Somro", "party": "Ind", "votes": 31953 },
+      { "candidate": "Sardar Moula Bux Somro", "party": "IND", "votes": 31953 },
       { "candidate": "Agha Ghulam Nabi Pathan", "party": "PPP", "votes": 30543 }
     ],
     "totalVotes": 85971,
@@ -4855,7 +4855,7 @@
   {
     "desc": "NW 110 Sukkur General Election 1970 Result",
     "result": [
-      { "candidate": "Ali Hassan Mangi", "party": "Ind", "votes": 36741 },
+      { "candidate": "Ali Hassan Mangi", "party": "IND", "votes": 36741 },
       { "candidate": "Mufti Muhammad Hussain", "party": "MJUP", "votes": 22813 }
     ],
     "totalVotes": 90978,
@@ -4896,7 +4896,7 @@
     "desc": "NW 112 Nawabshah General Election 1970 Result",
     "result": [
       { "candidate": "Hakim Ali Zardari", "party": "PPP", "votes": 63845 },
-      { "candidate": "Shabir Ahmad Shah", "party": "Ind", "votes": 52215 }
+      { "candidate": "Shabir Ahmad Shah", "party": "IND", "votes": 52215 }
     ],
     "totalVotes": 153000,
     "voterTurnout": 67.9,
@@ -4916,7 +4916,7 @@
         "party": "PPP",
         "votes": 87597
       },
-      { "candidate": "Syed Zafar Ali Shah", "party": "Ind", "votes": 55166 }
+      { "candidate": "Syed Zafar Ali Shah", "party": "IND", "votes": 55166 }
     ],
     "totalVotes": 164468,
     "voterTurnout": 72.5,
@@ -5293,7 +5293,7 @@
     "result": [
       {
         "candidate": "Moulana Zafar Ahmad Ansari",
-        "party": "Ind",
+        "party": "IND",
         "votes": 50230
       },
       { "candidate": "Kamal Azfar", "party": "PPP", "votes": 26783 }
@@ -5332,7 +5332,7 @@
     "desc": "NW 135 Quetta General Election 1970 Result",
     "result": [
       { "candidate": "Molvi Abdul Haq", "party": "JUI", "votes": 32065 },
-      { "candidate": "Saleh Mehmood Khan", "party": "Ind", "votes": 20226 }
+      { "candidate": "Saleh Mehmood Khan", "party": "IND", "votes": 20226 }
     ],
     "totalVotes": 70908,
     "voterTurnout": 34.4,

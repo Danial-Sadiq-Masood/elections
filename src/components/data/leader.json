@@ -1,0 +1,27 @@
+[
+    {
+        "party": "PTI-IND",
+        "seats": 149,
+        "color": "#9D27B0"
+    },
+    {
+        "party": "PML-N",
+        "seats": 48,
+        "color": "#66BB6A"
+    },
+    {
+        "party": "PPP",
+        "seats": 48,
+        "color": "#757575"
+    },
+    {
+        "party": "MQM",
+        "seats": 48,
+        "color": "#757575"
+    },
+    {
+        "party": "IND",
+        "seats": 7,
+        "color": "#FBC02C"
+    }
+]

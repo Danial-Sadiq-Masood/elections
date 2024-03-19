@@ -259,7 +259,7 @@ export const PTI_Data = [
         "result": [
             {
                 "candidate": "Muhammad Idris",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 26583
             },
             {
@@ -954,7 +954,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Ali Sher Khan",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 16194
             }
         ],
@@ -1092,7 +1092,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Raja Khurram Shahzad Nawaz",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 69699
             }
         ],
@@ -1230,7 +1230,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Aqeel Malik",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 85912
             }
         ],
@@ -2010,7 +2010,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Muhammad Moazzam Sher",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 22690
             }
         ],
@@ -2095,12 +2095,12 @@ export const PTI_Data = [
         "result": [
             {
                 "candidate": "Rasheed Akbar Khan",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 142761
             },
             {
                 "candidate": "Muhammad Afzal Khan",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 131176
             }
         ],
@@ -2123,7 +2123,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Ghulam Bibi",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 59901
             }
         ],
@@ -3158,7 +3158,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Mian Manzoor Ahmed Khan Wattoo",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 79692
             }
         ],
@@ -3273,7 +3273,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Muhammad Tufail",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 83480
             }
         ],
@@ -3291,12 +3291,12 @@ export const PTI_Data = [
         "result": [
             {
                 "candidate": "Muhammad Raza Hayat Hiraj",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 118999
             },
             {
                 "candidate": "Syed Abid Hussain Imam",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 78296
             }
         ],
@@ -3337,7 +3337,7 @@ export const PTI_Data = [
         "result": [
             {
                 "candidate": "Zahoor Hussain Qureshi",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 112315
             },
             {
@@ -3503,7 +3503,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Dewan Ashiq Hussain Bukhari",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 49007
             }
         ],
@@ -3664,7 +3664,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Syed Muhammad Asghar",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 110294
             }
         ],
@@ -3779,7 +3779,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Saud Majeed",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 105313
             }
         ],
@@ -3802,7 +3802,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Prince Bahawal Khan Abbasi",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 48599
             }
         ],
@@ -3825,7 +3825,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Malik Aamir Yar Warn",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 42500
             }
         ],
@@ -3917,7 +3917,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Makhdum Hashim Jawan Bakht",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 56028
             }
         ],
@@ -4239,7 +4239,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Mehmood Qadir Khan",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 32929
             }
         ],
@@ -4326,7 +4326,7 @@ export const PTI_Data = [
         "result": [
             {
                 "candidate": "Shamsher Ali Mazari",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 38875
             },
             {
@@ -4354,7 +4354,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Muhammad Mian Soomro",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 60088
             }
         ],
@@ -4538,7 +4538,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Abdul Haque Alias Mian Mitha",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 90629
             }
         ],
@@ -4837,7 +4837,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Ali Nawaz Shah",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 53880
             }
         ],
@@ -4860,7 +4860,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Ali Nawaz Shah",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 45321
             }
         ],
@@ -5797,7 +5797,7 @@ export const PTI_Data = [
         "result": [
             {
                 "candidate": "Mian Khan",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 46683
             },
             {
@@ -5894,7 +5894,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Muhammad Aslam bhotani",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 59172
             }
         ],
@@ -6032,7 +6032,7 @@ export const PTI_Data = [
             },
             {
                 "candidate": "Salar Khan Kakar",
-                "party": "Ind",
+                "party": "IND",
                 "votes": 25366
             }
         ],

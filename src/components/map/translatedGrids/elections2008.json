@@ -210,7 +210,7 @@
     "result": [
       {
         "candidate": "Engineer Usman Khan Tarkai",
-        "party": "Ind",
+        "party": "IND",
         "votes": 49872
       },
       { "candidate": "Asfandiyar Wali Khan", "party": "ANP", "votes": 49574 }
@@ -247,7 +247,7 @@
       { "candidate": "Pir Dilawar Shah", "party": "ANP", "votes": 30681 },
       {
         "candidate": "Malak Mohammad Asad Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": 23030
       }
     ],
@@ -311,7 +311,7 @@
       },
       {
         "candidate": "Dr.Muhammad Azhar Khan Jadoon",
-        "party": "Ind",
+        "party": "IND",
         "votes": 36668
       }
     ],
@@ -353,7 +353,7 @@
         "party": "PML-N",
         "votes": 98670
       },
-      { "candidate": "Raja Amir Zaman", "party": "Ind", "votes": 71254 }
+      { "candidate": "Raja Amir Zaman", "party": "IND", "votes": 71254 }
     ],
     "id": 19,
     "xGrid": 21,
@@ -424,7 +424,7 @@
     "voterTurnout": 16.7,
     "totalVotes": 53086,
     "result": [
-      { "candidate": "Mehboobullah", "party": "Ind", "votes": 14100 },
+      { "candidate": "Mehboobullah", "party": "IND", "votes": 14100 },
       { "candidate": "Haji Misar Khan", "party": "PPP", "votes": 13412 }
     ],
     "id": 23,
@@ -477,7 +477,7 @@
         "party": "MMA",
         "votes": 91484
       },
-      { "candidate": "Malik Nasir Khan", "party": "Ind", "votes": 56546 }
+      { "candidate": "Malik Nasir Khan", "party": "IND", "votes": 56546 }
     ],
     "id": 26,
     "xGrid": 16,
@@ -517,7 +517,7 @@
     "totalVotes": 72883,
     "result": [
       { "candidate": "Istiqbal Khan", "party": "ANP", "votes": 30903 },
-      { "candidate": "Bakht Jehan Khan", "party": "Ind", "votes": 30116 }
+      { "candidate": "Bakht Jehan Khan", "party": "IND", "votes": 30116 }
     ],
     "id": 28,
     "xGrid": 21,
@@ -535,7 +535,7 @@
       { "candidate": "Muzafer ul Mulk", "party": "ANP", "votes": 19860 },
       {
         "candidate": "Main Gul Adnan Aurangzeb",
-        "party": "Ind",
+        "party": "IND",
         "votes": 17253
       }
     ],
@@ -585,7 +585,7 @@
     "totalVotes": 86368,
     "result": [
       { "candidate": "Shahzada Muhyuddin", "party": "PML-Q", "votes": 33278 },
-      { "candidate": "Sardar Muhammad Khan", "party": "Ind", "votes": 31120 }
+      { "candidate": "Sardar Muhammad Khan", "party": "IND", "votes": 31120 }
     ],
     "id": 32,
     "xGrid": 19,
@@ -601,7 +601,7 @@
     "totalVotes": 69911,
     "result": [
       { "candidate": "Najum-din Khan", "party": "PPP", "votes": 27594 },
-      { "candidate": "Sahibzada Sibghatullalh", "party": "Ind", "votes": 19910 }
+      { "candidate": "Sahibzada Sibghatullalh", "party": "IND", "votes": 19910 }
     ],
     "id": 33,
     "xGrid": 19,
@@ -648,8 +648,8 @@
     "voterTurnout": 18.15,
     "totalVotes": 22873,
     "result": [
-      { "candidate": "Bilal Rehman", "party": "Ind", "votes": 5270 },
-      { "candidate": "Shahbaz Khan Mohmand", "party": "Ind", "votes": 4229 }
+      { "candidate": "Bilal Rehman", "party": "IND", "votes": 5270 },
+      { "candidate": "Shahbaz Khan Mohmand", "party": "IND", "votes": 4229 }
     ],
     "id": 36,
     "xGrid": 17,
@@ -664,10 +664,10 @@
     "voterTurnout": 61.82,
     "totalVotes": 87090,
     "result": [
-      { "candidate": "Sajid Hussain Turi", "party": "Ind", "votes": 26287 },
+      { "candidate": "Sajid Hussain Turi", "party": "IND", "votes": 26287 },
       {
         "candidate": "Doctor Syed Riaz Hussain",
-        "party": "Ind",
+        "party": "IND",
         "votes": 20793
       }
     ],
@@ -684,10 +684,10 @@
     "voterTurnout": 28.31,
     "totalVotes": 24900,
     "result": [
-      { "candidate": "Munir Khan Orakzai", "party": "Ind", "votes": 16525 },
+      { "candidate": "Munir Khan Orakzai", "party": "IND", "votes": 16525 },
       {
         "candidate": "Maulana Akhunzada Obaidullah Sharif",
-        "party": "Ind",
+        "party": "IND",
         "votes": 4270
       }
     ],
@@ -704,8 +704,8 @@
     "voterTurnout": 40.1,
     "totalVotes": 49126,
     "result": [
-      { "candidate": "Jawad Hussain", "party": "Ind", "votes": 21844 },
-      { "candidate": "Dr. Gul Karim Khan", "party": "Ind", "votes": 8247 }
+      { "candidate": "Jawad Hussain", "party": "IND", "votes": 21844 },
+      { "candidate": "Dr. Gul Karim Khan", "party": "IND", "votes": 8247 }
     ],
     "id": 39,
     "xGrid": 17,
@@ -720,7 +720,7 @@
     "voterTurnout": 27.87,
     "totalVotes": 34638,
     "result": [
-      { "candidate": "Muhammad Kamran Khan", "party": "Ind", "votes": 5894 },
+      { "candidate": "Muhammad Kamran Khan", "party": "IND", "votes": 5894 },
       { "candidate": "Abdul Qayyum", "party": "PCM", "votes": 5441 }
     ],
     "id": 40,
@@ -738,10 +738,10 @@
     "result": [
       {
         "candidate": "Moulana Abul Malik Wazir",
-        "party": "Ind",
+        "party": "IND",
         "votes": 9000
       },
-      { "candidate": "Ghalib Khan", "party": "Ind", "votes": 8177 }
+      { "candidate": "Ghalib Khan", "party": "IND", "votes": 8177 }
     ],
     "id": 41,
     "xGrid": 15,
@@ -758,10 +758,10 @@
     "result": [
       {
         "candidate": "Moulana Abdul Malik Wazir",
-        "party": "Ind",
+        "party": "IND",
         "votes": 7957
       },
-      { "candidate": "Ghalib Khan", "party": "Ind", "votes": 7921 }
+      { "candidate": "Ghalib Khan", "party": "IND", "votes": 7921 }
     ],
     "id": 42,
     "xGrid": 16,
@@ -776,8 +776,8 @@
     "voterTurnout": 12.849,
     "totalVotes": 14910,
     "result": [
-      { "candidate": "Shaukatullah Khan", "party": "Ind", "votes": 7428 },
-      { "candidate": "Sheikh Jehanzada", "party": "Ind", "votes": 3079 }
+      { "candidate": "Shaukatullah Khan", "party": "IND", "votes": 7428 },
+      { "candidate": "Sheikh Jehanzada", "party": "IND", "votes": 3079 }
     ],
     "id": 43,
     "xGrid": 18,
@@ -792,8 +792,8 @@
     "voterTurnout": 17.69,
     "totalVotes": 23221,
     "result": [
-      { "candidate": "Syed Akhun Zada Chittan", "party": "Ind", "votes": 6257 },
-      { "candidate": "Shahab ud Din Khan", "party": "Ind", "votes": 5203 }
+      { "candidate": "Syed Akhun Zada Chittan", "party": "IND", "votes": 6257 },
+      { "candidate": "Shahab ud Din Khan", "party": "IND", "votes": 5203 }
     ],
     "id": 44,
     "xGrid": 18,
@@ -808,10 +808,10 @@
     "voterTurnout": 35.16,
     "totalVotes": 34966,
     "result": [
-      { "candidate": "Noor Ul Haq Qadri", "party": "Ind", "votes": 13876 },
+      { "candidate": "Noor Ul Haq Qadri", "party": "IND", "votes": 13876 },
       {
         "candidate": "Mohammad Ibrahim Koki Khel",
-        "party": "Ind",
+        "party": "IND",
         "votes": 12548
       }
     ],
@@ -830,12 +830,12 @@
     "result": [
       {
         "candidate": "Hamidullah Jan Afridi BQK",
-        "party": "Ind",
+        "party": "IND",
         "votes": 5660
       },
       {
         "candidate": "Mohammad Saeed Afridi BQK",
-        "party": "Ind",
+        "party": "IND",
         "votes": 5035
       }
     ],
@@ -852,8 +852,8 @@
     "voterTurnout": 35.14,
     "totalVotes": 47706,
     "result": [
-      { "candidate": "Zafar Baig Bhattani", "party": "Ind", "votes": 21426 },
-      { "candidate": "Doctor Nasim Afridi", "party": "Ind", "votes": 10468 }
+      { "candidate": "Zafar Baig Bhattani", "party": "IND", "votes": 21426 },
+      { "candidate": "Doctor Nasim Afridi", "party": "IND", "votes": 10468 }
     ],
     "id": 47,
     "xGrid": 17,
@@ -1037,7 +1037,7 @@
     "totalVotes": 127533,
     "result": [
       { "candidate": "SHEIKH AFTAB AHMAD", "party": "PML-N", "votes": 38755 },
-      { "candidate": "MALIK AMIN ASLAM KHAN", "party": "Ind", "votes": 38392 }
+      { "candidate": "MALIK AMIN ASLAM KHAN", "party": "IND", "votes": 38392 }
     ],
     "id": 57,
     "xGrid": 19,
@@ -1111,7 +1111,7 @@
       { "candidate": "Sardar Mumtaz Khan", "party": "PML-N", "votes": 104739 },
       {
         "candidate": "Sardar Mansoor Hayat Tamman",
-        "party": "Ind",
+        "party": "IND",
         "votes": 37978
       }
     ],
@@ -1247,7 +1247,7 @@
       },
       {
         "candidate": "Mian Azhar Ahmed Qureshi",
-        "party": "Ind",
+        "party": "IND",
         "votes": 58579
       }
     ],
@@ -1265,7 +1265,7 @@
     "totalVotes": 164024,
     "result": [
       { "candidate": "Sumaira Malik", "party": "PML-Q", "votes": 61076 },
-      { "candidate": "Umer Aslam Khan", "party": "Ind", "votes": 60443 }
+      { "candidate": "Umer Aslam Khan", "party": "IND", "votes": 60443 }
     ],
     "id": 69,
     "xGrid": 21,
@@ -1287,7 +1287,7 @@
       },
       {
         "candidate": "Malik Muhammad Ehsan Ullah Tiwana",
-        "party": "Ind",
+        "party": "IND",
         "votes": 58906
       }
     ],
@@ -1306,12 +1306,12 @@
     "result": [
       {
         "candidate": "Nawabzada Malik Amad Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": 83098
       },
       {
         "candidate": "Amanatullah Khan Shadikhel.",
-        "party": "Ind",
+        "party": "IND",
         "votes": 73019
       }
     ],
@@ -1328,7 +1328,7 @@
     "voterTurnout": 53.83,
     "totalVotes": 160129,
     "result": [
-      { "candidate": "Humair Hayat Rokhari", "party": "Ind", "votes": 49294 },
+      { "candidate": "Humair Hayat Rokhari", "party": "IND", "votes": 49294 },
       {
         "candidate": "Dr.Sher Afghan Khan Niazi",
         "party": "PML-Q",
@@ -1350,7 +1350,7 @@
     "result": [
       {
         "candidate": "Abdul Majeed Khan Khanan Khel",
-        "party": "Ind",
+        "party": "IND",
         "votes": 83850
       },
       {
@@ -1372,7 +1372,7 @@
     "voterTurnout": 64.81,
     "totalVotes": 188776,
     "result": [
-      { "candidate": "Rasheed Akbar Khan", "party": "Ind", "votes": 98366 },
+      { "candidate": "Rasheed Akbar Khan", "party": "IND", "votes": 98366 },
       {
         "candidate": "Dr. Muhammad Afzal Khan Dhandla",
         "party": "PML-N",
@@ -1474,7 +1474,7 @@
     "result": [
       {
         "candidate": "Rana Muhammad Farooq Saeed Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": 58563
       },
       {
@@ -1667,7 +1667,7 @@
       { "candidate": "Sheikh Waqas Akram", "party": "PML-Q", "votes": 51976 },
       {
         "candidate": "Molana Muhammad Ahmed Ludhyanvi",
-        "party": "Ind",
+        "party": "IND",
         "votes": 45216
       }
     ],
@@ -1684,7 +1684,7 @@
     "voterTurnout": 49.3,
     "totalVotes": 130849,
     "result": [
-      { "candidate": "Saima Akhtar Bharwana", "party": "Ind", "votes": 64759 },
+      { "candidate": "Saima Akhtar Bharwana", "party": "IND", "votes": 64759 },
       {
         "candidate": "Sahibzada Muhammad Nazir Sultan",
         "party": "PML-Q",
@@ -2045,7 +2045,7 @@
     "totalVotes": 182462,
     "result": [
       { "candidate": "Muhammad Tariq Tarar", "party": "PPP", "votes": 73951 },
-      { "candidate": "Ijaz Ahmed Chaudhary", "party": "Ind", "votes": 67769 }
+      { "candidate": "Ijaz Ahmed Chaudhary", "party": "IND", "votes": 67769 }
     ],
     "id": 108,
     "xGrid": 23,
@@ -2188,7 +2188,7 @@
     "voterTurnout": 53.73,
     "totalVotes": 114350,
     "result": [
-      { "candidate": "Ch.Muhammd Tariq Anees", "party": "Ind", "votes": 45097 },
+      { "candidate": "Ch.Muhammd Tariq Anees", "party": "IND", "votes": 45097 },
       { "candidate": "Daniyal Aziz", "party": "PML-Q", "votes": 37138 }
     ],
     "id": 116,
@@ -2312,7 +2312,7 @@
         "party": "PML-N",
         "votes": 44146
       },
-      { "candidate": "Mian Hamid Miraj", "party": "Ind", "votes": 9192 }
+      { "candidate": "Mian Hamid Miraj", "party": "IND", "votes": 9192 }
     ],
     "id": 123,
     "xGrid": 27,
@@ -2575,7 +2575,7 @@
     "voterTurnout": 55.6,
     "totalVotes": 124965,
     "result": [
-      { "candidate": "Saeed Ahmed Zafar", "party": "Ind", "votes": 54732 },
+      { "candidate": "Saeed Ahmed Zafar", "party": "IND", "votes": 54732 },
       { "candidate": "Rai Mansab Ali Khan", "party": "PML-Q", "votes": 44745 }
     ],
     "id": 137,
@@ -2633,12 +2633,12 @@
     "result": [
       {
         "candidate": "Malik Rasheed Ahmed Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": 47295
       },
       {
         "candidate": "Dr. Azeem ud Din Zahid Lakhwi",
-        "party": "Ind",
+        "party": "IND",
         "votes": 47206
       }
     ],
@@ -2727,7 +2727,7 @@
     "voterTurnout": 40.5,
     "totalVotes": 118044,
     "result": [
-      { "candidate": "Sajjad Ul Hassan", "party": "Ind", "votes": 77795 },
+      { "candidate": "Sajjad Ul Hassan", "party": "IND", "votes": 77795 },
       { "candidate": "Rao Sikandar Iqbal", "party": "PML-Q", "votes": 33527 }
     ],
     "id": 144,
@@ -2769,7 +2769,7 @@
     "result": [
       {
         "candidate": "Mian Manzoor Ahmad Khan Wattoo",
-        "party": "Ind",
+        "party": "IND",
         "votes": 46941
       },
       {
@@ -2798,7 +2798,7 @@
       },
       {
         "candidate": "Muhammad Zafar Yasin Wattoo",
-        "party": "Ind",
+        "party": "IND",
         "votes": 15965
       }
     ],
@@ -2884,7 +2884,7 @@
         "party": "PPP",
         "votes": 64364
       },
-      { "candidate": "Shokat Hayat Khan Bosan", "party": "Ind", "votes": 60779 }
+      { "candidate": "Shokat Hayat Khan Bosan", "party": "IND", "votes": 60779 }
     ],
     "id": 151,
     "xGrid": 19,
@@ -2922,7 +2922,7 @@
       },
       {
         "candidate": "Rana Muhammad Qasim Noon",
-        "party": "Ind",
+        "party": "IND",
         "votes": 68762
       }
     ],
@@ -2965,7 +2965,7 @@
     "result": [
       {
         "candidate": "Muhammad Akhtar Khan Kanju",
-        "party": "Ind",
+        "party": "IND",
         "votes": 79977
       },
       { "candidate": "Hayat Ullah Khan Tareen", "party": "PPP", "votes": 68941 }
@@ -3100,7 +3100,7 @@
     "totalVotes": 165517,
     "result": [
       { "candidate": "Ch. Zahid Iqbal", "party": "PML-N", "votes": 75579 },
-      { "candidate": "Rai Hassan Nawaz Khan", "party": "Ind", "votes": 65414 }
+      { "candidate": "Rai Hassan Nawaz Khan", "party": "IND", "votes": 65414 }
     ],
     "id": 162,
     "xGrid": 26,
@@ -3204,7 +3204,7 @@
     "totalVotes": 152880,
     "result": [
       { "candidate": "Ch. Asghar Ali Jutt", "party": "PPP", "votes": 74308 },
-      { "candidate": "Ch. Nazir Ahmed Arain", "party": "Ind", "votes": 42606 }
+      { "candidate": "Ch. Nazir Ahmed Arain", "party": "IND", "votes": 42606 }
     ],
     "id": 167,
     "xGrid": 22,
@@ -3284,7 +3284,7 @@
         "party": "PML-Q",
         "votes": 39628
       },
-      { "candidate": "Amjad Farooq Khan Khosa", "party": "Ind", "votes": 36400 }
+      { "candidate": "Amjad Farooq Khan Khosa", "party": "IND", "votes": 36400 }
     ],
     "id": 171,
     "xGrid": 16,
@@ -3350,7 +3350,7 @@
       },
       {
         "candidate": "Sardar Nasrullh Khan Dreshak.",
-        "party": "Ind",
+        "party": "IND",
         "votes": 40049
       }
     ],
@@ -3622,7 +3622,7 @@
       },
       {
         "candidate": "Syed Tasneem Nawaz Gardezi",
-        "party": "Ind",
+        "party": "IND",
         "votes": 50468
       }
     ],
@@ -3794,7 +3794,7 @@
       { "candidate": "Syed Mustafa Mehmood", "party": "PML-F", "votes": 81097 },
       {
         "candidate": "Molvi Muhammad Tariq Chohan",
-        "party": "Ind",
+        "party": "IND",
         "votes": 17898
       }
     ],
@@ -3812,7 +3812,7 @@
     "totalVotes": 140670,
     "result": [
       { "candidate": "Javed Iqbal Warraich", "party": "PPP", "votes": 52090 },
-      { "candidate": "Mian Imtiaz Ahmad", "party": "Ind", "votes": 47205 }
+      { "candidate": "Mian Imtiaz Ahmad", "party": "IND", "votes": 47205 }
     ],
     "id": 196,
     "xGrid": 16,
@@ -3909,7 +3909,7 @@
     "result": [
       {
         "candidate": "Ali Mohammad Khan Mahar",
-        "party": "Ind",
+        "party": "IND",
         "votes": 74714
       },
       {
@@ -4433,7 +4433,7 @@
         "party": "PPP",
         "votes": 75080
       },
-      { "candidate": "Mohammad Qasim Soomro", "party": "Ind", "votes": 30079 }
+      { "candidate": "Mohammad Qasim Soomro", "party": "IND", "votes": 30079 }
     ],
     "id": 228,
     "xGrid": 15,
@@ -4793,7 +4793,7 @@
     "totalVotes": 104466,
     "result": [
       { "candidate": "Nabeel Ahmed Gabol", "party": "PPP", "votes": 84217 },
-      { "candidate": "Shakoor Shad", "party": "Ind", "votes": 9651 }
+      { "candidate": "Shakoor Shad", "party": "IND", "votes": 9651 }
     ],
     "id": 248,
     "xGrid": 8,
@@ -5104,7 +5104,7 @@
     "voterTurnout": 27.86,
     "totalVotes": 58782,
     "result": [
-      { "candidate": "Maulvi Asmatullah", "party": "Ind", "votes": 24204 },
+      { "candidate": "Maulvi Asmatullah", "party": "IND", "votes": 24204 },
       {
         "candidate": "Maulana Malik Muhammad Khan Sherani",
         "party": "MMA",
@@ -5129,7 +5129,7 @@
         "party": "PML-Q",
         "votes": 56715
       },
-      { "candidate": "Mir Dostain Khan Domki", "party": "Ind", "votes": 17411 }
+      { "candidate": "Mir Dostain Khan Domki", "party": "IND", "votes": 17411 }
     ],
     "id": 265,
     "xGrid": 12,
@@ -5145,7 +5145,7 @@
     "totalVotes": 145809,
     "result": [
       { "candidate": "Taj Muhammad Jamali", "party": "PPP", "votes": 76556 },
-      { "candidate": "M Zahoor H.K Khoso ", "party": "Ind", "votes": 51648 }
+      { "candidate": "M Zahoor H.K Khoso ", "party": "IND", "votes": 51648 }
     ],
     "id": 266,
     "xGrid": 11,
@@ -5160,7 +5160,7 @@
     "voterTurnout": 46.36,
     "totalVotes": 111549,
     "result": [
-      { "candidate": "Mir Hamayun Aziz Kurd", "party": "Ind", "votes": 61249 },
+      { "candidate": "Mir Hamayun Aziz Kurd", "party": "IND", "votes": 61249 },
       {
         "candidate": "Sardar Yar Muhammad Rind",
         "party": "PML-Q",
@@ -5198,7 +5198,7 @@
     "result": [
       {
         "candidate": "Muhammad Usman Advocate",
-        "party": "Ind",
+        "party": "IND",
         "votes": 17609
       },
       { "candidate": "Molvi Qamar-ud-Din", "party": "MMA", "votes": 15938 }
@@ -5238,7 +5238,7 @@
     "result": [
       {
         "candidate": "Lt. Gen.(R) Abdul Qadir",
-        "party": "Ind",
+        "party": "IND",
         "votes": 22175
       },
       {
@@ -5261,7 +5261,7 @@
     "totalVotes": 103938,
     "result": [
       { "candidate": "Yaqoob Bizenjo.", "party": "BNP-A", "votes": 61655 },
-      { "candidate": "Zubeda Jalal", "party": "Ind", "votes": 33564 }
+      { "candidate": "Zubeda Jalal", "party": "IND", "votes": 33564 }
     ],
     "id": 272,
     "xGrid": 0,

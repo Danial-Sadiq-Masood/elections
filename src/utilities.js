@@ -82,56 +82,56 @@ const size = {
 
 export const yearStates = {
     '2024': {
-      parties: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'Ind', 'IPP', 'JUI-F'],
-      runnerups: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'Ind', 'IPP', 'JUI-F'],
+      parties: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'IND', 'IPP', 'JUI-F'],
+      runnerups: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'IND', 'IPP', 'JUI-F'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT'],
       data: elections2024ECP
     },
     '2018': {
-      parties: ['PTI', 'PML-N', 'PPP', 'MMA', 'Ind', 'MQM', 'PML-Q', 'BAP', 'GDA', 'BNP', 'ANP', 'AML'],
-      runnerups: ['PTI', 'PML-N', 'Ind', 'MMA', 'PPP', 'GDA', 'ANP', 'MQM', 'BNP', 'TLP', 'SUP', 'PKMAP'],
+      parties: ['PTI', 'PML-N', 'PPP', 'MMA', 'IND', 'MQM', 'PML-Q', 'BAP', 'GDA', 'BNP', 'ANP', 'AML'],
+      runnerups: ['PTI', 'PML-N', 'IND', 'MMA', 'PPP', 'GDA', 'ANP', 'MQM', 'BNP', 'TLP', 'SUP', 'PKMAP'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections2018
     },
     '2013': {
-      parties: ['PML-N', 'PPP', 'Ind', 'PTI', 'MQM', 'JUI-F', 'PML-F', 'JI', 'PKMAP', 'PML-Q', 'NPP', 'QWP-S'],
-      runnerups: ['PTI', 'PPP', 'Ind', 'PML-N', 'JUI-F', 'PML-Q', 'PML-F', 'ANP', 'JI', 'MQM', 'BNAP', 'SUP'],
+      parties: ['PML-N', 'PPP', 'IND', 'PTI', 'MQM', 'JUI-F', 'PML-F', 'JI', 'PKMAP', 'PML-Q', 'NPP', 'QWP-S'],
+      runnerups: ['PTI', 'PPP', 'IND', 'PML-N', 'JUI-F', 'PML-Q', 'PML-F', 'ANP', 'JI', 'MQM', 'BNAP', 'SUP'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections2013
     },
     '2008': {
-      parties: ['PPP', 'PML-N', 'PML-Q', 'Ind', 'MQM', 'ANP', 'MMA', 'PML-F', 'PPP-S', 'NPP', 'BNP-A'],
-      runnerups: ['PML-Q', 'PPP', 'Ind', 'PML-N', 'ANP', 'MMA', 'PML-F', 'MQM', 'PPP-S', 'JUI-S', 'PDP', 'PCM'],
+      parties: ['PPP', 'PML-N', 'PML-Q', 'IND', 'MQM', 'ANP', 'MMA', 'PML-F', 'PPP-S', 'NPP', 'BNP-A'],
+      runnerups: ['PML-Q', 'PPP', 'IND', 'PML-N', 'ANP', 'MMA', 'PML-F', 'MQM', 'PPP-S', 'JUI-S', 'PDP', 'PCM'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections2008
     },
     '2002': {
-      parties: ['PML-Q', 'PPP', 'MMA', 'Ind', 'PML-N', 'NA', 'MQM', 'PML-F', 'PML-J', 'PPP-S', 'PTI', 'PAT'],
-      runnerups: ['PPP', 'PML-Q', 'PML-N', 'Ind', 'MMA', 'ANP', 'NA', 'MQM', 'BNM', 'PKMAP', 'PML-J', 'TI'],
+      parties: ['PML-Q', 'PPP', 'MMA', 'IND', 'PML-N', 'NA', 'MQM', 'PML-F', 'PML-J', 'PPP-S', 'PTI', 'PAT'],
+      runnerups: ['PPP', 'PML-Q', 'PML-N', 'IND', 'MMA', 'ANP', 'NA', 'MQM', 'BNM', 'PKMAP', 'PML-J', 'TI'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections2002
     },
     '1997': {
-      parties: ['PML-N', 'Ind', 'PPP', 'MQM', 'ANP', 'BNP', 'JUI-F', 'JWP', 'PPP-SB', 'NPP'],
-      runnerups: ['PPP', 'Ind', 'PML-N', 'PML-J', 'JUI-F', 'PPP-SB', 'ANP', 'MQM', 'PKMAP', 'BNM', 'JUI-S', 'PAP'],
+      parties: ['PML-N', 'IND', 'PPP', 'MQM', 'ANP', 'BNP', 'JUI-F', 'JWP', 'PPP-SB', 'NPP'],
+      runnerups: ['PPP', 'IND', 'PML-N', 'PML-J', 'JUI-F', 'PPP-SB', 'ANP', 'MQM', 'PKMAP', 'BNM', 'JUI-S', 'PAP'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections1997
     },
     '1993': {
-      parties: ['PPP', 'PML-N', 'Ind', 'PML-J', 'IJM', 'ANP', 'PIF', 'PKMAP', 'MDM', 'JWP', 'PKQP', 'NDA'],
-      runnerups: ['PML-N', 'PPP', 'Ind', 'IJM', 'PML-J', 'ANP', 'PIF', 'SBC', 'PNP', 'BNM-H', 'PKMAP', 'BNM-M'],
+      parties: ['PPP', 'PML-N', 'IND', 'PML-J', 'IJM', 'ANP', 'PIF', 'PKMAP', 'MDM', 'JWP', 'PKQP', 'NDA'],
+      runnerups: ['PML-N', 'PPP', 'IND', 'IJM', 'PML-J', 'ANP', 'PIF', 'SBC', 'PNP', 'BNM-H', 'PKMAP', 'BNM-M'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections1993
     },
     '1990': {
-      parties: ['IJI', 'PDA', 'Ind', 'MQM', 'ANP', 'JUI-F', 'JUP-N', 'JWP', 'PNP', 'PKMAP'],
-      runnerups: ['PDA', 'IJI', 'Ind', 'JUI-F', 'SNF', 'PNP', 'JUP-N', 'BNM', 'ANP', 'PAT', 'PDP', 'SNA'],
+      parties: ['IJI', 'PDA', 'IND', 'MQM', 'ANP', 'JUI-F', 'JUP-N', 'JWP', 'PNP', 'PKMAP'],
+      runnerups: ['PDA', 'IJI', 'IND', 'JUI-F', 'SNF', 'PNP', 'JUP-N', 'BNM', 'ANP', 'PAT', 'PDP', 'SNA'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections1990
     },
     '1988': {
-      parties: ['PPP', 'IJI', 'Ind', 'JUI-F', 'PAI', 'ANP', 'BNA', 'JUI-D', 'PDP', 'NPP-K'],
-      runnerups: ['IJI', 'PPP', 'Ind', 'ANP', 'PNP', '', 'PAI', 'JUI-F', 'PDP', 'PML-MQ', 'PPIS', 'PMAI'],
+      parties: ['PPP', 'IJI', 'IND', 'JUI-F', 'PAI', 'ANP', 'BNA', 'JUI-D', 'PDP', 'NPP-K'],
+      runnerups: ['IJI', 'PPP', 'IND', 'ANP', 'PNP', '', 'PAI', 'JUI-F', 'PDP', 'PML-MQ', 'PPIS', 'PMAI'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections1988
     },
@@ -142,14 +142,14 @@ export const yearStates = {
       data: elections1985
     },
     '1977': {
-      parties: ['PPP', 'PNA', 'Ind', 'PML-Q'],
-      runnerups: ['PNA', 'PPP', 'Ind', 'PPNAP', 'PML-Q'],
+      parties: ['PPP', 'PNA', 'IND', 'PML-Q'],
+      runnerups: ['PNA', 'PPP', 'IND', 'PPNAP', 'PML-Q'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
       data: elections1977
     },
     '1970': {
-      parties: ['AL', 'PPP', 'Ind', 'PML-Q', 'PML-C', 'JUI', 'MJUP', 'NAP-W', 'JI', 'PDP', 'CML'],
-      runnerups: ['JI', 'PML-C', 'Ind', 'PML-Q', 'JUI-NI', 'MJUP', 'PDP', 'PPP', 'NAP-W', 'JUI', 'PNL', 'CML'],
+      parties: ['AL', 'PPP', 'IND', 'PML-Q', 'PML-C', 'JUI', 'MJUP', 'NAP-W', 'JI', 'PDP', 'CML'],
+      runnerups: ['JI', 'PML-C', 'IND', 'PML-Q', 'JUI-NI', 'MJUP', 'PDP', 'PPP', 'NAP-W', 'JUI', 'PNL', 'CML'],
       regions: ['East Pak', 'West Pak'],
       data: elections1970,
     },
@@ -218,7 +218,7 @@ export const partyScale = scaleOrdinal()
       "PML-Q",
       "PPP",
       "PNA",
-      "Ind",
+      "IND",
       "IJI",
       "PDA",
       "MQM",
@@ -344,7 +344,7 @@ export const partyScale = scaleOrdinal()
   };
 
   export const Dictionary = {
-      Ind: "Independent",
+      IND: "Independent",
       MMA: "Muttahida Majlis-e-Amal",
       "PPP-S": "Pakistan People's Party (Sherpao)",
       "PML-Q": "Pakistan Muslim League (Q)",

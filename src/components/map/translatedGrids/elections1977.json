@@ -464,8 +464,8 @@
   {
     "desc": "NA 27 Tribal Area General Election 1977 Result",
     "result": [
-      { "candidate": "Baroz", "party": "Ind", "votes": "1921" },
-      { "candidate": "Akbar Khan", "party": "Ind", "votes": "1263" }
+      { "candidate": "Baroz", "party": "IND", "votes": "1921" },
+      { "candidate": "Akbar Khan", "party": "IND", "votes": "1263" }
     ],
     "id": 27,
     "xGrid": 16,
@@ -479,8 +479,8 @@
   {
     "desc": "NA 28 Tribal Area General Election 1977 Result",
     "result": [
-      { "candidate": "Baz Gull", "party": "Ind", "votes": "675" },
-      { "candidate": "Noor Ahmad", "party": "Ind", "votes": "624" }
+      { "candidate": "Baz Gull", "party": "IND", "votes": "675" },
+      { "candidate": "Noor Ahmad", "party": "IND", "votes": "624" }
     ],
     "id": 28,
     "xGrid": 15,
@@ -494,8 +494,8 @@
   {
     "desc": "NA 29 Tribal Area General Election 1977 Result",
     "result": [
-      { "candidate": "Shams ul Haq", "party": "Ind", "votes": "2435" },
-      { "candidate": "Molvi Saad Alam", "party": "Ind", "votes": "794" }
+      { "candidate": "Shams ul Haq", "party": "IND", "votes": "2435" },
+      { "candidate": "Molvi Saad Alam", "party": "IND", "votes": "794" }
     ],
     "id": 29,
     "xGrid": 15,
@@ -509,8 +509,8 @@
   {
     "desc": "NA 30 Tribal Area General Election 1977 Result",
     "result": [
-      { "candidate": "Sardar Habibullah Khan", "party": "Ind", "votes": "505" },
-      { "candidate": "Sultan Mehmood", "party": "Ind", "votes": "441" }
+      { "candidate": "Sardar Habibullah Khan", "party": "IND", "votes": "505" },
+      { "candidate": "Sultan Mehmood", "party": "IND", "votes": "441" }
     ],
     "id": 30,
     "xGrid": 14,
@@ -524,8 +524,8 @@
   {
     "desc": "NA 31 Tribal Area General Election 1977 Result",
     "result": [
-      { "candidate": "Said Khan", "party": "Ind", "votes": "451" },
-      { "candidate": "Sahib Jan", "party": "Ind", "votes": "291" }
+      { "candidate": "Said Khan", "party": "IND", "votes": "451" },
+      { "candidate": "Sahib Jan", "party": "IND", "votes": "291" }
     ],
     "id": 31,
     "xGrid": 13,
@@ -554,8 +554,8 @@
   {
     "desc": "NA 33 Tribal Area General Election 1977 Result",
     "result": [
-      { "candidate": "Haji Gul Sher", "party": "Ind", "votes": "1116" },
-      { "candidate": "Haji Nawab Khan", "party": "Ind", "votes": "783" }
+      { "candidate": "Haji Gul Sher", "party": "IND", "votes": "1116" },
+      { "candidate": "Haji Nawab Khan", "party": "IND", "votes": "783" }
     ],
     "id": 33,
     "xGrid": 15,
@@ -569,10 +569,10 @@
   {
     "desc": "NA 34 Tribal Area General Election 1977 Result",
     "result": [
-      { "candidate": "Noor Sher Khan", "party": "Ind", "votes": "792" },
+      { "candidate": "Noor Sher Khan", "party": "IND", "votes": "792" },
       {
         "candidate": "Brigadier (R) Hayat Ullah Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "197"
       }
     ],
@@ -627,7 +627,7 @@
         "party": "PPP",
         "votes": "69542"
       },
-      { "candidate": "Malik Mehboob Hussain", "party": "Ind", "votes": "29048" }
+      { "candidate": "Malik Mehboob Hussain", "party": "IND", "votes": "29048" }
     ],
     "id": 37,
     "xGrid": 22,
@@ -2591,7 +2591,7 @@
       },
       {
         "candidate": "Shahzada Mamoon Ur Rasheed Abbasi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "58458"
       }
     ],
@@ -2834,7 +2834,7 @@
     "desc": "NA 161 Khairpur General Election 1977 Result",
     "result": [
       { "candidate": "Syed Qaim Ali Shah", "party": "PPP", "votes": "104997" },
-      { "candidate": "Syed Ghous Ali Shah", "party": "Ind", "votes": "34999" }
+      { "candidate": "Syed Ghous Ali Shah", "party": "IND", "votes": "34999" }
     ],
     "id": 161,
     "xGrid": 10,
@@ -2853,7 +2853,7 @@
         "party": "PPP",
         "votes": "120523"
       },
-      { "candidate": "Haji Atta Muhammad", "party": "Ind", "votes": "15428" }
+      { "candidate": "Haji Atta Muhammad", "party": "IND", "votes": "15428" }
     ],
     "id": 162,
     "xGrid": 11,
@@ -2999,7 +2999,7 @@
       { "candidate": "Syed Umed Ali Shah", "party": "PPP", "votes": "80018" },
       {
         "candidate": "Mir Ali Ahmad Khan Talpur",
-        "party": "Ind",
+        "party": "IND",
         "votes": "14537"
       }
     ],
@@ -3057,7 +3057,7 @@
         "party": "PPP",
         "votes": "81700"
       },
-      { "candidate": "Mir Ali Ahmad Khan", "party": "Ind", "votes": "38113" }
+      { "candidate": "Mir Ali Ahmad Khan", "party": "IND", "votes": "38113" }
     ],
     "id": 173,
     "xGrid": 12,

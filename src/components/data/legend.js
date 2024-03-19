@@ -21,7 +21,42 @@ const Container = styled.div`
     }
 `;
 
+const legParties = [
+    {
+        "party": "PTI-IND",
+        "seats": 149,
+        "color": "#9D27B0"
+    },
+    {
+        "party": "PML-N",
+        "seats": 48,
+        "color": "#66BB6A"
+    },
+    {
+        "party": "PPP",
+        "seats": 48,
+        "color": "#757575"
+    },
+    {
+        "party": "MQM",
+        "seats": 48,
+        "color": "#F48FB1"
+    },
+    {
+        "party": "IND",
+        "seats": 7,
+        "color": "#FBC02C"
+    },
+    {
+        "party": "Other",
+        "seats": 7,
+        "color": "#dddddd"
+    }
+];
+
 export default function Legend({ leaders }) {
+
+    window.leaders = leaders;
 
     const [parties, setParies] = useState([]);
 
@@ -33,11 +68,9 @@ export default function Legend({ leaders }) {
 
     return (
         <Container>
-            {parties.length > 0 && parties.map((party, index) => {
-                return <PartyLegend key={`${index}party`} color={party.color} party={party.color === '#dddddd' ? 'Other' : party.party}/>
+            {parties.length > 0 && legParties.map((party, index) => {
+                return <PartyLegend key={`${index}party`} color={party.color} party={party.color === '#64B5F6' ? 'Other' : party.party}/>
             })}
-
-            <VoteMargin/>
         </Container>
     );
 };
@@ -83,7 +116,7 @@ const Party = styled.div`
 
 function PartyLegend({color, party}) {
     return (
-        <Party title={color === '#dddddd' ? '' : Dictionary[party]} $color={party === 'undefined' ? '#ddd' : color}><p>{party === 'undefined' ? `Ind` : party}</p></Party>
+        <Party title={color === '#dddddd' ? '' : Dictionary[party]} $color={party === 'undefined' ? '#ddd' : color}><p>{party === 'undefined' ? `IND` : party}</p></Party>
     )
 }
 

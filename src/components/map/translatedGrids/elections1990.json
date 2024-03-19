@@ -159,7 +159,7 @@
     "result": [
       {
         "candidate": "Al Haj Muhammad Aslam Khan Khattak",
-        "party": "Ind",
+        "party": "IND",
         "votes": "27866"
       },
       { "candidate": "Moulana Shaheed Ahmad", "party": "IJI", "votes": "14684" }
@@ -181,7 +181,7 @@
         "party": "IJI",
         "votes": "64541"
       },
-      { "candidate": "Amanullah Khan Jadoon", "party": "Ind", "votes": "31754" }
+      { "candidate": "Amanullah Khan Jadoon", "party": "IND", "votes": "31754" }
     ],
     "id": 11,
     "xGrid": 23,
@@ -200,7 +200,7 @@
         "party": "IJI",
         "votes": "43764"
       },
-      { "candidate": "Sardar Gul Khatab", "party": "Ind", "votes": "29247" }
+      { "candidate": "Sardar Gul Khatab", "party": "IND", "votes": "29247" }
     ],
     "id": 12,
     "xGrid": 23,
@@ -231,7 +231,7 @@
     "result": [
       {
         "candidate": "Sardar Muhammad Yousaf",
-        "party": "Ind",
+        "party": "IND",
         "votes": "34787"
       },
       { "candidate": "Syed Muzammil Shah", "party": "IJI", "votes": "31457" }
@@ -253,7 +253,7 @@
         "party": "IJI",
         "votes": "19109"
       },
-      { "candidate": "Syed Qasim Shah", "party": "Ind", "votes": "16115" }
+      { "candidate": "Syed Qasim Shah", "party": "IND", "votes": "16115" }
     ],
     "id": 15,
     "xGrid": 21,
@@ -270,7 +270,7 @@
       { "candidate": "Alam Zeb Khan", "party": "JUI-F", "votes": "13556" },
       {
         "candidate": "Khan Muhammad Ayub Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "10684"
       }
     ],
@@ -287,7 +287,7 @@
     "desc": "NA 17 Kohistan Election 1990 Result",
     "result": [
       { "candidate": "Molvi Muhammad Amin", "party": "JUI-F", "votes": "7752" },
-      { "candidate": "Malik Said Ahmad", "party": "Ind", "votes": "4607" }
+      { "candidate": "Malik Said Ahmad", "party": "IND", "votes": "4607" }
     ],
     "id": 17,
     "xGrid": 22,
@@ -369,7 +369,7 @@
   {
     "desc": "NA 22 Swat  Election 1990 Result",
     "result": [
-      { "candidate": "Abdul Matin Khan", "party": "Ind", "votes": "19084" },
+      { "candidate": "Abdul Matin Khan", "party": "IND", "votes": "19084" },
       { "candidate": "Haji Fazal-e-Khaliq", "party": "IJI", "votes": "18901" }
     ],
     "id": 22,
@@ -448,7 +448,7 @@
   {
     "desc": "NA 27 Tribal Area Election 1990 Result",
     "result": [
-      { "candidate": "Haji Baroz", "party": "Ind", "votes": "Uncontested" }
+      { "candidate": "Haji Baroz", "party": "IND", "votes": "Uncontested" }
     ],
     "id": 27,
     "xGrid": 18,
@@ -462,8 +462,8 @@
   {
     "desc": "NA 28 Tribal Area Election 1990 Result",
     "result": [
-      { "candidate": "Syed Yousuf Hussain", "party": "Ind", "votes": "607" },
-      { "candidate": "Abdul Manan", "party": "Ind", "votes": "550" }
+      { "candidate": "Syed Yousuf Hussain", "party": "IND", "votes": "607" },
+      { "candidate": "Abdul Manan", "party": "IND", "votes": "550" }
     ],
     "id": 28,
     "xGrid": 15,
@@ -477,8 +477,8 @@
   {
     "desc": "NA 29 Tribal Area Election 1990 Result",
     "result": [
-      { "candidate": "Spin Gul", "party": "Ind", "votes": "956" },
-      { "candidate": "Noor Sayed Mian", "party": "Ind", "votes": "955" }
+      { "candidate": "Spin Gul", "party": "IND", "votes": "956" },
+      { "candidate": "Noor Sayed Mian", "party": "IND", "votes": "955" }
     ],
     "id": 29,
     "xGrid": 17,
@@ -492,8 +492,8 @@
   {
     "desc": "NA 30 Tribal Area Election 1990 Result",
     "result": [
-      { "candidate": "Muhammad Ajmal", "party": "Ind", "votes": "494" },
-      { "candidate": "Qadar Khan", "party": "Ind", "votes": "281" }
+      { "candidate": "Muhammad Ajmal", "party": "IND", "votes": "494" },
+      { "candidate": "Qadar Khan", "party": "IND", "votes": "281" }
     ],
     "id": 30,
     "xGrid": 15,
@@ -507,8 +507,8 @@
   {
     "desc": "NA 31 Tribal AreaElection 1990 Result",
     "result": [
-      { "candidate": "Haji Sakhi Jan", "party": "Ind", "votes": "536" },
-      { "candidate": "Ghiasuddin", "party": "Ind", "votes": "396" }
+      { "candidate": "Haji Sakhi Jan", "party": "IND", "votes": "536" },
+      { "candidate": "Ghiasuddin", "party": "IND", "votes": "396" }
     ],
     "id": 31,
     "xGrid": 14,
@@ -522,8 +522,8 @@
   {
     "desc": "NA 32 Tribal Area Election 1990 Result",
     "result": [
-      { "candidate": "Haji Lal Khan", "party": "Ind", "votes": "842" },
-      { "candidate": "Mian Shah Jahan", "party": "Ind", "votes": "639" }
+      { "candidate": "Haji Lal Khan", "party": "IND", "votes": "842" },
+      { "candidate": "Mian Shah Jahan", "party": "IND", "votes": "639" }
     ],
     "id": 32,
     "xGrid": 18,
@@ -539,10 +539,10 @@
     "result": [
       {
         "candidate": "Haji Muhammad Ayub Afridi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "2080"
       },
-      { "candidate": "Malik Nadir Khan", "party": "Ind", "votes": "794" }
+      { "candidate": "Malik Nadir Khan", "party": "IND", "votes": "794" }
     ],
     "id": 33,
     "xGrid": 16,
@@ -558,7 +558,7 @@
     "result": [
       {
         "candidate": "Malik Muhammad Aslam Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "Uncontested"
       }
     ],
@@ -785,7 +785,7 @@
     "result": [
       {
         "candidate": "Nawabzada Iqbal Mehdi Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "57177"
       },
       { "candidate": "Doctor Ghulam Hussain", "party": "PDA", "votes": "53430" }
@@ -885,7 +885,7 @@
       },
       {
         "candidate": "Malik Muhammad Bashir Awan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "61804"
       }
     ],
@@ -971,7 +971,7 @@
     "desc": "NA 55 Bhakkar Election 1990 Result",
     "result": [
       { "candidate": "Aziz Ahmad Khan", "party": "IJI", "votes": "66846" },
-      { "candidate": "Bashir Ahmad Khan", "party": "Ind", "votes": "35289" }
+      { "candidate": "Bashir Ahmad Khan", "party": "IND", "votes": "35289" }
     ],
     "id": 55,
     "xGrid": 18,
@@ -992,7 +992,7 @@
       },
       {
         "candidate": "Rasheed Akbar Khan Nawani",
-        "party": "Ind",
+        "party": "IND",
         "votes": "38695"
       }
     ],
@@ -1350,7 +1350,7 @@
   {
     "desc": "NA 75 Gujranwala Election 1990 Result",
     "result": [
-      { "candidate": "Afzal Hussain Tarar", "party": "Ind", "votes": "49406" },
+      { "candidate": "Afzal Hussain Tarar", "party": "IND", "votes": "49406" },
       {
         "candidate": "Syed Muhammad Arif Hussain",
         "party": "IJI",
@@ -1936,10 +1936,10 @@
     "result": [
       {
         "candidate": "Sardar Aseff Ahmad Ali",
-        "party": "Ind",
+        "party": "IND",
         "votes": "46590"
       },
-      { "candidate": "Riaz Ahmad", "party": "Ind", "votes": "29032" }
+      { "candidate": "Riaz Ahmad", "party": "IND", "votes": "29032" }
     ],
     "id": 106,
     "xGrid": 25,
@@ -1974,7 +1974,7 @@
     "result": [
       {
         "candidate": "Rana Muhammad Hayyat Khan",
-        "party": "Ind",
+        "party": "IND",
         "votes": "51189"
       },
       {
@@ -2589,12 +2589,12 @@
     "result": [
       {
         "candidate": "Malik Ghulam Muhammad Mustafa Khar",
-        "party": "Ind",
+        "party": "IND",
         "votes": "43435"
       },
       {
         "candidate": "Malik Ghulam Muhammad Noor Rabbani Khar",
-        "party": "Ind",
+        "party": "IND",
         "votes": "30438"
       }
     ],
@@ -2612,7 +2612,7 @@
     "result": [
       {
         "candidate": "Ghulam Muhammad Mustafa Khar",
-        "party": "Ind",
+        "party": "IND",
         "votes": "51755"
       },
       {
@@ -2681,7 +2681,7 @@
     "result": [
       {
         "candidate": "Muhammad Usman Abbasi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "59175"
       },
       {
@@ -2738,7 +2738,7 @@
     "result": [
       {
         "candidate": "Syed Muhammad Asgahr Shah",
-        "party": "Ind",
+        "party": "IND",
         "votes": "50555"
       },
       {
@@ -2903,7 +2903,7 @@
       },
       {
         "candidate": "Sardar Ghulam Muhammad Khan Magar",
-        "party": "Ind",
+        "party": "IND",
         "votes": "39985"
       }
     ],
@@ -2926,7 +2926,7 @@
       },
       {
         "candidate": "Pir Syed Sadardin Shah",
-        "party": "Ind",
+        "party": "IND",
         "votes": "34978"
       }
     ],
@@ -2976,7 +2976,7 @@
   {
     "desc": "NA 156 Jacobabad Election 1990 Result",
     "result": [
-      { "candidate": "Illahi Bukhsh Soomro", "party": "Ind", "votes": "53151" },
+      { "candidate": "Illahi Bukhsh Soomro", "party": "IND", "votes": "53151" },
       {
         "candidate": "Sardar Muhammad Muqeem Khan",
         "party": "PDA",
@@ -2997,7 +2997,7 @@
     "result": [
       {
         "candidate": "Mir Hazar Khan Bijarani",
-        "party": "Ind",
+        "party": "IND",
         "votes": "81610"
       },
       {
@@ -3105,7 +3105,7 @@
       },
       {
         "candidate": "Pir Syed Ali Mardan Shah Pir Paggara",
-        "party": "Ind",
+        "party": "IND",
         "votes": "46073"
       }
     ],
@@ -3128,7 +3128,7 @@
       },
       {
         "candidate": "Pir Syed Saddaruddin Shah",
-        "party": "Ind",
+        "party": "IND",
         "votes": "39391"
       }
     ],
@@ -3145,7 +3145,7 @@
     "desc": "NA 164 Larkana Election 1990 Result",
     "result": [
       { "candidate": "Begum Nusrat Bhutto", "party": "PDA", "votes": "79901" },
-      { "candidate": "Shah Muhammad", "party": "Ind", "votes": "9203" }
+      { "candidate": "Shah Muhammad", "party": "IND", "votes": "9203" }
     ],
     "id": 164,
     "xGrid": 12,
@@ -3185,7 +3185,7 @@
       },
       {
         "candidate": "Sardar Allah Bux Jalbani",
-        "party": "Ind",
+        "party": "IND",
         "votes": "718"
       }
     ],
@@ -3202,7 +3202,7 @@
     "desc": "NA 167 Hyederabad Election 1990 Result",
     "result": [
       { "candidate": "Makhdoom Amin Faheem", "party": "PDA", "votes": "50154" },
-      { "candidate": "Shah Muhammad Shah", "party": "Ind", "votes": "17074" }
+      { "candidate": "Shah Muhammad Shah", "party": "IND", "votes": "17074" }
     ],
     "id": 167,
     "xGrid": 11,
@@ -3257,7 +3257,7 @@
       { "candidate": "Syed Naveed Qamar", "party": "PDA", "votes": "56902" },
       {
         "candidate": "Mir Mushtaq Ali Khan Talpur",
-        "party": "Ind",
+        "party": "IND",
         "votes": "16563"
       }
     ],
@@ -3274,7 +3274,7 @@
     "desc": "NA 171 Hyederabad Election 1990 Result",
     "result": [
       { "candidate": "Abdul Sattar Bachani", "party": "PDA", "votes": "59209" },
-      { "candidate": "Syed Umeed Ali Shah", "party": "Ind", "votes": "22878" }
+      { "candidate": "Syed Umeed Ali Shah", "party": "IND", "votes": "22878" }
     ],
     "id": 171,
     "xGrid": 11,
@@ -3289,7 +3289,7 @@
     "desc": "NA 172 Badin Election 1990 Result",
     "result": [
       { "candidate": "Abdullah Halepoto", "party": "PDA", "votes": "42506" },
-      { "candidate": "Bashir Ahmad Laghari", "party": "Ind", "votes": "16249" }
+      { "candidate": "Bashir Ahmad Laghari", "party": "IND", "votes": "16249" }
     ],
     "id": 172,
     "xGrid": 12,
@@ -3308,7 +3308,7 @@
         "party": "PDA",
         "votes": "36133"
       },
-      { "candidate": "Ghulam Ali Nizamani", "party": "Ind", "votes": "12951" }
+      { "candidate": "Ghulam Ali Nizamani", "party": "IND", "votes": "12951" }
     ],
     "id": 173,
     "xGrid": 11,
@@ -3352,7 +3352,7 @@
   {
     "desc": "NA 176 Tharparkar Election 1990 Result",
     "result": [
-      { "candidate": "Arbab Ghulam Rahim", "party": "Ind", "votes": "49970" },
+      { "candidate": "Arbab Ghulam Rahim", "party": "IND", "votes": "49970" },
       { "candidate": "Fakir Muhammad Hafeez", "party": "PDA", "votes": "37938" }
     ],
     "id": 176,
@@ -3393,7 +3393,7 @@
       },
       {
         "candidate": "Doctor Manzoor Hussain Leghari",
-        "party": "Ind",
+        "party": "IND",
         "votes": "21535"
       }
     ],
@@ -3426,7 +3426,7 @@
     "result": [
       {
         "candidate": "Pir Syed Ali Gohar Shah Rashdi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "76853"
       },
       { "candidate": "Zahoor Alam Khan Rind", "party": "PDA", "votes": "23319" }
@@ -3443,7 +3443,7 @@
   {
     "desc": "NA 181 Sanghar Election 1990 Result",
     "result": [
-      { "candidate": "Jam Mashooq Ali", "party": "Ind", "votes": "71405" },
+      { "candidate": "Jam Mashooq Ali", "party": "IND", "votes": "71405" },
       { "candidate": "Shah Nawaz Junejo", "party": "PDA", "votes": "46889" }
     ],
     "id": 181,
@@ -3480,7 +3480,7 @@
       { "candidate": "Arbab Wazir Ahmad", "party": "PDA", "votes": "33774" },
       {
         "candidate": "Syed Shafqat Hussain Shah Sheerazi",
-        "party": "Ind",
+        "party": "IND",
         "votes": "25562"
       }
     ],
@@ -3565,7 +3565,7 @@
     "desc": "NA 188 Karachi Central Election 1990 Result",
     "result": [
       { "candidate": "Syed Muhammad Aslam", "party": "MQM", "votes": "142591" },
-      { "candidate": "Muhammad Usman Ramz", "party": "Ind", "votes": "12410" }
+      { "candidate": "Muhammad Usman Ramz", "party": "IND", "votes": "12410" }
     ],
     "id": 188,
     "xGrid": 6,

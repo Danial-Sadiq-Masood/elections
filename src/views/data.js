@@ -113,7 +113,7 @@ export default function Data() {
         .slice(0, 2);
 
       constit.result.forEach((entry) => {
-        if (entry.party === "Ind.") {
+        if (entry.party === "IND.") {
           entry.party = "PTI-IND";
         } else if (entry.party === "JUIF") {
           entry.party = "JUI-F";
@@ -370,7 +370,7 @@ function TopBar({
           return (
             <div key={`leader${index}`}>
               <Leading
-                party={leader.party === "undefined" ? `Ind` : leader.party}
+                party={leader.party === "undefined" ? `IND` : leader.party}
                 seats={leader.seats}
                 color={leader.party === "undefined" ? "#ddd" : leader.color}
                 size={getCircleSize(leaders, index)}
