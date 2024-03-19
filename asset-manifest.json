@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/elections/static/css/main.d6417130.css",
-    "main.js": "/elections/static/js/main.882b7cac.js",
+    "main.css": "/elections/static/css/main.d71bde88.css",
+    "main.js": "/elections/static/js/main.ac6de9a6.js",
     "static/js/592.6ca3410c.chunk.js": "/elections/static/js/592.6ca3410c.chunk.js",
     "static/media/benazir.png": "/elections/static/media/benazir.d97d26152c51026c4841.png",
     "static/media/PlayfairDisplay-MediumItalic.ttf": "/elections/static/media/PlayfairDisplay-MediumItalic.8a8a4356b4d001468b59.ttf",
@@ -19,12 +19,12 @@
     "static/media/Chromate-Regular.ttf": "/elections/static/media/Chromate-Regular.30d08004521c65b0fa0f.ttf",
     "index.html": "/elections/index.html",
     "static/media/logo.svg": "/elections/static/media/logo.bfb77c6f3f8953a6adcee6c23b111467.svg",
-    "main.d6417130.css.map": "/elections/static/css/main.d6417130.css.map",
-    "main.882b7cac.js.map": "/elections/static/js/main.882b7cac.js.map",
+    "main.d71bde88.css.map": "/elections/static/css/main.d71bde88.css.map",
+    "main.ac6de9a6.js.map": "/elections/static/js/main.ac6de9a6.js.map",
     "592.6ca3410c.chunk.js.map": "/elections/static/js/592.6ca3410c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6417130.css",
-    "static/js/main.882b7cac.js"
+    "static/css/main.d71bde88.css",
+    "static/js/main.ac6de9a6.js"
   ]
 }
