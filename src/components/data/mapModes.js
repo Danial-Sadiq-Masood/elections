@@ -69,27 +69,21 @@ const Container = styled.div`
     }
 `
 
-export default function MapModes ({ currentYear, state, stateFunction, mapState, setVotesKey, votesKey }) {
+export default function MapModes ({ currentYear, state, stateFunction, mapState, setVotesKey, votesKey, actor }) {
     const container = useRef();
 
     useEffect(() => {
         gsap.to(container.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.4, delay: 0.75})
     }, [])
 
-    const dataSource = [{title : "Form 47 Data", key : 'declaredVotes'}, {title : "PTI Data", key : 'actualVotes'}];
+    const dataSource = [{title : "Official Data", key : 'declaredVotes'}, {title : "PTI Claims", key : 'actualVotes'}];
     const modes = ["Winning Party","Voter Turnout", "Vote Margin","Winner Difference", "Loser Difference"];
     return (
         <Container ref={container}>
             <div className='modes'>
                 <h3>Data Source</h3>
                 {dataSource && dataSource.length > 0 && dataSource.map((source) => {
-                    return <DataSourceRadio radioVotesKey={source.key} votesKey={votesKey} setVotesKey={setVotesKey} key={source.title} {...{currentYear, stateFunction, mapState}} active={state} text={source.title}/>
-                })}
-            </div>
-            <div className='modes'>
-                <h3>Map Modes</h3>
-                {modes && modes.length > 0 && modes.map((mode) => {
-                    return <CustomRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{currentYear, stateFunction, mapState}} active={state} text={mode}/>
+                    return <DataSourceRadio actor={actor} radioVotesKey={source.key} votesKey={votesKey} setVotesKey={setVotesKey} key={source.title} {...{currentYear, stateFunction, mapState}} active={state} text={source.title}/>
                 })}
             </div>
         </Container>
@@ -192,20 +186,19 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear,votesK
     )
 }
 
-function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, setVotesKey, processClick,votesKey, radioVotesKey}) {
+function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, setVotesKey, processClick,votesKey, radioVotesKey, actor}) {
 
     const container = useRef();
 
     console.log(text,active);
 
-    /*useEffect(() => {
-        if (text === active) {
-            container.current.classList.add('active');
-        }
-        else {
-            container.current.classList.remove('active');
-        }
-    }, [active, text]);*/
+    useEffect(() => {
+        if(votesKey == 'actualVotes'){
+            actor.send({type : 'showPtiData'})
+        }else if(votesKey == 'declaredVotes'){
+            actor.send({type : 'showOfficialData'})
+        } 
+    }, [votesKey]);
 
     const isActive = votesKey === radioVotesKey;
 
@@ -248,18 +241,18 @@ function processModeClick(txt,mapState,stateFunction,votesKey,isActive){
     stateFunction(txt);
 }
 
-function processDataSourceClick(txt,mapState,stateFunction,setVotesKey,votesKey,state,radioVotesKey,isActive){
+function processDataSourceClick(txt,mapState,stateFunction,setVotesKey,votesKey,state,radioVotesKey,isActive,actor){
 
     if(isActive){
         return;
     }
 
-    mapState.updateMode(mapState.mode,400,radioVotesKey);
+    //acto.updateMode(mapState.mode,400,radioVotesKey);
     
-    if (txt === "Form 47 Data" ) {
+    if (txt === "Official Data" ) {
         setVotesKey('declaredVotes')
     }
-    else if (txt === "PTI Data") {
+    else if (txt === "PTI Claims") {
         setVotesKey('actualVotes')
     }
     

@@ -11,3 +11,161 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.st0 {
+  fill: none;
+}
+
+.st1 {
+  fill: #0F5682;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st2 {
+  fill: #A58C21;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.st3 {
+  fill: #125631;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st4 {
+  fill: #0F98FF;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st5 {
+  fill: #4D4D4D;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st6 {
+  fill: #019046;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st7 {
+  stroke: #000000;
+  stroke-width: 0.5;
+}
+
+.st8 {
+  fill: #FEDB3D;
+  stroke: #FFFFFF;
+  stroke-miterlimit: 10;
+}
+
+.st9 {
+  fill: #EF1A28;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st10 {
+  fill: #720E18;
+  stroke: #FFFFFF;
+  stroke-width: 0.5;
+  stroke-miterlimit: 10;
+}
+
+.st11 {
+  fill: none;
+  stroke: #000000;
+  stroke-width: 1.356;
+}
+
+.st13 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.st14 {
+  font-size: 80.9456px;
+  fill: red;
+}
+
+.st15 {
+  font-size: 10.6667px;
+}
+
+.st16 {
+  font-size: 9.3333px;
+}
+
+.st17 {
+  fill: #FFFFFF;
+}
+
+.st18 {
+  font-size: 8px;
+}
+
+.st19 {
+  font-size: 7.3333px;
+}
+
+.st20 {
+  fill: #FEDB3D;
+}
+
+.st21 {
+  fill: #FF7717;
+}
+
+.st22 {
+  fill: #0045BA;
+}
+
+.st23 {
+  fill: #A9A843;
+}
+
+.st24 {
+  fill: #6826F7;
+}
+
+.st25 {
+  fill: #00FB79;
+}
+
+.st26 {
+  fill: #0040AF;
+}
+
+.st27 {
+  fill: #EF1A28;
+}
+
+.st28 {
+  fill: #019046;
+}
+
+.st29 {
+  fill: #A7A8AB;
+}
+
+.st30 {
+  fill: #221F20;
+}
+
+.st31 {
+  fill: #0F98FF;
+}
+
+#svgmap * {
+  opacity: 0;
+}

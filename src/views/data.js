@@ -11,6 +11,7 @@ import DataSource from "../components/data/dataSource";
 import { yearStates } from "../utilities";
 import Disclaimer from "../components/map/disclaimer";
 import { sum, scaleSqrt, max } from "d3";
+import { actor } from "../components/map/choropethMachine"
 
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
@@ -244,6 +245,7 @@ export default function Data() {
             firebaseData,
             triggerRedraw,
             setTriggerRedraw,
+            actor
           }}
         >
           <Navbar></Navbar>
@@ -258,7 +260,7 @@ export default function Data() {
               state={mapMode}
               currentYear={currentYear}
               stateFunction={setMapMode}
-              mapState={gridGrps}
+              actor={actor}
               setVotesKey={setVotesKey}
               votesKey={votesKey}
             />
