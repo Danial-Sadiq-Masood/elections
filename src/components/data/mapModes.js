@@ -76,7 +76,7 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState,
         gsap.to(container.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.4, delay: 0.75})
     }, [])
 
-    const dataSource = [{title : "Official Data", key : 'declaredVotes'}, {title : "PTI Claims", key : 'actualVotes'}];
+    const dataSource = [{title : "Official Data", key : 'declaredVotes'}, {title : "form45.com Data", key : 'actualVotes'}];
     const modes = ["Winning Party","Voter Turnout", "Vote Margin","Winner Difference", "Loser Difference"];
     return (
         <Container ref={container}>
@@ -105,6 +105,7 @@ const RadioContainer = styled.button.attrs((props) => {
     transition: all 0.3s ease;
     border: none;
     background-color: #fff;
+    text-align: left;
 
     opacity: ${props => props.$disabled && props.$txt === 'Voter Turnout' ? 0.3 : 1};
     filter: ${props => props.$disabled && props.$txt === 'Voter Turnout' ? `grayscale(100)` : `grayscale(0)`};
@@ -252,7 +253,7 @@ function processDataSourceClick(txt,mapState,stateFunction,setVotesKey,votesKey,
     if (txt === "Official Data" ) {
         setVotesKey('declaredVotes')
     }
-    else if (txt === "PTI Claims") {
+    else if (txt === "form45.com Data") {
         setVotesKey('actualVotes')
     }
     
