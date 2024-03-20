@@ -1,17 +1,4 @@
 import { scaleOrdinal } from "d3";
-
-import elections1970 from './components/map/translatedGrids/elections1970.json';
-import elections1977 from './components/map/translatedGrids/elections1977.json';
-import elections1985 from './components/map/translatedGrids/elections1985.json';
-import elections1988 from './components/map/translatedGrids/elections1988.json';
-import elections1990 from './components/map/translatedGrids/elections1990.json';
-import elections1993 from './components/map/translatedGrids/elections1993.json';
-import elections1997 from './components/map/translatedGrids/elections1997.json';
-import elections2002 from './components/map/translatedGrids/elections2002.json';
-import elections2008 from './components/map/translatedGrids/elections2008.json';
-import elections2013 from './components/map/translatedGrids/elections2013.json';
-import elections2018 from './components/map/translatedGrids/elections2018.json';
-import elections2024 from './components/map/translatedGrids/elections2024.json';
 import elections2024ECP from './components/map/translatedGrids/updatedRes2024.json';
 
 window.ecp_data = elections2024ECP;
@@ -86,73 +73,7 @@ export const yearStates = {
       runnerups: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'IND', 'IPP', 'JUI-F'],
       regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT'],
       data: elections2024ECP
-    },
-    '2018': {
-      parties: ['PTI', 'PML-N', 'PPP', 'MMA', 'IND', 'MQM', 'PML-Q', 'BAP', 'GDA', 'BNP', 'ANP', 'AML'],
-      runnerups: ['PTI', 'PML-N', 'IND', 'MMA', 'PPP', 'GDA', 'ANP', 'MQM', 'BNP', 'TLP', 'SUP', 'PKMAP'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections2018
-    },
-    '2013': {
-      parties: ['PML-N', 'PPP', 'IND', 'PTI', 'MQM', 'JUI-F', 'PML-F', 'JI', 'PKMAP', 'PML-Q', 'NPP', 'QWP-S'],
-      runnerups: ['PTI', 'PPP', 'IND', 'PML-N', 'JUI-F', 'PML-Q', 'PML-F', 'ANP', 'JI', 'MQM', 'BNAP', 'SUP'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections2013
-    },
-    '2008': {
-      parties: ['PPP', 'PML-N', 'PML-Q', 'IND', 'MQM', 'ANP', 'MMA', 'PML-F', 'PPP-S', 'NPP', 'BNP-A'],
-      runnerups: ['PML-Q', 'PPP', 'IND', 'PML-N', 'ANP', 'MMA', 'PML-F', 'MQM', 'PPP-S', 'JUI-S', 'PDP', 'PCM'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections2008
-    },
-    '2002': {
-      parties: ['PML-Q', 'PPP', 'MMA', 'IND', 'PML-N', 'NA', 'MQM', 'PML-F', 'PML-J', 'PPP-S', 'PTI', 'PAT'],
-      runnerups: ['PPP', 'PML-Q', 'PML-N', 'IND', 'MMA', 'ANP', 'NA', 'MQM', 'BNM', 'PKMAP', 'PML-J', 'TI'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections2002
-    },
-    '1997': {
-      parties: ['PML-N', 'IND', 'PPP', 'MQM', 'ANP', 'BNP', 'JUI-F', 'JWP', 'PPP-SB', 'NPP'],
-      runnerups: ['PPP', 'IND', 'PML-N', 'PML-J', 'JUI-F', 'PPP-SB', 'ANP', 'MQM', 'PKMAP', 'BNM', 'JUI-S', 'PAP'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections1997
-    },
-    '1993': {
-      parties: ['PPP', 'PML-N', 'IND', 'PML-J', 'IJM', 'ANP', 'PIF', 'PKMAP', 'MDM', 'JWP', 'PKQP', 'NDA'],
-      runnerups: ['PML-N', 'PPP', 'IND', 'IJM', 'PML-J', 'ANP', 'PIF', 'SBC', 'PNP', 'BNM-H', 'PKMAP', 'BNM-M'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections1993
-    },
-    '1990': {
-      parties: ['IJI', 'PDA', 'IND', 'MQM', 'ANP', 'JUI-F', 'JUP-N', 'JWP', 'PNP', 'PKMAP'],
-      runnerups: ['PDA', 'IJI', 'IND', 'JUI-F', 'SNF', 'PNP', 'JUP-N', 'BNM', 'ANP', 'PAT', 'PDP', 'SNA'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections1990
-    },
-    '1988': {
-      parties: ['PPP', 'IJI', 'IND', 'JUI-F', 'PAI', 'ANP', 'BNA', 'JUI-D', 'PDP', 'NPP-K'],
-      runnerups: ['IJI', 'PPP', 'IND', 'ANP', 'PNP', '', 'PAI', 'JUI-F', 'PDP', 'PML-MQ', 'PPIS', 'PMAI'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections1988
-    },
-    '1985': {
-      parties: ['PML-N', 'PTI', 'TLP', 'PPP', 'ANP', 'IPP', 'BBP'],
-      runnerups: ['PML-N', 'PTI', 'TLP', 'PPP', 'ANP', 'IPP', 'BBP'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections1985
-    },
-    '1977': {
-      parties: ['PPP', 'PNA', 'IND', 'PML-Q'],
-      runnerups: ['PNA', 'PPP', 'IND', 'PPNAP', 'PML-Q'],
-      regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT', "FATA"],
-      data: elections1977
-    },
-    '1970': {
-      parties: ['AL', 'PPP', 'IND', 'PML-Q', 'PML-C', 'JUI', 'MJUP', 'NAP-W', 'JI', 'PDP', 'CML'],
-      runnerups: ['JI', 'PML-C', 'IND', 'PML-Q', 'JUI-NI', 'MJUP', 'PDP', 'PPP', 'NAP-W', 'JUI', 'PNL', 'CML'],
-      regions: ['East Pak', 'West Pak'],
-      data: elections1970,
-    },
+    }
 }
 
 export const disableTurnout = ['1977', '1985', '1988', '1990', '1993', '1997', '2002'];

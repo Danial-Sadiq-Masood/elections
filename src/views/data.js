@@ -17,7 +17,6 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import Tooltip from "../components/map/tooltip";
 import ReactGA from "react-ga4";
-import * as dbFuncs from "firebase/database";
 import { AppContext } from "../contexts";
 import { useContext } from "react";
 import { turnoutAndVotes } from "../components/map/turnout/turnoutAndVotes";
@@ -47,17 +46,12 @@ const Content = styled.div`
 `;
 
 export default function Data() {
-  const [currentYear, setCurrentYear] = useState("2024");
   const [partyFilters, setPartyFilters] = useState([]);
   const [runnerUpFilters, setRunnerUpFilters] = useState([]);
   const [regionFilters, setRegionFilters] = useState([]);
   const [voteMargin, setVoteMargin] = useState([0, 100]);
   const [voterTurnout, setVoterTurnout] = useState([0, 100]);
-  const [gridGrps, setGridGrps] = useState(null);
-  const [mapMode, setMapMode] = useState("Winning Party");
   const [votesKey, setVotesKey] = useState("declaredVotes");
-
-  const [firebaseData, setFbData] = useState(null);
 
   const [showTooltip, setShowTooltip] = useState(false);
   const [toolTipData, setTooltipData] = useState(null);
@@ -99,55 +93,6 @@ export default function Data() {
 
   }, [app]);
 
-  function transformData(dataServer) {
-    let data24 = yearStates["2024"].data;
-    data24.forEach((constit, index) => {
-      constit.result = dataServer[index].result;
-      constit.result.forEach((candidate) => {
-        const intVotes = parseInt(candidate.votes);
-        candidate.votes = Number.isNaN(intVotes) ? 0 : intVotes;
-      });
-
-      constit.result = constit.result
-        .sort((a, b) => b.votes - a.votes)
-        .slice(0, 2);
-
-      constit.result.forEach((entry) => {
-        if (entry.party === "IND.") {
-          entry.party = "PTI-IND";
-        } else if (entry.party === "JUIF") {
-          entry.party = "JUI-F";
-        } else if (entry.party === "JIP") {
-          entry.party = "JI";
-        } else if (entry.party === "MQM-P") {
-          entry.party = "MQM";
-        }
-      });
-
-      constit.result = constit.result
-        .sort((a, b) => b.votes - a.votes)
-        .slice(0, 2);
-
-      if (turnoutAndVotes[index].seat === constit.seat) {
-        constit.totalVotes = turnoutAndVotes[index].totalVotes;
-        constit.voterTurnout = turnoutAndVotes[index].voterTurnout;
-      } else {
-        console.error("seats do not match!");
-      }
-
-      constit.voteMargin =
-        constit.totalVotes === undefined ? "N/A" : stdMargin(constit);
-    });
-
-    //yearStates["2024"].data = PTI_Data;
-    window.ecp_data = data24;
-    data24 = PTI_Data;
-
-    setFbData(data24);
-  }
-
-  //console.log(firebaseData);
-
   function round2Dec(num, digits) {
     const factor = 10 ** digits;
     return Math.round(num * factor) / factor;
@@ -172,7 +117,7 @@ export default function Data() {
   }
 
   useEffect(() => {
-    if (gridGrps) {
+    /*if (gridGrps) {
       gridGrps.applyFilter({
         winnerArr: partyFilters,
         runnerUpArr: runnerUpFilters,
@@ -188,17 +133,8 @@ export default function Data() {
         action: "click",
         label: "Bulk Filter Update",
       });
-    }
+    }*/
   }, [partyFilters, runnerUpFilters, regionFilters, voteMargin, voterTurnout]);
-
-  useEffect(() => {
-    resetModeAndFilters();
-    ReactGA.event({
-      category: "Change Year",
-      action: "click",
-      value: parseInt(currentYear),
-    });
-  }, [currentYear]);
 
   function moveMap(direction) {
     if (direction === "left" && mobileTranslate !== 60) {
@@ -208,13 +144,13 @@ export default function Data() {
     }
   }
 
-  function resetModeAndFilters() {
+  /*function resetModeAndFilters() {
     setMapMode("Winning Party");
     setPartyFilters([]);
     setRegionFilters([]);
     setVoteMargin([0, 100]);
     setVoterTurnout([0, 100]);
-  }
+  }*/
 
   return (
     <>
@@ -222,8 +158,6 @@ export default function Data() {
         <ElectionsContext.Provider
           value={{
             votesKey,
-            currentYear,
-            setCurrentYear,
             partyFilters,
             setPartyFilters,
             runnerUpFilters,
@@ -234,15 +168,11 @@ export default function Data() {
             setVoteMargin,
             voterTurnout,
             setVoterTurnout,
-            mapMode,
-            setMapMode,
             mapIn,
-            setGridGrps,
             setTooltipData,
             setShowTooltip,
             mobileTranslate,
             setMobileTranslate,
-            firebaseData,
             triggerRedraw,
             setTriggerRedraw,
             actor
@@ -251,15 +181,12 @@ export default function Data() {
           <Navbar></Navbar>
           <Content>
             <TopBar
-              {...{ bringMapIn, currentYear, firebaseData }}
+              {...{ bringMapIn, currentYear : '2024' }}
               leaders={
-                getElectionSummaryTopBar(yearStates[currentYear].data,votesKey)
+                getElectionSummaryTopBar(yearStates[2024].data,votesKey)
               }
             />
             <MapModes
-              state={mapMode}
-              currentYear={currentYear}
-              stateFunction={setMapMode}
               actor={actor}
               setVotesKey={setVotesKey}
               votesKey={votesKey}
@@ -267,7 +194,7 @@ export default function Data() {
           </Content>
           <RenderMap />
           <FiltersandLegend
-            leaders={getElectionSummary(yearStates[currentYear].data,0,votesKey)}
+            leaders={getElectionSummary(yearStates[2024].data,0,votesKey)}
           />
 
           <Content>
@@ -336,9 +263,7 @@ function getCircleSize(leaders, index) {
 }
 
 function TopBar({
-  currentYear,
   bringMapIn,
-  firebaseData,
   leaders = [
     { party: "I-PTI", seats: 116, color: "#9C27B0" },
     { party: "PMLN", seats: 64, color: "#66BB6A" },
@@ -361,7 +286,7 @@ function TopBar({
       <HideonMobile>
         <LandingHeading
           classname={`${styles.heading}`}
-          heading={`Elections ${currentYear}`}
+          heading={`Elections 2024`}
           charDelay={0.01}
         />
       </HideonMobile>

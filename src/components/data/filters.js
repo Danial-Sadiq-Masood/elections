@@ -109,7 +109,7 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
                     />
                 </DropDownMargin>
 
-                <CheckBoxList list={partyState === 'Winning Party' ? yearStates[ctx.currentYear].parties : yearStates[ctx.currentYear].runnerups} 
+                <CheckBoxList list={partyState === 'Winning Party' ? yearStates[2024].parties : yearStates[2024].runnerups} 
                     stateVar={partyState === 'Winning Party' ? ctx.partyFilters : ctx.runnerUpFilters} 
                     stateFunction={partyState === 'Winning Party' ? ctx.setPartyFilters : ctx.setRunnerUpFilters}
                 />
@@ -120,7 +120,7 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
                 stateVar={ctx.regionFilters} 
                 resetFunc={() => ctx.setRegionFilters([])}
             />
-            <CheckBoxList list={yearStates[ctx.currentYear].regions} stateVar={ctx.regionFilters} stateFunction={ctx.setRegionFilters}/>
+            <CheckBoxList list={yearStates[2024].regions} stateVar={ctx.regionFilters} stateFunction={ctx.setRegionFilters}/>
 
             <FilterHeadingArea 
                 heading='Vote Margin'
@@ -140,7 +140,7 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
                 marks={marks}
             />
 
-            <DisableTurnout $disabled={disableTurnout.includes(ctx.currentYear)}>
+            <DisableTurnout $disabled={false}>
                 <FilterHeadingArea 
                     heading='Voter Turnout'
                     stateVar={ctx.voterTurnout} 
