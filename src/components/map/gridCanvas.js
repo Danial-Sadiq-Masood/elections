@@ -4,7 +4,7 @@ import { attrs, styles, contrast, partyScale } from "../../utilities";
 import { PTI_Data } from "./translatedGrids/ptiData";
 import { data } from "./translatedGrids/form45data";
 
-import { createMachine, createActor, fromPromise, assign } from 'xstate';
+import { createMachine, createActor, fromPromise, assign, stateIn } from 'xstate';
 import gsap, { Power2 } from "gsap";
 
 window.PTI_Data = PTI_Data;
@@ -442,16 +442,16 @@ function minMaxGrid(electionData) {
 }
 
 function filterConstit(entry, filterObj, key) {
-  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provincesArr} =
+  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provincesArr } =
     filterObj;
 
   return [
     !provincesArr.length > 0 || provincesArr.includes(entry.province),
-    !winnerArr.length > 0 || winnerArr.includes(getWinner(entry,key).party),
-    !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry,key).party)
+    !winnerArr.length > 0 || winnerArr.includes(getWinner(entry, key).party),
+    !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party)
   ]
-  .every(d => d);
-  
+    .every(d => d);
+
 }
 
 export { GridCanvas };
@@ -590,7 +590,7 @@ const voterTurnoutAnim = ({ gridCanvas, votesKey }) => {
   )
 };
 
-const winningPartyAnim = ({ gridCanvas, votesKey }) => {
+const winningPartyAnim = ({ gridCanvas, votesKey }, durMs = 400) => {
   const cellWidth = gridCanvas.cellWidth;
 
   return gridCanvas.animateModeTransition(
@@ -608,11 +608,12 @@ const winningPartyAnim = ({ gridCanvas, votesKey }) => {
       fill: (d) => contrast(getWinColor(d, votesKey), "#000000") > 6
         ? "black"
         : "#ddd"
-    }
+    },
+    durMs
   )
 };
 
-const voteMarginAnim = ({gridCanvas, votesKey})=>{
+const voteMarginAnim = ({ gridCanvas, votesKey }) => {
   const key = votesKey;
   const cellWidth = gridCanvas.cellWidth;
   return gridCanvas.animateModeTransition(
@@ -637,32 +638,60 @@ const voteMarginAnim = ({gridCanvas, votesKey})=>{
   )
 }
 
-const filterAnimation = ({filters, votesKey, gridCanvas}) => {
+const filterAnimation = ({ filters, votesKey, gridCanvas },) => {
   const filterObj = filters;
   const key = votesKey;
   return new Promise(res => {
-    gridCanvas
-    .gridGrps
-    .transition()
-    .duration(250)
-    .style("opacity", (d) => (filterConstit(d, filterObj, key) ? 1 : 0.2))
-    .style("pointer-events", (d) =>
-      filterConstit(d, filterObj, key) ? "auto" : "none",
-    )
-    .style('fill', (d) => getWinColor(d, key))
-    .on("end",res);
+    let selection = gridCanvas
+      .gridGrps
+      .transition()
+      .duration(250)
+      .style("opacity", (d) => (filterConstit(d, filterObj, key) ? 1 : 0.2))
+      .style("pointer-events", (d) =>
+        filterConstit(d, filterObj, key) ? "auto" : "none",
+      )
+      .on("end", res);
   })
 }
 
-const removefilterAnimation = ({gridCanvas}) => {
+const filterAnimationWP = async ({ filters, votesKey, gridCanvas }) => {
+  return Promise.all(
+    [
+      filterAnimation({ filters, votesKey, gridCanvas }),
+      winningPartyAnim({ gridCanvas, votesKey }, 200)
+    ]
+  )
+}
+
+const filterAnimationVM = async ({ filters, votesKey, gridCanvas }) => {
+  return Promise.all(
+    [
+      filterAnimation({ filters, votesKey, gridCanvas }),
+      voteMarginAnim({ gridCanvas, votesKey })
+    ]
+  )
+}
+
+const filterAnimationVT = async ({ filters, votesKey, gridCanvas }) => {
+  return Promise.all(
+    [
+      filterAnimation({ filters, votesKey, gridCanvas }),
+      voterTurnoutAnim({ gridCanvas, votesKey })
+    ]
+  )
+}
+
+
+
+const removefilterAnimation = ({ gridCanvas }) => {
   return new Promise(res => {
     gridCanvas
-    .gridGrps
-    .transition()
-    .duration(250)
-    .style("opacity", (d) => (1))
-    .style("pointer-events", "auto")
-    .on("end",res);
+      .gridGrps
+      .transition()
+      .duration(250)
+      .style("opacity", (d) => (1))
+      .style("pointer-events", "auto")
+      .on("end", res);
   })
 }
 
@@ -691,18 +720,6 @@ const gridMapMachine = createMachine({
             }),
             onDone: {
               target: '#interactive'
-            }
-          }
-        },
-        'dataKeyChange': {
-          invoke: {
-            id: 'dataKeyChange',
-            input: ({ context }) => context,
-            src: fromPromise(({ input }) => {
-              return flipAnimation(input);
-            }),
-            onDone: {
-              target: ['#interactive.filterStatus.unfiltered', '#interactive.mapMode.hist']
             }
           }
         },
@@ -742,29 +759,65 @@ const gridMapMachine = createMachine({
             }
           }
         },
-        'applyFilter' : {
-          invoke : {
-            id : 'applyFilter',
+        'applyFilter': {
+          invoke: {
+            id: 'applyFilter',
             input: ({ context }) => context,
-            src : fromPromise(({input})=>{
+            src: fromPromise(({ input }) => {
               return filterAnimation(input);
             }),
-            onDone : {
+            onDone: {
               target: ['#interactive.filterStatus.filtered', '#interactive.mapMode.hist']
             }
-          }         
+          }
         },
-        'removeFilter' : {
-          invoke : {
-            id : 'removeFilter',
+        'removeFilter': {
+          invoke: {
+            id: 'removeFilter',
             input: ({ context }) => context,
-            src : fromPromise(({input})=>{
+            src: fromPromise(({ input }) => {
               return removefilterAnimation(input);
             }),
-            onDone : {
+            onDone: {
               target: ['#interactive.filterStatus.unfiltered', '#interactive.mapMode.hist']
             }
-          }         
+          }
+        },
+        'filteredVotesKeyWP': {
+          invoke: {
+            id: 'filteredVotesKeyWP',
+            input: ({ context }) => context,
+            src: fromPromise(({ input }) => {
+              return filterAnimationWP(input);
+            }),
+            onDone: {
+              target: ['#interactive.filterStatus.filtered', '#interactive.mapMode.winningParty']
+            }
+          }
+        },
+        'filteredVotesKeyVT': {
+          invoke: {
+            id: 'filteredVotesKeyVT',
+            input: ({ context }) => context,
+            src: fromPromise(({ input }) => {
+              return filterAnimationVT(input);
+            }),
+            onDone: {
+              target: ['#interactive.filterStatus.filtered', '#interactive.mapMode.voterTurnout']
+            }
+          }
+        },
+        'filteredVotesKeyVM': {
+          invoke: {
+            id: 'filteredVotesKeyVM',
+            input: ({ context }) => context,
+            src: fromPromise(({ input }) => {
+              return filterAnimationVM(input);
+            }),
+            onDone: {
+              target: ['#interactive.filterStatus.filtered', '#interactive.mapMode.voteMargin']
+            }
+          }
         }
       }
     },
@@ -781,15 +834,15 @@ const gridMapMachine = createMachine({
         'showVoteMargin': {
           target: '#animating.voteMargin'
         },
-        'applyFilters' : {
-          target : '#animating.applyFilter',
-          actions : assign({
-            filters : ({event}) => event.filters,
-            votesKey : ({context}) => context.votesKey
+        'applyFilters': {
+          target: '#animating.applyFilter',
+          actions: assign({
+            filters: ({ event }) => event.filters,
+            votesKey: ({ context }) => context.votesKey
           })
         },
-        'removeFilters' : {
-          target : '#animating.removeFilter'
+        'removeFilters': {
+          target: '#animating.removeFilter'
         }
       },
       states: {
@@ -798,26 +851,65 @@ const gridMapMachine = createMachine({
           states: {
             'filtered': {
               on: {
-                'changeVotesKey' : {
-                  target : '#animating.applyFilter',
-                  actions : [
-                    (data) => console.log(data),
-                    assign({
-                    filters : ({context}) => context.filters,
-                    votesKey : ({event}) => event.votesKey
-                  })]
-                }
+                'changeVotesKey': [
+                  {
+                    target: '#animating.filteredVotesKeyWP',
+                    actions:
+                      assign({
+                        filters: ({ context }) => context.filters,
+                        votesKey: ({ event }) => event.votesKey
+                      }),
+                    guard : stateIn('#interactive.mapMode.winningParty')
+                  },
+                  {
+                    target: '#animating.filteredVotesKeyVT',
+                    actions:
+                      assign({
+                        filters: ({ context }) => context.filters,
+                        votesKey: ({ event }) => event.votesKey
+                      }),
+                    guard : stateIn('#interactive.mapMode.voterTurnout')
+                  },
+                  {
+                    target: '#animating.filteredVotesKeyVM',
+                    actions:
+                      assign({
+                        filters: ({ context }) => context.filters,
+                        votesKey: ({ event }) => event.votesKey
+                      }),
+                    guard : stateIn('#interactive.mapMode.voteMargin')
+                  }
+                ]
               }
             },
             'unfiltered': {
               on: {
-                'changeVotesKey': {
-                  actions: assign({
-                    filters: ({ context }) => context.filters,
-                    votesKey: ({ event }) => event.votesKey
-                  }),
-                  target: '#animating.dataKeyChange'
-                }
+                'changeVotesKey': [
+                  {
+                    guard: stateIn('#interactive.mapMode.winningParty'),
+                    actions: assign({
+                      filters: ({ context }) => context.filters,
+                      votesKey: ({ event }) => event.votesKey
+                    }),
+                    target: '#animating.winningParty'
+                  },
+                  {
+                    guard: stateIn('#interactive.mapMode.voterTurnout'),
+                    actions: assign({
+                      filters: ({ context }) => context.filters,
+                      votesKey: ({ event }) => event.votesKey
+                    }),
+                    target: '#animating.voterTurnout'
+                  },
+                  {
+                    guard: stateIn('#interactive.mapMode.voteMargin'),
+                    actions: assign({
+                      filters: ({ context }) => context.filters,
+                      votesKey: ({ event }) => event.votesKey
+                    }),
+                    target: '#animating.voteMargin'
+                  }
+                ]
               }
             },
             hist: {

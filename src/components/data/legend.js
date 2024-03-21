@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import { Dictionary } from "../../utilities";
+import { Dictionary, partyColors, otherColor } from "../../utilities";
 
 const Container = styled.div`
     position: fixed;
@@ -68,8 +68,8 @@ export default function Legend({ leaders }) {
 
     return (
         <Container>
-            {parties.length > 0 && legParties.map((party, index) => {
-                return <PartyLegend key={`${index}party`} color={party.color} party={party.color === '#64B5F6' ? 'Other' : party.party}/>
+            {legParties.map((party, index) => {
+                return <PartyLegend key={`${index}party`} color={partyColors[party.party] || otherColor} party={party.color === '#64B5F6' ? 'Other' : party.party}/>
             })}
         </Container>
     );

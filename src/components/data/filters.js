@@ -122,7 +122,7 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
             />
             <CheckBoxList list={yearStates[2024].regions} stateVar={ctx.regionFilters} stateFunction={ctx.setRegionFilters}/>
 
-            <FilterHeadingArea 
+            {/*<FilterHeadingArea 
                 heading='Vote Margin'
                 stateVar={ctx.voteMargin} 
                 resetFunc={() => ctx.setVoteMargin([0,100])}
@@ -158,7 +158,7 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
                     disableSwap
                     marks={marks}
                 />
-            </DisableTurnout>
+                    </DisableTurnout>*/}
         </FiltersContainer>
     );
 };

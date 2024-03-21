@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
 import gsap from 'gsap';
 import YearInput from './inputs/year_dropdown';
@@ -71,13 +71,15 @@ const Container = styled.div`
 
 export default function MapModes ({ currentYear, state, stateFunction, mapState, setVotesKey, votesKey, actor }) {
     const container = useRef();
+    const [mapMode, setMapMode] = useState('Winning Party')
 
     useEffect(() => {
         gsap.to(container.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.4, delay: 0.75})
     }, [])
 
     const dataSource = [{title : "Official Data", key : 'declaredVotes'}, {title : "form45.com Data", key : 'actualVotes'}];
-    const modes = ["Winning Party","Voter Turnout", "Vote Margin","Winner Difference", "Loser Difference"];
+    const modes = ["Winning Party","Voter Turnout", "Vote Margin"/*,"Winner Difference", "Loser Difference"*/];
+
     return (
         <Container ref={container}>
             <div className='modes'>
@@ -86,6 +88,12 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState,
                     return <DataSourceRadio actor={actor} radioVotesKey={source.key} votesKey={votesKey} setVotesKey={setVotesKey} key={source.title} {...{currentYear, stateFunction, mapState}} active={state} text={source.title}/>
                 })}
             </div>
+            {/*<div className='modes'>
+                <h3>Map Modes</h3>
+                {modes && modes.length > 0 && modes.map((mode) => {
+                    return <CustomRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{setMapMode}} active={mapMode} text={mode}/>
+                })}
+            </div>*/}
         </Container>
     )
 }
@@ -161,24 +169,36 @@ const RadioContainer = styled.button.attrs((props) => {
 
 `;
 
-function CustomRadio({ text, active, stateFunction, mapState, currentYear,votesKey, processClick}) {
+function CustomRadio({ text, active, stateFunction, mapState, setMapMode,votesKey, processClick}) {
 
     const container = useRef();
 
-    /*useEffect(() => {
+    useEffect(() => {
         if (text === active) {
-            container.current.classList.add('active');
+            if(window.gridActor){
+                if(active === 'Winning Party'){
+                   window.gridActor.send({
+                    type : 'showWinningParty'
+                   }) 
+                }else if(active === 'Voter Turnout'){
+                    window.gridActor.send({
+                     type : 'showVoterTurnout'
+                    }) 
+                 }else if(active === 'Vote Margin'){
+                    window.gridActor.send({
+                     type : 'showVoteMargin'
+                    }) 
+                 }
+            }
         }
-        else {
-            container.current.classList.remove('active');
-        }
-    }, [active, text]);*/
+        
+    }, [active]);
 
     const isActive = text === active;
 
     return (
         <RadioContainer $txt={text} active={text === active}
-        $disabled={disableTurnout.includes(currentYear)} onClick={() => processModeClick(text,mapState,stateFunction,votesKey,isActive)} ref={container}>
+        onClick={() => processModeClick(text,mapState,setMapMode,votesKey,isActive)} ref={container}>
             <p>{text}</p>
         </RadioContainer>
     )
@@ -189,8 +209,14 @@ function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, s
     const container = useRef();
 
     useEffect(() => {
-        if(window.gridActor){
-            window.gridActor.send({
+        if(votesKey === radioVotesKey){
+            /*if(window.gridActor){
+                window.gridActor.send({
+                    type : 'changeVotesKey',
+                    votesKey : votesKey
+                })
+            }*/
+            actor.send({
                 type : 'changeVotesKey',
                 votesKey : votesKey
             })
@@ -212,13 +238,13 @@ function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, s
     )
 }
 
-function processModeClick(txt,mapState,stateFunction,votesKey,isActive){
+function processModeClick(txt,mapState,setMapMode,votesKey,isActive){
 
     if(isActive){
         return;
     }
     
-    if (txt === "Voter Turnout" && mapState.mode !== 'turnout') {
+    /*if (txt === "Voter Turnout" && mapState.mode !== 'turnout') {
         mapState.updateMode("turnout",400,votesKey);
     }
     else if (txt === "Vote Margin" && mapState.mode !== 'margin') {
@@ -238,9 +264,9 @@ function processModeClick(txt,mapState,stateFunction,votesKey,isActive){
         category: "Map Mode",
         action: "click",
         label: txt
-    });
+    });*/
 
-    stateFunction(txt);
+    setMapMode(txt);
 }
 
 function processDataSourceClick(txt,mapState,stateFunction,setVotesKey,votesKey,state,radioVotesKey,isActive,actor){
