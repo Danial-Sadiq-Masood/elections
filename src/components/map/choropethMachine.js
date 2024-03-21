@@ -4,7 +4,7 @@ import { attrs, styles, contrast, partyScale } from "../../utilities";
 import { PTI_Data } from "./translatedGrids/ptiData";
 import { data } from "./translatedGrids/form45data";
 
-import { createMachine , createActor, fromPromise } from 'xstate';
+import { createMachine , createActor, fromPromise, assign } from 'xstate';
 
 window.PTI_Data = PTI_Data;
 window.PTI_Data_fixed = data;
@@ -83,50 +83,100 @@ const flipAnimation = (key) => {
   })
 }
 
+const filterAnimation = (filterObj, key) => {
+  return new Promise(res => {
+    d3.selectAll('path[data-seat-num]')
+    .transition()
+    .duration(250)
+    .style("opacity", (d) => (filterConstit(d, filterObj, key) ? 1 : 0.2))
+    .style("pointer-events", (d) =>
+      filterConstit(d, filterObj, key) ? "auto" : "none",
+    )
+    .style('fill', (d) => getWinColor(d, key))
+    .on("end",res);
+  })
+}
+
+const removefilterAnimation = () => {
+  return new Promise(res => {
+    d3.selectAll('path[data-seat-num]')
+    .transition()
+    .duration(250)
+    .style("opacity", (d) => (1))
+    .style("pointer-events", "auto")
+    .on("end",res);
+  })
+}
+
+function filterConstit(entry, filterObj, key) {
+  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provincesArr} =
+    filterObj;
+
+  return [
+    !provincesArr.length > 0 || provincesArr.includes(entry.province),
+    !winnerArr.length > 0 || winnerArr.includes(getWinner(entry,key).party),
+    !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry,key).party)
+  ]
+  .every(d => d);
+  
+}
+
 window.initAnimation = initAnimation;
 
 const mapMachine = createMachine({
   id: 'map',
   initial: 'animating',
-  context: {
-    dataKey: "declaredVotes",
-  },
+  context: ({input}) => ({
+    filters: {},
+    votesKey : 'declaredVotes'
+    //d3Selection : input.selection,
+    //filteredSelection : input.selection
+  }),
   states: {
     'animating' : {
       id : 'animating',
       initial : 'firstRender',
-      entry : ()=>console.log('entering animating State'),
       states : {
         'firstRender' : {
-          entry : ()=>console.log('entering firstRender State'),
           invoke : {
             id : 'firstRenderAnimate',
             src : fromPromise(initAnimation),
             onDone : {
-              target : '#interactive',
-              actions : [()=>console.log('finished Animating')]
+              target : '#interactive'
             }
           }         
         },
-        'flipToPTI' : {
-          entry : ()=>console.log('entering animating.flipToPTI State'),
+        'dataKeyChange' : {
           invoke : {
-            id : 'flipToPTI',
-            src : fromPromise(flipAnimation.bind(null,'actualVotes')),
+            id : 'dataKeyChange',
+            input: ({ context: { votesKey } }) => votesKey,
+            src : fromPromise(({input})=>{
+              return flipAnimation(input);
+            }),
             onDone : {
-              target : '#interactive.ptiData',
-              actions : [()=>console.log('finished Animating flipToPTI')]
+              target : '#interactive.unfiltered'
             }
           }         
         },
-        'flipToOfficial' : {
-          entry : ()=>console.log('entering animating.flipToOfficial State'),
+        'applyFilter' : {
           invoke : {
-            id : 'flipToOfficial',
-            src : fromPromise(flipAnimation.bind(null,'declaredVotes')),
+            id : 'applyFilter',
+            input: ({ context }) => context,
+            src : fromPromise(({input})=>{
+              return filterAnimation(input.filters, input.votesKey);
+            }),
             onDone : {
-              target : '#interactive.officialData',
-              actions : [()=>console.log('finished Animating flipToOfficial')]
+              target : '#interactive.filtered'
+            }
+          }         
+        },
+        'removeFilter' : {
+          invoke : {
+            id : 'removeFilter',
+            input: ({ context: { filters } }) => filters,
+            src : fromPromise(removefilterAnimation),
+            onDone : {
+              target : '#interactive.unfiltered'
             }
           }         
         }
@@ -134,22 +184,43 @@ const mapMachine = createMachine({
     },
     'interactive' : {
       id : 'interactive',
-      entry : ()=>console.log('entering interactive state'),
-      initial : 'officialData',
+      initial : 'unfiltered',
       on : {
-        'showPtiData' : {
-          target : '#animating.flipToPTI'
+        'applyFilters' : {
+          target : '#animating.applyFilter',
+          actions : assign({
+            filters : ({event}) => event.filters,
+            votesKey : ({context}) => context.votesKey
+          })
         },
-        'showOfficialData' : {
-          target : '#animating.flipToOfficial'
+        'removeFilters' : {
+          target : '#animating.removeFilter'
         }
       },
       states : {
-        'ptiData' : {
-          entry : ()=>console.log('entering ptiData state')
+        'filtered' : {
+          on : {
+            'changeVotesKey' : {
+              target : '#animating.applyFilter',
+              actions : [
+                (data) => console.log(data),
+                assign({
+                filters : ({context}) => context.filters,
+                votesKey : ({event}) => event.votesKey
+              })]
+            }
+          }
         },
-        'officialData' : {
-          entry : ()=>console.log('entering officialData state')
+        'unfiltered' : {
+          on : {
+            'changeVotesKey' : {
+              actions : assign({
+                filters : ({context}) => context.filters,
+                votesKey : ({event}) => event.votesKey
+              }),
+              target : '#animating.dataKeyChange'
+            }
+          }
         }
       }
     }
@@ -162,6 +233,12 @@ const mapMachine = createMachine({
   }
 })*/
 
+function getNewContext({event, context}, newValsObj){
+  return assign({
+    ...context,
+    ...newValsObj
+  })
+}
 
 window.mapMachine = mapMachine;
 

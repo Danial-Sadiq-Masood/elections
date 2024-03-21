@@ -192,7 +192,6 @@ export const partyScale = scaleOrdinal()
   };
 
   export function getElectionSummary(electionData, runnerup = 0, votesKey='votes') {
-    console.log('votes key', votesKey);
     const summary = {};
     electionData.forEach((result) => {
 

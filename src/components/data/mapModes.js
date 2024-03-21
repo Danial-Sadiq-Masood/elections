@@ -93,7 +93,6 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState,
 
 const RadioContainer = styled.button.attrs((props) => {
         let classList = props.active ? 'active' : '';
-        console.log(props);
         return {
             className: `${classList}`
         }
@@ -166,8 +165,6 @@ function CustomRadio({ text, active, stateFunction, mapState, currentYear,votesK
 
     const container = useRef();
 
-    console.log(text,active);
-
     /*useEffect(() => {
         if (text === active) {
             container.current.classList.add('active');
@@ -191,14 +188,16 @@ function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, s
 
     const container = useRef();
 
-    console.log(text,active);
-
     useEffect(() => {
-        if(votesKey == 'actualVotes'){
+        actor.send({
+            type : 'changeVotesKey',
+            votesKey : votesKey
+        })
+        /*if(votesKey == 'actualVotes'){
             actor.send({type : 'showPtiData'})
         }else if(votesKey == 'declaredVotes'){
             actor.send({type : 'showOfficialData'})
-        } 
+        }*/
     }, [votesKey]);
 
     const isActive = votesKey === radioVotesKey;

@@ -30,8 +30,6 @@ const Container = styled.div`
 export default function Tooltip({ showTooltip, toolTipData, votesKey }) {
   const tooltip = useRef();
 
-  console.log(votesKey);
-
   const [innerData, setInnerData] = useState({
     position: null,
     seatData: { seat: "NA 10", loc: "Dera Ghazi Khan" },

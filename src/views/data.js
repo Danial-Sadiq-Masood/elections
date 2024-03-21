@@ -134,6 +134,27 @@ export default function Data() {
         label: "Bulk Filter Update",
       });
     }*/
+    const nofiltersApplied =  
+      [partyFilters, runnerUpFilters, regionFilters]
+        .filter((d)=>d.length > 0)
+    console.log(nofiltersApplied);
+    if(nofiltersApplied.length === 0){
+      actor.send({
+        type: 'removeFilters'
+      })
+      console.log('removing filters');
+    }else{
+      actor.send({
+        type : 'applyFilters',
+        filters : {
+          winnerArr: partyFilters,
+          runnerUpArr: runnerUpFilters,
+          provincesArr : regionFilters,
+          votesKey : votesKey
+        }
+      })
+    }
+    
   }, [partyFilters, runnerUpFilters, regionFilters, voteMargin, voterTurnout]);
 
   function moveMap(direction) {
