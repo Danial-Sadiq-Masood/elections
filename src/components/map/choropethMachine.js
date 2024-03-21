@@ -123,8 +123,8 @@ function filterConstit(entry, filterObj, key) {
 
 window.initAnimation = initAnimation;
 
-const mapMachine = createMachine({
-  id: 'map',
+const choroplethMapMachine = createMachine({
+  id: 'choroplethMap',
   initial: 'animating',
   context: ({input}) => ({
     filters: {},
@@ -240,11 +240,11 @@ function getNewContext({event, context}, newValsObj){
   })
 }
 
-window.mapMachine = mapMachine;
+window.choroplethMapMachine = choroplethMapMachine;
 
-const actor = createActor(mapMachine);
+const actor = createActor(choroplethMapMachine);
 //actor.start();
 
 //window.actor = actor;
 
-export { mapMachine , actor };
+export { choroplethMapMachine , actor };

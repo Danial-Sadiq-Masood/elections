@@ -161,7 +161,7 @@ export const partyScale = scaleOrdinal()
       "#4DB6AC",
       "#9D27B0",
       "#D81B60",
-      "#9D27B0",
+      "#D50000",
   ]);
 
   export function calcTooltipPosition(x, y) {

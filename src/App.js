@@ -2,7 +2,7 @@ import './App.css';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import { AppContext } from './contexts';
 import Landing from './views/landing';
-import ChoroplethPage from './views/choroplethPage';
+import DataView from './views/dataView';
 import ReactGA from "react-ga4";
 import { useEffect, useState } from 'react';
 
@@ -25,7 +25,12 @@ function App() {
             <Route
               exact
               path='/'
-              element = { <ChoroplethPage /> } 
+              element = { <DataView mapType="choropleth"/> } 
+            />
+            <Route
+              exact
+              path='/gridmap'
+              element = { <DataView mapType="gridMap"/> } 
             />
           </Routes>
         </AppContext.Provider>

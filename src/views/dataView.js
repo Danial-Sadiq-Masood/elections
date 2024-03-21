@@ -6,6 +6,7 @@ import Leading from "../components/data/leading";
 import FiltersandLegend from "../components/data/filtersAndLegend";
 import { ElectionsContext } from "../contexts";
 import RenderChoropleth from "../components/map/renderChoropleth";
+import RenderGridMap from "../components/map/renderGridMap";
 import MapModes from "../components/data/mapModes";
 import DataSource from "../components/data/dataSource";
 import { yearStates } from "../utilities";
@@ -45,7 +46,7 @@ const Content = styled.div`
   align-items: center;
 `;
 
-export default function ChoroplethPage() {
+export default function DataView({ mapType }) {
   const [partyFilters, setPartyFilters] = useState([]);
   const [runnerUpFilters, setRunnerUpFilters] = useState([]);
   const [regionFilters, setRegionFilters] = useState([]);
@@ -89,7 +90,7 @@ export default function ChoroplethPage() {
           console.log("No data available");
         }
       });*/
-    } 
+    }
 
   }, [app]);
 
@@ -134,27 +135,43 @@ export default function ChoroplethPage() {
         label: "Bulk Filter Update",
       });
     }*/
-    const nofiltersApplied =  
+    const nofiltersApplied =
       [partyFilters, runnerUpFilters, regionFilters]
-        .filter((d)=>d.length > 0)
+        .filter((d) => d.length > 0)
     console.log(nofiltersApplied);
-    if(nofiltersApplied.length === 0){
+    if (nofiltersApplied.length === 0) {
       actor.send({
         type: 'removeFilters'
       })
       console.log('removing filters');
-    }else{
+      if (window.gridActor) {
+        window.gridActor.send({
+          type: 'removeFilters'
+        })
+      }
+    } else {
       actor.send({
-        type : 'applyFilters',
-        filters : {
+        type: 'applyFilters',
+        filters: {
           winnerArr: partyFilters,
           runnerUpArr: runnerUpFilters,
-          provincesArr : regionFilters,
-          votesKey : votesKey
+          provincesArr: regionFilters,
+          votesKey: votesKey
         }
       })
+      if (window.gridActor) {
+        window.gridActor.send({
+          type: 'applyFilters',
+          filters: {
+            winnerArr: partyFilters,
+            runnerUpArr: runnerUpFilters,
+            provincesArr: regionFilters,
+            votesKey: votesKey
+          }
+        })
+      }
     }
-    
+
   }, [partyFilters, runnerUpFilters, regionFilters, voteMargin, voterTurnout]);
 
   function moveMap(direction) {
@@ -202,9 +219,9 @@ export default function ChoroplethPage() {
           <Navbar></Navbar>
           <Content>
             <TopBar
-              {...{ bringMapIn, currentYear : '2024' }}
+              {...{ bringMapIn, currentYear: '2024' }}
               leaders={
-                getElectionSummaryTopBar(yearStates[2024].data,votesKey)
+                getElectionSummaryTopBar(yearStates[2024].data, votesKey)
               }
             />
             <MapModes
@@ -213,9 +230,12 @@ export default function ChoroplethPage() {
               votesKey={votesKey}
             />
           </Content>
-          <RenderChoropleth />
+          {
+            mapType == "choropleth" ? <RenderChoropleth />
+              : <RenderGridMap />
+          }
           <FiltersandLegend
-            leaders={getElectionSummary(yearStates[2024].data,0,votesKey)}
+            leaders={getElectionSummary(yearStates[2024].data, 0, votesKey)}
           />
 
           <Content>

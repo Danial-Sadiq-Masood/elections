@@ -189,10 +189,12 @@ function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, s
     const container = useRef();
 
     useEffect(() => {
-        actor.send({
-            type : 'changeVotesKey',
-            votesKey : votesKey
-        })
+        if(window.gridActor){
+            window.gridActor.send({
+                type : 'changeVotesKey',
+                votesKey : votesKey
+            })
+        }
         /*if(votesKey == 'actualVotes'){
             actor.send({type : 'showPtiData'})
         }else if(votesKey == 'declaredVotes'){

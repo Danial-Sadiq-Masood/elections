@@ -4,20 +4,23 @@ import { attrs, styles, contrast, partyScale } from "../../utilities";
 import { PTI_Data } from "./translatedGrids/ptiData";
 import { data } from "./translatedGrids/form45data";
 
+import { createMachine, createActor, fromPromise, assign } from 'xstate';
+import gsap, { Power2 } from "gsap";
+
 window.PTI_Data = PTI_Data;
 window.PTI_Data_fixed = data;
 
 //window.select = select;
 
-function getWinner(d,key='votes'){
-  return d.result.reduce((acc,e)=>e[key] > acc[key] ? e : acc)
+function getWinner(d, key = 'votes') {
+  return d.result.reduce((acc, e) => e[key] > acc[key] ? e : acc)
 }
 
-function getLoser(d,key='votes'){
-  return d.result.reduce((acc,e)=>e[key] < acc[key] ? e : acc)
+function getLoser(d, key = 'votes') {
+  return d.result.reduce((acc, e) => e[key] < acc[key] ? e : acc)
 }
 
-const getWinColor = (d,key='votes') =>{
+const getWinColor = (d, key = 'votes') => {
   //d.result.sort((e,f) => f[key] - e[key]);
   /*return d.result.length === 0 ||
   (d.result[0] &&
@@ -28,26 +31,26 @@ const getWinColor = (d,key='votes') =>{
     : partyScale.domain().includes(d.result[0].party)
     ? partyScale(d.result[0].party)
     : "#dddddd";*/
-    if(d.result[0] &&
-      d.result[0][key] === 0 &&
-      d.result[1] &&
-      d.result[1][key] === 0){
-        return "#eeeeee"
-      }
-    let winner = d.result.reduce((acc,e)=>e[key] > acc[key] ? e : acc)
-    return partyScale.domain().includes(winner.party)
+  if (d.result[0] &&
+    d.result[0][key] === 0 &&
+    d.result[1] &&
+    d.result[1][key] === 0) {
+    return "#eeeeee"
+  }
+  let winner = d.result.reduce((acc, e) => e[key] > acc[key] ? e : acc)
+  return partyScale.domain().includes(winner.party)
     ? partyScale(winner.party)
     : "#dddddd";
-    /*let colors = {
-      'KP' : 'red',
-      'Punjab' : 'yellow',
-      'Sindh' : 'green',
-      'Balochistan' : "blue",
-      'ICT' : 'pink'
-    }
-
-    return colors[d.province]*/
+  /*let colors = {
+    'KP' : 'red',
+    'Punjab' : 'yellow',
+    'Sindh' : 'green',
+    'Balochistan' : "blue",
+    'ICT' : 'pink'
   }
+
+  return colors[d.province]*/
+}
 
 window.getWinColor = getWinColor;
 
@@ -154,12 +157,6 @@ class GridCanvas {
       .call(attrs, attrsObj)
       .call(styles, stylesObj);
 
-    gridRects
-      .transition()
-      .duration(500)
-      .delay((d) => d.id * 1)
-      .attr("transform", "scale(1 1)");
-
     this.gridRects = gridRects;
     return this;
   }
@@ -200,7 +197,7 @@ class GridCanvas {
     return this;
   }
 
-  updateData(key,mode){
+  updateData(key, mode) {
 
     /*this.animateModeTransition(
       { 
@@ -220,10 +217,10 @@ class GridCanvas {
               : "#ddd"
       }
     )*/
-    return this.updateMode(mode,400,key);
+    return this.updateMode(mode, 400, key);
   }
 
-  updateMode(mode, durMs = 400, key='votes') {
+  updateMode(mode, durMs = 400, key = 'votes') {
     /*const { gridRects, propRects, gridLabels, cellWidth } = this;
     this.mode = mode;
 
@@ -278,109 +275,105 @@ class GridCanvas {
 
     const { gridRects, propRects, gridLabels, cellWidth } = this
 
-    if(mode === 'turnout'){
+    if (mode === 'turnout') {
       return this.animateModeTransition(
         {
-          "fill-opacity":  0.1,
+          "fill-opacity": 0.1,
           fill: "#bbb",
         },
         {
-          height : (d) =>
-                  cellWidth *
-                  d.voterTurnout / 100,
+          height: (d) =>
+            cellWidth *
+            d.voterTurnout / 100,
           transform: (d) =>
-            `translate(0 ${
-                  cellWidth -
-                  cellWidth *
-                    (d.voterTurnout / 100)
+            `translate(0 ${cellWidth -
+            cellWidth *
+            (d.voterTurnout / 100)
             })`,
           fill: "#bbb"
-        }, 
+        },
         {
           fill: (d) => "black"
         }
       )
-    }else if(mode === 'margin'){
+    } else if (mode === 'margin') {
       return this.animateModeTransition(
         {
-          "fill-opacity":  0.1,
+          "fill-opacity": 0.1,
           fill: "#bbb",
         },
         {
-          height : (d) =>{
-            return cellWidth * Math.abs((d.result[0][key] - d.result[1][key])/(d.result[0][key] + d.result[1][key]));
+          height: (d) => {
+            return cellWidth * Math.abs((d.result[0][key] - d.result[1][key]) / (d.result[0][key] + d.result[1][key]));
           },
           transform: (d) =>
-            `translate(0 ${
-                  cellWidth -
-                  cellWidth *
-                    Math.abs((d.result[0][key] - d.result[1][key])/(d.result[0][key] + d.result[1][key]))
+            `translate(0 ${cellWidth -
+            cellWidth *
+            Math.abs((d.result[0][key] - d.result[1][key]) / (d.result[0][key] + d.result[1][key]))
             })`,
-          fill: (d) => getWinColor(d,key)
-        }, 
+          fill: (d) => getWinColor(d, key)
+        },
         {
           fill: (d) => "black"
         }
       )
-    }else if(mode === 'Declared Winner Difference'){
+    } else if (mode === 'Declared Winner Difference') {
       return this.animateModeTransition(
         {
-          "fill-opacity":  0.1,
+          "fill-opacity": 0.1,
           fill: "#bbb",
         },
         {
-          height : (d) =>{
+          height: (d) => {
             return cellWidth * getWinner(d).voteDifference;
           },
           transform: (d) =>
-            `translate(0 ${
-                  cellWidth -
-                  cellWidth *
-                    (getWinner(d).voteDifference)
+            `translate(0 ${cellWidth -
+            cellWidth *
+            (getWinner(d).voteDifference)
             })`,
-            fill: (d) => getWinColor(d,'declaredVotes')
-        }, 
+          fill: (d) => getWinColor(d, 'declaredVotes')
+        },
         {
           fill: (d) => "black"
         }
       )
-    }else if(mode === 'Declared Loser Difference'){
+    } else if (mode === 'Declared Loser Difference') {
       return this.animateModeTransition(
         {
-          "fill-opacity":  0.1,
+          "fill-opacity": 0.1,
           fill: "#bbb",
         },
         {
-          height : (d) =>{
+          height: (d) => {
             return cellWidth * getLoser(d).voteDifference;
           },
           transform: (d) =>
-            `translate(0 ${
-                  cellWidth -
-                  cellWidth *
-                    (getLoser(d).voteDifference)
+            `translate(0 ${cellWidth -
+            cellWidth *
+            (getLoser(d).voteDifference)
             })`,
-          fill: (d) => getWinColor(d,'actualVotes')
-        }, 
+          fill: (d) => getWinColor(d, 'actualVotes')
+        },
         {
           fill: (d) => "black"
         }
       )
-    }else{
+    } else {
       console.log(mode);
       return this.animateModeTransition(
         {
-          "fill-opacity":  1,
-          fill: (d) => getWinColor(d,key),
+          "fill-opacity": 1,
+          fill: (d) => getWinColor(d, key),
         },
         {
-          height : 0,
+          height: 0,
           transform: (d) =>
             `translate(0 ${cellWidth})`,
-          fill: (d) => getWinColor(d,key)
-        }, 
+          fill: (d) => getWinColor(d, key)
+        },
         {
-          fill: (d) => contrast(getWinColor(d,key), "#000000") > 6
+          fill: (d) => contrast(getWinColor(d, key), "#000000") > 6
             ? "black"
             : "#ddd"
         }
@@ -390,35 +383,33 @@ class GridCanvas {
     return this;
   }
 
-  animateModeTransition(gridRectAttrs,propRectsAttrs,gridLabelAttrs,durMs=400) {
+  animateModeTransition(gridRectAttrs, propRectsAttrs, gridLabelAttrs, durMs = 400) {
     const { gridRects, propRects, gridLabels, cellWidth } = this;
     //this.mode = mode;
 
     return Promise.all([
-      new Promise((res,rej)=>{
+      new Promise((res, rej) => {
         gridRects
-        .transition()
-        .duration(durMs)
-        .call(attrs,gridRectAttrs)
-        .end(res);
+          .transition()
+          .duration(durMs)
+          .call(attrs, gridRectAttrs)
+          .on('end', res);
       }),
-      new Promise((res,rej)=>{
+      new Promise((res, rej) => {
         propRects
-        .transition()
-        .duration(durMs)
-        .call(attrs,propRectsAttrs)
-        .end(res);
+          .transition()
+          .duration(durMs)
+          .call(attrs, propRectsAttrs)
+          .on('end', res);
       }),
-      new Promise((res,rej)=>{
+      new Promise((res, rej) => {
         gridLabels
-        .transition()
-        .duration(durMs)
-        .call(attrs,gridLabelAttrs)
-        .end(res);
+          .transition()
+          .duration(durMs)
+          .call(attrs, gridLabelAttrs)
+          .on('end', res);
       })
     ])
-
-    return this;
   }
 
   event(selectionId, eventType, callbackGen) {
@@ -450,41 +441,427 @@ function minMaxGrid(electionData) {
   };
 }
 
-function filterConstit(entry, filterObj) {
-  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provinceArr } =
+function filterConstit(entry, filterObj, key) {
+  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provincesArr} =
     filterObj;
-  const winnerObj = getWinner(entry)
-  const winner = winnerObj ? winnerObj.party : undefined;
-  const runnerUpObj = entry.result[1];
-  const runnerUp = runnerUpObj ? runnerUpObj.party : undefined;
 
-  const winnerLog = winnerArr.length === 0 ? true : winnerArr.includes(winner);
-  const runnerUpLog =
-    runnerUpArr.length === 0 ? true : runnerUpArr.includes(runnerUp);
-
-  const turnoutLog =
-    turnoutArr[0] === 0 && turnoutArr[1] === 100
-      ? true
-      : entry.voterTurnout === `N/A`
-      ? false
-      : turnoutArr === undefined
-      ? true
-      : entry.voterTurnout >= turnoutArr[0] &&
-        entry.voterTurnout <= turnoutArr[1];
-
-  const provinceLog =
-    provinceArr.length === 0 ? true : provinceArr.includes(entry.province);
-
-  const marginLog =
-    marginArr[0] === 0 && marginArr[1] === 100
-      ? true
-      : entry.voteMargin === `N/A`
-      ? false
-      : marginArr === undefined
-      ? true
-      : entry.voteMargin >= marginArr[0] && entry.voteMargin <= marginArr[1];
-
-  return winnerLog && runnerUpLog && turnoutLog && marginLog && provinceLog;
+  return [
+    !provincesArr.length > 0 || provincesArr.includes(entry.province),
+    !winnerArr.length > 0 || winnerArr.includes(getWinner(entry,key).party),
+    !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry,key).party)
+  ]
+  .every(d => d);
+  
 }
 
 export { GridCanvas };
+
+const initAnimation = async ({
+  gridCanvas,
+  calcTooltipPosition,
+  setTooltipData,
+  setShowTooltip,
+  votesKey
+}) => {
+  //gsap.to(mapContainer.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.3});
+  gridCanvas
+    .appendGridGrps({}, { id: (d) => `const-${d.id}` })
+    .appendGridRects({
+      fill: (d) => getWinColor(d, votesKey),
+    })
+    .appendPropRects({
+      fill: (d) => getWinColor(d, votesKey),
+    })
+    .appendGridLabels(
+      {
+        fill: (d) => (contrast(getWinColor(d, votesKey), "#000000") > 6 ? "black" : "#ddd"),
+        dx: 19.5,
+        dy: 25,
+        "font-family": "sans-serif",
+        opacity: 0
+      },
+      {
+        "user-select": "none",
+      }
+    )
+    .event(
+      "gridGrps",
+      "mouseover",
+      (canvas) => function (e, d) {
+        const { mode } = canvas;
+        const rectGrp = select(this);
+        rectGrp.raise();
+        const rect = rectGrp.select("rect.grid-rect");
+
+        rect.attr("stroke", mode === "party" ? "#212121" : "grey")
+          .attr("rx", 1)
+          .attr("ry", 1)
+          .attr("stroke-width", mode === "party" ? 5 : 4)
+
+
+        setTooltipData({
+          position: calcTooltipPosition(e.pageX, e.pageY),
+          seatData: { seat: `NA ${d.id}`, loc: d.region },
+          data: d.result,
+          turnout: d.voterTurnout,
+          margin: d.voteMargin
+        });
+
+
+        setShowTooltip(true);
+      }
+    )
+    .event(
+      "gridGrps",
+      "mouseout",
+      (canvas) => function () {
+        const rect = select(this).select("rect.grid-rect");
+        select("title").remove();
+        rect.attr("stroke", "none")
+          .attr("rx", 0)
+          .attr("ry", 0);
+        setShowTooltip(false);
+      }
+    );
+
+
+  return Promise.all(
+    [
+      new Promise(res => {
+        gridCanvas.gridRects.
+          transition()
+          .duration(500)
+          .delay((d) => d.id * 1)
+          .attr("transform", "scale(1 1)")
+          .on('end', res);
+      }),
+      new Promise(res => {
+        gridCanvas.gridLabels.
+          transition()
+          .duration(700)
+          .delay((d) => d.id * 1)
+          .style("opacity", "1")
+          .on('end', res);
+      })
+    ]
+  )
+}
+
+const flipAnimation = ({ gridCanvas, votesKey }) => {
+  return gridCanvas.animateModeTransition(
+    {
+      "fill-opacity": 1,
+      fill: (d) => getWinColor(d, votesKey),
+    },
+    {
+      height: 0,
+      transform: (d) =>
+        `translate(0 ${gridCanvas.cellWidth})`,
+      fill: (d) => getWinColor(d, votesKey)
+    },
+    {
+      fill: (d) => contrast(getWinColor(d, votesKey), "#000000") > 6
+        ? "black"
+        : "#ddd"
+    }
+  )
+}
+
+const voterTurnoutAnim = ({ gridCanvas, votesKey }) => {
+  return gridCanvas.animateModeTransition(
+    {
+      "fill-opacity": 0.1,
+      fill: "#bbb",
+    },
+    {
+      height: (d) =>
+        gridCanvas.cellWidth *
+        d.voterTurnout / 100,
+      transform: (d) =>
+        `translate(0 ${gridCanvas.cellWidth -
+        gridCanvas.cellWidth *
+        (d.voterTurnout / 100)
+        })`,
+      fill: "#bbb"
+    },
+    {
+      fill: (d) => "black"
+    }
+  )
+};
+
+const winningPartyAnim = ({ gridCanvas, votesKey }) => {
+  const cellWidth = gridCanvas.cellWidth;
+
+  return gridCanvas.animateModeTransition(
+    {
+      "fill-opacity": 1,
+      fill: (d) => getWinColor(d, votesKey),
+    },
+    {
+      height: 0,
+      transform: (d) =>
+        `translate(0 ${cellWidth})`,
+      fill: (d) => getWinColor(d, votesKey)
+    },
+    {
+      fill: (d) => contrast(getWinColor(d, votesKey), "#000000") > 6
+        ? "black"
+        : "#ddd"
+    }
+  )
+};
+
+const voteMarginAnim = ({gridCanvas, votesKey})=>{
+  const key = votesKey;
+  const cellWidth = gridCanvas.cellWidth;
+  return gridCanvas.animateModeTransition(
+    {
+      "fill-opacity": 0.1,
+      fill: "#bbb",
+    },
+    {
+      height: (d) => {
+        return cellWidth * Math.abs((d.result[0][key] - d.result[1][key]) / (d.result[0][key] + d.result[1][key]));
+      },
+      transform: (d) =>
+        `translate(0 ${cellWidth -
+        cellWidth *
+        Math.abs((d.result[0][key] - d.result[1][key]) / (d.result[0][key] + d.result[1][key]))
+        })`,
+      fill: (d) => getWinColor(d, key)
+    },
+    {
+      fill: (d) => "black"
+    }
+  )
+}
+
+const filterAnimation = ({filters, votesKey, gridCanvas}) => {
+  const filterObj = filters;
+  const key = votesKey;
+  return new Promise(res => {
+    gridCanvas
+    .gridGrps
+    .transition()
+    .duration(250)
+    .style("opacity", (d) => (filterConstit(d, filterObj, key) ? 1 : 0.2))
+    .style("pointer-events", (d) =>
+      filterConstit(d, filterObj, key) ? "auto" : "none",
+    )
+    .style('fill', (d) => getWinColor(d, key))
+    .on("end",res);
+  })
+}
+
+const removefilterAnimation = ({gridCanvas}) => {
+  return new Promise(res => {
+    gridCanvas
+    .gridGrps
+    .transition()
+    .duration(250)
+    .style("opacity", (d) => (1))
+    .style("pointer-events", "auto")
+    .on("end",res);
+  })
+}
+
+const gridMapMachine = createMachine({
+  id: 'gridMap',
+  initial: 'animating',
+  context: ({ input }) => ({
+    filters: {},
+    votesKey: 'declaredVotes',
+    ...input
+    //d3Selection : input.selection,
+    //filteredSelection : input.selection
+  }),
+  states: {
+    'animating': {
+      id: 'animating',
+      initial: 'firstRender',
+      states: {
+        'firstRender': {
+          entry: () => console.log("entering firstRender"),
+          invoke: {
+            id: 'firstRenderAnimate',
+            input: ({ context }) => context,
+            src: fromPromise(({ input }) => {
+              return initAnimation(input);
+            }),
+            onDone: {
+              target: '#interactive'
+            }
+          }
+        },
+        'dataKeyChange': {
+          invoke: {
+            id: 'dataKeyChange',
+            input: ({ context }) => context,
+            src: fromPromise(({ input }) => {
+              return flipAnimation(input);
+            }),
+            onDone: {
+              target: ['#interactive.filterStatus.unfiltered', '#interactive.mapMode.hist']
+            }
+          }
+        },
+        'voterTurnout': {
+          invoke: {
+            id: 'voterTurnout',
+            input: ({ context }) => context,
+            src: fromPromise(({ input }) => {
+              return voterTurnoutAnim(input);
+            }),
+            onDone: {
+              target: ['#interactive.filterStatus.hist', '#interactive.mapMode.voterTurnout']
+            }
+          }
+        },
+        'winningParty': {
+          invoke: {
+            id: 'winningParty',
+            input: ({ context }) => context,
+            src: fromPromise(({ input }) => {
+              return winningPartyAnim(input);
+            }),
+            onDone: {
+              target: ['#interactive.filterStatus.hist', '#interactive.mapMode.winningParty']
+            }
+          }
+        },
+        'voteMargin': {
+          invoke: {
+            id: 'voteMargin',
+            input: ({ context }) => context,
+            src: fromPromise(({ input }) => {
+              return voteMarginAnim(input);
+            }),
+            onDone: {
+              target: ['#interactive.filterStatus.hist', '#interactive.mapMode.voteMargin']
+            }
+          }
+        },
+        'applyFilter' : {
+          invoke : {
+            id : 'applyFilter',
+            input: ({ context }) => context,
+            src : fromPromise(({input})=>{
+              return filterAnimation(input);
+            }),
+            onDone : {
+              target: ['#interactive.filterStatus.filtered', '#interactive.mapMode.hist']
+            }
+          }         
+        },
+        'removeFilter' : {
+          invoke : {
+            id : 'removeFilter',
+            input: ({ context }) => context,
+            src : fromPromise(({input})=>{
+              return removefilterAnimation(input);
+            }),
+            onDone : {
+              target: ['#interactive.filterStatus.unfiltered', '#interactive.mapMode.hist']
+            }
+          }         
+        }
+      }
+    },
+    'interactive': {
+      id: 'interactive',
+      type: 'parallel',
+      on: {
+        'showVoterTurnout': {
+          target: '#animating.voterTurnout'
+        },
+        'showWinningParty': {
+          target: '#animating.winningParty'
+        },
+        'showVoteMargin': {
+          target: '#animating.voteMargin'
+        },
+        'applyFilters' : {
+          target : '#animating.applyFilter',
+          actions : assign({
+            filters : ({event}) => event.filters,
+            votesKey : ({context}) => context.votesKey
+          })
+        },
+        'removeFilters' : {
+          target : '#animating.removeFilter'
+        }
+      },
+      states: {
+        filterStatus: {
+          initial: 'unfiltered',
+          states: {
+            'filtered': {
+              on: {
+                'changeVotesKey' : {
+                  target : '#animating.applyFilter',
+                  actions : [
+                    (data) => console.log(data),
+                    assign({
+                    filters : ({context}) => context.filters,
+                    votesKey : ({event}) => event.votesKey
+                  })]
+                }
+              }
+            },
+            'unfiltered': {
+              on: {
+                'changeVotesKey': {
+                  actions: assign({
+                    filters: ({ context }) => context.filters,
+                    votesKey: ({ event }) => event.votesKey
+                  }),
+                  target: '#animating.dataKeyChange'
+                }
+              }
+            },
+            hist: {
+              type: 'history'
+            }
+          }
+        },
+        mapMode: {
+          initial: 'winningParty',
+          states: {
+            'winningParty': {
+
+            },
+            'voterTurnout': {
+
+            },
+            'voteMargin': {
+
+            },
+            hist: {
+              type: 'history'
+            }
+          }
+        }
+      }
+    }
+  },
+})/*.provide({
+  actions : {
+    turnOn : ()=>{
+      console.log('in On transition');
+    }
+  }
+})*/
+
+function getNewContext({ event, context }, newValsObj) {
+  return assign({
+    ...context,
+    ...newValsObj
+  })
+};
+
+//actor.start();
+
+//window.actor = actor;
+
+export { gridMapMachine };

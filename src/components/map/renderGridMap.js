@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import styles from './css/map.module.css';
 import { useEffect, useRef, useContext } from "react";
-import { GridCanvas } from "./gridCanvas";
+import { GridCanvas, gridMapMachine } from "./gridCanvas";
+import { createActor } from "xstate";
 import { contrast, partyScale } from "../../utilities";
 import gsap, { Power2 } from "gsap";
 import { calcTooltipPosition } from "../../utilities";
@@ -10,7 +11,7 @@ import { yearStates } from "../../utilities";
 import { select, selectAll, remove } from "d3";
 
 
-export default function RenderMap() {
+export default function RenderGridMap() {
 
     const mapContainer = useRef();
 
@@ -27,8 +28,8 @@ export default function RenderMap() {
             parentRef: mapContainer.current,
             containerClassName: styles['mapContainer'],
             viewBoxWidth: 1280,
-            viewBoxHeight: currentYear === '1970' ? 2200: 1400,
-            gridData: currentYear === '2024' && firebaseData ? yearStates[currentYear].data : yearStates[currentYear].data,
+            viewBoxHeight: 1400,
+            gridData: yearStates['2024'].data,
             cellSize: 40,
             cellMargin: 1,
         });
@@ -43,72 +44,25 @@ export default function RenderMap() {
                     ? partyScale(d.result[0].party)
                     : "#dddddd"; 
 
-
-            const gridGrps = elecGridCanvas
-                .appendGridGrps({}, { id: (d) => `const-${d.id}` })
-                .appendGridRects({
-                    fill: getWinColor,
-                })
-                .appendPropRects({
-                    fill: getWinColor,
-                })
-                .appendGridLabels(
-                    {
-                        fill: (d) => (contrast(getWinColor(d), "#000000") > 6 ? "black" : "#ddd"),
-                        dx: 19.5,
-                        dy: 25,
-                        "font-family": "sans-serif",
-                    },
-                    {
-                        "user-select": "none",
-                    }
-                )
-                .event(
-                    "gridGrps",
-                    "mouseover",
-                    (canvas) => function (e, d) {
-                        const { mode } = canvas;
-                        const rectGrp = select(this);
-                        rectGrp.raise();
-                        const rect = rectGrp.select("rect.grid-rect");
-                        
-                        rect.attr("stroke", mode === "party" ? "#212121" : "grey")
-                            .attr("rx", 1)
-                            .attr("ry", 1)
-                            .attr("stroke-width", mode === "party" ? 5 : 4)
-
-                        
-                        setTooltipData({
-                            position: calcTooltipPosition(e.pageX, e.pageY),
-                            seatData: {seat: `NA ${d.id}`, loc: d.region},
-                            data: d.result,
-                            turnout: d.voterTurnout,
-                            margin: d.voteMargin
-                        });
-
-
-                        setShowTooltip(true);
-                    }
-                )
-                .event(
-                    "gridGrps",
-                    "mouseout",
-                    (canvas) => function () {
-                        const rect = select(this).select("rect.grid-rect");
-                        select("title").remove();
-                        rect.attr("stroke", "none")
-                            .attr("rx", 0)
-                            .attr("ry", 0);
-                        setShowTooltip(false);
-                    }
-                );
                 //.updateMode("party");
 
-            setGridGrps(gridGrps);
+            //setGridGrps(gridGrps);
 
-            setTriggerRedraw(false);
+            //setTriggerRedraw(false);
 
-            gsap.to(mapContainer.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.3});
+            const gridActor = createActor(gridMapMachine,{
+                input : {
+                    gridCanvas : elecGridCanvas,
+                    setTooltipData,
+                    calcTooltipPosition,
+                    setShowTooltip,
+                    votesKey
+                }
+            })
+
+            window.gridActor = gridActor;
+            gridActor.start();
+            //gsap.to(mapContainer.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.3});
         }
 
 
@@ -135,7 +89,7 @@ export default function RenderMap() {
 
 const MapContainer = styled.div`
     position: relative;
-    opacity: 0;
+    opacity: 1;
     transform: translateY(30px);
     align-self: center;
 
