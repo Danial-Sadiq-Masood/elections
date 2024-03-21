@@ -53,7 +53,6 @@ export default function RenderMap() {
                     fill: getWinColor,
                 })
                 .appendGridLabels(
-                    {},
                     {
                         fill: (d) => (contrast(getWinColor(d), "#000000") > 6 ? "black" : "#ddd"),
                         dx: 19.5,
