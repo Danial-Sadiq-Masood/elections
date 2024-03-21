@@ -182,14 +182,13 @@ class GridCanvas {
   }
 
   appendGridLabels(
-    { textFunc = (d) => d.region.slice(0, 2) } = {},
     attrsObj = {},
     stylesObj = {}
   ) {
     const { gridGrps } = this;
     const gridLabels = gridGrps
       .append("text")
-      .text(textFunc)
+      .text((d) => d.seat.split('-')[1].trim())
       .attr("x", 0)
       .attr("y", 0)
       .attr("text-anchor", "middle")
