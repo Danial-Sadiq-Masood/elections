@@ -52,7 +52,7 @@ function getWinner(d,key='votes'){
   
 
 
-export default function RenderMap() {
+export default function RenderChoropleth() {
 
     const mapContainer = useRef();
 

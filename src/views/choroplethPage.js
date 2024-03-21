@@ -5,7 +5,7 @@ import styles from "./styles/data.module.css";
 import Leading from "../components/data/leading";
 import FiltersandLegend from "../components/data/filtersAndLegend";
 import { ElectionsContext } from "../contexts";
-import RenderMap from "../components/map/renderMap";
+import RenderChoropleth from "../components/map/renderChoropleth";
 import MapModes from "../components/data/mapModes";
 import DataSource from "../components/data/dataSource";
 import { yearStates } from "../utilities";
@@ -45,7 +45,7 @@ const Content = styled.div`
   align-items: center;
 `;
 
-export default function Data() {
+export default function ChoroplethPage() {
   const [partyFilters, setPartyFilters] = useState([]);
   const [runnerUpFilters, setRunnerUpFilters] = useState([]);
   const [regionFilters, setRegionFilters] = useState([]);
@@ -213,7 +213,7 @@ export default function Data() {
               votesKey={votesKey}
             />
           </Content>
-          <RenderMap />
+          <RenderChoropleth />
           <FiltersandLegend
             leaders={getElectionSummary(yearStates[2024].data,0,votesKey)}
           />
