@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import { AppContext } from './contexts';
 import Landing from './views/landing';
 import DataView from './views/dataView';
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <AppContext.Provider value={{app}}>
           <Routes>
             <Route
@@ -32,9 +32,14 @@ function App() {
               path='/gridmap'
               element = { <DataView mapType="gridMap"/> } 
             />
+            <Route
+              exact
+              path='/gridmap'
+              element = { <DataView mapType="gridMap"/> } 
+            />
           </Routes>
         </AppContext.Provider>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
