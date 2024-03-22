@@ -647,8 +647,8 @@
     },
     {
         "id": 25,
-        "xGrid": 22,
-        "yGrid": 9,
+        "xGrid": 23,
+        "yGrid": 6,
         "seat": "NA-25",
         "region": "Charsadda-ll",
         "result": [
@@ -1349,8 +1349,8 @@
     },
     {
         "id": 51,
-        "xGrid": 23,
-        "yGrid": 6,
+        "xGrid": 25,
+        "yGrid": 7,
         "seat": "NA-51",
         "region": "Murree",
         "result": [
@@ -1484,8 +1484,8 @@
     },
     {
         "id": 56,
-        "xGrid": 25,
-        "yGrid": 7,
+        "xGrid": 22,
+        "yGrid": 9,
         "seat": "NA-56",
         "region": "Rawalpindi-V",
         "result": [

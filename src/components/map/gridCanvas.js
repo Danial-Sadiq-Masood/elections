@@ -477,11 +477,13 @@ const initAnimation = async ({
         fill: (d) => (contrast(getWinColor(d, votesKey), "#000000") > 6 ? "black" : "#ddd"),
         dx: 19.5,
         dy: 25,
-        "font-family": "sans-serif",
+        "font-family": "Metropolis, sans-serif",
         opacity: 0
       },
       {
         "user-select": "none",
+        "font-weight" : "700",
+        "font-size" : "15px"
       }
     )
     .event(
