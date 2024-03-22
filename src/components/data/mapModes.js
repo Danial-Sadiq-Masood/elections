@@ -88,12 +88,12 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState,
                     return <DataSourceRadio actor={actor} radioVotesKey={source.key} votesKey={votesKey} setVotesKey={setVotesKey} key={source.title} {...{currentYear, stateFunction, mapState}} active={state} text={source.title}/>
                 })}
             </div>
-            {<div className='modes'>
+            {/*<div className='modes'>
                 <h3>Map Modes</h3>
                 {modes && modes.length > 0 && modes.map((mode) => {
                     return <CustomRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{setMapMode}} active={mapMode} text={mode}/>
                 })}
-            </div>}
+            </div>*/}
         </Container>
     )
 }
