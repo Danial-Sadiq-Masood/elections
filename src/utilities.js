@@ -10,6 +10,13 @@ elections2024ECP.forEach(d => {
   })
 })
 
+export const disputedSeats = elections2024ECP.filter(d => {
+  return (d.result[0].actualVotes !== d.result[0].declaredVotes)
+      && (d.result[1].actualVotes !== d.result[1].declaredVotes);
+})
+
+window.disputedSeats = disputedSeats;
+
 elections2024ECP.forEach(d => {
   let officialWinner = getWinner(d.result, 'declaredVotes').declaredVotes;
   let officialRU = getLoser(d.result , 'declaredVotes').declaredVotes;

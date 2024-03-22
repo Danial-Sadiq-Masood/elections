@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import { attrs, styles, contrast, partyScale } from "../../utilities";
+import { attrs, styles, contrast, partyScale, disputedSeats } from "../../utilities";
 
 import { PTI_Data } from "./translatedGrids/ptiData";
 import { data } from "./translatedGrids/form45data";
@@ -24,6 +24,19 @@ const zoomedSeats = {
   "karachi": [231, 232, 233, 234, 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249]
 }
 
+const zoomedSeatsProvincesMap = {
+  "peshawar": "KP",
+  "isb": "ICT",
+  "sialkot": "Punjab",
+  "gujranwala": "Punjab",
+  "faisalabad": "Punjab",
+  "lahore": "Punjab",
+  "quetta": "Balochistan",
+  "multan": "Punjab",
+  "hyderabad": "Sindh",
+  "karachi": "Sindh"
+}
+
 function getZoomedSeatWinningParty(votesKey) {
   return Object.keys(zoomedSeats).map(area => {
     const winners = zoomedSeats[area].map((d) => getWinner(elections2024ECP[d], votesKey))
@@ -36,9 +49,28 @@ function getZoomedSeatWinningParty(votesKey) {
       return acc[1] > d[1] ? acc : d;
     }, ['', Number.NEGATIVE_INFINITY])[0];
     return {
-      winningParty: winningParty,
+      party: winningParty,
       id: area,
-      color: partyScale(winningParty)
+      color: partyScale(winningParty),
+    };
+  })
+}
+
+function getZoomedSeatLosingParty(votesKey) {
+  return Object.keys(zoomedSeats).map(area => {
+    const winners = zoomedSeats[area].map((d) => getLoser(elections2024ECP[d], votesKey))
+    const winnerCount = winners.reduce((acc, d) => {
+      acc[d.party] ??= 0;
+      acc[d.party] += 1;
+      return acc;
+    }, {})
+    const winningParty = Object.entries(winnerCount).reduce((acc, d) => {
+      return acc[1] > d[1] ? acc : d;
+    }, ['', Number.NEGATIVE_INFINITY])[0];
+    return {
+      party: winningParty,
+      id: area,
+      color: partyScale(winningParty),
     };
   })
 }
@@ -89,6 +121,8 @@ const getWinColor = (d, key = 'votes') => {
 
 window.getWinColor = getWinColor;
 
+const disputedSeatOpacity = 0.25;
+
 const mockAnimation =
   (timeout) => new Promise(res => {
     setTimeout(res, timeout)
@@ -107,15 +141,32 @@ const zoomedSeatsAnim = (key) => {
 }
 
 const zoomedSeatsColor = (key) => {
-    getZoomedSeatWinningParty(key).forEach((d) => {
-      d3.select(`#${d.id}`)
-        .style('fill', d.color)
-    })
+  getZoomedSeatWinningParty(key).forEach((d) => {
+    d3.select(`#${d.id}`)
+      .style('fill', d.color)
+  })
 }
 
 const initAnimation = () => {
   //zoomedSeatsAnim();
-  zoomedSeatsColor('declaredVotes')
+  zoomedSeatsColor('declaredVotes');
+
+  d3.select('#svgmap')
+    .selectChildren()
+    .classed('static', true);
+
+  const disputedSeatsSet = new Set(disputedSeats.map(d => d.seat))
+
+  const disputedOverlay = d3.selectAll('#svgmap path[data-seat-num]').filter(d => {
+    return d && disputedSeatsSet.has(d.seat);
+  })
+    .clone()
+    .style('fill', 'url(#pattern_stripe)')
+    .classed('disputed_seat', true)
+    .classed('static', false)
+    .style('opacity', 0)
+    .style('pointer-events', 'none')
+    .attr('data-seat-num', null)
   return new Promise(res => {
     d3.select('#svgmap')
       .selectChildren()
@@ -124,7 +175,13 @@ const initAnimation = () => {
       .transition()
       .duration(700)
       .delay((d, i) => Math.random() * (i / 250) * 200)
-      .style('opacity', 1)
+      .style('opacity', function () {
+        if (this.classList.contains('disputed_seat')) {
+          return disputedSeatOpacity;
+        } else {
+          return 1;
+        }
+      })
       .on("end", res);
   })
 }
@@ -134,8 +191,8 @@ const flipAnimation = (key) => {
     new Promise(res => {
       d3.selectAll('path[data-seat-num]')
         .transition()
-        .duration(700)
-        .delay((d, i) => Math.random() * (i / 250) * 200)
+        .duration(300)
+        .delay((d, i) => Math.random() * (i / 250) * 10)
         .style('fill', (d) => getWinColor(d, key))
         .on("end", res);
     }),
@@ -157,20 +214,73 @@ const filterAnimation = (filterObj, key) => {
           .style('fill', (d) => getWinColor(d, key))
           .on("end", res);
       }),
-      zoomedSeatsAnim(key)
+      new Promise(res => {
+        getZoomedSeatWinningParty(key).forEach((combinedRes) => {
+          let opacity;
+          const filterSeat = filterZoomedOutSeat(combinedRes.id, filterObj, key);
+          opacity = filterSeat ? 1 : 0.2;
+          console.log('filtering zoomeout seat')
+          d3.select(`#${combinedRes.id}`)
+            .transition()
+            .duration(200)
+            .style('opacity', opacity)
+            .style('fill', combinedRes.color)
+            .on('end', res);
+        })
+      }),
+      new Promise(res => {
+        d3.selectAll('path.disputed_seat')
+          .transition()
+          .duration(250)
+          .style("opacity", (d) => (filterConstit(d, filterObj, key) ? disputedSeatOpacity : 0.2))
+          .on("end", res);
+      })
     ]
   )
 }
 
-const removefilterAnimation = () => {
-  return new Promise(res => {
-    d3.selectAll('path[data-seat-num]')
-      .transition()
-      .duration(250)
-      .style("opacity", (d) => (1))
-      .style("pointer-events", "auto")
-      .on("end", res);
-  })
+const removefilterAnimation = (key) => {
+  return Promise.all(
+    [
+      new Promise(res => {
+        d3.selectAll('path[data-seat-num]')
+          .transition()
+          .duration(250)
+          .style("opacity", (d) => (1))
+          .style("pointer-events", "auto")
+          .on("end", res);
+      }),
+      new Promise(res => {
+        getZoomedSeatWinningParty(key).forEach((d) => {
+          d3.select(`#${d.id}`)
+            .transition()
+            .duration(200)
+            .style('opacity', 1)
+            .on('end', res);
+        })
+      }),
+      new Promise(res => {
+        d3.selectAll('path.disputed_seat')
+          .transition()
+          .duration(250)
+          .style("opacity", disputedSeatOpacity)
+          .on("end", res);
+      })
+    ]
+  )
+}
+
+function filterZoomedOutSeat(id, filterObj, key) {
+  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provincesArr } =
+    filterObj;
+
+  return [
+    !provincesArr.length > 0 || provincesArr.includes(zoomedSeatsProvincesMap[id]),
+    !winnerArr.length > 0 || winnerArr.includes(getZoomedSeatWinningParty(key).filter(d => d.id == id)[0].party),
+    !runnerUpArr.length > 0 || runnerUpArr.includes(getZoomedSeatLosingParty(key).filter(d => d.id == id)[0].party)
+  ]
+    .every(d => d);
+
 }
 
 function filterConstit(entry, filterObj, key) {
@@ -182,7 +292,7 @@ function filterConstit(entry, filterObj, key) {
     !winnerArr.length > 0 || winnerArr.includes(getWinner(entry, key).party),
     !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party)
   ]
-    .every(d => d);
+  .every(d => d);
 
 }
 
@@ -239,7 +349,9 @@ const choroplethMapMachine = createMachine({
           invoke: {
             id: 'removeFilter',
             input: ({ context: { filters } }) => filters,
-            src: fromPromise(removefilterAnimation),
+            src: fromPromise(({ input }) => {
+              return removefilterAnimation(input.votesKey);
+            }),
             onDone: {
               target: '#interactive.unfiltered'
             }

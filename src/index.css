@@ -166,11 +166,19 @@ code {
   fill: #0F98FF;
 }
 
-#svgmap * {
+#svgmap path, #svgmap text {
   opacity: 0;
+}
+
+#svgmap pattern {
+  opacity: 1;
 }
 
 .zoomedin {
   fill : #f3f3f3;
   pointer-events: non;
+}
+
+.disputed_seat {
+  opacity: 0.4;
 }

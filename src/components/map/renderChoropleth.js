@@ -2,9 +2,8 @@ import styled from "styled-components";
 import styles from './css/map.module.css';
 import { useEffect, useRef, useContext } from "react";
 import { GridCanvas } from "./gridCanvas";
-import { contrast, partyScale } from "../../utilities";
+import { contrast, partyScale, calcTooltipPosition } from "../../utilities";
 import gsap, { Power2 } from "gsap";
-import { calcTooltipPosition } from "../../utilities";
 import { ElectionsContext } from "../../contexts";
 import { yearStates } from "../../utilities";
 import * as d3 from "d3";
@@ -228,12 +227,9 @@ export default function RenderChoropleth() {
                 xmlSpace="preserve"
                 style={{ width: '100%' }}
             >
-                
-                    <pattern id="pattern_LRCRR" patternUnits="userSpaceOnUse" width="22.5" height="22.5" patternTransform="rotate(45)">
-                        <line x1="0" y="0" x2="0" y2="22.5" stroke="#194d33" stroke-width="23" />
-                    </pattern>
-    
-
+                <pattern id="pattern_stripe" patternUnits="userSpaceOnUse" width="7.5" height="7.5" patternTransform="rotate(45)">
+                    <line x1="0" y="0" x2="0" y2="7.5" stroke="#194d33" stroke-width="7" />
+                </pattern>
                 <pattern
                     id="path1439_0000000666676989474327"
                     width="2"
