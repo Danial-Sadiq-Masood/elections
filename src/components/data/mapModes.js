@@ -1,9 +1,10 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState, useContext } from 'react';
 import styled from 'styled-components';
 import gsap from 'gsap';
 import YearInput from './inputs/year_dropdown';
 import { disableTurnout } from '../../utilities';
 import ReactGA from "react-ga4";
+import { ElectionsContext } from "../../contexts";
 
 const Container = styled.div`
     position: fixed;
@@ -69,9 +70,10 @@ const Container = styled.div`
     }
 `
 
-export default function MapModes ({ currentYear, state, stateFunction, mapState, setVotesKey, votesKey, actor }) {
+export default function MapModes ({ currentYear, state, stateFunction, mapState, setVotesKey, votesKey }) {
     const container = useRef();
     const [mapMode, setMapMode] = useState('Winning Party')
+    const { actor, mapType } = useContext(ElectionsContext);
 
     useEffect(() => {
         gsap.to(container.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.4, delay: 0.75})
@@ -88,12 +90,15 @@ export default function MapModes ({ currentYear, state, stateFunction, mapState,
                     return <DataSourceRadio actor={actor} radioVotesKey={source.key} votesKey={votesKey} setVotesKey={setVotesKey} key={source.title} {...{currentYear, stateFunction, mapState}} active={state} text={source.title}/>
                 })}
             </div>
-            {/*<div className='modes'>
+            {
+            mapType == "gridMap" && 
+            <div className='modes'>
                 <h3>Map Modes</h3>
                 {modes && modes.length > 0 && modes.map((mode) => {
                     return <CustomRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{setMapMode}} active={mapMode} text={mode}/>
                 })}
-            </div>*/}
+            </div>
+            }
         </Container>
     )
 }

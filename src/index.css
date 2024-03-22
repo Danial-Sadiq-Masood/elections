@@ -170,7 +170,7 @@ code {
   opacity: 0;
 }
 
-.zoomedIn {
+.zoomedin {
   fill : #f3f3f3;
   pointer-events: non;
 }

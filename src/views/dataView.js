@@ -213,7 +213,8 @@ export default function DataView({ mapType }) {
             setMobileTranslate,
             triggerRedraw,
             setTriggerRedraw,
-            actor
+            actor,
+            mapType
           }}
         >
           <Navbar></Navbar>
