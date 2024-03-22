@@ -64,7 +64,11 @@ export default function Tooltip({ showTooltip, toolTipData, votesKey }) {
     }
   }, [toolTipData]);
 
-  const { seatData, data, position, turnout, margin } = innerData;
+  const { seatData, data, position, turnout, officialMargin, form45Margin } = innerData;
+
+  let margin = votesKey === 'actualVotes' ? form45Margin : officialMargin;
+  //margin = margin * 100;
+  margin = (margin * 100).toFixed(2);
 
   const winner = getWinner(data,votesKey);
   const loser = getLoser(data,votesKey);

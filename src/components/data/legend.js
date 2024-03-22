@@ -46,12 +46,12 @@ const legParties = [
         "party": "IND",
         "seats": 7,
         "color": "#FBC02C"
-    },
+    }/*,
     {
         "party": "Other",
         "seats": 7,
         "color": "#dddddd"
-    }
+    }*/
 ];
 
 export default function Legend({ leaders }) {

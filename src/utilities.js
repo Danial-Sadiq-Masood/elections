@@ -11,6 +11,34 @@ elections2024ECP.forEach(d => {
 })
 
 elections2024ECP.forEach(d => {
+  let officialWinner = getWinner(d.result, 'declaredVotes').declaredVotes;
+  let officialRU = getLoser(d.result , 'declaredVotes').declaredVotes;
+  let form45Winner = getWinner(d.result, 'actualVotes').actualVotes;
+  let form45RU = getLoser(d.result , 'actualVotes').actualVotes;
+  d.officialMargin = (officialWinner - officialRU)/ (officialWinner + officialRU);
+  d.form45Margin = (form45Winner - form45RU)/ (form45RU + form45Winner);
+})
+
+let officialWinnersCount = elections2024ECP.reduce((acc,d)=>{
+  let winner = getWinner(d.result, 'declaredVotes');
+  acc[winner.party] ??= 0;
+  acc[winner.party] += 1;
+  return acc;
+},{});
+
+let form45WinnersCount = elections2024ECP.reduce((acc,d)=>{
+  let winner = getWinner(d.result, 'actualVotes');
+  acc[winner.party] ??= 0;
+  acc[winner.party] += 1;
+  return acc;
+},{});
+
+export const allWinningParties = Object.keys({...officialWinnersCount,...form45WinnersCount});
+window.allWinningParties = allWinningParties;
+
+
+
+elections2024ECP.forEach(d => {
   /*if(d.province === 'KP'){
     d.xGrid -= 0.8
     d.yGrid -= 0.8
@@ -24,6 +52,8 @@ elections2024ECP.forEach(d => {
 export function getWinner(d, key = 'votes') {
   return d.reduce((acc, e) => e[key] > acc[key] ? e : acc)
 }
+
+window.getWinner = getWinner;
 
 export function getLoser(d, key = 'votes') {
   return d.reduce((acc, e) => e[key] < acc[key] ? e : acc)
@@ -146,7 +176,17 @@ export const partyColors = {
   "MMA": "#4DB6AC", 
   "PTI": "#9D27B0", 
   "AL": "#D81B60", 
-  "PTI-IND": "#D50000"
+  "PTI-IND": "#D50000",
+  'JUI-F' : '#FF5722', 
+  'MWM' : '#F06292', 
+  'IPP' : '#BA68C8', 
+  'PML-Z' : '#FF8A80', 
+  'PML' : '#FF80AB', 
+  'PNAP' : '#E040FB', 
+  'BAP' : '#673AB7', 
+  'BNP' : '#B388FF', 
+  'NP' : '#EEFF41', 
+  'PKMAP' : '#F57F17'
 }
 
 export const otherColor = "#dddddd";

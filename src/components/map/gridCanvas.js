@@ -504,7 +504,8 @@ const initAnimation = async ({
           seatData: { seat: `NA ${d.id}`, loc: d.region },
           data: d.result,
           turnout: d.voterTurnout,
-          margin: d.voteMargin
+          officialMargin: d.officialMargin,
+          form45Margin: d.form45Margin
         });
 
 
@@ -859,7 +860,7 @@ const gridMapMachine = createMachine({
                         filters: ({ context }) => context.filters,
                         votesKey: ({ event }) => event.votesKey
                       }),
-                    guard : stateIn('#interactive.mapMode.winningParty')
+                    guard: stateIn('#interactive.mapMode.winningParty')
                   },
                   {
                     target: '#animating.filteredVotesKeyVT',
@@ -868,7 +869,7 @@ const gridMapMachine = createMachine({
                         filters: ({ context }) => context.filters,
                         votesKey: ({ event }) => event.votesKey
                       }),
-                    guard : stateIn('#interactive.mapMode.voterTurnout')
+                    guard: stateIn('#interactive.mapMode.voterTurnout')
                   },
                   {
                     target: '#animating.filteredVotesKeyVM',
@@ -877,7 +878,7 @@ const gridMapMachine = createMachine({
                         filters: ({ context }) => context.filters,
                         votesKey: ({ event }) => event.votesKey
                       }),
-                    guard : stateIn('#interactive.mapMode.voteMargin')
+                    guard: stateIn('#interactive.mapMode.voteMargin')
                   }
                 ]
               }

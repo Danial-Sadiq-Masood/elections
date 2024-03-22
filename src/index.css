@@ -169,3 +169,8 @@ code {
 #svgmap * {
   opacity: 0;
 }
+
+.zoomedIn {
+  fill : #f3f3f3;
+  pointer-events: non;
+}
