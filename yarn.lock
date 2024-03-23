@@ -4634,6 +4634,11 @@ d3-hierarchy@3:
   dependencies:
     d3-color "1 - 3"
 
+d3-parliament-chart@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/d3-parliament-chart/-/d3-parliament-chart-0.0.6.tgz"
+  integrity sha512-DwMafcP8H+plwrcxrZ9rxOJJcehEPzV/yt7GBXRjf2qWQ4mFT49hE7v/6qjnRfR8NP4ybMAdX2IL0o/GyUV+yw==
+
 d3-path@^3.1.0, "d3-path@1 - 3", d3-path@3:
   version "3.1.0"
   resolved "https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz"

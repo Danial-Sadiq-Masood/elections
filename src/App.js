@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <AppContext.Provider value={{app}}>
           <Routes>
             <Route
@@ -34,8 +34,8 @@ function App() {
             />
             <Route
               exact
-              path='/gridmap'
-              element = { <DataView mapType="gridMap"/> } 
+              path='/parliament'
+              element = { <DataView mapType="parliamentChart"/> } 
             />
           </Routes>
         </AppContext.Provider>

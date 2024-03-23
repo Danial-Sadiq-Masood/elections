@@ -12,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "d3": "^7.8.5",
+    "d3-parliament-chart": "^0.0.6",
     "firebase": "^10.8.0",
     "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",

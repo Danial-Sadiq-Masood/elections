@@ -225,6 +225,13 @@ function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, s
                 type : 'changeVotesKey',
                 votesKey : votesKey
             })
+
+            if(window.parliamentActor){
+                window.parliamentActor.send({
+                    type : 'changeVotesKey',
+                    votesKey : votesKey
+                })
+            }
         }
         /*if(votesKey == 'actualVotes'){
             actor.send({type : 'showPtiData'})

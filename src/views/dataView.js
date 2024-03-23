@@ -7,6 +7,7 @@ import FiltersandLegend from "../components/data/filtersAndLegend";
 import { ElectionsContext } from "../contexts";
 import RenderChoropleth from "../components/map/renderChoropleth";
 import RenderGridMap from "../components/map/renderGridMap";
+import RenderParliamentChart from "../components/map/renderParliamentChart";
 import MapModes from "../components/data/mapModes";
 import DataSource from "../components/data/dataSource";
 import { yearStates } from "../utilities";
@@ -149,6 +150,11 @@ export default function DataView({ mapType }) {
           type: 'removeFilters'
         })
       }
+      if (window.parliamentActor) {
+        window.parliamentActor.send({
+          type: 'removeFilters'
+        })
+      }
     } else {
       actor.send({
         type: 'applyFilters',
@@ -161,6 +167,17 @@ export default function DataView({ mapType }) {
       })
       if (window.gridActor) {
         window.gridActor.send({
+          type: 'applyFilters',
+          filters: {
+            winnerArr: partyFilters,
+            runnerUpArr: runnerUpFilters,
+            provincesArr: regionFilters,
+            votesKey: votesKey
+          }
+        })
+      }
+      if (window.parliamentActor) {
+        window.parliamentActor.send({
           type: 'applyFilters',
           filters: {
             winnerArr: partyFilters,
@@ -190,6 +207,15 @@ export default function DataView({ mapType }) {
     setVoterTurnout([0, 100]);
   }*/
 
+  let mapJSX;
+
+  if(mapType === "choropleth"){
+    mapJSX = <RenderChoropleth />
+  }else if(mapType === "gridMap"){
+    mapJSX = <RenderGridMap />
+  }else{
+    mapJSX = <RenderParliamentChart />
+  }
   return (
     <>
       <Container>
@@ -232,8 +258,7 @@ export default function DataView({ mapType }) {
             />
           </Content>
           {
-            mapType == "choropleth" ? <RenderChoropleth />
-              : <RenderGridMap />
+            mapJSX
           }
           <FiltersandLegend
             leaders={getElectionSummary(yearStates[2024].data, 0, votesKey)}

@@ -3,10 +3,13 @@ import styles from './css/map.module.css';
 import { useEffect, useRef, useContext } from "react";
 import { GridCanvas } from "./gridCanvas";
 import { contrast, partyScale, calcTooltipPosition } from "../../utilities";
+import elections2024ECP from './translatedGrids/updatedRes2024.json';
 import gsap, { Power2 } from "gsap";
 import { ElectionsContext } from "../../contexts";
 import { yearStates } from "../../utilities";
 import * as d3 from "d3";
+import { parliamentMachine } from "./parliamentMachine";
+import { createActor } from "xstate";
 window.d3 = d3;
 
 function getWinner(d, key = 'votes') {
@@ -51,57 +54,30 @@ const getWinColor = (d, key = 'votes') => {
 
 
 
-export default function RenderChoropleth() {
+export default function RenderParliamentChart() {
 
     const mapContainer = useRef();
+
+    const actorStarted = useRef(false);
 
     const { mapIn, votesKey, triggerRedraw, setTriggerRedraw, setGridGrps, setTooltipData, setShowTooltip, mobileTranslate, currentYear, firebaseData, actor } = useContext(ElectionsContext);
 
     useEffect(() => {
-        d3.selectAll('path[data-seat-num]').data(window.ecp_data, function (d) {
-            return d ? d.seat : this.attributes['data-seat-num'].textContent;
-        })
-            .style('fill', (d) => getWinColor(d, 'declaredVotes'))
-            .on(
-                "mouseover",
-                function (e, d) {
-                    /*const { mode } = canvas;
-                    const rectGrp = select(this);
-                    rectGrp.raise();
-                    const rect = rectGrp.select("rect.grid-rect");
-    
-                    rect.attr("stroke", mode === "party" ? "#212121" : "grey")
-                        .attr("rx", 1)
-                        .attr("ry", 1)
-                        .attr("stroke-width", mode === "party" ? 5 : 4)
-                    */
 
-                    setTooltipData({
-                        position: calcTooltipPosition(e.pageX, e.pageY),
-                        seatData: { seat: `NA ${d.id}`, loc: d.region },
-                        data: d.result,
-                        turnout: d.voterTurnout,
-                        officialMargin: d.officialMargin,
-                        form45Margin: d.form45Margin
-                    });
-
-
-                    setShowTooltip(true);
+        if(!actorStarted.current){
+            const parliamentActor = createActor(parliamentMachine,{
+                input : {
+                    setTooltipData,
+                    calcTooltipPosition,
+                    setShowTooltip,
+                    votesKey
                 }
-            )
-            .on("mouseout",
-                function () {
-                    /*const rect = select(this).select("rect.grid-rect");
-                    select("title").remove();
-                    rect.attr("stroke", "none")
-                        .attr("rx", 0)
-                        .attr("ry", 0);*/
-                    setShowTooltip(false);
-                }
-            );
+            })
+            window.parliamentActor = parliamentActor;
+            parliamentActor.start();
+            actorStarted.current = true;
+        }
 
-        window.actor = actor;
-        actor.start();
         //Draw D3 Map here
 
         /*if (!triggerRedraw) {
@@ -201,7 +177,7 @@ export default function RenderChoropleth() {
 
         return () => elecGridCanvas.remove();*/
 
-    }, [mapIn, currentYear, triggerRedraw]);
+    }, []);
 
 
     /*useEffect(() => {
@@ -216,13 +192,13 @@ export default function RenderChoropleth() {
     return (
         <MapContainer>
             <svg
-                id="svgmap"
+                id="svgparliament"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
                 x="0"
                 y="0"
                 version="1.1"
-                viewBox="0 0 2200 1600"
+                viewBox="0 0 2200 1200"
                 xmlSpace="preserve"
                 style={{ width: '100%' }}
             >
