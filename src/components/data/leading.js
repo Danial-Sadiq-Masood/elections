@@ -3,7 +3,8 @@ import styled from "styled-components";
 const Container = styled.div`
     position: relative;
     width: 5.5vw;
-    padding-top: 5.5vw;
+    padding: 10px;
+
     border: 2px solid ${props => props.$color};
     margin: 0px 12px;
     border-radius: 10px;
@@ -23,47 +24,38 @@ const Container = styled.div`
 
     @media only screen and (max-width: 1200px) {
         width: 6.5vw;
-        padding-top: 6.5vw;
     }
 
     @media only screen and (max-width: 950px) {
         width: 7.5vw;
-        padding-top: 7.5vw;
     }
 
     @media only screen and (max-width: 750px) {
         width: 8.5vw;
-        padding-top: 8.5vw;
     }
 
     @media only screen and (max-width: 650px) {
         width: 10vw;
-        padding-top: 10vw;
     }
 
     @media only screen and (max-width: 550px) {
         width: 12.5vw;
-        padding-top: 12.5vw;
     }
 
     @media only screen and (max-width: 400px) {
         width: 15vw;
-        padding-top: 15vw;
     }
 
     @media only screen and (min-width: 2160px) {
         width: 4.5vw;
-        padding-top: 4.5vw;
     }
 
     @media only screen and (min-width: 2500px) {
         width: 4vw;
-        padding-top: 4vw;
     }
 `;
 
 const Content = styled.div`
-    position: absolute;
     width: 100%;
     height: 100%;
     min-width: 100%;
@@ -83,12 +75,19 @@ const Content = styled.div`
         margin: 0.2rem 0px;
     }
 
+    .bold {
+        font-weight : 700;
+        font-size : 1rem;
+    }
+
     span {
         font-family: 'DM Serif Text';
         font-style: italic;
         font-size: 0.8rem;
+        line-height : 1.4rem;
         margin-top: -0.25rem;
     }
+
 
     @media only screen and (max-width: 450px) {
         p {
@@ -100,13 +99,15 @@ const Content = styled.div`
     }
 `;
 
-export default function Leading ({ party = 'I-PTI', seats = 116, color = '#212121', size=20 }) {
+export default function Leading ({ party = 'I-PTI', seats = 116, color = '#212121', size=20 ,votes=1000}) {
     return (
         <Container $color={color} $size={size} >
             <Content>
                 <p>{party}</p>
                 <h2>{seats}</h2>
                 <span>Seats</span>
+                <span className="bold">{votes.toLocaleString()}</span>
+                <span>Votes</span>
             </Content>
         </Container>
     )

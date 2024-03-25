@@ -12,7 +12,6 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "d3": "^7.8.5",
-    "d3-parliament-chart": "^0.0.6",
     "firebase": "^10.8.0",
     "gh-pages": "^6.1.1",
     "gsap": "^3.12.5",
@@ -24,6 +23,7 @@
     "react-router-dom": "^6.22.0",
     "react-scripts": "5.0.1",
     "styled-components": "^6.1.8",
+    "svg-pan-zoom": "^3.6.1",
     "web-vitals": "^2.1.4",
     "xstate": "^5.9.1"
   },

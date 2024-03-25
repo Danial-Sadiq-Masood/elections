@@ -121,6 +121,12 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
                 resetFunc={() => ctx.setRegionFilters([])}
             />
             <CheckBoxList list={yearStates[2024].regions} stateVar={ctx.regionFilters} stateFunction={ctx.setRegionFilters}/>
+            <FilterHeadingArea 
+                heading='Seat Status'
+                stateVar={ctx.disputedSeatsFilter} 
+                resetFunc={() => ctx.setDisputedSeatsFilter([])}
+            />
+            <CheckBoxList list={['Disputed']} stateVar={ctx.disputedSeatsFilter} stateFunction={ctx.setDisputedSeatsFilter}/>
 
             {/*<FilterHeadingArea 
                 heading='Vote Margin'

@@ -1,0 +1,21 @@
+diff --git a/node_modules/d3-parliament-chart/build/d3-parliament-chart.js b/node_modules/d3-parliament-chart/build/d3-parliament-chart.js
+index a6c678f..99c42d2 100644
+--- a/node_modules/d3-parliament-chart/build/d3-parliament-chart.js
++++ b/node_modules/d3-parliament-chart/build/d3-parliament-chart.js
+@@ -272,12 +272,13 @@ var parliamentChart = (data = [], width = 0) => {
+     return innerSelection
+       .selectAll('circle')
+       .data(processedData)
+-      .enter()
+-      .insert('circle')
++      /*.enter()
++      .insert('g')
++      .append('circle')
+       .attr('cx', (d) => d.x)
+       .attr('cy', (d) => d.y)
+       .attr('r', options.seatRadius)
+-      .attr('fill', (d) => d.color || '#AAA');
++      .attr('fill', (d) => d.color || '#AAA');*/
+   };
+ 
+   // //////////////////////////////////////////////////////////////////////////

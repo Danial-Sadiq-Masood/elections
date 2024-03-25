@@ -14,6 +14,8 @@ import { yearStates } from "../utilities";
 import Disclaimer from "../components/map/disclaimer";
 import { sum, scaleSqrt, max } from "d3";
 import { actor } from "../components/map/choropethMachine"
+import *  as zoom from "svg-pan-zoom"
+import { partyVotes } from "../utilities";
 
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
@@ -28,6 +30,8 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { disableTurnout, getElectionSummary, getElectionSummaryTopBar } from "../utilities";
 
 import { PTI_Data } from "../components/map/translatedGrids/ptiData";
+
+window.zoom = zoom;
 
 const Container = styled.div`
   position: relative;
@@ -54,6 +58,7 @@ export default function DataView({ mapType }) {
   const [voteMargin, setVoteMargin] = useState([0, 100]);
   const [voterTurnout, setVoterTurnout] = useState([0, 100]);
   const [votesKey, setVotesKey] = useState("declaredVotes");
+  const [disputedSeatsFilter, setDisputedSeatsFilter] = useState([]);
 
   const [showTooltip, setShowTooltip] = useState(false);
   const [toolTipData, setTooltipData] = useState(null);
@@ -137,7 +142,7 @@ export default function DataView({ mapType }) {
       });
     }*/
     const nofiltersApplied =
-      [partyFilters, runnerUpFilters, regionFilters]
+      [partyFilters, runnerUpFilters, regionFilters, disputedSeatsFilter]
         .filter((d) => d.length > 0)
     console.log(nofiltersApplied);
     if (nofiltersApplied.length === 0) {
@@ -156,40 +161,34 @@ export default function DataView({ mapType }) {
         })
       }
     } else {
+      const filtersObj = {
+        winnerArr: partyFilters,
+        runnerUpArr: runnerUpFilters,
+        provincesArr: regionFilters,
+        votesKey: votesKey,
+        disputedSeats : disputedSeatsFilter
+      };
+
       actor.send({
         type: 'applyFilters',
-        filters: {
-          winnerArr: partyFilters,
-          runnerUpArr: runnerUpFilters,
-          provincesArr: regionFilters,
-          votesKey: votesKey
-        }
-      })
+        filters: filtersObj
+      });
+      
       if (window.gridActor) {
         window.gridActor.send({
           type: 'applyFilters',
-          filters: {
-            winnerArr: partyFilters,
-            runnerUpArr: runnerUpFilters,
-            provincesArr: regionFilters,
-            votesKey: votesKey
-          }
+          filters: filtersObj
         })
       }
       if (window.parliamentActor) {
         window.parliamentActor.send({
           type: 'applyFilters',
-          filters: {
-            winnerArr: partyFilters,
-            runnerUpArr: runnerUpFilters,
-            provincesArr: regionFilters,
-            votesKey: votesKey
-          }
+          filters: filtersObj
         })
       }
     }
 
-  }, [partyFilters, runnerUpFilters, regionFilters, voteMargin, voterTurnout]);
+  }, [partyFilters, runnerUpFilters, regionFilters, voteMargin, voterTurnout, disputedSeatsFilter]);
 
   function moveMap(direction) {
     if (direction === "left" && mobileTranslate !== 60) {
@@ -240,7 +239,9 @@ export default function DataView({ mapType }) {
             triggerRedraw,
             setTriggerRedraw,
             actor,
-            mapType
+            mapType,
+            disputedSeatsFilter,
+            setDisputedSeatsFilter
           }}
         >
           <Navbar></Navbar>
@@ -250,6 +251,7 @@ export default function DataView({ mapType }) {
               leaders={
                 getElectionSummaryTopBar(yearStates[2024].data, votesKey)
               }
+              votesKey={votesKey}
             />
             <MapModes
               actor={actor}
@@ -331,6 +333,7 @@ function getCircleSize(leaders, index) {
 
 function TopBar({
   bringMapIn,
+  votesKey,
   leaders = [
     { party: "I-PTI", seats: 116, color: "#9C27B0" },
     { party: "PMLN", seats: 64, color: "#66BB6A" },
@@ -366,6 +369,7 @@ function TopBar({
                 seats={leader.seats}
                 color={leader.party === "undefined" ? "#ddd" : leader.color}
                 size={getCircleSize(leaders, index)}
+                votes={partyVotes[leader.party][votesKey]}
               ></Leading>
             </div>
           );

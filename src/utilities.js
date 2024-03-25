@@ -15,6 +15,35 @@ export const disputedSeats = elections2024ECP.filter(d => {
       && (d.result[1].actualVotes !== d.result[1].declaredVotes);
 })
 
+export const disputedSeatsObj = disputedSeats.reduce((acc,d)=>{
+  acc[d.seat] = d;
+  return acc;
+}, {})
+
+export const partyVotes = elections2024ECP.reduce((acc,d)=>{
+  const winningParty = getWinner(d.result);
+  const losingParty = getLoser(d.result);
+
+  acc[winningParty.party] ??= {};
+  acc[losingParty.party] ??= {};
+
+  acc[winningParty.party].actualVotes ??= 0;
+  acc[losingParty.party].actualVotes ??= 0;
+
+  acc[winningParty.party].declaredVotes ??= 0;
+  acc[losingParty.party].declaredVotes ??= 0;
+
+  acc[winningParty.party].actualVotes += winningParty.actualVotes;
+  acc[losingParty.party].actualVotes += losingParty.actualVotes;
+
+  acc[winningParty.party].declaredVotes += winningParty.declaredVotes;
+  acc[losingParty.party].declaredVotes += losingParty.declaredVotes;
+
+  return acc;
+}, {})
+
+window.partyVotes = partyVotes;
+
 window.disputedSeats = disputedSeats;
 
 elections2024ECP.forEach(d => {

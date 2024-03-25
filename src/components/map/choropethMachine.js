@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import { attrs, styles, contrast, partyScale, disputedSeats } from "../../utilities";
+import { attrs, styles, contrast, partyScale, disputedSeats, disputedSeatsObj } from "../../utilities";
 
 import { PTI_Data } from "./translatedGrids/ptiData";
 import { data } from "./translatedGrids/form45data";
@@ -155,18 +155,6 @@ const initAnimation = () => {
     .selectChildren()
     .classed('static', true);
 
-  const disputedSeatsSet = new Set(disputedSeats.map(d => d.seat))
-
-  const disputedOverlay = d3.selectAll('#svgmap path[data-seat-num]').filter(d => {
-    return d && disputedSeatsSet.has(d.seat);
-  })
-    .clone()
-    .style('fill', 'url(#pattern_stripe)')
-    .classed('disputed_seat', true)
-    .classed('static', false)
-    .style('opacity', 0)
-    .style('pointer-events', 'none')
-    .attr('data-seat-num', null)
   return new Promise(res => {
     d3.select('#svgmap')
       .selectChildren()
@@ -175,13 +163,7 @@ const initAnimation = () => {
       .transition()
       .duration(700)
       .delay((d, i) => Math.random() * (i / 250) * 200)
-      .style('opacity', function () {
-        if (this.classList.contains('disputed_seat')) {
-          return disputedSeatOpacity;
-        } else {
-          return 1;
-        }
-      })
+      .style('opacity', '1')
       .on("end", res);
   })
 }
@@ -227,13 +209,6 @@ const filterAnimation = (filterObj, key) => {
             .style('fill', combinedRes.color)
             .on('end', res);
         })
-      }),
-      new Promise(res => {
-        d3.selectAll('path.disputed_seat')
-          .transition()
-          .duration(250)
-          .style("opacity", (d) => (filterConstit(d, filterObj, key) ? disputedSeatOpacity : 0.2))
-          .on("end", res);
       })
     ]
   )
@@ -258,39 +233,36 @@ const removefilterAnimation = (key) => {
             .style('opacity', 1)
             .on('end', res);
         })
-      }),
-      new Promise(res => {
-        d3.selectAll('path.disputed_seat')
-          .transition()
-          .duration(250)
-          .style("opacity", disputedSeatOpacity)
-          .on("end", res);
       })
     ]
   )
 }
 
 function filterZoomedOutSeat(id, filterObj, key) {
-  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provincesArr } =
+  const { winnerArr, runnerUpArr, disputedSeats, marginArr, provincesArr } =
     filterObj;
 
   return [
     !provincesArr.length > 0 || provincesArr.includes(zoomedSeatsProvincesMap[id]),
     !winnerArr.length > 0 || winnerArr.includes(getZoomedSeatWinningParty(key).filter(d => d.id == id)[0].party),
-    !runnerUpArr.length > 0 || runnerUpArr.includes(getZoomedSeatLosingParty(key).filter(d => d.id == id)[0].party)
+    !runnerUpArr.length > 0 || runnerUpArr.includes(getZoomedSeatLosingParty(key).filter(d => d.id == id)[0].party),
+    !disputedSeats.length > 0 || disputedSeatsObj[getZoomedSeatWinningParty(key).filter(d => d.id == id)[0].party]
   ]
     .every(d => d);
 
 }
 
 function filterConstit(entry, filterObj, key) {
-  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provincesArr } =
+  const { winnerArr, runnerUpArr, turnoutArr, disputedSeats, marginArr, provincesArr } =
     filterObj;
+
+  console.log(filterObj)
 
   return [
     !provincesArr.length > 0 || provincesArr.includes(entry.province),
     !winnerArr.length > 0 || winnerArr.includes(getWinner(entry, key).party),
-    !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party)
+    !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party),
+    !disputedSeats.length > 0 || disputedSeatsObj[entry.seat]
   ]
   .every(d => d);
 

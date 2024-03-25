@@ -34,6 +34,10 @@ export default function CustomCheck({ value = 'abcd', callBackFunc, filterList }
     const cont = useRef();
     const plus = useRef();
 
+    /*if(!Array.isArray(filterList)){
+        filterList = [filterList];
+    }*/
+
     useEffect(() => {
         if (filterList.length > 0 && filterList.includes(value)) {
             cont.current.classList.add('active');
