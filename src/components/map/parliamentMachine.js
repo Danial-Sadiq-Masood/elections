@@ -45,7 +45,7 @@ let sortedResForm45 = elections2024ECP.reduce((acc, d) => {
 //window.select = select;
 
 function getWinner(d, key = 'votes') {
-	console.log(d);
+	//console.log(d);
 	return d.result.reduce((acc, e) => e[key] > acc[key] ? e : acc)
 }
 
@@ -122,7 +122,7 @@ const initAnimation = ({
 	let seatGroups = pchart(chartGroup)
 		.enter()
 		.insert('g')
-		.style('opacity',0);
+		.style('opacity', 0);
 
 	seatGroups.append('circle')
 		.attr('cx', (d) => d.x)
@@ -170,16 +170,16 @@ const initAnimation = ({
 			"font-weight": "700",
 		});
 
-		return new Promise(res => {
-			d3.selectAll('.parliament-chart g')
-				.transition()
-				.duration(500)
-				.transition()
-				.duration(700)
-				.delay((d, i) => Math.random() * i * 1)
-				.style('opacity', '1')
-				.on("end", res);
-		})
+	return new Promise(res => {
+		d3.selectAll('.parliament-chart g')
+			.transition()
+			.duration(500)
+			.transition()
+			.duration(700)
+			.delay((d, i) => Math.random() * i * 1)
+			.style('opacity', '1')
+			.on("end", res);
+	})
 
 	/*chartGroup.selectAll('.parliament-chart g')
 		.each(function(d,i){
@@ -240,24 +240,32 @@ const flipAnimation = (key) => {
 	]);
 }
 
+const updateCircleData = (key, filterFunc = ((d) => true)) => {
+	const newData = key == 'actualVotes' ? sortedResForm45 : sortedResOfficial
+	const flattenedData = Object.values(newData)
+		.map(partySeats => partySeats.map((d,i) => ({...d , show : filterFunc(d,i)})))
+		.map(partySeats => partySeats.toSorted((a,b) => a.show ? -1 : 1))
+		.flat();
+
+	console.log(flattenedData);
+	pchart.data(flattenedData);
+	const updateSelection = pchart(d3.selectAll('.parliament-chart'))
+		.each(function (d) {
+			Array.from(this.children).forEach((e) => {
+				e.__data__ = this.__data__;
+			})
+		});
+	return updateSelection;
+}
+
 const flipAnimationSorted = (key) => {
 	console.log('flipping colors', key);
+
+	let updateSelection = updateCircleData(key);
+
 	return Promise.all([
 		new Promise(res => {
-			const newData = key == 'actualVotes' ? sortedResForm45 : sortedResOfficial
-			const flattenedData = Object.values(newData).flat();
-			pchart.data(flattenedData);
-			const updateSelection = pchart(d3.selectAll('.parliament-chart'))
-				.each(function(d){
-					Array.from(this.children).forEach((e)=>{
-						e.__data__ = this.__data__;
-					})
-				});
-
-				updateSelection.selectAll('text')
-				.text(d => d.seat.split('-')[1])
-
-				updateSelection
+			updateSelection
 				.selectAll('circle')
 				.transition()
 				.duration(300)
@@ -269,6 +277,7 @@ const flipAnimationSorted = (key) => {
 		}),
 		new Promise(res => {
 			d3.selectAll('.parliament-chart text')
+				.text(d => d.seat.split('-')[1])
 				.transition()
 				.duration(300)
 				.delay((d, i) => Math.random() * (i / 250) * 10)
@@ -314,15 +323,19 @@ const filterAnimation = (filterObj, key) => {
 }
 
 const filterAnimationSorted = (filterObj, key) => {
+
+	let updateSelection = updateCircleData(key,
+		(d) => filterConstit(d, filterObj, key))
+
 	return Promise.all(
 		[
 			new Promise(res => {
-				d3.selectAll('.parliament-chart g')
+				updateSelection
 					.transition()
 					.duration(250)
-					.style("opacity", (d) => (filterConstit(d, filterObj, key) ? 1 : 0.2))
+					.style("opacity", (d) => d.show ? 1 : 0.2)
 					.style("pointer-events", (d) =>
-						filterConstit(d, filterObj, key) ? "auto" : "none",
+						d.show ? "auto" : "none"
 					)
 					.on("end", res);
 			}),
@@ -335,6 +348,7 @@ const filterAnimationSorted = (filterObj, key) => {
 			}),
 			new Promise(res => {
 				d3.selectAll('.parliament-chart text')
+					.text(d => d.seat.split('-')[1])
 					.transition()
 					.duration(250)
 					.style('fill', (d) => contrast(getWinColor(d, key), "#000000") > 6
@@ -346,7 +360,10 @@ const filterAnimationSorted = (filterObj, key) => {
 	)
 }
 
-const removefilterAnimation = (key) => {
+const removefilterAnimation = (key, filterObj = {}) => {
+	let updateSelection = updateCircleData(key,
+		(d) => filterConstit(d, filterObj, key))
+
 	return Promise.all(
 		[
 			new Promise(res => {
@@ -356,14 +373,16 @@ const removefilterAnimation = (key) => {
 					.style("opacity", (d) => (1))
 					.style("pointer-events", "auto")
 					.on("end", res);
-			})/*,
-            new Promise(res => {
-                d3.selectAll('path.disputed_seat')
-                    .transition()
-                    .duration(250)
-                    .style("opacity", disputedSeatOpacity)
-                    .on("end", res);
-            })*/
+			}),
+			new Promise(res => {
+				d3.selectAll('.parliament-chart text')
+					.transition()
+					.duration(250)
+					.style('fill', (d) => contrast(getWinColor(d, key), "#000000") > 6
+						? "black"
+						: "#ddd")
+					.on("end", res);
+			})
 		]
 	)
 }
@@ -416,9 +435,9 @@ const parliamentMachine = createMachine({
 				'dataKeyChange': {
 					invoke: {
 						id: 'dataKeyChange',
-						input: ({ context: { votesKey } }) => votesKey,
+						input: ({ context }) => context,
 						src: fromPromise(({ input }) => {
-							return flipAnimationSorted(input);
+							return flipAnimationSorted(input.votesKey);
 						}),
 						onDone: {
 							target: '#interactive.unfiltered'
@@ -430,7 +449,7 @@ const parliamentMachine = createMachine({
 						id: 'applyFilter',
 						input: ({ context }) => context,
 						src: fromPromise(({ input }) => {
-							return filterAnimation(input.filters, input.votesKey);
+							return filterAnimationSorted(input.filters, input.votesKey);
 						}),
 						onDone: {
 							target: '#interactive.filtered'
@@ -452,9 +471,9 @@ const parliamentMachine = createMachine({
 				'removeFilter': {
 					invoke: {
 						id: 'removeFilter',
-						input: ({ context: { filters } }) => filters,
+						input: ({ context }) => context,
 						src: fromPromise(({ input }) => {
-							return removefilterAnimation(input.votesKey);
+							return removefilterAnimation(input.votesKey, input.filters);
 						}),
 						onDone: {
 							target: '#interactive.unfiltered'
@@ -468,7 +487,7 @@ const parliamentMachine = createMachine({
 			initial: 'unfiltered',
 			on: {
 				'applyFilters': {
-					target: '#animating.applyFilter',
+					target: '#animating.applyFilterSorted',
 					actions: assign({
 						filters: ({ event }) => event.filters,
 						votesKey: ({ context }) => context.votesKey
