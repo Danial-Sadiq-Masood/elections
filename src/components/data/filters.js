@@ -178,6 +178,7 @@ const DisableTurnout = styled.div`
 
 const FiltersContainer = styled.div`
     opacity: 0;
+    border-radius: 10px 10px 0px 0px;
     transform: translateY(30px);
     position: fixed;
     bottom: 0px;
@@ -227,6 +228,7 @@ const IconContainer = styled.div`
     padding: 2px;
     background-color: #e0e0e0;
     visibility: hidden;
+    border-radius: 0px 10px 0px 0px;
 
     display: flex;
     align-items: center;
