@@ -244,7 +244,6 @@ export default function DataView({ mapType }) {
             setDisputedSeatsFilter
           }}
         >
-          <Navbar></Navbar>
           <Content>
             <TopBar
               {...{ bringMapIn, currentYear: '2024' }}

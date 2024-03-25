@@ -1,18 +1,19 @@
-import { useEffect, useState } from "react";
+import { Fragment, useEffect, useState } from "react";
 import styled from "styled-components";
-import { Dictionary, partyColors, otherColor } from "../../utilities";
+import { Dictionary, partyColors, otherColor, allWinningParties } from "../../utilities";
 
 const Container = styled.div`
+    padding: 10px 0px;
+    background-color: #f3f3f3;
+    border-radius: 0px 10px 10px 0px;
     position: fixed;
     z-index: 2;
     left: 0px;
-    width: 50px;
     top: 50vh;
     transform: translateY(-50%);
     z-index: 2;
-    background-color: rgba(255,255, 255, 0.95);
-    display: flex;
-    flex-direction: column;
+    display : flex;
+    flex-direction : row;
 
     @media only screen and (max-width: 500px) {
         bottom: 65px;
@@ -21,38 +22,21 @@ const Container = styled.div`
     }
 `;
 
-const legParties = [
-    {
-        "party": "PTI-IND",
-        "seats": 149,
-        "color": "#9D27B0"
-    },
-    {
-        "party": "PML-N",
-        "seats": 48,
-        "color": "#66BB6A"
-    },
-    {
-        "party": "PPP",
-        "seats": 48,
-        "color": "#757575"
-    },
-    {
-        "party": "MQM",
-        "seats": 48,
-        "color": "#F48FB1"
-    },
-    {
-        "party": "IND",
-        "seats": 7,
-        "color": "#FBC02C"
-    }/*,
-    {
-        "party": "Other",
-        "seats": 7,
-        "color": "#dddddd"
-    }*/
-];
+const Column = styled.div`
+display : flex;
+flex-direction : column;
+width: 50px;
+padding-right : 10px;
+`;
+
+const legParties = Object.entries(partyColors)
+    .filter(d => allWinningParties.includes(d[0]))
+    .map((d) => ({
+        party: d[0],
+        color: d[1]
+    }))
+
+window.legParties = legParties;
 
 export default function Legend({ leaders }) {
 
@@ -63,14 +47,21 @@ export default function Legend({ leaders }) {
     useEffect(() => {
         if (leaders) {
             setParies([...new Map(leaders.map(item => [item['color'], item])).values()]);
-        } 
+        }
     }, [leaders])
 
     return (
         <Container>
-            {legParties.map((party, index) => {
-                return <PartyLegend key={`${index}party`} color={partyColors[party.party] || otherColor} party={party.color === '#64B5F6' ? 'Other' : party.party}/>
-            })}
+            <Column>
+                {legParties.slice(0, 8).map((party, index) => {
+                    return <PartyLegend key={`${index}party`} color={partyColors[party.party] || otherColor} party={party.color === '#64B5F6' ? 'Other' : party.party} />
+                })}
+            </Column>
+            <Column>
+                {legParties.slice(8, 16).map((party, index) => {
+                    return <PartyLegend key={`${index}party`} color={partyColors[party.party] || otherColor} party={party.color === '#64B5F6' ? 'Other' : party.party} />
+                })}
+            </Column>
         </Container>
     );
 };
@@ -114,13 +105,13 @@ const Party = styled.div`
     }
 `;
 
-function PartyLegend({color, party}) {
+function PartyLegend({ color, party }) {
     return (
         <Party title={color === '#dddddd' ? '' : Dictionary[party]} $color={party === 'undefined' ? '#ddd' : color}><p>{party === 'undefined' ? `IND` : party}</p></Party>
     )
 }
 
-const MargContainer = styled.div `
+const MargContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -166,7 +157,7 @@ function VoteMargin() {
     return (
         <MargContainer>
             <p>0%</p>
-            <MarginLegend/>
+            <MarginLegend />
             <p>100%</p>
             <span>Margin/ Turnout</span>
         </MargContainer>
