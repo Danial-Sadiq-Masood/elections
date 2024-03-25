@@ -4,7 +4,8 @@ import { useEffect } from "react";
 import gsap from "gsap";
 
 const Container = styled.button`
-    width: 60px;
+    width: 50px;
+    border-radius: 0px 10px 0px 0px;
     height: 60px;
     background-color: var(--deepblue);
     display: flex;

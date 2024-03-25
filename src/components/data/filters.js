@@ -196,7 +196,7 @@ const FiltersContainer = styled.div`
     @media ${device.tablet} {
         width: auto;
         height: auto;
-        left: 75px;
+        left: 50px;
         padding: 20px;
     }
 
