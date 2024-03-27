@@ -7,7 +7,7 @@ import { data } from "./translatedGrids/form45data";
 
 import elections2024ECP from './translatedGrids/updatedRes2024.json';
 
-import { createMachine, createActor, fromPromise, assign } from 'xstate';
+import { createMachine, createActor, fromPromise, assign, stateIn } from 'xstate';
 
 import { parliamentChart } from "d3-parliament-chart";
 window.parliamentChart = parliamentChart;
@@ -240,11 +240,11 @@ const flipAnimation = (key) => {
 	]);
 }
 
-const updateCircleData = (key, filterFunc = ((d) => true)) => {
+const updateCircleDataSorted = (key, filterFunc = ((d) => true)) => {
 	const newData = key == 'actualVotes' ? sortedResForm45 : sortedResOfficial
 	const flattenedData = Object.values(newData)
-		.map(partySeats => partySeats.map((d,i) => ({...d , show : filterFunc(d,i)})))
-		.map(partySeats => partySeats.toSorted((a,b) => a.show ? -1 : 1))
+		.map(partySeats => partySeats.map((d, i) => ({ ...d, show: filterFunc(d, i) })))
+		.map(partySeats => partySeats.toSorted((a, b) => a.show ? -1 : 1))
 		.flat();
 
 	console.log(flattenedData);
@@ -258,10 +258,24 @@ const updateCircleData = (key, filterFunc = ((d) => true)) => {
 	return updateSelection;
 }
 
+const updateCircleDataUnsorted = (key, filterFunc = ((d) => true)) => {
+
+
+	pchart.data(elections2024ECP
+		.map((d, i) => ({ ...d, show: filterFunc(d, i) })));
+	const updateSelection = pchart(d3.selectAll('.parliament-chart'))
+		.each(function (d) {
+			Array.from(this.children).forEach((e) => {
+				e.__data__ = this.__data__;
+			})
+		});
+	return updateSelection;
+}
+
 const flipAnimationSorted = (key) => {
 	console.log('flipping colors', key);
 
-	let updateSelection = updateCircleData(key);
+	let updateSelection = updateCircleDataSorted(key);
 
 	return Promise.all([
 		new Promise(res => {
@@ -289,7 +303,7 @@ const flipAnimationSorted = (key) => {
 	]);
 }
 
-const filterAnimation = (filterObj, key) => {
+/*const filterAnimation = (filterObj, key) => {
 	return Promise.all(
 		[
 			new Promise(res => {
@@ -320,11 +334,11 @@ const filterAnimation = (filterObj, key) => {
 			})
 		]
 	)
-}
+}*/
 
 const filterAnimationSorted = (filterObj, key) => {
 
-	let updateSelection = updateCircleData(key,
+	let updateSelection = updateCircleDataSorted(key,
 		(d) => filterConstit(d, filterObj, key))
 
 	return Promise.all(
@@ -360,8 +374,73 @@ const filterAnimationSorted = (filterObj, key) => {
 	)
 }
 
-const removefilterAnimation = (key, filterObj = {}) => {
-	let updateSelection = updateCircleData(key,
+const filterAnimationUnsorted = (filterObj, key) => {
+
+	let updateSelection = updateCircleDataUnsorted(key,
+		(d) => filterConstit(d, filterObj, key))
+
+	return Promise.all(
+		[
+			new Promise(res => {
+				updateSelection
+					.transition()
+					.duration(250)
+					.style("opacity", (d) => d.show ? 1 : 0.2)
+					.style("pointer-events", (d) =>
+						d.show ? "auto" : "none"
+					)
+					.on("end", res);
+			}),
+			new Promise(res => {
+				d3.selectAll('.parliament-chart circle')
+					.transition()
+					.duration(250)
+					.style('fill', (d) => getWinColor(d, key))
+					.on("end", res);
+			}),
+			new Promise(res => {
+				d3.selectAll('.parliament-chart text')
+					.text(d => d.seat.split('-')[1])
+					.transition()
+					.duration(250)
+					.style('fill', (d) => contrast(getWinColor(d, key), "#000000") > 6
+						? "black"
+						: "#ddd")
+					.on("end", res);
+			})
+		]
+	)
+}
+
+const removefilterSortedAnimation = (key, filterObj = {}) => {
+	let updateSelection = updateCircleDataSorted(key,
+		(d) => filterConstit(d, filterObj, key))
+
+	return Promise.all(
+		[
+			new Promise(res => {
+				d3.selectAll('.parliament-chart g')
+					.transition()
+					.duration(250)
+					.style("opacity", (d) => (1))
+					.style("pointer-events", "auto")
+					.on("end", res);
+			}),
+			new Promise(res => {
+				d3.selectAll('.parliament-chart text')
+					.transition()
+					.duration(250)
+					.style('fill', (d) => contrast(getWinColor(d, key), "#000000") > 6
+						? "black"
+						: "#ddd")
+					.on("end", res);
+			})
+		]
+	)
+}
+
+const removefilterUnsortedAnimation = (key, filterObj = {}) => {
+	let updateSelection = updateCircleDataUnsorted(key,
 		(d) => filterConstit(d, filterObj, key))
 
 	return Promise.all(
@@ -388,7 +467,11 @@ const removefilterAnimation = (key, filterObj = {}) => {
 }
 
 function filterConstit(entry, filterObj, key) {
-	const { winnerArr, runnerUpArr, disputedSeats, marginArr, provincesArr } =
+	const { winnerArr = [],
+		runnerUpArr = [],
+		disputedSeats = [],
+		marginArr = [],
+		provincesArr = [] } =
 		filterObj;
 
 	return [
@@ -440,19 +523,20 @@ const parliamentMachine = createMachine({
 							return flipAnimationSorted(input.votesKey);
 						}),
 						onDone: {
-							target: '#interactive.unfiltered'
+							target: ['#interactive.filterStatus.unfiltered',
+								'#interactive.sortedStatus.hist']
 						}
 					}
 				},
-				'applyFilter': {
+				'applyFilterUnsorted': {
 					invoke: {
-						id: 'applyFilter',
+						id: 'applyFilterUnsorted',
 						input: ({ context }) => context,
 						src: fromPromise(({ input }) => {
-							return filterAnimationSorted(input.filters, input.votesKey);
+							return filterAnimationUnsorted(input.filters, input.votesKey);
 						}),
 						onDone: {
-							target: '#interactive.filtered'
+							target: ['#interactive.filterStatus.filtered', '#interactive.sortedStatus.unsorted']
 						}
 					}
 				},
@@ -464,19 +548,67 @@ const parliamentMachine = createMachine({
 							return filterAnimationSorted(input.filters, input.votesKey);
 						}),
 						onDone: {
-							target: '#interactive.filtered'
+							target: ['#interactive.filterStatus.filtered', '#interactive.sortedStatus.sorted']
 						}
 					}
 				},
-				'removeFilter': {
+				'removeFilterSorted': {
 					invoke: {
-						id: 'removeFilter',
+						id: 'removeFilterSorted',
 						input: ({ context }) => context,
 						src: fromPromise(({ input }) => {
-							return removefilterAnimation(input.votesKey, input.filters);
+							return removefilterSortedAnimation(input.votesKey, input.filters);
 						}),
 						onDone: {
-							target: '#interactive.unfiltered'
+							target: ['#interactive.filterStatus.unfiltered', '#interactive.sortedStatus.sorted']
+						}
+					}
+				},
+				'removeFilterUnsorted': {
+					invoke: {
+						id: 'removeFilterUnsorted',
+						input: ({ context }) => context,
+						src: fromPromise(({ input }) => {
+							return removefilterUnsortedAnimation(input.votesKey, input.filters);
+						}),
+						onDone: {
+							target: ['#interactive.filterStatus.unfiltered', '#interactive.sortedStatus.unsorted']
+						}
+					}
+				},
+				'showUnsorted': {
+					invoke: {
+						id: 'showUnsorted',
+						input: ({ context }) => context,
+						src: fromPromise(({ input }) => {
+							return filterAnimationUnsorted(input.filters, input.votesKey);
+						}),
+						onDone: {
+							target: ['#interactive.filterStatus.hist', '#interactive.sortedStatus.unsorted']
+						}
+					}
+				},
+				'showSorted': {
+					invoke: {
+						id: 'showSorted',
+						input: ({ context }) => context,
+						src: fromPromise(({ input }) => {
+							return filterAnimationSorted(input.filters, input.votesKey);
+						}),
+						onDone: {
+							target: ['#interactive.filterStatus.hist', '#interactive.sortedStatus.sorted']
+						}
+					}
+				},
+				'showUnsorted': {
+					invoke: {
+						id: 'showSorted',
+						input: ({ context }) => context,
+						src: fromPromise(({ input }) => {
+							return filterAnimationUnsorted(input.filters, input.votesKey);
+						}),
+						onDone: {
+							target: ['#interactive.filterStatus.hist', '#interactive.sortedStatus.unsorted']
 						}
 					}
 				}
@@ -484,41 +616,109 @@ const parliamentMachine = createMachine({
 		},
 		'interactive': {
 			id: 'interactive',
-			initial: 'unfiltered',
+			type: 'parallel',
 			on: {
-				'applyFilters': {
-					target: '#animating.applyFilterSorted',
-					actions: assign({
-						filters: ({ event }) => event.filters,
-						votesKey: ({ context }) => context.votesKey
-					})
+				'showUnsorted': {
+					target: '#animating.showUnsorted'
 				},
-				'removeFilters': {
-					target: '#animating.removeFilter'
+				'showSorted': {
+					target: '#animating.showSorted'
 				}
 			},
 			states: {
-				'filtered': {
-					on: {
-						'changeVotesKey': {
-							target: '#animating.applyFilterSorted',
-							actions: [
-								(data) => console.log(data),
-								assign({
-									filters: ({ context }) => context.filters,
-									votesKey: ({ event }) => event.votesKey
-								})]
+				filterStatus: {
+					initial: 'unfiltered',
+					states: {
+						'filtered': {
+							on: {
+								'changeVotesKey': [{
+									target: '#animating.applyFilterSorted',
+									actions: [
+										(data) => console.log(data),
+										assign({
+											filters: ({ context }) => context.filters,
+											votesKey: ({ event }) => event.votesKey
+										})],
+									guard: stateIn('#interactive.sortedStatus.sorted')
+								},
+								{
+									target: '#animating.applyFilterUnsorted',
+									actions: [
+										(data) => console.log(data),
+										assign({
+											filters: ({ context }) => context.filters,
+											votesKey: ({ event }) => event.votesKey
+										})],
+									guard: stateIn('#interactive.sortedStatus.unsorted')
+								}]
+							}
+						},
+						'unfiltered': {
+							on: {
+								'changeVotesKey': [{
+									actions: assign({
+										filters: ({ context }) => context.filters,
+										votesKey: ({ event }) => event.votesKey
+									}),
+									target: '#animating.dataKeyChange',
+									guard: stateIn('#interactive.sortedStatus.sorted')
+								},
+								{
+									target: '#animating.applyFilterUnsorted',
+									actions: [
+										(data) => console.log(data),
+										assign({
+											filters: ({ context }) => context.filters,
+											votesKey: ({ event }) => event.votesKey
+										})],
+									guard: stateIn('#interactive.sortedStatus.unsorted')
+								}]
+							}
+						},
+						hist: {
+							type: 'history'
 						}
 					}
 				},
-				'unfiltered': {
-					on: {
-						'changeVotesKey': {
-							actions: assign({
-								filters: ({ context }) => context.filters,
-								votesKey: ({ event }) => event.votesKey
-							}),
-							target: '#animating.dataKeyChange'
+				sortedStatus: {
+					initial: "sorted",
+					states: {
+						"sorted": {
+							on : {
+								'applyFilters': {
+									target: '#animating.applyFilterSorted',
+									actions: assign({
+										filters: ({ event }) => event.filters,
+										votesKey: ({ context }) => context.votesKey
+									})
+								},
+								'removeFilters': {
+									actions: assign({
+										filters: {},
+									}),
+									target: '#animating.removeFilterSorted'
+								}
+							}
+						},
+						"unsorted": {
+							on : {
+								'applyFilters': {
+									target: '#animating.applyFilterUnsorted',
+									actions: assign({
+										filters: ({ event }) => event.filters,
+										votesKey: ({ context }) => context.votesKey
+									})
+								},
+								'removeFilters': {
+									actions: assign({
+										filters: {},
+									}),
+									target: '#animating.removeFilterUnsorted'
+								}
+							}
+						},
+						"hist": {
+							type: "history"
 						}
 					}
 				}
