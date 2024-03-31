@@ -470,11 +470,12 @@ function filterConstit(entry, filterObj, key) {
 	const { winnerArr = [],
 		runnerUpArr = [],
 		disputedSeats = [],
-		marginArr = [],
+		naSeatsArr = [],
 		provincesArr = [] } =
 		filterObj;
 
 	return [
+		!naSeatsArr.length > 0 || naSeatsArr.includes(entry.seat),
 		!provincesArr.length > 0 || provincesArr.includes(entry.province),
 		!winnerArr.length > 0 || winnerArr.includes(getWinner(entry, key).party),
 		!runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party),
