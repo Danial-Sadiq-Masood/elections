@@ -239,10 +239,13 @@ const removefilterAnimation = (key) => {
 }
 
 function filterZoomedOutSeat(id, filterObj, key) {
-  const { winnerArr, runnerUpArr, disputedSeats, marginArr, provincesArr } =
+  const { winnerArr, runnerUpArr, disputedSeats, naSeatsArr, provincesArr } =
     filterObj;
 
+    console.log('123');
+
   return [
+    !naSeatsArr.length > 0 || zoomedSeats[id].filter(d => naSeatsArr.includes('NA-' + (d + 1))).length > 0,
     !provincesArr.length > 0 || provincesArr.includes(zoomedSeatsProvincesMap[id]),
     !winnerArr.length > 0 || winnerArr.includes(getZoomedSeatWinningParty(key).filter(d => d.id == id)[0].party),
     !runnerUpArr.length > 0 || runnerUpArr.includes(getZoomedSeatLosingParty(key).filter(d => d.id == id)[0].party),
@@ -253,12 +256,13 @@ function filterZoomedOutSeat(id, filterObj, key) {
 }
 
 function filterConstit(entry, filterObj, key) {
-  const { winnerArr, runnerUpArr, turnoutArr, disputedSeats, marginArr, provincesArr } =
+  const { winnerArr, runnerUpArr, naSeatsArr, disputedSeats, marginArr, provincesArr } =
     filterObj;
 
   console.log(filterObj)
 
   return [
+    !naSeatsArr.length > 0 || naSeatsArr.includes(entry.seat),
     !provincesArr.length > 0 || provincesArr.includes(entry.province),
     !winnerArr.length > 0 || winnerArr.includes(getWinner(entry, key).party),
     !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party),

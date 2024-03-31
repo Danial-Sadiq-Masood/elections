@@ -80,7 +80,7 @@ export default function MapModes({ currentYear, state, stateFunction, mapState, 
         gsap.to(container.current, { opacity: 1, transform: 'translateY(0px)', duration: 0.4, delay: 0.75 })
     }, [])
 
-    const dataSource = [{ title: "Official Data", key: 'declaredVotes' }, { title: "form45.com Data", key: 'actualVotes' }];
+    const dataSource = [{ title: "ECP", key: 'declaredVotes' }, { title: "form45.com", key: 'actualVotes' }];
     const modes = ["Winning Party", "Voter Turnout", "Vote Margin"/*,"Winner Difference", "Loser Difference"*/];
     const parliamentModes = ["Sorted", "Unsorted"];
 
@@ -300,10 +300,10 @@ function processDataSourceClick(txt, mapState, stateFunction, setVotesKey, votes
 
     //acto.updateMode(mapState.mode,400,radioVotesKey);
 
-    if (txt === "Official Data") {
+    if (txt === "ECP") {
         setVotesKey('declaredVotes')
     }
-    else if (txt === "form45.com Data") {
+    else if (txt === "form45.com") {
         setVotesKey('actualVotes')
     }
 

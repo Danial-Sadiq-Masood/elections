@@ -1,12 +1,18 @@
 import styled from "styled-components";
 import styles from './css/map.module.css';
-import { useEffect, useRef, useContext } from "react";
+import { useEffect, useRef, useContext, useState, Fragment } from "react";
+import Button from '@mui/material/Button';
+import Dialog from '@mui/material/Dialog';
 import { GridCanvas } from "./gridCanvas";
 import { contrast, partyScale, calcTooltipPosition } from "../../utilities";
 import gsap, { Power2 } from "gsap";
 import { ElectionsContext } from "../../contexts";
 import { yearStates } from "../../utilities";
 import * as d3 from "d3";
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogTitle from '@mui/material/DialogTitle';
 window.d3 = d3;
 
 function getWinner(d, key = 'votes') {
@@ -54,6 +60,16 @@ const getWinColor = (d, key = 'votes') => {
 export default function RenderChoropleth() {
 
     const mapContainer = useRef();
+
+    const [open, setOpen] = useState(false);
+
+    const handleClickOpen = () => {
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
 
     const { mapIn, votesKey, triggerRedraw, setTriggerRedraw, setGridGrps, setTooltipData, setShowTooltip, mobileTranslate, currentYear, firebaseData, actor } = useContext(ElectionsContext);
 
@@ -2063,4 +2079,37 @@ const MapContainer = styled.div`
     }
 `;
 
+function AlertDialog({
+    open,
+    setOpen,
+    handleClickOpen,
+    handleClose
+}) {
+
+    return (
+        <Fragment>
+            <Button variant="outlined" onClick={handleClickOpen}>
+                Open alert dialog
+            </Button>
+            <Dialog
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="alert-dialog-title"
+                aria-describedby="alert-dialog-description"
+            >
+                <DialogTitle id="alert-dialog-title">
+                    {"Text"}
+                </DialogTitle>
+                <DialogContent>
+                    <DialogContentText id="alert-dialog-description">
+                        Text
+                    </DialogContentText>
+                </DialogContent>
+                <DialogActions>
+                    <Button onClick={handleClose} autoFocus>Close</Button>
+                </DialogActions>
+            </Dialog>
+        </Fragment>
+    );
+}
 

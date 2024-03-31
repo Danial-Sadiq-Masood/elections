@@ -66,12 +66,27 @@ export default function Tooltip({ showTooltip, toolTipData, votesKey }) {
 
   const { seatData, data, position, turnout, officialMargin, form45Margin } = innerData;
 
-  let margin = votesKey === 'actualVotes' ? form45Margin : officialMargin;
+  //let margin = votesKey === 'actualVotes' ? form45Margin : officialMargin;
   //margin = margin * 100;
-  margin = (margin * 100).toFixed(2);
+  //margin = (margin * 100).toFixed(2);
+  //margin = Number.isNaN(margin) ? "N/A" : margin;
 
-  const winner = getWinner(data,votesKey);
-  const loser = getLoser(data,votesKey);
+  let winner = data ? getWinner(data,votesKey) : null;
+  let loser = data ? getLoser(data,votesKey) : null;
+
+  if(winner.votes === 0){
+    winner = null;
+    loser = null;
+  }
+
+  let margin;
+
+  if(winner){
+    margin = (winner[votesKey] - loser[votesKey]).toLocaleString();
+  }else{
+    margin = "N/A"
+  }
+
   return (
     <Container $position={position} ref={tooltip}>
       {innerData && (
@@ -82,7 +97,7 @@ export default function Tooltip({ showTooltip, toolTipData, votesKey }) {
             margin={margin}
             turnout={turnout}
           />
-          {data.length === 0 && <p>Data unavailable</p>}
+          {!winner && !loser && <p>Election Postponed</p>}
           {winner && (
             <PartyDetail
               winner
@@ -100,14 +115,14 @@ export default function Tooltip({ showTooltip, toolTipData, votesKey }) {
           )}
 
           <Dict $display={!data.length === 0}>
-            {data[0] && (
+            {winner && (
               <p>
-                <b>{data[0].party}</b>: {Dictionary[data[0].party]}
+                <b>{winner.party}</b>: {Dictionary[winner.party]}
               </p>
             )}
-            {data[1] && data[0].party !== data[1].party && (
+            {loser && (
               <p>
-                <b>{data[1].party}</b>: {Dictionary[data[1].party]}
+                <b>{loser.party}</b>: {Dictionary[loser.party]}
               </p>
             )}
           </Dict>
@@ -172,7 +187,7 @@ function PartyDetail({ winner, name, party, votes }) {
     <DetailsContainer $winner={winner}>
       <p className="name">{name.toLowerCase()}</p>
       <p className="party">{party}</p>
-      <p className="votes">{votes}</p>
+      <p className="votes">{votes && votes.toLocaleString()}</p>
     </DetailsContainer>
   );
 }
@@ -239,10 +254,7 @@ function TopPanel({ seat, loc, turnout, margin }) {
 
       <LocationContainer>
         <p className="percentages">
-          <span>Vote Margin:</span> {margin === "N/A" ? margin : `${margin}%`}
-        </p>
-        <p className="percentages">
-          <span>Turnout:</span> {turnout ? `${turnout}%` : `N/A`}
+          <span>Margin of Victory:</span> {margin === "N/A" ? margin : `${margin}`}
         </p>
       </LocationContainer>
     </TopPanelContainer>

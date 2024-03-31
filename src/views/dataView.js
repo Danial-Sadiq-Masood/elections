@@ -59,6 +59,7 @@ export default function DataView({ mapType }) {
   const [voterTurnout, setVoterTurnout] = useState([0, 100]);
   const [votesKey, setVotesKey] = useState("declaredVotes");
   const [disputedSeatsFilter, setDisputedSeatsFilter] = useState([]);
+  const [naSeatsFilter, setNaSeatsFilter] = useState([]);
 
   const [showTooltip, setShowTooltip] = useState(false);
   const [toolTipData, setTooltipData] = useState(null);
@@ -142,7 +143,7 @@ export default function DataView({ mapType }) {
       });
     }*/
     const nofiltersApplied =
-      [partyFilters, runnerUpFilters, regionFilters, disputedSeatsFilter]
+      [partyFilters, runnerUpFilters, regionFilters, disputedSeatsFilter, naSeatsFilter]
         .filter((d) => d.length > 0)
     console.log(nofiltersApplied);
     if (nofiltersApplied.length === 0) {
@@ -166,7 +167,8 @@ export default function DataView({ mapType }) {
         runnerUpArr: runnerUpFilters,
         provincesArr: regionFilters,
         votesKey: votesKey,
-        disputedSeats : disputedSeatsFilter
+        disputedSeats : disputedSeatsFilter,
+        naSeatsArr : naSeatsFilter
       };
 
       actor.send({
@@ -188,7 +190,7 @@ export default function DataView({ mapType }) {
       }
     }
 
-  }, [partyFilters, runnerUpFilters, regionFilters, voteMargin, voterTurnout, disputedSeatsFilter]);
+  }, [partyFilters, runnerUpFilters, regionFilters, voteMargin, voterTurnout, disputedSeatsFilter, naSeatsFilter]);
 
   function moveMap(direction) {
     if (direction === "left" && mobileTranslate !== 60) {
@@ -241,7 +243,9 @@ export default function DataView({ mapType }) {
             actor,
             mapType,
             disputedSeatsFilter,
-            setDisputedSeatsFilter
+            setDisputedSeatsFilter,
+            naSeatsFilter,
+            setNaSeatsFilter
           }}
         >
           <Content>

@@ -18,6 +18,8 @@ import Slider from '@mui/material/Slider';
 import { device } from "../../utilities";
 import { disableTurnout } from '../../utilities';
 
+const seatNames = yearStates[2024].data.map(d => d.seat)
+
 export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
 
     const container = useRef();
@@ -27,10 +29,10 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
     useEffect(() => {
         if (filtersOpen) {
             container.current.style.visibility = 'visible';
-            gsap.to(container.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.4});
+            gsap.to(container.current, { opacity: 1, transform: 'translateY(0px)', duration: 0.4 });
         }
         else {
-            gsap.to(container.current, {opacity: 0, transform: 'translateY(30px)', duration: 0.2,  onComplete: () => {container.current.style.visibility = 'hidden'}});
+            gsap.to(container.current, { opacity: 0, transform: 'translateY(30px)', duration: 0.2, onComplete: () => { container.current.style.visibility = 'hidden' } });
         }
     }, [filtersOpen]);
 
@@ -38,43 +40,43 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
         event,
         newValue,
         activeThumb,
-      ) => {
+    ) => {
         const { setVoteMargin } = ctx;
-    
+
         if (!Array.isArray(newValue)) {
-          return;
+            return;
         }
         if (newValue[1] - newValue[0] < minDistance) {
-          if (activeThumb === 0) {
-            const clamped = Math.min(newValue[0], 100 - minDistance);
-            setVoteMargin([clamped, clamped + minDistance]);
-          } else {
-            const clamped = Math.max(newValue[1], minDistance);
-            setVoteMargin([clamped - minDistance, clamped]);
-          }
+            if (activeThumb === 0) {
+                const clamped = Math.min(newValue[0], 100 - minDistance);
+                setVoteMargin([clamped, clamped + minDistance]);
+            } else {
+                const clamped = Math.max(newValue[1], minDistance);
+                setVoteMargin([clamped - minDistance, clamped]);
+            }
         } else {
             setVoteMargin(newValue);
         }
     };
-    
+
     const updateTurnout = (
         event,
         newValue,
         activeThumb,
-      ) => {
+    ) => {
         const { setVoterTurnout } = ctx;
-    
+
         if (!Array.isArray(newValue)) {
-          return;
+            return;
         }
         if (newValue[1] - newValue[0] < minDistance) {
-          if (activeThumb === 0) {
-            const clamped = Math.min(newValue[0], 100 - minDistance);
-            setVoterTurnout([clamped, clamped + minDistance]);
-          } else {
-            const clamped = Math.max(newValue[1], minDistance);
-            setVoterTurnout([clamped - minDistance, clamped]);
-          }
+            if (activeThumb === 0) {
+                const clamped = Math.min(newValue[0], 100 - minDistance);
+                setVoterTurnout([clamped, clamped + minDistance]);
+            } else {
+                const clamped = Math.max(newValue[1], minDistance);
+                setVoterTurnout([clamped - minDistance, clamped]);
+            }
         } else {
             setVoterTurnout(newValue);
         }
@@ -83,15 +85,40 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
     return (
         <FiltersContainer ref={container}>
             <IconContainer>
-                <MdClose onClick={() => setFiltersOpen(false)} style={{cursor: 'pointer'}}/>
+                <MdClose onClick={() => setFiltersOpen(false)} style={{ cursor: 'pointer' }} />
             </IconContainer>
 
+            <FilterHeadingArea
+                heading='Seats'
+                stateVar={ctx.naSeatsFilter}
+                resetFunc={() => ctx.setNaSeatsFilter([])}
+            />
+
+            <Autocomplete
+                multiple
+                options={seatNames}
+                filterSelectedOptions
+                onChange={(e, value, reason) => {
+                    console.log(e);
+                    //alert(reason +  value);
+                    ctx.setNaSeatsFilter([...value]);
+                }}
+                value={ctx.naSeatsFilter}
+                renderInput={(params) => (
+                    <TextField
+                        variant="standard"
+                        {...params}
+                        placeholder="Select Seat"
+                    />
+                )}
+            />
+
             <DisableTurnout $disabled={disableTurnout.includes(ctx.currentYear)}>
-                <FilterHeadingArea 
+                <FilterHeadingArea
                     heading='Political Groups'
                     stateVar={
                         partyState === 'Winning Party' ? ctx.partyFilters : ctx.runnerUpFilters
-                    } 
+                    }
                     resetFunc={
                         partyState === 'Winning Party' ? () => ctx.setPartyFilters([]) : () => ctx.setRunnerUpFilters([])
                     }
@@ -109,24 +136,24 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
                     />
                 </DropDownMargin>
 
-                <CheckBoxList list={partyState === 'Winning Party' ? yearStates[2024].parties : yearStates[2024].runnerups} 
-                    stateVar={partyState === 'Winning Party' ? ctx.partyFilters : ctx.runnerUpFilters} 
+                <CheckBoxList list={partyState === 'Winning Party' ? yearStates[2024].parties : yearStates[2024].runnerups}
+                    stateVar={partyState === 'Winning Party' ? ctx.partyFilters : ctx.runnerUpFilters}
                     stateFunction={partyState === 'Winning Party' ? ctx.setPartyFilters : ctx.setRunnerUpFilters}
                 />
             </DisableTurnout>
 
-            <FilterHeadingArea 
+            <FilterHeadingArea
                 heading='Regions'
-                stateVar={ctx.regionFilters} 
+                stateVar={ctx.regionFilters}
                 resetFunc={() => ctx.setRegionFilters([])}
             />
-            <CheckBoxList list={yearStates[2024].regions} stateVar={ctx.regionFilters} stateFunction={ctx.setRegionFilters}/>
-            <FilterHeadingArea 
+            <CheckBoxList list={yearStates[2024].regions} stateVar={ctx.regionFilters} stateFunction={ctx.setRegionFilters} />
+            <FilterHeadingArea
                 heading='Seat Status'
-                stateVar={ctx.disputedSeatsFilter} 
+                stateVar={ctx.disputedSeatsFilter}
                 resetFunc={() => ctx.setDisputedSeatsFilter([])}
             />
-            <CheckBoxList list={['Disputed']} stateVar={ctx.disputedSeatsFilter} stateFunction={ctx.setDisputedSeatsFilter}/>
+            <CheckBoxList list={['Disputed']} stateVar={ctx.disputedSeatsFilter} stateFunction={ctx.setDisputedSeatsFilter} />
 
             {/*<FilterHeadingArea 
                 heading='Vote Margin'
@@ -255,36 +282,36 @@ const CustomSlider = styled(Slider)({
         backgroundColor: 'red',
     },
     '& .MuiSlider-track': {
-      border: 'none',
-      backgroundColor: '#bdbdbd',
+        border: 'none',
+        backgroundColor: '#bdbdbd',
     },
     '& .MuiSlider-thumb': {
-      width: 14,
-      height: 14,
-      backgroundColor: 'var(--deepblue)',
-      border: '2px solid var(--deepblue)',
+        width: 14,
+        height: 14,
+        backgroundColor: 'var(--deepblue)',
+        border: '2px solid var(--deepblue)',
     },
     '& .MuiSlider-valueLabel': {
         background: 'var(--deepblue)'
     },
-  });
+});
 
 function valuetext(value) {
     return `${value}%`;
 }
-  
+
 const minDistance = 1;
 
 
 const marks = [
-{
-    value: 0,
-    label: '0%',
-},
-{
-    value: 100,
-    label: '100%',
-},
+    {
+        value: 0,
+        label: '0%',
+    },
+    {
+        value: 100,
+        label: '100%',
+    },
 ];
 
 

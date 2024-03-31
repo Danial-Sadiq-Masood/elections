@@ -170,6 +170,10 @@ code {
   opacity: 0;
 }
 
+#svgmap #svg-pan-zoom-controls path{
+  opacity: 1;
+}
+
 #svgmap pattern {
   opacity: 1;
 }
