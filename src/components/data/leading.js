@@ -93,9 +93,6 @@ const Content = styled.div`
         p {
             font-size: 1rem;
         }
-        span {
-            display: none;
-        }
     }
 `;
 

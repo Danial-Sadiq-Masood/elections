@@ -8,6 +8,9 @@ import elections2024ECP from './translatedGrids/updatedRes2024.json';
 
 import { createMachine, createActor, fromPromise, assign } from 'xstate';
 
+import *  as zoom from "svg-pan-zoom"
+import Hammer from "hammerjs";
+
 window.PTI_Data = PTI_Data;
 window.PTI_Data_fixed = data;
 
@@ -164,7 +167,83 @@ const initAnimation = () => {
       .duration(700)
       .delay((d, i) => Math.random() * (i / 250) * 200)
       .style('opacity', '1')
-      .on("end", res);
+      .on("end", () => {
+
+        let bbox = document.querySelector('#svgmap').getBoundingClientRect()
+
+        var eventsHandler;
+
+        eventsHandler = {
+          haltEventListeners: ['touchstart', 'touchend', 'touchmove', 'touchleave', 'touchcancel']
+          , init: function (options) {
+            var instance = options.instance
+              , initialScale = 1
+              , pannedX = 0
+              , pannedY = 0
+
+            // Init Hammer
+            // Listen only for pointer and touch events
+            this.hammer = Hammer(options.svgElement, {
+              inputClass: Hammer.SUPPORT_POINTER_EVENTS ? Hammer.PointerEventInput : Hammer.TouchInput
+            })
+
+            // Enable pinch
+            this.hammer.get('pinch').set({ enable: true })
+
+            // Handle double tap
+            this.hammer.on('doubletap', function (ev) {
+              instance.zoomIn()
+            })
+
+            // Handle pan
+            this.hammer.on('panstart panmove', function (ev) {
+              // On pan start reset panned variables
+              if (ev.type === 'panstart') {
+                pannedX = 0
+                pannedY = 0
+              }
+
+              // Pan only the difference
+              instance.panBy({ x: ev.deltaX - pannedX, y: ev.deltaY - pannedY })
+              pannedX = ev.deltaX
+              pannedY = ev.deltaY
+            })
+
+            // Handle pinch
+            this.hammer.on('pinchstart pinchmove', function (ev) {
+              // On pinch start remember initial zoom
+              if (ev.type === 'pinchstart') {
+                initialScale = instance.getZoom()
+                instance.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y })
+              }
+
+              console.log(ev.center.x, ev.center.y)
+
+              instance.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y })
+            })
+
+            // Prevent moving the page on some devices when panning over SVG
+            options.svgElement.addEventListener('touchmove', function (e) { e.preventDefault(); });
+          }
+
+          , destroy: function () {
+            this.hammer.destroy()
+          }
+        }
+
+        var panZoom = zoom('#svgmap', {
+          controlIconsEnabled: true,
+          customEventsHandler : eventsHandler,
+          zoomEnabled : true,
+          fit : 1,
+          center : 1
+        });
+        document.getElementById('svgmap').setAttribute('viewBox', `0 0 ${bbox.width} ${bbox.height}`)
+        //document.getElementById('svgmap').setAttribute('height', `700px`)
+
+
+        res();
+      });
   })
 }
 
@@ -242,7 +321,7 @@ function filterZoomedOutSeat(id, filterObj, key) {
   const { winnerArr, runnerUpArr, disputedSeats, naSeatsArr, provincesArr } =
     filterObj;
 
-    console.log('123');
+  console.log('123');
 
   return [
     !naSeatsArr.length > 0 || zoomedSeats[id].filter(d => naSeatsArr.includes('NA-' + (d + 1))).length > 0,
@@ -268,7 +347,7 @@ function filterConstit(entry, filterObj, key) {
     !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party),
     !disputedSeats.length > 0 || disputedSeatsObj[entry.seat]
   ]
-  .every(d => d);
+    .every(d => d);
 
 }
 

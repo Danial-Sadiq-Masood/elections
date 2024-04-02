@@ -49,6 +49,11 @@ const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media only screen and (max-width: 600px) {
+    padding-top : 18px;
+    padding-bottom : 18px;
+  }
 `;
 
 export default function DataView({ mapType }) {
@@ -200,14 +205,6 @@ export default function DataView({ mapType }) {
     }
   }
 
-  /*function resetModeAndFilters() {
-    setMapMode("Winning Party");
-    setPartyFilters([]);
-    setRegionFilters([]);
-    setVoteMargin([0, 100]);
-    setVoterTurnout([0, 100]);
-  }*/
-
   let mapJSX;
 
   if(mapType === "choropleth"){
@@ -272,13 +269,6 @@ export default function DataView({ mapType }) {
           <Content>
             <Disclaimer />
           </Content>
-
-          <Arrow $left={true} onClick={() => moveMap("left")}>
-            <IoIosArrowBack />
-          </Arrow>
-          <Arrow $right={true} onClick={() => moveMap("right")}>
-            <IoIosArrowForward />
-          </Arrow>
         </ElectionsContext.Provider>
       </Container>
       <Tooltip {...{ showTooltip, toolTipData, votesKey }} />

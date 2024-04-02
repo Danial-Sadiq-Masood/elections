@@ -94,7 +94,6 @@ const MapContainer = styled.div`
     align-self: center;
 
     @media only screen and (max-width: 500px) {
-        min-height: ${props => props.$increaseHeight ? `183vh` :` 115vh`};
         width: 100vw;
     }
 `;

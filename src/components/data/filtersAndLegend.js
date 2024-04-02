@@ -8,6 +8,15 @@ import Legend from './legend';
 const Container = styled.div`
     display: flex;
     flex-direction: column;
+    z-index : 1;
+
+    @media only screen and (max-width: 600px) {
+        position : fixed;
+        bottom : 0;
+        display: flex;
+        flex-direction: row;
+        width: 100vw;
+    }
 `;
 
 export default function FiltersandLegend({ leaders }) {

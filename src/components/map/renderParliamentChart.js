@@ -215,7 +215,6 @@ const MapContainer = styled.div`
     width : 72vw;
 
     @media only screen and (max-width: 500px) {
-        min-height: ${props => props.$increaseHeight ? `183vh` : ` 115vh`};
         width: 100vw;
     }
 `;

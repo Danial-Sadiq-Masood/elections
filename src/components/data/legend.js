@@ -16,9 +16,12 @@ const Container = styled.div`
     flex-direction : row;
 
     @media only screen and (max-width: 500px) {
-        bottom: 65px;
         top: unset;
         transform: translateY(0px);
+        position : unset;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
     }
 `;
 
@@ -27,6 +30,12 @@ display : flex;
 flex-direction : column;
 width: 50px;
 padding-right : 10px;
+
+@media only screen and (max-width: 500px) {
+    flex-direction : row;
+    width : 100%;
+    justify-content: space-evenly;
+}
 `;
 
 const legParties = Object.entries(partyColors)
@@ -94,6 +103,8 @@ const Party = styled.div`
         }
 
         padding: 2px 0px;
+
+        width : 30px;
     }
 
     @media only screen and (min-width: 1000px) and (max-height: 570px) {
@@ -149,8 +160,6 @@ const MarginLegend = styled.div`
         width: 100%;
         background-color: #e0e0e0;
     }
-
-
 `;
 
 function VoteMargin() {

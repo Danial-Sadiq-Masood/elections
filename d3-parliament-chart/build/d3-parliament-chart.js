@@ -31,6 +31,7 @@ const generatePartial = ({
 
   // Create all the points
   while (points.length < seats) {
+
     // The radius of the row we are currently drawing
     const currentRowRadius = graphRadius - (rowHeight * currentRow);
 
@@ -226,6 +227,8 @@ var debugGuides = (selection, graphicWidth, options, totalSeats) => {
 var parliamentChart = (data = [], width = 0) => {
   // Dimensions of the graphic
   let graphicWidth = parseFloat(width);
+
+  //alert('hello');
 
   // clean out any x and y values provided in data objects.
   let rawData = data.map(({ x, y, ...restProps }) => restProps);
