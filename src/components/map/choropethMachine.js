@@ -150,6 +150,20 @@ const zoomedSeatsColor = (key) => {
   })
 }
 
+const debounce = (context, func, delay) => {
+  let timeout;
+
+  return (...args) => {
+    if (timeout) {
+      clearTimeout(timeout);
+    }
+
+    timeout = setTimeout(() => {
+      func.apply(context, args);
+    }, delay);
+  };
+};
+
 const initAnimation = () => {
   //zoomedSeatsAnim();
   zoomedSeatsColor('declaredVotes');
@@ -191,9 +205,9 @@ const initAnimation = () => {
             this.hammer.get('pinch').set({ enable: true })
 
             // Handle double tap
-            this.hammer.on('doubletap', function (ev) {
+            /*this.hammer.on('doubletap', function (ev) {
               instance.zoomIn()
-            })
+            })*/
 
             // Handle pan
             this.hammer.on('panstart panmove', function (ev) {
@@ -214,12 +228,14 @@ const initAnimation = () => {
               // On pinch start remember initial zoom
               if (ev.type === 'pinchstart') {
                 initialScale = instance.getZoom()
-                instance.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y })
+                instance.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y - 250 })
+              } else {
+                instance.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y - 250 })
               }
 
               console.log(ev.center.x, ev.center.y)
 
-              instance.zoomAtPoint(initialScale * ev.scale, { x: ev.center.x, y: ev.center.y })
+
             })
 
             // Prevent moving the page on some devices when panning over SVG
@@ -231,13 +247,91 @@ const initAnimation = () => {
           }
         }
 
+        const debouncedFixPointerEvents = debounce(null,
+          () => {
+            d3.selectAll('path[data-seat-num]')
+              .style('pointer-events', 'auto')
+          },
+          500);
+
         var panZoom = zoom('#svgmap', {
           controlIconsEnabled: true,
-          customEventsHandler : eventsHandler,
-          zoomEnabled : true,
-          fit : 1,
-          center : 1
+          customEventsHandler: eventsHandler,
+          zoomEnabled: true,
+          fit: 1,
+          center: 1,
+          minZoom: 1,
+          maxZoom: 5,
+          beforeZoom: (oldZoom, newZoom) => {
+            console.log(oldZoom, newZoom);
+            d3.selectAll('path[data-seat-num]')
+              .style('pointer-events', 'none')
+            console.log('setting pointer events to none')
+          },
+          onZoom: () => {
+            debouncedFixPointerEvents();
+          },
+          beforePan: function (oldPan, newPan) {
+            d3.selectAll('path[data-seat-num]')
+              .style('pointer-events', 'none')
+            console.log('before pan');
+
+            var gutterWidth = 0
+              , gutterHeight = 0
+              // Computed variables
+              , sizes = this.getSizes()
+              , leftLimit = 0
+              , rightLimit = ((sizes.viewBox.x + sizes.viewBox.width) * sizes.realZoom) * -1
+              , topLimit = ((sizes.viewBox.y) * sizes.realZoom)
+              , bottomLimit = 200;
+
+            /*const customPan = {}
+            customPan.x = Math.max(leftLimit, Math.min(rightLimit, newPan.x))
+            customPan.y = Math.max(topLimit, Math.min(bottomLimit, newPan.y))
+            */
+            console.log(oldPan,newPan);
+            console.log(sizes);
+            console.log(leftLimit,rightLimit,topLimit,bottomLimit);
+
+            //return customPan
+            let pw = sizes.viewBox.width * sizes.realZoom;
+            let pictureOffScreenRight = Math.round(pw + newPan.x - sizes.width)
+            let panx = true;
+            if(newPan.x > 0){
+              panx = false
+            }else if(pictureOffScreenRight < -1){
+              panx = false;
+            }
+
+            let pTop = -sizes.viewBox.y * sizes.realZoom;
+            let ph = (sizes.viewBox.height) * sizes.realZoom;
+            let pictureOffScreenBottom = Math.round(ph + (newPan.y - pTop) - sizes.height)
+            let pany = true;
+
+            console.log(pTop, pictureOffScreenBottom)
+
+            if(Math.round(newPan.y) - 10 > Math.round(pTop)){
+              pany = false
+            }else if(pictureOffScreenBottom < -1){
+              pany = false;
+            }
+
+            return {
+              x : panx,
+              y : pany
+            }
+          },
+          onPan: () => {
+            /*setTimeout(()=>{
+              d3.selectAll('path[data-seat-num]')
+              .style('pointer-events', 'auto')
+            },1000);*/
+            debouncedFixPointerEvents();
+            console.log('after pan');
+          }
         });
+
+        window.pzoom = panZoom;
         document.getElementById('svgmap').setAttribute('viewBox', `0 0 ${bbox.width} ${bbox.height}`)
         //document.getElementById('svgmap').setAttribute('height', `700px`)
 

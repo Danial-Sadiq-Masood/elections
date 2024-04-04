@@ -208,11 +208,8 @@ export default function RenderChoropleth() {
                 id="svgmap"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0"
-                y="0"
-                enableBackground="new 0 0 2200 1800"
                 version="1.1"
-                viewBox="0 250 2200 1600"
+                viewBox="0 250 2200 1500"
                 xmlSpace="preserve"
                 style={{ width: '100%' }}
             >
