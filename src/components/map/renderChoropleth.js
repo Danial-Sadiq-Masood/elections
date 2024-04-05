@@ -61,8 +61,14 @@ export default function RenderChoropleth() {
         })
             .style('fill', (d) => getWinColor(d, 'declaredVotes'))
             .on(
-                "mouseover",
+                "pointerover",
                 function (e, d) {
+
+                    console.log(e.pointerType);
+
+                    if(e.pointerType !== "mouse"){
+                        return;
+                    }
 
                     setTooltipData({
                         position: calcTooltipPosition(e.pageX, e.pageY),
@@ -77,7 +83,7 @@ export default function RenderChoropleth() {
                     setShowTooltip(true);
                 }
             )
-            .on("mouseout",
+            .on("pointerout",
                 function () {
                     setShowTooltip(false);
                 }
