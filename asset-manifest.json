@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elections/static/css/main.3330bc25.css",
-    "main.js": "/elections/static/js/main.82bc1fb9.js",
+    "main.js": "/elections/static/js/main.b45565fb.js",
     "static/js/592.6ca3410c.chunk.js": "/elections/static/js/592.6ca3410c.chunk.js",
     "static/media/benazir.png": "/elections/static/media/benazir.d97d26152c51026c4841.png",
     "static/media/PlayfairDisplay-MediumItalic.ttf": "/elections/static/media/PlayfairDisplay-MediumItalic.8a8a4356b4d001468b59.ttf",
@@ -20,11 +20,11 @@
     "index.html": "/elections/index.html",
     "static/media/logo.svg": "/elections/static/media/logo.bfb77c6f3f8953a6adcee6c23b111467.svg",
     "main.3330bc25.css.map": "/elections/static/css/main.3330bc25.css.map",
-    "main.82bc1fb9.js.map": "/elections/static/js/main.82bc1fb9.js.map",
+    "main.b45565fb.js.map": "/elections/static/js/main.b45565fb.js.map",
     "592.6ca3410c.chunk.js.map": "/elections/static/js/592.6ca3410c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3330bc25.css",
-    "static/js/main.82bc1fb9.js"
+    "static/js/main.b45565fb.js"
   ]
 }
