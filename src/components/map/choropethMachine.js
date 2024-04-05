@@ -294,23 +294,23 @@ const initAnimation = () => {
             console.log(leftLimit,rightLimit,topLimit,bottomLimit);
 
             //return customPan
-            let pw = sizes.viewBox.width * sizes.realZoom;
+            let pw = sizes.viewBox.width * sizes.realZoom + (sizes.width * 0.2);
             let pictureOffScreenRight = Math.round(pw + newPan.x - sizes.width)
             let panx = true;
-            if(newPan.x > 0){
+            if(newPan.x > (sizes.width * 0.2)){
               panx = false
             }else if(pictureOffScreenRight < -1){
               panx = false;
             }
 
             let pTop = -sizes.viewBox.y * sizes.realZoom;
-            let ph = (sizes.viewBox.height) * sizes.realZoom;
+            let ph = (sizes.viewBox.height) * sizes.realZoom + (sizes.height * 0.2);;
             let pictureOffScreenBottom = Math.round(ph + (newPan.y - pTop) - sizes.height)
             let pany = true;
 
             console.log(pTop, pictureOffScreenBottom)
 
-            if(Math.round(newPan.y) - 10 > Math.round(pTop)){
+            if(Math.round(newPan.y) - 10 > Math.round(pTop) + (sizes.height * 0.2)){
               pany = false
             }else if(pictureOffScreenBottom < -1){
               pany = false;
