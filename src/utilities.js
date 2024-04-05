@@ -389,7 +389,7 @@ export const Dictionary = {
   SNA: "Sindh National Alliance",
   "AT-PG": "Awami Tehreek (Paleejo Group)",
   PNA: "Pakistan National Alliance",
-  PPNAP: "Pakistan Pakhtunkhwa National Awami Party",
+  PNAP: "Pakistan Pakhtunkhwa National Awami Party",
   NP: "National Party",
   SUP: "Sindh United Party",
   AML: "Awami Muslim League",

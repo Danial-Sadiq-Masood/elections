@@ -1,10 +1,10 @@
 import styled from "styled-components";
 import styles from './css/map.module.css';
-import { useEffect, useRef, useContext, useState, Fragment } from "react";
+import { useEffect, useRef, useContext, useState, Fragment, } from "react";
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import { GridCanvas } from "./gridCanvas";
-import { contrast, partyScale, calcTooltipPosition } from "../../utilities";
+import { contrast, partyScale, calcTooltipPosition, Dictionary, getWinner, getLoser } from "../../utilities";
 import gsap, { Power2 } from "gsap";
 import { ElectionsContext } from "../../contexts";
 import { yearStates } from "../../utilities";
@@ -13,16 +13,25 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+
+
+import Card from '@mui/material/Card';
+import Box from '@mui/material/Box';
+import Chip from '@mui/material/Chip';
+import Stack from '@mui/material/Stack';
+import Divider from '@mui/material/Divider';
+import Typography from '@mui/material/Typography';
+
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
+import Paper from '@mui/material/Paper';
+
 import *  as zoom from "svg-pan-zoom"
 window.d3 = d3;
-
-function getWinner(d, key = 'votes') {
-    return d.result.reduce((acc, e) => e[key] > acc[key] ? e : acc)
-}
-
-function getLoser(d, key = 'votes') {
-    return d.result.reduce((acc, e) => e[key] < acc[key] ? e : acc)
-}
 
 const getWinColor = (d, key = 'votes') => {
     if (d.result[0] &&
@@ -44,8 +53,10 @@ export default function RenderChoropleth() {
     const mapContainer = useRef();
 
     const [open, setOpen] = useState(false);
+    const [popUpData, setPopUpData] = useState({ seatData: {} });
 
-    const handleClickOpen = () => {
+    const handleClickOpen = (data) => {
+        setPopUpData(data);
         setOpen(true);
     };
 
@@ -66,7 +77,7 @@ export default function RenderChoropleth() {
 
                     console.log(e.pointerType);
 
-                    if(e.pointerType !== "mouse"){
+                    if (e.pointerType !== "mouse") {
                         return;
                     }
 
@@ -89,12 +100,18 @@ export default function RenderChoropleth() {
                 }
             )
             .on("click",
-                function () {
-                    handleClickOpen();
+                function (e, d) {
+                    handleClickOpen({
+                        seatData: { seat: `NA ${d.id}`, loc: d.region },
+                        data: d.result,
+                        turnout: d.voterTurnout,
+                        officialMargin: d.officialMargin,
+                        form45Margin: d.form45Margin
+                    });
                 }
             );
 
-        
+
         window.actor = actor;
         actor.start();
         //Draw D3 Map here
@@ -2025,7 +2042,9 @@ export default function RenderChoropleth() {
                 {...{
                     open,
                     handleClickOpen,
-                    handleClose
+                    handleClose,
+                    popUpData,
+                    votesKey
                 }}
             />
         </MapContainer>
@@ -2047,7 +2066,9 @@ const MapContainer = styled.div`
 function AlertDialog({
     open,
     handleClickOpen,
-    handleClose
+    handleClose,
+    popUpData,
+    votesKey
 }) {
 
     return (
@@ -2059,18 +2080,98 @@ function AlertDialog({
                 aria-describedby="alert-dialog-description"
             >
                 <DialogTitle id="alert-dialog-title">
-                    {"Text"}
+                    <Stack direction="row" justifyContent="space-between" alignItems="center">
+                        <Typography gutterBottom variant="h5" component="div">
+                            {popUpData.seatData.seat}
+                        </Typography>
+                        <Typography gutterBottom variant="h6" component="div">
+                            {popUpData.seatData.loc}
+                        </Typography>
+                    </Stack>
                 </DialogTitle>
                 <DialogContent>
-                    <DialogContentText id="alert-dialog-description">
-                        Text
-                    </DialogContentText>
+                    <IntroDivider {...popUpData} votesKey={votesKey} />
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={handleClose} autoFocus>Close</Button>
+                    <Button onClick={handleClose}>Close</Button>
                 </DialogActions>
             </Dialog>
         </Fragment>
+    );
+}
+
+function IntroDivider(props) {
+    const votesKey = props.votesKey;
+    console.log(props);
+    let winner = props ? getWinner(props.data, votesKey) : null;
+    let loser = props ? getLoser(props.data, votesKey) : null;
+
+    if (winner.votes === 0) {
+        winner = null;
+        loser = null;
+    }
+
+    let margin;
+
+    if (winner) {
+        margin = (winner[votesKey] - loser[votesKey]).toLocaleString();
+    } else {
+        margin = "N/A"
+    }
+    return (
+        <Card variant="outlined" sx={{ maxWidth: 360 }}>
+            <Box sx={{ p: 2 }}>
+                <Stack direction="row" justifyContent="space-between" alignItems="center">
+                    <Typography gutterBottom variant="p" fontWeight='fontWeightMedium' component="div">
+                        Margin of Victory:
+                    </Typography>
+                    <Typography gutterBottom variant="p" component="div">
+                        {margin}
+                    </Typography>
+                </Stack>
+            </Box>
+            <Box sx={{ p: 2 }}>
+                <TableContainer component={Paper}>
+                    <Table sx={{ minWidth: 300 }} aria-label="simple table">
+                        <TableHead>
+                            <TableRow>
+                                <TableCell>Candidate</TableCell>
+                                <TableCell>Party</TableCell>
+                                <TableCell>Votes</TableCell>
+                            </TableRow>
+                        </TableHead>
+                        <TableBody>
+                            <TableRow
+                                key={1}
+                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+                                <TableCell>{winner.candidate}</TableCell>
+                                <TableCell>{Dictionary[winner.party]}</TableCell>
+                                <TableCell>{winner[votesKey]}</TableCell>
+                            </TableRow>
+                            <TableRow
+                                key={2}
+                                sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                            >
+                                <TableCell>{loser.candidate}</TableCell>
+                                <TableCell>{Dictionary[loser.party]}</TableCell>
+                                <TableCell>{loser[votesKey]}</TableCell>
+                            </TableRow>
+                        </TableBody>
+                    </Table>
+                </TableContainer>
+            </Box>
+            <Divider />
+            <Box sx={{ p: 2 }}>
+                <Typography gutterBottom variant="body2">
+                    View Source
+                </Typography>
+                <Stack direction="row" spacing={1}>
+                    <Chip label="form45.com" size="small" />
+                    <Chip label="ECP" size="small" />
+                </Stack>
+            </Box>
+        </Card>
     );
 }
 
