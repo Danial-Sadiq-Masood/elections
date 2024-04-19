@@ -1,12 +1,9 @@
 {
   "files": {
-    "main.css": "/elections/static/css/main.3330bc25.css",
-    "main.js": "/elections/static/js/main.59e808cf.js",
+    "main.css": "/elections/static/css/main.aacf3e55.css",
+    "main.js": "/elections/static/js/main.517f0405.js",
     "static/js/592.6ca3410c.chunk.js": "/elections/static/js/592.6ca3410c.chunk.js",
-    "static/media/benazir.png": "/elections/static/media/benazir.d97d26152c51026c4841.png",
     "static/media/PlayfairDisplay-MediumItalic.ttf": "/elections/static/media/PlayfairDisplay-MediumItalic.8a8a4356b4d001468b59.ttf",
-    "static/media/71-right.png": "/elections/static/media/71-right.ab3b4d47f40729e4fadf.png",
-    "static/media/71-left.png": "/elections/static/media/71-left.5a7e4c80c09f1cf1297b.png",
     "static/media/Metropolis-ExtraBoldItalic.ttf": "/elections/static/media/Metropolis-ExtraBoldItalic.831da749d4b830d6ebfe.ttf",
     "static/media/Metropolis-SemiBoldItalic.ttf": "/elections/static/media/Metropolis-SemiBoldItalic.12536327fc42546c1ff1.ttf",
     "static/media/Metropolis-BoldItalic.ttf": "/elections/static/media/Metropolis-BoldItalic.605e74ad87397270f276.ttf",
@@ -18,13 +15,12 @@
     "static/media/DMSerifText-Italic.ttf": "/elections/static/media/DMSerifText-Italic.a9c34fee60668888d0f8.ttf",
     "static/media/Chromate-Regular.ttf": "/elections/static/media/Chromate-Regular.30d08004521c65b0fa0f.ttf",
     "index.html": "/elections/index.html",
-    "static/media/logo.svg": "/elections/static/media/logo.bfb77c6f3f8953a6adcee6c23b111467.svg",
-    "main.3330bc25.css.map": "/elections/static/css/main.3330bc25.css.map",
-    "main.59e808cf.js.map": "/elections/static/js/main.59e808cf.js.map",
+    "main.aacf3e55.css.map": "/elections/static/css/main.aacf3e55.css.map",
+    "main.517f0405.js.map": "/elections/static/js/main.517f0405.js.map",
     "592.6ca3410c.chunk.js.map": "/elections/static/js/592.6ca3410c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3330bc25.css",
-    "static/js/main.59e808cf.js"
+    "static/css/main.aacf3e55.css",
+    "static/js/main.517f0405.js"
   ]
 }
