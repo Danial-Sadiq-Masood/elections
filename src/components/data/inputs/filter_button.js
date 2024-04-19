@@ -56,23 +56,29 @@ const Container = styled.button`
 
 `
 
-export default function FilterButton({filtersOpen,  setFiltersOpen }) {
+export default function FilterButton({ filtersOpen, setFiltersOpen, animating }) {
 
     useEffect(() => {
+
         if (filtersOpen) {
-            gsap.to(document.getElementById("close"), {opacity: 1});
-            gsap.to(document.getElementById("filter"), {opacity: 0});
+            gsap.to(document.getElementById("close"), { opacity: 1 });
+            gsap.to(document.getElementById("filter"), { opacity: 0 });
         }
         else {
-            gsap.to(document.getElementById("filter"), {opacity: 1});
-            gsap.to(document.getElementById("close"), {opacity: 0});
+            gsap.to(document.getElementById("filter"), { opacity: 1 });
+            gsap.to(document.getElementById("close"), { opacity: 0 });
         }
     }, [filtersOpen]);
 
     return (
-        <Container onClick={() => setFiltersOpen(!filtersOpen)}>
-            <MdFilterList id="filter"/>
-            <MdClose id="close"/>
+        <Container onClick={() => {
+            if(animating.current){
+                return;
+            }
+            setFiltersOpen(!filtersOpen);
+        }}>
+            <MdFilterList id="filter" />
+            <MdClose id="close" />
             <p>Filters</p>
         </Container>
     )

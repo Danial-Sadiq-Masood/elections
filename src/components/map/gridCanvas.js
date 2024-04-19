@@ -1,5 +1,5 @@
 import { select, min, max } from "d3";
-import { attrs, styles, contrast, partyScale } from "../../utilities";
+import { attrs, styles, contrast, partyScale, disputedSeatsObj } from "../../utilities";
 
 import { PTI_Data } from "./translatedGrids/ptiData";
 import { data } from "./translatedGrids/form45data";
@@ -10,8 +10,6 @@ import gsap, { Power2 } from "gsap";
 window.PTI_Data = PTI_Data;
 window.PTI_Data_fixed = data;
 
-//window.select = select;
-
 function getWinner(d, key = 'votes') {
   return d.result.reduce((acc, e) => e[key] > acc[key] ? e : acc)
 }
@@ -21,16 +19,7 @@ function getLoser(d, key = 'votes') {
 }
 
 const getWinColor = (d, key = 'votes') => {
-  //d.result.sort((e,f) => f[key] - e[key]);
-  /*return d.result.length === 0 ||
-  (d.result[0] &&
-    d.result[0][key] === 0 &&
-    d.result[1] &&
-    d.result[1][key] === 0)
-    ? "#eeeeee"
-    : partyScale.domain().includes(d.result[0].party)
-    ? partyScale(d.result[0].party)
-    : "#dddddd";*/
+
   if (d.result[0] &&
     d.result[0][key] === 0 &&
     d.result[1] &&
@@ -442,13 +431,17 @@ function minMaxGrid(electionData) {
 }
 
 function filterConstit(entry, filterObj, key) {
-  const { winnerArr, runnerUpArr, turnoutArr, marginArr, provincesArr } =
+  const { winnerArr, runnerUpArr, naSeatsArr, disputedSeats, provincesArr } =
     filterObj;
 
+  console.log(filterObj)
+
   return [
+    !naSeatsArr.length > 0 || naSeatsArr.includes(entry.seat),
     !provincesArr.length > 0 || provincesArr.includes(entry.province),
     !winnerArr.length > 0 || winnerArr.includes(getWinner(entry, key).party),
-    !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party)
+    !runnerUpArr.length > 0 || runnerUpArr.includes(getLoser(entry, key).party),
+    !disputedSeats.length > 0 || disputedSeatsObj[entry.seat]
   ]
     .every(d => d);
 
@@ -461,7 +454,8 @@ const initAnimation = async ({
   calcTooltipPosition,
   setTooltipData,
   setShowTooltip,
-  votesKey
+  votesKey,
+  handleClickOpen
 }) => {
   //gsap.to(mapContainer.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.3});
   gridCanvas
@@ -482,8 +476,8 @@ const initAnimation = async ({
       },
       {
         "user-select": "none",
-        "font-weight" : "700",
-        "font-size" : "15px"
+        "font-weight": "700",
+        "font-size": "15px"
       }
     )
     .event(
@@ -525,7 +519,21 @@ const initAnimation = async ({
           .attr("ry", 0);
         setShowTooltip(false);
       }
-    );
+    )
+    .event(
+      "gridGrps",
+      "click",
+      () => function (e, d) {
+        handleClickOpen({
+          seatData: { seat: `NA-${d.id}`, loc: d.region },
+          seat: d.id,
+          data: d.result,
+          turnout: d.voterTurnout,
+          officialMargin: d.officialMargin,
+          form45Margin: d.form45Margin
+        });
+      }
+    );;
 
 
   return Promise.all(

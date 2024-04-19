@@ -1,15 +1,11 @@
 import './App.css';
 import { Routes, Route, HashRouter } from 'react-router-dom';
-import { AppContext } from './contexts';
-import Landing from './views/landing';
 import DataView from './views/dataView';
 import ReactGA from "react-ga4";
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 
 function App() {
-
-  const [app, setFbApp] = useState(null);
 
   useEffect(() => {
       ReactGA.initialize("G-FKREF78QMV");
@@ -20,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <HashRouter>
-        <AppContext.Provider value={{app}}>
           <Routes>
             <Route
               exact
@@ -38,7 +33,6 @@ function App() {
               element = { <DataView mapType="parliamentChart"/> } 
             />
           </Routes>
-        </AppContext.Provider>
       </HashRouter>
     </div>
   );

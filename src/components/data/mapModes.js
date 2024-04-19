@@ -97,7 +97,7 @@ export default function MapModes({ currentYear, state, stateFunction, mapState, 
                 <div className='modes'>
                     <h3>Map Modes</h3>
                     {modes && modes.length > 0 && modes.map((mode) => {
-                        return <CustomRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{ setMapMode }} active={mapMode} text={mode} />
+                        return <CustomRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{ setMapMode }} active={mapMode} actor={actor} text={mode} />
                     })}
                 </div>
             }
@@ -106,7 +106,7 @@ export default function MapModes({ currentYear, state, stateFunction, mapState, 
                 <div className='modes'>
                     <h3>Map Modes</h3>
                     {parliamentModes && parliamentModes.length > 0 && parliamentModes.map((mode) => {
-                        return <ParliamentRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{ setParliamentMode }} active={parliamentMode} text={mode} />
+                        return <ParliamentRadio processClick={processModeClick} votesKey={votesKey} key={mode} {...{ setParliamentMode }} active={parliamentMode} actor={actor} text={mode} />
                     })}
                 </div>
             }
@@ -185,26 +185,24 @@ const RadioContainer = styled.button.attrs((props) => {
 
 `;
 
-function CustomRadio({ text, active, stateFunction, mapState, setMapMode, votesKey, processClick }) {
+function CustomRadio({ text, active, stateFunction, mapState, setMapMode, votesKey, actor }) {
 
     const container = useRef();
 
     useEffect(() => {
         if (text === active) {
-            if (window.gridActor) {
-                if (active === 'Winning Party') {
-                    window.gridActor.send({
-                        type: 'showWinningParty'
-                    })
-                } else if (active === 'Voter Turnout') {
-                    window.gridActor.send({
-                        type: 'showVoterTurnout'
-                    })
-                } else if (active === 'Vote Margin') {
-                    window.gridActor.send({
-                        type: 'showVoteMargin'
-                    })
-                }
+            if (active === 'Winning Party') {
+                actor.send({
+                    type: 'showWinningParty'
+                })
+            } else if (active === 'Voter Turnout') {
+                actor.send({
+                    type: 'showVoterTurnout'
+                })
+            } else if (active === 'Vote Margin') {
+                actor.send({
+                    type: 'showVoteMargin'
+                })
             }
         }
 
@@ -226,29 +224,11 @@ function DataSourceRadio({ text, active, stateFunction, mapState, currentYear, s
 
     useEffect(() => {
         if (votesKey === radioVotesKey) {
-            if (window.gridActor) {
-                window.gridActor.send({
-                    type: 'changeVotesKey',
-                    votesKey: votesKey
-                })
-            }
             actor.send({
                 type: 'changeVotesKey',
                 votesKey: votesKey
             })
-
-            if (window.parliamentActor) {
-                window.parliamentActor.send({
-                    type: 'changeVotesKey',
-                    votesKey: votesKey
-                })
-            }
         }
-        /*if(votesKey == 'actualVotes'){
-            actor.send({type : 'showPtiData'})
-        }else if(votesKey == 'declaredVotes'){
-            actor.send({type : 'showOfficialData'})
-        }*/
     }, [votesKey]);
 
     const isActive = votesKey === radioVotesKey;
@@ -266,29 +246,6 @@ function processModeClick(txt, mapState, setMapMode, votesKey, isActive) {
     if (isActive) {
         return;
     }
-
-    /*if (txt === "Voter Turnout" && mapState.mode !== 'turnout') {
-        mapState.updateMode("turnout",400,votesKey);
-    }
-    else if (txt === "Vote Margin" && mapState.mode !== 'margin') {
-        mapState.updateMode("margin",400,votesKey);
-    }
-    else if (txt === "Winning Party" && mapState.mode !== "Winning Party") {
-        mapState.updateMode("Party",400,votesKey);
-    }else if (txt === "Winner Difference") {
-        mapState.updateMode("Declared Winner Difference");
-        console.log('updated data');
-    }else if (txt === "Loser Difference") {
-        mapState.updateMode("Declared Loser Difference");
-        console.log('updated data');
-    }
-
-    ReactGA.event({
-        category: "Map Mode",
-        action: "click",
-        label: txt
-    });*/
-
     setMapMode(txt);
 }
 
@@ -314,7 +271,7 @@ function processDataSourceClick(txt, mapState, stateFunction, setVotesKey, votes
     });
 }
 
-function processParliamentClick(txt,setParliamentMode,isActive) {
+function processParliamentClick(txt, setParliamentMode, isActive) {
 
     console.log('in parliament');
 
@@ -334,22 +291,20 @@ function processParliamentClick(txt,setParliamentMode,isActive) {
 
 
 
-function ParliamentRadio({ text, active, stateFunction, mapState, setParliamentMode, votesKey, processClick }) {
+function ParliamentRadio({ text, active, stateFunction, mapState, setParliamentMode, votesKey, actor }) {
 
     const container = useRef();
 
     useEffect(() => {
         if (text === active) {
-            if (window.parliamentActor) {
-                if (active === 'Sorted') {
-                    window.parliamentActor.send({
-                        type: 'showSorted'
-                    })
-                } else if (active === 'Unsorted') {
-                    window.parliamentActor.send({
-                        type: 'showUnsorted'
-                    })
-                }
+            if (active === 'Sorted') {
+                actor.send({
+                    type: 'showSorted'
+                })
+            } else if (active === 'Unsorted') {
+                actor.send({
+                    type: 'showUnsorted'
+                })
             }
         }
 
@@ -359,7 +314,7 @@ function ParliamentRadio({ text, active, stateFunction, mapState, setParliamentM
 
     return (
         <RadioContainer $txt={text} active={text === active}
-            onClick={() => processParliamentClick(text, setParliamentMode,isActive)} ref={container}>
+            onClick={() => processParliamentClick(text, setParliamentMode, isActive)} ref={container}>
             <p>{text}</p>
         </RadioContainer>
     )

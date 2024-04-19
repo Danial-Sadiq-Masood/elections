@@ -45,6 +45,11 @@ const legParties = Object.entries(partyColors)
         color: d[1]
     }))
 
+legParties.push({
+    party : 'TLP',
+    color : partyColors['TLP']
+})
+
 window.legParties = legParties;
 
 export default function Legend({ leaders }) {

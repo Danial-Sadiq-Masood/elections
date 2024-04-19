@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import styles from './css/map.module.css';
-import { useEffect, useRef, useContext } from "react";
+import { useEffect, useRef, useContext, useState } from "react";
 import { GridCanvas } from "./gridCanvas";
 import { contrast, partyScale, calcTooltipPosition } from "../../utilities";
 import elections2024ECP from './translatedGrids/updatedRes2024.json';
@@ -10,6 +10,7 @@ import { yearStates } from "../../utilities";
 import * as d3 from "d3";
 import { parliamentMachine } from "./parliamentMachine";
 import { createActor } from "xstate";
+import AlertDialog from "../data/ResultPopup";
 window.d3 = d3;
 
 function getWinner(d, key = 'votes') {
@@ -21,16 +22,6 @@ function getLoser(d, key = 'votes') {
 }
 
 const getWinColor = (d, key = 'votes') => {
-    //d.result.sort((e,f) => f[key] - e[key]);
-    /*return d.result.length === 0 ||
-    (d.result[0] &&
-      d.result[0][key] === 0 &&
-      d.result[1] &&
-      d.result[1][key] === 0)
-      ? "#eeeeee"
-      : partyScale.domain().includes(d.result[0].party)
-      ? partyScale(d.result[0].party)
-      : "#dddddd";*/
     if (d.result[0] &&
         d.result[0][key] === 0 &&
         d.result[1] &&
@@ -41,15 +32,6 @@ const getWinColor = (d, key = 'votes') => {
     return partyScale.domain().includes(winner.party)
         ? partyScale(winner.party)
         : "#dddddd";
-    /*let colors = {
-      'KP' : 'red',
-      'Punjab' : 'yellow',
-      'Sindh' : 'green',
-      'Balochistan' : "blue",
-      'ICT' : 'pink'
-    }
- 
-    return colors[d.province]*/
 }
 
 
@@ -60,20 +42,33 @@ export default function RenderParliamentChart() {
 
     const actorStarted = useRef(false);
 
-    const { mapIn, votesKey, triggerRedraw, setTriggerRedraw, setGridGrps, setTooltipData, setShowTooltip, mobileTranslate, currentYear, firebaseData, actor } = useContext(ElectionsContext);
+    const [open, setOpen] = useState(false);
+    const [popUpData, setPopUpData] = useState({ seatData: {} });
+
+    const handleClickOpen = (data) => {
+        setPopUpData(data);
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
+
+    const { mapIn, votesKey, triggerRedraw, setTriggerRedraw, setGridGrps, setTooltipData, setShowTooltip, mobileTranslate, currentYear, setCurrentActor } = useContext(ElectionsContext);
 
     useEffect(() => {
 
-        if(!actorStarted.current){
-            const parliamentActor = createActor(parliamentMachine,{
-                input : {
+        if (!actorStarted.current) {
+            const parliamentActor = createActor(parliamentMachine, {
+                input: {
                     setTooltipData,
                     calcTooltipPosition,
                     setShowTooltip,
-                    votesKey
+                    votesKey,
+                    handleClickOpen
                 }
             })
-            window.parliamentActor = parliamentActor;
+            setCurrentActor(parliamentActor);
             parliamentActor.start();
             actorStarted.current = true;
         }
@@ -203,6 +198,15 @@ export default function RenderParliamentChart() {
                 style={{ width: '100%' }}
             >
             </svg>
+            <AlertDialog
+                {...{
+                    open,
+                    handleClickOpen,
+                    handleClose,
+                    popUpData,
+                    votesKey
+                }}
+            />
         </MapContainer>
     )
 };

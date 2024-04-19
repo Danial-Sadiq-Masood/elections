@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { useState, useContext } from "react";
+import { useState, useContext, useRef } from "react";
 import { ElectionsContext } from "../../contexts";
 import FilterButton from "./inputs/filter_button";
 import FilterPane from "./filters";
@@ -22,13 +22,15 @@ const Container = styled.div`
 export default function FiltersandLegend({ leaders }) {
 
     const [filtersOpen, setFiltersOpen] = useState(false);
+    
+    const animating = useRef(false);
 
     const ctx = useContext(ElectionsContext);
 
     return (
         <Container>
-            <FilterPane {...{setFiltersOpen, filtersOpen, ctx}}/>
-            <FilterButton {...{setFiltersOpen, filtersOpen}}/>
+            <FilterPane {...{setFiltersOpen, filtersOpen, ctx, animating}}/>
+            <FilterButton {...{setFiltersOpen, filtersOpen, animating}}/>
             <Legend {...{leaders}}/>
         </Container>
     );

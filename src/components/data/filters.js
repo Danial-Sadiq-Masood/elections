@@ -20,19 +20,39 @@ import { disableTurnout } from '../../utilities';
 
 const seatNames = yearStates[2024].data.map(d => d.seat)
 
-export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
+export default function FilterPane({ filtersOpen, setFiltersOpen, ctx, animating }) {
 
     const container = useRef();
 
     const [partyState, setPartyState] = useState('Winning Party');
 
+
     useEffect(() => {
+
+        if (animating.current) {
+            return;
+        }
+
+        animating.current = true;
+
         if (filtersOpen) {
             container.current.style.visibility = 'visible';
-            gsap.to(container.current, { opacity: 1, transform: 'translateY(0px)', duration: 0.4 });
+            gsap.to(container.current, {
+                opacity: 1, transform: 'translateY(0px)', duration: 0.4,
+                onComplete : () => {
+                    animating.current = false;
+                }
+            });
         }
         else {
-            gsap.to(container.current, { opacity: 0, transform: 'translateY(30px)', duration: 0.2, onComplete: () => { container.current.style.visibility = 'hidden' } });
+            gsap.to(container.current, {
+                opacity: 0, transform: 'translateY(30px)',
+                duration: 0.2,
+                onComplete: () => {
+                    container.current.style.visibility = 'hidden';
+                    animating.current = false;
+                }
+            });
         }
     }, [filtersOpen]);
 
@@ -154,44 +174,6 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx }) {
                 resetFunc={() => ctx.setDisputedSeatsFilter([])}
             />
             <CheckBoxList list={['Disputed']} stateVar={ctx.disputedSeatsFilter} stateFunction={ctx.setDisputedSeatsFilter} />
-
-            {/*<FilterHeadingArea 
-                heading='Vote Margin'
-                stateVar={ctx.voteMargin} 
-                resetFunc={() => ctx.setVoteMargin([0,100])}
-                resetOnly
-            />
-            <CustomSlider
-                size="small"
-                tag="Vote Margin"
-                getAriaLabel={() => 'Vote Margin'}
-                value={ctx.voteMargin}
-                onChange={updateSlider}
-                valueLabelDisplay="auto"
-                getAriaValueText={valuetext}
-                disableSwap
-                marks={marks}
-            />
-
-            <DisableTurnout $disabled={false}>
-                <FilterHeadingArea 
-                    heading='Voter Turnout'
-                    stateVar={ctx.voterTurnout} 
-                    resetFunc={() => ctx.setVoterTurnout([0,100])}
-                    resetOnly
-                />
-                <CustomSlider
-                    size="small"
-                    tag="Voter Turnout"
-                    getAriaLabel={() => 'Voter Turnout'}
-                    value={ctx.voterTurnout}
-                    onChange={updateTurnout}
-                    valueLabelDisplay="auto"
-                    getAriaValueText={valuetext}
-                    disableSwap
-                    marks={marks}
-                />
-                    </DisableTurnout>*/}
         </FiltersContainer>
     );
 };

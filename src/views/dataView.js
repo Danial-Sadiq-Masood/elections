@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Navbar from "../components/navbar";
 import LandingHeading from "../components/landing/heading";
 import styles from "./styles/data.module.css";
 import Leading from "../components/data/leading";
@@ -9,11 +8,10 @@ import RenderChoropleth from "../components/map/renderChoropleth";
 import RenderGridMap from "../components/map/renderGridMap";
 import RenderParliamentChart from "../components/map/renderParliamentChart";
 import MapModes from "../components/data/mapModes";
-import DataSource from "../components/data/dataSource";
 import { yearStates } from "../utilities";
 import Disclaimer from "../components/map/disclaimer";
-import { sum, scaleSqrt, max } from "d3";
-import { actor } from "../components/map/choropethMachine"
+import { scaleSqrt, max } from "d3";
+import { actor as choroplethActor }  from "../components/map/choropethMachine"
 import *  as zoom from "svg-pan-zoom"
 import { partyVotes } from "../utilities";
 
@@ -21,15 +19,8 @@ import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import Tooltip from "../components/map/tooltip";
 import ReactGA from "react-ga4";
-import { AppContext } from "../contexts";
-import { useContext } from "react";
-import { turnoutAndVotes } from "../components/map/turnout/turnoutAndVotes";
 
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
-
-import { disableTurnout, getElectionSummary, getElectionSummaryTopBar } from "../utilities";
-
-import { PTI_Data } from "../components/map/translatedGrids/ptiData";
+import { getElectionSummary, getElectionSummaryTopBar } from "../utilities";
 
 window.zoom = zoom;
 
@@ -56,13 +47,23 @@ const Content = styled.div`
   }
 `;
 
+const viewActorMap = {
+  "choropleth" : choroplethActor,
+  "gridMap" : {send : ()=>{}},
+  "parliamentChart" : {send : ()=>{}} 
+}
+
 export default function DataView({ mapType }) {
+
+  const [votesKey, setVotesKey] = useState("declaredVotes");
+
+  const [currentActor, setCurrentActor] = useState(viewActorMap[mapType]);
+
   const [partyFilters, setPartyFilters] = useState([]);
   const [runnerUpFilters, setRunnerUpFilters] = useState([]);
   const [regionFilters, setRegionFilters] = useState([]);
   const [voteMargin, setVoteMargin] = useState([0, 100]);
   const [voterTurnout, setVoterTurnout] = useState([0, 100]);
-  const [votesKey, setVotesKey] = useState("declaredVotes");
   const [disputedSeatsFilter, setDisputedSeatsFilter] = useState([]);
   const [naSeatsFilter, setNaSeatsFilter] = useState([]);
 
@@ -75,124 +76,34 @@ export default function DataView({ mapType }) {
 
   const [triggerRedraw, setTriggerRedraw] = useState(false);
 
-  const appContext = useContext(AppContext);
-
-  const { app } = appContext;
-
   useEffect(() => {
     ReactGA.send({ hitType: "pageview", page: "/", title: "Elections Data" });
   }, []);
 
   useEffect(() => {
-    if (app) {
-      /*const database = dbFuncs.getDatabase(app);
-
-      window.dbFuncs = dbFuncs;
-      window.db = database;*/
-
-      /*const dbRef = dbFuncs.ref(dbFuncs.getDatabase());
-
-      const resRef = dbFuncs.ref(database, "results/");
-      dbFuncs.onValue(resRef, (snapshot) => {
-        if (snapshot.exists()) {
-          resetModeAndFilters();
-          transformData(snapshot.val());
-          setTriggerRedraw(true);
-        } else {
-          console.log("No data available");
-        }
-      });*/
-    }
-
-  }, [app]);
-
-  function round2Dec(num, digits) {
-    const factor = 10 ** digits;
-    return Math.round(num * factor) / factor;
-  }
-
-  function relativeMargin(result) {
-    const sum = result[0].votes + result[1].votes;
-    if (sum === 0) {
-      return 0;
-    }
-    const diff = result[0].votes - result[1].votes;
-    const margin = round2Dec((diff / sum) * 100, 1);
-    return margin;
-  }
-
-  function stdMargin(constit) {
-    const result = constit.result;
-    const diff = result[0].votes - result[1].votes;
-    const margin = round2Dec((diff / constit.totalVotes) * 100, 1);
-
-    return margin;
-  }
-
-  useEffect(() => {
-    /*if (gridGrps) {
-      gridGrps.applyFilter({
-        winnerArr: partyFilters,
-        runnerUpArr: runnerUpFilters,
-        turnoutArr: disableTurnout.includes(currentYear)
-          ? undefined
-          : voterTurnout,
-        marginArr: voteMargin,
-        provinceArr: regionFilters,
-      });
-
-      ReactGA.event({
-        category: "Apply Filter",
-        action: "click",
-        label: "Bulk Filter Update",
-      });
-    }*/
     const nofiltersApplied =
       [partyFilters, runnerUpFilters, regionFilters, disputedSeatsFilter, naSeatsFilter]
         .filter((d) => d.length > 0)
     console.log(nofiltersApplied);
     if (nofiltersApplied.length === 0) {
-      actor.send({
+      currentActor.send({
         type: 'removeFilters'
       })
       console.log('removing filters');
-      if (window.gridActor) {
-        window.gridActor.send({
-          type: 'removeFilters'
-        })
-      }
-      if (window.parliamentActor) {
-        window.parliamentActor.send({
-          type: 'removeFilters'
-        })
-      }
     } else {
       const filtersObj = {
         winnerArr: partyFilters,
         runnerUpArr: runnerUpFilters,
         provincesArr: regionFilters,
         votesKey: votesKey,
-        disputedSeats : disputedSeatsFilter,
-        naSeatsArr : naSeatsFilter
+        disputedSeats: disputedSeatsFilter,
+        naSeatsArr: naSeatsFilter
       };
 
-      actor.send({
+      currentActor.send({
         type: 'applyFilters',
         filters: filtersObj
       });
-      
-      if (window.gridActor) {
-        window.gridActor.send({
-          type: 'applyFilters',
-          filters: filtersObj
-        })
-      }
-      if (window.parliamentActor) {
-        window.parliamentActor.send({
-          type: 'applyFilters',
-          filters: filtersObj
-        })
-      }
     }
 
   }, [partyFilters, runnerUpFilters, regionFilters, voteMargin, voterTurnout, disputedSeatsFilter, naSeatsFilter]);
@@ -207,11 +118,11 @@ export default function DataView({ mapType }) {
 
   let mapJSX;
 
-  if(mapType === "choropleth"){
+  if (mapType === "choropleth") {
     mapJSX = <RenderChoropleth />
-  }else if(mapType === "gridMap"){
+  } else if (mapType === "gridMap") {
     mapJSX = <RenderGridMap />
-  }else{
+  } else {
     mapJSX = <RenderParliamentChart />
   }
   return (
@@ -237,7 +148,8 @@ export default function DataView({ mapType }) {
             setMobileTranslate,
             triggerRedraw,
             setTriggerRedraw,
-            actor,
+            actor : currentActor,
+            setCurrentActor,
             mapType,
             disputedSeatsFilter,
             setDisputedSeatsFilter,
@@ -254,7 +166,6 @@ export default function DataView({ mapType }) {
               votesKey={votesKey}
             />
             <MapModes
-              actor={actor}
               setVotesKey={setVotesKey}
               votesKey={votesKey}
             />

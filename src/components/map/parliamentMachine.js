@@ -100,7 +100,8 @@ const initAnimation = ({
 	calcTooltipPosition,
 	setTooltipData,
 	setShowTooltip,
-	votesKey
+	votesKey,
+	handleClickOpen
 }) => {
 
 	pchart = parliamentChart()
@@ -150,7 +151,19 @@ const initAnimation = ({
 			function () {
 				setShowTooltip(false);
 			}
-		);
+		)
+		.on("click",
+			function (e, d) {
+				handleClickOpen({
+					seatData: { seat: `NA-${d.id}`, loc: d.region },
+					seat: d.id,
+					data: d.result,
+					turnout: d.voterTurnout,
+					officialMargin: d.officialMargin,
+					form45Margin: d.form45Margin
+				});
+			}
+		);;
 
 	seatGroups
 		.append('text')
@@ -685,7 +698,7 @@ const parliamentMachine = createMachine({
 					initial: "sorted",
 					states: {
 						"sorted": {
-							on : {
+							on: {
 								'applyFilters': {
 									target: '#animating.applyFilterSorted',
 									actions: assign({
@@ -702,7 +715,7 @@ const parliamentMachine = createMachine({
 							}
 						},
 						"unsorted": {
-							on : {
+							on: {
 								'applyFilters': {
 									target: '#animating.applyFilterUnsorted',
 									actions: assign({

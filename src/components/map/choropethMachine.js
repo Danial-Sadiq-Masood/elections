@@ -91,16 +91,6 @@ function getLoser(d, key = 'votes') {
 }
 
 const getWinColor = (d, key = 'votes') => {
-  //d.result.sort((e,f) => f[key] - e[key]);
-  /*return d.result.length === 0 ||
-  (d.result[0] &&
-    d.result[0][key] === 0 &&
-    d.result[1] &&
-    d.result[1][key] === 0)
-    ? "#eeeeee"
-    : partyScale.domain().includes(d.result[0].party)
-    ? partyScale(d.result[0].party)
-    : "#dddddd";*/
   if (d.result[0] &&
     d.result[0][key] === 0 &&
     d.result[1] &&
@@ -111,20 +101,9 @@ const getWinColor = (d, key = 'votes') => {
   return partyScale.domain().includes(winner.party)
     ? partyScale(winner.party)
     : "#dddddd";
-  /*let colors = {
-    'KP' : 'red',
-    'Punjab' : 'yellow',
-    'Sindh' : 'green',
-    'Balochistan' : "blue",
-    'ICT' : 'pink'
-  }
-
-  return colors[d.province]*/
 }
 
 window.getWinColor = getWinColor;
-
-const disputedSeatOpacity = 0.25;
 
 const mockAnimation =
   (timeout) => new Promise(res => {
@@ -182,8 +161,11 @@ const initAnimation = () => {
       .delay((d, i) => Math.random() * (i / 250) * 200)
       .style('opacity', '1')
       .on("end", () => {
-
-        let bbox = document.querySelector('#svgmap').getBoundingClientRect()
+        res();
+      });
+  })
+  .then(()=>{
+    let bbox = document.querySelector('#svgmap').getBoundingClientRect()
 
         var eventsHandler;
 
@@ -333,11 +315,19 @@ const initAnimation = () => {
 
         window.pzoom = panZoom;
         document.getElementById('svgmap').setAttribute('viewBox', `0 0 ${bbox.width} ${bbox.height}`)
+
+        const zoomGroup = document.getElementById('svg-pan-zoom-controls');
+        const newScaleFactor = (55.5/960)/(55.5/bbox.width);
+        console.log('new scale', newScaleFactor);
+        zoomGroup.setAttribute(
+          "transform",
+          "translate(" +
+            (bbox.width - (bbox.width * 0.15)) +
+            " " +
+            (bbox.height - (bbox.height * 0.15)) +
+            `) scale(${0.75 * newScaleFactor})`
+        );
         //document.getElementById('svgmap').setAttribute('height', `700px`)
-
-
-        res();
-      });
   })
 }
 
@@ -429,7 +419,7 @@ function filterZoomedOutSeat(id, filterObj, key) {
 }
 
 function filterConstit(entry, filterObj, key) {
-  const { winnerArr, runnerUpArr, naSeatsArr, disputedSeats, marginArr, provincesArr } =
+  const { winnerArr, runnerUpArr, naSeatsArr, disputedSeats, provincesArr } =
     filterObj;
 
   console.log(filterObj)

@@ -1,21 +1,34 @@
 import styled from "styled-components";
 import styles from './css/map.module.css';
-import { useEffect, useRef, useContext } from "react";
+import { useEffect, useRef, useContext, useState } from "react";
 import { GridCanvas, gridMapMachine } from "./gridCanvas";
 import { createActor } from "xstate";
-import { contrast, partyScale } from "../../utilities";
+import { partyScale } from "../../utilities";
 import gsap, { Power2 } from "gsap";
 import { calcTooltipPosition } from "../../utilities";
 import { ElectionsContext } from "../../contexts";
 import { yearStates } from "../../utilities";
-import { select, selectAll, remove } from "d3";
+import { select } from "d3";
+import AlertDialog from "../data/ResultPopup";
 
 
 export default function RenderGridMap() {
 
     const mapContainer = useRef();
 
-    const { mapIn, votesKey, triggerRedraw, setTriggerRedraw, setGridGrps, setTooltipData, setShowTooltip, mobileTranslate, currentYear, firebaseData } = useContext(ElectionsContext);
+    const { mapIn, votesKey, triggerRedraw, setTooltipData, setShowTooltip, mobileTranslate, currentYear, setCurrentActor } = useContext(ElectionsContext);
+
+    const [open, setOpen] = useState(false);
+    const [popUpData, setPopUpData] = useState({ seatData: {} });
+
+    const handleClickOpen = (data) => {
+        setPopUpData(data);
+        setOpen(true);
+    };
+
+    const handleClose = () => {
+        setOpen(false);
+    };
 
     useEffect(() => {
         //Draw D3 Map here
@@ -44,28 +57,21 @@ export default function RenderGridMap() {
                     ? partyScale(d.result[0].party)
                     : "#dddddd"; 
 
-                //.updateMode("party");
-
-            //setGridGrps(gridGrps);
-
-            //setTriggerRedraw(false);
-
             const gridActor = createActor(gridMapMachine,{
                 input : {
                     gridCanvas : elecGridCanvas,
                     setTooltipData,
                     calcTooltipPosition,
                     setShowTooltip,
-                    votesKey
+                    votesKey,
+                    handleClickOpen,
+                    handleClose
                 }
             })
 
-            window.gridActor = gridActor;
+            setCurrentActor(gridActor)
             gridActor.start();
-            //gsap.to(mapContainer.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.3});
         }
-
-
 
         return () => elecGridCanvas.remove();
 
@@ -83,7 +89,17 @@ export default function RenderGridMap() {
     }, [mobileTranslate]);
 
     return (
-        <MapContainer $increaseHeight={currentYear === '1970'} ref={mapContainer}/>
+        <MapContainer $increaseHeight={currentYear === '1970'} ref={mapContainer}>
+            <AlertDialog
+                {...{
+                    open,
+                    handleClickOpen,
+                    handleClose,
+                    popUpData,
+                    votesKey
+                }}
+            />
+        </MapContainer>
     )
 };
 
