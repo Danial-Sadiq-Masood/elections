@@ -459,9 +459,9 @@ const initAnimation = async ({
 }) => {
   //gsap.to(mapContainer.current, {opacity: 1, transform: 'translateY(0px)', duration: 0.3});
   gridCanvas
-    .appendGridGrps({}, { id: (d) => `const-${d.id}` })
+    .appendGridGrps({}, { id: (d) => `const-${d.id}` }, {'cursor' : 'pointer'})
     .appendGridRects({
-      fill: (d) => getWinColor(d, votesKey),
+      fill: (d) => getWinColor(d, votesKey)
     })
     .appendPropRects({
       fill: (d) => getWinColor(d, votesKey),

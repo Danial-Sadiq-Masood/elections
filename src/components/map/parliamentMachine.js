@@ -123,7 +123,8 @@ const initAnimation = ({
 	let seatGroups = pchart(chartGroup)
 		.enter()
 		.insert('g')
-		.style('opacity', 0);
+		.style('opacity', 0)
+		.style('cursor', 'pointer');
 
 	seatGroups.append('circle')
 		.attr('cx', (d) => d.x)

@@ -50,6 +50,7 @@ export default function RenderChoropleth() {
             return d ? d.seat : this.attributes['data-seat-num'].textContent;
         })
             .style('fill', (d) => getWinColor(d, 'declaredVotes'))
+            .style('cursor', 'pointer')
             .on(
                 "pointerover",
                 function (e, d) {
