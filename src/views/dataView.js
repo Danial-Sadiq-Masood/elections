@@ -6,6 +6,7 @@ import FiltersandLegend from "../components/data/filtersAndLegend";
 import { ElectionsContext } from "../contexts";
 import RenderChoropleth from "../components/map/renderChoropleth";
 import RenderChoroplethDiff from "../components/map/renderChoroplethDiff";
+import RenderChoroplethLoserDiff from "../components/map/renderChoroplethLoserDiff";
 import RenderGridMap from "../components/map/renderGridMap";
 //import RenderParliamentChart from "../components/map/renderParliamentChart";
 import MapModes from "../components/data/mapModes";
@@ -14,6 +15,7 @@ import Disclaimer from "../components/map/disclaimer";
 import { scaleSqrt, max } from "d3";
 import { actor as choroplethActor } from "../components/map/choropethMachine"
 import { actor as choroplethDiffActor } from "../components/map/choropethMachineDiff"
+import { actor as choroplethDiffLoserActor } from "../components/map/choropethMachineLoserDiff"
 import *  as zoom from "svg-pan-zoom"
 import { partyVotes } from "../utilities";
 
@@ -53,7 +55,13 @@ const viewActorMap = {
   "choropleth": choroplethActor,
   "gridMap": { send: () => { } },
   "parliamentChart": { send: () => { } },
-  "choroplethDiff": choroplethDiffActor
+  "choroplethDiff": choroplethDiffActor,
+  "choroplethLoserDiff": choroplethDiffLoserActor
+}
+
+const scaleColors = {
+  "choroplethLoserDiff" : ["#e57373", "#b71c1c"],
+  "choroplethDiff": ["#90e0ef", "#03045e"]
 }
 
 export default function DataView({ mapType }) {
@@ -129,6 +137,8 @@ export default function DataView({ mapType }) {
     //mapJSX = <RenderParliamentChart />
   } else if (mapType === "choroplethDiff") {
     mapJSX = <RenderChoroplethDiff />
+  }else if (mapType === "choroplethLoserDiff") {
+    mapJSX = <RenderChoroplethLoserDiff />
   }
 
   return (
@@ -160,7 +170,8 @@ export default function DataView({ mapType }) {
             disputedSeatsFilter,
             setDisputedSeatsFilter,
             naSeatsFilter,
-            setNaSeatsFilter
+            setNaSeatsFilter,
+            scaleColors : scaleColors[mapType]
           }}
         >
           <Content>
@@ -170,13 +181,13 @@ export default function DataView({ mapType }) {
                 getElectionSummaryTopBar(yearStates[2024].data, votesKey)
               }
               votesKey={votesKey}
-            />*/}
+            />
             <div className="invisible">
               <MapModes
                 setVotesKey={setVotesKey}
                 votesKey={votesKey}
               />
-            </div>
+            </div> */}
           </Content>
           {
             mapJSX

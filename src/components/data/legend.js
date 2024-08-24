@@ -51,7 +51,7 @@ legParties.push({
 
 window.legParties = legParties;
 
-export default function Legend({ leaders }) {
+export default function Legend({ leaders, scaleColors }) {
 
     window.leaders = leaders;
 
@@ -66,7 +66,7 @@ export default function Legend({ leaders }) {
     return (
         <Container>
             <Column>
-                <PartyLegend />
+                <PartyLegend scaleColors={scaleColors} />
             </Column>
         </Container>
     );
@@ -142,11 +142,14 @@ const ChoroplethLegend = styled.div`
     }
 `;
 
-function PartyLegend({ color, party }) {
+function PartyLegend({ color, party, scaleColors }) {
+    const classString = `h-[150px] w-[15px] rounded-[10px] max-[600px]:h-[50px]`
+    const styleObj = { "background": `linear-gradient(to top, ${scaleColors[0]} 0%,${scaleColors[1]} 100%)` }
+    console.log(classString);
     return (
         <ChoroplethLegend>
             <div className="flex gap-3 p-2">
-                <div className="h-[150px] w-[15px] bg-gradient-to-t from-[#90e0ef] to-[#03045e] rounded-[10px] max-[600px]:h-[50px]">
+                <div className={classString} style={styleObj}>
                 </div>
                 <div className="flex flex-col justify-between py-2">
                     <p>100 %</p>

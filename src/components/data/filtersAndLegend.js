@@ -31,7 +31,7 @@ export default function FiltersandLegend({ leaders }) {
         <Container>
             <FilterPane {...{setFiltersOpen, filtersOpen, ctx, animating}}/>
             <FilterButton {...{setFiltersOpen, filtersOpen, animating}}/>
-            <Legend {...{leaders}} />
+            <Legend {...{leaders}} scaleColors={ctx.scaleColors}/>
         </Container>
     );
 }
