@@ -7,8 +7,10 @@ elections2024ECP.forEach(d => {
   //let declared = getWinner(d,'declaredVotes')
   d.result.forEach((e) => {
     e.voteDifference = Math.abs((e.declaredVotes - e.actualVotes)) / Math.max(e.declaredVotes, e.actualVotes);
+    e.voteDifferenceAbs = Math.abs(e.declaredVotes - e.actualVotes);
   })
 })
+
 
 export const disputedSeats = elections2024ECP.filter(d => {
   return (d.result[0].actualVotes !== d.result[0].declaredVotes)
@@ -72,8 +74,6 @@ let form45WinnersCount = elections2024ECP.reduce((acc,d)=>{
 export const allWinningParties = Object.keys({...officialWinnersCount,...form45WinnersCount});
 window.allWinningParties = allWinningParties;
 
-
-
 elections2024ECP.forEach(d => {
   /*if(d.province === 'KP'){
     d.xGrid -= 0.8
@@ -135,8 +135,8 @@ export const applyClasses = (styles, classNames) => {
 
 export const yearStates = {
   '2024': {
-    parties: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'IND', 'IPP', 'JUI-F'],
-    runnerups: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'IND', 'IPP', 'JUI-F'],
+    parties: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'IND', 'IPP'],
+    runnerups: ['PTI-IND', 'PML-N', 'PPP', 'MQM', 'IND', 'IPP'],
     regions: ['Punjab', 'Sindh', 'Balochistan', 'KP', 'ICT'],
     data: elections2024ECP
   }

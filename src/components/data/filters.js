@@ -108,7 +108,7 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx, animating
                 <MdClose onClick={() => setFiltersOpen(false)} style={{ cursor: 'pointer' }} />
             </IconContainer>
 
-            <FilterHeadingArea
+            {/*<FilterHeadingArea
                 heading='Seats'
                 stateVar={ctx.naSeatsFilter}
                 resetFunc={() => ctx.setNaSeatsFilter([])}
@@ -131,7 +131,7 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx, animating
                         placeholder="Select Seat"
                     />
                 )}
-            />
+            />*/}
 
             <DisableTurnout $disabled={disableTurnout.includes(ctx.currentYear)}>
                 <FilterHeadingArea
@@ -168,12 +168,6 @@ export default function FilterPane({ filtersOpen, setFiltersOpen, ctx, animating
                 resetFunc={() => ctx.setRegionFilters([])}
             />
             <CheckBoxList list={yearStates[2024].regions} stateVar={ctx.regionFilters} stateFunction={ctx.setRegionFilters} />
-            <FilterHeadingArea
-                heading='Seat Status'
-                stateVar={ctx.disputedSeatsFilter}
-                resetFunc={() => ctx.setDisputedSeatsFilter([])}
-            />
-            <CheckBoxList list={['Disputed']} stateVar={ctx.disputedSeatsFilter} stateFunction={ctx.setDisputedSeatsFilter} />
         </FiltersContainer>
     );
 };

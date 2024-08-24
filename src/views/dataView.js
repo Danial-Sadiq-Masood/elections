@@ -5,13 +5,15 @@ import Leading from "../components/data/leading";
 import FiltersandLegend from "../components/data/filtersAndLegend";
 import { ElectionsContext } from "../contexts";
 import RenderChoropleth from "../components/map/renderChoropleth";
+import RenderChoroplethDiff from "../components/map/renderChoroplethDiff";
 import RenderGridMap from "../components/map/renderGridMap";
-import RenderParliamentChart from "../components/map/renderParliamentChart";
+//import RenderParliamentChart from "../components/map/renderParliamentChart";
 import MapModes from "../components/data/mapModes";
 import { yearStates } from "../utilities";
 import Disclaimer from "../components/map/disclaimer";
 import { scaleSqrt, max } from "d3";
-import { actor as choroplethActor }  from "../components/map/choropethMachine"
+import { actor as choroplethActor } from "../components/map/choropethMachine"
+import { actor as choroplethDiffActor } from "../components/map/choropethMachineDiff"
 import *  as zoom from "svg-pan-zoom"
 import { partyVotes } from "../utilities";
 
@@ -48,9 +50,10 @@ const Content = styled.div`
 `;
 
 const viewActorMap = {
-  "choropleth" : choroplethActor,
-  "gridMap" : {send : ()=>{}},
-  "parliamentChart" : {send : ()=>{}} 
+  "choropleth": choroplethActor,
+  "gridMap": { send: () => { } },
+  "parliamentChart": { send: () => { } },
+  "choroplethDiff": choroplethDiffActor
 }
 
 export default function DataView({ mapType }) {
@@ -122,9 +125,12 @@ export default function DataView({ mapType }) {
     mapJSX = <RenderChoropleth />
   } else if (mapType === "gridMap") {
     mapJSX = <RenderGridMap />
-  } else {
-    mapJSX = <RenderParliamentChart />
+  } else if (mapType === "parliamentChart") {
+    //mapJSX = <RenderParliamentChart />
+  } else if (mapType === "choroplethDiff") {
+    mapJSX = <RenderChoroplethDiff />
   }
+
   return (
     <>
       <Container>
@@ -148,7 +154,7 @@ export default function DataView({ mapType }) {
             setMobileTranslate,
             triggerRedraw,
             setTriggerRedraw,
-            actor : currentActor,
+            actor: currentActor,
             setCurrentActor,
             mapType,
             disputedSeatsFilter,
@@ -158,17 +164,19 @@ export default function DataView({ mapType }) {
           }}
         >
           <Content>
-            <TopBar
+            {/*<TopBar
               {...{ bringMapIn, currentYear: '2024' }}
               leaders={
                 getElectionSummaryTopBar(yearStates[2024].data, votesKey)
               }
               votesKey={votesKey}
-            />
-            <MapModes
-              setVotesKey={setVotesKey}
-              votesKey={votesKey}
-            />
+            />*/}
+            <div className="invisible">
+              <MapModes
+                setVotesKey={setVotesKey}
+                votesKey={votesKey}
+              />
+            </div>
           </Content>
           {
             mapJSX
@@ -178,7 +186,6 @@ export default function DataView({ mapType }) {
           />
 
           <Content>
-            <Disclaimer />
           </Content>
         </ElectionsContext.Provider>
       </Container>

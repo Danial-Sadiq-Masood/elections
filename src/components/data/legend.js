@@ -28,7 +28,6 @@ const Container = styled.div`
 const Column = styled.div`
 display : flex;
 flex-direction : column;
-width: 50px;
 padding-right : 10px;
 
 @media only screen and (max-width: 500px) {
@@ -46,8 +45,8 @@ const legParties = Object.entries(partyColors)
     }))
 
 legParties.push({
-    party : 'TLP',
-    color : partyColors['TLP']
+    party: 'TLP',
+    color: partyColors['TLP']
 })
 
 window.legParties = legParties;
@@ -67,14 +66,7 @@ export default function Legend({ leaders }) {
     return (
         <Container>
             <Column>
-                {legParties.slice(0, 8).map((party, index) => {
-                    return <PartyLegend key={`${index}party`} color={partyColors[party.party] || otherColor} party={party.color === '#64B5F6' ? 'Other' : party.party} />
-                })}
-            </Column>
-            <Column>
-                {legParties.slice(8, 16).map((party, index) => {
-                    return <PartyLegend key={`${index}party`} color={partyColors[party.party] || otherColor} party={party.color === '#64B5F6' ? 'Other' : party.party} />
-                })}
+                <PartyLegend />
             </Column>
         </Container>
     );
@@ -121,9 +113,47 @@ const Party = styled.div`
     }
 `;
 
+const ChoroplethLegend = styled.div`
+    font-size: 0.9rem;
+    text-align: center;
+    position: relative;
+    padding: 8px 0px;
+
+    p {
+        font-size: 0.75rem;
+    }
+
+    @media only screen and (max-width: 500px) {
+        &:before {
+            height: 7px;
+        }
+
+        padding: 2px 0px;
+
+        width : 30px;
+    }
+
+    @media only screen and (min-width: 1000px) and (max-height: 570px) {
+        &:before {
+            height: 5px;
+        }
+
+        padding: 5px 0px;
+    }
+`;
+
 function PartyLegend({ color, party }) {
     return (
-        <Party title={color === '#dddddd' ? '' : Dictionary[party]} $color={party === 'undefined' ? '#ddd' : color}><p>{party === 'undefined' ? `IND` : party}</p></Party>
+        <ChoroplethLegend>
+            <div className="flex gap-3 p-2">
+                <div className="h-[150px] w-[15px] bg-gradient-to-t from-[#90e0ef] to-[#03045e] rounded-[10px] max-[600px]:h-[50px]">
+                </div>
+                <div className="flex flex-col justify-between py-2">
+                    <p>100 %</p>
+                    <p>0 %</p>
+                </div>
+            </div>
+        </ChoroplethLegend>
     )
 }
 

@@ -29,6 +29,11 @@ function App() {
             />
             <Route
               exact
+              path='/choroplethdiff'
+              element = { <DataView mapType="choroplethDiff"/> } 
+            />
+            <Route
+              exact
               path='/parliament'
               element = { <DataView mapType="parliamentChart"/> } 
             />
