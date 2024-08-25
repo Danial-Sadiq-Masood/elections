@@ -176,10 +176,6 @@ export default function DataView({ mapType }) {
           <FiltersandLegend
             leaders={getElectionSummary(yearStates[2024].data, 0, votesKey)}
           />
-
-          <Content>
-            <Disclaimer />
-          </Content>
         </ElectionsContext.Provider>
       </Container>
       <Tooltip {...{ showTooltip, toolTipData, votesKey }} />
