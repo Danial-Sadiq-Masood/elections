@@ -26,10 +26,14 @@ window.zoom = zoom;
 
 const Container = styled.div`
   position: relative;
-  padding: 80px 0px 40px 0px;
+  padding: 20px 0px 20px 0px;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+
+  @media only screen and (max-width: 600px) {
+    padding-bottom : 100px;
+  }
+
 `;
 
 const Content = styled.div`

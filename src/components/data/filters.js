@@ -220,7 +220,7 @@ const FiltersContainer = styled.div`
         padding: 30px;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 650px) {
         padding-top: 15px;
         padding-bottom: 15px;
         bottom : 62px;

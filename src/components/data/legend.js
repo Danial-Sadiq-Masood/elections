@@ -15,7 +15,7 @@ const Container = styled.div`
     display : flex;
     flex-direction : row;
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 650px) {
         top: unset;
         transform: translateY(0px);
         position : unset;
@@ -31,7 +31,7 @@ flex-direction : column;
 width: 50px;
 padding-right : 10px;
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
     flex-direction : row;
     width : 100%;
     justify-content: space-evenly;
@@ -102,7 +102,7 @@ const Party = styled.div`
         font-size: 0.75rem;
     }
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 650px) {
         &:before {
             height: 7px;
         }
@@ -144,7 +144,7 @@ const MargContainer = styled.div`
         font-family: 'DM Serif Text', serif;
     }
 
-    @media only screen and (max-width: 500px) {
+    @media only screen and (max-width: 650px) {
         margin-top: 5px;
     }
 `

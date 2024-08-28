@@ -24,7 +24,7 @@ const Container = styled.div`
         font-size: 1.1rem;
     }
 
-    @media only screen and (max-width: 1000px) {
+    @media only screen and (max-width: 1200px) {
         position: relative;
         flex-direction: row;
         align-items: center;
@@ -51,7 +51,7 @@ const Container = styled.div`
         }
     }
 
-    @media only screen and (max-width: 1025px) and (min-height: 975px) {
+    @media only screen and (max-width: 1200px) and (min-height: 975px) {
         position: relative;
         flex-direction: row;
         align-items: center;

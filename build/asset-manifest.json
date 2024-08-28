@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/elections/static/css/main.aacf3e55.css",
-    "main.js": "/elections/static/js/main.27fede10.js",
+    "main.js": "/elections/static/js/main.58ebc749.js",
     "static/js/592.6ca3410c.chunk.js": "/elections/static/js/592.6ca3410c.chunk.js",
     "static/media/PlayfairDisplay-MediumItalic.ttf": "/elections/static/media/PlayfairDisplay-MediumItalic.8a8a4356b4d001468b59.ttf",
     "static/media/Metropolis-ExtraBoldItalic.ttf": "/elections/static/media/Metropolis-ExtraBoldItalic.831da749d4b830d6ebfe.ttf",
@@ -16,11 +16,11 @@
     "static/media/Chromate-Regular.ttf": "/elections/static/media/Chromate-Regular.30d08004521c65b0fa0f.ttf",
     "index.html": "/elections/index.html",
     "main.aacf3e55.css.map": "/elections/static/css/main.aacf3e55.css.map",
-    "main.27fede10.js.map": "/elections/static/js/main.27fede10.js.map",
+    "main.58ebc749.js.map": "/elections/static/js/main.58ebc749.js.map",
     "592.6ca3410c.chunk.js.map": "/elections/static/js/592.6ca3410c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aacf3e55.css",
-    "static/js/main.27fede10.js"
+    "static/js/main.58ebc749.js"
   ]
 }

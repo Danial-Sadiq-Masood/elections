@@ -10,7 +10,7 @@ const Container = styled.div`
     flex-direction: column;
     z-index : 1;
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 650px) {
         position : fixed;
         bottom : 0;
         display: flex;

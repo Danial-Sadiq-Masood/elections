@@ -40,7 +40,7 @@ const Container = styled.button`
         font-weight: 600;
     }
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 650px) {
         font-size: 1.8rem;
         p {
             font-size: 1rem;
